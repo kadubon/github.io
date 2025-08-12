@@ -102,3 +102,11 @@ footer {
     margin-top: 40px;
     color: #777;
 }
+
+pre {
+    background-color: #eee;
+    padding: 1em;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
