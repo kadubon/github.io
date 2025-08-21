@@ -1,57 +1,43 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const orcidId = '0009-0004-4273-3365';
-    const apiUrl = `https://pub.orcid.org/v3.0/${orcidId}/works`;
-    const publicationsList = document.getElementById('publications-list');
+const { chromium } = require('playwright');
 
-    fetch(apiUrl, { 
-        headers: { 'Accept': 'application/json' } 
-    })
-    .then(response => response.json())
-    .then(data => {
-        const works = data.group;
-        if (works && works.length > 0) {
-            // Sort works by last modified date in descending order
-            works.sort((a, b) => {
-                const dateA = a['last-modified-date'] ? new Date(a['last-modified-date'].value) : new Date(0);
-                const dateB = b['last-modified-date'] ? new Date(b['last-modified-date'].value) : new Date(0);
-                return dateB - dateA; // Newest first
-            });
+(async () => {
+  const browser = await chromium.launch();
+  const page = await browser.newPage();
+  
+  try {
+    // Increase navigation timeout and use 'domcontentloaded' which is often faster
+    await page.goto('https://orcid.org/0009-0004-4273-3365', { waitUntil: 'domcontentloaded', timeout: 30000 });
 
-            let html = '<ul>';
-            works.forEach(work => {
-                const summary = work['work-summary'][0];
-                const title = summary.title.title.value;
-                const pubYear = summary['publication-date'] ? summary['publication-date'].year.value : 'N/A';
-                
-                // Format the last modified date
-                const lastModified = new Date(work['last-modified-date'].value);
-                const lastModifiedString = lastModified.toLocaleDateString('en-CA'); // YYYY-MM-DD format
+    // Wait for the container of the works list, which is more stable.
+    await page.waitForSelector('#works-container', { timeout: 30000 });
 
-                let doi = '';
-                if (summary['external-ids'] && summary['external-ids']['external-id']) {
-                    const doiObject = summary['external-ids']['external-id'].find(id => id['external-id-type'] === 'doi');
-                    if (doiObject) {
-                        doi = doiObject['external-id-value'];
-                    }
-                }
+    // A brief extra wait can sometimes help with tricky dynamic content
+    await page.waitForTimeout(2000);
 
-                html += `
-                    <li>
-                        <span class="title">${title}</span>
-                        <span class="year">Published: ${pubYear}</span>
-                        <span class="last-modified">Last Modified: ${lastModifiedString}</span>
-                        ${doi ? `<a href="https://doi.org/${doi}" target="_blank" class="doi-link">View Publication (DOI)</a>` : ''}
-                    </li>
-                `;
-            });
-            html += '</ul>';
-            publicationsList.innerHTML = html;
-        } else {
-            publicationsList.innerHTML = '<p>No publications found.</p>';
-        }
-    })
-    .catch(error => {
-        console.error('Error fetching publications:', error);
-        publicationsList.innerHTML = '<p>Could not load publications. Please try again later.</p>';
+    const works = await page.$$eval('#works-container cy-list-item', (nodes) => {
+      return nodes.map(node => {
+        const titleElement = node.querySelector('cy-list-item-title a');
+        const doiElement = node.querySelector('a[href*="doi.org"]');
+        
+        const title = titleElement ? titleElement.innerText.trim() : null;
+        // Extract DOI from the href attribute
+        const doi = doiElement ? doiElement.href.replace('https://doi.org/', '') : null;
+
+        return { title, doi };
+      }).filter(work => work.title && work.doi);
     });
-});
+
+    if (works.length === 0) {
+        console.error('No works with DOIs were found. The page structure might have changed.');
+        // For debugging, let's see the HTML content if no works are found
+        // console.log(await page.content());
+    } else {
+        console.log(JSON.stringify(works, null, 2));
+    }
+
+  } catch (error) {
+    console.error('Error scraping ORCID page:', error);
+  } finally {
+    await browser.close();
+  }
+})();
