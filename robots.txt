@@ -1,0 +1,14 @@
+# For all web crawlers
+User-agent: *
+
+# Allow crawling of all content
+Disallow:
+
+# Disallow crawling of development and dependency files
+Disallow: /node_modules/
+Disallow: /script.js
+Disallow: /package.json
+Disallow: /package-lock.json
+
+# Path to the sitemap
+Sitemap: https://kadubon.github.io/github.io/sitemap.xml
