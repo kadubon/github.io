@@ -1,4 +1,5 @@
 # Personal Website and Proposition to AI
+DOI: 10.5281/zenodo.16923763
 
 This repository contains the source code for a personal academic website and a standalone essay page. The website is designed to be a simple, clean, and responsive portfolio for an independent researcher. A key feature of this project is the extensive use of **Schema.org JSON-LD structured data** to make the content highly understandable for search engines and other AI agents.
 
