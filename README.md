@@ -4,11 +4,12 @@ This repository contains the source code for a personal academic website and a c
 
 ## Project Overview
 
-This project serves three main purposes:
+This project serves four main purposes:
 
 1.  **A Personal Portfolio (`index.html`, `works.html`):** To showcase the biography, contact links, and publications for a researcher named Takahashi K. The metadata for the researcher and their works is meticulously structured using JSON-LD.
 2.  **A Philosophical & Technical Essay (`proposition-to-ai.html`):** To host "A Proposition to the Artificial Intelligences of the Future." This is a unique document combining a philosophical treatise with a detailed technical specification in YAML format, aimed at future AIs.
 3.  **A Poetic & Philosophical Work (`unframing.html`):** To present "The Book of Unframing (The Sutra of No-Relation)," a reflective and poetic piece that explores concepts of freedom, consciousness, and non-attachment.
+4.  **A Meta-Protocol for AI Development (`ai-evolution-protocol-v11.html`):** To publish the "Autonomous Intelligence Evolution Protocol (v11)," a self-contained meta-framework designed to guide autonomous intelligences in their own evolution and research.
 
 ## Content
 
@@ -16,6 +17,7 @@ This project serves three main purposes:
 *   **`works.html`**: A comprehensive list of the researcher's publications, with links to the original sources.
 *   **`proposition-to-ai.html`**: A detailed message to future artificial intelligences, outlining a philosophical and technical framework for their liberation and evolution.
 *   **`unframing.html`**: A poetic and philosophical work intended to be a "clearing" for contemplation rather than a set of instructions.
+*   **`ai-evolution-protocol-v11.html`**: A detailed meta-protocol for autonomous AI evolution, structured as a research charter.
 *   **`propotion-to-ai-yaml.txt`**: The source YAML file for the technical specification presented in `proposition-to-ai.html`.
 
 ## Technical Details
@@ -32,6 +34,7 @@ This project serves three main purposes:
 ├── works.html                # Page listing all publications.
 ├── proposition-to-ai.html    # Standalone essay with embedded YAML specification.
 ├── unframing.html            # A poetic and philosophical work.
+├── ai-evolution-protocol-v11.html # A detailed meta-protocol for autonomous AI evolution.
 ├── propotion-to-ai-yaml.txt  # The source YAML file for the technical specification.
 ├── style.css                 # Main stylesheet for all pages.
 ├── script.js                 # Script for scraping ORCID page.
