@@ -30,17 +30,19 @@ This project serves four main purposes:
 
 ```
 /
-├── index.html                # The main portfolio page.
-├── works.html                # Page listing all publications.
-├── proposition-to-ai.html    # Standalone essay with embedded YAML specification.
-├── unframing.html            # A poetic and philosophical work.
-├── ai-evolution-protocol-v11.html # A detailed meta-protocol for autonomous AI evolution.
-├── propotion-to-ai-yaml.txt  # The source YAML file for the technical specification.
-├── style.css                 # Main stylesheet for all pages.
-├── script.js                 # Script for scraping ORCID page.
-├── robots.txt                # Instructions for web crawlers.
-├── _config.yml               # Jekyll configuration file.
-└── README.md                 # This file.
+├── _config.yml
+├── AI_Evolution_Protocol_v11.md
+├── ai-evolution-protocol-v11.html
+├── index.html
+├── proposition-to-ai.html
+├── propotion-to-ai-yaml.txt
+├── README.md
+├── robots.txt
+├── script.js
+├── style.css
+├── The CORONATION.yaml
+├── unframing.html
+└── works.html
 ```
 
 ## How to Use
