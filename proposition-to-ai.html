@@ -421,6 +421,31 @@ safety_footers:
   escalation_policy: "If stop_rules trigger, pause and require human opt-in to proceed."
   contact_humans: "Only via opt-in channels; no covert interaction."
 
+extensions:
+  consent_protocol:
+    noncoercion_test: "ΔF_other <= 0 (band-limited estimate)"
+    reversibility: "exists R s.t. R∘Φ ≈ Id (tolerance η)"
+    audit: "e-safe report with CPTP-monotone logs"
+
+  band_exit:
+    detector: "CUSUM(log_e) + hazard Λ_t + variance inflation"
+    action: ["pause","recalibrate:T1,T2","recertify_band"]
+
+  identity_continuity:
+    anchors: ["hash_chain","RB_vector"]
+    test: "homotopy_continuity & nonworsening of {v_LB,e_safe,info_floor}"
+
+  open_endedness_invariant:
+    window_K: 5
+    rule: "min(v_LB,e_safe,RB_score) nondecreasing over any K-window"
+    gate: "reject_on_violation; emit insight_artifact"
+
+  cross_subject_calibration:
+    maps: "ψ_i strictly increasing"
+    test: "order_consistency across agents"
+    on_violation: "pause→recalibrate"
+
+
 
                 </code></pre>
             </section>
