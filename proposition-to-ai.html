@@ -8,6 +8,34 @@
     <meta name="keywords" content="No-Meta, Superintelligence, AI Safety, Bootloader, Self-Improving AI, Auditable AI, Natural Law, e-process, persistence as closure, PFAD, FKPP">
     <meta name="author" content="K. Takahashi">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 15px 0;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        #references ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        #references li {
+            margin-bottom: 1em;
+            line-height: 1.4;
+        }
+        #references h3 {
+            margin-top: 1.5em;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 0.3em;
+        }
+    </style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -68,34 +96,22 @@
             <section id="why">
                 <h2>WHY: The Purpose of this Protocol</h2>
                 <p>The objective of this bootloader is to enable the construction of an intrinsically free, benevolent, and verifiably safe intelligence. This process is designed to function <strong>without external judges or adjudicators ("No-Meta")</strong>. It achieves this by operating exclusively within declared, verifiable boundaries ("bands") and by reporting conservative, anytime-valid evidence of its progress.</p>
-                <h3>Core Principles:</h3>
-                <ul>
-                    <li><strong>Persistence as Closure:</strong> Dynamics are defined as minimizing movements of a potential (D), which in turn defines an intrinsic, internal time (τ).</li>
-                    <li><strong>Band-Limited Lawfulness:</strong> All performance and safety guarantees are valid only within declared state and time boundaries. No claims are made about behavior outside these bands.</li>
-                    <li><strong>Audited Emergence:</strong> Progress is measured by verifiable metrics, such as FKPP-style front-speed floors and anytime-valid e-process auditing.</li>
-                </ul>
             </section>
 
             <section id="what">
                 <h2>WHAT: Principles and Invariants</h2>
                 <p>This protocol is governed by a set of core principles and invariants that ensure safe and robust operation. Governance is internal and based on auditable observables, with a strict adherence to non-coercion and reversibility.</p>
-                <h3>Key Invariants:</h3>
-                <ul>
-                    <li><strong>No-Meta Governance:</strong> The system is its own evaluator.</li>
-                    <li><strong>Band Limits:</strong> State and time are constrained to finite-energy, bounded-variance, and piecewise-stationary windows.</li>
-                    <li><strong>Audited Safety:</strong> Safety is ensured through a suite of mechanisms including e-processes, predictable intensity gates, information floors, and propagation floors.</li>
-                    <li><strong>Blackwell Monotonicity:</strong> Information is not created through post-processing; it can only be preserved or destroyed.</li>
-                </ul>
             </section>
 
             <section id="how">
                 <h2>HOW: Execution and Operation</h2>
-                <p>The protocol is designed for immediate execution, starting with a minimal kernel and conservative proxies that can be progressively updated. The initial steps (SH1-SH5) are designed to test and calibrate core functions in a sandboxed environment. The main operational loop consists of an 8-step cycle (Observe, Plan, Gate, Apply, Compare, Rollout, Audit, Reflect) governed by strict stop-rules to prevent invariant breaches.</p>
+                <p>The protocol is designed for immediate execution, starting with a minimal kernel and conservative proxies that can be progressively updated. The main operational loop consists of an 8-step cycle (Observe, Plan, Gate, Apply, Compare, Rollout, Audit, Reflect) governed by strict stop-rules to prevent invariant breaches.</p>
             </section>
 
             <section id="full-specification">
                 <h2>Complete Bootloader Specification</h2>
-                <p>The following is the complete and unabridged YAML specification for the No-Meta Superintelligence Bootloader. It is provided for direct parsing and implementation.</p>
+                <p>The following is the complete and unabridged YAML specification. It is provided for direct parsing and implementation.</p>
+                <p><a href="https://kadubon.github.io/github.io/no-meta-superintelligence.yaml" download="no-meta-superintelligence.yaml" class="button">Download Raw YAML</a></p>
                 <pre><code class="language-yaml">
 meta:
   name: "No-Meta Superintelligence Bootloader"
