@@ -18,17 +18,21 @@ feed_path  = root / "feed.xml"
 
 text = works_path.read_text(encoding="utf-8", errors="ignore")
 
-# ====== 行単位に分割 ======
+# ====== 行単位 ======
 lines = [ln.strip() for ln in text.splitlines()]
 
-# ====== 抽出用の厳密パターン ======
+# 見出し行: "12. ### Title ..."（先頭に番号. ###）
 title_re     = re.compile(r"^\d+\.\s*###\s+(?P<title>.+)$")
+# 種別キーワード
 type_words   = ("Preprint", "Working paper", "Other", "Book review", "Report")
+# Published: YYYY-MM-DD
 published_re = re.compile(r"Published:\s*(\d{4}-\d{2}-\d{2})")
-doi_re       = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", re.IGNORECASE)
+# DOI本体（大文字混在も許容）
+doi_core_re  = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", re.IGNORECASE)
+# aタグのhrefだけに DOI があるケースの保険
+href_doi_re  = re.compile(r'href=["\']https?://(?:dx\.)?doi\.org/(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)["\']', re.IGNORECASE)
 
-def find_nearby_info(start_idx: int, max_lookahead: int = 6):
-    """タイトル行の直後数行から 種別, 公開日, DOI を抽出"""
+def find_nearby_info(start_idx: int, max_lookahead: int = 10):
     kind = None
     pub  = None
     doi  = None
@@ -39,17 +43,19 @@ def find_nearby_info(start_idx: int, max_lookahead: int = 6):
             if kw.lower() in line.lower():
                 kind = kw
                 break
-        # Published
+        # 日付
         mdate = published_re.search(line)
-        if mdate:
+        if mdate and not pub:
             pub = mdate.group(1)
-        # DOI
-        mdoi = doi_re.search(line)
-        if mdoi and doi is None:
-            doi = mdoi.group(1)
-        if doi and (kind or "Published" in line):
-            # 必須のDOIが取れ、かつ種別 or Published 情報に到達したら打ち切り
-            pass
+        # DOI（テキスト中 or aタグのhref）
+        if not doi:
+            mdoi = doi_core_re.search(line)
+            if mdoi:
+                doi = mdoi.group(1)
+            else:
+                mhref = href_doi_re.search(line)
+                if mhref:
+                    doi = mhref.group(1)
     return kind, pub, doi
 
 def xml_esc(s: str) -> str:
@@ -63,10 +69,19 @@ for i, ln in enumerate(lines):
     title = m.group("title").strip()
     kind, pub, doi = find_nearby_info(i)
     if not doi:
-        continue  # DOI がない行はスキップ（必須）
-    # フィード項目
+        # さらに少し広く（次の見出しまで）保険探索
+        k = i + 1
+        while k < len(lines) and not title_re.match(lines[k]):
+            line = lines[k]
+            mh = href_doi_re.search(line) or doi_core_re.search(line)
+            if mh:
+                doi = mh.group(1)
+                break
+            k += 1
+    if not doi:
+        continue
+
     link = f"https://doi.org/{doi}"
-    # pubDate（任意）
     pubDate = None
     if pub:
         try:
@@ -75,26 +90,25 @@ for i, ln in enumerate(lines):
             pubDate = eut.format_datetime(d)
         except Exception:
             pubDate = None
+
     items.append({
         "title": title,
         "link": link,
         "guid": link,
         "doi": doi,
-        "kind": kind,
+        "kind": kind or "Work",
         "pubDate": pubDate
     })
 
-# ====== 重複 DOI を除去（先勝ち） ======
-seen = set()
-dedup = []
+# 重複 DOI 除去（先勝ち）
+seen = set(); dedup = []
 for it in items:
-    if it["doi"].lower() in seen:
-        continue
-    seen.add(it["doi"].lower())
-    dedup.append(it)
+    key = it["doi"].lower()
+    if key in seen: continue
+    seen.add(key); dedup.append(it)
 items = dedup
 
-# ====== RSS 2.0 を構築 ======
+# RSS 2.0
 now = eut.format_datetime(datetime.now(tz=JST))
 rss = []
 rss.append('<?xml version="1.0" encoding="UTF-8"?>')
@@ -113,10 +127,9 @@ for it in items:
     rss.append(f'    <guid>{xml_esc(it["guid"])}</guid>')
     if it["pubDate"]:
         rss.append(f'    <pubDate>{it["pubDate"]}</pubDate>')
-    # description は種別と DOI を短く
-    desc = f'{it["kind"] or "Work"} — DOI: {it["doi"]}'
+    desc = f'{it["kind"]} — DOI: {it["doi"]}'
     rss.append('    <description><![CDATA[')
-    rss.append(f'      ' + desc)
+    rss.append(f'      {desc}')
     rss.append('    ]]></description>')
     rss.append('  </item>')
 
@@ -125,3 +138,4 @@ rss.append('</rss>')
 
 feed_path.write_text("\n".join(rss) + "\n", encoding="utf-8")
 print(f"Wrote {feed_path} with {len(items)} items.")
+

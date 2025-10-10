@@ -2,13 +2,12 @@ name: Generate RSS feed.xml
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]      # ← デフォルトブランチに合わせて
     paths:
       - "works.html"
       - "scripts/generate_feed.py"
   workflow_dispatch: {}
 
-# ← これを必ず付ける（Actionsからpushできるように）
 permissions:
   contents: write
 
@@ -16,18 +15,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4   # ← persist-credentials を書かない（= true）
+      - uses: actions/checkout@v4
       - name: Generate feed.xml
-        run: python3 scripts/generate_feed.py
+        run: |
+          python3 --version
+          python3 scripts/generate_feed.py
+          echo "==== ls -l after generation ===="
+          ls -l
+          echo "==== head feed.xml (if exists) ===="
+          [ -f feed.xml ] && head -n 20 feed.xml || echo "feed.xml not found"
       - name: Commit & push
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add feed.xml
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # .gitignoreで無視されても追加できるよう -f
+          git add -f feed.xml
+          if [[ -n "$(git diff --cached --name-only)" ]]; then
             git commit -m "chore(rss): auto-generate feed.xml"
             git push
           else
-            echo "No changes."
+            echo "No changes to commit."
           fi
+
 
