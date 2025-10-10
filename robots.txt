@@ -10,5 +10,5 @@ Disallow: /script.js
 Disallow: /package.json
 Disallow: /package-lock.json
 
-# Path to the sitemap
-Sitemap: https://kadubon.github.io/github.io/sitemap.xml
+
+Feed: https://kadubon.github.io/github.io/feed.xml
