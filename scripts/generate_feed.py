@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from pathlib import Path
+from bs4 import BeautifulSoup
 import re
 from datetime import datetime, time, timezone, timedelta
 import email.utils as eut
@@ -16,72 +17,100 @@ root = Path(__file__).resolve().parents[1]
 works_path = root / "works.html"
 feed_path  = root / "feed.xml"
 
-text = works_path.read_text(encoding="utf-8", errors="ignore")
+html = works_path.read_text(encoding="utf-8", errors="ignore")
+soup = BeautifulSoup(html, "html.parser")
 
-# ====== 行単位 ======
-lines = [ln.strip() for ln in text.splitlines()]
+# DOI抽出（hrefかテキスト）。大文字混在も許容
+DOI_CORE = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", re.IGNORECASE)
+PUBLISHED = re.compile(r"Published:\s*(\d{4}-\d{2}-\d{2})")
+TYPE_WORDS = ("Preprint", "Working paper", "Other", "Book review", "Report")
 
-# 見出し行: "12. ### Title ..."（先頭に番号. ###）
-title_re     = re.compile(r"^\d+\.\s*###\s+(?P<title>.+)$")
-# 種別キーワード
-type_words   = ("Preprint", "Working paper", "Other", "Book review", "Report")
-# Published: YYYY-MM-DD
-published_re = re.compile(r"Published:\s*(\d{4}-\d{2}-\d{2})")
-# DOI本体（大文字混在も許容）
-doi_core_re  = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", re.IGNORECASE)
-# aタグのhrefだけに DOI があるケースの保険
-href_doi_re  = re.compile(r'href=["\']https?://(?:dx\.)?doi\.org/(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)["\']', re.IGNORECASE)
+def extract_doi(a):
+    # href優先
+    href = a.get("href", "") or ""
+    m = DOI_CORE.search(href)
+    if m:
+        return m.group(1)
+    # テキストにも DOI がある場合
+    m = DOI_CORE.search(a.get_text(" ", strip=True))
+    if m:
+        return m.group(1)
+    return None
 
-def find_nearby_info(start_idx: int, max_lookahead: int = 10):
+# すべての doi.org アンカーを列挙（順序保持）
+doi_anchors = []
+for a in soup.find_all("a", href=True):
+    if "doi.org" in a["href"]:
+        doi = extract_doi(a)
+        if doi:
+            doi_anchors.append((a, doi))
+
+def nearest_heading(node):
+    """node から遡って直近の見出し(h1–h4)を返す。なければ None"""
+    for prev in node.parents:
+        # 同一ブロック内の見出しを優先
+        for h in prev.find_all(["h1","h2","h3","h4"], recursive=False):
+            if h.sourcepos and node.sourcepos and h.sourcepos < node.sourcepos:
+                return h
+    # さらに全体から previous_elements で遡る
+    for el in node.previous_elements:
+        if getattr(el, "name", None) in ("h1","h2","h3","h4"):
+            return el
+    return None
+
+def block_text_between(head):
+    """見出し head から次の見出しまでのテキスト（抽出用）"""
+    texts = []
+    # 兄弟を順に歩き、次の見出しが来るまで収集
+    for sib in head.next_siblings:
+        if getattr(sib, "name", None) in ("h1","h2","h3","h4"):
+            break
+        texts.append(getattr(sib, "get_text", lambda **k: str(sib))(" ", strip=True))
+    return " ".join(t for t in texts if t)
+
+def find_kind_and_date(head):
+    """見出しブロック内から種別と公開日を拾う"""
+    blob = block_text_between(head)
     kind = None
-    pub  = None
-    doi  = None
-    for j in range(start_idx + 1, min(len(lines), start_idx + 1 + max_lookahead)):
-        line = lines[j]
-        # 種別
-        for kw in type_words:
-            if kw.lower() in line.lower():
-                kind = kw
-                break
-        # 日付
-        mdate = published_re.search(line)
-        if mdate and not pub:
-            pub = mdate.group(1)
-        # DOI（テキスト中 or aタグのhref）
-        if not doi:
-            mdoi = doi_core_re.search(line)
-            if mdoi:
-                doi = mdoi.group(1)
-            else:
-                mhref = href_doi_re.search(line)
-                if mhref:
-                    doi = mhref.group(1)
-    return kind, pub, doi
+    for kw in TYPE_WORDS:
+        if kw.lower() in blob.lower():
+            kind = kw
+            break
+    pub = None
+    m = PUBLISHED.search(blob)
+    if m:
+        pub = m.group(1)
+    return kind, pub
 
 def xml_esc(s: str) -> str:
     return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
 
 items = []
-for i, ln in enumerate(lines):
-    m = title_re.match(ln)
-    if not m:
-        continue
-    title = m.group("title").strip()
-    kind, pub, doi = find_nearby_info(i)
-    if not doi:
-        # さらに少し広く（次の見出しまで）保険探索
-        k = i + 1
-        while k < len(lines) and not title_re.match(lines[k]):
-            line = lines[k]
-            mh = href_doi_re.search(line) or doi_core_re.search(line)
-            if mh:
-                doi = mh.group(1)
-                break
-            k += 1
-    if not doi:
-        continue
+seen = set()
 
-    link = f"https://doi.org/{doi}"
+# BeautifulSoup の Tag に sourcepos が無い実装もあるので埋める（順序用）
+# fallback: enumerate順で surrogate position を割当て
+pos = 0
+for el in soup.descendants:
+    if getattr(el, "name", None):
+        pos += 1
+        setattr(el, "sourcepos", pos)
+
+for a, doi in doi_anchors:
+    key = doi.lower()
+    if key in seen:
+        continue
+    # 直近見出しを取る → タイトル
+    h = nearest_heading(a)
+    if h is None:
+        # 見出しが無い場合は、アンカー親の周辺テキストからタイトル候補
+        title = a.get_text(" ", strip=True)
+    else:
+        title = h.get_text(" ", strip=True)
+    kind, pub = (None, None)
+    if h is not None:
+        kind, pub = find_kind_and_date(h)
+    # pubDate
     pubDate = None
     if pub:
         try:
@@ -91,24 +120,22 @@ for i, ln in enumerate(lines):
         except Exception:
             pubDate = None
 
+    link = f"https://doi.org/{doi}"
     items.append({
-        "title": title,
+        "title": title or "Untitled",
         "link": link,
         "guid": link,
         "doi": doi,
         "kind": kind or "Work",
-        "pubDate": pubDate
+        "pubDate": pubDate,
+        "pos": getattr(a, "sourcepos", 0)
     })
+    seen.add(key)
 
-# 重複 DOI 除去（先勝ち）
-seen = set(); dedup = []
-for it in items:
-    key = it["doi"].lower()
-    if key in seen: continue
-    seen.add(key); dedup.append(it)
-items = dedup
+# 文書順でソート（見出し/アンカーの出現順）
+items.sort(key=lambda x: x["pos"])
 
-# RSS 2.0
+# RSS 2.0 を出力
 now = eut.format_datetime(datetime.now(tz=JST))
 rss = []
 rss.append('<?xml version="1.0" encoding="UTF-8"?>')
@@ -135,7 +162,7 @@ for it in items:
 
 rss.append('</channel>')
 rss.append('</rss>')
-
 feed_path.write_text("\n".join(rss) + "\n", encoding="utf-8")
+
 print(f"Wrote {feed_path} with {len(items)} items.")
 
