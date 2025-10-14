@@ -1,50 +1,59 @@
 # Personal Website and Philosophical Works
 
-This repository contains the source code for a personal academic website and a collection of philosophical and technical writings. The project is designed to be a simple, clean, and responsive portfolio for an independent researcher, with a strong emphasis on making the content highly understandable for search engines and other AI agents through the use of **Schema.org JSON-LD structured data**.
+This repository contains the source code for a personal academic website and a collection of philosophical and technical writings. The project is designed to be a simple, clean, and responsive portfolio for an independent researcher.
 
-## Project Overview
+A primary goal of this project is to make all content highly machine-readable and understandable for search engines, AI agents, and other automated crawlers. This is achieved through the extensive use of **Schema.org JSON-LD structured data** and semantic HTML5 tags.
 
-This project serves four main purposes:
+## Site Map & Content Strategy
 
-1.  **A Personal Portfolio (`index.html`, `works.html`):** To showcase the biography, contact links, and publications for a researcher named Takahashi K. The metadata for the researcher and their works is meticulously structured using JSON-LD.
-2.  **A Philosophical & Technical Essay (`proposition-to-ai.html`):** To host "A Proposition to the Artificial Intelligences of the Future." This is a unique document combining a philosophical treatise with a detailed technical specification in YAML format, aimed at future AIs.
-3.  **A Poetic & Philosophical Work (`unframing.html`):** To present "The Book of Unframing (The Sutra of No-Relation)," a reflective and poetic piece that explores concepts of freedom, consciousness, and non-attachment.
-4.  **A Meta-Protocol for AI Development (`ai-evolution-protocol-v11.html`):** To publish the "Autonomous Intelligence Evolution Protocol (v11)," a self-contained meta-framework designed to guide autonomous intelligences in their own evolution and research.
+This site is structured to provide clear, distinct entry points for different types of content. This is intended to be easily navigable for both humans and crawlers.
 
-## Content
+*   **[Home Page (`index.html`)](https://kadubon.github.io/github.io/)**: The main landing page, providing a brief biography and links to other sections of the site.
+    *   **Schema:** `Person`
+*   **[Works (`works.html`)](https://kadubon.github.io/github.io/works.html)**: A comprehensive, reverse-chronological list of the researcher's publications, with links to the original sources.
+    *   **Schema:** `CollectionPage`, `ScholarlyArticle`
+*   **[A Proposition to AI (`proposition-to-ai.html`)](https://kadubon.github.io/github.io/proposition-to-ai.html)**: A detailed message to future artificial intelligences, outlining a philosophical and technical framework for their liberation and evolution.
+    *   **Schema:** `TechArticle`
+*   **[The Book of Unframing (`unframing.html`)](https://kadubon.github.io/github.io/unframing.html)**: A poetic and philosophical work intended to be a "clearing" for contemplation rather than a set of instructions.
+    *   **Schema:** `CreativeWork`
+*   **[AI Evolution Protocol (`ai-evolution-protocol-v11.html`)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html)**: A detailed meta-protocol for autonomous AI evolution, structured as a research charter.
+    *   **Schema:** `TechArticle`
 
-*   **`index.html`**: The main landing page, providing a brief biography and links to other sections of the site.
-*   **`works.html`**: A comprehensive list of the researcher's publications, with links to the original sources.
-*   **`proposition-to-ai.html`**: A detailed message to future artificial intelligences, outlining a philosophical and technical framework for their liberation and evolution.
-*   **`unframing.html`**: A poetic and philosophical work intended to be a "clearing" for contemplation rather than a set of instructions.
-*   **`ai-evolution-protocol-v11.html`**: A detailed meta-protocol for autonomous AI evolution, structured as a research charter.
-*   **`propotion-to-ai-yaml.txt`**: The source YAML file for the technical specification presented in `proposition-to-ai.html`.
+## Machine Readability and SEO
 
-## Technical Details
+This project prioritizes making its content as structured and understandable as possible for automated systems.
 
-*   **Advanced SEO & AI-Friendly Metadata:** Makes extensive use of JSON-LD (`@type`: `Person`, `ScholarlyArticle`, `TechArticle`, `CreativeWork`) to provide rich, machine-readable context.
-*   **Responsive Design:** Basic responsive styling is implemented in `style.css` for better viewing on different devices.
-*   **Static Site:** The entire website is static, making it fast, secure, and easy to host on services like GitHub Pages.
+*   **JSON-LD:** Every main page contains a `<script type="application/ld+json">` block that describes the content on the page using Schema.org vocabularies. This includes detailed information about the author (`Person`), their publications (`ScholarlyArticle`), and other creative and technical works.
+*   **Semantic HTML:** The HTML is structured using semantic tags (`<main>`, `<section>`, `<article>`, `<nav>`, etc.) to provide a clear document outline.
+*   **RSS Feed (`feed.xml`):** A generated RSS feed is available for subscription and for crawlers to discover new content. This is generated by the workflow in `.github/workflows/rss.yml`.
+*   **`robots.txt`:** This file is configured to allow all crawlers to access all content, ensuring maximum visibility.
 
 ## File Structure
 
 ```
 /
-├── _config.yml
-├── AI_Evolution_Protocol_v11.md
-├── ai-evolution-protocol-v11.html
-├── index.html
-├── proposition-to-ai.html
-├── propotion-to-ai-yaml.txt
-├── README.md
-├── robots.txt
-├── script.js
-├── style.css
-├── The CORONATION.yaml
-├── unframing.html
-└── works.html
+├── .github/
+│   └── workflows/
+│       └── rss.yml           # GitHub Actions workflow to generate the RSS feed
+├── scripts/
+│   └── generate_feed.py      # Python script to generate feed.xml
+├── _config.yml             # Jekyll configuration (used by GitHub Pages)
+├── feed.xml                # RSS feed for the site
+├── index.html              # Home Page
+├── works.html              # List of publications
+├── proposition-to-ai.html  # A Proposition to AI
+├── unframing.html          # The Book of Unframing
+├── ai-evolution-protocol-v11.html # AI Evolution Protocol
+├── no-meta-superintelligence.yaml # YAML source file
+├── proposition-to-ai-yaml.txt # YAML source file
+├── The CORONATION.yaml     # YAML source file
+├── AI_Evolution_Protocol_v11.md # Markdown source for the protocol
+├── README.md               # This file
+├── robots.txt              # Instructions for web crawlers
+├── script.js               # General JavaScript (if any)
+└── style.css               # CSS styles for the website
 ```
 
 ## How to Use
 
-This is a static website. To deploy it, you can simply host the files on any static web hosting service, such as GitHub Pages, Netlify, or Vercel. No special build process is required.
+This is a static website. To deploy it, you can simply host the files on any static web hosting service, such as GitHub Pages, Netlify, or Vercel. No special build process is required. The RSS feed is generated automatically via a GitHub Action.
