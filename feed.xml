@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 19 Oct 2025 15:44:54 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 24 Oct 2025 11:31:03 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>JOSNL Corpus: Final Scientific Integration</title>
+    <link>https://doi.org/10.5281/zenodo.17429908</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17429908</guid>
+    <pubDate>Fri, 24 Oct 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17429908
+    ]]></description>
+  </item>
   <item>
     <title>Inference in Normal Form: Unifying LLM Tricks via TRoT</title>
     <link>https://doi.org/10.5281/zenodo.17389109</link>
