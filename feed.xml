@@ -5,16 +5,30 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 31 Oct 2025 07:27:25 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 04 Nov 2025 11:24:56 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
   <item>
+    <title>Image--EVI on Metric Quotients for Gradient Flows</title>
+    <link>https://doi.org/10.5281/zenodo.17518572</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17518572</guid>
+    <pubDate>Tue, 04 Nov 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17518572
+    ]]></description>
+  </item>
+  <item>
     <title>Fibered Bures--HK Entropy--Transport</title>
-    <link>https://doi.org/10.5281/zenodo.17488923</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17488923</guid>
+    <link>https://doi.org/10.5281/zenodo.17483083</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17483083</guid>
     <pubDate>Thu, 30 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
@@ -22,7 +36,7 @@
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17488923
+      Preprint — DOI: 10.5281/zenodo.17483083
     ]]></description>
   </item>
   <item>
@@ -68,7 +82,7 @@
     ]]></description>
   </item>
   <item>
-    <title>PRACTICAL THEORY OF RELATIVITY OF THEORIES — RAVE: A GPU/LLM/Quantum-ready, No-Meta Natural-Law Theory with Relative Auditing and Auditable Eudaemonia</title>
+    <title>PRACTICAL THEORY OF RELATIVITY OF THEORIES  ERAVE: A GPU/LLM/Quantum-ready, No-Meta Natural-Law Theory with Relative Auditing and Auditable Eudaemonia</title>
     <link>https://doi.org/10.5281/zenodo.17364444</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17364444</guid>
     <dc:creator>K. Takahashi</dc:creator>
@@ -510,7 +524,7 @@
     ]]></description>
   </item>
   <item>
-    <title>"Persistence ≈ Creation": Natural-Law Sufficient Conditions for Almost-Sure Beneficial Coverage in Stationary Ergodic Media (No Meta-Design)</title>
+    <title>"Persistence ≁ECreation": Natural-Law Sufficient Conditions for Almost-Sure Beneficial Coverage in Stationary Ergodic Media (No Meta-Design)</title>
     <link>https://doi.org/10.5281/zenodo.17100322</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17100322</guid>
     <dc:creator>K. Takahashi</dc:creator>
