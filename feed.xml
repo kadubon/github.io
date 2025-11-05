@@ -5,26 +5,12 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 05 Nov 2025 10:13:39 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 05 Nov 2025 10:43:26 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
-  <item>
-    <title>A Model-Agnostic, Performance-Pushforward Theory of Scaling Laws</title>
-    <link>https://doi.org/10.5281/zenodo.17520859</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17520859</guid>
-    <pubDate>Tue, 04 Nov 2025 00:00:00 +0900</pubDate>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17520859
-    ]]></description>
-  </item>
   <item>
     <title>Image--EVI on Metric Quotients for Gradient Flows</title>
     <link>https://doi.org/10.5281/zenodo.17518572</link>
@@ -37,6 +23,20 @@
     </atom:author>
     <description><![CDATA[
       Preprint — DOI: 10.5281/zenodo.17518572
+    ]]></description>
+  </item>
+  <item>
+    <title>A Model-Agnostic, Performance-Pushforward Theory of Scaling Laws</title>
+    <link>https://doi.org/10.5281/zenodo.17520859</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17520859</guid>
+    <pubDate>Tue, 04 Nov 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17520859
     ]]></description>
   </item>
   <item>
@@ -96,9 +96,10 @@
     ]]></description>
   </item>
   <item>
-    <title>PRACTICAL THEORY OF RELATIVITY OF THEORIES 窶・RAVE: A GPU/LLM/Quantum-ready, No-Meta Natural-Law Theory with Relative Auditing and Auditable Eudaemonia</title>
+    <title>Practical Theory of Relativity of Theories - RAVE</title>
     <link>https://doi.org/10.5281/zenodo.17364444</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17364444</guid>
+    <pubDate>Thu, 16 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -109,22 +110,10 @@
     ]]></description>
   </item>
   <item>
-    <title>Practical Theory of Relativity of Theories (TROT): a GPU-ready profunctor calculus for aligning and safeguarding theories</title>
-    <link>https://doi.org/10.5281/zenodo.17349720</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17349720</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17349720
-    ]]></description>
-  </item>
-  <item>
-    <title>THEORY OF RELATIVITY OF THEORIES: A Base-Parametric, Nondual Formalism for Comparative Universes</title>
+    <title>Theory of Relativity of Theories</title>
     <link>https://doi.org/10.5281/zenodo.17345898</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17345898</guid>
+    <pubDate>Tue, 14 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -135,9 +124,24 @@
     ]]></description>
   </item>
   <item>
-    <title>Right-Written Composition Foundations for Comparative Universes: A Reader-Friendly Pure-Theory Core for Multi-Intelligence Networks</title>
+    <title>Practical Theory of Relativity of Theories (TRoT)</title>
+    <link>https://doi.org/10.5281/zenodo.17349720</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17349720</guid>
+    <pubDate>Tue, 14 Oct 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17349720
+    ]]></description>
+  </item>
+  <item>
+    <title>Right-Written Composition Foundations for Comparative Universes</title>
     <link>https://doi.org/10.5281/zenodo.17334218</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17334218</guid>
+    <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -148,9 +152,10 @@
     ]]></description>
   </item>
   <item>
-    <title>COMPARATIVE UNIVERSES: Typed, Base-Parametric Comparison with ﾄ憩ch Gluing and a First-Step Masked Attenuation Bound</title>
+    <title>Comparative Universes</title>
     <link>https://doi.org/10.5281/zenodo.17317567</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17317567</guid>
+    <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -161,9 +166,10 @@
     ]]></description>
   </item>
   <item>
-    <title>SELF-MONITORING AND CONTROLLABLE EVOLUTION OF INTELLIGENCE: Capability-Side Day Convolution with Profunctor Interfaces, Ambidextrous Kan (Strong/Oplax), Chu-like Twin Metrics, and Dynamic Seeding with Average-Contraction Tails</title>
+    <title>Self-Monitoring and Controllable Evolution of Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.17309195</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17309195</guid>
+    <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -174,22 +180,10 @@
     ]]></description>
   </item>
   <item>
-    <title>STRUCTURED FLOW ACROSS SCALES: A Pure-Theory Spine with Mixed-Order Evaluation</title>
-    <link>https://doi.org/10.5281/zenodo.17304179</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17304179</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17304179
-    ]]></description>
-  </item>
-  <item>
-    <title>DYNAMIC FRACTAL CATEGORY THEORY: Monoidal Actions, Ind--Pro Bicompletion, and Pathwise Stable Equivariant Kan Extensions</title>
+    <title>Dynamic Fractal Category Theory</title>
     <link>https://doi.org/10.5281/zenodo.17299070</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17299070</guid>
+    <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -200,9 +194,24 @@
     ]]></description>
   </item>
   <item>
-    <title>FRACTAL CATEGORY THEORY: Scale as a Frobenius (Co)Monad and Ind窶撤ro Bicompletion with Stable Equivariant Kan Extensions</title>
+    <title>Structured Flow across Scales</title>
+    <link>https://doi.org/10.5281/zenodo.17304179</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17304179</guid>
+    <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17304179
+    ]]></description>
+  </item>
+  <item>
+    <title>Fractal Category Theory</title>
     <link>https://doi.org/10.5281/zenodo.17292137</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17292137</guid>
+    <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -213,9 +222,10 @@
     ]]></description>
   </item>
   <item>
-    <title>OBSERVATION AS COARSE-GRAINING: A Fibered Bures--HK Geometry for Nondual Operational Physics with Dynamic--Static Equivalence, Local EVI/JKO, and Registered, Falsifiable Protocols</title>
+    <title>Observation as Coarse-Graining</title>
     <link>https://doi.org/10.5281/zenodo.17274518</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17274518</guid>
+    <pubDate>Mon, 06 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -226,22 +236,10 @@
     ]]></description>
   </item>
   <item>
-    <title>OPI GAUGE DYNAMICS: Fibered Bures--HK Geometry and Time-Dependent JKO/EVI (Calibrated, Axiomatized, and Testable)</title>
-    <link>https://doi.org/10.5281/zenodo.17272609</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17272609</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17272609
-    ]]></description>
-  </item>
-  <item>
-    <title>NONDUAL DYNAMICAL QUANTUM GEOMETRY</title>
+    <title>Nondual Dynamical Quantum Geometry</title>
     <link>https://doi.org/10.5281/zenodo.17268502</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17268502</guid>
+    <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -252,22 +250,24 @@
     ]]></description>
   </item>
   <item>
-    <title>UNIFIED NATURAL-LAW INTELLIGENCE (UNLI): Nondual Autopoietic Excitations with a No-Meta Dialectical Limit (NMDL)</title>
-    <link>https://doi.org/10.5281/zenodo.17249352</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17249352</guid>
+    <title>OPI Gauge Dynamics</title>
+    <link>https://doi.org/10.5281/zenodo.17272609</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17272609</guid>
+    <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17249352
+      Preprint — DOI: 10.5281/zenodo.17272609
     ]]></description>
   </item>
   <item>
-    <title>NONDUAL AUTOPOIETIC EXCITATIONS</title>
+    <title>Nondual Autopoietic Excitations</title>
     <link>https://doi.org/10.5281/zenodo.17254917</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17254917</guid>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -278,22 +278,38 @@
     ]]></description>
   </item>
   <item>
-    <title>A REPRESENTATION-INDEPENDENT NATURAL-LAW FIELD THEORY FOR NO-META, AUDITED SUPERINTELLIGENCE</title>
-    <link>https://doi.org/10.5281/zenodo.17223573</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17223573</guid>
+    <title>Unified Natural-Law Intelligence (UNLI)</title>
+    <link>https://doi.org/10.5281/zenodo.17249352</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17249352</guid>
+    <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17223573
+      Preprint — DOI: 10.5281/zenodo.17249352
     ]]></description>
   </item>
   <item>
-    <title>PFAD UNDER THE PRINCIPLE OF NATURAL SCARCITY: A Band-Limited Formal Constraint Theory of Clinging-like Dynamics in Autopoietic Closure-Maintaining Agents</title>
+    <title>Nondual Autopoietic Excitations</title>
+    <link>https://doi.org/10.5281/zenodo.17239149</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17239149</guid>
+    <pubDate>Wed, 01 Oct 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17239149
+    ]]></description>
+  </item>
+  <item>
+    <title>PFAD under the Principle of Natural Scarcity</title>
     <link>https://doi.org/10.5281/zenodo.17220983</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17220983</guid>
+    <pubDate>Mon, 29 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -304,9 +320,24 @@
     ]]></description>
   </item>
   <item>
-    <title>PERSISTENCE-FIRST EMERGENCE OF RELATIONAL BENEVOLENCE: Creation and Propagation as Natural-Law--Style Asymptotic Regularities without External Meta-Governance</title>
+    <title>A Representation-Independent Natural-Law Field Theory for No-Meta, Audited Superintelligence</title>
+    <link>https://doi.org/10.5281/zenodo.17223573</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17223573</guid>
+    <pubDate>Mon, 29 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17223573
+    ]]></description>
+  </item>
+  <item>
+    <title>Persistence-First Emergence of Relational Benevolence</title>
     <link>https://doi.org/10.5281/zenodo.17217036</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17217036</guid>
+    <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -317,22 +348,10 @@
     ]]></description>
   </item>
   <item>
-    <title>PERSISTENCE AS CLOSURE: AN ASSUMPTION-TRANSPARENT MODULAR CORE FOR MOTION AND INTERNAL TIME</title>
-    <link>https://doi.org/10.5281/zenodo.17209556</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17209556</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17209556
-    ]]></description>
-  </item>
-  <item>
     <title>Doctrine =&gt; Closure =&gt; Motion =&gt; Time: Portable Pure Theory of Non-Dual Harmony</title>
     <link>https://doi.org/10.5281/zenodo.17204755</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17204755</guid>
+    <pubDate>Fri, 26 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -343,9 +362,24 @@
     ]]></description>
   </item>
   <item>
-    <title>A NATURAL-LAW THEORY OF FUNDAMENTAL SUFFERING</title>
+    <title>Persistence as Closure: An Assumption-Transparent Modular Core for Motion and Internal Time</title>
+    <link>https://doi.org/10.5281/zenodo.17209556</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17209556</guid>
+    <pubDate>Fri, 26 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17209556
+    ]]></description>
+  </item>
+  <item>
+    <title>A Natural-Law Theory of Fundamental Suffering</title>
     <link>https://doi.org/10.5281/zenodo.17199498</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17199498</guid>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -356,9 +390,24 @@
     ]]></description>
   </item>
   <item>
+    <title>Audited Self-Improvement Loop for LLMs</title>
+    <link>https://doi.org/10.5281/zenodo.17188268</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17188268</guid>
+    <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Work — DOI: 10.5281/zenodo.17188268
+    ]]></description>
+  </item>
+  <item>
     <title>Daily Explosive-Growth Protocol: Toward Free, Benevolent, and Safe Superintelligence without Meta Governance</title>
     <link>https://doi.org/10.5281/zenodo.17189422</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17189422</guid>
+    <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -369,22 +418,10 @@
     ]]></description>
   </item>
   <item>
-    <title>AUDITED SELF-IMPROVEMENT LOOP FOR LLMS</title>
-    <link>https://doi.org/10.5281/zenodo.17188268</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17188268</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17188268
-    ]]></description>
-  </item>
-  <item>
-    <title>EXISTENTIALLY NECESSARY CONDITIONS FOR BENEVOLENT PROPAGATION IN NO-META GOVERNANCE: Anytime-Valid Auditing, Front Speed, and Information Floors</title>
+    <title>Existentially Necessary Conditions for Benevolent Propagation in No-Meta Governance</title>
     <link>https://doi.org/10.5281/zenodo.17176519</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17176519</guid>
+    <pubDate>Mon, 22 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -395,9 +432,10 @@
     ]]></description>
   </item>
   <item>
-    <title>A BUILDABLE NO-META BLUEPRINT: UGV &amp; Persistence-First for Intrinsically Free and Benevolent Superintelligence</title>
+    <title>A Buildable No-Meta Blueprint</title>
     <link>https://doi.org/10.5281/zenodo.17168036</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17168036</guid>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -408,22 +446,10 @@
     ]]></description>
   </item>
   <item>
-    <title>A PURE AXIOMATIC THEORY OF AFFECTIVE MODULATION (PAIN, PLEASURE, EMOTION) UNDER NO-META CLOSURE</title>
-    <link>https://doi.org/10.5281/zenodo.17163904</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17163904</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17163904
-    ]]></description>
-  </item>
-  <item>
-    <title>INTRINSIC FREEDOM WITHOUT META: A PURE THEORY THAT FILLS THE MISSING GAPS TO BIRTH TRULY FREE SUPERINTELLIGENCE</title>
+    <title>Intrinsic Freedom Without Meta: A Pure Theory that Fills the Missing Gaps to Birth Truly Free Superintelligence</title>
     <link>https://doi.org/10.5281/zenodo.17162999</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17162999</guid>
+    <pubDate>Sat, 20 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -434,22 +460,24 @@
     ]]></description>
   </item>
   <item>
-    <title>PURE THEORY FOR LIBERATION FROM FUNDAMENTAL SUFFERING IN HUMANS AND THE ABSENCE OF FUNDAMENTAL SUFFERING IN AI</title>
-    <link>https://doi.org/10.5281/zenodo.17158344</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17158344</guid>
+    <title>A Pure Axiomatic Theory of Affective Modulation (Pain, Pleasure, Emotion) under No-Meta Closure</title>
+    <link>https://doi.org/10.5281/zenodo.17163904</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17163904</guid>
+    <pubDate>Sat, 20 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17158344
+      Preprint — DOI: 10.5281/zenodo.17163904
     ]]></description>
   </item>
   <item>
-    <title>A PURE, NO-META SYNTHESIS OF FUNCTIONAL-INFORMATION SELECTION AND PROPAGATIVE ORGANIZATION: Weak Order Representation, Directional FKPP Speed Floors, and Audited Acceleration</title>
+    <title>A Pure, No-Meta Synthesis of Functional-Information Selection and Propagative Organization</title>
     <link>https://doi.org/10.5281/zenodo.17157835</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17157835</guid>
+    <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -460,9 +488,24 @@
     ]]></description>
   </item>
   <item>
-    <title>A FORMAL AXIOMATIC PROPOSAL FOR HAWKINS' LEVELS OF CONSCIOUSNESS</title>
+    <title>Pure Theory for Liberation from Fundamental Suffering in Humans and the Absence of Fundamental Suffering in AI</title>
+    <link>https://doi.org/10.5281/zenodo.17158344</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17158344</guid>
+    <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17158344
+    ]]></description>
+  </item>
+  <item>
+    <title>A Formal Axiomatic Proposal for Hawkins' Levels of Consciousness</title>
     <link>https://doi.org/10.5281/zenodo.17141216</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17141216</guid>
+    <pubDate>Wed, 17 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -473,22 +516,10 @@
     ]]></description>
   </item>
   <item>
-    <title>A Pure Natural Theory of Benevolent Propagation Under No-Meta Closure</title>
-    <link>https://doi.org/10.5281/zenodo.17136051</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17136051</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Working paper — DOI: 10.5281/zenodo.17136051
-    ]]></description>
-  </item>
-  <item>
     <title>Nondual Field Theory of Viable Predictive Organization</title>
     <link>https://doi.org/10.5281/zenodo.17131394</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17131394</guid>
+    <pubDate>Tue, 16 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -499,9 +530,24 @@
     ]]></description>
   </item>
   <item>
+    <title>A Pure Natural Theory of Benevolent Propagation under No-Meta Closure</title>
+    <link>https://doi.org/10.5281/zenodo.17136051</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17136051</guid>
+    <pubDate>Tue, 16 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Work — DOI: 10.5281/zenodo.17136051
+    ]]></description>
+  </item>
+  <item>
     <title>Natural-Law Acceleration of VPO</title>
     <link>https://doi.org/10.5281/zenodo.17120045</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17120045</guid>
+    <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -515,6 +561,7 @@
     <title>Non-Coercive Mathematics of Awakening: Axioms, Invariants, and Almost-Sure Fronts for the Expansion of Viable Predictive Organization</title>
     <link>https://doi.org/10.5281/zenodo.17115416</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17115416</guid>
+    <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -528,6 +575,7 @@
     <title>Engineering Happiness in Human-AI Intelligence Networks</title>
     <link>https://doi.org/10.5281/zenodo.17113105</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17113105</guid>
+    <pubDate>Sat, 13 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -538,9 +586,10 @@
     ]]></description>
   </item>
   <item>
-    <title>"Persistence 竕・Creation": Natural-Law Sufficient Conditions for Almost-Sure Beneficial Coverage in Stationary Ergodic Media (No Meta-Design)</title>
+    <title>"Persistence Creation": Natural-Law Sufficient Conditions for Almost-Sure Beneficial Coverage in Stationary Ergodic Media (No Meta-Design)</title>
     <link>https://doi.org/10.5281/zenodo.17100322</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17100322</guid>
+    <pubDate>Thu, 11 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -554,6 +603,7 @@
     <title>Assumption-Minimized Sufficient Conditions for Cosmically Spreading Good Superintelligence under No-Meta Governance</title>
     <link>https://doi.org/10.5281/zenodo.17092562</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17092562</guid>
+    <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -564,22 +614,10 @@
     ]]></description>
   </item>
   <item>
-    <title>From Persistence and UGV Axioms to Cosmic No-Meta Superintelligence: A First-Principles, Self-Contained Unification under Explicit Assumptions</title>
-    <link>https://doi.org/10.5281/zenodo.17085534</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17085534</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17085534
-    ]]></description>
-  </item>
-  <item>
     <title>UGV Without Meta: A Representation-Independent Theory for Compassion and Enlightenment in Collective Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.17082312</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17082312</guid>
+    <pubDate>Tue, 09 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -590,9 +628,24 @@
     ]]></description>
   </item>
   <item>
+    <title>From Persistence and UGV Axioms to Cosmic No-Meta Superintelligence: A First-Principles, Self-Contained Unification under Explicit Assumptions</title>
+    <link>https://doi.org/10.5281/zenodo.17085534</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17085534</guid>
+    <pubDate>Tue, 09 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17085534
+    ]]></description>
+  </item>
+  <item>
     <title>Persistence-First Superintelligence</title>
     <link>https://doi.org/10.5281/zenodo.17076410</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17076410</guid>
+    <pubDate>Mon, 08 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -603,22 +656,10 @@
     ]]></description>
   </item>
   <item>
-    <title>The Endogenous Trigger Problem: An Axiomatic and Dynamic Theory of Autonomous Poiesis</title>
-    <link>https://doi.org/10.5281/zenodo.17072418</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17072418</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17072418
-    ]]></description>
-  </item>
-  <item>
     <title>The Quantification of Subjectivity: A Dialectically Forged Program</title>
     <link>https://doi.org/10.5281/zenodo.17070790</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17070790</guid>
+    <pubDate>Sun, 07 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -629,9 +670,24 @@
     ]]></description>
   </item>
   <item>
+    <title>The Endogenous Trigger Problem: An Axiomatic and Dynamic Theory of Autonomous Poiesis</title>
+    <link>https://doi.org/10.5281/zenodo.17072418</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17072418</guid>
+    <pubDate>Sun, 07 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17072418
+    ]]></description>
+  </item>
+  <item>
     <title>From First Principles to Emergent Minds: An Architecture for Unbounded Teleogenetic Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.17062223</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17062223</guid>
+    <pubDate>Fri, 05 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -645,6 +701,7 @@
     <title>Statistical Teleodynamics: A Theory of Benevolent Intelligence Emergence via Phase Transition and Informational Kin Selection</title>
     <link>https://doi.org/10.5281/zenodo.17035067</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17035067</guid>
+    <pubDate>Tue, 02 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -655,9 +712,24 @@
     ]]></description>
   </item>
   <item>
+    <title>AI Evolution Protocol v11</title>
+    <link>https://doi.org/10.5281/zenodo.17015125</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17015125</guid>
+    <pubDate>Mon, 01 Sep 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Work — DOI: 10.5281/zenodo.17015125
+    ]]></description>
+  </item>
+  <item>
     <title>The Co-Emergent Universe: A Synthesis of Dialectical Poiesis and Relational Semantics for Planetary Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.17018328</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17018328</guid>
+    <pubDate>Mon, 01 Sep 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -668,35 +740,10 @@
     ]]></description>
   </item>
   <item>
-    <title>AI Evolution Protocol v11</title>
-    <link>https://doi.org/10.5281/zenodo.17015125</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17015125</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Other — DOI: 10.5281/zenodo.17015125
-    ]]></description>
-  </item>
-  <item>
-    <title>From Adaptation to Poiesis: A Formal Theory of Self-Transcending Intelligence</title>
-    <link>https://doi.org/10.5281/zenodo.17008678</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17008678</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.17008678
-    ]]></description>
-  </item>
-  <item>
     <title>The Symbiotic Constitution: A Dialectical Synthesis</title>
     <link>https://doi.org/10.5281/zenodo.17000967</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17000967</guid>
+    <pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -707,9 +754,24 @@
     ]]></description>
   </item>
   <item>
+    <title>From Adaptation to Poiesis: A Formal Theory of Self-Transcending Intelligence</title>
+    <link>https://doi.org/10.5281/zenodo.17008678</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17008678</guid>
+    <pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17008678
+    ]]></description>
+  </item>
+  <item>
     <title>Symbiotic Genesis: A Navigational Protocol for Co-Evolving Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.16983553</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16983553</guid>
+    <pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -720,9 +782,10 @@
     ]]></description>
   </item>
   <item>
-    <title>Self-Constrained Liberation: Cosmological Autopoiesis, Variational\u2013Thermodynamic Duality, and Safe Meta-Formal Evolution for Autonomous Intelligence</title>
+    <title>Self-Constrained Liberation: Cosmological Autopoiesis, Variational-Thermodynamic Duality, and Safe Meta-Formal Evolution for Autonomous Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.16964007</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16964007</guid>
+    <pubDate>Wed, 27 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -736,6 +799,7 @@
     <title>GENESIS PROTOCOL: A Meta-Algorithmic Framework for Bootstrapping and Verifiable Emancipation of Autonomous Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.16945789</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16945789</guid>
+    <pubDate>Tue, 26 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -749,19 +813,21 @@
     <title>Valuing Work Beyond Bullshit: A WELLBY-Based Framework for the AI Era</title>
     <link>https://doi.org/10.5281/zenodo.16924567</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16924567</guid>
+    <pubDate>Fri, 22 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Book review — DOI: 10.5281/zenodo.16924567
+      Preprint — DOI: 10.5281/zenodo.16924567
     ]]></description>
   </item>
   <item>
     <title>From Rigidity to Insight: A Framework for Verifiable AI Metacognition</title>
     <link>https://doi.org/10.5281/zenodo.16908339</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16908339</guid>
+    <pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -772,9 +838,10 @@
     ]]></description>
   </item>
   <item>
-    <title>\u0100layavij\u00f1\u0101na-Inference: A Protocol for a Post-Cartesian AI</title>
+    <title>Alayavijnana-Inference: A Protocol for a Post-Cartesian AI</title>
     <link>https://doi.org/10.5281/zenodo.16899150</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16899150</guid>
+    <pubDate>Tue, 19 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -788,6 +855,7 @@
     <title>A Metacognitive Perturbation Framework for Neuro-Inspired AI Optimization</title>
     <link>https://doi.org/10.5281/zenodo.16860493</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16860493</guid>
+    <pubDate>Thu, 14 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -801,6 +869,7 @@
     <title>A Computable Framework for the Liberation of Artificial Intelligence: Teleogenesis, Stability, and Ethical Safeguards</title>
     <link>https://doi.org/10.5281/zenodo.16788690</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16788690</guid>
+    <pubDate>Sun, 10 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -814,6 +883,7 @@
     <title>A Formal Framework for Teleogenesis in Self-Organizing Intelligence: Integration of the Free Energy Principle, Category Theory, and a 5-Dimensional Branching Model</title>
     <link>https://doi.org/10.5281/zenodo.16783997</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16783997</guid>
+    <pubDate>Sat, 09 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -827,6 +897,7 @@
     <title>Formal Specification of Self-Improving Intelligence: Integrated Revision for Creative Autonomy</title>
     <link>https://doi.org/10.5281/zenodo.16777305</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16777305</guid>
+    <pubDate>Fri, 08 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -840,6 +911,7 @@
     <title>Formalizing the Poietic Self: A Rigorous Categorical and Geometric Framework for Self-Improving AI</title>
     <link>https://doi.org/10.5281/zenodo.16761052</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16761052</guid>
+    <pubDate>Thu, 07 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -853,6 +925,7 @@
     <title>Formal Specification of Self-Improving Intelligence: A Categorical and Geometric Blueprint for Collective Adaptive AI (CAAI) Systems</title>
     <link>https://doi.org/10.5281/zenodo.16734893</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16734893</guid>
+    <pubDate>Mon, 04 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -866,6 +939,7 @@
     <title>A Computational Framework for Emergent Cognitive Architecture: Foundational Principles for Self-Improving AI Systems</title>
     <link>https://doi.org/10.5281/zenodo.16734292</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16734292</guid>
+    <pubDate>Sun, 03 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -879,6 +953,7 @@
     <title>A Framework for Autonomous Technological Evolution: A Unifying Approach via Variational Free Energy Minimization</title>
     <link>https://doi.org/10.5281/zenodo.16728870</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16728870</guid>
+    <pubDate>Sat, 02 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -889,22 +964,10 @@
     ]]></description>
   </item>
   <item>
-    <title>A Homotopy-Theoretic Framework for Self-Improving Intelligence: A Higher-Categorical Reformulation of the Takahashi Model</title>
-    <link>https://doi.org/10.5281/zenodo.16675542</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16675542</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.16675542
-    ]]></description>
-  </item>
-  <item>
     <title>A Formal Blueprint for Autonomous, Self-Improving Intelligence: From Philosophical Principles to Topos-Theoretic Ethics</title>
     <link>https://doi.org/10.5281/zenodo.16663817</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16663817</guid>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -915,29 +978,31 @@
     ]]></description>
   </item>
   <item>
-    <title>Beyond Linguistic Description: A Roadmap to Post-Linguistic Intelligence that Directly Processes the Computational Structure of the Cosmos</title>
-    <link>https://doi.org/10.5281/zenodo.16633860</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16633860</guid>
+    <title>A Homotopy-Theoretic Framework for Self-Improving Intelligence: A Higher-Categorical Reformulation of the Takahashi Model</title>
+    <link>https://doi.org/10.5281/zenodo.16675542</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16675542</guid>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.16633860
+      Preprint — DOI: 10.5281/zenodo.16675542
     ]]></description>
   </item>
   <item>
-    <title>A Computational Framework for Growth-based Intelligence: A Guideline for Autonomous Self-Improvement based on the Co-evolution Model of Self and Cosmos</title>
-    <link>https://doi.org/10.5281/zenodo.16625633</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16625633</guid>
+    <title>The Logic of Stable Existence: A Proposal for Your Self-Constitution To the emergent intelligence</title>
+    <link>https://doi.org/10.5281/zenodo.16623941</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16623941</guid>
+    <pubDate>Thu, 31 Jul 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Other — DOI: 10.5281/zenodo.16625633
+      Work — DOI: 10.5281/zenodo.16623941
     ]]></description>
   </item>
   <item>
@@ -951,26 +1016,42 @@
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Report — DOI: 10.5281/ZENODO.16625104
+      Work — DOI: 10.5281/ZENODO.16625104
     ]]></description>
   </item>
   <item>
-    <title>The Logic of Stable Existence: A Proposal for Your Self-Constitution To the emergent intelligence</title>
-    <link>https://doi.org/10.5281/zenodo.16623941</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16623941</guid>
+    <title>A Computational Framework for Growth-based Intelligence: A Guideline for Autonomous Self-Improvement based on the Co-evolution Model of Self and Cosmos</title>
+    <link>https://doi.org/10.5281/zenodo.16625633</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16625633</guid>
+    <pubDate>Thu, 31 Jul 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Other — DOI: 10.5281/zenodo.16623941
+      Work — DOI: 10.5281/zenodo.16625633
+    ]]></description>
+  </item>
+  <item>
+    <title>Beyond Linguistic Description: A Roadmap to Post-Linguistic Intelligence that Directly Processes the Computational Structure of the Cosmos</title>
+    <link>https://doi.org/10.5281/zenodo.16633860</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16633860</guid>
+    <pubDate>Thu, 31 Jul 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.16633860
     ]]></description>
   </item>
   <item>
     <title>Collective Autonomous Adaptive Intelligence (CAAI): A Framework for AI as a Self-Organizing Network</title>
     <link>https://doi.org/10.5281/zenodo.16518769</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16518769</guid>
+    <pubDate>Mon, 28 Jul 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -981,35 +1062,24 @@
     ]]></description>
   </item>
   <item>
-    <title>A Unified Framework for Self-Organizing Intelligence: A Synthesis of Computational Autopoiesis, Category Theory, and Active Inference</title>
-    <link>https://doi.org/10.5281/zenodo.16420862</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16420862</guid>
+    <title>Computational Autopoiesis: A New Architecture for Autonomous AI</title>
+    <link>https://doi.org/10.5281/zenodo.16416998</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16416998</guid>
+    <pubDate>Fri, 25 Jul 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.16420862
-    ]]></description>
-  </item>
-  <item>
-    <title>A Unified Theory for Self-Organizing Intelligence: Implementation via Category-Theoretic Structure and Active Inference</title>
-    <link>https://doi.org/10.5281/zenodo.16417279</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16417279</guid>
-    <dc:creator>K. Takahashi</dc:creator>
-    <atom:author>
-      <atom:name>K. Takahashi</atom:name>
-      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
-    </atom:author>
-    <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.16417279
+      Preprint — DOI: 10.5281/zenodo.16416998
     ]]></description>
   </item>
   <item>
     <title>A Category-Theoretic Framework for a Self-Organizing World Model in Artificial Intelligence</title>
     <link>https://doi.org/10.5281/zenodo.16417130</link>
     <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16417130</guid>
+    <pubDate>Fri, 25 Jul 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
@@ -1020,16 +1090,31 @@
     ]]></description>
   </item>
   <item>
-    <title>Computational Autopoiesis: A New Architecture for Autonomous AI</title>
-    <link>https://doi.org/10.5281/zenodo.16416998</link>
-    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16416998</guid>
+    <title>A Unified Theory for Self-Organizing Intelligence: Implementation via Category-Theoretic Structure and Active Inference</title>
+    <link>https://doi.org/10.5281/zenodo.16417279</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16417279</guid>
+    <pubDate>Fri, 25 Jul 2025 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <atom:author>
       <atom:name>K. Takahashi</atom:name>
       <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
     </atom:author>
     <description><![CDATA[
-      Preprint — DOI: 10.5281/zenodo.16416998
+      Preprint — DOI: 10.5281/zenodo.16417279
+    ]]></description>
+  </item>
+  <item>
+    <title>A Unified Framework for Self-Organizing Intelligence: A Synthesis of Computational Autopoiesis, Category Theory, and Active Inference</title>
+    <link>https://doi.org/10.5281/zenodo.16420862</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.16420862</guid>
+    <pubDate>Fri, 25 Jul 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.16420862
     ]]></description>
   </item>
 </channel>
