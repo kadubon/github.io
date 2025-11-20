@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 19 Nov 2025 12:20:29 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 20 Nov 2025 18:05:07 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Finsler Spacetime, Entropy--Transport Gradient Flows, and Fibered Bures--HK Geometry: From Relativistic Kinetic Gases to Persistence--First Holographic Universes</title>
+    <link>https://doi.org/10.5281/zenodo.17658411</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17658411</guid>
+    <pubDate>Thu, 20 Nov 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17658411
+    ]]></description>
+  </item>
   <item>
     <title>Implementation--Ready Persistence--First Holographic Systems</title>
     <link>https://doi.org/10.5281/zenodo.17645180</link>
