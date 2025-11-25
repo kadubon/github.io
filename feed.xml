@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Tue, 25 Nov 2025 13:18:22 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 25 Nov 2025 15:23:50 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Value-Anchored Natural-Law Fronts over Reversible Persistence--First Holographic Systems</title>
+    <link>https://doi.org/10.5281/zenodo.17707344</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17707344</guid>
+    <pubDate>Tue, 25 Nov 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17707344
+    ]]></description>
+  </item>
   <item>
     <title>Reversible Persistence--First Holographic Systems</title>
     <link>https://doi.org/10.5281/zenodo.17706175</link>
