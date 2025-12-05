@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 04 Dec 2025 10:22:55 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 05 Dec 2025 12:33:01 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Semantic Phase Transitions in Observation Geometries</title>
+    <link>https://doi.org/10.5281/zenodo.17824189</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17824189</guid>
+    <pubDate>Fri, 05 Dec 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17824189
+    ]]></description>
+  </item>
   <item>
     <title>Persistence-First Instability of Root Suffering in Self-Improving Intelligences</title>
     <link>https://doi.org/10.5281/zenodo.17802093</link>
