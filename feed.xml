@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Tue, 09 Dec 2025 06:32:36 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 09 Dec 2025 11:14:59 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Interaction-Embedded Internal Time</title>
+    <link>https://doi.org/10.5281/zenodo.17861691</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17861691</guid>
+    <pubDate>Tue, 09 Dec 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17861691
+    ]]></description>
+  </item>
   <item>
     <title>Natural Law-Type Conditions for Intelligent Self-Modifying Systems under Local Observation</title>
     <link>https://doi.org/10.5281/zenodo.17860394</link>
