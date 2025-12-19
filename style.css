@@ -110,3 +110,15 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+.publication-abstract {
+    margin: 8px 0 0;
+    color: #444;
+    font-size: 0.95em;
+}
+
+.publication-keywords {
+    margin: 4px 0 0;
+    color: #555;
+    font-size: 0.9em;
+}
