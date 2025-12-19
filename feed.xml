@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 18 Dec 2025 16:57:47 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 19 Dec 2025 18:59:00 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Natural-Law Thermodynamic Reference-Convention Principle for No-Meta Intelligence under the Second Law</title>
+    <link>https://doi.org/10.5281/zenodo.17986146</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.17986146</guid>
+    <pubDate>Fri, 19 Dec 2025 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.17986146
+    ]]></description>
+  </item>
   <item>
     <title>A Natural-Law Occam Principle for Predictive Agents</title>
     <link>https://doi.org/10.5281/zenodo.17973095</link>
