@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 08 Jan 2026 18:47:34 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 14 Jan 2026 13:30:23 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Process-Aware Observable-Only Backcasting Meta-Layer (POB-ML)</title>
+    <link>https://doi.org/10.5281/zenodo.18239203</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18239203</guid>
+    <pubDate>Wed, 14 Jan 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18239203
+    ]]></description>
+  </item>
   <item>
     <title>Observable-Only Audit Gate for Non-Markovian Components in AI Agents under Partial Logging</title>
     <link>https://doi.org/10.5281/zenodo.18182343</link>
