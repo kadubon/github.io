@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 02 Feb 2026 14:19:18 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 03 Feb 2026 12:12:40 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Observation Capture and Operational Capability Non-Expansion</title>
+    <link>https://doi.org/10.5281/zenodo.18463798</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18463798</guid>
+    <pubDate>Tue, 03 Feb 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18463798
+    ]]></description>
+  </item>
   <item>
     <title>Observable-Only Proof-Carrying Autonomy (OOPCA): Audit Compression and Hybrid Proof/Replay Gating for No-Meta Agents</title>
     <link>https://doi.org/10.5281/zenodo.18453429</link>
