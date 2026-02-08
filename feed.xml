@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 06 Feb 2026 15:28:20 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 09 Feb 2026 08:22:31 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Verifiable Modular Pipeline Contracts for AI and General Composite Systems</title>
+    <link>https://doi.org/10.5281/zenodo.18529100</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18529100</guid>
+    <pubDate>Mon, 09 Feb 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18529100
+    ]]></description>
+  </item>
   <item>
     <title>Compute-First Safe LLM Routing Without Meta-Judges Observable Viability with Information and Energy Budgets</title>
     <link>https://doi.org/10.5281/zenodo.18502390</link>
