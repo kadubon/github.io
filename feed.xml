@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 12 Feb 2026 10:20:00 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 16 Feb 2026 11:34:10 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>No-Meta Intelligence Under Ontology Drift: Information-Theoretic Limits and Operational Laws for Persistent Semantics</title>
+    <link>https://doi.org/10.5281/zenodo.18653537</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18653537</guid>
+    <pubDate>Mon, 16 Feb 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18653537
+    ]]></description>
+  </item>
   <item>
     <title>Observable-Only AI Safety from Public Data: Robust Bottleneck Diagnosis with Auditable No-Meta Dynamic Programming, Anytime Confidence Sequences, and Dynamic IQC</title>
     <link>https://doi.org/10.5281/zenodo.18615875</link>
