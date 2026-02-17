@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 16 Feb 2026 11:34:10 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 17 Feb 2026 14:06:01 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Observable-Only Structural-Risk Institutions Without Central Arbitration</title>
+    <link>https://doi.org/10.5281/zenodo.18666605</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18666605</guid>
+    <pubDate>Tue, 17 Feb 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18666605
+    ]]></description>
+  </item>
   <item>
     <title>No-Meta Intelligence Under Ontology Drift: Information-Theoretic Limits and Operational Laws for Persistent Semantics</title>
     <link>https://doi.org/10.5281/zenodo.18653537</link>
