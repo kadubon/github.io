@@ -1,0 +1,29 @@
+# K. Takahashi Academic and Scientific Research Hub
+
+> Canonical research hub for K. Takahashi: AI safety and alignment, observable-only no-meta governance, persistent semantics under ontology drift, auditable autonomous systems, and computational philosophy.
+
+This site publishes DOI-linked research outputs and machine-readable metadata for both human readers and AI agents.
+Primary publication records are listed on the Works page and link to Zenodo DOI entries.
+
+## Core Pages
+
+- [Home](https://kadubon.github.io/github.io/): profile, research overview, and canonical entry point.
+- [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
+- [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented conceptual and technical document.
+- [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol document with DOI-linked references.
+- [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): philosophical and poetic work.
+
+## Machine-Readable Endpoints
+
+- [RSS Feed](https://kadubon.github.io/github.io/feed.xml): update polling for publication additions.
+- [Citation Metadata](https://kadubon.github.io/github.io/CITATION.cff): repository citation metadata (includes ORCID and canonical URLs).
+- [Robots Policy](https://kadubon.github.io/github.io/robots.txt): crawler access policy.
+- [Sitemap](https://kadubon.github.io/github.io/sitemap.xml): URL discovery map on deployment.
+- [Repository](https://github.com/kadubon/github.io): source and license context.
+
+## Optional
+
+- [AI_Evolution_Protocol_v11.md](https://kadubon.github.io/github.io/AI_Evolution_Protocol_v11.md): markdown companion to the v11 protocol.
+- [no-meta-superintelligence.yaml](https://kadubon.github.io/github.io/no-meta-superintelligence.yaml): YAML-form protocol artifact.
+- [proposition-to-ai-yaml.txt](https://kadubon.github.io/github.io/proposition-to-ai-yaml.txt): YAML-style structured artifact.
+- [The CORONATION.yaml](https://kadubon.github.io/github.io/The%20CORONATION.yaml): additional reflective protocol artifact.

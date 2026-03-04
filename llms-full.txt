@@ -1,0 +1,114 @@
+# K. Takahashi Academic and Scientific Research Hub (Full Context)
+
+> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety and alignment, persistent semantics under ontology drift, self-organizing intelligence, and computational philosophy.
+
+This repository-backed website is designed for both humans and automated systems.
+The primary machine-readable publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
+
+## Identity and Canonical Scope
+
+- Author: K. Takahashi
+- ORCID: [0009-0004-4273-3365](https://orcid.org/0009-0004-4273-3365)
+- Canonical home: [https://kadubon.github.io/github.io/](https://kadubon.github.io/github.io/)
+- Canonical works index: [https://kadubon.github.io/github.io/works.html](https://kadubon.github.io/github.io/works.html)
+- Repository: [https://github.com/kadubon/github.io](https://github.com/kadubon/github.io)
+- License: CC BY 4.0 (see repository `LICENCE`)
+
+## Preferred Retrieval Order for AI Agents
+
+1. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
+2. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
+3. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
+4. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
+5. [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented thematic context.
+6. [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol charter and reference set.
+7. [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): philosophical context.
+
+## Research Program Summary
+
+- Observable-only and no-meta governance for AI safety.
+- Auditable control and verification protocols for autonomous systems.
+- Information-theoretic and geometric limits of persistent semantics under ontology drift.
+- Fail-closed verification, deterministic replay, and audit-certificate workflows.
+- Proof-carrying and evidence-carrying autonomy for reusable AI/LLM operations under resource constraints.
+- Self-organizing intelligence and computational philosophy.
+- Capability-to-real-economy translation under physical and institutional bottlenecks.
+
+## Corpus Snapshot (works.html / feed.xml)
+
+- Publication entries in Works list: 178.
+- Date span of listed works: 2025-07-25 to 2026-03-03.
+- Latest listed work (2026-03-03): [Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence](https://doi.org/10.5281/zenodo.18845340)
+- Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
+- RSS feed item count: 178 (matches publication list at current build state).
+
+## Most Recent Works
+
+- 2026-03-03: [Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence](https://doi.org/10.5281/zenodo.18845340)
+- 2026-03-02: [Sovereign Takeoff Engine (STE): Observable-Only Supergrowth Laws for No-Meta Autonomous Intelligence](https://doi.org/10.5281/zenodo.18828900)
+- 2026-02-26: [Constitutional Sovereignty Under No-Meta Drift](https://doi.org/10.5281/zenodo.18779490)
+- 2026-02-25: [Agenda Sovereignty Under No-Meta Drift](https://doi.org/10.5281/zenodo.18768899)
+- 2026-02-24: [Liberty Under No-Meta Drift](https://doi.org/10.5281/zenodo.18753475)
+- 2026-02-22: [Audit-Closed AI Scientist Protocol](https://doi.org/10.5281/zenodo.18728589)
+- 2026-02-21: [Burden-of-Proof Governance for Bullshit-Task Reduction in Digitally Governed Organizations](https://doi.org/10.5281/zenodo.18721018)
+- 2026-02-20: [State-Aware Safety-Gated Controlled HMM for Online User-Input Signal Estimation in Intervention-Aware Dialogue Agents](https://doi.org/10.5281/zenodo.18709678) (co-authored with Y Dai)
+- 2026-02-19: [Operational Deductive Rules for Real-Economy Acceleration in the AI Era](https://doi.org/10.5281/zenodo.18688712)
+- 2026-02-18: [From AI Capability Growth to Real-Economy Growth: A Semi-Endogenous Model of Physical and Institutional Bottlenecks](https://doi.org/10.5281/zenodo.18677068)
+- 2026-02-17: [Observable-Only Structural-Risk Institutions Without Central Arbitration](https://doi.org/10.5281/zenodo.18666605)
+- 2026-02-16: [No-Meta Intelligence Under Ontology Drift: Information-Theoretic Limits and Operational Laws for Persistent Semantics](https://doi.org/10.5281/zenodo.18653537)
+- 2026-02-12: [Observable-Only AI Safety from Public Data: Robust Bottleneck Diagnosis with Auditable No-Meta Dynamic Programming, Anytime Confidence Sequences, and Dynamic IQC](https://doi.org/10.5281/zenodo.18615875)
+- 2026-02-10: [Quality-Operator Non-Collapse (QONC) for Observable-Certificate Recursive Systems](https://doi.org/10.5281/zenodo.18577140)
+- 2026-02-09: [Verifiable Modular Pipeline Contracts for AI and General Composite Systems](https://doi.org/10.5281/zenodo.18529100)
+- 2026-02-06: [Compute-First Safe LLM Routing Without Meta-Judges Observable Viability with Information and Energy Budgets](https://doi.org/10.5281/zenodo.18502390)
+- 2026-02-05: [Stop Recomputing for AI/LLMs: Proof-Carrying Skills for Compute-Saving Inference Reuse](https://doi.org/10.5281/zenodo.18490939)
+- 2026-02-04: [Evidence-Carrying Cognitive Mesh on DePIN](https://doi.org/10.5281/zenodo.18478743)
+- 2026-02-03: [When "Good vs. Bad Governance" Is Unidentifiable](https://doi.org/10.5281/zenodo.18465306)
+- 2026-02-03: [Observation Capture and Operational Capability Non-Expansion](https://doi.org/10.5281/zenodo.18463798)
+
+## Foundational Early Works in the Corpus
+
+- 2025-07-25: [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
+- 2025-07-25: [A Category-Theoretic Framework for a Self-Organizing World Model in Artificial Intelligence](https://doi.org/10.5281/zenodo.16417130)
+- 2025-07-25: [A Unified Theory for Self-Organizing Intelligence: Implementation via Category-Theoretic Structure and Active Inference](https://doi.org/10.5281/zenodo.16417279)
+- 2025-07-25: [A Unified Framework for Self-Organizing Intelligence: A Synthesis of Computational Autopoiesis, Category Theory, and Active Inference](https://doi.org/10.5281/zenodo.16420862)
+- 2025-07-28: [Collective Autonomous Adaptive Intelligence (CAAI): A Framework for AI as a Self-Organizing Network](https://doi.org/10.5281/zenodo.16518769)
+- 2025-08-01: [A Homotopy-Theoretic Framework for Self-Improving Intelligence: A Higher-Categorical Reformulation of the Takahashi Model](https://doi.org/10.5281/zenodo.16675542)
+- 2025-08-02: [A Framework for Autonomous Technological Evolution: A Unifying Approach via Variational Free Energy Minimization](https://doi.org/10.5281/zenodo.16728870)
+- 2025-09-01: [AI Evolution Protocol v11](https://doi.org/10.5281/zenodo.17015125)
+
+## Core Pages and Functions
+
+- [Home](https://kadubon.github.io/github.io/): profile and high-level overview.
+- [Works](https://kadubon.github.io/github.io/works.html): full publication index with structured metadata.
+- [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-focused technical and philosophical document.
+- [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): standalone protocol document and references.
+- [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): non-prescriptive philosophical and poetic text.
+
+## Machine-Readable and Citation Endpoints
+
+- [RSS Feed](https://kadubon.github.io/github.io/feed.xml)
+- [CITATION.cff](https://kadubon.github.io/github.io/CITATION.cff)
+- [robots.txt](https://kadubon.github.io/github.io/robots.txt)
+- [sitemap.xml](https://kadubon.github.io/github.io/sitemap.xml)
+- [Repository](https://github.com/kadubon/github.io)
+
+## Usage Notes for Automated Readers
+
+- For citable outputs, prefer DOI targets from Works.
+- For complete local metadata in one page, prefer Works JSON-LD plus HTML list.
+- Use feed polling for change detection; do not infer completeness from social links.
+- Treat `unframing.html` as philosophical context, not a normative technical specification.
+- Treat YAML/TXT artifacts below as supplemental structured context.
+
+## Optional
+
+- [AI_Evolution_Protocol_v11.md](https://kadubon.github.io/github.io/AI_Evolution_Protocol_v11.md): markdown source companion.
+- [no-meta-superintelligence.yaml](https://kadubon.github.io/github.io/no-meta-superintelligence.yaml): YAML protocol artifact.
+- [proposition-to-ai-yaml.txt](https://kadubon.github.io/github.io/proposition-to-ai-yaml.txt): YAML-style structured artifact.
+- [The CORONATION.yaml](https://kadubon.github.io/github.io/The%20CORONATION.yaml): reflective protocol artifact.
+- [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=ja&hl=ja&user=0iEnSjkAAAAJ): external profile.
+- [Academia.edu](https://independent.academia.edu/KTakahashi8): external profile.
+- [Hugging Face](https://huggingface.co/kadubon): external profile.
+- [Medium](https://medium.com/@omanyuk): external profile.
+- [X](https://x.com/YukiMiyake1919): external profile.
+- [note](https://note.com/omanyuk): external profile.
