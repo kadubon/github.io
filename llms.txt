@@ -8,6 +8,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 ## Core Pages
 
 - [Home](https://kadubon.github.io/github.io/): profile, research overview, and canonical entry point.
+- [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
 - [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented conceptual and technical document.
 - [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol document with DOI-linked references.
@@ -15,6 +16,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 
 ## Machine-Readable Endpoints
 
+- [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): visible YAML canonical navigation index for the no-meta / observable-only series, including repository linkage.
 - [RSS Feed](https://kadubon.github.io/github.io/feed.xml): update polling for publication additions.
 - [Citation Metadata](https://kadubon.github.io/github.io/CITATION.cff): repository citation metadata (includes ORCID and canonical URLs).
 - [Robots Policy](https://kadubon.github.io/github.io/robots.txt): crawler access policy.

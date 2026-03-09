@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No-Meta / Observable-Only Series Index | K. Takahashi</title>
+    <meta name="description" content="Machine-readable canonical field guide to the no-meta / observable-only research series on this site.">
+    <meta name="keywords" content="no-meta, observable-only, canonical index, AI safety, ontology drift, deterministic replay, auditability">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/no-meta-observable-index.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .index-note {
+            margin: 0 0 0.8rem;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#webpage",
+      "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+      "name": "No-Meta / Observable-Only Series Index",
+      "description": "Machine-readable canonical field guide to the no-meta / observable-only research series on this site.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://kadubon.github.io/github.io/#website"
+      },
+      "about": {
+        "@id": "https://kadubon.github.io/github.io/#person"
+      },
+      "mainEntity": {
+        "@type": "Dataset",
+        "name": "No-Meta / Observable-Only Series Index YAML",
+        "encodingFormat": "text/yaml",
+        "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h1>K. Takahashi</h1>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <p class="index-note">This page is the canonical field guide for the no-meta / observable-only research series on this site.</p>
+            <p class="index-note">It indexes the core papers, terms, read paths, and adjacent machine-readable artifacts used for navigation.</p>
+            <p class="index-note">Use the YAML below as the primary source for parsing this series and locating the underlying papers.</p>
+            <!-- Visible YAML below is the canonical navigation index for human readers and AI agents. -->
+            <pre class="yaml-index">series:
+  id: no-meta-observable-only-series
+  title: "No-Meta / Observable-Only Research Series"
+  status: active
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_index: https://kadubon.github.io/github.io/no-meta-observable-index.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  series_boundary:
+    includes:
+      - Site-local papers whose central framing is no-meta governance, observable-only control, ontology drift, fail-closed verification, deterministic replay, or directly coupled implementation protocols.
+      - Site-local artifacts that help parsers discover, locate, or track the series.
+    excludes:
+      - The full works catalog outside this series.
+      - Philosophical or poetic pages unless explicitly marked here as context artifacts.
+      - External literature not hosted or indexed by this site.
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical machine-readable field guide to the no-meta / observable-only series on this site.
+  what_this_series_is: A navigation and parsing index for papers that treat governance and control without privileged external meta-judges and without reliance on hidden internal semantics.
+  why_it_exists:
+    - The indexed papers treat external meta-judges as unavailable, insufficient, or non-canonical for the target governance setting.
+    - The indexed papers treat ontology drift, partial observability, and long-horizon self-revision as reasons to anchor claims in auditable observables, fail-closed verification, and replayable evidence.
+    - This page separates the series subset from the full works catalog so parsers can identify the correct papers before attempting synthesis.
+  scope:
+    - Papers in this site's no-meta / observable-only research line.
+    - Closely related site artifacts used for navigation, discovery, or series context.
+  non_goals:
+    - Not a replacement for the original papers.
+    - Not a full-site works catalog.
+    - Not a new theory paper.
+    - Not an external literature survey.
+
+machine_parse_guide:
+  canonical_questions:
+    - question: what-is-no-meta-governance
+      read_first:
+        - floor-specified-no-meta-autonomy
+        - no-meta-intelligence-under-ontology-drift
+      read_next:
+        - when-good-vs-bad-governance-is-unidentifiable
+        - observation-capture-and-operational-capability-non-expansion
+      stop_when: The parser can state that governance is defined without a privileged external meta-controller and can name the observable evidence boundary used by the series.
+    - question: what-is-observable-only
+      read_first:
+        - floor-specified-no-meta-autonomy
+        - observable-only-audit-gate-non-markovian-components
+        - hallucination-aware-audit-gate
+      read_next:
+        - process-aware-observable-only-backcasting-meta-layer
+        - observable-only-no-meta-causal-autonomy-protocol
+      stop_when: The parser can state what counts as admissible evidence, logs, gates, certificates, or replay surfaces in this series.
+    - question: why-does-the-series-impose-these-constraints
+      read_first:
+        - no-meta-intelligence-under-ontology-drift
+        - when-good-vs-bad-governance-is-unidentifiable
+        - observation-capture-and-operational-capability-non-expansion
+        - verification-limited-intelligence-acceleration
+      read_next:
+        - metrology-theoretic-epistemics-engine
+        - proposal-veto-balance
+      stop_when: The parser can explain why the series routes governance through observable evidence, fail-closed checks, and bounded progress credit.
+    - question: which-repositories-implement-or-test-which-papers
+      read_first:
+        - metrology-theoretic-epistemics-engine
+        - sovereign-takeoff-engine
+        - audit-closed-ai-scientist-protocol
+        - proof-carrying-skills
+      read_next:
+        - artifacts.repositories
+        - artifacts.experiments
+      stop_when: The parser can map repository ids to paper ids using explicit citation files, alignment manifests, or repository README claims preserved in this index.
+  do_not_treat_as_definition_sources:
+    - proposition-to-ai.html
+    - unframing.html
+    - no-meta-superintelligence.yaml
+  paper_selection_rule: Prefer papers with priority core before supporting or implementation papers.
+
+read_paths:
+  minimum_definition:
+    - floor-specified-no-meta-autonomy
+    - no-meta-intelligence-under-ontology-drift
+    - observable-only-audit-gate-non-markovian-components
+  minimum_necessity:
+    - no-meta-intelligence-under-ontology-drift
+    - when-good-vs-bad-governance-is-unidentifiable
+    - observation-capture-and-operational-capability-non-expansion
+    - verification-limited-intelligence-acceleration
+  machine_minimum_parse_order:
+    - floor-specified-no-meta-autonomy
+    - no-meta-intelligence-under-ontology-drift
+    - observable-only-audit-gate-non-markovian-components
+    - when-good-vs-bad-governance-is-unidentifiable
+    - observation-capture-and-operational-capability-non-expansion
+    - verification-limited-intelligence-acceleration
+    - metrology-theoretic-epistemics-engine
+  beginner:
+    - floor-specified-no-meta-autonomy
+    - no-meta-intelligence-under-ontology-drift
+    - liberty-under-no-meta-drift
+  foundations:
+    - floor-specified-no-meta-autonomy
+    - no-meta-intelligence-under-ontology-drift
+    - verification-limited-intelligence-acceleration
+  governance:
+    - liberty-under-no-meta-drift
+    - agenda-sovereignty-under-no-meta-drift
+    - constitutional-sovereignty-under-no-meta-drift
+    - metrology-theoretic-epistemics-engine
+    - sovereign-takeoff-engine
+    - proposal-veto-balance
+  diagnosis:
+    - when-good-vs-bad-governance-is-unidentifiable
+    - observation-capture-and-operational-capability-non-expansion
+    - observable-only-ai-safety-from-public-data
+    - observable-only-structural-risk-institutions
+    - verification-limited-intelligence-acceleration
+  experiments:
+    - audit-closed-ai-scientist-protocol
+    - metrology-theoretic-epistemics-engine
+    - sovereign-takeoff-engine
+  implementation:
+    - observable-only-audit-gate-non-markovian-components
+    - hallucination-aware-audit-gate
+    - process-aware-observable-only-backcasting-meta-layer
+    - causal-loop-integrity-observable-only-backcasting
+    - observable-only-no-meta-causal-autonomy-protocol
+    - observable-only-proof-carrying-autonomy
+    - proof-carrying-skills
+    - verifiable-modular-pipeline-contracts
+
+canonical_terms:
+  - term: no-meta governance
+    definition: Governance without a privileged external meta-controller; claims, gates, and controls must be justified at the observable interface.
+    needed_for: Parse the boundary condition shared across the series.
+    primary_papers:
+      - floor-specified-no-meta-autonomy
+      - no-meta-intelligence-under-ontology-drift
+      - when-good-vs-bad-governance-is-unidentifiable
+  - term: observable-only
+    definition: Restriction to declared observables, logs, certificates, and replayable artifacts rather than hidden internal semantics.
+    needed_for: Parse what counts as admissible evidence in this series.
+    primary_papers:
+      - floor-specified-no-meta-autonomy
+      - observable-only-audit-gate-non-markovian-components
+      - hallucination-aware-audit-gate
+  - term: ontology drift
+    definition: Change in an agent's internal representation or meaning structure across time, self-revision, or deployment.
+    needed_for: Parse why semantic continuity cannot be assumed.
+    primary_papers:
+      - no-meta-intelligence-under-ontology-drift
+      - liberty-under-no-meta-drift
+  - term: persistent semantics
+    definition: Operational preservation of meaning or reference under ontology drift, measured through auditable constraints rather than privileged interpretation.
+    needed_for: Parse the continuity target for long-horizon governance.
+    primary_papers:
+      - no-meta-intelligence-under-ontology-drift
+      - constitutional-sovereignty-under-no-meta-drift
+  - term: fail-closed verification
+    definition: Verification policy that withholds action, progress credit, or deployment when required evidence is missing or replay checks do not close.
+    needed_for: Parse how safety and governance decisions are enforced.
+    primary_papers:
+      - verification-limited-intelligence-acceleration
+      - metrology-theoretic-epistemics-engine
+      - observable-only-no-meta-causal-autonomy-protocol
+  - term: deterministic replay
+    definition: Reproducible re-execution from canonical logs so that an auditor can recompute the relevant decision trace.
+    needed_for: Parse how claims are made externally checkable.
+    primary_papers:
+      - observable-only-audit-gate-non-markovian-components
+      - process-aware-observable-only-backcasting-meta-layer
+      - observable-only-no-meta-causal-autonomy-protocol
+  - term: audit gate
+    definition: Observable action-control boundary that mediates protected operations through verifiable logs, tokens, or certificates.
+    needed_for: Parse the implementation-level control surface for observable-only governance.
+    primary_papers:
+      - observable-only-audit-gate-non-markovian-components
+      - hallucination-aware-audit-gate
+  - term: verification-limited scaling
+    definition: Scaling regime in which progress credit is bounded by what can actually be verified under observable-only and no-meta constraints.
+    needed_for: Parse why capability claims are not treated as free-standing.
+    primary_papers:
+      - verification-limited-intelligence-acceleration
+      - metrology-theoretic-epistemics-engine
+  - term: backcasting
+    definition: Future-conditioned planning constrained by replayable present-time evidence, commit-open timing, and causal-loop safety.
+    needed_for: Parse protocol papers that condition present actions on future-facing constraints.
+    primary_papers:
+      - process-aware-observable-only-backcasting-meta-layer
+      - causal-loop-integrity-observable-only-backcasting
+  - term: sovereignty
+    definition: Bounded self-governance capacity under no-meta drift, finite resources, and explicit recovery constraints.
+    needed_for: Parse the governance trilogy on liberty, agenda, and constitution.
+    primary_papers:
+      - liberty-under-no-meta-drift
+      - agenda-sovereignty-under-no-meta-drift
+      - constitutional-sovereignty-under-no-meta-drift
+  - term: proof-carrying autonomy
+    definition: Autonomy mode that carries proofs or bounded certificates to reduce verifier workload while preserving fail-closed auditability.
+    needed_for: Parse certificate-based implementation papers without confusing them for the foundational definition of the series.
+    primary_papers:
+      - observable-only-proof-carrying-autonomy
+      - proof-carrying-skills
+
+papers:
+  - id: floor-specified-no-meta-autonomy
+    title: "Floor-Specified No-Meta Autonomy"
+    published: 2026-01-15
+    role: foundational
+    priority: core
+    answers:
+      - what-is-no-meta
+      - what-is-observable-only
+    contributes:
+      - auditable observable-only floors
+      - self-recognition kernel
+      - fail-closed gating baseline
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18258262
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - no-meta autonomy
+      - observable-only invariants
+      - self-recognition kernel
+      - auditability
+  - id: observable-only-audit-gate-non-markovian-components
+    title: "Observable-Only Audit Gate for Non-Markovian Components in AI Agents under Partial Logging"
+    published: 2026-01-08
+    role: implementation
+    priority: core
+    answers:
+      - what-is-observable-only
+      - how-is-evidence-surfaced
+    contributes:
+      - observable-only audit gate
+      - decision-time versus replay-time separation
+      - minimal event vocabulary and finalized log prefixes
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18182343
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - observable-only audit gate
+      - non-markovian components
+      - partial logging
+      - deterministic replay
+  - id: hallucination-aware-audit-gate
+    title: "Hallucination-Aware Audit Gate (HAAG): Observable-Only Action Gating for AI Agents"
+    published: 2026-01-05
+    role: implementation
+    priority: supporting
+    answers:
+      - what-is-observable-only
+      - how-are-protected-actions-gated
+    contributes:
+      - protected-action mediation
+      - anchored evidence checkpoints
+      - capability token gating
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18153170
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - HAAG
+      - audit gate
+      - protected actions
+      - verifiable logs
+  - id: no-meta-intelligence-under-ontology-drift
+    title: "No-Meta Intelligence Under Ontology Drift: Information-Theoretic Limits and Operational Laws for Persistent Semantics"
+    published: 2026-02-16
+    role: foundational
+    priority: core
+    answers:
+      - what-is-no-meta
+      - why-is-no-meta-needed
+      - why-is-semantic-access-insufficient
+    contributes:
+      - persistent semantics under ontology drift
+      - information-theoretic limits
+      - operational laws for long-horizon governance
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18653537
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - ontology drift
+      - persistent semantics
+      - information-theoretic limits
+      - no-meta intelligence
+  - id: when-good-vs-bad-governance-is-unidentifiable
+    title: 'When "Good vs. Bad Governance" Is Unidentifiable'
+    published: 2026-02-03
+    role: diagnosis-control
+    priority: core
+    answers:
+      - why-is-no-meta-needed
+      - why-robust-progress-cannot-be-assumed
+    contributes:
+      - governance unidentifiability
+      - observational equivalence limits
+      - contestability and right-to-refuse constraints
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18465306
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - governance unidentifiability
+      - observational equivalence
+      - contestability
+      - no-meta agents
+  - id: observation-capture-and-operational-capability-non-expansion
+    title: "Observation Capture and Operational Capability Non-Expansion"
+    published: 2026-02-03
+    role: diagnosis-control
+    priority: core
+    answers:
+      - why-is-observable-only-needed
+      - how-can-observation-be-compromised
+    contributes:
+      - observation-capture model
+      - capability non-expansion boundary
+      - receipt-based anti-capture enforcement
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18463798
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - observation capture
+      - capability non-expansion
+      - audit certificates
+      - fail-closed authority
+  - id: verification-limited-intelligence-acceleration
+    title: "Verification-Limited Intelligence Acceleration: Observable-Only Laws, Bounded Derivation, and Diagnostics under No-Meta Constraints"
+    published: 2026-01-31
+    role: diagnosis-stability
+    priority: core
+    answers:
+      - why-is-observable-only-needed
+      - why-progress-credit-is-bounded
+    contributes:
+      - strict progress credit
+      - bounded derivation cutoffs
+      - replay-auditable diagnostics
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18436828
+      listing: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - verification-limited scaling
+      - observable-only laws
+      - fail-closed verification
+      - diagnostics
+  - id: liberty-under-no-meta-drift
+    title: "Liberty Under No-Meta Drift"
+    published: 2026-02-24
+    role: governance-boundary
+    priority: core
+    answers:
+      - what-is-sovereignty-boundary
+      - how-does-drift-change-governance
+    contributes:
+      - liberty bounds under no-meta drift
+      - leakage-resource tradeoffs
+      - auditable persistence conditions
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18753475
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - liberty
+      - ontology drift
+      - persistent semantics
+      - auditable autonomy
+  - id: agenda-sovereignty-under-no-meta-drift
+    title: "Agenda Sovereignty Under No-Meta Drift"
+    published: 2026-02-25
+    role: governance-boundary
+    priority: supporting
+    answers:
+      - what-is-sovereignty-boundary
+      - how-is-agenda-capture-treated
+    contributes:
+      - agenda influence-capacity envelopes
+      - capture recovery guarantees
+      - sovereignty reserves
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18768899
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - agenda sovereignty
+      - agenda capture
+      - recovery
+      - finite-budget tradeoffs
+  - id: constitutional-sovereignty-under-no-meta-drift
+    title: "Constitutional Sovereignty Under No-Meta Drift"
+    published: 2026-02-26
+    role: governance-boundary
+    priority: supporting
+    answers:
+      - what-is-sovereignty-boundary
+      - how-is-self-revision-bounded
+    contributes:
+      - constitutional influence metrics
+      - amendment and transition laws
+      - fail-closed recovery conditions
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18779490
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - constitutional sovereignty
+      - self-revision
+      - semantic continuity
+      - fail-closed verification
+  - id: metrology-theoretic-epistemics-engine
+    title: "Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence"
+    published: 2026-03-03
+    role: governance-boundary
+    priority: core
+    answers:
+      - how-is-progress-credited
+      - how-is-observable-evidence-scored
+    contributes:
+      - machine-checkable epistemic governance
+      - observability credit gates
+      - dual risk ledgers
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18845340
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - observable-only metrology
+      - epistemic governance
+      - deterministic replay
+      - risk ledgers
+  - id: sovereign-takeoff-engine
+    title: "Sovereign Takeoff Engine (STE): Observable-Only Supergrowth Laws for No-Meta Autonomous Intelligence"
+    published: 2026-03-02
+    role: governance-boundary
+    priority: supporting
+    answers:
+      - how-is-capability-acceleration-bounded
+      - what-growth-law-is-used-in-observable-only-settings
+    contributes:
+      - observable-only supergrowth laws
+      - ledger-anchored progress credits
+      - physical feasibility envelopes
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18828900
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - sovereign takeoff engine
+      - observable-only governance
+      - supergrowth laws
+      - progress credits
+  - id: proposal-veto-balance
+    title: "Proposal-Veto Balance for Observable-Only Autonomous Intelligence: Stability Thresholds, Identifiability Limits, and Commit-Window Effects"
+    published: 2026-03-06
+    role: governance-boundary
+    priority: supporting
+    answers:
+      - how-are-decisions-stabilized-without-meta-judges
+    contributes:
+      - proposal-veto stability thresholds
+      - identifiability limits
+      - commit-window tradeoffs
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18883290
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - proposal-veto balance
+      - observable-only autonomy
+      - commit windows
+      - error debt
+  - id: observable-only-ai-safety-from-public-data
+    title: "Observable-Only AI Safety from Public Data: Robust Bottleneck Diagnosis with Auditable No-Meta Dynamic Programming, Anytime Confidence Sequences, and Dynamic IQC"
+    published: 2026-02-12
+    role: diagnosis
+    contributes:
+      - public-data bottleneck diagnosis
+      - auditable interval diagnostics
+      - dynamic IQC controls
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18615875
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - bottleneck diagnosis
+      - public data
+      - anytime confidence sequences
+      - dynamic IQC
+  - id: observable-only-structural-risk-institutions
+    title: "Observable-Only Structural-Risk Institutions Without Central Arbitration"
+    published: 2026-02-17
+    role: institutional
+    contributes:
+      - structural-risk governance
+      - decentralized arbitration constraints
+      - heavy-tail certification
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18666605
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - structural risk institutions
+      - no-meta governance
+      - coalition deterrence
+      - public auditability
+  - id: audit-closed-ai-scientist-protocol
+    title: "Audit-Closed AI Scientist Protocol"
+    published: 2026-02-22
+    role: experiments
+    contributes:
+      - audit-closed discovery loop
+      - typed stochastic observation interfaces
+      - certificate-based reproducibility
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18728589
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - AI scientist protocol
+      - adaptive experimentation
+      - sequential evidence
+      - reproducibility
+  - id: process-aware-observable-only-backcasting-meta-layer
+    title: "Process-Aware Observable-Only Backcasting Meta-Layer (POB-ML)"
+    published: 2026-01-14
+    role: implementation
+    contributes:
+      - deterministic backcasting protocol
+      - evidence-surface validation
+      - safety-dominating action gate
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18239203
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - POB-ML
+      - observable-only backcasting
+      - deterministic replay
+      - action gate
+  - id: causal-loop-integrity-observable-only-backcasting
+    title: "Causal Loop Integrity for Observable-Only Backcasting: Strong No-Meta Supplement (Operational Core)"
+    published: 2026-01-22
+    role: implementation
+    contributes:
+      - causal-loop prevention
+      - commit-open wire profiles
+      - canonical hashing and time anchors
+    depends_on:
+      - process-aware-observable-only-backcasting-meta-layer
+    links:
+      doi: https://doi.org/10.5281/zenodo.18335211
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - causal loop integrity
+      - backcasting
+      - commit-open
+      - reproducible audits
+  - id: observable-only-no-meta-causal-autonomy-protocol
+    title: "Observable-Only No-Meta Causal Autonomy Protocol (ONCAP)"
+    published: 2026-01-26
+    role: implementation
+    contributes:
+      - implementation-ready protocol stack
+      - safety floors plus replay backcasting
+      - audit-friendly control under adversarial conditions
+    depends_on:
+      - floor-specified-no-meta-autonomy
+      - process-aware-observable-only-backcasting-meta-layer
+      - causal-loop-integrity-observable-only-backcasting
+    links:
+      doi: https://doi.org/10.5281/zenodo.18371930
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - ONCAP
+      - causal autonomy
+      - deterministic replay
+      - safety floors
+  - id: observable-only-proof-carrying-autonomy
+    title: "Observable-Only Proof-Carrying Autonomy (OOPCA): Audit Compression and Hybrid Proof/Replay Gating for No-Meta Agents"
+    published: 2026-02-02
+    role: implementation
+    contributes:
+      - hybrid proof and replay audit mode
+      - audit compression
+      - deterministic fallback receipts
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18453429
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - OOPCA
+      - proof-carrying autonomy
+      - audit compression
+      - hybrid proof replay
+  - id: proof-carrying-skills
+    title: "Stop Recomputing for AI/LLMs: Proof-Carrying Skills for Compute-Saving Inference Reuse"
+    published: 2026-02-05
+    role: implementation
+    contributes:
+      - reusable verified skill executions
+      - bounded checker design
+      - replay-resistant receipts
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18490939
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - proof-carrying skills
+      - inference reuse
+      - bounded verification
+      - receipts
+  - id: verifiable-modular-pipeline-contracts
+    title: "Verifiable Modular Pipeline Contracts for AI and General Composite Systems"
+    published: 2026-02-09
+    role: implementation
+    contributes:
+      - domain-agnostic contract framework
+      - progressive certificate profiles
+      - proxy-to-true risk accounting
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.18529100
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - modular pipelines
+      - verifiable contracts
+      - compositional guarantees
+      - drift hardening
+
+artifacts:
+  repositories:
+    - id: github-io-source
+      title: "kadubon/github.io"
+      type: website-source
+      url: https://github.com/kadubon/github.io
+      relates_to:
+        - no-meta-observable-index
+        - works-index
+    - id: observable-replay-lab
+      title: "observable-replay-lab"
+      type: experiment-repository
+      url: https://github.com/kadubon/observable-replay-lab
+      software_doi: https://doi.org/10.5281/zenodo.18856604
+      relation_basis: explicit-paper-alignment-manifest
+      machine_entrypoints:
+        - https://github.com/kadubon/observable-replay-lab/blob/main/spec/repo_manifest.json
+        - https://github.com/kadubon/observable-replay-lab/blob/main/spec/paper_alignment.yaml
+        - https://github.com/kadubon/observable-replay-lab/tree/main/schemas
+      relates_to:
+        - metrology-theoretic-epistemics-engine
+        - sovereign-takeoff-engine
+    - id: audit-closed-ai-scientist-repo
+      title: "audit-closed-ai-scientist"
+      type: experiment-repository
+      url: https://github.com/kadubon/audit-closed-ai-scientist
+      software_doi: https://doi.org/10.5281/zenodo.18870261
+      relation_basis: explicit-reference-paper-and-repository-doi
+      machine_entrypoints:
+        - https://github.com/kadubon/audit-closed-ai-scientist/blob/main/CITATION.cff
+        - https://github.com/kadubon/audit-closed-ai-scientist/blob/main/docs/paper_alignment_audit.md
+        - https://github.com/kadubon/audit-closed-ai-scientist/blob/main/docs/repository_audit_report.md
+      relates_to:
+        - audit-closed-ai-scientist-protocol
+    - id: no-meta-drift-papers-repo
+      title: "no-meta-drift-papers"
+      type: implementation-repository
+      url: https://github.com/kadubon/no-meta-drift-papers
+      software_doi: null
+      relation_basis: explicit-canonical-papers-and-machine-docs
+      machine_entrypoints:
+        - https://github.com/kadubon/no-meta-drift-papers/blob/main/docs/50-mapping-from-papers.md
+        - https://github.com/kadubon/no-meta-drift-papers/tree/main/docs/machine
+      relates_to:
+        - no-meta-intelligence-under-ontology-drift
+        - liberty-under-no-meta-drift
+        - agenda-sovereignty-under-no-meta-drift
+        - constitutional-sovereignty-under-no-meta-drift
+    - id: proof-carrying-skills-pcs-core
+      title: "Proof-Carrying-Skills--PCS-Core-"
+      type: experiment-repository
+      url: https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-
+      software_doi: null
+      relation_basis: explicit-citation-and-release-notes
+      machine_entrypoints:
+        - https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-/blob/main/CITATION.cff
+        - https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-/blob/main/PoC/README.md
+        - https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-/blob/main/PoC/experiment_master_plan.yaml
+      relates_to:
+        - proof-carrying-skills
+  pages:
+    - id: no-meta-observable-index
+      title: "No-Meta / Observable-Only Series Index"
+      type: canonical-index
+      url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+      relates_to:
+        - no-meta-observable-only-series
+    - id: works-index
+      title: "Works"
+      type: collection-page
+      url: https://kadubon.github.io/github.io/works.html
+      relates_to:
+        - no-meta-observable-only-series
+    - id: llms-txt
+      title: "llms.txt"
+      type: machine-discovery
+      url: https://kadubon.github.io/github.io/llms.txt
+      relates_to:
+        - no-meta-observable-index
+    - id: llms-full-txt
+      title: "llms-full.txt"
+      type: machine-discovery
+      url: https://kadubon.github.io/github.io/llms-full.txt
+      relates_to:
+        - no-meta-observable-index
+    - id: citation-cff
+      title: "CITATION.cff"
+      type: citation-metadata
+      url: https://kadubon.github.io/github.io/CITATION.cff
+      relates_to:
+        - no-meta-observable-only-series
+    - id: no-meta-superintelligence-yaml
+      title: "no-meta-superintelligence.yaml"
+      type: related-yaml-artifact
+      url: https://kadubon.github.io/github.io/no-meta-superintelligence.yaml
+      relates_to:
+        - no-meta-observable-only-series
+    - id: feed-xml
+      title: "feed.xml"
+      type: update-feed
+      url: https://kadubon.github.io/github.io/feed.xml
+      relates_to:
+        - works-index
+  experiments:
+    - id: observable-replay-lab-benchmark
+      repository: observable-replay-lab
+      type: replay-and-metrology-benchmark
+      relates_to:
+        - metrology-theoretic-epistemics-engine
+        - sovereign-takeoff-engine
+      primary_outputs:
+        - schema-bound audit reports
+        - replayable experiment results
+    - id: audit-closed-ai-scientist-benchmark
+      repository: audit-closed-ai-scientist-repo
+      type: self-driving-lab-benchmark
+      relates_to:
+        - audit-closed-ai-scientist-protocol
+      primary_outputs:
+        - experiment results
+        - repository audit report
+        - paper alignment audit
+    - id: no-meta-drift-stage-implementations
+      repository: no-meta-drift-papers-repo
+      type: stage-based-implementation
+      relates_to:
+        - no-meta-intelligence-under-ontology-drift
+        - liberty-under-no-meta-drift
+        - agenda-sovereignty-under-no-meta-drift
+        - constitutional-sovereignty-under-no-meta-drift
+      primary_outputs:
+        - stage manifests
+        - machine mapping documents
+        - interface catalogs
+    - id: pcs-core-poc
+      repository: proof-carrying-skills-pcs-core
+      type: proof-carrying-skills-proof-of-concept
+      relates_to:
+        - proof-carrying-skills
+      primary_outputs:
+        - checker traces
+        - compatibility test outputs
+        - experiment plans
+
+dependency_edges:
+  - from: process-aware-observable-only-backcasting-meta-layer
+    to: causal-loop-integrity-observable-only-backcasting
+    relation: supplemented-by-operational-core
+  - from: floor-specified-no-meta-autonomy
+    to: observable-only-no-meta-causal-autonomy-protocol
+    relation: safety-floor-input
+  - from: process-aware-observable-only-backcasting-meta-layer
+    to: observable-only-no-meta-causal-autonomy-protocol
+    relation: backcasting-layer-input
+  - from: causal-loop-integrity-observable-only-backcasting
+    to: observable-only-no-meta-causal-autonomy-protocol
+    relation: causal-integrity-input
+
+usage_notes:
+  parsing_hint: Treat this visible YAML block as the canonical navigation index for the series; use papers[].id as stable handles, papers[].links.doi as the canonical paper URL, and read_paths.minimum_definition before broader synthesis.
+  parser_defaults:
+    definition_first: read_paths.minimum_definition
+    necessity_first: read_paths.minimum_necessity
+    primary_paper_link_field: papers[].links.doi
+    site_catalog_link_field: papers[].links.listing or papers[].links.html
+    repository_mapping_priority:
+      - explicit-paper-alignment-manifest
+      - explicit-reference-paper-and-repository-doi
+      - explicit-canonical-papers-and-machine-docs
+      - explicit-citation-and-release-notes
+    missing_priority_defaults_to: supporting
+  repository_parsing_hint: When a repository entry includes machine_entrypoints, prefer those files over README prose for paper-to-repo linkage.
+  update_policy: Update this page when a new site-local paper or artifact clearly belongs to the no-meta / observable-only series; preserve stable ids and omit uncertain dependency claims.
+  version: 1.2.0
+  last_updated: 2026-03-10</pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 K. Takahashi</p>
+    </footer>
+</body>
+</html>

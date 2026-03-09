@@ -16,13 +16,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Preferred Retrieval Order for AI Agents
 
-1. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
-2. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
-3. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
-4. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
-5. [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented thematic context.
-6. [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol charter and reference set.
-7. [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): philosophical context.
+1. [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
+2. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
+3. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
+4. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
+5. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
+6. [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented thematic context.
+7. [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol charter and reference set.
+8. [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): philosophical context.
 
 ## Research Program Summary
 
@@ -79,6 +80,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 ## Core Pages and Functions
 
 - [Home](https://kadubon.github.io/github.io/): profile and high-level overview.
+- [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Works](https://kadubon.github.io/github.io/works.html): full publication index with structured metadata.
 - [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-focused technical and philosophical document.
 - [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): standalone protocol document and references.
@@ -86,6 +88,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Machine-Readable and Citation Endpoints
 
+- [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): visible YAML canonical navigation index with repository linkage.
 - [RSS Feed](https://kadubon.github.io/github.io/feed.xml)
 - [CITATION.cff](https://kadubon.github.io/github.io/CITATION.cff)
 - [robots.txt](https://kadubon.github.io/github.io/robots.txt)
