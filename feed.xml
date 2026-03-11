@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 11 Mar 2026 16:37:03 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 11 Mar 2026 19:09:11 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration</title>
+    <link>https://doi.org/10.5281/zenodo.18954286</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18954286</guid>
+    <pubDate>Wed, 11 Mar 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18954286
+    ]]></description>
+  </item>
   <item>
     <title>When Should Inference Be Split? A Fixed-Budget Theory of Predictable Multi-Agent Advantage under Local Context Ceilings</title>
     <link>https://doi.org/10.5281/zenodo.18932509</link>
