@@ -211,10 +211,219 @@
             <h2>Collaboration</h2>
             <p>Scientific critique, replication attempts, and cross-disciplinary collaboration are welcome.</p>
         </section>
+
+        <section id="support" class="container" aria-labelledby="support-heading">
+            <h2 id="support-heading">Research Support / Donations</h2>
+            <p>This work is conducted as independent research to reduce institutional and personal bias. Support helps sustain research, publishing, and open repositories.</p>
+            <p>Accepted assets and networks are explicitly limited. Unsupported assets may be ignored and may not be recoverable. Do not send NFTs or unknown tokens. High-risk or compliance-sensitive funds may be held and may not be converted immediately.</p>
+
+            <div class="support-grid">
+                <article class="support-card" aria-labelledby="support-btc-heading">
+                    <h3 id="support-btc-heading">Bitcoin mainnet</h3>
+                    <p class="support-assets"><strong>Accepted assets:</strong> BTC only</p>
+                    <div class="support-address-block">
+                        <span class="support-label">Address</span>
+                        <div class="support-address-row">
+                            <code id="btc-address" class="support-address">bc1qz38p5evrwesfjm9f0c7kwr3205jm6x5hjuw5wc</code>
+                            <button class="copy-button" type="button" data-copy-target="btc-address" aria-label="Copy Bitcoin mainnet address">Copy</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="support-card" aria-labelledby="support-evm-heading">
+                    <h3 id="support-evm-heading">Ethereum-compatible networks</h3>
+                    <ul class="support-network-list">
+                        <li class="support-network-item">
+                            <h4>Ethereum mainnet</h4>
+                            <p class="support-assets"><strong>Accepted assets:</strong> ETH, USDC, USDT</p>
+                            <div class="support-address-block">
+                                <span class="support-label">Address</span>
+                                <div class="support-address-row">
+                                    <code id="ethereum-address" class="support-address">0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d</code>
+                                    <button class="copy-button" type="button" data-copy-target="ethereum-address" aria-label="Copy Ethereum mainnet address">Copy</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="support-network-item">
+                            <h4>Arbitrum One</h4>
+                            <p class="support-assets"><strong>Accepted assets:</strong> ETH, USDC</p>
+                            <div class="support-address-block">
+                                <span class="support-label">Address</span>
+                                <div class="support-address-row">
+                                    <code id="arbitrum-address" class="support-address">0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d</code>
+                                    <button class="copy-button" type="button" data-copy-target="arbitrum-address" aria-label="Copy Arbitrum One address">Copy</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="support-network-item">
+                            <h4>Base</h4>
+                            <p class="support-assets"><strong>Accepted assets:</strong> ETH, USDC</p>
+                            <div class="support-address-block">
+                                <span class="support-label">Address</span>
+                                <div class="support-address-row">
+                                    <code id="base-address" class="support-address">0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d</code>
+                                    <button class="copy-button" type="button" data-copy-target="base-address" aria-label="Copy Base network address">Copy</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="support-network-item">
+                            <h4>OP Mainnet</h4>
+                            <p class="support-assets"><strong>Accepted assets:</strong> ETH, USDC</p>
+                            <div class="support-address-block">
+                                <span class="support-label">Address</span>
+                                <div class="support-address-row">
+                                    <code id="op-address" class="support-address">0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d</code>
+                                    <button class="copy-button" type="button" data-copy-target="op-address" aria-label="Copy OP Mainnet address">Copy</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="support-note" role="note" aria-label="Donation policy notes">
+                <p>Send funds only on Bitcoin mainnet, Ethereum mainnet, Arbitrum One, Base, or OP Mainnet. USDT is supported on Ethereum mainnet only. Do not send NFTs, unknown tokens, or transfers from unsupported networks.</p>
+            </div>
+            <p class="support-note support-note-secondary">Unsupported assets may be ignored and may not be recoverable. High-risk or compliance-sensitive funds may be held and may not be converted immediately.</p>
+            <p class="visually-hidden" aria-live="polite" data-copy-status></p>
+
+            <script type="application/json" id="research-support-manifest">
+            {
+              "version": 1,
+              "name": "Independent Research Support",
+              "recipient": "K Takahashi",
+              "purpose": "Support independent research, publishing, and open repositories.",
+              "accepted": [
+                {
+                  "asset": "BTC",
+                  "network": "Bitcoin",
+                  "address": "bc1qz38p5evrwesfjm9f0c7kwr3205jm6x5hjuw5wc"
+                },
+                {
+                  "asset": "ETH",
+                  "network": "Ethereum",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "USDC",
+                  "network": "Ethereum",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "USDT",
+                  "network": "Ethereum",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "ETH",
+                  "network": "Arbitrum One",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "USDC",
+                  "network": "Arbitrum One",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "ETH",
+                  "network": "Base",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "USDC",
+                  "network": "Base",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "ETH",
+                  "network": "OP Mainnet",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                },
+                {
+                  "asset": "USDC",
+                  "network": "OP Mainnet",
+                  "address": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+                }
+              ],
+              "networks": [
+                "Bitcoin mainnet",
+                "Ethereum mainnet",
+                "Arbitrum One",
+                "Base",
+                "OP Mainnet"
+              ],
+              "addresses": {
+                "bitcoin": "bc1qz38p5evrwesfjm9f0c7kwr3205jm6x5hjuw5wc",
+                "evm": "0x39692E5F2976EE7a63E6DbFa4070871D2Ab69d0d"
+              },
+              "policy": {
+                "independence": "Independent research is maintained to reduce institutional and personal bias.",
+                "unsupported_assets": "may_be_ignored_and_may_not_be_recoverable",
+                "unsupported_networks": "not_supported",
+                "usdt": "ethereum_mainnet_only",
+                "nfts": "not_supported",
+                "unknown_tokens": "not_supported",
+                "high_risk_funds": "may_be_held_and_may_not_be_converted_immediately"
+              }
+            }
+            </script>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2026 K. Takahashi</p>
     </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var status = document.querySelector('[data-copy-status]');
+        var buttons = document.querySelectorAll('.copy-button');
+
+        function setStatus(message) {
+            if (status) {
+                status.textContent = message;
+            }
+        }
+
+        async function copyText(text) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                return;
+            }
+
+            var fallback = document.createElement('textarea');
+            fallback.value = text;
+            fallback.setAttribute('readonly', '');
+            fallback.style.position = 'absolute';
+            fallback.style.left = '-9999px';
+            document.body.appendChild(fallback);
+            fallback.select();
+            document.execCommand('copy');
+            document.body.removeChild(fallback);
+        }
+
+        buttons.forEach(function (button) {
+            button.addEventListener('click', async function () {
+                var target = document.getElementById(button.getAttribute('data-copy-target'));
+
+                if (!target) {
+                    setStatus('Address could not be found.');
+                    return;
+                }
+
+                try {
+                    await copyText(target.textContent.trim());
+                    button.textContent = 'Copied';
+                    setStatus('Address copied to clipboard.');
+                    window.setTimeout(function () {
+                        button.textContent = 'Copy';
+                    }, 1600);
+                } catch (error) {
+                    setStatus('Copy failed. Please copy the address manually.');
+                }
+            });
+        });
+    });
+    </script>
 </body>
 </html>
