@@ -127,6 +127,26 @@ pre {
     margin-top: 0;
 }
 
+.support-sponsor {
+    margin-top: 20px;
+}
+
+.support-sponsor-embed {
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.support-sponsor-embed iframe {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    border: 0;
+}
+
+.support-sponsor-actions {
+    margin: 14px 0 0;
+}
+
 .support-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -205,13 +225,27 @@ pre {
     min-width: 72px;
 }
 
+.sponsor-button {
+    display: inline-block;
+    border: 1px solid #007BFF;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .copy-button:hover,
-.copy-button:focus {
+.copy-button:focus,
+.sponsor-button:hover,
+.sponsor-button:focus {
     background-color: #007BFF;
     color: #fff;
 }
 
-.copy-button:focus {
+.copy-button:focus,
+.sponsor-button:focus {
     outline: 2px solid #0056b3;
     outline-offset: 2px;
 }
