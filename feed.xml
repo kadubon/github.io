@@ -5,12 +5,26 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 11 Mar 2026 19:09:11 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 12 Mar 2026 13:06:17 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <atom:author>
     <atom:name>K. Takahashi</atom:name>
     <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
   </atom:author>
+  <item>
+    <title>Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation</title>
+    <link>https://doi.org/10.5281/zenodo.18973272</link>
+    <guid isPermaLink="true">https://doi.org/10.5281/zenodo.18973272</guid>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <atom:author>
+      <atom:name>K. Takahashi</atom:name>
+      <atom:uri>https://orcid.org/0009-0004-4273-3365</atom:uri>
+    </atom:author>
+    <description><![CDATA[
+      Preprint — DOI: 10.5281/zenodo.18973272
+    ]]></description>
+  </item>
   <item>
     <title>AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration</title>
     <link>https://doi.org/10.5281/zenodo.18954286</link>
