@@ -8,6 +8,7 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 ## Canonical URLs
 
 - Home: https://kadubon.github.io/github.io/
+- No-Meta / Observable-Only Series Index: https://kadubon.github.io/github.io/no-meta-observable-index.html
 - Works (publication index): https://kadubon.github.io/github.io/works.html
 - RSS feed: https://kadubon.github.io/github.io/feed.xml
 - robots.txt: https://kadubon.github.io/github.io/robots.txt
@@ -17,6 +18,7 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 ## Discoverability and Machine Readability
 
 - Schema.org JSON-LD is embedded on key pages (`ProfilePage`, `Person`, `CollectionPage`, `ScholarlyArticle`, `TechArticle`, `CreativeWork`).
+- `no-meta-observable-index.html` provides a visible YAML canonical field guide for the no-meta / observable-only research series.
 - Semantic HTML5 tags provide clear document structure for parsers and crawlers.
 - Crawl entry points include internal links, RSS (`feed.xml`), `robots.txt`, and `sitemap.xml`.
 - Citation metadata is provided in `CITATION.cff` for GitHub and citation tooling.
@@ -31,6 +33,7 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 ## Main Pages
 
 - `index.html`: profile page and research program overview
+- `no-meta-observable-index.html`: canonical YAML field guide for the no-meta / observable-only series
 - `works.html`: reverse-chronological publication list with DOI links
 - `proposition-to-ai.html`: technical and philosophical framework for autonomous AI
 - `ai-evolution-protocol-v11.html`: protocol-oriented technical document
