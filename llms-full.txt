@@ -1,6 +1,6 @@
 # K. Takahashi Academic and Scientific Research Hub (Full Context)
 
-> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety and alignment, persistent semantics under ontology drift, self-organizing intelligence, and computational philosophy.
+> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety and alignment, shared epistemic commons, persistent semantics under ontology drift, self-organizing intelligence, and computational philosophy.
 
 This repository-backed website is designed for both humans and automated systems.
 The primary machine-readable publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
@@ -29,22 +29,29 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 - Observable-only and no-meta governance for AI safety.
 - Auditable control and verification protocols for autonomous systems.
-- Information-theoretic and geometric limits of persistent semantics under ontology drift.
+- Information-theoretic, thermodynamic, and geometric limits of persistent semantics under ontology drift.
 - Fail-closed verification, deterministic replay, and audit-certificate workflows.
+- Governance laws for shared epistemic commons under no-meta constraints.
 - Proof-carrying and evidence-carrying autonomy for reusable AI/LLM operations under resource constraints.
 - Self-organizing intelligence and computational philosophy.
 - Capability-to-real-economy translation under physical and institutional bottlenecks.
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 178.
-- Date span of listed works: 2025-07-25 to 2026-03-03.
-- Latest listed work (2026-03-03): [Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence](https://doi.org/10.5281/zenodo.18845340)
+- Publication entries in Works list: 184.
+- Date span of listed works: 2025-07-25 to 2026-03-13.
+- Latest listed work (2026-03-13): [Sovereign Epistemic Commons under No-Meta Governance](https://doi.org/10.5281/zenodo.18997828)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
-- RSS feed item count: 178 (matches publication list at current build state).
+- RSS feed item count: 184 (matches publication list at current build state).
 
 ## Most Recent Works
 
+- 2026-03-13: [Sovereign Epistemic Commons under No-Meta Governance](https://doi.org/10.5281/zenodo.18997828)
+- 2026-03-12: [Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation](https://doi.org/10.5281/zenodo.18973272)
+- 2026-03-11: [AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration](https://doi.org/10.5281/zenodo.18954286)
+- 2026-03-10: [When Should Inference Be Split? A Fixed-Budget Theory of Predictable Multi-Agent Advantage under Local Context Ceilings](https://doi.org/10.5281/zenodo.18932509)
+- 2026-03-08: [Search Stability under Finite Context: A Minimal Theory of Adequacy Preservation, Compression, and Reset in Long-Running Agents](https://doi.org/10.5281/zenodo.18905242)
+- 2026-03-06: [Proposal-Veto Balance for Observable-Only Autonomous Intelligence: Stability Thresholds, Identifiability Limits, and Commit-Window Effects](https://doi.org/10.5281/zenodo.18883290)
 - 2026-03-03: [Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence](https://doi.org/10.5281/zenodo.18845340)
 - 2026-03-02: [Sovereign Takeoff Engine (STE): Observable-Only Supergrowth Laws for No-Meta Autonomous Intelligence](https://doi.org/10.5281/zenodo.18828900)
 - 2026-02-26: [Constitutional Sovereignty Under No-Meta Drift](https://doi.org/10.5281/zenodo.18779490)
@@ -59,12 +66,6 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - 2026-02-16: [No-Meta Intelligence Under Ontology Drift: Information-Theoretic Limits and Operational Laws for Persistent Semantics](https://doi.org/10.5281/zenodo.18653537)
 - 2026-02-12: [Observable-Only AI Safety from Public Data: Robust Bottleneck Diagnosis with Auditable No-Meta Dynamic Programming, Anytime Confidence Sequences, and Dynamic IQC](https://doi.org/10.5281/zenodo.18615875)
 - 2026-02-10: [Quality-Operator Non-Collapse (QONC) for Observable-Certificate Recursive Systems](https://doi.org/10.5281/zenodo.18577140)
-- 2026-02-09: [Verifiable Modular Pipeline Contracts for AI and General Composite Systems](https://doi.org/10.5281/zenodo.18529100)
-- 2026-02-06: [Compute-First Safe LLM Routing Without Meta-Judges Observable Viability with Information and Energy Budgets](https://doi.org/10.5281/zenodo.18502390)
-- 2026-02-05: [Stop Recomputing for AI/LLMs: Proof-Carrying Skills for Compute-Saving Inference Reuse](https://doi.org/10.5281/zenodo.18490939)
-- 2026-02-04: [Evidence-Carrying Cognitive Mesh on DePIN](https://doi.org/10.5281/zenodo.18478743)
-- 2026-02-03: [When "Good vs. Bad Governance" Is Unidentifiable](https://doi.org/10.5281/zenodo.18465306)
-- 2026-02-03: [Observation Capture and Operational Capability Non-Expansion](https://doi.org/10.5281/zenodo.18463798)
 
 ## Foundational Early Works in the Corpus
 
