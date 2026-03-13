@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>No-Meta / Observable-Only Series Index | K. Takahashi</title>
-    <meta name="description" content="Machine-readable canonical field guide to the no-meta / observable-only research series on this site.">
-    <meta name="keywords" content="no-meta, observable-only, canonical index, AI safety, ontology drift, deterministic replay, auditability">
+    <meta name="description" content="Machine-readable canonical field guide to the no-meta / observable-only research series on this site, including governance-layer work on shared epistemic commons.">
+    <meta name="keywords" content="no-meta, observable-only, canonical index, epistemic commons, shared knowledge substrate, AI safety, ontology drift, deterministic replay, auditability">
     <meta name="author" content="K Takahashi">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <link rel="canonical" href="https://kadubon.github.io/github.io/no-meta-observable-index.html">
@@ -26,36 +26,111 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#webpage",
-      "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
-      "name": "No-Meta / Observable-Only Series Index",
-      "description": "Machine-readable canonical field guide to the no-meta / observable-only research series on this site.",
-      "inLanguage": "en",
-      "isPartOf": {
-        "@id": "https://kadubon.github.io/github.io/#website"
-      },
-      "about": {
-        "@id": "https://kadubon.github.io/github.io/#person"
-      },
-      "mainEntity": {
-        "@type": "Dataset",
-        "name": "No-Meta / Observable-Only Series Index YAML",
-        "description": "Visible YAML dataset that indexes the no-meta / observable-only research series, including canonical terms, paper roles, reading paths, dependencies, and repository mappings.",
-        "encodingFormat": "text/yaml",
-        "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
-        "creator": {
-          "@type": "Person",
-          "name": "K Takahashi",
-          "url": "https://kadubon.github.io/github.io/",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#webpage",
+          "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+          "name": "No-Meta / Observable-Only Series Index",
+          "description": "Machine-readable canonical field guide to the no-meta / observable-only research series on this site, including governance-layer work on shared epistemic commons.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-13",
+          "keywords": [
+            "no-meta",
+            "observable-only",
+            "epistemic commons",
+            "shared knowledge substrate",
+            "ontology drift",
+            "deterministic replay",
+            "auditability"
+          ],
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "about": {
+            "@id": "https://kadubon.github.io/github.io/#person"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset"
+          },
+          "mentions": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.18997828"
+            }
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset",
+          "name": "No-Meta / Observable-Only Series Index YAML",
+          "description": "Visible YAML dataset that indexes the no-meta / observable-only research series, including canonical terms, paper roles, reading paths, dependencies, repository mappings, and governance-layer papers on shared epistemic commons.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+          "dateModified": "2026-03-13",
+          "keywords": [
+            "no-meta governance",
+            "observable-only",
+            "epistemic commons",
+            "machine-readable index"
+          ],
+          "creator": {
+            "@type": "Person",
+            "name": "K Takahashi",
+            "url": "https://kadubon.github.io/github.io/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "ORCID",
+              "value": "0009-0004-4273-3365"
+            }
+          },
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "hasPart": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.18997828"
+            }
+          ]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.18997828",
           "identifier": {
             "@type": "PropertyValue",
-            "propertyID": "ORCID",
-            "value": "0009-0004-4273-3365"
-          }
-        },
-        "license": "https://creativecommons.org/licenses/by/4.0/"
-      }
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.18997828",
+            "url": "https://doi.org/10.5281/zenodo.18997828"
+          },
+          "name": "Sovereign Epistemic Commons under No-Meta Governance",
+          "url": "https://doi.org/10.5281/zenodo.18997828",
+          "sameAs": "https://zenodo.org/records/18997828",
+          "datePublished": "2026-03-13",
+          "inLanguage": "en",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "K Takahashi",
+              "sameAs": "https://orcid.org/0009-0004-4273-3365"
+            }
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "Zenodo"
+          },
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "abstract": "Sovereign Epistemic Commons under No-Meta Governance develops a governance-layer theory for shared epistemic commons: persistent knowledge substrates jointly maintained by autonomous agents under finite budgets, asynchronous visibility, provenance uncertainty, recursive regeneration, and the absence of any privileged semantic judge. Rather than replacing lower-layer theories of persistent semantics, observability metrology, constitutional revision, agenda coupling, or liberty under drift, the paper treats them as fallible operational interfaces and focuses on a narrower question: which observable governance laws allow a shared commons to preserve protected-query answerability, structured contradiction, anti-capture slack, and controlled exit without collapsing under endogenous contamination, hidden common causes, interference, bridge oligarchy, or tombstone growth. The framework is operationalized through machine-readable governance profiles, estimator recipes, and a toy distributed key-value / retrieval commons.",
+          "keywords": [
+            "epistemic commons",
+            "no-meta governance",
+            "shared memory",
+            "agent society",
+            "contradiction reserve",
+            "anti-capture",
+            "controlled exit",
+            "provenance",
+            "observability",
+            "ontology drift"
+          ]
+        }
+      ]
     }
     </script>
 </head>
@@ -79,7 +154,7 @@
             <p class="index-note">It indexes the core papers, terms, read paths, and adjacent machine-readable artifacts used for navigation.</p>
             <p class="index-note">Use the YAML below as the primary source for parsing this series and locating the underlying papers.</p>
             <!-- Visible YAML below is the canonical navigation index for human readers and AI agents. -->
-            <pre class="yaml-index">series:
+            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-03-13" aria-label="Canonical YAML index for the no-meta observable-only series">series:
   id: no-meta-observable-only-series
   title: "No-Meta / Observable-Only Research Series"
   status: active
@@ -145,6 +220,16 @@ machine_parse_guide:
         - metrology-theoretic-epistemics-engine
         - proposal-veto-balance
       stop_when: The parser can explain why the series routes governance through observable evidence, fail-closed checks, and bounded progress credit.
+    - question: how-is-shared-epistemic-commons-governed
+      read_first:
+        - sovereign-epistemic-commons-under-no-meta-governance
+        - metrology-theoretic-epistemics-engine
+        - constitutional-sovereignty-under-no-meta-drift
+      read_next:
+        - agenda-sovereignty-under-no-meta-drift
+        - liberty-under-no-meta-drift
+        - observation-capture-and-operational-capability-non-expansion
+      stop_when: The parser can state which observable governance laws preserve protected-query answerability, structured contradiction, anti-capture slack, and controlled exit for a shared commons without privileged semantic judges.
     - question: which-repositories-implement-or-test-which-papers
       read_first:
         - metrology-theoretic-epistemics-engine
@@ -192,8 +277,16 @@ read_paths:
     - agenda-sovereignty-under-no-meta-drift
     - constitutional-sovereignty-under-no-meta-drift
     - metrology-theoretic-epistemics-engine
+    - sovereign-epistemic-commons-under-no-meta-governance
     - sovereign-takeoff-engine
     - proposal-veto-balance
+  commons:
+    - no-meta-intelligence-under-ontology-drift
+    - liberty-under-no-meta-drift
+    - agenda-sovereignty-under-no-meta-drift
+    - constitutional-sovereignty-under-no-meta-drift
+    - metrology-theoretic-epistemics-engine
+    - sovereign-epistemic-commons-under-no-meta-governance
   diagnosis:
     - when-good-vs-bad-governance-is-unidentifiable
     - observation-capture-and-operational-capability-non-expansion
@@ -286,6 +379,12 @@ canonical_terms:
     primary_papers:
       - observable-only-proof-carrying-autonomy
       - proof-carrying-skills
+  - term: epistemic commons
+    definition: Persistent shared knowledge substrate jointly maintained by autonomous agents under finite budgets, asynchronous visibility, provenance uncertainty, recursive regeneration, and no privileged semantic judge.
+    needed_for: Parse how the series extends no-meta governance from single-agent or protocol control surfaces to shared memory, retrieval, and collective knowledge maintenance.
+    primary_papers:
+      - sovereign-epistemic-commons-under-no-meta-governance
+      - metrology-theoretic-epistemics-engine
 
 papers:
   - id: floor-specified-no-meta-autonomy
@@ -574,6 +673,35 @@ papers:
       - observable-only autonomy
       - commit windows
       - error debt
+  - id: sovereign-epistemic-commons-under-no-meta-governance
+    title: "Sovereign Epistemic Commons under No-Meta Governance"
+    published: 2026-03-13
+    role: governance-boundary
+    priority: core
+    answers:
+      - how-is-shared-epistemic-commons-governed
+      - how-is-capture-bounded-in-shared-memory
+      - how-are-contradictions-preserved-without-meta-judges
+    contributes:
+      - governance laws for shared epistemic commons
+      - contradiction reserve and anti-capture slack
+      - controlled exit and no-meta garbage-collection limits
+    depends_on:
+      - no-meta-intelligence-under-ontology-drift
+      - liberty-under-no-meta-drift
+      - agenda-sovereignty-under-no-meta-drift
+      - constitutional-sovereignty-under-no-meta-drift
+      - metrology-theoretic-epistemics-engine
+    links:
+      doi: https://doi.org/10.5281/zenodo.18997828
+      zenodo: https://zenodo.org/records/18997828
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - epistemic commons
+      - contradiction reserve
+      - anti-capture slack
+      - controlled exit
   - id: observable-only-ai-safety-from-public-data
     title: "Observable-Only AI Safety from Public Data: Robust Bottleneck Diagnosis with Auditable No-Meta Dynamic Programming, Anytime Confidence Sequences, and Dynamic IQC"
     published: 2026-02-12
@@ -914,8 +1042,8 @@ usage_notes:
     missing_priority_defaults_to: supporting
   repository_parsing_hint: When a repository entry includes machine_entrypoints, prefer those files over README prose for paper-to-repo linkage.
   update_policy: Update this page when a new site-local paper or artifact clearly belongs to the no-meta / observable-only series; preserve stable ids and omit uncertain dependency claims.
-  version: 1.2.0
-  last_updated: 2026-03-10</pre>
+  version: 1.3.0
+  last_updated: 2026-03-13</pre>
         </section>
     </main>
 
