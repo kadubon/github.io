@@ -1,9 +1,9 @@
 # K. Takahashi Academic and Scientific Research Hub
 
 This repository hosts a personal academic and scientific research hub website.
-It publishes and curates original research by K. Takahashi in AI safety/alignment, no-meta governance, self-organizing systems, and computational philosophy.
+It publishes and curates original research by K. Takahashi in AI safety/alignment, no-meta governance, and auditable autonomous intelligence.
 
-Keywords: academic website, scientific research hub, AI safety, AI alignment, no-meta governance, self-organizing systems, computational philosophy, machine-readable metadata.
+Keywords: academic website, scientific research hub, AI safety, AI alignment, no-meta governance, auditable autonomous intelligence, machine-readable metadata.
 
 ## Canonical URLs
 
@@ -27,8 +27,7 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 
 - Autonomous and auditable AI systems
 - AI safety and alignment under no-meta governance
-- Self-organizing and self-improving intelligence
-- Computational philosophy and formal theory
+- Formal theory of intelligence
 
 ## Main Pages
 
