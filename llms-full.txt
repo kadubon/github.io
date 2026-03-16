@@ -32,20 +32,22 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Information-theoretic, thermodynamic, and geometric limits of persistent semantics under ontology drift.
 - Fail-closed verification, deterministic replay, and audit-certificate workflows.
 - Governance laws for shared epistemic commons under no-meta constraints.
+- Stability criteria for recursive self-improvement under endogenous yardstick drift.
 - Proof-carrying and evidence-carrying autonomy for reusable AI/LLM operations under resource constraints.
 - Self-organizing intelligence and computational philosophy.
 - Capability-to-real-economy translation under physical and institutional bottlenecks.
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 184.
-- Date span of listed works: 2025-07-25 to 2026-03-13.
-- Latest listed work (2026-03-13): [Sovereign Epistemic Commons under No-Meta Governance](https://doi.org/10.5281/zenodo.18997828)
+- Publication entries in Works list: 185.
+- Date span of listed works: 2025-07-25 to 2026-03-16.
+- Latest listed work (2026-03-16): [Recursive Self-Improvement Stability under Endogenous Yardstick Drift](https://doi.org/10.5281/zenodo.19044634)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
-- RSS feed item count: 184 (matches publication list at current build state).
+- RSS feed item count: 185.
 
 ## Most Recent Works
 
+- 2026-03-16: [Recursive Self-Improvement Stability under Endogenous Yardstick Drift](https://doi.org/10.5281/zenodo.19044634)
 - 2026-03-13: [Sovereign Epistemic Commons under No-Meta Governance](https://doi.org/10.5281/zenodo.18997828)
 - 2026-03-12: [Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation](https://doi.org/10.5281/zenodo.18973272)
 - 2026-03-11: [AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration](https://doi.org/10.5281/zenodo.18954286)
@@ -65,7 +67,6 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - 2026-02-17: [Observable-Only Structural-Risk Institutions Without Central Arbitration](https://doi.org/10.5281/zenodo.18666605)
 - 2026-02-16: [No-Meta Intelligence Under Ontology Drift: Information-Theoretic Limits and Operational Laws for Persistent Semantics](https://doi.org/10.5281/zenodo.18653537)
 - 2026-02-12: [Observable-Only AI Safety from Public Data: Robust Bottleneck Diagnosis with Auditable No-Meta Dynamic Programming, Anytime Confidence Sequences, and Dynamic IQC](https://doi.org/10.5281/zenodo.18615875)
-- 2026-02-10: [Quality-Operator Non-Collapse (QONC) for Observable-Certificate Recursive Systems](https://doi.org/10.5281/zenodo.18577140)
 
 ## Foundational Early Works in the Corpus
 

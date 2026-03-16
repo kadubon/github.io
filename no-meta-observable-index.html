@@ -34,7 +34,7 @@
           "name": "No-Meta / Observable-Only Series Index",
           "description": "Machine-readable canonical field guide to the no-meta / observable-only research series on this site, including governance-layer work on shared epistemic commons.",
           "inLanguage": "en",
-          "dateModified": "2026-03-13",
+          "dateModified": "2026-03-16",
           "keywords": [
             "no-meta",
             "observable-only",
@@ -42,7 +42,8 @@
             "shared knowledge substrate",
             "ontology drift",
             "deterministic replay",
-            "auditability"
+            "auditability",
+            "Superintelligence"
           ],
           "isPartOf": {
             "@id": "https://kadubon.github.io/github.io/#website"
@@ -52,11 +53,7 @@
           },
           "mainEntity": {
             "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset"
-          },
-          "mentions": [
-            {
-              "@id": "https://doi.org/10.5281/zenodo.18997828"
-            }
+          }
           ]
         },
         {
@@ -66,7 +63,7 @@
           "description": "Visible YAML dataset that indexes the no-meta / observable-only research series, including canonical terms, paper roles, reading paths, dependencies, repository mappings, and governance-layer papers on shared epistemic commons.",
           "encodingFormat": "text/yaml",
           "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
-          "dateModified": "2026-03-13",
+          "dateModified": "2026-03-16",
           "keywords": [
             "no-meta governance",
             "observable-only",
@@ -111,7 +108,7 @@
             <p class="index-note">It indexes the core papers, terms, read paths, and adjacent machine-readable artifacts used for navigation.</p>
             <p class="index-note">Use the YAML below as the primary source for parsing this series and locating the underlying papers.</p>
             <!-- Visible YAML below is the canonical navigation index for human readers and AI agents. -->
-            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-03-13" aria-label="Canonical YAML index for the no-meta observable-only series">series:
+            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-03-16" aria-label="Canonical YAML index for the no-meta observable-only series">series:
   id: no-meta-observable-only-series
   title: "No-Meta / Observable-Only Research Series"
   status: active
@@ -250,6 +247,7 @@ read_paths:
     - observable-only-ai-safety-from-public-data
     - observable-only-structural-risk-institutions
     - verification-limited-intelligence-acceleration
+    - recursive-self-improvement-stability-under-endogenous-yardstick-drift
   experiments:
     - audit-closed-ai-scientist-protocol
     - metrology-theoretic-epistemics-engine
@@ -499,6 +497,29 @@ papers:
       - observable-only laws
       - fail-closed verification
       - diagnostics
+  - id: recursive-self-improvement-stability-under-endogenous-yardstick-drift
+    title: "Recursive Self-Improvement Stability under Endogenous Yardstick Drift"
+    published: 2026-03-16
+    role: diagnosis-stability
+    priority: supporting
+    answers:
+      - how-is-recursive-self-improvement-stabilized
+      - how-is-claimed-improvement-distinguished-from-stable-improvement
+      - how-does-endogenous-yardstick-drift-affect-governance
+    contributes:
+      - interface theory for endogenous yardstick drift
+      - replayable conditions for stable improvement
+      - delayed-audit and verification-backlog governance constraints
+    depends_on: []
+    links:
+      doi: https://doi.org/10.5281/zenodo.19044634
+      html: https://kadubon.github.io/github.io/works.html
+      pdf: null
+    keywords:
+      - recursive self-improvement
+      - endogenous yardstick drift
+      - evaluator drift
+      - verification backlog
   - id: liberty-under-no-meta-drift
     title: "Liberty Under No-Meta Drift"
     published: 2026-02-24
@@ -999,8 +1020,8 @@ usage_notes:
     missing_priority_defaults_to: supporting
   repository_parsing_hint: When a repository entry includes machine_entrypoints, prefer those files over README prose for paper-to-repo linkage.
   update_policy: Update this page when a new site-local paper or artifact clearly belongs to the no-meta / observable-only series; preserve stable ids and omit uncertain dependency claims.
-  version: 1.3.0
-  last_updated: 2026-03-13</pre>
+  version: 1.4.0
+  last_updated: 2026-03-16</pre>
         </section>
     </main>
 
