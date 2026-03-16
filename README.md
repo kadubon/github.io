@@ -35,8 +35,6 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 - `index.html`: profile page and research program overview
 - `no-meta-observable-index.html`: canonical YAML field guide for the no-meta / observable-only series
 - `works.html`: reverse-chronological publication list with DOI links
-- `proposition-to-ai.html`: technical and philosophical framework for autonomous AI
-- `ai-evolution-protocol-v11.html`: protocol-oriented technical document
 - `unframing.html`: philosophical work
 
 ## Citation
