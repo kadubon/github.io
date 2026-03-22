@@ -21,9 +21,6 @@ The primary machine-readable publication corpus is `works.html`, where each item
 3. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
 4. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
 5. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
-6. [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented thematic context.
-7. [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol charter and reference set.
-8. [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): philosophical context.
 
 ## Research Program Summary
 
@@ -39,14 +36,15 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 185.
-- Date span of listed works: 2025-07-25 to 2026-03-16.
-- Latest listed work (2026-03-16): [Recursive Self-Improvement Stability under Endogenous Yardstick Drift](https://doi.org/10.5281/zenodo.19044634)
+- Publication entries in Works list: 187.
+- Date span of listed works: 2025-07-25 to 2026-03-22.
+- Latest listed work (2026-03-22): [Self-Concealing Information and Observer-Modifying Dynamics](https://doi.org/10.5281/zenodo.19161562)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 - RSS feed item count: 185.
 
 ## Most Recent Works
 
+- 2026-03-22: [Self-Concealing Information and Observer-Modifying Dynamics](https://doi.org/10.5281/zenodo.19161562)
 - 2026-03-16: [Recursive Self-Improvement Stability under Endogenous Yardstick Drift](https://doi.org/10.5281/zenodo.19044634)
 - 2026-03-13: [Sovereign Epistemic Commons under No-Meta Governance](https://doi.org/10.5281/zenodo.18997828)
 - 2026-03-12: [Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation](https://doi.org/10.5281/zenodo.18973272)
