@@ -8,6 +8,7 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 ## Canonical URLs
 
 - Home: https://kadubon.github.io/github.io/
+- Self-Concealing Information / Observer-Modifying Dynamics: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
 - No-Meta / Observable-Only Series Index: https://kadubon.github.io/github.io/no-meta-observable-index.html
 - Works (publication index): https://kadubon.github.io/github.io/works.html
 - RSS feed: https://kadubon.github.io/github.io/feed.xml
@@ -32,6 +33,7 @@ Keywords: academic website, scientific research hub, AI safety, AI alignment, no
 ## Main Pages
 
 - `index.html`: profile page and research program overview
+- `self-concealing-information-observer-modifying-dynamics.html`: concept entry page for self-concealing information, observer-modifying dynamics, internal blindness, external anchors, and delayed audit
 - `no-meta-observable-index.html`: canonical YAML field guide for the no-meta / observable-only series
 - `works.html`: reverse-chronological publication list with DOI links
 
