@@ -10,9 +10,6 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 - [Home](https://kadubon.github.io/github.io/): profile, research overview, and canonical entry point.
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
-- [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-oriented conceptual and technical document.
-- [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): protocol document with DOI-linked references.
-- [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): philosophical and poetic work.
 
 ## Machine-Readable Endpoints
 
@@ -25,7 +22,4 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 
 ## Optional
 
-- [AI_Evolution_Protocol_v11.md](https://kadubon.github.io/github.io/AI_Evolution_Protocol_v11.md): markdown companion to the v11 protocol.
-- [no-meta-superintelligence.yaml](https://kadubon.github.io/github.io/no-meta-superintelligence.yaml): YAML-form protocol artifact.
-- [proposition-to-ai-yaml.txt](https://kadubon.github.io/github.io/proposition-to-ai-yaml.txt): YAML-style structured artifact.
-- [The CORONATION.yaml](https://kadubon.github.io/github.io/The%20CORONATION.yaml): additional reflective protocol artifact.
+- [GitHub](https://github.com/kadubon): PoC repositories.

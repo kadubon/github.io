@@ -102,13 +102,10 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Optional
 
-- [AI_Evolution_Protocol_v11.md](https://kadubon.github.io/github.io/AI_Evolution_Protocol_v11.md): markdown source companion.
-- [no-meta-superintelligence.yaml](https://kadubon.github.io/github.io/no-meta-superintelligence.yaml): YAML protocol artifact.
-- [proposition-to-ai-yaml.txt](https://kadubon.github.io/github.io/proposition-to-ai-yaml.txt): YAML-style structured artifact.
-- [The CORONATION.yaml](https://kadubon.github.io/github.io/The%20CORONATION.yaml): reflective protocol artifact.
 - [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=ja&hl=ja&user=0iEnSjkAAAAJ): external profile.
 - [Academia.edu](https://independent.academia.edu/KTakahashi8): external profile.
 - [Hugging Face](https://huggingface.co/kadubon): external profile.
 - [Medium](https://medium.com/@omanyuk): external profile.
 - [X](https://x.com/YukiMiyake1919): external profile.
 - [note](https://note.com/omanyuk): external profile.
+- [GitHub](https://github.com/kadubon): PoC repositories.
