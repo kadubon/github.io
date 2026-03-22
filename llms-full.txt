@@ -82,9 +82,6 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - [Home](https://kadubon.github.io/github.io/): profile and high-level overview.
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Works](https://kadubon.github.io/github.io/works.html): full publication index with structured metadata.
-- [No-Meta Superintelligence Bootloader](https://kadubon.github.io/github.io/proposition-to-ai.html): protocol-focused technical and philosophical document.
-- [Autonomous Intelligence Evolution Protocol (v11)](https://kadubon.github.io/github.io/ai-evolution-protocol-v11.html): standalone protocol document and references.
-- [The Book of Unframing](https://kadubon.github.io/github.io/unframing.html): non-prescriptive philosophical and poetic text.
 
 ## Machine-Readable and Citation Endpoints
 
