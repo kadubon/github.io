@@ -36,14 +36,15 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 187.
-- Date span of listed works: 2025-07-25 to 2026-03-22.
-- Latest listed work (2026-03-22): [Self-Concealing Information and Observer-Modifying Dynamics](https://doi.org/10.5281/zenodo.19161562)
+- Publication entries in Works list: 188.
+- Date span of listed works: 2025-07-25 to 2026-03-26.
+- Latest listed work (2026-03-26): [A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation](https://doi.org/10.5281/zenodo.19231780)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 - RSS feed item count: 185.
 
 ## Most Recent Works
 
+- 2026-03-26: [A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation](https://doi.org/10.5281/zenodo.19231780)
 - 2026-03-22: [Self-Concealing Information and Observer-Modifying Dynamics](https://doi.org/10.5281/zenodo.19161562)
 - 2026-03-16: [Recursive Self-Improvement Stability under Endogenous Yardstick Drift](https://doi.org/10.5281/zenodo.19044634)
 - 2026-03-13: [Sovereign Epistemic Commons under No-Meta Governance](https://doi.org/10.5281/zenodo.18997828)
@@ -108,4 +109,4 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - [Medium](https://medium.com/@omanyuk): external profile.
 - [X](https://x.com/YukiMiyake1919): external profile.
 - [note](https://note.com/omanyuk): external profile.
-- [GitHub](https://github.com/kadubon): PoC repositories.
+- [GitHub](https://github.com/kadubon): PoC repositories and external profile.
