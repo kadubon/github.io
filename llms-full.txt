@@ -36,14 +36,15 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 189.
-- Date span of listed works: 2025-07-25 to 2026-03-28.
-- Latest listed work (2026-03-28): [Record Absence and Preference Reorganization on a Fixed Comparison Frame](https://doi.org/10.5281/zenodo.19272154)
+- Publication entries in Works list: 190.
+- Date span of listed works: 2025-07-25 to 2026-03-29.
+- Latest listed work (2026-03-29): [Classification-Induced Cognitive Drift](https://doi.org/10.5281/zenodo.19306514)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 - RSS feed item count: 185.
 
 ## Most Recent Works
 
+- 2026-03-29: [Classification-Induced Cognitive Drift](https://doi.org/10.5281/zenodo.19306514)
 - 2026-03-28: [Record Absence and Preference Reorganization on a Fixed Comparison Frame](https://doi.org/10.5281/zenodo.19272154)
 - 2026-03-26: [A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation](https://doi.org/10.5281/zenodo.19231780)
 - 2026-03-22: [Self-Concealing Information and Observer-Modifying Dynamics](https://doi.org/10.5281/zenodo.19161562)
