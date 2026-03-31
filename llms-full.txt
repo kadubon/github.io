@@ -1,6 +1,6 @@
 # K. Takahashi Academic and Scientific Research Hub (Full Context)
 
-> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety and alignment, shared epistemic commons, persistent semantics under ontology drift, self-organizing intelligence, and computational philosophy.
+> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety, persistent semantics under ontology drift, shared epistemic commons, semantic translation, reflexive classification, observer-modifying dynamics, and computer science.
 
 This repository-backed website is designed for both humans and automated systems.
 The primary machine-readable publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
@@ -30,20 +30,24 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Fail-closed verification, deterministic replay, and audit-certificate workflows.
 - Governance laws for shared epistemic commons under no-meta constraints.
 - Stability criteria for recursive self-improvement under endogenous yardstick drift.
+- Semantic translation, accountable semantics, and symbolically checkable contract calculi.
+- Reflexive classification, cognitive drift, and deployment-aware evaluation loops.
+- Observer-modifying information, self-concealment, delayed audit, and diagnosability.
 - Proof-carrying and evidence-carrying autonomy for reusable AI/LLM operations under resource constraints.
 - Self-organizing intelligence and computational philosophy.
 - Capability-to-real-economy translation under physical and institutional bottlenecks.
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 190.
-- Date span of listed works: 2025-07-25 to 2026-03-29.
-- Latest listed work (2026-03-29): [Classification-Induced Cognitive Drift](https://doi.org/10.5281/zenodo.19306514)
+- Publication entries in Works list: 191.
+- Date span of listed works: 2025-07-25 to 2026-03-31.
+- Latest listed work (2026-03-31): [Observer-Modifying Contagion on Networks](https://doi.org/10.5281/zenodo.19342966)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 - RSS feed item count: 185.
 
 ## Most Recent Works
 
+- 2026-03-31: [Observer-Modifying Contagion on Networks](https://doi.org/10.5281/zenodo.19342966)
 - 2026-03-29: [Classification-Induced Cognitive Drift](https://doi.org/10.5281/zenodo.19306514)
 - 2026-03-28: [Record Absence and Preference Reorganization on a Fixed Comparison Frame](https://doi.org/10.5281/zenodo.19272154)
 - 2026-03-26: [A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation](https://doi.org/10.5281/zenodo.19231780)
@@ -99,7 +103,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 - For citable outputs, prefer DOI targets from Works.
 - For complete local metadata in one page, prefer Works JSON-LD plus HTML list.
-- Use feed polling for change detection; do not infer completeness from social links.
+- Use feed polling for change detection, but prefer Works over RSS for complete corpus counts because the feed can lag behind the works index.
 - Treat `unframing.html` as philosophical context, not a normative technical specification.
 - Treat YAML/TXT artifacts below as supplemental structured context.
 
