@@ -8,11 +8,25 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 ## Core Pages
 
 - [Home](https://kadubon.github.io/github.io/): profile, research overview, and canonical entry point.
+- [Self-Concealing Information / Observer-Modifying Dynamics](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): cluster landing page for self-concealing information, observer-modifying dynamics, delayed audit, and adjacent provenance or cognitive-drift papers.
+- [Auditability / Replay / Fail-Closed AI Systems](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html): cluster landing page for auditability, deterministic replay, fail-closed verification, audit gates, certification, and deployment safety.
+- [Long-Running Agents / Memory Limits / Multi-Agent Reasoning](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html): cluster landing page for long-running agents, bounded memory, finite context, multi-agent inference, recursive self-improvement stability, and benchmark decay.
+- [Provenance / Records / Semantic Interfaces](https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html): cluster landing page for provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying infrastructure.
+- [Self-Improving Intelligence Foundations](https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html): cluster landing page for earlier self-improving intelligence, recursive self-modification, cognitive architecture, active inference, and categorical or geometric foundations.
+- [Theory Translation / Comparative Mathematics](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): cluster landing page for theory translation, comparative mathematics, categorical semantics, profunctor-based comparison, and theorem transport across formal universes.
+- [Propagation / Front Dynamics / Persistence](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): cluster landing page for persistence as closure, propagation dynamics, reaction-diffusion style models, front speed, and viable predictive organization.
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
 
 ## Machine-Readable Endpoints
 
+- [Self-Concealing Cluster Page](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): visible YAML and cluster navigation for observer-modifying and delayed-audit topics.
+- [Auditability Cluster Page](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html): visible YAML and cluster navigation for auditability, replay, and fail-closed AI systems.
+- [Long-Running Agents Cluster Page](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html): visible YAML and cluster navigation for finite-context agents and multi-agent reasoning.
+- [Provenance Cluster Page](https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html): visible YAML and cluster navigation for provenance, records, semantic translation, and evidence-carrying retrieval.
+- [Self-Improving Foundations Page](https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html): visible YAML and cluster navigation for earlier self-improving intelligence and cognitive-architecture foundations.
+- [Theory Translation Page](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): visible YAML and cluster navigation for comparative mathematics, theory translation, and theorem transport.
+- [Propagation and Persistence Page](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): visible YAML and cluster navigation for persistence, closure-based dynamics, propagation, and front speed.
 - [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): visible YAML canonical navigation index for the no-meta / observable-only series, including repository linkage.
 - [RSS Feed](https://kadubon.github.io/github.io/feed.xml): update polling for publication additions.
 - [Citation Metadata](https://kadubon.github.io/github.io/CITATION.cff): repository citation metadata (includes ORCID and canonical URLs).

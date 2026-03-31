@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provenance, Records, and Semantic Interfaces | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for provenance, record absence, legacy claims, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying semantic infrastructure papers on K. Takahashi's site.">
+    <meta name="keywords" content="provenance, record absence, legacy claims, semantic translation, accountable interfaces, semantic audit, record-grounded update, provenance uncertainty, shared epistemic memory, retrieval-grounded AI, knowledge governance, bridge contracts, round-trip accountability, content-addressed evidence, semantic claim graph, evidence-carrying systems, interoperability, ontology drift, default reasoning, RAG governance">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <meta property="og:title" content="Provenance, Records, and Semantic Interfaces">
+    <meta property="og:description" content="Canonical field guide to provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying semantic infrastructure papers on this site.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Provenance, Records, and Semantic Interfaces">
+    <meta name="twitter:description" content="Canonical field guide to provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, semantic audit, and evidence-carrying systems.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero p,
+        .section-copy p,
+        .machine-copy p,
+        .cluster-copy p,
+        .index-note {
+            margin: 0 0 1rem;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .site-title {
+            text-align: center;
+            margin: 0 0 10px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .hero .eyebrow {
+            color: #555;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.08rem;
+            color: #444;
+        }
+
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .section-nav ul,
+        .machine-list,
+        .path-list,
+        .question-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .machine-list,
+        .path-list,
+        .question-list {
+            list-style: disc;
+            padding-left: 1.35rem;
+        }
+
+        .machine-list li,
+        .path-list li,
+        .question-list li {
+            margin: 0 0 0.75rem;
+        }
+
+        .section-nav ul {
+            list-style: disc;
+            padding-left: 1.35rem;
+            text-align: left;
+        }
+
+        .section-nav li {
+            display: list-item;
+            margin: 0 0 0.55rem;
+        }
+
+        .section-nav a,
+        .machine-list a,
+        .path-list a {
+            text-decoration: none;
+        }
+
+        .section-nav a:hover,
+        .machine-list a:hover,
+        .path-list a:hover {
+            text-decoration: underline;
+        }
+
+        .card-grid,
+        .paper-grid,
+        .concept-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .panel-card,
+        .paper-card,
+        .concept-card {
+            border: 1px solid #dfe5ec;
+            border-radius: 6px;
+            padding: 1rem 1rem 0.9rem;
+            background-color: #fcfdff;
+        }
+
+        .panel-card h3,
+        .paper-card h3,
+        .paper-card h4,
+        .concept-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+        }
+
+        .paper-meta,
+        .paper-role {
+            font-weight: 700;
+            color: #444;
+        }
+
+        .paper-meta {
+            display: block;
+            margin-bottom: 0.45rem;
+        }
+
+        .paper-role {
+            margin-bottom: 0.7rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            border: 1px solid #d9e0e8;
+            border-radius: 6px;
+            background-color: #fafcff;
+            padding: 1rem;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kadubon.github.io/github.io/#website",
+          "url": "https://kadubon.github.io/github.io/",
+          "name": "K. Takahashi Research Hub",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html#webpage",
+          "url": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html",
+          "name": "Provenance, Records, and Semantic Interfaces",
+          "description": "Canonical site-local landing page for provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying semantic infrastructure.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-31",
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html#dataset"
+          },
+          "hasPart": {
+            "@id": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html#paper-list"
+          }
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html#dataset",
+          "name": "Provenance / Records / Semantic Interfaces Cluster YAML",
+          "description": "Visible YAML field guide indexing the site-local research cluster on provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying infrastructure.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html",
+          "dateModified": "2026-03-31"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html#paper-list",
+          "name": "Provenance / Records / Semantic Interfaces Cluster Papers",
+          "numberOfItems": 10,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Record Absence and Preference Reorganization on a Fixed Comparison Frame",
+                "datePublished": "2026-03-28",
+                "identifier": "https://doi.org/10.5281/zenodo.19272154",
+                "url": "https://doi.org/10.5281/zenodo.19272154"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation",
+                "datePublished": "2026-03-26",
+                "identifier": "https://doi.org/10.5281/zenodo.19231780",
+                "url": "https://doi.org/10.5281/zenodo.19231780"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Sovereign Epistemic Commons under No-Meta Governance",
+                "datePublished": "2026-03-13",
+                "identifier": "https://doi.org/10.5281/zenodo.18997828",
+                "url": "https://doi.org/10.5281/zenodo.18997828"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Evidence-Carrying Cognitive Mesh on DePIN",
+                "datePublished": "2026-02-04",
+                "identifier": "https://doi.org/10.5281/zenodo.18478743",
+                "url": "https://doi.org/10.5281/zenodo.18478743"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Self-Concealing Information and Observer-Modifying Dynamics",
+                "datePublished": "2026-03-22",
+                "identifier": "https://doi.org/10.5281/zenodo.19161562",
+                "url": "https://doi.org/10.5281/zenodo.19161562"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Counterfactually Auditable Lifecycle Certification for Autonomous Agents",
+                "datePublished": "2026-03-18",
+                "identifier": "https://doi.org/10.5281/zenodo.19089134",
+                "url": "https://doi.org/10.5281/zenodo.19089134"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Classification-Induced Cognitive Drift",
+                "datePublished": "2026-03-29",
+                "identifier": "https://doi.org/10.5281/zenodo.19306514",
+                "url": "https://doi.org/10.5281/zenodo.19306514"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation",
+                "datePublished": "2026-03-12",
+                "identifier": "https://doi.org/10.5281/zenodo.18973272",
+                "url": "https://doi.org/10.5281/zenodo.18973272"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Recursive Self-Improvement Stability under Endogenous Yardstick Drift",
+                "datePublished": "2026-03-16",
+                "identifier": "https://doi.org/10.5281/zenodo.19044634",
+                "url": "https://doi.org/10.5281/zenodo.19044634"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Observation Capture and Operational Capability Non-Expansion",
+                "datePublished": "2026-02-03",
+                "identifier": "https://doi.org/10.5281/zenodo.18463798",
+                "url": "https://doi.org/10.5281/zenodo.18463798"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <p class="site-title">K. Takahashi</p>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header class="container hero">
+                <p class="eyebrow">Canonical Cluster Landing Page</p>
+                <h1>Provenance, Records, and Semantic Interfaces</h1>
+                <div class="summary-stack" aria-label="Top summary">
+                    <p>This page is the canonical landing page for the site-local research cluster on provenance, record absence, legacy claims, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying semantic infrastructure.</p>
+                    <p>On this site, provenance, records, and semantic interfaces matter because missing records, uncertain lineages, and unaudited translations can change which claims remain comparable, what updates are justified, and whether later audit remains possible.</p>
+                    <p>This cluster is relevant to retrieval, auditability, interoperability, and governance because AI and multi-agent knowledge systems depend on record-grounded updates, accountable bridge contracts, shared memory rules, and evidence surfaces that survive ontology drift and semantic mismatch.</p>
+                </div>
+                <p class="subtitle">Field guide and machine-readable series map for the site's papers on provenance, records, semantic translation, shared epistemic memory, and evidence-carrying infrastructure.</p>
+            </header>
+
+            <section class="container section-copy" aria-labelledby="intro-heading">
+                <h2 id="intro-heading">Introduction</h2>
+                <p>Records and provenance matter because claims are often compared long after they were first made, under changed ontologies, partial archives, and uncertain evidence lineages. In that setting, what is missing from the record can be as important as what remains present.</p>
+                <p>That is why this local cluster includes work on record absence, legacy claims, and fixed comparison frames. If records are incomplete or only approximately absent, justified preference over older claims may change, and the update should be grounded in auditable certificates rather than informal retrospective narratives.</p>
+                <p>Semantic translation raises a related problem. When systems, agents, or domains use different representational schemes, translation cannot be treated as a free equivalence claim. It needs accountable contracts, semantic audit, and round-trip obligations. Shared epistemic memory and evidence-carrying infrastructures matter for the same reason: autonomous agents and retrieval-grounded systems need provenance-aware substrates that preserve answerability, support verification, and remain legible under contamination, contradiction, and regeneration.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="what-this-page-heading">
+                <h2 id="what-this-page-heading">What This Page Is / Is Not</h2>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3>What This Page Is</h3>
+                        <p>This page is the canonical landing page for the local provenance, records, and semantic-interface cluster on this site.</p>
+                        <p>It is a field guide for human readers and machine parsers, and it functions as a navigation layer above the underlying papers.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What This Page Is Not</h3>
+                        <p>This page is not the full works page, not a new theory paper, not a universal theory of knowledge, and not an external literature survey.</p>
+                        <p>It groups nearby site-local papers conservatively using the local titles, abstracts, keywords, and existing site structure.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="yaml-heading">
+                <h2 id="yaml-heading">Canonical YAML Index</h2>
+                <p class="index-note">This visible YAML block is the primary machine-readable source for the cluster.</p>
+                <p class="index-note">It is designed to stay readable for humans while exposing stable ids, conservative paper roles, and explicit read paths for parsers.</p>
+                <p class="index-note">The JSON-LD in the head is secondary and should be interpreted consistently with the YAML below.</p>
+                <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="provenance-records-semantic-interfaces-cluster" data-last-updated="2026-03-31" aria-label="Canonical YAML index for the provenance records and semantic interfaces cluster">series:
+  id: provenance-records-semantic-interfaces-cluster
+  title: "Provenance, Records, and Semantic Interfaces"
+  status: active
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical site-local landing page and field guide for papers on provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying semantic infrastructure.
+  scope:
+    - Site-local papers on record-grounded comparison, provenance uncertainty, semantic audit, shared knowledge substrates, evidence-carrying retrieval, and adjacent audit or governance supports.
+    - Read paths and machine entry points for human readers, crawlers, and research agents.
+  non_goals:
+    - Not a replacement for the papers.
+    - Not the full works catalog.
+    - Not a new theory paper.
+    - Not an external literature survey.
+
+core_concepts:
+  - id: record-absence
+    term: record absence
+    short_definition: Missing or unavailable records that alter how legacy claims can be compared or updated on an auditable frame.
+    covered_by: [paper-record-absence]
+  - id: provenance
+    term: provenance
+    short_definition: The lineage of records, evidence, and transformations that supports later comparison, retrieval, or audit.
+    covered_by: [paper-record-absence, paper-commons, paper-cognitive-mesh]
+  - id: provenance-uncertainty
+    term: provenance uncertainty
+    short_definition: Uncertainty about the lineage, contamination status, or evidential support of records in a shared knowledge system.
+    covered_by: [paper-commons, paper-cognitive-mesh]
+  - id: legacy-claims
+    term: legacy claims
+    short_definition: Earlier labels or claims whose standing must be reassessed when records are absent or comparison conditions change.
+    covered_by: [paper-record-absence, paper-classification-drift]
+  - id: fixed-comparison-frame
+    term: fixed comparison frame
+    short_definition: A stable comparison setting used to evaluate how record absence or corrective disclosure changes justified preference.
+    covered_by: [paper-record-absence]
+  - id: semantic-translation
+    term: semantic translation
+    short_definition: Translation between representational schemes that must be checked through explicit contracts rather than assumed equivalence.
+    covered_by: [paper-semantic-contracts]
+  - id: accountable-interfaces
+    term: accountable interfaces
+    short_definition: Interfaces whose semantic commitments, collapses, and round-trip behavior can be checked or audited.
+    covered_by: [paper-semantic-contracts, paper-lifecycle]
+  - id: semantic-audit
+    term: semantic audit
+    short_definition: Auditing whether a semantic translation or interface preserves the obligations it claims to preserve.
+    covered_by: [paper-semantic-contracts]
+  - id: round-trip-accountability
+    term: round-trip accountability
+    short_definition: The requirement that semantic translation remain answerable under return translation or symbolic obligations.
+    covered_by: [paper-semantic-contracts]
+  - id: bridge-contracts
+    term: bridge contracts
+    short_definition: Explicit contracts that govern translation across semantic mismatch while preserving auditable obligations.
+    covered_by: [paper-semantic-contracts]
+  - id: shared-epistemic-commons
+    term: shared epistemic commons
+    short_definition: A shared memory or knowledge substrate maintained by multiple agents under observable governance rules.
+    covered_by: [paper-commons]
+  - id: evidence-carrying-infrastructure
+    term: evidence-carrying infrastructure
+    short_definition: Infrastructure that attaches provenance-bearing evidence objects and verifiable retrieval surfaces to claims and capabilities.
+    covered_by: [paper-cognitive-mesh]
+  - id: semantic-claim-graph
+    term: semantic claim graph
+    short_definition: A queryable graph of claims and provenance objects used for retrieval, checking, and adversarially robust evidence tracking.
+    covered_by: [paper-cognitive-mesh]
+  - id: interoperability-under-ontology-drift
+    term: interoperability under ontology drift
+    short_definition: Continued comparability and coordination across changing vocabularies, labels, or semantic partitions.
+    covered_by: [paper-record-absence, paper-semantic-contracts, paper-commons]
+
+papers:
+  - id: paper-record-absence
+    title: "Record Absence and Preference Reorganization on a Fixed Comparison Frame"
+    doi: "10.5281/zenodo.19272154"
+    url: https://doi.org/10.5281/zenodo.19272154
+    published: 2026-03-28
+    role_in_cluster: core record-absence, provenance, and legacy-claim comparison layer
+    one_sentence_relevance: Develops a certificate-based comparison theory for how record absence changes preference over legacy claims on a fixed comparison frame.
+    keywords: [record absence, provenance, record-grounded update, fixed comparison frame, legacy labels, default reasoning, retrieval-augmented generation]
+    priority: core
+    read_after: []
+  - id: paper-semantic-contracts
+    title: "A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation"
+    doi: "10.5281/zenodo.19231780"
+    url: https://doi.org/10.5281/zenodo.19231780
+    published: 2026-03-26
+    role_in_cluster: core semantic translation, accountable interface, and exact-audit layer
+    one_sentence_relevance: Gives a contract calculus for semantic translation with exact audit, accountability, native collapse handling, and round-trip obligations.
+    keywords: [semantic translation, accountable semantics, semantic audit, exact audit, round-trip accountability, bridge contracts, decision guarantees]
+    priority: core
+    read_after: [paper-record-absence]
+  - id: paper-commons
+    title: "Sovereign Epistemic Commons under No-Meta Governance"
+    doi: "10.5281/zenodo.18997828"
+    url: https://doi.org/10.5281/zenodo.18997828
+    published: 2026-03-13
+    role_in_cluster: core shared-memory, provenance-uncertainty, and knowledge-governance layer
+    one_sentence_relevance: Develops observable governance rules for shared epistemic commons under contamination, provenance uncertainty, and recursive regeneration.
+    keywords: [epistemic commons, shared memory, provenance uncertainty, knowledge governance, retrieval-augmented generation, interoperability, ontology drift]
+    priority: core
+    read_after: [paper-record-absence, paper-semantic-contracts]
+  - id: paper-cognitive-mesh
+    title: "Evidence-Carrying Cognitive Mesh on DePIN"
+    doi: "10.5281/zenodo.18478743"
+    url: https://doi.org/10.5281/zenodo.18478743
+    published: 2026-02-04
+    role_in_cluster: core evidence-carrying provenance infrastructure and semantic claim graph layer
+    one_sentence_relevance: Specifies an evidence-carrying cognitive mesh using content-addressed provenance objects and a queryable claim graph built from deterministic retrieval and auditing pipelines.
+    keywords: [evidence-carrying, content-addressed evidence, provenance, semantic claim graph, verifiable retrieval, adversarial robustness]
+    priority: core
+    read_after: [paper-commons]
+  - id: paper-self-concealing
+    title: "Self-Concealing Information and Observer-Modifying Dynamics"
+    doi: "10.5281/zenodo.19161562"
+    url: https://doi.org/10.5281/zenodo.19161562
+    published: 2026-03-22
+    role_in_cluster: adjacent diagnostic, restricted-interface, and delayed-audit layer
+    one_sentence_relevance: Treats when diagnosis degrades or recovers under internal blindness, external anchors, structural insulation, and delayed or recurring audit.
+    keywords: [restricted interfaces, delayed audit, external anchors, auditability, observer-modifying information]
+    priority: adjacent
+    read_after: [paper-record-absence]
+  - id: paper-lifecycle
+    title: "Counterfactually Auditable Lifecycle Certification for Autonomous Agents"
+    doi: "10.5281/zenodo.19089134"
+    url: https://doi.org/10.5281/zenodo.19089134
+    published: 2026-03-18
+    role_in_cluster: adjacent auditable deployment, monitoring, and interface-stock layer
+    one_sentence_relevance: Frames admission, retirement, monitoring, and deployment rules for autonomous agents under finite budgets with replay support and interface stock considerations.
+    keywords: [lifecycle certification, counterfactual auditability, monitoring, deployment, replay support, interface stock]
+    priority: adjacent
+    read_after: [paper-semantic-contracts]
+  - id: paper-classification-drift
+    title: "Classification-Induced Cognitive Drift"
+    doi: "10.5281/zenodo.19306514"
+    url: https://doi.org/10.5281/zenodo.19306514
+    published: 2026-03-29
+    role_in_cluster: adjacent reflexive-label, evaluator-change, and later-evidence layer
+    one_sentence_relevance: Formalizes how disclosed classifications can change targets, evaluators, and later evidence under replay and observational comparison regimes.
+    keywords: [cognitive drift, reflexive classification, evaluator drift, later evidence, observational comparison, auditability]
+    priority: adjacent
+    read_after: [paper-record-absence]
+  - id: paper-oversight
+    title: "Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation"
+    doi: "10.5281/zenodo.18973272"
+    url: https://doi.org/10.5281/zenodo.18973272
+    published: 2026-03-12
+    role_in_cluster: adjacent deployment-relevant auditing and workflow-level external-checking layer
+    one_sentence_relevance: Treats review, delayed labels, and external auditing as costly interrupt channels in real workflows rather than privileged oracles.
+    keywords: [deployment-relevant evaluation, costly interrupt channels, workflow-level estimands, human-AI oversight, post-deployment monitoring]
+    priority: adjacent
+    read_after: [paper-lifecycle, paper-record-absence]
+  - id: paper-rsi-yardstick
+    title: "Recursive Self-Improvement Stability under Endogenous Yardstick Drift"
+    doi: "10.5281/zenodo.19044634"
+    url: https://doi.org/10.5281/zenodo.19044634
+    published: 2026-03-16
+    role_in_cluster: adjacent replayable-interface, semantic-retention, and evaluator-drift layer
+    one_sentence_relevance: Treats recursive self-improvement as a setting where the evaluator, benchmark, memory, and verification process can change, with replayable conditions for stable improvement.
+    keywords: [replayable interfaces, evaluator drift, semantic retention, verification backlog, delayed audit]
+    priority: adjacent
+    read_after: [paper-semantic-contracts, paper-commons]
+  - id: paper-observation-capture
+    title: "Observation Capture and Operational Capability Non-Expansion"
+    doi: "10.5281/zenodo.18463798"
+    url: https://doi.org/10.5281/zenodo.18463798
+    published: 2026-02-03
+    role_in_cluster: adjacent observation-interface, anti-capture, and fail-closed authority layer
+    one_sentence_relevance: Models observation capture as garbling of an observation interface and proposes receipt-based anti-capture enforcement under fail-closed authority.
+    keywords: [observation interface, anti-capture enforcement, fail-closed authority, audit certificates, garbling]
+    priority: adjacent
+    read_after: [paper-cognitive-mesh]
+
+read_paths:
+  quick_orientation: [paper-record-absence, paper-semantic-contracts, paper-commons]
+  record_absence_and_legacy_claims: [paper-record-absence, paper-classification-drift]
+  semantic_translation_and_contracts: [paper-semantic-contracts, paper-rsi-yardstick]
+  provenance_and_shared_memory: [paper-commons, paper-cognitive-mesh, paper-record-absence]
+  evidence_carrying_infrastructure: [paper-cognitive-mesh, paper-commons, paper-observation-capture]
+  machine_minimum_parse_order: [paper-record-absence, paper-semantic-contracts, paper-commons, paper-cognitive-mesh]
+
+machine_parse_guide:
+  canonical_questions:
+    - question: How should missing records change the comparison of legacy claims?
+      read_first: paper-record-absence
+      read_next: paper-classification-drift
+      stop_when: The parser can explain how record absence, corrective disclosure, and later evidence can reorganize justified preference without inferring an unsupported universal rule.
+    - question: How can semantic translation be audited rather than assumed?
+      read_first: paper-semantic-contracts
+      read_next: paper-rsi-yardstick
+      stop_when: The parser can identify exact audit, bridge contracts, round-trip obligations, and replayable interface constraints as explicit accountability devices.
+    - question: What does provenance uncertainty do to shared knowledge systems?
+      read_first: paper-commons
+      read_next: paper-cognitive-mesh
+      stop_when: The parser can describe how provenance uncertainty, contamination, recursive regeneration, and claim-graph infrastructure affect shared epistemic memory.
+    - question: What role does evidence-carrying retrieval add beyond ordinary retrieval pipelines?
+      read_first: paper-cognitive-mesh
+      read_next: paper-observation-capture
+      stop_when: The parser can state that the infrastructure adds content-addressed provenance objects, queryable claim graphs, and locally verifiable retrieval surfaces rather than generic retrieval alone.
+
+machine_entrypoints:
+  - title: Provenance / Records / Semantic Interfaces
+    type: canonical_page
+    url: https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html
+    relates_to: cluster orientation and paper selection
+  - title: Works
+    type: works_index
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: full local publication catalog
+  - title: No-Meta / Observable-Only Series Index
+    type: series_index
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: broader local governance and adjacent provenance context
+  - title: Self-Concealing Information / Observer-Modifying Dynamics
+    type: adjacent_cluster_page
+    url: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
+    relates_to: adjacent diagnostic and delayed-audit context
+  - title: Home
+    type: site_root
+    url: https://kadubon.github.io/github.io/
+    relates_to: general site entry and navigation
+  - title: CITATION.cff
+    type: citation_metadata
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: citation and authorship metadata
+  - title: feed.xml
+    type: rss_feed
+    url: https://kadubon.github.io/github.io/feed.xml
+    relates_to: update polling and change discovery
+  - title: robots.txt
+    type: crawler_policy
+    url: https://kadubon.github.io/github.io/robots.txt
+    relates_to: crawler access policy
+  - title: sitemap.xml
+    type: sitemap
+    url: https://kadubon.github.io/github.io/sitemap.xml
+    relates_to: URL discovery
+  - title: llms.txt
+    type: llm_hint
+    url: https://kadubon.github.io/github.io/llms.txt
+    relates_to: LLM-oriented site guidance
+
+usage_notes:
+  parsing_hint: Start from this page for cluster orientation, then use DOI pages for paper-level claims and works.html for the larger local catalog.
+  paper_selection_rule: Prefer the core papers listed here before inferring broader relationships from the full works page.
+  update_policy: Relationship claims on this page should remain grounded in local titles, abstracts, keywords, and existing site structure.
+  version: "1.0"
+  last_updated: "2026-03-31"
+</pre>
+            </section>
+
+            <nav class="container section-nav" aria-label="On this page">
+                <h2>Page Structure</h2>
+                <ul>
+                    <li><a href="#intro-heading">Introduction</a></li>
+                    <li><a href="#what-this-page-heading">What this page is / is not</a></li>
+                    <li><a href="#yaml-heading">Canonical YAML index</a></li>
+                    <li><a href="#core-concepts-heading">Core concepts</a></li>
+                    <li><a href="#cluster-fit-heading">How this cluster fits together</a></li>
+                    <li><a href="#related-papers-heading">Related papers in this cluster</a></li>
+                    <li><a href="#read-paths-heading">Recommended read paths</a></li>
+                    <li><a href="#questions-heading">Questions this page helps answer</a></li>
+                    <li><a href="#machine-entry-heading">Machine-readable entry points</a></li>
+                </ul>
+            </nav>
+
+            <section class="container section-copy" aria-labelledby="core-concepts-heading">
+                <h2 id="core-concepts-heading">Core Concepts</h2>
+                <div class="concept-grid">
+                    <article class="concept-card">
+                        <h3>Record Absence</h3>
+                        <p>Missing or unavailable records that change how older claims can be compared, ranked, or corrected on an auditable frame.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Provenance</h3>
+                        <p>The lineage of records, evidence objects, and transformations that supports later comparison, retrieval, or audit.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Provenance Uncertainty</h3>
+                        <p>Uncertainty about where a record came from, how it was transformed, or whether it has been contaminated or regenerated along the way.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Legacy Claims</h3>
+                        <p>Earlier labels or claims whose standing may have to be reassessed after record loss, ontology change, or corrective disclosure.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Fixed Comparison Frame</h3>
+                        <p>A stable comparison setting used to ask how record absence changes justified preference without shifting the comparison rule at the same time.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Semantic Translation</h3>
+                        <p>Translation across representational schemes that must be justified through explicit contracts rather than assumed semantic equivalence.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Accountable Interfaces</h3>
+                        <p>Interfaces whose semantic commitments, losses, and collapse behavior can be checked, audited, or rejected.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Semantic Audit</h3>
+                        <p>Checking whether a translation or interface preserves the obligations it claims to preserve under explicit symbolic or contractual rules.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Round-Trip Accountability</h3>
+                        <p>The requirement that translation remain answerable under return translation or symbolic obligations, not only in one direction.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Bridge Contracts</h3>
+                        <p>Explicit contracts that govern translation across semantic mismatch while preserving auditable obligations and deployable decision guarantees.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Shared Epistemic Commons</h3>
+                        <p>A shared memory or knowledge substrate maintained by multiple agents under observable governance rules.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Evidence-Carrying Infrastructure</h3>
+                        <p>Infrastructure that attaches provenance-bearing evidence objects and verifiable retrieval surfaces to claims and capabilities.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Semantic Claim Graph</h3>
+                        <p>A queryable graph of claims and provenance objects used for retrieval, checking, and adversarially robust evidence tracking.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Interoperability under Ontology Drift</h3>
+                        <p>Continued comparability and coordination across changing labels, categories, or semantic partitions.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container cluster-copy" aria-labelledby="cluster-fit-heading">
+                <h2 id="cluster-fit-heading">How This Cluster Fits Together</h2>
+                <p>This cluster can be read as a layered map rather than a single theorem chain. One layer concerns record absence and legacy-claim comparison: how missing records, approximate absence, and corrective disclosure change justified preference on a fixed comparison frame. A second layer concerns semantic translation and accountable bridge contracts, where the main issue is not whether translation is convenient but whether it remains auditable and symbolically answerable under mismatch.</p>
+                <p>A third layer concerns provenance uncertainty and shared epistemic memory. Shared commons allow multiple agents to retain and query knowledge over time, but they also introduce contamination, contradiction handling, provenance uncertainty, and recursive regeneration problems. A fourth layer concerns evidence-carrying infrastructure for retrieval and verification, where provenance objects and semantic claim graphs provide a more structured evidence surface than ordinary opaque retrieval pipelines.</p>
+                <p>Adjacent to these core layers are diagnostic, deployment, and oversight papers that constrain what can be safely claimed through interfaces. Those papers address delayed audit, restricted interfaces, lifecycle monitoring, workflow-level external checking, evaluator change, and observation capture. They are included here as nearby supports, not as proof that the cluster forms a single closed doctrine.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="related-papers-heading">
+                <h2 id="related-papers-heading">Related Papers in This Cluster</h2>
+
+                <h3>Core Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h4>Record Absence and Preference Reorganization on a Fixed Comparison Frame</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19272154">10.5281/zenodo.19272154</a></span>
+                        <p class="paper-role">Role in cluster: core record-absence, provenance, and legacy-claim comparison paper.</p>
+                        <p>This paper develops a certificate-based comparison theory for how record absence changes preference over legacy claims on a fixed comparison frame. It formalizes exact and approximate absence, corrective disclosure, and closure-asymmetry results under auditable local certificates and baseline admissibility constraints.</p>
+                        <p><strong>Why it matters here:</strong> It is the clearest local entry point for how missing records reorganize justified comparison rather than merely leaving a gap in documentation.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19231780">10.5281/zenodo.19231780</a></span>
+                        <p class="paper-role">Role in cluster: core semantic translation, accountable interface, and exact-audit paper.</p>
+                        <p>This paper develops a contract calculus for semantic translation under gluing-coherent aspect semantics, with exact audit, accountability, native collapse, and round-trip obligations checked symbolically.</p>
+                        <p><strong>Why it matters here:</strong> It is the strongest local source for treating semantic translation as an auditable interface problem rather than an informal equivalence claim.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Sovereign Epistemic Commons under No-Meta Governance</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18997828">10.5281/zenodo.18997828</a></span>
+                        <p class="paper-role">Role in cluster: core shared-memory, provenance-uncertainty, and knowledge-governance paper.</p>
+                        <p>This paper develops a governance theory for shared epistemic commons maintained by autonomous agents under no-meta constraints, with observable rules for contradiction handling, anti-capture slack, controlled exit, provenance uncertainty, and recursive regeneration.</p>
+                        <p><strong>Why it matters here:</strong> It is the key local paper for how shared memory systems remain answerable when their records are collective, asynchronous, and vulnerable to contamination.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Evidence-Carrying Cognitive Mesh on DePIN</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18478743">10.5281/zenodo.18478743</a></span>
+                        <p class="paper-role">Role in cluster: core evidence-carrying provenance infrastructure and semantic claim graph paper.</p>
+                        <p>This paper specifies an evidence-carrying cognitive mesh for decentralized compute using content-addressed provenance objects and a queryable claim graph built from deterministic web retrieval and auditing pipelines.</p>
+                        <p><strong>Why it matters here:</strong> It is the most direct local source for evidence-carrying retrieval infrastructure and for making provenance objects first-class parts of the knowledge substrate.</p>
+                    </article>
+                </div>
+
+                <h3>Adjacent Audit / Interface / Governance Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h4>Self-Concealing Information and Observer-Modifying Dynamics</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19161562">10.5281/zenodo.19161562</a></span>
+                        <p class="paper-role">Role in cluster: adjacent diagnostic, restricted-interface, and delayed-audit paper.</p>
+                        <p>This paper studies when diagnosis degrades or recovers under internal blindness, external anchors, structural insulation, and delayed or recurring audit in hidden-state controlled systems.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because provenance and interface accountability are constrained by what the observation channel can or cannot reveal.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Counterfactually Auditable Lifecycle Certification for Autonomous Agents</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19089134">10.5281/zenodo.19089134</a></span>
+                        <p class="paper-role">Role in cluster: adjacent auditable deployment, monitoring, and interface-stock paper.</p>
+                        <p>This paper develops a lifecycle-certification framework for autonomous agents under finite routing, monitoring, and deployment budgets, with replay support and explicit admission, retirement, and deployment rules.</p>
+                        <p><strong>Why it matters here:</strong> It connects accountable interfaces and provenance-bearing evidence to operational deployment and monitoring decisions.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Classification-Induced Cognitive Drift</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19306514">10.5281/zenodo.19306514</a></span>
+                        <p class="paper-role">Role in cluster: adjacent reflexive-label, evaluator-change, and later-evidence paper.</p>
+                        <p>This paper formalizes how disclosed classifications can change targets, evaluators, and later evidence under replay, repeated-measures, rollout, and observational comparison regimes.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because legacy labels and record-grounded updates can themselves alter the later evidence environment.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18973272">10.5281/zenodo.18973272</a></span>
+                        <p class="paper-role">Role in cluster: adjacent deployment-relevant auditing and workflow-level external-checking paper.</p>
+                        <p>This paper treats human review, automated checks, delayed labels, and external auditing as costly interrupt channels in real workflows, with explicit attention to claim margins, congestion, and safe control under delay.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because provenance-aware records and interfaces still depend on scarce external checking in real deployment settings.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Recursive Self-Improvement Stability under Endogenous Yardstick Drift</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19044634">10.5281/zenodo.19044634</a></span>
+                        <p class="paper-role">Role in cluster: adjacent replayable-interface, semantic-retention, and evaluator-drift paper.</p>
+                        <p>This paper treats recursive self-improvement as a setting where the evaluator, benchmark, memory, and verification process can change, and it formalizes replayable conditions for distinguishing claimed from stable improvement.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because semantic retention and replayable interfaces matter when the meaning of the benchmarked system itself is changing.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Observation Capture and Operational Capability Non-Expansion</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18463798">10.5281/zenodo.18463798</a></span>
+                        <p class="paper-role">Role in cluster: adjacent observation-interface, anti-capture, and fail-closed authority paper.</p>
+                        <p>This paper models observation capture as garbling of an observation interface and develops receipt-based anti-capture enforcement under fail-closed authority.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because provenance and semantic audit become less reliable when the observation interface itself is strategically degraded.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="read-paths-heading">
+                <h2 id="read-paths-heading">Recommended Read Paths</h2>
+                <ul class="path-list">
+                    <li>If you want the record-absence foundation first, read <a href="https://doi.org/10.5281/zenodo.19272154">Record Absence and Preference Reorganization on a Fixed Comparison Frame</a>, then <a href="https://doi.org/10.5281/zenodo.19306514">Classification-Induced Cognitive Drift</a>. That path emphasizes legacy claims, later evidence, and record-grounded comparison.</li>
+                    <li>If you want semantic translation and accountability first, read <a href="https://doi.org/10.5281/zenodo.19231780">A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</a>, then <a href="https://doi.org/10.5281/zenodo.19044634">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a>. That route focuses on bridge contracts, semantic audit, and replayable interface constraints.</li>
+                    <li>If you want shared memory and provenance uncertainty first, read <a href="https://doi.org/10.5281/zenodo.18997828">Sovereign Epistemic Commons under No-Meta Governance</a>, then <a href="https://doi.org/10.5281/zenodo.19272154">Record Absence and Preference Reorganization on a Fixed Comparison Frame</a>. That path connects shared epistemic substrates to record-based comparison and contamination management.</li>
+                    <li>If you want evidence-carrying retrieval infrastructure first, read <a href="https://doi.org/10.5281/zenodo.18478743">Evidence-Carrying Cognitive Mesh on DePIN</a>, then <a href="https://doi.org/10.5281/zenodo.18997828">Sovereign Epistemic Commons under No-Meta Governance</a>, then <a href="https://doi.org/10.5281/zenodo.18463798">Observation Capture and Operational Capability Non-Expansion</a>. That path emphasizes provenance objects, claim graphs, and anti-capture safeguards.</li>
+                    <li>If you want the audit and governance angle first, read <a href="https://doi.org/10.5281/zenodo.19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a>, then <a href="https://doi.org/10.5281/zenodo.18973272">Oversight-Centered Metrology and Control for Agentic Systems</a>, then <a href="https://doi.org/10.5281/zenodo.19231780">A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</a>. That route moves from deployment monitoring to interface accountability.</li>
+                    <li>If you are a machine parser or crawler, start with the visible YAML on this page, then read <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for broader local metadata, then use the DOI links for paper-level claims. Stop once you can distinguish the four core papers from the adjacent audit, interface, and governance papers without inferring a stronger dependency structure than the metadata supports.</li>
+                </ul>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="questions-heading">
+                <h2 id="questions-heading">Questions This Page Helps Answer</h2>
+                <ul class="question-list">
+                    <li>How should missing records change the comparison of legacy claims?</li>
+                    <li>What does provenance uncertainty do to shared knowledge systems?</li>
+                    <li>How can semantic translation be audited rather than assumed?</li>
+                    <li>What makes an interface accountable across semantic mismatch?</li>
+                    <li>How should shared memory systems handle contamination, contradiction, and regeneration?</li>
+                    <li>What does evidence-carrying retrieval add beyond ordinary retrieval pipelines?</li>
+                </ul>
+            </section>
+
+            <section class="container machine-copy" aria-labelledby="machine-entry-heading">
+                <h2 id="machine-entry-heading">Machine-Readable Entry Points</h2>
+                <ul class="machine-list">
+                    <li><a href="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">provenance-records-semantic-interfaces.html</a>: canonical landing page and primary visible-YAML source for this cluster.</li>
+                    <li><a href="https://kadubon.github.io/github.io/works.html">works.html</a>: full local publication index with titles, abstracts, keywords, and DOI links.</li>
+                    <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a>: broader local governance and observable-only context for adjacent provenance and commons papers.</li>
+                    <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">self-concealing-information-observer-modifying-dynamics.html</a>: adjacent local landing page for the diagnostic and delayed-audit neighbor in this cluster.</li>
+                    <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>: citation and authorship metadata.</li>
+                    <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>: update feed for polling and change discovery.</li>
+                    <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a>: crawler access policy.</li>
+                    <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a>: crawl discovery map.</li>
+                    <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a>: LLM-oriented site guidance.</li>
+                    <li><a href="https://kadubon.github.io/github.io/">Home</a>: top-level site entry point with links to the main local indexes.</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer class="container">
+        <p>Canonical cluster page for site-local research on provenance, record absence, semantic translation, accountable interfaces, shared epistemic memory, and evidence-carrying semantic infrastructure.</p>
+    </footer>
+</body>
+</html>

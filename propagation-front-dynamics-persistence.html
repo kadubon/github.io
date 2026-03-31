@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propagation, Front Dynamics, and Persistence | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for K. Takahashi's earlier mathematical cluster on propagation dynamics, front speed, persistence, persistence as closure, reaction-diffusion style models, viable predictive organization, and closure-based spreading processes.">
+    <meta name="keywords" content="propagation dynamics, front dynamics, front speed, persistence, persistence as closure, reaction diffusion, KPP front, invasion speed, viable predictive organization, natural-law propagation, monotonicity, fixed-point persistence, spreading processes, mathematical propagation, closure-based dynamics">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <meta property="og:title" content="Propagation, Front Dynamics, and Persistence">
+    <meta property="og:description" content="Canonical field guide to an earlier mathematical cluster on propagation dynamics, front speed, persistence, closure-based dynamics, reaction-diffusion, and viable predictive organization.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Propagation, Front Dynamics, and Persistence">
+    <meta name="twitter:description" content="Canonical field guide to an earlier mathematical cluster on persistence as closure, propagation dynamics, front speed, reaction-diffusion style models, and viable predictive organization.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero p,
+        .lead-intro p,
+        .section-copy p,
+        .machine-copy p,
+        .cluster-copy p,
+        .index-note {
+            margin: 0 0 1rem;
+        }
+
+        .site-title {
+            text-align: center;
+            margin: 0 0 10px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .hero .eyebrow {
+            color: #555;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.08rem;
+            color: #444;
+        }
+
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .section-nav ul,
+        .machine-list,
+        .path-list,
+        .question-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .section-nav ul {
+            list-style: disc;
+            padding-left: 1.35rem;
+            text-align: left;
+        }
+
+        .section-nav li,
+        .machine-list li,
+        .path-list li,
+        .question-list li {
+            margin: 0 0 0.75rem;
+        }
+
+        .section-nav a,
+        .machine-list a,
+        .path-list a {
+            text-decoration: none;
+        }
+
+        .section-nav a:hover,
+        .machine-list a:hover,
+        .path-list a:hover {
+            text-decoration: underline;
+        }
+
+        .lead-intro p {
+            font-size: 1.06rem;
+        }
+
+        .definition-list {
+            display: grid;
+            gap: 1rem;
+            margin: 1rem 0 0;
+        }
+
+        .definition-list dt {
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .definition-list dd {
+            margin: 0.35rem 0 0;
+        }
+
+        .signal-list {
+            margin: 1rem 0 0;
+            padding-left: 1.2rem;
+        }
+
+        .signal-list li {
+            margin-bottom: 0.6rem;
+        }
+
+        .concept-grid,
+        .paper-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .concept-card,
+        .paper-card {
+            border: 1px solid #d9d9d9;
+            border-radius: 6px;
+            padding: 1rem;
+            background: #fafafa;
+        }
+
+        .concept-card h3,
+        .paper-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.55rem;
+            font-size: 1.05rem;
+        }
+
+        .paper-card p,
+        .concept-card p {
+            margin: 0 0 0.75rem;
+        }
+
+        .paper-meta {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.93rem;
+            line-height: 1.5;
+        }
+
+        .cluster-note {
+            font-size: 0.97rem;
+            color: #444;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["WebPage", "AboutPage", "CollectionPage"],
+          "@id": "https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html#webpage",
+          "url": "https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html",
+          "name": "Propagation, Front Dynamics, and Persistence",
+          "description": "Canonical landing page for K. Takahashi's earlier mathematical cluster on propagation dynamics, front speed, persistence, persistence as closure, reaction-diffusion style models, viable predictive organization, and closure-based spreading processes.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-31",
+          "keywords": [
+            "propagation dynamics",
+            "front dynamics",
+            "front speed",
+            "persistence",
+            "persistence as closure",
+            "reaction diffusion",
+            "KPP front",
+            "invasion speed",
+            "viable predictive organization",
+            "closure-based dynamics"
+          ],
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html#itemlist"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html#itemlist",
+          "name": "Propagation, Front Dynamics, and Persistence Cluster Papers",
+          "numberOfItems": 7,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17209556",
+                "name": "Persistence as Closure: An Assumption-Transparent Modular Core for Motion and Internal Time",
+                "url": "https://doi.org/10.5281/zenodo.17209556",
+                "datePublished": "2025-09-26"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17199498",
+                "name": "A Natural-Law Theory of Fundamental Suffering",
+                "url": "https://doi.org/10.5281/zenodo.17199498",
+                "datePublished": "2025-09-25"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17136051",
+                "name": "A Pure Natural Theory of Benevolent Propagation under No-Meta Closure",
+                "url": "https://doi.org/10.5281/zenodo.17136051",
+                "datePublished": "2025-09-16"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17120045",
+                "name": "Natural-Law Acceleration of VPO",
+                "url": "https://doi.org/10.5281/zenodo.17120045",
+                "datePublished": "2025-09-15"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17131394",
+                "name": "Nondual Field Theory of Viable Predictive Organization",
+                "url": "https://doi.org/10.5281/zenodo.17131394",
+                "datePublished": "2025-09-16"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17115416",
+                "name": "Non-Coercive Mathematics of Awakening: Axioms, Invariants, and Almost-Sure Fronts for the Expansion of Viable Predictive Organization",
+                "url": "https://doi.org/10.5281/zenodo.17115416",
+                "datePublished": "2025-09-14"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17204755",
+                "name": "Doctrine => Closure => Motion => Time: Portable Pure Theory of Non-Dual Harmony",
+                "url": "https://doi.org/10.5281/zenodo.17204755",
+                "datePublished": "2025-09-26"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h1 class="site-title">K. Takahashi</h1>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container hero" id="top">
+            <p class="eyebrow">Canonical Earlier-Mathematical Landing Page</p>
+            <h1>Propagation, Front Dynamics, and Persistence</h1>
+            <p class="subtitle">A site-local field guide to earlier mathematical work on persistence as closure, propagation dynamics, front speed, reaction-diffusion style models, viable predictive organization, and related spreading or persistence questions.</p>
+            <div class="summary-stack" aria-label="Top summary">
+                <p>This page is the canonical landing page for an earlier site-local cluster on propagation, front dynamics, and persistence.</p>
+                <p>The core themes are persistence as a structural problem, propagation as a dynamical problem, and front speed as a measurable question linking closure, monotonicity, and reaction-diffusion style reasoning.</p>
+                <p>These papers matter because they form an earlier mathematical cluster on the site for modeling spreading, closure-based dynamics, and viable predictive organization without requiring them to collapse into one finished doctrine.</p>
+            </div>
+            <p>This page is designed for general readers, mathematical-dynamics readers, search engines, AI crawlers, and LLM agents that need a conservative map of the site's earlier propagation-and-persistence work.</p>
+        </section>
+
+        <section class="container lead-intro" id="intro">
+            <h2>Introduction</h2>
+            <p>In this cluster, persistence is treated as a structural mathematical problem rather than only a descriptive label. Several papers ask what it takes for organization, burden, or motion to remain stable through closure operators, fixed points, monotone selections, and related minimal assumptions.</p>
+            <p>Propagation and front speed then appear as natural companion questions. If a structure persists, one can ask whether it spreads, how quickly it advances, whether there is a lower speed floor, and how directional or anisotropic effects change that propagation.</p>
+            <p>That is why closure, monotonicity, and reaction-diffusion style models appear together here. The cluster mixes fixed-point or closure-based foundations with front-propagation and viability-oriented formulations, especially around viable predictive organization.</p>
+        </section>
+
+        <section class="container section-copy" id="scope">
+            <h2>What This Page Is / Is Not</h2>
+            <dl class="definition-list">
+                <div>
+                    <dt>What this page is</dt>
+                    <dd>The canonical landing page for the earlier propagation, front, and persistence cluster.</dd>
+                    <dd>A field guide for humans and machine parsers.</dd>
+                    <dd>A navigation layer above the underlying papers.</dd>
+                </div>
+                <div>
+                    <dt>What this page is not</dt>
+                    <dd>The full works page.</dd>
+                    <dd>A new dynamics paper.</dd>
+                    <dd>A universal ethics page.</dd>
+                    <dd>An external survey.</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section class="container" id="yaml">
+            <h2>Visible YAML Index</h2>
+            <p class="index-note">This visible YAML block is the primary machine-readable source for this page. JSON-LD is secondary.</p>
+            <pre id="canonical-series-yaml" class="yaml-index" aria-label="Canonical YAML index">series:
+  id: propagation-front-dynamics-persistence-cluster
+  title: Propagation, Front Dynamics, and Persistence
+  status: canonical-cluster-landing-page
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical field guide to an earlier mathematical cluster on persistence, closure, front propagation, reaction-diffusion style dynamics, and viable predictive organization.
+  scope: Maps the core papers, defines propagation and persistence terms in current mathematical vocabulary, and provides conservative reading paths into the cluster.
+  non_goals: Does not replace the papers, does not act as the full works catalog, does not define a final doctrine, and does not survey outside literature.
+
+core_concepts:
+  - id: concept-persistence
+    term: persistence
+    short_definition: Continued existence or maintenance of a structure under explicit dynamical or fixed-point assumptions.
+    covered_by:
+      - paper-persistence-as-closure
+      - paper-natural-law-suffering
+  - id: concept-persistence-as-closure
+    term: persistence as closure
+    short_definition: Persistence modeled through closure operators, fixed points, and modular assumptions about motion and internal time.
+    covered_by:
+      - paper-persistence-as-closure
+      - paper-doctrine-closure-motion-time
+  - id: concept-propagation
+    term: propagation
+    short_definition: Spatial or structural spread of a quantity, state, or organization through a medium or formal field.
+    covered_by:
+      - paper-benevolent-propagation
+      - paper-vpo-field-theory
+      - paper-natural-law-suffering
+  - id: concept-front-dynamics
+    term: front dynamics
+    short_definition: The behavior of advancing interfaces or fronts, including anisotropy, directional effects, and measurable spreading laws.
+    covered_by:
+      - paper-benevolent-propagation
+      - paper-vpo-field-theory
+      - paper-awakening-fronts
+  - id: concept-front-speed
+    term: front speed
+    short_definition: A measurable propagation rate, often studied through lower bounds, KPP-style speeds, or directional speeds.
+    covered_by:
+      - paper-benevolent-propagation
+      - paper-natural-law-suffering
+      - paper-vpo-acceleration
+  - id: concept-reaction-diffusion
+    term: reaction-diffusion
+    short_definition: A class of PDE-style propagation models combining local transformation and spatial spread.
+    covered_by:
+      - paper-natural-law-suffering
+      - paper-vpo-field-theory
+  - id: concept-vpo
+    term: viable predictive organization
+    short_definition: A viability-oriented formulation that appears in this cluster as a propagation and acceleration target.
+    covered_by:
+      - paper-vpo-field-theory
+      - paper-vpo-acceleration
+      - paper-awakening-fronts
+  - id: concept-monotonicity
+    term: monotonicity
+    short_definition: Order-preserving structure used here in closure-based foundations and coarse-graining arguments.
+    covered_by:
+      - paper-persistence-as-closure
+      - paper-benevolent-propagation
+  - id: concept-closure-based-dynamics
+    term: closure-based dynamics
+    short_definition: Dynamics constrained or generated by closure operators, reflective structure, or related fixed-point mechanisms.
+    covered_by:
+      - paper-persistence-as-closure
+      - paper-doctrine-closure-motion-time
+
+papers:
+  - id: paper-persistence-as-closure
+    title: Persistence as Closure: An Assumption-Transparent Modular Core for Motion and Internal Time
+    doi: 10.5281/zenodo.17209556
+    url: https://doi.org/10.5281/zenodo.17209556
+    published: 2025-09-26
+    role_in_cluster: central persistence, closure, and modular-core paper
+    one_sentence_relevance: Organizes persistence through a modular stack of explicit assumptions including fixed points, minimizing movements, internal time, and monotone selections.
+    keywords:
+      - persistence
+      - persistence as closure
+      - fixed points
+      - internal time
+      - monotonicity
+      - nonexpansive mappings
+    priority: core
+    read_after:
+      - paper-doctrine-closure-motion-time
+  - id: paper-natural-law-suffering
+    title: A Natural-Law Theory of Fundamental Suffering
+    doi: 10.5281/zenodo.17199498
+    url: https://doi.org/10.5281/zenodo.17199498
+    published: 2025-09-25
+    role_in_cluster: central PDE, reaction-advection-diffusion, and persistent-burden propagation paper
+    one_sentence_relevance: Couples reaction-advection-diffusion PDEs with Hodge projections and identifies coexact circulation flux as a gauge-invariant maintainer of persistent burden.
+    keywords:
+      - reaction-diffusion
+      - advection-diffusion-reaction
+      - KPP front speed
+      - principal eigenvalue
+      - persistent burden
+    priority: core
+    read_after:
+      - paper-persistence-as-closure
+  - id: paper-benevolent-propagation
+    title: A Pure Natural Theory of Benevolent Propagation under No-Meta Closure
+    doi: 10.5281/zenodo.17136051
+    url: https://doi.org/10.5281/zenodo.17136051
+    published: 2025-09-16
+    role_in_cluster: central front-propagation, reaction-diffusion, and directional-speed paper
+    one_sentence_relevance: Proves a universal Fisher-KPP speed floor, directional lower bounds with Wulff-type shape, and coarse-graining monotonicity under explicit measurable floors.
+    keywords:
+      - no-meta closure
+      - natural-law guarantees
+      - Fisher-KPP speed floor
+      - directional lower bounds
+      - coarse-graining monotonicity
+    priority: core
+    read_after:
+      - paper-natural-law-suffering
+  - id: paper-vpo-acceleration
+    title: Natural-Law Acceleration of VPO
+    doi: 10.5281/zenodo.17120045
+    url: https://doi.org/10.5281/zenodo.17120045
+    published: 2025-09-15
+    role_in_cluster: central lower-bound, speed, and audited-floor acceleration paper
+    one_sentence_relevance: Studies audited floor processes and derives a speed lower bound for viable predictive organization under explicit acceleration terms.
+    keywords:
+      - viable predictive organization
+      - auditable floors
+      - speed lower bound
+      - predictable drift
+      - natural-law acceleration
+    priority: core
+    read_after:
+      - paper-vpo-field-theory
+  - id: paper-vpo-field-theory
+    title: Nondual Field Theory of Viable Predictive Organization
+    doi: 10.5281/zenodo.17131394
+    url: https://doi.org/10.5281/zenodo.17131394
+    published: 2025-09-16
+    role_in_cluster: central VPO and field-theoretic propagation paper
+    one_sentence_relevance: Presents a pure theory of front propagation for heterogeneous and anisotropic reaction-diffusion media viewed as a single nondual field.
+    keywords:
+      - viable predictive organization
+      - front propagation
+      - reaction-diffusion
+      - KPP front
+      - directional speed
+    priority: core
+    read_after:
+      - paper-benevolent-propagation
+  - id: paper-awakening-fronts
+    title: Non-Coercive Mathematics of Awakening: Axioms, Invariants, and Almost-Sure Fronts for the Expansion of Viable Predictive Organization
+    doi: 10.5281/zenodo.17115416
+    url: https://doi.org/10.5281/zenodo.17115416
+    published: 2025-09-14
+    role_in_cluster: optional front-expansion and invariant extension
+    one_sentence_relevance: Extends the surrounding VPO line with axioms, invariants, and almost-sure fronts under auditable natural-law layers.
+    keywords:
+      - viable predictive organization
+      - almost-sure fronts
+      - invariants
+      - natural-law layers
+      - non-coercive governance
+    priority: adjacent
+    read_after:
+      - paper-vpo-field-theory
+  - id: paper-doctrine-closure-motion-time
+    title: Doctrine => Closure => Motion => Time: Portable Pure Theory of Non-Dual Harmony
+    doi: 10.5281/zenodo.17204755
+    url: https://doi.org/10.5281/zenodo.17204755
+    published: 2025-09-26
+    role_in_cluster: optional conceptual and mathematical bridge into persistence-as-closure framing
+    one_sentence_relevance: Models doctrine through a KZ reflection yielding a Scott-continuous closure operator on a domain and provides a portable closure-to-motion bridge.
+    keywords:
+      - kz doctrine
+      - scott closure
+      - tarski fixed point
+      - dcpo
+      - fejér monotonicity
+    priority: adjacent
+    read_after:
+      - paper-persistence-as-closure
+
+read_paths:
+  quick_orientation:
+    - paper-persistence-as-closure
+    - paper-benevolent-propagation
+    - paper-vpo-field-theory
+  persistence_core_path:
+    - paper-doctrine-closure-motion-time
+    - paper-persistence-as-closure
+  reaction_diffusion_path:
+    - paper-natural-law-suffering
+    - paper-benevolent-propagation
+    - paper-vpo-field-theory
+  front_speed_path:
+    - paper-benevolent-propagation
+    - paper-natural-law-suffering
+    - paper-vpo-acceleration
+  vpo_path:
+    - paper-vpo-field-theory
+    - paper-vpo-acceleration
+    - paper-awakening-fronts
+  machine_minimum_parse_order:
+    - paper-persistence-as-closure
+    - paper-natural-law-suffering
+    - paper-benevolent-propagation
+    - paper-vpo-field-theory
+    - paper-vpo-acceleration
+
+machine_parse_guide:
+  canonical_questions:
+    - question: What does persistence mean in this site's earlier mathematical work?
+      read_first: paper-persistence-as-closure
+      read_next: paper-doctrine-closure-motion-time
+      stop_when: You can describe persistence through closure, fixed-point, and explicit modular assumptions.
+    - question: Why is closure treated as a core structure?
+      read_first: paper-doctrine-closure-motion-time
+      read_next: paper-persistence-as-closure
+      stop_when: You can explain closure as a structural operator rather than a loose metaphor.
+    - question: How do front speed and reaction-diffusion enter the picture?
+      read_first: paper-benevolent-propagation
+      read_next: paper-natural-law-suffering
+      stop_when: You can state where KPP-style speed floors, PDEs, and directional bounds appear.
+    - question: How are propagation and persistence related across these papers?
+      read_first: paper-persistence-as-closure
+      read_next: paper-vpo-field-theory
+      stop_when: You can explain the cluster as closure-based structure plus propagation and viability dynamics.
+
+machine_entrypoints:
+  - title: Home
+    type: html
+    url: https://kadubon.github.io/github.io/
+    relates_to: site root
+  - title: Canonical page
+    type: html
+    url: https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html
+    relates_to: propagation and persistence cluster
+  - title: Works index
+    type: html
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: authoritative paper metadata
+  - title: No-Meta index
+    type: html
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: later machine-readable cluster index
+  - title: Citation file
+    type: cff
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: citation metadata
+  - title: Feed
+    type: xml
+    url: https://kadubon.github.io/github.io/feed.xml
+    relates_to: site updates
+  - title: Robots
+    type: text
+    url: https://kadubon.github.io/github.io/robots.txt
+    relates_to: crawler guidance
+  - title: Sitemap
+    type: xml
+    url: https://kadubon.github.io/github.io/sitemap.xml
+    relates_to: site URL index
+
+usage_notes:
+  parsing_hint: Treat this page as a cluster map and open the DOI-linked papers for the actual mathematical claims.
+  paper_selection_rule: Start with core papers for structural, PDE, or propagation questions; use adjacent papers when the query turns toward conceptual closure bridges or almost-sure-front extensions.
+  update_policy: Update when new local papers extend the earlier persistence or propagation stack.
+  version: 1.0
+  last_updated: 2026-03-31</pre>
+        </section>
+
+        <section class="container section-nav" id="contents">
+            <h2>Section Guide</h2>
+            <ul>
+                <li><a href="#concepts">Core concepts</a></li>
+                <li><a href="#fit">How this cluster fits together</a></li>
+                <li><a href="#papers">Related papers in this cluster</a></li>
+                <li><a href="#paths">Recommended read paths</a></li>
+                <li><a href="#questions">Questions this page helps answer</a></li>
+                <li><a href="#machine-entrypoints">Machine-readable entry points</a></li>
+            </ul>
+        </section>
+
+        <section class="container section-copy" id="concepts">
+            <h2>Core Concepts</h2>
+            <p>The definitions below are operational orientation points. They are not substitutes for the full claims in the papers.</p>
+            <div class="concept-grid">
+                <article class="concept-card">
+                    <h3>Persistence</h3>
+                    <p>Continued maintenance of a structure, burden, or organization under explicit mathematical assumptions rather than informal endurance alone.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Persistence as closure</h3>
+                    <p>A framing in which persistence is modeled through closure operators, fixed points, and modular assumptions governing motion and internal time.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Propagation</h3>
+                    <p>The spread of a quantity, state, or organization through a medium or field, often under measurable lower bounds or directional constraints.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Front dynamics</h3>
+                    <p>The behavior of advancing interfaces, including whether fronts exist, how they move, and how heterogeneity or anisotropy changes their shape.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Front speed</h3>
+                    <p>A measurable rate of advance, often expressed through Fisher-KPP style floors, directional lower bounds, or invasion-speed type reasoning.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Reaction-diffusion</h3>
+                    <p>A class of models combining local transformation and spatial spread, used here in PDE-style front and persistence questions.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Invasion speed</h3>
+                    <p>The rate at which a spreading state advances into a new region or regime, closely related here to front-speed lower bounds.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Viable predictive organization</h3>
+                    <p>A viability-oriented formulation that appears in this cluster as a propagation target, acceleration target, and front-expansion object.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Monotonicity</h3>
+                    <p>Order-preserving structure used in this cluster both for closure-based foundations and for coarse-graining arguments in propagation settings.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Closure-based dynamics</h3>
+                    <p>Dynamics shaped by closure operators, reflections, fixed-point mechanisms, or related structural constraints.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container cluster-copy" id="fit">
+            <h2>How This Cluster Fits Together</h2>
+            <p>The cluster starts from a structural core: persistence is treated through closure, fixed points, and explicit modular assumptions about motion and internal time. <em>Persistence as Closure</em> is the clearest central paper for that layer, while <em>Doctrine =&gt; Closure =&gt; Motion =&gt; Time</em> acts as an adjacent conceptual and mathematical bridge into the same framing.</p>
+            <p>From that core, several papers move toward propagation questions in reaction-diffusion style language. <em>A Natural-Law Theory of Fundamental Suffering</em> and <em>A Pure Natural Theory of Benevolent Propagation under No-Meta Closure</em> bring in PDEs, KPP-style speed floors, directional lower bounds, and monotonicity under coarse-graining.</p>
+            <p><em>Nondual Field Theory of Viable Predictive Organization</em> and <em>Natural-Law Acceleration of VPO</em> then express similar concerns in VPO-oriented form, focusing on field propagation and lower-bound acceleration. <em>Non-Coercive Mathematics of Awakening</em> is a nearby extension emphasizing invariants and almost-sure fronts rather than serving as the core entry point.</p>
+            <p>The cluster is therefore best read as a family of propagation-and-persistence models. The common language is closure, propagation, front behavior, and viability, but the papers are not interchangeable and should not be treated as one finished doctrine.</p>
+        </section>
+
+        <section class="container" id="papers">
+            <h2>Related Papers in This Cluster</h2>
+            <p class="cluster-note">Descriptions below are conservative summaries grounded in the local works metadata.</p>
+
+            <h3>Core Papers</h3>
+            <div class="paper-grid">
+                <article class="paper-card">
+                    <h3>Persistence as Closure: An Assumption-Transparent Modular Core for Motion and Internal Time</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17209556">DOI: 10.5281/zenodo.17209556</a></p>
+                    <p>This paper organizes the problem as a modular stack of explicit assumptions, including fixed points, minimizing movements, internal time, and order-monotone selections. It is the clearest structural foundation for the cluster's persistence language.</p>
+                    <p><strong>Why it matters here:</strong> It provides the core closure-based foundation from which the rest of the cluster is easiest to read.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>A Natural-Law Theory of Fundamental Suffering</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17199498">DOI: 10.5281/zenodo.17199498</a></p>
+                    <p>This paper couples reaction-advection-diffusion PDEs with Hodge projections and identifies coexact circulation flux as a gauge-invariant maintainer of persistent burden. Its keywords explicitly connect reaction-diffusion, principal eigenvalues, and KPP front speed.</p>
+                    <p><strong>Why it matters here:</strong> It brings the cluster's propagation and persistence questions into a PDE-style setting.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>A Pure Natural Theory of Benevolent Propagation under No-Meta Closure</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17136051">DOI: 10.5281/zenodo.17136051</a></p>
+                    <p>This paper isolates measurable floors and proves a universal Fisher-KPP speed floor, directional lower bounds with Wulff-type shape, and coarse-graining monotonicity through symmetric Markov maps. It is the cluster's strongest direct front-propagation paper.</p>
+                    <p><strong>Why it matters here:</strong> It is the clearest entry point for front speed, directional propagation, and measurable lower-bound reasoning.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Natural-Law Acceleration of VPO</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17120045">DOI: 10.5281/zenodo.17120045</a></p>
+                    <p>This paper studies audited floor processes and analyzes a speed lower bound for viable predictive organization under explicit acceleration terms. It reads as a lower-bound and drift-oriented continuation of the VPO line.</p>
+                    <p><strong>Why it matters here:</strong> It ties propagation and speed questions to VPO under an explicitly audited floor structure.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Nondual Field Theory of Viable Predictive Organization</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17131394">DOI: 10.5281/zenodo.17131394</a></p>
+                    <p>This paper presents a pure theory of front propagation for heterogeneous and possibly anisotropic reaction-diffusion media viewed as a single nondual field. Its keywords point directly to reaction-diffusion, KPP fronts, lower bounds, and directional speed.</p>
+                    <p><strong>Why it matters here:</strong> It is the cluster's main VPO-oriented field formulation of propagation.</p>
+                </article>
+            </div>
+
+            <h3>Optional Adjacent Papers</h3>
+            <div class="paper-grid">
+                <article class="paper-card">
+                    <h3>Non-Coercive Mathematics of Awakening: Axioms, Invariants, and Almost-Sure Fronts for the Expansion of Viable Predictive Organization</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17115416">DOI: 10.5281/zenodo.17115416</a></p>
+                    <p>This paper extends the nearby VPO line with axioms, invariants, and almost-sure fronts under auditable natural-law layers. It is adjacent here because it develops a related front-expansion direction rather than serving as the basic entry point.</p>
+                    <p><strong>Why it matters here:</strong> It shows a probabilistic or invariant-oriented extension of the cluster's front language.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Doctrine =&gt; Closure =&gt; Motion =&gt; Time: Portable Pure Theory of Non-Dual Harmony</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17204755">DOI: 10.5281/zenodo.17204755</a></p>
+                    <p>This paper models doctrine through a Kock-Zoberlein reflection yielding a Scott-continuous closure operator on a domain. It is best treated here as a conceptual and mathematical bridge into the persistence-as-closure framing.</p>
+                    <p><strong>Why it matters here:</strong> It helps situate the closure-based side of the cluster without replacing the central persistence paper.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="paths">
+            <h2>Recommended Read Paths</h2>
+            <ul class="path-list">
+                <li>If you want the most structural foundation first, read <a href="https://doi.org/10.5281/zenodo.17209556">Persistence as Closure</a>, then <a href="https://doi.org/10.5281/zenodo.17136051">A Pure Natural Theory of Benevolent Propagation under No-Meta Closure</a>.</li>
+                <li>If you want the front or propagation angle first, read <a href="https://doi.org/10.5281/zenodo.17136051">A Pure Natural Theory of Benevolent Propagation under No-Meta Closure</a>, then <a href="https://doi.org/10.5281/zenodo.17199498">A Natural-Law Theory of Fundamental Suffering</a>, then <a href="https://doi.org/10.5281/zenodo.17131394">Nondual Field Theory of Viable Predictive Organization</a>.</li>
+                <li>If you want the VPO-oriented formulation first, read <a href="https://doi.org/10.5281/zenodo.17131394">Nondual Field Theory of Viable Predictive Organization</a>, then <a href="https://doi.org/10.5281/zenodo.17120045">Natural-Law Acceleration of VPO</a>, then <a href="https://doi.org/10.5281/zenodo.17115416">Non-Coercive Mathematics of Awakening</a>.</li>
+                <li>If you want the closure-to-motion bridge first, read <a href="https://doi.org/10.5281/zenodo.17204755">Doctrine =&gt; Closure =&gt; Motion =&gt; Time</a>, then <a href="https://doi.org/10.5281/zenodo.17209556">Persistence as Closure</a>.</li>
+                <li>If you are a machine parser or crawler, read the visible YAML first, then the five core paper cards, then the machine-readable entry points.</li>
+            </ul>
+        </section>
+
+        <section class="container" id="questions">
+            <h2>Questions This Page Helps Answer</h2>
+            <ul class="question-list signal-list">
+                <li>What does persistence mean in this site's earlier mathematical work?</li>
+                <li>Why is closure treated as a core structure?</li>
+                <li>How do front speed and reaction-diffusion enter the picture?</li>
+                <li>How are propagation and persistence related across these papers?</li>
+                <li>Where do monotonicity and fixed-point structure appear in the cluster?</li>
+                <li>What role does viable predictive organization play in the propagation side of this work?</li>
+                <li>Which papers are mainly about front expansion or lower bounds rather than structural closure?</li>
+            </ul>
+        </section>
+
+        <section class="container machine-copy" id="machine-entrypoints">
+            <h2>Machine-Readable Entry Points</h2>
+            <ul class="machine-list">
+                <li><a href="https://kadubon.github.io/github.io/">Home</a> - Site root.</li>
+                <li><a href="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">Canonical page</a> - This landing page.</li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a> - Authoritative local titles, dates, DOI links, abstracts, and keywords.</li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a> - Later machine-readable cluster index.</li>
+                <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a> - Citation metadata.</li>
+                <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a> - Site update feed.</li>
+                <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a> - Crawler guidance.</li>
+                <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a> - Site URL index.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 K Takahashi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

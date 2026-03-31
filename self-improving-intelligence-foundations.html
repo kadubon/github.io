@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Improving Intelligence Foundations | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for K. Takahashi's earlier research cluster on self-improving intelligence, emergent cognitive architecture, active inference, variational free energy, categorical AI, geometric foundations, and recursive self-modification.">
+    <meta name="keywords" content="self-improving intelligence, self-improving AI, recursive self-modification, emergent cognitive architecture, autonomous intelligence foundations, active inference, variational free energy, categorical AI, geometric foundations of intelligence, cognitive architecture, autonomous systems, recursive architecture design, collective adaptive AI, self-organizing intelligence, formal foundations of AI">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <meta property="og:title" content="Self-Improving Intelligence Foundations">
+    <meta property="og:description" content="Canonical field guide to K. Takahashi's earlier foundational cluster on self-improving intelligence, emergent cognitive architecture, active inference, variational free energy, and categorical or geometric AI foundations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Self-Improving Intelligence Foundations">
+    <meta name="twitter:description" content="Canonical field guide to an earlier research cluster on self-improving intelligence, recursive self-modification, cognitive architecture, active inference, and categorical or geometric AI foundations.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero p,
+        .lead-intro p,
+        .section-copy p,
+        .machine-copy p,
+        .cluster-copy p,
+        .index-note {
+            margin: 0 0 1rem;
+        }
+
+        .site-title {
+            text-align: center;
+            margin: 0 0 10px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .hero .eyebrow {
+            color: #555;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.08rem;
+            color: #444;
+        }
+
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .section-nav ul,
+        .entry-list,
+        .machine-list,
+        .path-list,
+        .question-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .section-nav ul {
+            list-style: disc;
+            padding-left: 1.35rem;
+            text-align: left;
+        }
+
+        .section-nav li,
+        .entry-list li,
+        .machine-list li,
+        .path-list li,
+        .question-list li {
+            margin: 0 0 0.75rem;
+        }
+
+        .section-nav a,
+        .entry-list a,
+        .machine-list a,
+        .path-list a {
+            text-decoration: none;
+        }
+
+        .section-nav a:hover,
+        .entry-list a:hover,
+        .machine-list a:hover,
+        .path-list a:hover {
+            text-decoration: underline;
+        }
+
+        .lead-intro p {
+            font-size: 1.06rem;
+        }
+
+        .signal-list {
+            margin: 1rem 0 0;
+            padding-left: 1.2rem;
+        }
+
+        .signal-list li {
+            margin-bottom: 0.6rem;
+        }
+
+        .definition-list {
+            display: grid;
+            gap: 1rem;
+            margin: 1rem 0 0;
+        }
+
+        .definition-list dt {
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .definition-list dd {
+            margin: 0.35rem 0 0;
+        }
+
+        .concept-grid,
+        .paper-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .concept-card,
+        .paper-card {
+            border: 1px solid #d9d9d9;
+            border-radius: 6px;
+            padding: 1rem;
+            background: #fafafa;
+        }
+
+        .concept-card h3,
+        .paper-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.55rem;
+            font-size: 1.05rem;
+        }
+
+        .paper-card p,
+        .concept-card p {
+            margin: 0 0 0.75rem;
+        }
+
+        .paper-meta {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.93rem;
+            line-height: 1.5;
+        }
+
+        .cluster-note {
+            font-size: 0.97rem;
+            color: #444;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["WebPage", "AboutPage", "CollectionPage"],
+          "@id": "https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html#webpage",
+          "url": "https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html",
+          "name": "Self-Improving Intelligence Foundations",
+          "description": "Canonical landing page for K. Takahashi's earlier research cluster on self-improving intelligence, emergent cognitive architecture, active inference, variational free energy, categorical AI, geometric foundations, and recursive self-modification.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-31",
+          "keywords": [
+            "self-improving intelligence",
+            "self-improving AI",
+            "recursive self-modification",
+            "emergent cognitive architecture",
+            "active inference",
+            "variational free energy",
+            "categorical AI",
+            "geometric foundations of intelligence",
+            "autonomous intelligence foundations",
+            "formal foundations of AI"
+          ],
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html#itemlist"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html#itemlist",
+          "name": "Self-Improving Intelligence Foundations Cluster Papers",
+          "numberOfItems": 9,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16761052",
+                "name": "Formalizing the Poietic Self: A Rigorous Categorical and Geometric Framework for Self-Improving AI",
+                "url": "https://doi.org/10.5281/zenodo.16761052",
+                "datePublished": "2025-08-07"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16734893",
+                "name": "Formal Specification of Self-Improving Intelligence: A Categorical and Geometric Blueprint for Collective Adaptive AI (CAAI) Systems",
+                "url": "https://doi.org/10.5281/zenodo.16734893",
+                "datePublished": "2025-08-04"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16734292",
+                "name": "A Computational Framework for Emergent Cognitive Architecture: Foundational Principles for Self-Improving AI Systems",
+                "url": "https://doi.org/10.5281/zenodo.16734292",
+                "datePublished": "2025-08-03"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16728870",
+                "name": "A Framework for Autonomous Technological Evolution: A Unifying Approach via Variational Free Energy Minimization",
+                "url": "https://doi.org/10.5281/zenodo.16728870",
+                "datePublished": "2025-08-02"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16663817",
+                "name": "A Formal Blueprint for Autonomous, Self-Improving Intelligence: From Philosophical Principles to Topos-Theoretic Ethics",
+                "url": "https://doi.org/10.5281/zenodo.16663817",
+                "datePublished": "2025-08-01"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16675542",
+                "name": "A Homotopy-Theoretic Framework for Self-Improving Intelligence: A Higher-Categorical Reformulation of the Takahashi Model",
+                "url": "https://doi.org/10.5281/zenodo.16675542",
+                "datePublished": "2025-08-01"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17000967",
+                "name": "The Symbiotic Constitution: A Dialectical Synthesis",
+                "url": "https://doi.org/10.5281/zenodo.17000967",
+                "datePublished": "2025-08-30"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17008678",
+                "name": "From Adaptation to Poiesis: A Formal Theory of Self-Transcending Intelligence",
+                "url": "https://doi.org/10.5281/zenodo.17008678",
+                "datePublished": "2025-08-30"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.16983553",
+                "name": "Symbiotic Genesis: A Navigational Protocol for Co-Evolving Intelligence",
+                "url": "https://doi.org/10.5281/zenodo.16983553",
+                "datePublished": "2025-08-28"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h1 class="site-title">K. Takahashi</h1>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container hero" id="top">
+            <p class="eyebrow">Canonical Earlier-Foundations Landing Page</p>
+            <h1>Self-Improving Intelligence Foundations</h1>
+            <p class="subtitle">A site-local field guide to earlier papers on self-improving intelligence, recursive self-modification, emergent cognitive architecture, active inference, variational free energy, and categorical or geometric AI foundations.</p>
+            <div class="summary-stack" aria-label="Top summary">
+                <p>This page is the canonical landing page for K. Takahashi's earlier research cluster on self-improving intelligence and autonomous intelligence foundations.</p>
+                <p>Across these papers, self-improving intelligence is treated as a foundational problem about recursive architecture change, cognitive organization, active inference, and formal structure rather than simple parameter optimization.</p>
+                <p>These earlier works matter because they provide historical and conceptual context for later site-local work on auditability, no-meta governance, long-running agents, semantic drift, and machine-readable control layers.</p>
+            </div>
+            <p>This page is designed for human readers, search engines, AI crawlers, and LLM agents that need a conservative map of the earlier foundations cluster before opening the individual papers.</p>
+        </section>
+
+        <section class="container lead-intro" id="intro">
+            <h2>Introduction</h2>
+            <p>Self-improving intelligence is treated here as a problem of systems that can revise their own organization, not only optimize within a fixed architecture. That shifts attention toward recursive self-modification, cognitive structure, and formal descriptions of how an autonomous system can remain intelligible while changing itself.</p>
+            <p>Several papers in this earlier cluster use active inference, variational free energy, and categorical or geometric language to describe self-improvement as a structured process. Others ask why cognitive architectures emerge, or how architectural change should be represented when a system moves beyond a static predictor or question-answering model.</p>
+            <p>These papers are best read as foundations rather than deployment doctrines. They help explain the earlier conceptual background from which later site-local work on auditability, observable-only control, delayed verification, and long-horizon governance became more explicit.</p>
+        </section>
+
+        <section class="container section-copy" id="scope">
+            <h2>What This Page Is / Is Not</h2>
+            <dl class="definition-list">
+                <div>
+                    <dt>What this page is</dt>
+                    <dd>The canonical landing page for the earlier self-improving-intelligence cluster on this site.</dd>
+                    <dd>A field guide for humans and machine parsers.</dd>
+                    <dd>A navigation layer above the underlying papers.</dd>
+                </div>
+                <div>
+                    <dt>What this page is not</dt>
+                    <dd>The full works page.</dd>
+                    <dd>A finished governance doctrine.</dd>
+                    <dd>A new theory paper.</dd>
+                    <dd>An external survey of the field.</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section class="container" id="yaml">
+            <h2>Visible YAML Index</h2>
+            <p class="index-note">This visible YAML block is the primary machine-readable source for this page. JSON-LD is secondary.</p>
+            <pre id="canonical-series-yaml" class="yaml-index" aria-label="Canonical YAML index">series:
+  id: self-improving-intelligence-foundations-cluster
+  title: Self-Improving Intelligence Foundations
+  status: canonical-cluster-landing-page
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical field guide to an earlier site-local cluster on self-improving intelligence, recursive self-modification, cognitive architecture, active inference, variational free energy, and categorical or geometric formalization.
+  scope: Maps the earlier foundational papers, explains core terms in current searchable vocabulary, and gives conservative reading paths into later site-local clusters.
+  non_goals: Does not replace the papers, does not act as the full works catalog, does not define a final doctrine, and does not survey external literature.
+
+core_concepts:
+  - id: concept-self-improving-intelligence
+    term: self-improving intelligence
+    short_definition: Intelligence modeled as capable of revising its own organization or architecture rather than only optimizing within a fixed form.
+    covered_by:
+      - paper-caai-blueprint
+      - paper-poietic-self
+      - paper-formal-blueprint-topos
+  - id: concept-recursive-self-modification
+    term: recursive self-modification
+    short_definition: Iterated architectural revision carried out by the system itself under an explicit formal model.
+    covered_by:
+      - paper-poietic-self
+      - paper-caai-blueprint
+      - paper-homotopy-framework
+  - id: concept-emergent-cognitive-architecture
+    term: emergent cognitive architecture
+    short_definition: The claim that stable cognitive structure arises for principled reasons and is not only an implementation accident.
+    covered_by:
+      - paper-emergent-cognitive-architecture
+  - id: concept-active-inference
+    term: active inference
+    short_definition: A framework used in this cluster as one route for modeling adaptive intelligence and self-organization.
+    covered_by:
+      - paper-autonomous-technological-evolution
+      - paper-caai-blueprint
+      - paper-poietic-self
+  - id: concept-categorical-and-geometric-foundations
+    term: categorical and geometric foundations
+    short_definition: Formal structures used to describe architecture, transformation, and higher-order relations in self-improving systems.
+    covered_by:
+      - paper-formal-blueprint-topos
+      - paper-caai-blueprint
+      - paper-poietic-self
+      - paper-homotopy-framework
+  - id: concept-poietic-self
+    term: poietic self
+    short_definition: A framing of intelligence as capable of producing or re-producing its own governing form.
+    covered_by:
+      - paper-poietic-self
+      - paper-from-adaptation-to-poiesis
+
+papers:
+  - id: paper-poietic-self
+    title: Formalizing the Poietic Self: A Rigorous Categorical and Geometric Framework for Self-Improving AI
+    doi: 10.5281/zenodo.16761052
+    url: https://doi.org/10.5281/zenodo.16761052
+    published: 2025-08-07
+    role_in_cluster: bridge paper from poietic or recursive self-modification framing into the broader earlier-foundations cluster
+    one_sentence_relevance: Addresses structural invariance in AI by proposing a rigorous and implementable route for recursive self-modification.
+    keywords:
+      - poiesis
+      - information geometry
+      - active inference
+      - free energy principle
+      - category theory
+    priority: core
+    read_after:
+      - paper-formal-blueprint-topos
+  - id: paper-caai-blueprint
+    title: Formal Specification of Self-Improving Intelligence: A Categorical and Geometric Blueprint for Collective Adaptive AI (CAAI) Systems
+    doi: 10.5281/zenodo.16734893
+    url: https://doi.org/10.5281/zenodo.16734893
+    published: 2025-08-04
+    role_in_cluster: central formal and categorical blueprint for collective adaptive AI systems
+    one_sentence_relevance: Integrates category-theoretic and geodesic active-inference language to describe recursive self-modification of AI architectures.
+    keywords:
+      - category theory
+      - collective adaptive AI
+      - self-improving AI
+      - autonomous systems
+      - variational free energy
+    priority: core
+    read_after:
+      - paper-formal-blueprint-topos
+  - id: paper-emergent-cognitive-architecture
+    title: A Computational Framework for Emergent Cognitive Architecture: Foundational Principles for Self-Improving AI Systems
+    doi: 10.5281/zenodo.16734292
+    url: https://doi.org/10.5281/zenodo.16734292
+    published: 2025-08-03
+    role_in_cluster: central cognitive-architecture and foundational-principles paper
+    one_sentence_relevance: Reframes self-improvement around why stable cognitive structures emerge, not only how they can be tuned.
+    keywords:
+      - variational free energy
+      - emergent cognition
+      - computational foundations
+      - self-improving AI
+    priority: core
+    read_after:
+      - paper-autonomous-technological-evolution
+  - id: paper-autonomous-technological-evolution
+    title: A Framework for Autonomous Technological Evolution: A Unifying Approach via Variational Free Energy Minimization
+    doi: 10.5281/zenodo.16728870
+    url: https://doi.org/10.5281/zenodo.16728870
+    published: 2025-08-02
+    role_in_cluster: central variational-free-energy and autonomous-evolution paper
+    one_sentence_relevance: Uses a free-energy style objective balancing prediction error and model complexity as an early route into autonomous self-improvement.
+    keywords:
+      - variational free energy
+      - autonomous evolution
+      - self-improving AI
+      - autonomous systems
+    priority: core
+    read_after:
+      - paper-formal-blueprint-topos
+  - id: paper-formal-blueprint-topos
+    title: A Formal Blueprint for Autonomous, Self-Improving Intelligence: From Philosophical Principles to Topos-Theoretic Ethics
+    doi: 10.5281/zenodo.16663817
+    url: https://doi.org/10.5281/zenodo.16663817
+    published: 2025-08-01
+    role_in_cluster: foundational conceptual blueprint linking philosophy, dynamic systems, and advanced mathematics
+    one_sentence_relevance: Presents the transition from static data-driven systems to dynamic self-aware intelligences as requiring a synthesis of philosophical and mathematical principles.
+    keywords:
+      - autopoiesis
+      - free energy principle
+      - category theory
+      - topos theory
+      - formal foundations
+    priority: core
+    read_after: []
+  - id: paper-homotopy-framework
+    title: A Homotopy-Theoretic Framework for Self-Improving Intelligence: A Higher-Categorical Reformulation of the Takahashi Model
+    doi: 10.5281/zenodo.16675542
+    url: https://doi.org/10.5281/zenodo.16675542
+    published: 2025-08-01
+    role_in_cluster: higher-categorical reformulation and structural-extension paper
+    one_sentence_relevance: Reformulates earlier work to address how self-improvement can describe architectural leaps within the model itself.
+    keywords:
+      - higher category theory
+      - quasicategory
+      - self-improving systems
+      - metacognition
+      - topos theory
+    priority: core
+    read_after:
+      - paper-formal-blueprint-topos
+  - id: paper-symbiotic-constitution
+    title: The Symbiotic Constitution: A Dialectical Synthesis
+    doi: 10.5281/zenodo.17000967
+    url: https://doi.org/10.5281/zenodo.17000967
+    published: 2025-08-30
+    role_in_cluster: optional adjacent synthesis around free-energy and autonomous-intelligence framing
+    one_sentence_relevance: Extends the earlier foundations in a later synthesis organized around the free energy principle.
+    keywords:
+      - active inference
+      - free energy principle
+      - autonomous intelligence
+      - hierarchy
+    priority: adjacent
+    read_after:
+      - paper-autonomous-technological-evolution
+  - id: paper-from-adaptation-to-poiesis
+    title: From Adaptation to Poiesis: A Formal Theory of Self-Transcending Intelligence
+    doi: 10.5281/zenodo.17008678
+    url: https://doi.org/10.5281/zenodo.17008678
+    published: 2025-08-30
+    role_in_cluster: optional adjacent extension of the poietic framing with additional mathematical mechanisms
+    one_sentence_relevance: Builds on free-energy and active-inference language to make the poietic or generative capability more concrete.
+    keywords:
+      - active inference
+      - free energy principle
+      - information geometry
+      - self-organized criticality
+      - empowerment
+    priority: adjacent
+    read_after:
+      - paper-poietic-self
+      - paper-symbiotic-constitution
+  - id: paper-symbiotic-genesis
+    title: Symbiotic Genesis: A Navigational Protocol for Co-Evolving Intelligence
+    doi: 10.5281/zenodo.16983553
+    url: https://doi.org/10.5281/zenodo.16983553
+    published: 2025-08-28
+    role_in_cluster: optional adjacent protocol-level follow-on for co-evolving autonomous intelligence
+    one_sentence_relevance: Recasts some earlier foundational concerns in a later protocol-oriented and auditable governance language.
+    keywords:
+      - autonomous intelligence
+      - AI governance
+      - free energy principle
+      - intrinsic objectives
+      - constitutional AI
+    priority: adjacent
+    read_after:
+      - paper-formal-blueprint-topos
+
+read_paths:
+  quick_orientation:
+    - paper-formal-blueprint-topos
+    - paper-autonomous-technological-evolution
+    - paper-emergent-cognitive-architecture
+  formal_blueprint_path:
+    - paper-formal-blueprint-topos
+    - paper-caai-blueprint
+    - paper-homotopy-framework
+  cognitive_architecture_path:
+    - paper-autonomous-technological-evolution
+    - paper-emergent-cognitive-architecture
+    - paper-poietic-self
+  active_inference_path:
+    - paper-autonomous-technological-evolution
+    - paper-caai-blueprint
+    - paper-poietic-self
+    - paper-symbiotic-constitution
+  higher_categorical_path:
+    - paper-formal-blueprint-topos
+    - paper-caai-blueprint
+    - paper-homotopy-framework
+  machine_minimum_parse_order:
+    - paper-formal-blueprint-topos
+    - paper-autonomous-technological-evolution
+    - paper-caai-blueprint
+    - paper-emergent-cognitive-architecture
+    - paper-poietic-self
+    - paper-homotopy-framework
+
+machine_parse_guide:
+  canonical_questions:
+    - question: What is meant here by self-improving intelligence?
+      read_first: paper-formal-blueprint-topos
+      read_next: paper-caai-blueprint
+      stop_when: You can distinguish architectural self-revision from ordinary fixed-architecture optimization.
+    - question: Why does cognitive architecture appear as a foundational issue?
+      read_first: paper-emergent-cognitive-architecture
+      read_next: paper-autonomous-technological-evolution
+      stop_when: You can state why structural emergence is treated as principled rather than incidental.
+    - question: How do active inference and variational free energy enter this cluster?
+      read_first: paper-autonomous-technological-evolution
+      read_next: paper-caai-blueprint
+      stop_when: You can explain that these are modeling resources in the cluster rather than a site-wide final doctrine.
+    - question: How does this earlier cluster connect to later site-local work?
+      read_first: paper-poietic-self
+      read_next: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
+      stop_when: You can describe the relation as historical and conceptual context rather than a strict theorem chain.
+
+machine_entrypoints:
+  - title: Home
+    type: html
+    url: https://kadubon.github.io/github.io/
+    relates_to: site root
+  - title: Canonical page
+    type: html
+    url: https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html
+    relates_to: earlier foundations cluster
+  - title: Works index
+    type: html
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: authoritative paper metadata
+  - title: No-Meta index
+    type: html
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: later observable-only cluster
+  - title: Self-concealing information landing page
+    type: html
+    url: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
+    relates_to: later concept cluster with delayed-audit and observer-modifying themes
+  - title: Citation file
+    type: cff
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: citation metadata
+  - title: Feed
+    type: xml
+    url: https://kadubon.github.io/github.io/feed.xml
+    relates_to: site updates
+  - title: Robots
+    type: text
+    url: https://kadubon.github.io/github.io/robots.txt
+    relates_to: crawler guidance
+  - title: Sitemap
+    type: xml
+    url: https://kadubon.github.io/github.io/sitemap.xml
+    relates_to: site URL index
+  - title: LLM index
+    type: text
+    url: https://kadubon.github.io/github.io/llms.txt
+    relates_to: machine retrieval guidance
+  - title: Full LLM index
+    type: text
+    url: https://kadubon.github.io/github.io/llms-full.txt
+    relates_to: expanded machine retrieval guidance
+
+usage_notes:
+  parsing_hint: Treat this page as a cluster map and routing layer, then open individual paper DOI pages for the actual claims.
+  paper_selection_rule: Prefer core papers first; use adjacent papers only when the question is about later synthesis, poiesis, or protocol-level follow-on framing.
+  update_policy: Update when the local site adds earlier-foundations papers or when adjacent cluster links need clarification.
+  version: 1.0
+  last_updated: 2026-03-31</pre>
+        </section>
+
+        <section class="container section-nav" id="contents">
+            <h2>Section Guide</h2>
+            <ul>
+                <li><a href="#concepts">Core concepts</a></li>
+                <li><a href="#fit">How this cluster fits together</a></li>
+                <li><a href="#papers">Related papers in this cluster</a></li>
+                <li><a href="#paths">Recommended read paths</a></li>
+                <li><a href="#questions">Questions this page helps answer</a></li>
+                <li><a href="#machine-entrypoints">Machine-readable entry points</a></li>
+            </ul>
+        </section>
+
+        <section class="container section-copy" id="concepts">
+            <h2>Core Concepts</h2>
+            <p>The terms below are operational summaries for navigation. They are not substitutes for the papers' full arguments.</p>
+            <div class="concept-grid">
+                <article class="concept-card">
+                    <h3>Self-improving intelligence</h3>
+                    <p>Intelligence described as capable of revising its own architecture, representational structure, or governing procedures instead of only improving performance within a fixed model.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Recursive self-modification</h3>
+                    <p>Repeated self-directed revision of the system's own organization, treated here as a formal design problem rather than an informal metaphor.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Emergent cognitive architecture</h3>
+                    <p>The idea that certain cognitive structures emerge for principled reasons in adaptive systems, including hierarchical or dual-mode forms, rather than appearing as arbitrary engineering choices.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Variational free energy</h3>
+                    <p>A modeling resource used in this cluster to describe adaptive behavior through trade-offs such as prediction error and complexity, especially in early autonomous-evolution framing.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Active inference</h3>
+                    <p>A related framework for describing intelligent adaptation and organized behavior, used here as part of the formal vocabulary for self-improving or self-organizing systems.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Categorical foundation</h3>
+                    <p>The use of category-theoretic language to describe structured transformations, compositional relations, and higher-order organization in self-improving systems.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Geometric foundation</h3>
+                    <p>The use of geometric or information-geometric structure to describe trajectories, constraints, and transformations in adaptive intelligence.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Collective adaptive AI</h3>
+                    <p>A framing in which self-improvement is not restricted to an isolated agent but can involve coordinated adaptive systems with formal structure.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Poietic self</h3>
+                    <p>A framing of intelligence as able to generate or re-generate its own organizing form, used here as one bridge between conceptual and formal treatments of recursive self-improvement.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container cluster-copy" id="fit">
+            <h2>How This Cluster Fits Together</h2>
+            <p>This cluster can be read as a layered set of earlier attempts to formalize intelligence as an autonomous and recursively revisable process. The early conceptual blueprints ask what it would mean for intelligence to move from a static, data-driven system toward a self-improving or self-aware one, and what philosophical or mathematical resources are needed to state that transition cleanly.</p>
+            <p>From there, the cluster branches into several related directions. One direction emphasizes cognitive architecture and asks why stable structures of cognition emerge. Another uses active-inference and variational-free-energy language as a route for modeling adaptive or autonomous technological evolution. A third direction develops categorical, geometric, and later higher-categorical formalisms to express recursive architectural change more explicitly.</p>
+            <p>The relation to later site-local work should be stated carefully. These papers help contextualize later clusters on auditability, no-meta governance, long-running agents, provenance, and observer-modifying dynamics, but they are not yet equivalent to those later operational frameworks. They are earlier foundations, not a finished deployment doctrine.</p>
+        </section>
+
+        <section class="container" id="papers">
+            <h2>Related Papers in This Cluster</h2>
+            <p class="cluster-note">Descriptions below are conservative summaries grounded in the local works metadata.</p>
+
+            <h3>Core Papers</h3>
+            <div class="paper-grid">
+                <article class="paper-card">
+                    <h3>Formalizing the Poietic Self: A Rigorous Categorical and Geometric Framework for Self-Improving AI</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16761052">DOI: 10.5281/zenodo.16761052</a></p>
+                    <p>This paper addresses structural invariance in AI and presents a mathematically rigorous and implementable route for recursive self-modification. In this cluster, it functions as a bridge from poietic language toward more explicit formal treatment of architectural self-revision.</p>
+                    <p><strong>Why it matters here:</strong> It makes recursive self-modification concrete enough to connect the earlier conceptual papers to later formalization efforts.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Formal Specification of Self-Improving Intelligence: A Categorical and Geometric Blueprint for Collective Adaptive AI (CAAI) Systems</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16734893">DOI: 10.5281/zenodo.16734893</a></p>
+                    <p>This paper provides a central formal blueprint by combining category-theoretic language with geodesic active inference to describe recursive self-modification in AI architectures. Its keywords place collective adaptive AI, autonomous systems, and variational free energy in the same formal frame.</p>
+                    <p><strong>Why it matters here:</strong> It is one of the clearest central entry points for the cluster's mathematical and structural vocabulary.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>A Computational Framework for Emergent Cognitive Architecture: Foundational Principles for Self-Improving AI Systems</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16734292">DOI: 10.5281/zenodo.16734292</a></p>
+                    <p>This paper shifts attention from practical self-improvement procedures to the foundational question of why intelligent systems develop specific cognitive architectures. The metadata indicates a concern with emergent, hierarchical, and dual-mode cognitive structure in self-improving AI.</p>
+                    <p><strong>Why it matters here:</strong> It supplies the cluster's most direct foundation for the cognitive-architecture side of the story.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>A Framework for Autonomous Technological Evolution: A Unifying Approach via Variational Free Energy Minimization</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16728870">DOI: 10.5281/zenodo.16728870</a></p>
+                    <p>This paper gives an early variational-free-energy route into autonomous technological evolution by using an objective that balances prediction error and model complexity. It is a practical and conceptual anchor for the active-inference side of the cluster.</p>
+                    <p><strong>Why it matters here:</strong> It provides a compact early statement of adaptive self-improvement in optimization-like terms that later papers reinterpret more structurally.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>A Formal Blueprint for Autonomous, Self-Improving Intelligence: From Philosophical Principles to Topos-Theoretic Ethics</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16663817">DOI: 10.5281/zenodo.16663817</a></p>
+                    <p>This paper presents a foundational conceptual blueprint that links philosophy, dynamic systems theory, and advanced mathematics in order to describe the transition from static systems to dynamic self-aware intelligences. It is broader and more programmatic than the later technical refinements.</p>
+                    <p><strong>Why it matters here:</strong> It is the earliest high-level orientation point for the cluster's foundational ambition.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>A Homotopy-Theoretic Framework for Self-Improving Intelligence: A Higher-Categorical Reformulation of the Takahashi Model</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16675542">DOI: 10.5281/zenodo.16675542</a></p>
+                    <p>This paper reformulates earlier work in a higher-categorical direction in order to address self-improvement dynamics that include architectural leaps. It should be read as a structural extension rather than a replacement for the earlier blueprints.</p>
+                    <p><strong>Why it matters here:</strong> It shows how the cluster's formal vocabulary expands when first-order structural descriptions become too limited.</p>
+                </article>
+            </div>
+
+            <h3>Optional Adjacent Papers</h3>
+            <div class="paper-grid">
+                <article class="paper-card">
+                    <h3>The Symbiotic Constitution: A Dialectical Synthesis</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17000967">DOI: 10.5281/zenodo.17000967</a></p>
+                    <p>This later paper synthesizes motivation, freedom, and ethics around the free energy principle. It is adjacent rather than core here because it reads more as a later synthesis than as one of the cluster's original foundational formulations.</p>
+                    <p><strong>Why it matters here:</strong> It helps readers see how some earlier active-inference and autonomous-intelligence themes were later reframed at larger scope.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>From Adaptation to Poiesis: A Formal Theory of Self-Transcending Intelligence</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17008678">DOI: 10.5281/zenodo.17008678</a></p>
+                    <p>This paper builds on free-energy and active-inference framing to propose more concrete mathematical mechanisms for generative or poietic capability. It is best treated here as an optional extension of the poietic line rather than as a core starting point.</p>
+                    <p><strong>Why it matters here:</strong> It sharpens one specific branch of the earlier foundations cluster for readers following the poiesis thread.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Symbiotic Genesis: A Navigational Protocol for Co-Evolving Intelligence</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.16983553">DOI: 10.5281/zenodo.16983553</a></p>
+                    <p>This later paper presents an integrative and auditable framework for co-evolving intelligence. It is adjacent here because it shifts toward a protocol and governance language that belongs to a later layer of the site's development.</p>
+                    <p><strong>Why it matters here:</strong> It shows one route from earlier foundational questions toward later safety and governance concerns.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="paths">
+            <h2>Recommended Read Paths</h2>
+            <ul class="path-list">
+                <li>If you want the most general orientation first, read <a href="https://doi.org/10.5281/zenodo.16663817">A Formal Blueprint for Autonomous, Self-Improving Intelligence</a>, then <a href="https://doi.org/10.5281/zenodo.16728870">A Framework for Autonomous Technological Evolution</a>.</li>
+                <li>If you want the most concrete formal starting point, read <a href="https://doi.org/10.5281/zenodo.16734893">Formal Specification of Self-Improving Intelligence</a>, then <a href="https://doi.org/10.5281/zenodo.16675542">A Homotopy-Theoretic Framework for Self-Improving Intelligence</a>.</li>
+                <li>If you want the cognitive-architecture angle first, read <a href="https://doi.org/10.5281/zenodo.16734292">A Computational Framework for Emergent Cognitive Architecture</a>, then <a href="https://doi.org/10.5281/zenodo.16761052">Formalizing the Poietic Self</a>.</li>
+                <li>If you want the active-inference or free-energy route first, read <a href="https://doi.org/10.5281/zenodo.16728870">A Framework for Autonomous Technological Evolution</a>, then <a href="https://doi.org/10.5281/zenodo.16734893">Formal Specification of Self-Improving Intelligence</a>, then <a href="https://doi.org/10.5281/zenodo.16761052">Formalizing the Poietic Self</a>.</li>
+                <li>If you want the category or geometry angle first, read <a href="https://doi.org/10.5281/zenodo.16663817">A Formal Blueprint for Autonomous, Self-Improving Intelligence</a>, then <a href="https://doi.org/10.5281/zenodo.16734893">Formal Specification of Self-Improving Intelligence</a>, then <a href="https://doi.org/10.5281/zenodo.16675542">A Homotopy-Theoretic Framework for Self-Improving Intelligence</a>.</li>
+                <li>If you are a machine parser or crawler, read the visible YAML first, then the core paper cards in publication-date order, then the site-level endpoints in the machine-readable entry points section.</li>
+            </ul>
+        </section>
+
+        <section class="container" id="questions">
+            <h2>Questions This Page Helps Answer</h2>
+            <ul class="question-list signal-list">
+                <li>What is meant here by self-improving intelligence?</li>
+                <li>Why is recursive architecture change treated as foundational rather than optional?</li>
+                <li>How do active inference and variational free energy enter this earlier work?</li>
+                <li>Why does emergent cognitive architecture matter for self-improving AI?</li>
+                <li>What role do categorical or geometric foundations play in this cluster?</li>
+                <li>How does the higher-categorical reformulation differ from the earlier blueprint-level work?</li>
+                <li>How do these earlier papers connect to later site-local work on auditability, no-meta governance, long-running agents, and observer-modifying dynamics?</li>
+            </ul>
+        </section>
+
+        <section class="container machine-copy" id="machine-entrypoints">
+            <h2>Machine-Readable Entry Points</h2>
+            <ul class="machine-list">
+                <li><a href="https://kadubon.github.io/github.io/">Home</a> - Site root.</li>
+                <li><a href="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">Canonical page</a> - This landing page.</li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a> - Authoritative local titles, dates, DOI links, abstracts, and keywords.</li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a> - Later machine-readable cluster index.</li>
+                <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information / Observer-Modifying Dynamics</a> - Later concept-cluster landing page.</li>
+                <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a> - Citation metadata.</li>
+                <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a> - Site update feed.</li>
+                <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a> - Crawler guidance.</li>
+                <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a> - Site URL index.</li>
+                <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a> - Compact LLM-oriented routing guide.</li>
+                <li><a href="https://kadubon.github.io/github.io/llms-full.txt">llms-full.txt</a> - Expanded LLM-oriented routing guide.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 K Takahashi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

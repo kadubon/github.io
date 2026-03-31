@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditability, Replay, and Fail-Closed AI Systems | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for AI auditability, deterministic replay, fail-closed AI, AI agent certification, audit gates, verifiable logs, lifecycle certification, and related deployment safety papers on K. Takahashi's site.">
+    <meta name="keywords" content="AI auditability, deterministic replay, fail-closed AI, AI agent certification, AI monitoring, autonomous agents, audit gates, verifiable logs, proof-carrying autonomy, lifecycle certification, deployment safety, human-AI oversight, post-deployment monitoring, evidence closure, transparency logs, safe control, AI governance, replayable evidence, certification for AI agents">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <meta property="og:title" content="Auditability, Replay, and Fail-Closed AI Systems">
+    <meta property="og:description" content="Canonical field guide to AI auditability, deterministic replay, fail-closed verification, audit gates, lifecycle certification, and deployment safety papers on this site.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Auditability, Replay, and Fail-Closed AI Systems">
+    <meta name="twitter:description" content="Canonical field guide to AI auditability, deterministic replay, fail-closed verification, audit gates, certification, and deployment safety.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero p,
+        .section-copy p,
+        .machine-copy p,
+        .index-note,
+        .cluster-copy p {
+            margin: 0 0 1rem;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .site-title {
+            text-align: center;
+            margin: 0 0 10px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .hero .eyebrow {
+            color: #555;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.08rem;
+            color: #444;
+        }
+
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .section-nav ul,
+        .machine-list,
+        .path-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .machine-list,
+        .path-list {
+            list-style: disc;
+            padding-left: 1.35rem;
+        }
+
+        .machine-list li,
+        .path-list li {
+            margin: 0 0 0.75rem;
+        }
+
+        .section-nav ul {
+            list-style: disc;
+            padding-left: 1.35rem;
+            text-align: left;
+        }
+
+        .section-nav li {
+            display: list-item;
+            margin: 0 0 0.55rem;
+        }
+
+        .section-nav a,
+        .machine-list a,
+        .path-list a {
+            text-decoration: none;
+        }
+
+        .section-nav a:hover,
+        .machine-list a:hover,
+        .path-list a:hover {
+            text-decoration: underline;
+        }
+
+        .card-grid,
+        .paper-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .panel-card,
+        .paper-card {
+            border: 1px solid #dfe5ec;
+            border-radius: 6px;
+            padding: 1rem 1rem 0.9rem;
+            background-color: #fcfdff;
+        }
+
+        .panel-card h3,
+        .paper-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+        }
+
+        .paper-card h4 {
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+        }
+
+        .paper-meta,
+        .paper-role {
+            font-weight: 700;
+            color: #444;
+        }
+
+        .paper-meta {
+            display: block;
+            margin-bottom: 0.45rem;
+        }
+
+        .paper-role {
+            margin-bottom: 0.7rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            border: 1px solid #d9e0e8;
+            border-radius: 6px;
+            background-color: #fafcff;
+            padding: 1rem;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kadubon.github.io/github.io/#website",
+          "url": "https://kadubon.github.io/github.io/",
+          "name": "K. Takahashi Research Hub",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html#webpage",
+          "url": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html",
+          "name": "Auditability, Replay, and Fail-Closed AI Systems",
+          "description": "Canonical site-local landing page for the auditability, deterministic replay, fail-closed verification, lifecycle certification, audit-gate, and monitoring cluster on this site.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-31",
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html#dataset"
+          },
+          "hasPart": {
+            "@id": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html#paper-list"
+          }
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html#dataset",
+          "name": "Auditability / Replay / Fail-Closed AI Cluster YAML",
+          "description": "Visible YAML field guide indexing the site-local research cluster on AI auditability, deterministic replay, fail-closed verification, audit gates, certification, and monitoring.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html",
+          "dateModified": "2026-03-31"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html#paper-list",
+          "name": "Auditability / Replay / Fail-Closed AI Cluster Papers",
+          "numberOfItems": 12,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Counterfactually Auditable Lifecycle Certification for Autonomous Agents",
+                "datePublished": "2026-03-18",
+                "identifier": "https://doi.org/10.5281/zenodo.19089134",
+                "url": "https://doi.org/10.5281/zenodo.19089134"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation",
+                "datePublished": "2026-03-12",
+                "identifier": "https://doi.org/10.5281/zenodo.18973272",
+                "url": "https://doi.org/10.5281/zenodo.18973272"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence",
+                "datePublished": "2026-03-03",
+                "identifier": "https://doi.org/10.5281/zenodo.18845340",
+                "url": "https://doi.org/10.5281/zenodo.18845340"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Audit-Closed AI Scientist Protocol",
+                "datePublished": "2026-02-22",
+                "identifier": "https://doi.org/10.5281/zenodo.18728589",
+                "url": "https://doi.org/10.5281/zenodo.18728589"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Observable-Only Proof-Carrying Autonomy (OOPCA): Audit Compression and Hybrid Proof/Replay Gating for No-Meta Agents",
+                "datePublished": "2026-02-02",
+                "identifier": "https://doi.org/10.5281/zenodo.18453429",
+                "url": "https://doi.org/10.5281/zenodo.18453429"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Observable-Only Audit Gate for Non-Markovian Components in AI Agents under Partial Logging",
+                "datePublished": "2026-01-08",
+                "identifier": "https://doi.org/10.5281/zenodo.18182343",
+                "url": "https://doi.org/10.5281/zenodo.18182343"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Hallucination-Aware Audit Gate (HAAG): Observable-Only Action Gating for AI Agents",
+                "datePublished": "2026-01-05",
+                "identifier": "https://doi.org/10.5281/zenodo.18153170",
+                "url": "https://doi.org/10.5281/zenodo.18153170"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Verifiable Modular Pipeline Contracts for AI and General Composite Systems",
+                "datePublished": "2026-02-09",
+                "identifier": "https://doi.org/10.5281/zenodo.18529100",
+                "url": "https://doi.org/10.5281/zenodo.18529100"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Verification-Limited Intelligence Acceleration: Observable-Only Laws, Bounded Derivation, and Diagnostics under No-Meta Constraints",
+                "datePublished": "2026-01-31",
+                "identifier": "https://doi.org/10.5281/zenodo.18436828",
+                "url": "https://doi.org/10.5281/zenodo.18436828"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Observable-Only No-Meta Causal Autonomy Protocol (ONCAP)",
+                "datePublished": "2026-01-26",
+                "identifier": "https://doi.org/10.5281/zenodo.18371930",
+                "url": "https://doi.org/10.5281/zenodo.18371930"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Process-Aware Observable-Only Backcasting Meta-Layer (POB-ML)",
+                "datePublished": "2026-01-14",
+                "identifier": "https://doi.org/10.5281/zenodo.18239203",
+                "url": "https://doi.org/10.5281/zenodo.18239203"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Observation Capture and Operational Capability Non-Expansion",
+                "datePublished": "2026-02-03",
+                "identifier": "https://doi.org/10.5281/zenodo.18463798",
+                "url": "https://doi.org/10.5281/zenodo.18463798"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <p class="site-title">K. Takahashi</p>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header class="container hero">
+                <p class="eyebrow">Canonical Cluster Landing Page</p>
+                <h1>Auditability, Replay, and Fail-Closed AI Systems</h1>
+                <div class="summary-stack" aria-label="Top summary">
+                    <p>This page is the canonical landing page for the site-local research cluster on AI auditability, deterministic replay, fail-closed verification, audit gates, certification, monitoring, and proof/replay-based governance.</p>
+                    <p>On this site, auditability and fail-closed AI refer to autonomous systems whose claims, actions, and deployment states are anchored to replayable evidence, verifiable logs, audit gates, and explicit certification rules rather than internal assurances alone.</p>
+                    <p>This cluster matters because autonomous agents, post-deployment monitoring, human-AI oversight, and deployment safety all become harder when evidence is partial, delayed, or costly, so safe control requires replayable evidence surfaces, lifecycle certification, and fail-closed decisions under uncertainty.</p>
+                </div>
+                <p class="subtitle">Field guide and machine-readable series map for the site's auditability, replay, and fail-closed AI papers.</p>
+            </header>
+
+            <section class="container section-copy" aria-labelledby="intro-heading">
+                <h2 id="intro-heading">Introduction</h2>
+                <p>AI auditing cannot rely only on what a model, agent, or operator currently claims about itself. In deployment settings, logs may be partial, labels may arrive late, oversight may be intermittent, and some safety-relevant actions may need to be gated before full semantic certainty is available.</p>
+                <p>That is why this cluster repeatedly emphasizes deterministic replay, canonical or verifiable logs, explicit evidence surfaces, audit gates, proof-carrying checks, and fail-closed semantics. The point is not that every system must replay everything at all times; the point is that certification, monitoring, and external effects should remain grounded in evidence that can be checked, reconstructed, or rejected under conservative rules.</p>
+                <p>The resulting themes are relevant to autonomous agents, agent engineering, AI governance, deployment safety, and human-AI oversight because they address how a system is admitted, monitored, interrupted, audited, updated, or denied credit when evidence is incomplete or adversarially weak.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="what-this-page-heading">
+                <h2 id="what-this-page-heading">What This Page Is / Is Not</h2>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3>What This Page Is</h3>
+                        <p>This page is the canonical landing page for the local auditability, replay, and fail-closed AI cluster on this site.</p>
+                        <p>It is a field guide for human readers and machine parsers, and it functions as a navigation layer above the underlying papers.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What This Page Is Not</h3>
+                        <p>This page is not the full works page, not a new theory paper, not a universal definition of AI safety, and not an external survey.</p>
+                        <p>It groups nearby site-local papers conservatively using the existing titles, abstracts, keywords, and site structure.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="yaml-heading">
+                <h2 id="yaml-heading">Canonical YAML Index</h2>
+                <p class="index-note">This visible YAML block is the primary machine-readable source for the cluster.</p>
+                <p class="index-note">It is designed to remain readable for humans while exposing stable ids, conservative paper roles, and practical read paths for parsers.</p>
+                <p class="index-note">The JSON-LD in the head is secondary and should be interpreted consistently with the YAML below.</p>
+                <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="auditability-replay-fail-closed-ai-cluster" data-last-updated="2026-03-31" aria-label="Canonical YAML index for the auditability replay fail-closed AI cluster">series:
+  id: auditability-replay-fail-closed-ai-cluster
+  title: "Auditability, Replay, and Fail-Closed AI Systems"
+  status: active
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical site-local landing page and field guide for papers on AI auditability, deterministic replay, fail-closed verification, audit gates, certification, and monitoring.
+  scope:
+    - Site-local papers on lifecycle certification, deterministic replay, audit gates, fail-closed verification, metrology, monitoring, and compositional safety for autonomous systems.
+    - Read paths and machine entry points for humans, crawlers, and research agents.
+  non_goals:
+    - Not a replacement for the papers.
+    - Not the full works catalog.
+    - Not a new theory paper.
+    - Not an external literature survey.
+
+core_concepts:
+  - id: ai-auditability
+    term: AI auditability
+    short_definition: The ability to ground claims, actions, and governance decisions in evidence that can be externally checked rather than merely asserted.
+    covered_by: [paper-lifecycle, paper-oversight, paper-mte, paper-audit-closed]
+  - id: deterministic-replay
+    term: deterministic replay
+    short_definition: Reconstructable evidence paths that allow later checking, certification, diagnosis, or fallback under controlled replay rules.
+    covered_by: [paper-lifecycle, paper-audit-closed, paper-oopca, paper-partial-logging, paper-oncap, paper-pobml]
+  - id: fail-closed-verification
+    term: fail-closed verification
+    short_definition: Verification and control semantics that deny progress, action, or authority when evidence is missing, weakened, or non-admissible.
+    covered_by: [paper-mte, paper-oopca, paper-haag, paper-pipeline-contracts, paper-verification-limited, paper-observation-capture]
+  - id: audit-gates
+    term: audit gates
+    short_definition: Explicit gating layers that mediate protected actions, certification, or deployment states through logs, checkpoints, or minimal event vocabularies.
+    covered_by: [paper-partial-logging, paper-haag, paper-oncap, paper-pobml]
+  - id: lifecycle-certification
+    term: lifecycle certification
+    short_definition: Admission, retirement, monitoring, and deployment rules for autonomous agents under finite budgets and audit constraints.
+    covered_by: [paper-lifecycle, paper-oversight]
+  - id: compositional-safety
+    term: compositional safety
+    short_definition: Modular contracts or hybrid proof-plus-replay methods that preserve safety and evidence obligations across pipeline composition.
+    covered_by: [paper-oopca, paper-pipeline-contracts]
+
+papers:
+  - id: paper-lifecycle
+    title: "Counterfactually Auditable Lifecycle Certification for Autonomous Agents"
+    doi: "10.5281/zenodo.19089134"
+    url: https://doi.org/10.5281/zenodo.19089134
+    published: 2026-03-18
+    role_in_cluster: lifecycle certification and monitoring layer
+    one_sentence_relevance: Frames admission, retirement, monitoring, and deployment rules for autonomous agents under finite budgets with counterfactual auditability and replay support.
+    keywords: [lifecycle certification, counterfactual auditability, replay support, monitoring, autonomous agents, deployment]
+    priority: core
+    read_after: []
+  - id: paper-oversight
+    title: "Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation"
+    doi: "10.5281/zenodo.18973272"
+    url: https://doi.org/10.5281/zenodo.18973272
+    published: 2026-03-12
+    role_in_cluster: oversight and deployment evaluation layer
+    one_sentence_relevance: Treats human review, automated checks, delayed labels, and external auditing as costly interrupt channels in deployment-relevant metrology and control.
+    keywords: [oversight-centered metrology, costly interrupt channels, human-AI oversight, post-deployment monitoring, claim margins, safe control]
+    priority: core
+    read_after: [paper-lifecycle]
+  - id: paper-mte
+    title: "Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence"
+    doi: "10.5281/zenodo.18845340"
+    url: https://doi.org/10.5281/zenodo.18845340
+    published: 2026-03-03
+    role_in_cluster: machine-checkable metrology and fail-closed governance layer
+    one_sentence_relevance: Gives an observable-only metrology layer with deterministic replay, risk ledgers, and fail-closed criteria for credit-bearing progress.
+    keywords: [observable-only metrology, fail-closed certification, deterministic replay, observability credit, reproducibility]
+    priority: core
+    read_after: [paper-lifecycle, paper-oversight]
+  - id: paper-audit-closed
+    title: "Audit-Closed AI Scientist Protocol"
+    doi: "10.5281/zenodo.18728589"
+    url: https://doi.org/10.5281/zenodo.18728589
+    published: 2026-02-22
+    role_in_cluster: deterministic replay and public-log governance layer
+    one_sentence_relevance: Specifies an audit-closed workflow for autonomous scientific activity under deterministic replay, public-log governance, and certificate-based reproducibility.
+    keywords: [audit-closed governance, deterministic replay, transparency log, reproducibility, typed observation interfaces]
+    priority: core
+    read_after: [paper-mte]
+  - id: paper-oopca
+    title: "Observable-Only Proof-Carrying Autonomy (OOPCA): Audit Compression and Hybrid Proof/Replay Gating for No-Meta Agents"
+    doi: "10.5281/zenodo.18453429"
+    url: https://doi.org/10.5281/zenodo.18453429
+    published: 2026-02-02
+    role_in_cluster: hybrid proof-plus-replay compression layer
+    one_sentence_relevance: Covers proof/replay hybrid gating that reduces verifier workload while preserving fail-closed semantics, evidence closure, and deterministic fallback receipts.
+    keywords: [proof-carrying autonomy, audit compression, deterministic replay, fail-closed verification, evidence closure]
+    priority: core
+    read_after: [paper-audit-closed]
+  - id: paper-partial-logging
+    title: "Observable-Only Audit Gate for Non-Markovian Components in AI Agents under Partial Logging"
+    doi: "10.5281/zenodo.18182343"
+    url: https://doi.org/10.5281/zenodo.18182343
+    published: 2026-01-08
+    role_in_cluster: partial logging and replay-time certification layer
+    one_sentence_relevance: Separates decision-time evidence from replay-time certification under partial logging with a minimal event vocabulary and finalized log prefixes.
+    keywords: [partial logging, auditability, deterministic replay, canonical JSON, telemetry contracts, certification]
+    priority: core
+    read_after: [paper-haag]
+  - id: paper-haag
+    title: "Hallucination-Aware Audit Gate (HAAG): Observable-Only Action Gating for AI Agents"
+    doi: "10.5281/zenodo.18153170"
+    url: https://doi.org/10.5281/zenodo.18153170
+    published: 2026-01-05
+    role_in_cluster: action gating and anchored evidence checkpoint layer
+    one_sentence_relevance: Uses observable-only action gating, verifiable logs, anchored evidence checkpoints, and capability tokens for protected actions without relying on introspection.
+    keywords: [audit gate, action gating, verifiable logs, decision anchor, capability tokens, transparency log]
+    priority: core
+    read_after: []
+  - id: paper-pipeline-contracts
+    title: "Verifiable Modular Pipeline Contracts for AI and General Composite Systems"
+    doi: "10.5281/zenodo.18529100"
+    url: https://doi.org/10.5281/zenodo.18529100
+    published: 2026-02-09
+    role_in_cluster: modular verification and compositional safety layer
+    one_sentence_relevance: Provides domain-agnostic verifiable contracts for modular pipelines with deterministic fail-closed verification, composition guarantees, and signed evidence.
+    keywords: [verifiable contracts, modular pipelines, fail-closed verifier, compositional guarantees, signed evidence]
+    priority: core
+    read_after: [paper-oopca, paper-partial-logging]
+  - id: paper-verification-limited
+    title: "Verification-Limited Intelligence Acceleration: Observable-Only Laws, Bounded Derivation, and Diagnostics under No-Meta Constraints"
+    doi: "10.5281/zenodo.18436828"
+    url: https://doi.org/10.5281/zenodo.18436828
+    published: 2026-01-31
+    role_in_cluster: bounded progress-credit and diagnostics layer
+    one_sentence_relevance: Studies verification-limited progress credit under bounded derivation with replay-auditable diagnostics and strict fail-closed credit rules.
+    keywords: [verification-limited scaling, fail-closed verification, transparency logs, diagnostics, bounded derivation]
+    priority: adjacent
+    read_after: [paper-mte]
+  - id: paper-oncap
+    title: "Observable-Only No-Meta Causal Autonomy Protocol (ONCAP)"
+    doi: "10.5281/zenodo.18371930"
+    url: https://doi.org/10.5281/zenodo.18371930
+    published: 2026-01-26
+    role_in_cluster: implementation-oriented protocol stack layer
+    one_sentence_relevance: Gives an implementation-ready protocol stack with deterministic replay backcasting, time anchors, closure obligations, and fail-closed audit-friendly control.
+    keywords: [deterministic replay, backcasting, time anchors, fail-closed gating, multi-agent robustness]
+    priority: adjacent
+    read_after: [paper-audit-closed, paper-partial-logging]
+  - id: paper-pobml
+    title: "Process-Aware Observable-Only Backcasting Meta-Layer (POB-ML)"
+    doi: "10.5281/zenodo.18239203"
+    url: https://doi.org/10.5281/zenodo.18239203
+    published: 2026-01-14
+    role_in_cluster: deterministic backcasting and audit-ready evidence-surface layer
+    one_sentence_relevance: Covers deterministic backcasting under audit-ready evidence surfaces with budgeted evaluation, static validation, and safety-dominating action gates.
+    keywords: [deterministic replay, evidence surface, action gate, safety assurance, backcasting]
+    priority: adjacent
+    read_after: [paper-partial-logging]
+  - id: paper-observation-capture
+    title: "Observation Capture and Operational Capability Non-Expansion"
+    doi: "10.5281/zenodo.18463798"
+    url: https://doi.org/10.5281/zenodo.18463798
+    published: 2026-02-03
+    role_in_cluster: anti-capture and authority-limitation layer
+    one_sentence_relevance: Models observation capture under fail-closed authority and proposes receipt-based anti-capture enforcement tied to audit certificates.
+    keywords: [fail-closed authority, audit certificates, anti-capture enforcement, capability non-expansion]
+    priority: adjacent
+    read_after: [paper-haag, paper-pipeline-contracts]
+
+read_paths:
+  quick_orientation: [paper-lifecycle, paper-oversight, paper-mte]
+  certification_and_lifecycle: [paper-lifecycle, paper-oversight, paper-verification-limited]
+  audit_gates_and_logs: [paper-haag, paper-partial-logging, paper-audit-closed]
+  replay_and_proof: [paper-audit-closed, paper-oopca, paper-oncap, paper-pobml]
+  deployment_oversight: [paper-oversight, paper-lifecycle, paper-pipeline-contracts]
+  machine_minimum_parse_order: [paper-lifecycle, paper-mte, paper-audit-closed, paper-oopca, paper-haag]
+
+machine_parse_guide:
+  canonical_questions:
+    - question: What does auditability mean on this site for autonomous agents?
+      read_first: paper-lifecycle
+      read_next: paper-oversight
+      stop_when: The parser can state that lifecycle, monitoring, and oversight decisions are grounded in explicit evidence and interrupt channels rather than privileged internal claims.
+    - question: Where does deterministic replay enter this cluster?
+      read_first: paper-audit-closed
+      read_next: paper-oopca
+      stop_when: The parser can identify replay as a certification, governance, or fallback surface rather than just a debugging convenience.
+    - question: What is fail-closed verification here?
+      read_first: paper-mte
+      read_next: paper-verification-limited
+      stop_when: The parser can explain that missing or weakened evidence blocks credit, authority, or action under conservative rules.
+    - question: Which papers are the fastest route to action gates, logs, and deployment controls?
+      read_first: paper-haag
+      read_next: paper-partial-logging
+      stop_when: The parser can distinguish action gating, replay-time certification, and deployment-level governance roles without inferring stronger dependencies than stated.
+
+machine_entrypoints:
+  - title: Auditability / Replay / Fail-Closed AI Systems
+    type: canonical_page
+    url: https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
+    relates_to: cluster orientation and paper selection
+  - title: Works
+    type: works_index
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: full local publication catalog
+  - title: No-Meta / Observable-Only Series Index
+    type: series_index
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: broader no-meta and observable-only context
+  - title: Home
+    type: site_root
+    url: https://kadubon.github.io/github.io/
+    relates_to: general site entry and navigation
+  - title: CITATION.cff
+    type: citation_metadata
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: citation and authorship metadata
+  - title: feed.xml
+    type: rss_feed
+    url: https://kadubon.github.io/github.io/feed.xml
+    relates_to: update polling and change discovery
+  - title: robots.txt
+    type: crawler_policy
+    url: https://kadubon.github.io/github.io/robots.txt
+    relates_to: crawler access policy
+  - title: sitemap.xml
+    type: sitemap
+    url: https://kadubon.github.io/github.io/sitemap.xml
+    relates_to: URL discovery
+  - title: llms.txt
+    type: llm_hint
+    url: https://kadubon.github.io/github.io/llms.txt
+    relates_to: LLM-oriented site guidance
+
+usage_notes:
+  parsing_hint: Start from this page for cluster orientation, then use DOI pages for paper-level claims and works.html for the larger local catalog.
+  paper_selection_rule: Prefer papers listed here before inferring broader relationships from the full works page.
+  update_policy: Relationship claims on this page should remain grounded in local titles, abstracts, keywords, and existing site structure.
+  version: "1.0"
+  last_updated: "2026-03-31"</pre>
+            </section>
+
+            <nav class="container section-nav" aria-label="On this page">
+                <h2>Page Structure</h2>
+                <ul>
+                    <li><a href="#intro-heading">Introduction</a></li>
+                    <li><a href="#what-this-page-heading">What this page is / is not</a></li>
+                    <li><a href="#yaml-heading">Canonical YAML index</a></li>
+                    <li><a href="#cluster-fit-heading">How this cluster fits together</a></li>
+                    <li><a href="#related-papers-heading">Related papers in this cluster</a></li>
+                    <li><a href="#read-paths-heading">Recommended read paths</a></li>
+                    <li><a href="#machine-entry-heading">Machine-readable entry points</a></li>
+                </ul>
+            </nav>
+
+            <section class="container cluster-copy" aria-labelledby="cluster-fit-heading">
+                <h2 id="cluster-fit-heading">How This Cluster Fits Together</h2>
+                <p>This cluster can be read as a layered map rather than a strict theorem chain. One layer concerns lifecycle certification and deployment gating: when agents are admitted, monitored, interrupted, retired, or allowed to continue under finite budgets and explicit oversight constraints. A second layer concerns oversight and metrology: how human review, automated checks, delayed labels, and external auditing become costly interrupt channels rather than privileged oracles.</p>
+                <p>A third layer concerns deterministic replay, transparency logs, and public-log governance. Here the emphasis is on reconstructable evidence, replay-ready traces, reproducible controls, and audit-closed workflows. A fourth layer concerns audit gates and partial logging, where the main problem is how to gate actions or certify behavior when evidence is incomplete at decision time but may become certifiable under replay-time rules.</p>
+                <p>A fifth layer concerns proof/replay hybrid compression. Those papers do not replace replay; they ask when selected replay segments can be replaced by pinned proof checks while preserving fail-closed semantics and evidence closure. A sixth layer concerns modular contracts and compositional safety, where safety obligations, signed evidence, and verification profiles must survive across pipeline composition rather than only inside a single module.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="related-papers-heading">
+                <h2 id="related-papers-heading">Related Papers in This Cluster</h2>
+
+                <h3>Core Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h4>Counterfactually Auditable Lifecycle Certification for Autonomous Agents</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19089134">10.5281/zenodo.19089134</a></span>
+                        <p class="paper-role">Role in cluster: lifecycle certification, admission, retirement, monitoring, and deployment layer.</p>
+                        <p>This paper frames autonomous-agent lifecycle certification under finite routing, monitoring, and deployment budgets, with counterfactual auditability and replay support built into the setting.</p>
+                        <p><strong>Why it matters here:</strong> It is the clearest entry point for how this cluster treats certification as an operational lifecycle problem rather than only an offline evaluation problem.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18973272">10.5281/zenodo.18973272</a></span>
+                        <p class="paper-role">Role in cluster: oversight, interrupt channels, and deployment-relevant evaluation layer.</p>
+                        <p>This paper treats human review, automated checks, delayed labels, and external auditing as costly interrupt channels in the metrology and control of agentic systems.</p>
+                        <p><strong>Why it matters here:</strong> It ties auditability to deployment oversight and safe control, clarifying why external checks are limited resources rather than unlimited ground truth.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18845340">10.5281/zenodo.18845340</a></span>
+                        <p class="paper-role">Role in cluster: machine-checkable metrology and fail-closed credit-bearing governance layer.</p>
+                        <p>This paper introduces an observable-only metrology layer with deterministic artifact canonicalization, observability credit gates, risk ledgers, reproducible replay, and destructive test obligations.</p>
+                        <p><strong>Why it matters here:</strong> It is one of the clearest sources for the site-local meaning of fail-closed governance when progress credit depends on admissible evidence.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Audit-Closed AI Scientist Protocol</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18728589">10.5281/zenodo.18728589</a></span>
+                        <p class="paper-role">Role in cluster: audit-closed workflow, deterministic replay, and public-log governance layer.</p>
+                        <p>This paper presents an audit-closed protocol for autonomous scientific discovery under deterministic replay, typed observation interfaces, logged-propensity experimentation, and public-log governance.</p>
+                        <p><strong>Why it matters here:</strong> It shows how replay and transparency logs operate inside a concrete workflow rather than as abstract requirements alone.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Observable-Only Proof-Carrying Autonomy (OOPCA): Audit Compression and Hybrid Proof/Replay Gating for No-Meta Agents</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18453429">10.5281/zenodo.18453429</a></span>
+                        <p class="paper-role">Role in cluster: proof/replay hybrid compression layer.</p>
+                        <p>This paper covers hybrid proof-and-replay audit modes that replace selected deterministic replay segments with pinned proof verification while preserving fail-closed semantics and evidence closure.</p>
+                        <p><strong>Why it matters here:</strong> It explains how proof-carrying autonomy enters the cluster as an audit-compression method rather than a replacement for replayable evidence.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Observable-Only Audit Gate for Non-Markovian Components in AI Agents under Partial Logging</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18182343">10.5281/zenodo.18182343</a></span>
+                        <p class="paper-role">Role in cluster: partial logging, minimal event vocabulary, and replay-time certification layer.</p>
+                        <p>This paper studies audit gates for non-Markovian components under partial logging, separating decision-time evidence from replay-time certification through finalized log prefixes and constrained telemetry contracts.</p>
+                        <p><strong>Why it matters here:</strong> It is a direct source for how this cluster handles delayed audit and incomplete evidence without abandoning certification.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Hallucination-Aware Audit Gate (HAAG): Observable-Only Action Gating for AI Agents</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18153170">10.5281/zenodo.18153170</a></span>
+                        <p class="paper-role">Role in cluster: action gating, verifiable logs, and anchored evidence checkpoints layer.</p>
+                        <p>This paper mediates protected actions through observable-only action gating, verifiable logs, anchored checkpoints, and capability tokens, without relying on privileged model introspection or semantic truth access.</p>
+                        <p><strong>Why it matters here:</strong> It is the most direct entry point for readers asking how fail-closed control can operate at action time under auditable evidence constraints.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Verifiable Modular Pipeline Contracts for AI and General Composite Systems</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18529100">10.5281/zenodo.18529100</a></span>
+                        <p class="paper-role">Role in cluster: modular verification, compositional contracts, and pipeline safety layer.</p>
+                        <p>This paper gives a domain-agnostic observable-only contract framework for modular AI and composite-system pipelines with deterministic fail-closed verification, progressive certificate profiles, and signed evidence.</p>
+                        <p><strong>Why it matters here:</strong> It covers how auditability and fail-closed checks survive composition across modules and interfaces rather than only within a single component.</p>
+                    </article>
+                </div>
+
+                <h3>Adjacent Implementation / Governance Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h4>Verification-Limited Intelligence Acceleration: Observable-Only Laws, Bounded Derivation, and Diagnostics under No-Meta Constraints</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18436828">10.5281/zenodo.18436828</a></span>
+                        <p class="paper-role">Role in cluster: bounded progress-credit and replay-auditable diagnostics layer.</p>
+                        <p>This paper studies verification-limited acceleration under bounded derivation with diagnostics and strict fail-closed progress credit when evidence weakens.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because it sharpens the governance logic around when apparent progress should count, stall, or be denied.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Observable-Only No-Meta Causal Autonomy Protocol (ONCAP)</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18371930">10.5281/zenodo.18371930</a></span>
+                        <p class="paper-role">Role in cluster: implementation-ready protocol stack and audit-friendly fail-closed control layer.</p>
+                        <p>This paper gives an implementation-ready protocol stack with deterministic replay backcasting, commit-open time anchors, closure obligations, and multi-agent robustness constraints.</p>
+                        <p><strong>Why it matters here:</strong> It is useful for readers who want a more protocol-oriented view of replay, closure, and fail-closed control in operational settings.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Process-Aware Observable-Only Backcasting Meta-Layer (POB-ML)</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18239203">10.5281/zenodo.18239203</a></span>
+                        <p class="paper-role">Role in cluster: deterministic backcasting and audit-ready evidence-surface layer.</p>
+                        <p>This paper covers deterministic backcasting under audit-ready evidence surfaces with budgeted candidate evaluation, static validation, InputSet binding, and safety-dominating action gates.</p>
+                        <p><strong>Why it matters here:</strong> It helps connect replay-oriented governance to process-level evidence preparation and evaluation order.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Observation Capture and Operational Capability Non-Expansion</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18463798">10.5281/zenodo.18463798</a></span>
+                        <p class="paper-role">Role in cluster: anti-capture enforcement and fail-closed authority layer.</p>
+                        <p>This paper models observation capture as Blackwell garbling and develops receipt-based anti-capture enforcement under operational non-expansion and fail-closed authority.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because it addresses how audit certificates and authority limits can remain meaningful when the observation channel itself is strategically degraded.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="read-paths-heading">
+                <h2 id="read-paths-heading">Recommended Read Paths</h2>
+                <ul class="path-list">
+                    <li>If you are new to the topic, read <a href="https://doi.org/10.5281/zenodo.19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a> first, then <a href="https://doi.org/10.5281/zenodo.18973272">Oversight-Centered Metrology and Control for Agentic Systems</a>. That path gives the fastest overview of lifecycle, oversight, monitoring, and deployment framing.</li>
+                    <li>If you want audit and governance structure first, read <a href="https://doi.org/10.5281/zenodo.18845340">Metrology-Theoretic Epistemics Engine (MTE)</a>, then <a href="https://doi.org/10.5281/zenodo.18728589">Audit-Closed AI Scientist Protocol</a>, then <a href="https://doi.org/10.5281/zenodo.18436828">Verification-Limited Intelligence Acceleration</a>. That route emphasizes fail-closed credit, reproducible replay, and conservative progress accounting.</li>
+                    <li>If you want concrete audit-gate implementations first, read <a href="https://doi.org/10.5281/zenodo.18153170">Hallucination-Aware Audit Gate (HAAG)</a>, then <a href="https://doi.org/10.5281/zenodo.18182343">Observable-Only Audit Gate for Non-Markovian Components in AI Agents under Partial Logging</a>, then <a href="https://doi.org/10.5281/zenodo.18529100">Verifiable Modular Pipeline Contracts</a>. That path focuses on action gating, partial logs, and compositional safety.</li>
+                    <li>If you want replay and proof-oriented compression, read <a href="https://doi.org/10.5281/zenodo.18728589">Audit-Closed AI Scientist Protocol</a>, then <a href="https://doi.org/10.5281/zenodo.18453429">Observable-Only Proof-Carrying Autonomy (OOPCA)</a>, then <a href="https://doi.org/10.5281/zenodo.18371930">Observable-Only No-Meta Causal Autonomy Protocol (ONCAP)</a>. That route keeps replay central while showing where proof and protocol constraints reduce auditing burden.</li>
+                    <li>If you want lifecycle and deployment governance first, read <a href="https://doi.org/10.5281/zenodo.19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a>, then <a href="https://doi.org/10.5281/zenodo.18973272">Oversight-Centered Metrology and Control for Agentic Systems</a>, then <a href="https://doi.org/10.5281/zenodo.18529100">Verifiable Modular Pipeline Contracts</a>. That path is the most direct route from admission rules to deployment oversight and modular safety obligations.</li>
+                    <li>If you are a machine parser or crawler, start with the visible YAML on this page, then read <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for broader local metadata, then use the DOI links for paper-level claims. Stop once you can map lifecycle certification, replay, fail-closed verification, audit gates, and compositional contracts without inferring unstated dependency claims.</li>
+                </ul>
+            </section>
+
+            <section class="container machine-copy" aria-labelledby="machine-entry-heading">
+                <h2 id="machine-entry-heading">Machine-Readable Entry Points</h2>
+                <ul class="machine-list">
+                    <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">auditability-replay-fail-closed-ai.html</a>: canonical landing page and primary visible-YAML source for this cluster.</li>
+                    <li><a href="https://kadubon.github.io/github.io/works.html">works.html</a>: full local publication index with titles, abstracts, keywords, and DOI links.</li>
+                    <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a>: broader no-meta / observable-only series index for nearby protocol and governance context.</li>
+                    <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>: citation and authorship metadata.</li>
+                    <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>: update feed for polling and change discovery.</li>
+                    <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a>: crawler access policy.</li>
+                    <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a>: crawl discovery map.</li>
+                    <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a>: LLM-oriented site guidance.</li>
+                    <li><a href="https://kadubon.github.io/github.io/">Home</a>: top-level site entry point with links to the major local indexes.</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer class="container">
+        <p>Canonical cluster page for site-local research on AI auditability, deterministic replay, fail-closed verification, and deployment governance.</p>
+    </footer>
+</body>
+</html>

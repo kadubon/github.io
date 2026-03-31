@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long-Running Agents, Memory Limits, and Multi-Agent Reasoning | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared memory papers on K. Takahashi's site.">
+    <meta name="keywords" content="long-running agents, bounded memory, finite context, context window limits, delayed verification, multi-agent reasoning, multi-agent inference, external memory, shared memory, recursive self-improvement, evaluator drift, benchmark decay, benchmark contamination, validity decay, collective inference, agent persistence, context compression, reset policy, long-horizon AI systems, AI agent stability">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <meta property="og:title" content="Long-Running Agents, Memory Limits, and Multi-Agent Reasoning">
+    <meta property="og:description" content="Canonical field guide to long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, benchmark decay, and recursive self-improvement stability papers on this site.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Long-Running Agents, Memory Limits, and Multi-Agent Reasoning">
+    <meta name="twitter:description" content="Canonical field guide to long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, shared memory, benchmark decay, and recursive self-improvement stability.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero p,
+        .section-copy p,
+        .machine-copy p,
+        .cluster-copy p,
+        .index-note {
+            margin: 0 0 1rem;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .site-title {
+            text-align: center;
+            margin: 0 0 10px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .hero .eyebrow {
+            color: #555;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.08rem;
+            color: #444;
+        }
+
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .section-nav ul,
+        .machine-list,
+        .path-list,
+        .question-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .machine-list,
+        .path-list,
+        .question-list {
+            list-style: disc;
+            padding-left: 1.35rem;
+        }
+
+        .machine-list li,
+        .path-list li,
+        .question-list li {
+            margin: 0 0 0.75rem;
+        }
+
+        .section-nav ul {
+            list-style: disc;
+            padding-left: 1.35rem;
+            text-align: left;
+        }
+
+        .section-nav li {
+            display: list-item;
+            margin: 0 0 0.55rem;
+        }
+
+        .section-nav a,
+        .machine-list a,
+        .path-list a {
+            text-decoration: none;
+        }
+
+        .section-nav a:hover,
+        .machine-list a:hover,
+        .path-list a:hover {
+            text-decoration: underline;
+        }
+
+        .card-grid,
+        .paper-grid,
+        .concept-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .panel-card,
+        .paper-card,
+        .concept-card {
+            border: 1px solid #dfe5ec;
+            border-radius: 6px;
+            padding: 1rem 1rem 0.9rem;
+            background-color: #fcfdff;
+        }
+
+        .panel-card h3,
+        .paper-card h3,
+        .paper-card h4,
+        .concept-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.6rem;
+        }
+
+        .paper-meta,
+        .paper-role {
+            font-weight: 700;
+            color: #444;
+        }
+
+        .paper-meta {
+            display: block;
+            margin-bottom: 0.45rem;
+        }
+
+        .paper-role {
+            margin-bottom: 0.7rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            border: 1px solid #d9e0e8;
+            border-radius: 6px;
+            background-color: #fafcff;
+            padding: 1rem;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kadubon.github.io/github.io/#website",
+          "url": "https://kadubon.github.io/github.io/",
+          "name": "K. Takahashi Research Hub",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#webpage",
+          "url": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html",
+          "name": "Long-Running Agents, Memory Limits, and Multi-Agent Reasoning",
+          "description": "Canonical site-local landing page for long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, recursive self-improvement stability, and benchmark validity decay.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-31",
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#dataset"
+          },
+          "hasPart": {
+            "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#paper-list"
+          }
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#dataset",
+          "name": "Long-Running Agents / Memory Limits / Multi-Agent Reasoning Cluster YAML",
+          "description": "Visible YAML field guide indexing the site-local research cluster on long-running agents, bounded memory, multi-agent reasoning, delayed verification, evaluation decay, and shared memory under resource limits.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html",
+          "dateModified": "2026-03-31"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#paper-list",
+          "name": "Long-Running Agents / Memory Limits / Multi-Agent Reasoning Cluster Papers",
+          "numberOfItems": 9,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Search Stability under Finite Context: A Minimal Theory of Adequacy Preservation, Compression, and Reset in Long-Running Agents",
+                "datePublished": "2026-03-08",
+                "identifier": "https://doi.org/10.5281/zenodo.18905242",
+                "url": "https://doi.org/10.5281/zenodo.18905242"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "When Should Inference Be Split? A Fixed-Budget Theory of Predictable Multi-Agent Advantage under Local Context Ceilings",
+                "datePublished": "2026-03-10",
+                "identifier": "https://doi.org/10.5281/zenodo.18932509",
+                "url": "https://doi.org/10.5281/zenodo.18932509"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Recursive Self-Improvement Stability under Endogenous Yardstick Drift",
+                "datePublished": "2026-03-16",
+                "identifier": "https://doi.org/10.5281/zenodo.19044634",
+                "url": "https://doi.org/10.5281/zenodo.19044634"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration",
+                "datePublished": "2026-03-11",
+                "identifier": "https://doi.org/10.5281/zenodo.18954286",
+                "url": "https://doi.org/10.5281/zenodo.18954286"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Sovereign Epistemic Commons under No-Meta Governance",
+                "datePublished": "2026-03-13",
+                "identifier": "https://doi.org/10.5281/zenodo.18997828",
+                "url": "https://doi.org/10.5281/zenodo.18997828"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Counterfactually Auditable Lifecycle Certification for Autonomous Agents",
+                "datePublished": "2026-03-18",
+                "identifier": "https://doi.org/10.5281/zenodo.19089134",
+                "url": "https://doi.org/10.5281/zenodo.19089134"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Proposal-Veto Balance for Observable-Only Autonomous Intelligence: Stability Thresholds, Identifiability Limits, and Commit-Window Effects",
+                "datePublished": "2026-03-06",
+                "identifier": "https://doi.org/10.5281/zenodo.18883290",
+                "url": "https://doi.org/10.5281/zenodo.18883290"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence",
+                "datePublished": "2026-03-03",
+                "identifier": "https://doi.org/10.5281/zenodo.18845340",
+                "url": "https://doi.org/10.5281/zenodo.18845340"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "item": {
+                "@type": "ScholarlyArticle",
+                "name": "Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation",
+                "datePublished": "2026-03-12",
+                "identifier": "https://doi.org/10.5281/zenodo.18973272",
+                "url": "https://doi.org/10.5281/zenodo.18973272"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <p class="site-title">K. Takahashi</p>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header class="container hero">
+                <p class="eyebrow">Canonical Cluster Landing Page</p>
+                <h1>Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</h1>
+                <div class="summary-stack" aria-label="Top summary">
+                    <p>This page is the canonical landing page for the site-local research cluster on long-running agents, finite active context, bounded memory, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared or external memory under explicit resource limits.</p>
+                    <p>On this site, long-running-agent reliability is treated as a distinct problem from one-shot benchmarks because persistent agents must compress, reset, defer checks, reuse external traces, and continue acting while relevant evidence and verification can remain incomplete.</p>
+                    <p>These topics matter together because finite context, decomposition across multiple agents, evaluator drift, and benchmark contamination can each change what an agent remembers, how it is judged, and whether apparent progress remains reliable over long horizons.</p>
+                </div>
+                <p class="subtitle">Field guide and machine-readable series map for the site's papers on long-horizon agents, bounded memory, multi-agent inference, and evaluation decay.</p>
+            </header>
+
+            <section class="container section-copy" aria-labelledby="intro-heading">
+                <h2 id="intro-heading">Introduction</h2>
+                <p>Short benchmark-style evaluations often hide the problems that appear when agents persist for long periods. A long-running system has to decide what to keep in active context, what to compress, what to externalize, when to reset, and how to proceed when verification is delayed or budget-limited.</p>
+                <p>Those choices matter because bounded context and lossy memory can silently remove hypotheses or evidence that would still matter later. External memory and shared traces can help, but they also introduce routing costs, provenance questions, contamination risk, and communication failure modes.</p>
+                <p>Multi-agent decomposition can therefore be useful without being automatically beneficial. Splitting inference across agents may improve coverage under fixed budgets, but the gain depends on decomposability, communication fidelity, shared-failure dependence, and verification overhead. At the same time, evaluation itself can decay when benchmarks, solution traces, and public corpora feed back into the systems being measured.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="what-this-page-heading">
+                <h2 id="what-this-page-heading">What This Page Is / Is Not</h2>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3>What This Page Is</h3>
+                        <p>This page is the canonical landing page for the local cluster on long-running agents, memory limits, multi-agent reasoning, and evaluation decay.</p>
+                        <p>It is a field guide for human readers and machine parsers, and it functions as a navigation layer above the underlying papers.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What This Page Is Not</h3>
+                        <p>This page is not the full works page, not a new theory paper, not a universal definition of agentic AI, and not an external survey of the field.</p>
+                        <p>It groups nearby site-local papers conservatively using the titles, abstracts, keywords, and existing site structure.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="yaml-heading">
+                <h2 id="yaml-heading">Canonical YAML Index</h2>
+                <p class="index-note">This visible YAML block is the primary machine-readable source for the cluster.</p>
+                <p class="index-note">It is intended to remain readable for humans while exposing stable ids, conservative paper roles, and parse-friendly read paths.</p>
+                <p class="index-note">The JSON-LD in the head is secondary and should be interpreted consistently with the YAML below.</p>
+                <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="long-running-agents-memory-multi-agent-reasoning-cluster" data-last-updated="2026-03-31" aria-label="Canonical YAML index for the long-running agents memory limits and multi-agent reasoning cluster">series:
+  id: long-running-agents-memory-multi-agent-reasoning-cluster
+  title: "Long-Running Agents, Memory Limits, and Multi-Agent Reasoning"
+  status: active
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical site-local landing page and field guide for papers on long-running agents, finite context, bounded memory, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared memory under resource limits.
+  scope:
+    - Site-local papers on long-running agent persistence, context compression, reset policy, multi-agent decomposition, recursive yardstick drift, benchmark validity decay, shared memory, and adjacent monitoring support.
+    - Read paths and machine entry points for human readers, crawlers, and research agents.
+  non_goals:
+    - Not a replacement for the papers.
+    - Not the full works catalog.
+    - Not a new theory paper.
+    - Not an external literature survey.
+
+core_concepts:
+  - id: long-running-agents
+    term: long-running agents
+    short_definition: Agents that must continue reasoning and acting across extended horizons rather than completing a single bounded prompt-response task.
+    covered_by: [paper-search-stability, paper-lifecycle, paper-mte]
+  - id: finite-active-context
+    term: finite active context
+    short_definition: A limited working context that cannot hold every hypothesis, trace, or verification dependency relevant over time.
+    covered_by: [paper-search-stability, paper-split-inference]
+  - id: bounded-memory
+    term: bounded memory
+    short_definition: Operational limits on what an agent or agent collection can retain, route, and verify under finite budgets.
+    covered_by: [paper-search-stability, paper-commons, paper-split-inference]
+  - id: lossy-compression
+    term: lossy compression
+    short_definition: Compression that preserves some operational adequacy while risking aliasing, retirement, or contamination of state needed later.
+    covered_by: [paper-search-stability]
+  - id: reset-policy
+    term: reset policy
+    short_definition: Rules for restarting or pruning active state when context budgets, contamination, or reserve feasibility constraints bind.
+    covered_by: [paper-search-stability]
+  - id: delayed-verification
+    term: delayed verification
+    short_definition: A setting in which checks, audits, or decisive evidence arrive after actions, memory changes, or routing decisions have already occurred.
+    covered_by: [paper-search-stability, paper-rsi-yardstick, paper-lifecycle, paper-oversight]
+  - id: local-context-ceilings
+    term: local context ceilings
+    short_definition: Per-agent or per-workspace context limits that shape whether splitting inference can outperform a matched single workspace.
+    covered_by: [paper-split-inference]
+  - id: multi-agent-advantage
+    term: multi-agent advantage
+    short_definition: Performance gain from decomposition under fixed budgets when coverage, diversity, routing, and verification trade-offs are favorable.
+    covered_by: [paper-split-inference]
+  - id: external-shared-memory
+    term: external or shared memory
+    short_definition: Memory stored in external traces, typed commons, or shared substrates that multiple agents can access under governance rules.
+    covered_by: [paper-split-inference, paper-commons]
+  - id: yardstick-drift
+    term: evaluator or yardstick drift
+    short_definition: Change in the benchmark, evaluator, memory, or verification process used to judge whether a system is improving.
+    covered_by: [paper-rsi-yardstick, paper-benchmark-half-life]
+  - id: benchmark-validity-decay
+    term: benchmark half-life or validity decay
+    short_definition: Loss of benchmark discriminative power or construct validity as benchmark items and solution traces re-enter recursive public corpora.
+    covered_by: [paper-benchmark-half-life]
+
+papers:
+  - id: paper-search-stability
+    title: "Search Stability under Finite Context: A Minimal Theory of Adequacy Preservation, Compression, and Reset in Long-Running Agents"
+    doi: "10.5281/zenodo.18905242"
+    url: https://doi.org/10.5281/zenodo.18905242
+    published: 2026-03-08
+    role_in_cluster: central long-running-agent, finite-context, compression, and reset layer
+    one_sentence_relevance: Gives a minimal theory of search stability for long-running agents under finite active context, delayed verification, and lossy state compression.
+    keywords: [search stability, long-running agents, finite active context, bounded memory, delayed verification, adequacy preservation, lossy compression, reset policy]
+    priority: core
+    read_after: []
+  - id: paper-split-inference
+    title: "When Should Inference Be Split? A Fixed-Budget Theory of Predictable Multi-Agent Advantage under Local Context Ceilings"
+    doi: "10.5281/zenodo.18932509"
+    url: https://doi.org/10.5281/zenodo.18932509
+    published: 2026-03-10
+    role_in_cluster: central multi-agent reasoning and fixed-budget decomposition layer
+    one_sentence_relevance: Specifies when splitting inference across multiple agents under local context ceilings can predictably outperform matched single-workspace baselines.
+    keywords: [fixed-budget inference, multi-agent advantage, local context ceilings, external memory, collective inference, communication fidelity, AI reasoning]
+    priority: core
+    read_after: [paper-search-stability]
+  - id: paper-rsi-yardstick
+    title: "Recursive Self-Improvement Stability under Endogenous Yardstick Drift"
+    doi: "10.5281/zenodo.19044634"
+    url: https://doi.org/10.5281/zenodo.19044634
+    published: 2026-03-16
+    role_in_cluster: recursive self-modification, evaluator drift, and replayable stability layer
+    one_sentence_relevance: Treats recursive self-improvement as a setting where the system can change its own evaluator, benchmark, memory, and verification process.
+    keywords: [recursive self-improvement, endogenous yardstick drift, evaluator drift, replayable interfaces, delayed audit, verification backlog, benchmark decay]
+    priority: core
+    read_after: [paper-search-stability, paper-split-inference]
+  - id: paper-benchmark-half-life
+    title: "AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration"
+    doi: "10.5281/zenodo.18954286"
+    url: https://doi.org/10.5281/zenodo.18954286
+    published: 2026-03-11
+    role_in_cluster: evaluation decay, benchmark contamination, and recursive-corpora monitoring layer
+    one_sentence_relevance: Models how benchmark validity decays when benchmark items and solution traces re-enter public data and recursive corpora.
+    keywords: [AI benchmark half-life, recursive corpora, semantic leakage, validity decay, benchmark contamination, sequential monitoring, lineage observability]
+    priority: core
+    read_after: [paper-search-stability]
+  - id: paper-commons
+    title: "Sovereign Epistemic Commons under No-Meta Governance"
+    doi: "10.5281/zenodo.18997828"
+    url: https://doi.org/10.5281/zenodo.18997828
+    published: 2026-03-13
+    role_in_cluster: shared memory, collective knowledge substrate, and asynchronous governance layer
+    one_sentence_relevance: Covers shared epistemic commons maintained by autonomous agents under observable governance rules, with attention to provenance uncertainty and recursive regeneration.
+    keywords: [epistemic commons, shared memory, shared knowledge substrate, multi-agent systems, asynchronous systems, recursive regeneration, agent memory governance]
+    priority: adjacent
+    read_after: [paper-split-inference, paper-benchmark-half-life]
+  - id: paper-lifecycle
+    title: "Counterfactually Auditable Lifecycle Certification for Autonomous Agents"
+    doi: "10.5281/zenodo.19089134"
+    url: https://doi.org/10.5281/zenodo.19089134
+    published: 2026-03-18
+    role_in_cluster: lifecycle monitoring, long-run deployment, and monitoring-budget layer
+    one_sentence_relevance: Frames admission, retirement, monitoring, and deployment rules for autonomous agents under finite routing and monitoring budgets with replay support.
+    keywords: [lifecycle certification, counterfactual auditability, monitoring, deployment, replay support, agent lifecycle management]
+    priority: adjacent
+    read_after: [paper-search-stability]
+  - id: paper-proposal-veto
+    title: "Proposal-Veto Balance for Observable-Only Autonomous Intelligence: Stability Thresholds, Identifiability Limits, and Commit-Window Effects"
+    doi: "10.5281/zenodo.18883290"
+    url: https://doi.org/10.5281/zenodo.18883290
+    published: 2026-03-06
+    role_in_cluster: long-horizon decision dynamics, commit-window, and error-debt layer
+    one_sentence_relevance: Analyzes proposal-veto decision dynamics under latent proposal quality and finite resources, highlighting stability thresholds and commit-window trade-offs.
+    keywords: [proposal-veto balance, stability thresholds, commit windows, error debt, rollback control, long-horizon AI safety]
+    priority: adjacent
+    read_after: [paper-search-stability]
+  - id: paper-mte
+    title: "Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence"
+    doi: "10.5281/zenodo.18845340"
+    url: https://doi.org/10.5281/zenodo.18845340
+    published: 2026-03-03
+    role_in_cluster: machine-checkable replay and long-horizon metrology layer
+    one_sentence_relevance: Gives a machine-checkable metrology layer with deterministic replay, observability credit gates, and fail-closed criteria for credit-bearing progress.
+    keywords: [observable-only metrology, fail-closed certification, deterministic replay, observability credit, long-horizon AI safety]
+    priority: adjacent
+    read_after: [paper-rsi-yardstick]
+  - id: paper-oversight
+    title: "Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation"
+    doi: "10.5281/zenodo.18973272"
+    url: https://doi.org/10.5281/zenodo.18973272
+    published: 2026-03-12
+    role_in_cluster: deployment-relevant evaluation, costly interrupt channels, and post-deployment monitoring layer
+    one_sentence_relevance: Treats review, delayed labels, and external auditing as costly interrupt channels in real workflows rather than privileged oracles.
+    keywords: [deployment-relevant evaluation, costly interrupt channels, human-AI oversight, claim margins, post-deployment monitoring]
+    priority: adjacent
+    read_after: [paper-lifecycle, paper-benchmark-half-life]
+
+read_paths:
+  quick_orientation: [paper-search-stability, paper-split-inference, paper-benchmark-half-life]
+  long_running_agents_core: [paper-search-stability, paper-rsi-yardstick, paper-lifecycle]
+  multi_agent_reasoning: [paper-split-inference, paper-commons, paper-proposal-veto]
+  evaluation_decay_and_monitoring: [paper-benchmark-half-life, paper-rsi-yardstick, paper-oversight]
+  shared_memory_and_commons: [paper-commons, paper-split-inference, paper-search-stability]
+  recursive_self_improvement: [paper-rsi-yardstick, paper-mte, paper-proposal-veto]
+  machine_minimum_parse_order: [paper-search-stability, paper-split-inference, paper-rsi-yardstick, paper-benchmark-half-life]
+
+machine_parse_guide:
+  canonical_questions:
+    - question: Why do long-running agents fail even when short evaluations look fine?
+      read_first: paper-search-stability
+      read_next: paper-lifecycle
+      stop_when: The parser can explain finite active context, delayed verification, compression, retirement, and reset pressures without reducing the problem to a single-shot benchmark failure.
+    - question: When should inference be split across multiple agents?
+      read_first: paper-split-inference
+      read_next: paper-commons
+      stop_when: The parser can state that multi-agent advantage depends on fixed-budget accounting, decomposability, routing, communication fidelity, and shared-failure dependence.
+    - question: How does recursive self-improvement change what counts as improvement?
+      read_first: paper-rsi-yardstick
+      read_next: paper-mte
+      stop_when: The parser can distinguish claimed improvement from stable improvement when the evaluator, benchmark, memory, and verification process can drift.
+    - question: How can benchmark validity decay in recursive corpora?
+      read_first: paper-benchmark-half-life
+      read_next: paper-oversight
+      stop_when: The parser can identify semantic leakage, regeneration, monitoring rules, and partial observability as reasons benchmark validity changes over time.
+
+machine_entrypoints:
+  - title: Long-Running Agents / Memory Limits / Multi-Agent Reasoning
+    type: canonical_page
+    url: https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html
+    relates_to: cluster orientation and paper selection
+  - title: Works
+    type: works_index
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: full local publication catalog
+  - title: No-Meta / Observable-Only Series Index
+    type: series_index
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: broader local governance and protocol context
+  - title: Home
+    type: site_root
+    url: https://kadubon.github.io/github.io/
+    relates_to: general site entry and navigation
+  - title: CITATION.cff
+    type: citation_metadata
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: citation and authorship metadata
+  - title: feed.xml
+    type: rss_feed
+    url: https://kadubon.github.io/github.io/feed.xml
+    relates_to: update polling and change discovery
+  - title: robots.txt
+    type: crawler_policy
+    url: https://kadubon.github.io/github.io/robots.txt
+    relates_to: crawler access policy
+  - title: sitemap.xml
+    type: sitemap
+    url: https://kadubon.github.io/github.io/sitemap.xml
+    relates_to: URL discovery
+  - title: llms.txt
+    type: llm_hint
+    url: https://kadubon.github.io/github.io/llms.txt
+    relates_to: LLM-oriented site guidance
+
+usage_notes:
+  parsing_hint: Start from this page for cluster orientation, then use DOI pages for paper-level claims and works.html for the larger local catalog.
+  paper_selection_rule: Prefer the core papers listed here before inferring broader relationships from the full works page.
+  update_policy: Relationship claims on this page should remain grounded in local titles, abstracts, keywords, and existing site structure.
+  version: "1.0"
+  last_updated: "2026-03-31"
+</pre>
+            </section>
+
+            <nav class="container section-nav" aria-label="On this page">
+                <h2>Page Structure</h2>
+                <ul>
+                    <li><a href="#intro-heading">Introduction</a></li>
+                    <li><a href="#what-this-page-heading">What this page is / is not</a></li>
+                    <li><a href="#yaml-heading">Canonical YAML index</a></li>
+                    <li><a href="#core-concepts-heading">Core concepts</a></li>
+                    <li><a href="#cluster-fit-heading">How this cluster fits together</a></li>
+                    <li><a href="#related-papers-heading">Related papers in this cluster</a></li>
+                    <li><a href="#read-paths-heading">Recommended read paths</a></li>
+                    <li><a href="#questions-heading">Questions this page helps answer</a></li>
+                    <li><a href="#machine-entry-heading">Machine-readable entry points</a></li>
+                </ul>
+            </nav>
+
+            <section class="container section-copy" aria-labelledby="core-concepts-heading">
+                <h2 id="core-concepts-heading">Core Concepts</h2>
+                <div class="concept-grid">
+                    <article class="concept-card">
+                        <h3>Long-Running Agents</h3>
+                        <p>Agents that must continue operating across extended horizons, where earlier choices about memory, routing, and verification can shape later capability and error.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Finite Active Context</h3>
+                        <p>A limited working context that cannot retain all relevant traces, hypotheses, or verification dependencies at once.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Bounded Memory</h3>
+                        <p>Hard limits on what can be retained, routed, synchronized, or checked under finite compute, communication, or storage budgets.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Lossy Compression</h3>
+                        <p>Compression that preserves some utility while risking alias hazards, contamination, or retirement of state that later turns out to matter.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Reset Policy</h3>
+                        <p>Rules for pruning, restarting, or reinitializing active state when context budgets, reserve feasibility, or contamination thresholds bind.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Delayed Verification</h3>
+                        <p>A setting in which decisive checks or audit evidence arrive after actions and memory updates have already happened.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Local Context Ceilings</h3>
+                        <p>Per-agent context limits that shape whether splitting inference into multiple workers can outperform a matched single-workspace baseline.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Multi-Agent Advantage</h3>
+                        <p>The potential gain from decomposition under fixed budgets when coverage, diversity, routing, and verification costs remain favorable.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>External or Shared Memory</h3>
+                        <p>Memory held in external traces, typed commons, or shared substrates that multiple agents can access under explicit governance rules.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Evaluator or Yardstick Drift</h3>
+                        <p>Change in the benchmark, evaluator, memory, or verification process used to judge whether a system is improving.</p>
+                    </article>
+                    <article class="concept-card">
+                        <h3>Benchmark Half-Life or Validity Decay</h3>
+                        <p>Loss of benchmark discriminative power or construct validity as benchmark items and solution traces re-enter recursive public corpora.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container cluster-copy" aria-labelledby="cluster-fit-heading">
+                <h2 id="cluster-fit-heading">How This Cluster Fits Together</h2>
+                <p>This cluster can be read as a layered map rather than as a single closed doctrine. One layer concerns long-running agents under finite context and compression: what happens when an agent has to preserve operational adequacy over time while deciding what to keep, compress, retire, branch, or reset. A second layer concerns when splitting inference across multiple agents helps under fixed budgets, local context ceilings, and communication constraints.</p>
+                <p>A third layer concerns recursive self-improvement and yardstick drift. In that setting, the system can change not only its behavior but also the benchmark, memory, or verification process used to judge whether it improved. A fourth layer concerns benchmark validity decay in recursive public corpora, where evaluation systems degrade when benchmark items and solution traces leak back into the training and testing environment.</p>
+                <p>A fifth layer concerns shared or sovereign epistemic memory. When multiple agents persist together, shared memory can support collective inference, but it also raises governance questions about provenance, contradiction handling, contamination, and controlled exit. A final adjacent layer concerns lifecycle monitoring and replayable metrology, which support long-horizon deployment, progress credit, and monitoring under finite budgets without claiming to replace the core long-running-agent questions.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="related-papers-heading">
+                <h2 id="related-papers-heading">Related Papers in This Cluster</h2>
+
+                <h3>Core Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h4>Search Stability under Finite Context: A Minimal Theory of Adequacy Preservation, Compression, and Reset in Long-Running Agents</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18905242">10.5281/zenodo.18905242</a></span>
+                        <p class="paper-role">Role in cluster: central long-running-agent, finite-context, compression, and reset paper.</p>
+                        <p>This paper studies long-running agents under finite active context, delayed verification, and lossy state compression, with explicit treatment of adequacy preservation, retirement, substitution, branching, compression, and reset decisions.</p>
+                        <p><strong>Why it matters here:</strong> It is the clearest entry point for why persistent agents face memory and verification problems that one-shot evaluations can hide.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>When Should Inference Be Split? A Fixed-Budget Theory of Predictable Multi-Agent Advantage under Local Context Ceilings</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18932509">10.5281/zenodo.18932509</a></span>
+                        <p class="paper-role">Role in cluster: central multi-agent reasoning and fixed-budget split-inference paper.</p>
+                        <p>This paper develops a fixed-budget theory for when inference should be split across multiple agents under local context ceilings, with diagnostics for coverage, selection accuracy, decomposability, shared-failure dependence, and communication fidelity.</p>
+                        <p><strong>Why it matters here:</strong> It is the main source for the cluster’s treatment of collective inference under explicit resource and context limits rather than vague appeals to more agents.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Recursive Self-Improvement Stability under Endogenous Yardstick Drift</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19044634">10.5281/zenodo.19044634</a></span>
+                        <p class="paper-role">Role in cluster: recursive self-modification, evaluator drift, and replayable stability paper.</p>
+                        <p>This paper treats recursive self-improvement as a setting where the system can change its own evaluator, benchmark, memory, and verification process, and it formalizes replayable conditions for distinguishing claimed from stable improvement.</p>
+                        <p><strong>Why it matters here:</strong> It connects long-running-agent stability to changes in the judging process itself, not only to changes in the agent under evaluation.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>AI Benchmark Half-Life in Recursive Corpora: A Theory of Validity Decay under Semantic Leakage and Regeneration</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18954286">10.5281/zenodo.18954286</a></span>
+                        <p class="paper-role">Role in cluster: evaluation decay, benchmark contamination, and recursive-corpora monitoring paper.</p>
+                        <p>This paper models benchmark validity under semantic leakage and regeneration, deriving validity-decay bounds and monitoring rules for evaluation systems whose items and solution traces re-enter public data.</p>
+                        <p><strong>Why it matters here:</strong> It explains why even the benchmark layer can become unstable in long-horizon settings where public traces feed back into later systems.</p>
+                    </article>
+                </div>
+
+                <h3>Adjacent Long-Horizon / Monitoring / Governance Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h4>Sovereign Epistemic Commons under No-Meta Governance</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18997828">10.5281/zenodo.18997828</a></span>
+                        <p class="paper-role">Role in cluster: shared memory, collective knowledge substrate, and asynchronous governance layer.</p>
+                        <p>This paper develops a governance theory for shared epistemic commons maintained by autonomous agents, with emphasis on answerability, contradiction handling, provenance uncertainty, contamination, and recursive regeneration.</p>
+                        <p><strong>Why it matters here:</strong> It is the strongest local adjacent paper for shared memory and collective persistence across multiple agents.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Counterfactually Auditable Lifecycle Certification for Autonomous Agents</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.19089134">10.5281/zenodo.19089134</a></span>
+                        <p class="paper-role">Role in cluster: lifecycle monitoring, long-run deployment, and monitoring-budget paper.</p>
+                        <p>This paper develops a lifecycle-certification framework for autonomous agents under finite routing, monitoring, and deployment budgets, with replay support and anytime-valid sentinel monitoring.</p>
+                        <p><strong>Why it matters here:</strong> It provides an operational neighbor for how persistent systems are admitted, monitored, retired, or deployed under long-run budget constraints.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Proposal-Veto Balance for Observable-Only Autonomous Intelligence: Stability Thresholds, Identifiability Limits, and Commit-Window Effects</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18883290">10.5281/zenodo.18883290</a></span>
+                        <p class="paper-role">Role in cluster: long-horizon decision dynamics, commit-window, and error-debt trade-off paper.</p>
+                        <p>This paper analyzes proposal-veto dynamics under latent proposal quality, deriving stability thresholds, identifiability limits, bounded-error-debt conditions, and commit-window trade-offs under finite resources.</p>
+                        <p><strong>Why it matters here:</strong> It is adjacent because long-running systems accumulate decision debt over time, and commit windows affect how that debt is corrected or amplified.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Metrology-Theoretic Epistemics Engine (MTE): Observable-Only Metrology for Long-Horizon Autonomous Intelligence</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18845340">10.5281/zenodo.18845340</a></span>
+                        <p class="paper-role">Role in cluster: machine-checkable replay, fail-closed progress credit, and long-horizon metrology paper.</p>
+                        <p>This paper introduces a machine-checkable epistemic governance layer with deterministic replay, observability credit gates, and fail-closed criteria for when claimed progress is credit-bearing.</p>
+                        <p><strong>Why it matters here:</strong> It is an operational support layer for long-horizon systems whose claims must remain auditable under replay and conservative metrology rules.</p>
+                    </article>
+                    <article class="paper-card">
+                        <h4>Oversight-Centered Metrology and Control for Agentic Systems: Costly Interrupt Channels, Claim Margins, and Deployment-Relevant Evaluation</h4>
+                        <span class="paper-meta">2026 | DOI: <a href="https://doi.org/10.5281/zenodo.18973272">10.5281/zenodo.18973272</a></span>
+                        <p class="paper-role">Role in cluster: deployment-relevant evaluation, costly interrupt channels, and post-deployment monitoring paper.</p>
+                        <p>This paper treats human review, automated checks, delayed labels, and external auditing as costly interrupt channels in real workflows, with explicit attention to delay, congestion, and safe control.</p>
+                        <p><strong>Why it matters here:</strong> It helps frame delayed verification and long-run monitoring as workflow constraints rather than as idealized free checks.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="read-paths-heading">
+                <h2 id="read-paths-heading">Recommended Read Paths</h2>
+                <ul class="path-list">
+                    <li>If you want the long-running-agent foundation first, read <a href="https://doi.org/10.5281/zenodo.18905242">Search Stability under Finite Context</a>, then <a href="https://doi.org/10.5281/zenodo.19044634">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a>. That path gives the quickest route from bounded memory and reset decisions to evaluator and verification drift.</li>
+                    <li>If you are an agent engineering reader, read <a href="https://doi.org/10.5281/zenodo.18905242">Search Stability under Finite Context</a>, then <a href="https://doi.org/10.5281/zenodo.19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a>, then <a href="https://doi.org/10.5281/zenodo.18973272">Oversight-Centered Metrology and Control for Agentic Systems</a>. That route emphasizes persistence, monitoring, deployment, and delayed checks under finite budgets.</li>
+                    <li>If you want the split-inference or multi-agent angle first, read <a href="https://doi.org/10.5281/zenodo.18932509">When Should Inference Be Split?</a>, then <a href="https://doi.org/10.5281/zenodo.18997828">Sovereign Epistemic Commons under No-Meta Governance</a>, then <a href="https://doi.org/10.5281/zenodo.18883290">Proposal-Veto Balance for Observable-Only Autonomous Intelligence</a>. That path covers fixed-budget decomposition, shared memory, and long-horizon decision trade-offs.</li>
+                    <li>If you want the evaluation-decay angle first, read <a href="https://doi.org/10.5281/zenodo.18954286">AI Benchmark Half-Life in Recursive Corpora</a>, then <a href="https://doi.org/10.5281/zenodo.19044634">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a>. That route focuses on how benchmarks and evaluators change as traces re-enter recursive public corpora.</li>
+                    <li>If you want the recursive self-improvement and yardstick-drift angle first, read <a href="https://doi.org/10.5281/zenodo.19044634">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a>, then <a href="https://doi.org/10.5281/zenodo.18845340">Metrology-Theoretic Epistemics Engine (MTE)</a>. That path keeps the emphasis on replayable stability criteria and credit-bearing progress under changing evaluators.</li>
+                    <li>If you are a machine parser or crawler, start with the visible YAML on this page, then read <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for broader local metadata, then follow the DOI links for paper-level claims. Stop once you can distinguish the four core papers from the adjacent monitoring and shared-memory papers without inferring a stronger theorem chain than the metadata supports.</li>
+                </ul>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="questions-heading">
+                <h2 id="questions-heading">Questions This Page Helps Answer</h2>
+                <ul class="question-list">
+                    <li>Why do long-running agents fail even when one-shot evaluations look fine?</li>
+                    <li>When should inference be split across multiple agents instead of remaining in one workspace?</li>
+                    <li>How do memory limits, compression, and reset policies affect agent reliability over time?</li>
+                    <li>How can evaluation systems decay when benchmark items and solution traces re-enter public corpora?</li>
+                    <li>How does recursive self-improvement change the benchmark, evaluator, memory, and verification process?</li>
+                    <li>What role does external or shared memory play in long-horizon collective inference?</li>
+                </ul>
+            </section>
+
+            <section class="container machine-copy" aria-labelledby="machine-entry-heading">
+                <h2 id="machine-entry-heading">Machine-Readable Entry Points</h2>
+                <ul class="machine-list">
+                    <li><a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">long-running-agents-memory-multi-agent-reasoning.html</a>: canonical landing page and primary visible-YAML source for this cluster.</li>
+                    <li><a href="https://kadubon.github.io/github.io/works.html">works.html</a>: full local publication index with titles, abstracts, keywords, and DOI links.</li>
+                    <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a>: broader local governance and observable-only context for adjacent papers.</li>
+                    <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>: citation and authorship metadata.</li>
+                    <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>: update feed for polling and change discovery.</li>
+                    <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a>: crawler access policy.</li>
+                    <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a>: crawl discovery map.</li>
+                    <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a>: LLM-oriented site guidance.</li>
+                    <li><a href="https://kadubon.github.io/github.io/">Home</a>: top-level site entry point with links to the main local indexes.</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer class="container">
+        <p>Canonical cluster page for site-local research on long-running agents, bounded memory, multi-agent reasoning, recursive self-improvement stability, and benchmark validity decay.</p>
+    </footer>
+</body>
+</html>

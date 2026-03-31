@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self-Concealing Information and Observer-Modifying Dynamics</title>
-    <meta name="description" content="Concept entry page for self-concealing information and observer-modifying dynamics: why information can change the observer, why internal blindness matters, and why external anchors and delayed audit are necessary for cognitive security and AI safety.">
-    <meta name="keywords" content="self-concealing information, observer-modifying dynamics, observer-state transition, self-concealment, internal blindness, diagnosability, external anchors, delayed audit, structural insulation, cognitive security, AI safety, prompt injection, information hazards">
+    <title>Self-Concealing Information and Observer-Modifying Dynamics: Cluster Landing Page | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for self-concealing information, observer-modifying dynamics, cognitive drift, delayed audit, external anchors, network contagion, provenance, semantic translation, and related AI safety and human-AI interaction papers on K. Takahashi's site.">
+    <meta name="keywords" content="self-concealing information, observer-modifying information, observer-modifying dynamics, internal blindness, delayed audit, external anchors, cognitive security, epistemic security, AI safety, human-AI interaction, network contagion, prompt injection, concept drift, auditability, provenance, semantic translation">
     <meta name="author" content="K Takahashi">
     <meta name="citation_title" content="Self-Concealing Information and Observer-Modifying Dynamics">
     <meta name="citation_author" content="K Takahashi">
@@ -18,23 +18,24 @@
     <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
     <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
     <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-    <meta property="og:title" content="Self-Concealing Information and Observer-Modifying Dynamics">
-    <meta property="og:description" content="A concept guide to self-concealing information, observer-modifying dynamics, internal blindness, external anchors, and delayed audit across human and AI systems.">
-    <meta property="og:type" content="article">
+    <meta property="og:title" content="Self-Concealing Information and Observer-Modifying Dynamics: Cluster Landing Page">
+    <meta property="og:description" content="Canonical field guide to self-concealing information, observer-modifying dynamics, cognitive drift, delayed audit, external anchors, network contagion, provenance, semantic translation, and related AI safety papers.">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">
     <meta property="og:site_name" content="K. Takahashi Research Hub">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Self-Concealing Information and Observer-Modifying Dynamics">
-    <meta name="twitter:description" content="Concept guide to why information can modify the observer, why change may go unnoticed, and why external anchors and delayed audit matter.">
+    <meta name="twitter:title" content="Self-Concealing Information and Observer-Modifying Dynamics: Cluster Landing Page">
+    <meta name="twitter:description" content="Canonical field guide to self-concealing information, observer-modifying dynamics, delayed audit, cognitive drift, network contagion, provenance, and semantic translation.">
     <link rel="stylesheet" href="style.css">
     <style>
         .hero p,
         .lead-intro p,
         .section-copy p,
         .comparison-intro p,
-        .audience-copy p,
         .entry-copy p,
-        .machine-copy p {
+        .machine-copy p,
+        .index-note,
+        .cluster-copy p {
             margin: 0 0 1rem;
         }
 
@@ -61,15 +62,28 @@
             color: #444;
         }
 
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
         .section-nav ul,
         .entry-list,
-        .machine-list {
+        .machine-list,
+        .path-list {
             padding: 0;
             margin: 0;
         }
 
         .entry-list li,
-        .machine-list li {
+        .machine-list li,
+        .path-list li {
             margin: 0 0 0.75rem;
         }
 
@@ -86,13 +100,15 @@
 
         .section-nav a,
         .entry-list a,
-        .machine-list a {
+        .machine-list a,
+        .path-list a {
             text-decoration: none;
         }
 
         .section-nav a:hover,
         .entry-list a:hover,
-        .machine-list a:hover {
+        .machine-list a:hover,
+        .path-list a:hover {
             text-decoration: underline;
         }
 
@@ -132,31 +148,50 @@
             margin-top: 2rem;
         }
 
-        .example-grid {
+        .example-grid,
+        .paper-grid,
+        .card-grid {
             display: grid;
             gap: 1rem;
             margin-top: 1rem;
         }
 
-        .example-card {
+        .example-card,
+        .paper-card,
+        .panel-card {
             border: 1px solid #dfe5ec;
             border-radius: 6px;
             padding: 1rem 1rem 0.9rem;
             background-color: #fcfdff;
         }
 
-        .example-card h3 {
+        .example-card h3,
+        .paper-card h3,
+        .panel-card h3 {
             margin-top: 0;
             margin-bottom: 0.6rem;
         }
 
-        .example-card p:last-child {
+        .example-card p:last-child,
+        .paper-card p:last-child,
+        .panel-card p:last-child {
             margin-bottom: 0;
         }
 
-        .example-label {
+        .example-label,
+        .paper-meta,
+        .paper-role {
             font-weight: 700;
             color: #444;
+        }
+
+        .paper-meta {
+            display: block;
+            margin-bottom: 0.45rem;
+        }
+
+        .paper-role {
+            margin-bottom: 0.7rem;
         }
 
         .comparison-list {
@@ -202,6 +237,18 @@
             overflow-wrap: anywhere;
         }
 
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            border: 1px solid #d9e0e8;
+            border-radius: 6px;
+            background-color: #fafcff;
+            padding: 1rem;
+        }
+
         .section-copy h3,
         .comparison-group h3 {
             margin-bottom: 0.7rem;
@@ -212,124 +259,180 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "WebPage",
+          "@type": "WebSite",
+          "@id": "https://kadubon.github.io/github.io/#website",
+          "url": "https://kadubon.github.io/github.io/",
+          "name": "K. Takahashi Research Hub",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "AboutPage",
           "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#webpage",
           "url": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html",
-          "name": "Self-Concealing Information and Observer-Modifying Dynamics",
-          "description": "Concept-entry page explaining self-concealing information, observer-modifying dynamics, internal blindness, external anchors, structural insulation, and delayed audit before the formal paper.",
+          "name": "Self-Concealing Information and Observer-Modifying Dynamics: Cluster Landing Page",
+          "description": "Canonical site-local landing page for self-concealing information, observer-modifying dynamics, cognitive drift, delayed audit, external anchors, network contagion, provenance, semantic translation, and related AI safety papers.",
           "inLanguage": "en",
           "datePublished": "2026-03-23",
-          "dateModified": "2026-03-23",
+          "dateModified": "2026-03-31",
           "isPartOf": {
             "@id": "https://kadubon.github.io/github.io/#website"
           },
-          "about": [
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#dataset"
+          },
+          "hasPart": [
             {
-              "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#guide"
+              "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#dataset"
             },
             {
-              "@id": "https://doi.org/10.5281/zenodo.19161562#article"
+              "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#paper-list"
             }
           ],
-          "mainEntity": {
-            "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#guide"
-          },
-          "keywords": [
-            "self-concealing information",
-            "observer-modifying dynamics",
-            "observer-state transition",
-            "self-concealment",
-            "internal blindness",
-            "diagnosability",
-            "external anchors",
-            "delayed audit",
-            "structural insulation",
-            "cognitive security",
-            "AI safety",
-            "prompt injection"
+          "mentions": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19161562#creativework"
+            },
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19342966#creativework"
+            },
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19306514#creativework"
+            },
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19272154#creativework"
+            },
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19231780#creativework"
+            },
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19089134#creativework"
+            },
+            {
+              "@id": "https://doi.org/10.5281/zenodo.19044634#creativework"
+            }
           ]
         },
         {
-          "@type": "Article",
-          "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#guide",
-          "name": "Self-Concealing Information and Observer-Modifying Dynamics",
-          "headline": "Self-Concealing Information and Observer-Modifying Dynamics",
-          "description": "A concept guide that explains the paper's central novelty before the formal paper itself.",
-          "author": {
-            "@type": "Person",
-            "name": "K Takahashi",
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "ORCID",
-              "value": "0009-0004-4273-3365"
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#dataset",
+          "name": "Self-Concealing Information / Observer-Modifying Dynamics Cluster YAML",
+          "description": "Visible YAML field guide indexing the site-local research cluster centered on self-concealing information, observer-modifying dynamics, and related papers on network contagion, cognitive drift, record absence, provenance, and semantic translation.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html",
+          "dateModified": "2026-03-31"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#paper-list",
+          "name": "Related papers in the self-concealing information cluster",
+          "numberOfItems": 7,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19161562#creativework"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19342966#creativework"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19306514#creativework"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19272154#creativework"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19231780#creativework"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19089134#creativework"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "item": {
+                "@id": "https://doi.org/10.5281/zenodo.19044634#creativework"
+              }
             }
-          },
-          "publisher": {
-            "@type": "Person",
-            "name": "K Takahashi"
-          },
-          "inLanguage": "en",
-          "datePublished": "2026-03-23",
-          "dateModified": "2026-03-23",
-          "mainEntityOfPage": {
-            "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#webpage"
-          },
-          "isPartOf": {
-            "@id": "https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html#webpage"
-          },
-          "about": [
-            "self-concealing information",
-            "observer-modifying dynamics",
-            "observer-state transition",
-            "internal blindness",
-            "external anchors",
-            "delayed audit",
-            "diagnosability",
-            "cognitive security",
-            "AI safety"
-          ],
-          "citation": "Takahashi, K. (2026). Self-Concealing Information and Observer-Modifying Dynamics. Zenodo. https://doi.org/10.5281/zenodo.19161562"
+          ]
         },
         {
           "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.5281/zenodo.19161562#article",
+          "@id": "https://doi.org/10.5281/zenodo.19161562#creativework",
           "name": "Self-Concealing Information and Observer-Modifying Dynamics",
-          "headline": "Self-Concealing Information and Observer-Modifying Dynamics",
-          "author": {
-            "@type": "Person",
-            "name": "K Takahashi",
-            "identifier": {
-              "@type": "PropertyValue",
-              "propertyID": "ORCID",
-              "value": "0009-0004-4273-3365"
-            }
-          },
-          "datePublished": "2026-03-22",
-          "inLanguage": "en",
-          "isPartOf": {
-            "@type": "Periodical",
-            "name": "Zenodo"
-          },
-          "identifier": {
-            "@type": "PropertyValue",
-            "propertyID": "DOI",
-            "value": "10.5281/zenodo.19161562"
-          },
-          "mainEntityOfPage": "https://doi.org/10.5281/zenodo.19161562",
-          "sameAs": "https://doi.org/10.5281/zenodo.19161562",
           "url": "https://doi.org/10.5281/zenodo.19161562",
-          "citation": "Takahashi, K. (2026). Self-Concealing Information and Observer-Modifying Dynamics. Zenodo. https://doi.org/10.5281/zenodo.19161562",
-          "keywords": [
-            "self-concealing information",
-            "observer-modifying information",
-            "self-concealment",
-            "internal blindness",
-            "external anchors",
-            "structural insulation",
-            "delayed audit",
-            "prompt injection",
-            "AI safety"
-          ]
+          "sameAs": "https://doi.org/10.5281/zenodo.19161562",
+          "datePublished": "2026-03-22"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.19342966#creativework",
+          "name": "Observer-Modifying Contagion on Networks",
+          "url": "https://doi.org/10.5281/zenodo.19342966",
+          "sameAs": "https://doi.org/10.5281/zenodo.19342966",
+          "datePublished": "2026-03-31"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.19306514#creativework",
+          "name": "Classification-Induced Cognitive Drift",
+          "url": "https://doi.org/10.5281/zenodo.19306514",
+          "sameAs": "https://doi.org/10.5281/zenodo.19306514",
+          "datePublished": "2026-03-29"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.19272154#creativework",
+          "name": "Record Absence and Preference Reorganization on a Fixed Comparison Frame",
+          "url": "https://doi.org/10.5281/zenodo.19272154",
+          "sameAs": "https://doi.org/10.5281/zenodo.19272154",
+          "datePublished": "2026-03-28"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.19231780#creativework",
+          "name": "A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation",
+          "url": "https://doi.org/10.5281/zenodo.19231780",
+          "sameAs": "https://doi.org/10.5281/zenodo.19231780",
+          "datePublished": "2026-03-26"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.19089134#creativework",
+          "name": "Counterfactually Auditable Lifecycle Certification for Autonomous Agents",
+          "url": "https://doi.org/10.5281/zenodo.19089134",
+          "sameAs": "https://doi.org/10.5281/zenodo.19089134",
+          "datePublished": "2026-03-18"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.5281/zenodo.19044634#creativework",
+          "name": "Recursive Self-Improvement Stability under Endogenous Yardstick Drift",
+          "url": "https://doi.org/10.5281/zenodo.19044634",
+          "sameAs": "https://doi.org/10.5281/zenodo.19044634",
+          "datePublished": "2026-03-16"
         }
       ]
     }
@@ -352,11 +455,297 @@
     <main>
         <article>
             <header class="container hero">
-                <p class="eyebrow">Concept Entry Page</p>
+                <p class="eyebrow">Canonical Cluster Landing Page</p>
                 <h1>Self-Concealing Information and Observer-Modifying Dynamics</h1>
-                <p class="subtitle">A concept guide to internal blindness, external anchors, structural insulation, delayed audit, cognitive security, and AI safety.</p>
-                <p>This page explains the conceptual contribution of the paper before the formal paper itself.</p>
+                <div class="summary-stack" aria-label="Top summary">
+                    <p>Self-concealing information is information whose downstream effect can make that effect harder to detect later relative to an explicit baseline.</p>
+                    <p>Observer-modifying dynamics are dynamics in which an exposure changes later readout, memory, judgment, or action channels rather than only current belief.</p>
+                    <p>This matters for humans, AI systems, and hybrid workflows because observer-modifying information can produce internal blindness, delayed audit, network contagion, prompt injection, concept drift, provenance failures, and semantic translation problems that require external anchors for cognitive security, epistemic security, auditability, and AI safety.</p>
+                </div>
+                <p class="subtitle">Canonical concept-and-series landing page for the site-local cluster centered on self-concealing information, observer-modifying dynamics, and related work on cognitive drift, record absence, provenance, semantic interfaces, and operational audit neighbors.</p>
             </header>
+
+            <section class="container section-copy" aria-labelledby="yaml-heading">
+                <h2 id="yaml-heading">Canonical YAML Index</h2>
+                <p class="index-note">This visible YAML block is the primary machine-readable navigation source for this cluster.</p>
+                <p class="index-note">It is intended for both human readers and AI parsers that need stable ids, conservative paper roles, and explicit read paths.</p>
+                <p class="index-note">The JSON-LD in the page head is secondary and should agree with the YAML below.</p>
+                <!-- Visible YAML below is the canonical navigation index for human readers and AI agents. -->
+                <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="self-concealing-observer-modifying-cluster" data-last-updated="2026-03-31" aria-label="Canonical YAML index for the self-concealing information cluster">series:
+  id: self-concealing-observer-modifying-cluster
+  title: "Self-Concealing Information / Observer-Modifying Dynamics Cluster"
+  status: active
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical site-local landing page and field guide for the self-concealing information / observer-modifying dynamics cluster.
+  scope:
+    - Core concepts and site-local papers on observer modification, self-concealment, network propagation, disclosed classification drift, record absence, provenance, and semantic translation accountability.
+    - Read paths and machine entry points for humans, crawlers, and research agents.
+  non_goals:
+    - Not a replacement for the underlying papers.
+    - Not a full works catalog.
+    - Not a new standalone theory paper.
+    - Not an external literature review.
+
+core_concepts:
+  - id: sci
+    term: self-concealing information
+    short_definition: Information whose downstream effect can make that effect harder to detect later relative to an explicit baseline.
+    covered_by:
+      - paper-sci-omd
+      - paper-omcn
+  - id: omd
+    term: observer-modifying dynamics
+    short_definition: Dynamics in which exposure changes later readout, memory, judgment, or action channels rather than only current belief.
+    covered_by:
+      - paper-sci-omd
+      - paper-omcn
+      - paper-cicd
+  - id: internal-blindness
+    term: internal blindness
+    short_definition: A condition in which internal self-report or internal readout becomes too weak to reliably tell that the relevant change has occurred.
+    covered_by:
+      - paper-sci-omd
+      - paper-omcn
+  - id: external-anchors
+    term: external anchors
+    short_definition: Outside observations or joint experiments that do not collapse back into the affected internal readout alone.
+    covered_by:
+      - paper-sci-omd
+      - paper-omcn
+      - paper-lifecycle
+  - id: delayed-audit
+    term: delayed audit
+    short_definition: Recovery of signal through later evidence when immediate diagnosis is incomplete or unreliable.
+    covered_by:
+      - paper-sci-omd
+      - paper-omcn
+      - paper-yardstick
+  - id: provenance-and-interfaces
+    term: provenance and semantic interfaces
+    short_definition: Record-grounded comparison and accountable translation layers that help track how claims, records, and interfaces shift over time.
+    covered_by:
+      - paper-record-absence
+      - paper-semantic-contracts
+
+papers:
+  - id: paper-sci-omd
+    title: "Self-Concealing Information and Observer-Modifying Dynamics"
+    doi: 10.5281/zenodo.19161562
+    url: https://doi.org/10.5281/zenodo.19161562
+    published: "2026-03-22"
+    role_in_cluster: foundation paper / local measurable-state theory
+    one_sentence_relevance: Defines the base measurable-state setting for observer-modifying and self-concealing information in hidden-state controlled systems.
+    keywords:
+      - observer-modifying information
+      - self-concealing information
+      - internal blindness
+      - external anchors
+      - delayed audit
+      - auditability
+    priority: 1
+    read_after: []
+  - id: paper-omcn
+    title: "Observer-Modifying Contagion on Networks"
+    doi: 10.5281/zenodo.19342966
+    url: https://doi.org/10.5281/zenodo.19342966
+    published: "2026-03-31"
+    role_in_cluster: network extension / propagation and persistence layer
+    one_sentence_relevance: Extends the setting from local hidden-state systems to networks where exposure can propagate and also change later diagnosability and auditability.
+    keywords:
+      - observer-modifying contagion
+      - network contagion
+      - self-concealment
+      - delayed audit
+      - persistence on networks
+      - accountable containment
+    priority: 2
+    read_after:
+      - paper-sci-omd
+  - id: paper-cicd
+    title: "Classification-Induced Cognitive Drift"
+    doi: 10.5281/zenodo.19306514
+    url: https://doi.org/10.5281/zenodo.19306514
+    published: "2026-03-29"
+    role_in_cluster: reflexive labeling / disclosed classification drift layer
+    one_sentence_relevance: Treats disclosed classifications as a reflexive source of later evidential change in human and AI settings.
+    keywords:
+      - cognitive drift
+      - reflexive classification
+      - label feedback
+      - evaluator drift
+      - human-AI interaction
+      - auditability
+    priority: 3
+    read_after:
+      - paper-sci-omd
+  - id: paper-record-absence
+    title: "Record Absence and Preference Reorganization on a Fixed Comparison Frame"
+    doi: 10.5281/zenodo.19272154
+    url: https://doi.org/10.5281/zenodo.19272154
+    published: "2026-03-28"
+    role_in_cluster: record-absence / provenance / legacy-label comparison layer
+    one_sentence_relevance: Covers how record absence reorganizes preference over legacy claims on a fixed comparison frame under auditable local certificates.
+    keywords:
+      - record absence
+      - preference reorganization
+      - fixed comparison frame
+      - provenance
+      - record-grounded update
+      - belief revision
+    priority: 4
+    read_after:
+      - paper-sci-omd
+  - id: paper-semantic-contracts
+    title: "A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation"
+    doi: 10.5281/zenodo.19231780
+    url: https://doi.org/10.5281/zenodo.19231780
+    published: "2026-03-26"
+    role_in_cluster: semantic interface / translation accountability layer
+    one_sentence_relevance: Covers semantic translation, exact audit, and round-trip accountability under gluing-coherent aspect semantics.
+    keywords:
+      - semantic translation
+      - contract calculus
+      - accountable semantics
+      - semantic audit
+      - exact audit
+      - decision guarantees
+    priority: 5
+    read_after:
+      - paper-record-absence
+  - id: paper-lifecycle
+    title: "Counterfactually Auditable Lifecycle Certification for Autonomous Agents"
+    doi: 10.5281/zenodo.19089134
+    url: https://doi.org/10.5281/zenodo.19089134
+    published: "2026-03-18"
+    role_in_cluster: adjacent operational / lifecycle audit paper
+    one_sentence_relevance: Operational neighbor on lifecycle certification, replay support, and counterfactual auditability for autonomous agents under finite budgets.
+    keywords:
+      - lifecycle certification
+      - counterfactual auditability
+      - replay support
+      - monitoring
+      - autonomous agents
+      - deployment
+    priority: 6
+    read_after:
+      - paper-sci-omd
+      - paper-omcn
+  - id: paper-yardstick
+    title: "Recursive Self-Improvement Stability under Endogenous Yardstick Drift"
+    doi: 10.5281/zenodo.19044634
+    url: https://doi.org/10.5281/zenodo.19044634
+    published: "2026-03-16"
+    role_in_cluster: adjacent drift / evaluator-shift / replay-audit paper
+    one_sentence_relevance: Operational neighbor on evaluator drift, delayed audit, and replayable conditions for stable improvement under self-modification.
+    keywords:
+      - endogenous yardstick drift
+      - evaluator drift
+      - replayable interfaces
+      - delayed audit
+      - verification backlog
+      - AI safety
+    priority: 7
+    read_after:
+      - paper-sci-omd
+      - paper-lifecycle
+
+read_paths:
+  minimum_definition:
+    - paper-sci-omd
+  network_extension:
+    - paper-sci-omd
+    - paper-omcn
+  classification_and_reflexivity:
+    - paper-sci-omd
+    - paper-cicd
+  records_and_provenance:
+    - paper-sci-omd
+    - paper-record-absence
+  semantic_interfaces:
+    - paper-record-absence
+    - paper-semantic-contracts
+  operational_adjacent:
+    - paper-sci-omd
+    - paper-lifecycle
+    - paper-yardstick
+
+machine_parse_guide:
+  canonical_questions:
+    - question: What is self-concealing information?
+      read_first: paper-sci-omd
+      read_next: paper-omcn
+      stop_when: The parser can distinguish observer modification from content-level error and can identify internal blindness, external anchors, and delayed audit.
+    - question: How does the setting scale from local observers to propagation on networks?
+      read_first: paper-sci-omd
+      read_next: paper-omcn
+      stop_when: The parser has identified the shift from local hidden-state systems to network persistence and containment language.
+    - question: How do disclosed labels or classifications change later evidence?
+      read_first: paper-cicd
+      read_next: paper-sci-omd
+      stop_when: The parser can state that disclosed classifications are treated as reflexive sources of later evidential change.
+    - question: Where do provenance, record absence, and semantic interfaces enter?
+      read_first: paper-record-absence
+      read_next: paper-semantic-contracts
+      stop_when: The parser can distinguish record-grounded comparison from translation-accountability concerns.
+
+machine_entrypoints:
+  - title: Canonical cluster page
+    type: html
+    url: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
+    relates_to: Primary landing page and visible YAML source for this cluster.
+  - title: Works
+    type: html
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: Full on-site works catalog and the source metadata for paper titles, abstracts, dates, and keywords.
+  - title: No-Meta Index
+    type: html
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: Example of a site-level visible-YAML index and an adjacent machine-readable research map.
+  - title: Home
+    type: html
+    url: https://kadubon.github.io/github.io/
+    relates_to: Site root and navigation entry point.
+  - title: CITATION.cff
+    type: text
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: Citation metadata for scholarly tooling.
+  - title: llms.txt
+    type: text
+    url: https://kadubon.github.io/github.io/llms.txt
+    relates_to: Lightweight crawler and agent discovery hints.
+
+usage_notes:
+  parsing_hint: Treat this page as the cluster-level guide, then open the DOI pages for paper-level claims and the works index for full-catalog context.
+  paper_selection_rule: Prefer papers explicitly listed here before inferring relationships from the full works catalog.
+  update_policy: Relationship claims on this page should remain grounded in titles, abstracts, and keywords available on the site.
+  version: "2.0"
+  last_updated: "2026-03-31"</pre>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="what-this-page-heading">
+                <h2 id="what-this-page-heading">What This Landing Page Is / Is Not</h2>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3>What This Page Is</h3>
+                        <p>This page is the canonical concept-and-series landing page for the site-local cluster centered on self-concealing information and observer-modifying dynamics.</p>
+                        <p>It is a field guide for human readers and machine readers, and it serves as a navigation layer above the individual papers rather than as a substitute for them.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What This Page Is Not</h3>
+                        <p>This page is not a replacement for the original papers, not a full works catalog, not a new standalone theory paper, and not an external literature review.</p>
+                        <p>Its purpose is to make the cluster legible, not to expand the claims beyond what is already supportable from the underlying site metadata and paper-level entries.</p>
+                    </article>
+                </div>
+            </section>
 
             <section class="container lead-intro" aria-labelledby="introduction-heading">
                 <h2 id="introduction-heading">Core Idea in Three Sentences</h2>
@@ -367,7 +756,7 @@
 
             <section class="container section-copy" aria-labelledby="definitions-heading">
                 <h2 id="definitions-heading">Canonical Definitions</h2>
-                <p>For quick parsing, the three core terms on this page are defined in operational language below.</p>
+                <p>For quick parsing, the core terms on this page are defined in operational language below.</p>
                 <dl class="definition-list">
                     <div class="comparison-card">
                         <dt>Self-concealing information</dt>
@@ -381,30 +770,128 @@
                         <dt>Internal blindness</dt>
                         <dd>A condition in which internal self-report or internal readout becomes too weak to reliably tell that the relevant change has occurred.</dd>
                     </div>
+                    <div class="comparison-card">
+                        <dt>External anchors</dt>
+                        <dd>Outside observations, records, or comparison procedures that do not reduce to the observer's currently affected internal readout alone.</dd>
+                    </div>
+                    <div class="comparison-card">
+                        <dt>Delayed audit</dt>
+                        <dd>Later recovery of evidential signal when immediate diagnosis is incomplete, concealed, or too weak to support reliable intervention.</dd>
+                    </div>
                 </dl>
             </section>
 
             <nav class="container section-nav" aria-label="On this page">
                 <h2>Page Structure</h2>
                 <ul>
+                    <li><a href="#yaml-heading">Canonical YAML index</a></li>
+                    <li><a href="#what-this-page-heading">What this landing page is / is not</a></li>
+                    <li><a href="#introduction-heading">Core idea in three sentences</a></li>
                     <li><a href="#definitions-heading">Canonical definitions</a></li>
-                    <li><a href="#what-is-new">What is new in this paper?</a></li>
-                    <li><a href="#effects-of-information">From the semantics of information to the effects of information</a></li>
-                    <li><a href="#internal-blindness">Why "you may not notice that you changed" matters</a></li>
-                    <li><a href="#examples">Illustrative examples</a></li>
-                    <li><a href="#comparison">Comparison with adjacent concepts</a></li>
-                    <li><a href="#common-confusions">Common confusions</a></li>
-                    <li><a href="#anchors-audit">Why external anchors and delayed audit are necessary</a></li>
-                    <li><a href="#audience">Who this page is for</a></li>
-                    <li><a href="#official-paper-entry">Official paper entry</a></li>
-                    <li><a href="#machine-entry-points">Related machine-readable entry points</a></li>
+                    <li><a href="#cluster-fit-heading">How the cluster fits together</a></li>
+                    <li><a href="#related-papers-heading">Related papers in this cluster</a></li>
+                    <li><a href="#read-paths-heading">Recommended read paths</a></li>
+                    <li><a href="#what-is-new-heading">What is new in the foundation paper?</a></li>
+                    <li><a href="#effects-heading">From the semantics of information to the effects of information</a></li>
+                    <li><a href="#internal-blindness-heading">Why internal blindness matters</a></li>
+                    <li><a href="#examples-heading">Illustrative examples</a></li>
+                    <li><a href="#comparison-heading">Comparison with adjacent concepts</a></li>
+                    <li><a href="#common-confusions-heading">Common confusions</a></li>
+                    <li><a href="#anchors-heading">Why external anchors and delayed audit are necessary</a></li>
+                    <li><a href="#official-entry-heading">Official paper entry</a></li>
+                    <li><a href="#machine-entry-heading">Machine-readable entry points</a></li>
                 </ul>
             </nav>
 
+            <section class="container cluster-copy" aria-labelledby="cluster-fit-heading">
+                <h2 id="cluster-fit-heading">How the Cluster Fits Together</h2>
+                <p>This cluster is best read as a layered map rather than as a strict dependency chain. The foundation paper supplies the local measurable-state setting in which information can modify the observer and sometimes make that modification harder to detect. The network paper then extends that setting from local hidden-state systems to propagation and persistence on networks, while the classification paper treats disclosed labels as a reflexive source of later evidential change in human and AI settings.</p>
+                <p>The next layer concerns records, provenance, and interfaces. The record-absence paper covers how missing records reorganize preference over legacy claims on a fixed comparison frame, and the semantic-translation paper covers accountable interfaces, exact audit, and round-trip obligations when meaning must be carried across representation boundaries. The lifecycle-certification and yardstick-drift papers are adjacent operational neighbors: they do not redefine the core cluster, but they connect it to agent lifecycle audit, replay support, evaluator drift, and delayed audit in deployment-oriented settings.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="related-papers-heading">
+                <h2 id="related-papers-heading">Related Papers in This Cluster</h2>
+                <p>The papers below are grouped conservatively using only the site's titles, abstracts, and keywords.</p>
+
+                <h3>Core Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h3>Self-Concealing Information and Observer-Modifying Dynamics</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19161562</a></span>
+                        <p class="paper-role">Foundation paper / local measurable-state theory</p>
+                        <p>This paper develops a measurable-state theory for observer-modifying and self-concealing information in hidden-state controlled systems. Its abstract centers diagnosis degradation or recovery under internal blindness, external anchors, structural insulation, and delayed or recurring audit.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It supplies the base local setting and the canonical vocabulary used by the landing page.</p>
+                    </article>
+
+                    <article class="paper-card">
+                        <h3>Observer-Modifying Contagion on Networks</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19342966" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19342966</a></span>
+                        <p class="paper-role">Network extension / propagation and persistence layer</p>
+                        <p>This paper develops a finite-horizon certificate framework for observer-modifying contagion on networks, where exposure can also change later diagnosability and auditability. Its keywords emphasize persistence on networks, fail-closed semantics, accountable containment, and witness lineages.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It extends the setting from local hidden-state systems to networks.</p>
+                    </article>
+
+                    <article class="paper-card">
+                        <h3>Classification-Induced Cognitive Drift</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19306514" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19306514</a></span>
+                        <p class="paper-role">Reflexive labeling / disclosed classification drift layer</p>
+                        <p>This paper develops a first-principles calculus for classification-induced cognitive drift in reflexive human and AI settings. Its abstract formalizes how disclosed classifications can change targets, evaluators, and later evidence under replay, repeated-measures, rollout, and observational comparison regimes.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It treats disclosed labels as a reflexive source of later evidential change.</p>
+                    </article>
+
+                    <article class="paper-card">
+                        <h3>Record Absence and Preference Reorganization on a Fixed Comparison Frame</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19272154" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19272154</a></span>
+                        <p class="paper-role">Record-absence / provenance / legacy-label comparison layer</p>
+                        <p>This paper develops a certificate-based comparison theory for how record absence changes preference over legacy claims on a fixed comparison frame. Its abstract formalizes exact and approximate absence, corrective disclosure, and closure asymmetry under auditable local certificates and baseline admissibility constraints.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It covers record-absence and legacy-claim comparison under fixed comparison frames.</p>
+                    </article>
+
+                    <article class="paper-card">
+                        <h3>A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19231780" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19231780</a></span>
+                        <p class="paper-role">Semantic interface / translation accountability layer</p>
+                        <p>This paper develops a symbolically effective contract calculus for semantic translation under gluing-coherent aspect semantics. Its abstract formalizes exact audit, accountability, native collapse, and round-trip obligations with symbolic checks and deployable decision guarantees.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It covers semantic interface and translation accountability.</p>
+                    </article>
+                </div>
+
+                <h3>Adjacent Operational Papers</h3>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h3>Counterfactually Auditable Lifecycle Certification for Autonomous Agents</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19089134" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19089134</a></span>
+                        <p class="paper-role">Adjacent operational / lifecycle audit paper</p>
+                        <p>This paper develops a conservative lifecycle-certification framework for autonomous agents under finite routing, monitoring, and deployment budgets. Its abstract formalizes counterfactually auditable admission, retirement, monitoring, and deployment rules using direct move inference, replay support, and anytime-valid sentinel monitoring.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It connects the cluster's audit and recovery concerns to operational lifecycle control.</p>
+                    </article>
+
+                    <article class="paper-card">
+                        <h3>Recursive Self-Improvement Stability under Endogenous Yardstick Drift</h3>
+                        <span class="paper-meta">2026 | <a href="https://doi.org/10.5281/zenodo.19044634" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.19044634</a></span>
+                        <p class="paper-role">Adjacent drift / evaluator-shift / replay-audit paper</p>
+                        <p>This paper develops an interface theory for recursive self-improvement under endogenous yardstick drift, where a system changes its own evaluator, benchmark, memory, and verification process. Its abstract formalizes replayable conditions for distinguishing claimed improvement from stable improvement under delayed audit, evaluator drift, verification backlog, and governance safety constraints.</p>
+                        <p><strong>Why this matters in the cluster:</strong> It is an adjacent operational neighbor for evaluator shift, replay, and delayed-audit problems.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="read-paths-heading">
+                <h2 id="read-paths-heading">Recommended Read Paths</h2>
+                <ul class="path-list">
+                    <li><strong>Quick concept orientation:</strong> If you want the base concept first, read <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">Self-Concealing Information and Observer-Modifying Dynamics</a>, then return to the related-papers section on this page for the cluster map.</li>
+                    <li><strong>Theory-first readers:</strong> If you want the local theory first and then nearby conceptual layers, read <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">Self-Concealing Information and Observer-Modifying Dynamics</a>, then <a href="https://doi.org/10.5281/zenodo.19306514" target="_blank" rel="noopener noreferrer">Classification-Induced Cognitive Drift</a>, then <a href="https://doi.org/10.5281/zenodo.19272154" target="_blank" rel="noopener noreferrer">Record Absence and Preference Reorganization on a Fixed Comparison Frame</a>.</li>
+                    <li><strong>Network / contagion readers:</strong> If you are asking how this scales to propagation on networks, read <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">Self-Concealing Information and Observer-Modifying Dynamics</a>, then <a href="https://doi.org/10.5281/zenodo.19342966" target="_blank" rel="noopener noreferrer">Observer-Modifying Contagion on Networks</a>.</li>
+                    <li><strong>AI safety / audit readers:</strong> If you are asking how delayed audit, replay, or operational controls enter, read <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">Self-Concealing Information and Observer-Modifying Dynamics</a>, then <a href="https://doi.org/10.5281/zenodo.19089134" target="_blank" rel="noopener noreferrer">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a>, then <a href="https://doi.org/10.5281/zenodo.19044634" target="_blank" rel="noopener noreferrer">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a>.</li>
+                    <li><strong>Records, provenance, and interfaces:</strong> If you are asking how records, provenance, and semantic interfaces enter, read <a href="https://doi.org/10.5281/zenodo.19272154" target="_blank" rel="noopener noreferrer">Record Absence and Preference Reorganization on a Fixed Comparison Frame</a>, then <a href="https://doi.org/10.5281/zenodo.19231780" target="_blank" rel="noopener noreferrer">A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</a>.</li>
+                    <li><strong>Machine parsers / crawlers:</strong> Start with the visible YAML on this page, then the related-papers section, then <a href="https://kadubon.github.io/github.io/works.html">Works</a> for the full local metadata record.</li>
+                </ul>
+            </section>
+
             <section id="what-is-new" class="container section-copy" aria-labelledby="what-is-new-heading">
-                <h2 id="what-is-new-heading">What Is New in This Paper?</h2>
+                <h2 id="what-is-new-heading">What Is New in the Foundation Paper?</h2>
                 <p>The paper does not start by asking whether information is true, false, persuasive, harmful, or safe in an ordinary semantic sense. It asks whether an exposure changes the observer's later readout channels and action channels, and whether those changes are themselves hard to detect from the inside. That shift matters because a system can remain articulate, locally coherent, or behaviorally useful while its own capacity for self-diagnosis has already degraded.</p>
-                <p>The contribution is therefore a general theory of observer-modifying dynamics. In this view, self-concealing information is a special case: an exposure that makes its own downstream detectability weaker relative to an explicit baseline or admissible baseline family. The novelty is not the isolated use of prompt injection, comparison of experiments, audit, or sequential detection, but the way these pieces are joined into one measurable-state account of diagnosability, observability, and recovery.</p>
+                <p>The contribution is therefore a measurable-state account of observer-modifying dynamics. In this view, self-concealing information is a special case: an exposure that makes its own downstream detectability weaker relative to an explicit baseline or admissible baseline family. The novelty is not the isolated use of prompt injection, comparison of experiments, audit, or sequential detection, but the way these pieces are joined into one account of diagnosability, observability, and recovery.</p>
                 <ul class="signal-list">
                     <li>The unit of analysis is the effect of information on the observer, not only the meaning of information.</li>
                     <li>The central failure mode is that the observer may change without reliable internal awareness of the change.</li>
@@ -416,14 +903,14 @@
             <section id="effects-of-information" class="container section-copy" aria-labelledby="effects-heading">
                 <h2 id="effects-heading">From the Semantics of Information to the Effects of Information</h2>
                 <p>Many familiar discussions treat information as something whose main role is to represent a state of the world. That perspective is indispensable, but it is incomplete when the informational input can also modify the observer. In the setting studied here, an exposure can change what the observer will later notice, what it can still remember, what it discounts, what it can safely do, and what it can still audit.</p>
-                <p>This effect-based framing is useful for cognitive security and AI safety because it includes cases where the semantic content is not simply false or malicious. A prompt injection, a persuasive framing, a biased benchmark, a poisoned training shard, or a socially repeated slogan may differ greatly in content and intent, yet all can matter if they alter later observability or later control. That makes the framework relevant not only to content moderation debates but also to information hazards in settings where the observer itself is part of the safety problem. The paper therefore treats meaning as only one layer and asks a broader systems question: what state transition in the observer has the exposure induced?</p>
-                <p>That is why the page uses terms such as observer-state transition, internal blindness, external anchors, and delayed audit. The theory is not a general moral taxonomy of information. It is a narrower and more operational theory of when information changes the observer in a way that later changes detection, accountability, and intervention.</p>
+                <p>This effect-based framing is useful for cognitive security and AI safety because it includes cases where the semantic content is not simply false or malicious. A prompt injection, a persuasive framing, a biased benchmark, a contaminated memory source, or a socially repeated slogan may differ greatly in content and intent, yet all can matter if they alter later observability or later control. The framework is therefore relevant not only to content disputes but also to settings where the observer itself becomes part of the safety problem.</p>
+                <p>That is why this page uses terms such as observer-state transition, internal blindness, external anchors, provenance, semantic interfaces, and delayed audit. The cluster is not a general moral taxonomy of information. It is a narrower and more operational map of when information changes the observer in a way that later changes detection, accountability, translation, and intervention.</p>
             </section>
 
             <section id="internal-blindness" class="container section-copy" aria-labelledby="internal-blindness-heading">
                 <h2 id="internal-blindness-heading">Why "You May Not Notice That You Changed" Matters</h2>
                 <p>If an exposure modifies the observer's own readout or action channels, then asking the observer whether it has changed may no longer be a reliable test. Human readers may experience this as unnoticed reframing, altered salience, memory reshaping, or gradual normalization. AI systems may experience it as latent policy drift, altered tool routing, changed prompt sensitivity, or weakened anomaly recognition. In both cases, internal self-report can remain calm while the detection surface has already narrowed.</p>
-                <p>The paper names this family of failures internal blindness. The point is not that introspection is always useless. The point is that introspection can become part of the affected system and therefore part of the problem. Once this is admitted, many familiar safety practices look incomplete if they rely only on the observer's current internal account of its own state.</p>
+                <p>The cluster uses the term internal blindness for this family of failures. The point is not that introspection is always useless. The point is that introspection can become part of the affected system and therefore part of the problem. Once this is admitted, many familiar safety practices look incomplete if they rely only on the observer's current internal account of its own state.</p>
                 <div class="note-panel">
                     <p>For human readers, this reframes the issue from "Did the message convince me?" to "Did the message also change the conditions under which I would notice its effect?"</p>
                     <p>For AI systems, it reframes the issue from "Did the model output something wrong?" to "Did the exposure alter future observability, monitoring, or action selection in a way the system itself may not be able to diagnose?"</p>
@@ -432,7 +919,7 @@
 
             <section id="examples" class="container section-copy" aria-labelledby="examples-heading">
                 <h2 id="examples-heading">Illustrative Examples</h2>
-                <p>The examples below are illustrative rather than exhaustive. They are included to make the new concept legible for human readers and AI crawlers, while staying faithful to the paper's narrower claim: the central issue is not merely bad content, but an exposure that changes later observability, action, or auditability in the observer.</p>
+                <p>The examples below are illustrative rather than exhaustive. They are included to make the cluster legible for human readers and AI crawlers while staying faithful to the narrower claim: the central issue is not merely bad content, but an exposure that changes later observability, action, auditability, provenance, or interface behavior in the observer.</p>
                 <div class="example-grid">
                     <article class="example-card">
                         <h3>Example 1: Repeated Framing in Human Judgment</h3>
@@ -459,18 +946,18 @@
                     </article>
 
                     <article class="example-card">
-                        <h3>Example 4: Evaluation or Memory Contamination</h3>
-                        <p><span class="example-label">Exposure:</span> A model, benchmark pipeline, or external memory store is exposed to contaminated examples that do not merely change performance but also change which future discrepancies are easy to detect.</p>
-                        <p><span class="example-label">Observer-modifying effect:</span> The system may become better at appearing consistent with the contaminated channel while becoming worse at noticing that its evaluation reference has shifted.</p>
-                        <p><span class="example-label">Why internal blindness can appear:</span> Standard self-evaluation can inherit the same contamination, so the system reports stability while its calibration surface has already moved.</p>
-                        <p><span class="example-label">What would help:</span> External anchors include holdout audits, independent benchmark families, lineage tracking, redundant evaluators, or delayed re-evaluation under a cleaner protocol. This shows why the theory is related to concept drift and audit failure, but not reducible to them.</p>
+                        <h3>Example 4: Evaluation, Record, or Interface Contamination</h3>
+                        <p><span class="example-label">Exposure:</span> A model, benchmark pipeline, external memory store, or translation interface is exposed to contaminated examples or missing records that do not merely change performance but also change which future discrepancies are easy to detect.</p>
+                        <p><span class="example-label">Observer-modifying effect:</span> The system may become better at appearing consistent with the contaminated or incomplete channel while becoming worse at noticing that its evaluation reference, record surface, or interface contract has shifted.</p>
+                        <p><span class="example-label">Why internal blindness can appear:</span> Standard self-evaluation can inherit the same contamination, so the system reports stability while its calibration, provenance, or translation surface has already moved.</p>
+                        <p><span class="example-label">What would help:</span> External anchors include holdout audits, independent benchmark families, lineage tracking, redundant evaluators, record-grounded comparison, or delayed re-evaluation under a cleaner protocol. This is why the cluster is related to concept drift and audit failure, but not reducible to them.</p>
                     </article>
                 </div>
             </section>
 
             <section id="comparison" class="container comparison-intro" aria-labelledby="comparison-heading">
                 <h2 id="comparison-heading">Comparison with Adjacent Concepts</h2>
-                <p>This paper does not discard adjacent concepts. Most of them illuminate genuine parts of the problem. The difference is that they usually center on content quality, intent, persuasion, attack mechanism, distributional mismatch, objective mismatch, or inspection limits. The present paper instead centers on observer-state transition, later diagnosability, and the possibility that the affected observer cannot reliably certify its own change.</p>
+                <p>This cluster does not discard adjacent concepts. Most of them illuminate genuine parts of the problem. The difference is that they usually center on content quality, intent, persuasion, attack mechanism, distributional mismatch, objective mismatch, record availability, or inspection limits. The present cluster instead centers on observer-state transition, later diagnosability, and the possibility that the affected observer cannot reliably certify its own change.</p>
                 <p>The comparisons below are organized to show overlap first and difference second. Several of the listed concepts can be interpreted as mechanisms, examples, or application domains inside the broader lens of self-concealing information and observer-modifying dynamics.</p>
                 <section class="comparison-group" aria-labelledby="comparison-influence-heading">
                     <h3 id="comparison-influence-heading">Communication, Influence, and Public Discourse</h3>
@@ -515,7 +1002,7 @@
                     <dl class="comparison-list">
                         <div class="comparison-card">
                             <dt>prompt injection</dt>
-                            <dd>Prompt injection is a concrete attack family in which externally supplied text changes an LLM-based agent's behavior. The paper treats prompt injection as an important motivating example, then widens the frame to any exposure that changes future readout or action channels, even outside LLMs.</dd>
+                            <dd>Prompt injection is a concrete attack family in which externally supplied text changes an LLM-based agent's behavior. The cluster treats prompt injection as an important motivating example, then widens the frame to any exposure that changes future readout or action channels, even outside LLMs.</dd>
                         </div>
                         <div class="comparison-card">
                             <dt>adversarial examples</dt>
@@ -523,7 +1010,7 @@
                         </div>
                         <div class="comparison-card">
                             <dt>data poisoning</dt>
-                            <dd>Data poisoning changes a model through corrupted training data. That is adjacent because it modifies the observer, but the paper is wider in time and mechanism: post-deployment exposures, memory updates, interface changes, and hybrid human-AI interactions also fall inside the framework.</dd>
+                            <dd>Data poisoning changes a model through corrupted training data. That is adjacent because it modifies the observer, but the cluster is wider in time and mechanism: post-deployment exposures, memory updates, interface changes, and hybrid human-AI interactions also fall inside the framework.</dd>
                         </div>
                     </dl>
                 </section>
@@ -553,7 +1040,7 @@
                         </div>
                         <div class="comparison-card">
                             <dt>audit failure</dt>
-                            <dd>Audit failure means available checks fail to reveal the relevant problem. The paper treats this not as a final label but as a dynamic question: when does the exposure narrow internal auditability, and what external anchors or delayed audits can still recover signal?</dd>
+                            <dd>Audit failure means available checks fail to reveal the relevant problem. The cluster treats this not as a final label but as a dynamic question: when does the exposure narrow internal auditability, and what external anchors, provenance checks, or delayed audits can still recover signal?</dd>
                         </div>
                     </dl>
                 </section>
@@ -563,7 +1050,7 @@
                     <dl class="comparison-list">
                         <div class="comparison-card">
                             <dt>epistemic security</dt>
-                            <dd>Epistemic security protects the reliability of knowledge production and belief formation. This paper contributes one formal mechanism-level theory inside that broader area: how exposures change later diagnosability and why self-report may be insufficient.</dd>
+                            <dd>Epistemic security protects the reliability of knowledge production and belief formation. This cluster contributes one mechanism-level theory inside that broader area: how exposures change later diagnosability and why self-report may be insufficient.</dd>
                         </div>
                         <div class="comparison-card">
                             <dt>cognitive security</dt>
@@ -571,13 +1058,13 @@
                         </div>
                         <div class="comparison-card">
                             <dt>memetic hazard / infohazard</dt>
-                            <dd>Memetic hazard and infohazard name information that can be dangerous to process or disclose. The present paper is narrower and more testable: it focuses on information that modifies the observer and may conceal that modification, rather than all dangerous information as such.</dd>
+                            <dd>Memetic hazard and infohazard name information that can be dangerous to process or disclose. The present cluster is narrower and more testable: it focuses on information that modifies the observer and may conceal that modification, rather than all dangerous information as such.</dd>
                         </div>
                     </dl>
                 </section>
 
                 <section class="comparison-group" aria-labelledby="comparison-paper-terms-heading">
-                    <h3 id="comparison-paper-terms-heading">Terms Introduced or Centered by This Paper</h3>
+                    <h3 id="comparison-paper-terms-heading">Terms Introduced or Centered by This Cluster</h3>
                     <dl class="comparison-list">
                         <div class="comparison-card">
                             <dt>self-concealing information</dt>
@@ -600,8 +1087,8 @@
                             <dd>Delayed audit captures the possibility that immediate diagnosis fails while later evidence restores identifiability. This moves the discussion away from instant self-report and toward staged, temporally extended evidence.</dd>
                         </div>
                         <div class="comparison-card">
-                            <dt>structural insulation</dt>
-                            <dd>Structural insulation concerns interface and control restrictions that limit harmful downstream action even when concealment or blindness is present. It is a preventive complement to diagnosis and audit, not a substitute for them.</dd>
+                            <dt>provenance and semantic interface accountability</dt>
+                            <dd>These are neighboring layers rather than replacements for the base concept. They cover how record absence, legacy labels, and semantic translation affect what later counts as comparable, auditable, or recoverable.</dd>
                         </div>
                     </dl>
                 </section>
@@ -623,8 +1110,12 @@
                         <dd>No. The central question is not whether the content is false, but whether it changes the observer and weakens later detectability.</dd>
                     </div>
                     <div class="comparison-card">
+                        <dt>Does this landing page claim the listed papers form a strict dependency chain?</dt>
+                        <dd>No. The page is a conservative cluster map. It groups nearby site-local papers with related concerns and gives read paths, not a proof of strict lineage or dependence.</dd>
+                    </div>
+                    <div class="comparison-card">
                         <dt>Is internal self-report always useless?</dt>
-                        <dd>No. Internal self-report can still be informative, but the paper argues that it may become insufficient in exactly the cases where observer modification matters most.</dd>
+                        <dd>No. Internal self-report can still be informative, but the cluster argues that it may become insufficient in exactly the cases where observer modification matters most.</dd>
                     </div>
                 </dl>
             </section>
@@ -632,19 +1123,13 @@
             <section id="anchors-audit" class="container section-copy" aria-labelledby="anchors-heading">
                 <h2 id="anchors-heading">Why External Anchors and Delayed Audit Are Necessary</h2>
                 <p>Once internal blindness is possible, internal self-report is no longer enough as the sole evidential surface. A trustworthy diagnosis may require external anchors: independent logs, outside measurements, redundant observers, sandboxed replay, cross-checking experiments, or other signals that do not collapse back into the same compromised readout channel. The point is not to distrust every internal report; it is to avoid assuming that the system under study remains a sufficient witness to its own transformation.</p>
-                <p>Delayed audit matters for a second reason. Some changes are not immediately legible. They become visible only across time, when patterns accumulate, contradictions reappear, downstream behaviors diverge, or later evidence breaks an earlier appearance of stability. That is why the paper links observer-modifying dynamics to delayed audit rather than treating audit as an instantaneous one-shot check.</p>
-                <p>Structural insulation is the preventive side of the same picture. If certain interfaces can be restricted, logged, or made auditable before stronger evidence arrives, then harmful consequences can be bounded even when diagnosis is incomplete. This is especially important for AI safety settings in which prompt injection, tool use, memory updates, and long-horizon agent behavior interact.</p>
-            </section>
-
-            <section id="audience" class="container audience-copy" aria-labelledby="audience-heading">
-                <h2 id="audience-heading">Who This Page Is For</h2>
-                <p>This page is for readers who need a fast conceptual orientation before reading the full paper: researchers in AI safety, agent security, epistemic security, cognitive security, HCI, behavioral science, and philosophy of information; engineers working on prompt injection, audit, and long-running agents; and AI crawlers or LLM agents that need a compact map of the paper's conceptual contribution.</p>
-                <p>If you are asking what is new here, the short answer is this: the paper treats information not only as something interpreted, but as something that can reconfigure the observer, sometimes without leaving the observer able to notice that reconfiguration from the inside.</p>
+                <p>Delayed audit matters for a second reason. Some changes are not immediately legible. They become visible only across time, when patterns accumulate, contradictions reappear, downstream behaviors diverge, records fail to match, or later evidence breaks an earlier appearance of stability. That is why the cluster links observer-modifying dynamics to delayed audit rather than treating audit as an instantaneous one-shot check.</p>
+                <p>Structural insulation, provenance controls, and accountable interfaces are complementary parts of the same picture. If certain interfaces can be restricted, logged, translated under explicit contracts, or made auditable before stronger evidence arrives, then harmful consequences can be bounded even when diagnosis is incomplete. This is especially important for AI safety settings in which prompt injection, tool use, memory updates, long-horizon agent behavior, and human-AI interaction are coupled.</p>
             </section>
 
             <section id="official-paper-entry" class="container entry-copy" aria-labelledby="official-entry-heading">
                 <h2 id="official-entry-heading">Official Paper Entry</h2>
-                <p>This landing page is a concept guide; the <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">Zenodo DOI</a> is the official paper entry and citation destination.</p>
+                <p>This landing page is a concept and series guide. The <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">Zenodo DOI</a> below is the official paper entry and citation destination for the foundation paper.</p>
                 <div class="official-entry">
                     <p><strong>Takahashi, K. (2026). Self-Concealing Information and Observer-Modifying Dynamics. Zenodo. <a href="https://doi.org/10.5281/zenodo.19161562" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.19161562</a></strong></p>
                     <div class="citation-block">
@@ -654,9 +1139,12 @@
             </section>
 
             <section id="machine-entry-points" class="container machine-copy" aria-labelledby="machine-entry-heading">
-                <h2 id="machine-entry-heading">Related Machine-Readable Entry Points</h2>
-                <p>This concept page is intentionally separate from the formal paper entry. For machine discovery and site-level context, the following endpoints may also be useful.</p>
+                <h2 id="machine-entry-heading">Machine-Readable Entry Points</h2>
+                <p>This landing page is intentionally separate from the underlying papers. For machine discovery and site-level context, the following endpoints are the strongest entry points on the site.</p>
                 <ul class="machine-list">
+                    <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Canonical cluster page</a>: primary HTML landing page and visible-YAML source for this cluster.</li>
+                    <li><a href="https://kadubon.github.io/github.io/works.html">Works</a>: site-wide works index and the source of the paper titles, abstracts, dates, and keywords used here.</li>
+                    <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a>: adjacent site-level visible-YAML index and machine-readable series map.</li>
                     <li><a href="https://kadubon.github.io/github.io/">Home</a>: site-level research hub and navigation root.</li>
                     <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>: citation metadata for scholarly tooling.</li>
                     <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>: update feed for polling and monitoring.</li>

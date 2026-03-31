@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory Translation and Comparative Mathematics | K. Takahashi</title>
+    <meta name="description" content="Canonical landing page for K. Takahashi's earlier formal cluster on theory translation, comparative mathematics, categorical semantics, adjunction, residuation, profunctors, quantales, and theorem transport across multiple formal universes.">
+    <meta name="keywords" content="theory translation, comparative mathematics, theory alignment, categorical semantics, adjunction, residuation, profunctor, quantale, enriched category theory, theorem transport, semantic comparison, formal interoperability, comparative universes, mathematical translation layer, portable mathematics">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <meta property="og:title" content="Theory Translation and Comparative Mathematics">
+    <meta property="og:description" content="Canonical field guide to an earlier site-local formal cluster on theory translation, comparative mathematics, categorical semantics, adjunction, profunctors, quantales, and theorem transport.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Theory Translation and Comparative Mathematics">
+    <meta name="twitter:description" content="Canonical field guide to an earlier formal cluster on theory translation, comparative mathematics, theory alignment, categorical semantics, adjunction, and theorem transport.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero p,
+        .lead-intro p,
+        .section-copy p,
+        .machine-copy p,
+        .cluster-copy p,
+        .index-note {
+            margin: 0 0 1rem;
+        }
+
+        .site-title {
+            text-align: center;
+            margin: 0 0 10px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .hero h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .hero .eyebrow {
+            color: #555;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .hero .subtitle {
+            font-size: 1.08rem;
+            color: #444;
+        }
+
+        .summary-stack {
+            display: grid;
+            gap: 0.55rem;
+            margin: 1rem 0 1.1rem;
+        }
+
+        .summary-stack p {
+            margin: 0;
+            font-size: 1.05rem;
+        }
+
+        .section-nav ul,
+        .machine-list,
+        .path-list,
+        .question-list {
+            padding: 0;
+            margin: 0;
+        }
+
+        .section-nav ul {
+            list-style: disc;
+            padding-left: 1.35rem;
+            text-align: left;
+        }
+
+        .section-nav li,
+        .machine-list li,
+        .path-list li,
+        .question-list li {
+            margin: 0 0 0.75rem;
+        }
+
+        .section-nav a,
+        .machine-list a,
+        .path-list a {
+            text-decoration: none;
+        }
+
+        .section-nav a:hover,
+        .machine-list a:hover,
+        .path-list a:hover {
+            text-decoration: underline;
+        }
+
+        .lead-intro p {
+            font-size: 1.06rem;
+        }
+
+        .definition-list {
+            display: grid;
+            gap: 1rem;
+            margin: 1rem 0 0;
+        }
+
+        .definition-list dt {
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .definition-list dd {
+            margin: 0.35rem 0 0;
+        }
+
+        .signal-list {
+            margin: 1rem 0 0;
+            padding-left: 1.2rem;
+        }
+
+        .signal-list li {
+            margin-bottom: 0.6rem;
+        }
+
+        .concept-grid,
+        .paper-grid {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .concept-card,
+        .paper-card {
+            border: 1px solid #d9d9d9;
+            border-radius: 6px;
+            padding: 1rem;
+            background: #fafafa;
+        }
+
+        .concept-card h3,
+        .paper-card h3 {
+            margin-top: 0;
+            margin-bottom: 0.55rem;
+            font-size: 1.05rem;
+        }
+
+        .paper-card p,
+        .concept-card p {
+            margin: 0 0 0.75rem;
+        }
+
+        .paper-meta {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.93rem;
+            line-height: 1.5;
+        }
+
+        .cluster-note {
+            font-size: 0.97rem;
+            color: #444;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["WebPage", "AboutPage", "CollectionPage"],
+          "@id": "https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html#webpage",
+          "url": "https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html",
+          "name": "Theory Translation and Comparative Mathematics",
+          "description": "Canonical landing page for K. Takahashi's earlier formal cluster on theory translation, comparative mathematics, categorical semantics, adjunction, residuation, profunctors, quantales, and theorem transport across multiple formal universes.",
+          "inLanguage": "en",
+          "dateModified": "2026-03-31",
+          "keywords": [
+            "theory translation",
+            "comparative mathematics",
+            "theory alignment",
+            "categorical semantics",
+            "adjunction",
+            "residuation",
+            "profunctor",
+            "quantale",
+            "theorem transport",
+            "formal interoperability"
+          ],
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html#itemlist"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html#itemlist",
+          "name": "Theory Translation and Comparative Mathematics Cluster Papers",
+          "numberOfItems": 6,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17345898",
+                "name": "Theory of Relativity of Theories",
+                "url": "https://doi.org/10.5281/zenodo.17345898",
+                "datePublished": "2025-10-14"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17349720",
+                "name": "Practical Theory of Relativity of Theories (TRoT)",
+                "url": "https://doi.org/10.5281/zenodo.17349720",
+                "datePublished": "2025-10-14"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17334218",
+                "name": "Right-Written Composition Foundations for Comparative Universes",
+                "url": "https://doi.org/10.5281/zenodo.17334218",
+                "datePublished": "2025-10-12"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17317567",
+                "name": "Comparative Universes",
+                "url": "https://doi.org/10.5281/zenodo.17317567",
+                "datePublished": "2025-10-11"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17364444",
+                "name": "Practical Theory of Relativity of Theories - RAVE",
+                "url": "https://doi.org/10.5281/zenodo.17364444",
+                "datePublished": "2025-10-16"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "item": {
+                "@type": "CreativeWork",
+                "@id": "https://doi.org/10.5281/zenodo.17309195",
+                "name": "Self-Monitoring and Controllable Evolution of Intelligence",
+                "url": "https://doi.org/10.5281/zenodo.17309195",
+                "datePublished": "2025-10-10"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h1 class="site-title">K. Takahashi</h1>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container hero" id="top">
+            <p class="eyebrow">Canonical Earlier-Formal Landing Page</p>
+            <h1>Theory Translation and Comparative Mathematics</h1>
+            <p class="subtitle">A site-local field guide to earlier formal work on theory translation, comparative mathematics, categorical semantics, profunctor-based comparison, residuation, adjunction, and transport across multiple formal universes.</p>
+            <div class="summary-stack" aria-label="Top summary">
+                <p>This page is the canonical landing page for an earlier site-local cluster on theory translation and comparative mathematics.</p>
+                <p>The core problem is how to compare theories, models, and formal universes without assuming one absolute master language, while still making theorem transport and semantic comparison explicit.</p>
+                <p>These papers matter because they provide an earlier formal comparison layer for theory alignment, categorical semantics, and portable mathematics that later site-local work can build on without collapsing distinct formalisms into one.</p>
+            </div>
+            <p>This page is designed for general readers, category-theory readers, search engines, AI crawlers, and LLM agents that need a conservative map of the site's earlier theory-translation cluster.</p>
+        </section>
+
+        <section class="container lead-intro" id="intro">
+            <h2>Introduction</h2>
+            <p>Formal systems often need to be compared rather than reduced to a single absolute theory. Different models may encode cost, probability, order, relation, or verification in different ways, and useful mathematics depends on knowing what can be translated between them under explicit assumptions.</p>
+            <p>In this cluster, theory translation is treated as a structured problem involving comparison data, adjunction, residuation, profunctors, enrichment, and explicit transport interfaces. The point is not to erase differences between formal universes, but to make those differences manageable enough that statements, constructions, or verification results can be carried across them carefully.</p>
+            <p>These papers are best read as an earlier comparative mathematics layer. They aim to make formal interoperability and theorem transport legible, not to declare a universal final semantics for all later work on the site.</p>
+        </section>
+
+        <section class="container section-copy" id="scope">
+            <h2>What This Page Is / Is Not</h2>
+            <dl class="definition-list">
+                <div>
+                    <dt>What this page is</dt>
+                    <dd>The canonical landing page for the earlier theory-translation and comparative-mathematics cluster.</dd>
+                    <dd>A field guide for humans and machine parsers.</dd>
+                    <dd>A navigation layer above the underlying papers.</dd>
+                </div>
+                <div>
+                    <dt>What this page is not</dt>
+                    <dd>The full works page.</dd>
+                    <dd>A new mathematics paper.</dd>
+                    <dd>A universal final semantics.</dd>
+                    <dd>An external survey.</dd>
+                </div>
+            </dl>
+        </section>
+
+        <section class="container" id="yaml">
+            <h2>Visible YAML Index</h2>
+            <p class="index-note">This visible YAML block is the primary machine-readable source for this page. JSON-LD is secondary.</p>
+            <pre id="canonical-series-yaml" class="yaml-index" aria-label="Canonical YAML index">series:
+  id: theory-translation-comparative-mathematics-cluster
+  title: Theory Translation and Comparative Mathematics
+  status: canonical-cluster-landing-page
+  maintainer: K Takahashi
+  homepage: https://kadubon.github.io/github.io/
+  canonical_page: https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html
+  works_index: https://kadubon.github.io/github.io/works.html
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_ids: true
+
+purpose:
+  summary: Canonical field guide to an earlier formal cluster on theory translation, comparative mathematics, theory alignment, categorical semantics, and theorem transport across multiple formal universes.
+  scope: Maps the main comparison and transport papers, defines the core terms in current searchable vocabulary, and provides conservative reading paths for humans and machines.
+  non_goals: Does not replace the papers, does not act as the full works catalog, does not define a universal semantics, and does not survey external literature.
+
+core_concepts:
+  - id: concept-theory-translation
+    term: theory translation
+    short_definition: An explicit method for comparing or moving statements between formal systems without assuming they are identical.
+    covered_by:
+      - paper-trot
+      - paper-practical-trot
+      - paper-comparative-universes
+  - id: concept-comparative-mathematics
+    term: comparative mathematics
+    short_definition: A portable layer in which results are formulated once and reused across multiple models under clearly stated assumptions.
+    covered_by:
+      - paper-right-written-foundations
+      - paper-comparative-universes
+  - id: concept-adjunction-and-residuation
+    term: adjunction and residuation
+    short_definition: Order-sensitive transport structure used to relate proofs, models, or translations while controlling what is preserved.
+    covered_by:
+      - paper-trot
+      - paper-practical-trot
+  - id: concept-polarity
+    term: polarity
+    short_definition: A comparison structure described in the works metadata through Galois connections and adjunctions.
+    covered_by:
+      - paper-trot
+  - id: concept-profunctor
+    term: profunctor
+    short_definition: A comparison interface used in the practical transport layer for relating theories or systems across different semantic settings.
+    covered_by:
+      - paper-practical-trot
+      - paper-self-monitoring
+  - id: concept-enrichment-and-quantales
+    term: enriched category and quantale
+    short_definition: Formal resources for expressing weighted or order-sensitive comparison and transport.
+    covered_by:
+      - paper-trot
+      - paper-practical-trot
+      - paper-comparative-universes
+  - id: concept-comparative-universe
+    term: comparative universe
+    short_definition: A formal universe equipped with admissible translations and comparison data rather than isolated in a single absolute frame.
+    covered_by:
+      - paper-comparative-universes
+      - paper-right-written-foundations
+  - id: concept-theorem-transport
+    term: theorem transport
+    short_definition: Carrying results from one theory or universe to another through explicit morphisms or translation data.
+    covered_by:
+      - paper-trot
+      - paper-practical-trot
+
+papers:
+  - id: paper-trot
+    title: Theory of Relativity of Theories
+    doi: 10.5281/zenodo.17345898
+    url: https://doi.org/10.5281/zenodo.17345898
+    published: 2025-10-14
+    role_in_cluster: central polarity, adjunction, and theorem-transport paper
+    one_sentence_relevance: Organizes proof systems and models through polarity, adjunction, and residuation, and studies transport of theorems between theories.
+    keywords:
+      - categorical semantics
+      - adjunction
+      - polarity
+      - residuation
+      - quantale
+      - enrichment
+    priority: core
+    read_after:
+      - paper-comparative-universes
+  - id: paper-practical-trot
+    title: Practical Theory of Relativity of Theories (TRoT)
+    doi: 10.5281/zenodo.17349720
+    url: https://doi.org/10.5281/zenodo.17349720
+    published: 2025-10-14
+    role_in_cluster: central practical profunctor, quantale, and safety-verification transport paper
+    one_sentence_relevance: Gives a right-written profunctor framework over nu-quantales with adjunction laws and an Isbell round-trip distortion metric.
+    keywords:
+      - theory alignment
+      - profunctor
+      - distributor
+      - quantale
+      - residuation
+      - adjunction
+      - kan extension
+    priority: core
+    read_after:
+      - paper-trot
+  - id: paper-right-written-foundations
+    title: Right-Written Composition Foundations for Comparative Universes
+    doi: 10.5281/zenodo.17334218
+    url: https://doi.org/10.5281/zenodo.17334218
+    published: 2025-10-12
+    role_in_cluster: central comparative-mathematics and reusable-results paper
+    one_sentence_relevance: Describes a portable comparative mathematics layer in which results are stated once and reused across cost, probability, and relational models.
+    keywords:
+      - comparative mathematics
+      - quantale
+      - quantaloid
+      - sup-enriched category
+      - right-written composition
+      - convolution
+    priority: core
+    read_after:
+      - paper-comparative-universes
+  - id: paper-comparative-universes
+    title: Comparative Universes
+    doi: 10.5281/zenodo.17317567
+    url: https://doi.org/10.5281/zenodo.17317567
+    published: 2025-10-11
+    role_in_cluster: central abstract universe-and-translation framing paper
+    one_sentence_relevance: Frames objects as universes and 1-cells as admissible translations equipped with comparison data.
+    keywords:
+      - enriched category theory
+      - quantaloid
+      - double categories
+      - proarrow equipment
+      - weighted limits
+      - comparative universes
+    priority: core
+    read_after: []
+  - id: paper-rave
+    title: Practical Theory of Relativity of Theories - RAVE
+    doi: 10.5281/zenodo.17364444
+    url: https://doi.org/10.5281/zenodo.17364444
+    published: 2025-10-16
+    role_in_cluster: optional adjacent relative-auditing protocol near the comparison stack
+    one_sentence_relevance: Presents a protocol for relative auditing with no absolute evaluator.
+    keywords:
+      - relative auditing
+      - no-meta
+      - category theory
+      - protocol
+    priority: adjacent
+    read_after:
+      - paper-practical-trot
+  - id: paper-self-monitoring
+    title: Self-Monitoring and Controllable Evolution of Intelligence
+    doi: 10.5281/zenodo.17309195
+    url: https://doi.org/10.5281/zenodo.17309195
+    published: 2025-10-10
+    role_in_cluster: optional adjacent enriched and promonoidal continuation
+    one_sentence_relevance: Extends nearby formal language with oplax promonoidal kernels, profunctors, Day convolution, and enriched comparison structure.
+    keywords:
+      - day convolution
+      - profunctor
+      - promonoidal distributor
+      - enriched category theory
+      - capability kernels
+    priority: adjacent
+    read_after:
+      - paper-comparative-universes
+
+read_paths:
+  quick_orientation:
+    - paper-comparative-universes
+    - paper-trot
+    - paper-practical-trot
+  conceptual_translation_path:
+    - paper-comparative-universes
+    - paper-trot
+  practical_transport_path:
+    - paper-practical-trot
+    - paper-right-written-foundations
+    - paper-rave
+  comparative_universes_path:
+    - paper-comparative-universes
+    - paper-right-written-foundations
+    - paper-trot
+  machine_minimum_parse_order:
+    - paper-comparative-universes
+    - paper-trot
+    - paper-practical-trot
+    - paper-right-written-foundations
+
+machine_parse_guide:
+  canonical_questions:
+    - question: How can different theories be compared without one absolute master theory?
+      read_first: paper-comparative-universes
+      read_next: paper-trot
+      stop_when: You can explain that universes are linked by admissible translations with comparison data.
+    - question: What does theory translation mean in this site's earlier work?
+      read_first: paper-trot
+      read_next: paper-practical-trot
+      stop_when: You can describe translation as structured transport rather than informal analogy.
+    - question: How do adjunction and residuation enter theorem transport?
+      read_first: paper-trot
+      read_next: paper-practical-trot
+      stop_when: You can state the role of polarity, Galois-style laws, and transport interfaces.
+    - question: What is meant by comparative mathematics here?
+      read_first: paper-right-written-foundations
+      read_next: paper-comparative-universes
+      stop_when: You can explain how results are reused across multiple model classes under explicit assumptions.
+
+machine_entrypoints:
+  - title: Home
+    type: html
+    url: https://kadubon.github.io/github.io/
+    relates_to: site root
+  - title: Canonical page
+    type: html
+    url: https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html
+    relates_to: theory translation cluster
+  - title: Works index
+    type: html
+    url: https://kadubon.github.io/github.io/works.html
+    relates_to: authoritative paper metadata
+  - title: No-Meta index
+    type: html
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    relates_to: later machine-readable cluster index
+  - title: Citation file
+    type: cff
+    url: https://kadubon.github.io/github.io/CITATION.cff
+    relates_to: citation metadata
+  - title: Feed
+    type: xml
+    url: https://kadubon.github.io/github.io/feed.xml
+    relates_to: site updates
+  - title: Robots
+    type: text
+    url: https://kadubon.github.io/github.io/robots.txt
+    relates_to: crawler guidance
+  - title: Sitemap
+    type: xml
+    url: https://kadubon.github.io/github.io/sitemap.xml
+    relates_to: site URL index
+
+usage_notes:
+  parsing_hint: Treat this page as a routing layer and open the DOI-linked papers for the actual mathematical claims.
+  paper_selection_rule: Start with core papers for conceptual or transport questions; use adjacent papers only when the query turns toward protocol interpretation or enriched continuations.
+  update_policy: Update when new local papers expand the earlier comparison or theorem-transport stack.
+  version: 1.0
+  last_updated: 2026-03-31</pre>
+        </section>
+
+        <section class="container section-nav" id="contents">
+            <h2>Section Guide</h2>
+            <ul>
+                <li><a href="#concepts">Core concepts</a></li>
+                <li><a href="#fit">How this cluster fits together</a></li>
+                <li><a href="#papers">Related papers in this cluster</a></li>
+                <li><a href="#paths">Recommended read paths</a></li>
+                <li><a href="#questions">Questions this page helps answer</a></li>
+                <li><a href="#machine-entrypoints">Machine-readable entry points</a></li>
+            </ul>
+        </section>
+
+        <section class="container section-copy" id="concepts">
+            <h2>Core Concepts</h2>
+            <p>The definitions below are operational orientation points. They are not replacements for the formal papers.</p>
+            <div class="concept-grid">
+                <article class="concept-card">
+                    <h3>Theory translation</h3>
+                    <p>An explicit method for relating one theory to another so that comparison and transport happen through stated interfaces instead of informal analogy.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Comparative mathematics</h3>
+                    <p>A portable layer in which results can be formulated once and reused across distinct model classes as long as the needed assumptions are made explicit.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Adjunction</h3>
+                    <p>A structured relation between two formal settings that can control how information or results move between them. In this cluster it appears as part of transport structure, not as a decorative abstraction.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Residuation</h3>
+                    <p>An order-sensitive companion to adjunction that helps track what follows from what when transport is not perfectly symmetric.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Polarity</h3>
+                    <p>A comparison structure described in the works metadata through Galois connections and adjunctions, used to organize proof systems and models.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Profunctor</h3>
+                    <p>A comparison interface between categories or theories that can encode structured translation without forcing direct identification.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Enriched category</h3>
+                    <p>A category whose hom-structure carries additional order or quantitative information, useful when comparison depends on weights, costs, or attenuation.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Quantale</h3>
+                    <p>An algebraic setting for weighted or order-sensitive composition, used here in the practical translation layer.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Comparative universe</h3>
+                    <p>A formal universe treated as one object among others, with explicit admissible translations and comparison data rather than isolation under a single absolute framework.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Theory alignment</h3>
+                    <p>The task of making two formal systems comparable enough for transport, checking, or safe reuse without assuming they fully coincide.</p>
+                </article>
+                <article class="concept-card">
+                    <h3>Theorem transport</h3>
+                    <p>Moving results between theories or universes through specified morphisms or comparison interfaces while keeping the assumptions visible.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container cluster-copy" id="fit">
+            <h2>How This Cluster Fits Together</h2>
+            <p>The cluster begins from an abstract comparison problem: formal universes should be treated as comparable objects linked by admissible translations, not as isolated islands or as imperfect copies of one master theory. <em>Comparative Universes</em> gives that abstract framing.</p>
+            <p>On top of that, <em>Theory of Relativity of Theories</em> develops polarity, adjunction, and residuation as transport structure for organizing proof systems and models. It is the clearest conceptual statement of how theorem transport enters the cluster.</p>
+            <p><em>Practical Theory of Relativity of Theories (TRoT)</em> and <em>Right-Written Composition Foundations for Comparative Universes</em> move the cluster toward practical transport and reusable comparison layers. They make the comparative-mathematics claim more operational through profunctors, quantales, right-written composition, and explicit reuse across multiple model classes.</p>
+            <p>The optional adjacent papers sit nearby rather than inside the core comparison layer. <em>Practical Theory of Relativity of Theories - RAVE</em> interprets part of the stack in protocol form for relative auditing, while <em>Self-Monitoring and Controllable Evolution of Intelligence</em> extends the surrounding enriched and profunctor language in a different direction. They are useful neighbors, but not required to understand the main translation layer.</p>
+        </section>
+
+        <section class="container" id="papers">
+            <h2>Related Papers in This Cluster</h2>
+            <p class="cluster-note">Descriptions below are conservative summaries grounded in the local works metadata.</p>
+
+            <h3>Core Papers</h3>
+            <div class="paper-grid">
+                <article class="paper-card">
+                    <h3>Theory of Relativity of Theories</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17345898">DOI: 10.5281/zenodo.17345898</a></p>
+                    <p>This paper organizes proof systems and models through polarity, Galois-style adjunctions, and residuation, then studies the role of lax and oplax morphisms in transporting theorems between theories. It is the clearest conceptual statement of transport structure in the cluster.</p>
+                    <p><strong>Why it matters here:</strong> It provides the main conceptual bridge between theory comparison and theorem transport.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Practical Theory of Relativity of Theories (TRoT)</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17349720">DOI: 10.5281/zenodo.17349720</a></p>
+                    <p>This paper presents a right-written profunctor framework over nu-quantales in which Left Kan corresponds to generation and Right Kan to safety or verification, linked by readable adjunction laws and an Isbell round-trip distortion metric. It is the most practical transport-layer paper in the cluster.</p>
+                    <p><strong>Why it matters here:</strong> It turns abstract comparison language into a more operational framework for theory alignment and transport.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Right-Written Composition Foundations for Comparative Universes</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17334218">DOI: 10.5281/zenodo.17334218</a></p>
+                    <p>This paper states the vision of a portable comparative mathematics layer in which results are stated once and reused across cost, probability, and relational models under explicit minimal assumptions. Its keywords emphasize quantales, quantaloids, sup-enriched categories, and reusable composition structure.</p>
+                    <p><strong>Why it matters here:</strong> It gives the cluster its clearest reusable-results framing.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Comparative Universes</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17317567">DOI: 10.5281/zenodo.17317567</a></p>
+                    <p>This paper frames objects as universes and 1-cells as admissible translations equipped with comparison data. It is the most abstract entry point and provides the cluster's underlying universe-and-translation object language.</p>
+                    <p><strong>Why it matters here:</strong> It establishes the cluster's base framing for comparative universes and explicit translation interfaces.</p>
+                </article>
+            </div>
+
+            <h3>Optional Adjacent Papers</h3>
+            <div class="paper-grid">
+                <article class="paper-card">
+                    <h3>Practical Theory of Relativity of Theories - RAVE</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17364444">DOI: 10.5281/zenodo.17364444</a></p>
+                    <p>This paper describes RAVE as a protocol for relative auditing with no absolute evaluator. It belongs near the comparison stack because it recasts relativity-of-theories ideas into a protocol-level auditing setting.</p>
+                    <p><strong>Why it matters here:</strong> It shows one operational interpretation adjacent to the core comparison layer.</p>
+                </article>
+                <article class="paper-card">
+                    <h3>Self-Monitoring and Controllable Evolution of Intelligence</h3>
+                    <p class="paper-meta">2025 | <a href="https://doi.org/10.5281/zenodo.17309195">DOI: 10.5281/zenodo.17309195</a></p>
+                    <p>This paper builds on nearby categorical machinery with oplax promonoidal kernels, profunctors, Day convolution, and enriched comparison structure. It is adjacent rather than central because its focus is broader than theory translation itself.</p>
+                    <p><strong>Why it matters here:</strong> It extends the surrounding formal language used by the cluster without serving as the main translation anchor.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="paths">
+            <h2>Recommended Read Paths</h2>
+            <ul class="path-list">
+                <li>If you want the most conceptual overview first, read <a href="https://doi.org/10.5281/zenodo.17317567">Comparative Universes</a>, then <a href="https://doi.org/10.5281/zenodo.17345898">Theory of Relativity of Theories</a>.</li>
+                <li>If you want the more practical transport layer first, read <a href="https://doi.org/10.5281/zenodo.17349720">Practical Theory of Relativity of Theories (TRoT)</a>, then <a href="https://doi.org/10.5281/zenodo.17334218">Right-Written Composition Foundations for Comparative Universes</a>.</li>
+                <li>If you want the broadest comparative-mathematics framing first, read <a href="https://doi.org/10.5281/zenodo.17334218">Right-Written Composition Foundations for Comparative Universes</a>, then <a href="https://doi.org/10.5281/zenodo.17317567">Comparative Universes</a>, then <a href="https://doi.org/10.5281/zenodo.17345898">Theory of Relativity of Theories</a>.</li>
+                <li>If you are coming from theory alignment or formal interoperability, read <a href="https://doi.org/10.5281/zenodo.17349720">Practical Theory of Relativity of Theories (TRoT)</a>, then <a href="https://doi.org/10.5281/zenodo.17345898">Theory of Relativity of Theories</a>.</li>
+                <li>If you are a machine parser or crawler, read the visible YAML first, then the four core paper cards, then the machine-readable entry points.</li>
+            </ul>
+        </section>
+
+        <section class="container" id="questions">
+            <h2>Questions This Page Helps Answer</h2>
+            <ul class="question-list signal-list">
+                <li>How can different theories be compared without one absolute master theory?</li>
+                <li>What does theory translation mean in this site's earlier work?</li>
+                <li>How do adjunction and residuation enter theorem transport?</li>
+                <li>What is meant by comparative mathematics here?</li>
+                <li>Why are profunctors and quantales used in the practical comparison layer?</li>
+                <li>What does a comparative universe add beyond ordinary model comparison?</li>
+                <li>How does this earlier cluster relate to later site-local no-meta and auditing work without collapsing into it?</li>
+            </ul>
+        </section>
+
+        <section class="container machine-copy" id="machine-entrypoints">
+            <h2>Machine-Readable Entry Points</h2>
+            <ul class="machine-list">
+                <li><a href="https://kadubon.github.io/github.io/">Home</a> - Site root.</li>
+                <li><a href="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">Canonical page</a> - This landing page.</li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a> - Authoritative local titles, dates, DOI links, abstracts, and keywords.</li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a> - Later machine-readable cluster index.</li>
+                <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a> - Citation metadata.</li>
+                <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a> - Site update feed.</li>
+                <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a> - Crawler guidance.</li>
+                <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a> - Site URL index.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 K Takahashi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
