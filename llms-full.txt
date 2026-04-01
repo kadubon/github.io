@@ -1,6 +1,6 @@
 # K. Takahashi Academic and Scientific Research Hub (Full Context)
 
-> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety, persistent semantics under ontology drift, shared epistemic commons, semantic translation, reflexive classification, observer-modifying dynamics, and computer science.
+> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety, persistent semantics under ontology drift, shared epistemic commons, semantic translation, constitutional observable invention, reflexive classification, observer-modifying dynamics, and computer science.
 
 This repository-backed website is designed for both humans and automated systems.
 The primary machine-readable publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
@@ -38,6 +38,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Fail-closed verification, deterministic replay, and audit-certificate workflows.
 - Governance laws for shared epistemic commons under no-meta constraints.
 - Stability criteria for recursive self-improvement under endogenous yardstick drift.
+- Constitutional observable invention, public-evidence self-extension, and replay-certified evaluator redesign.
 - Semantic translation, accountable semantics, and symbolically checkable contract calculi.
 - Reflexive classification, cognitive drift, and deployment-aware evaluation loops.
 - Observer-modifying information, self-concealment, delayed audit, and diagnosability.
@@ -47,14 +48,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 191.
-- Date span of listed works: 2025-07-25 to 2026-03-31.
-- Latest listed work (2026-03-31): [Observer-Modifying Contagion on Networks](https://doi.org/10.5281/zenodo.19342966)
+- Publication entries in Works list: 192.
+- Date span of listed works: 2025-07-25 to 2026-04-01.
+- Latest listed work (2026-04-01): [Constitutional Observable Invention without Meta-Evaluators](https://doi.org/10.5281/zenodo.19363526)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
-- RSS feed item count: 185.
 
 ## Most Recent Works
 
+- 2026-04-01: [Constitutional Observable Invention without Meta-Evaluators](https://doi.org/10.5281/zenodo.19363526)
 - 2026-03-31: [Observer-Modifying Contagion on Networks](https://doi.org/10.5281/zenodo.19342966)
 - 2026-03-29: [Classification-Induced Cognitive Drift](https://doi.org/10.5281/zenodo.19306514)
 - 2026-03-28: [Record Absence and Preference Reorganization on a Fixed Comparison Frame](https://doi.org/10.5281/zenodo.19272154)
