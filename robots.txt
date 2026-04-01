@@ -12,3 +12,4 @@ Disallow: /package-lock.json
 
 
 Feed: https://kadubon.github.io/github.io/feed.xml
+Sitemap: https://kadubon.github.io/github.io/sitemap.xml
