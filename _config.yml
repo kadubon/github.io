@@ -1,5 +1,0 @@
-title: "K. Takahashi Works"
-url: "https://kadubon.github.io"
-baseurl: "/github.io"       
-plugins:
-  - jekyll-sitemap           # /sitemap.xml を自動生成
