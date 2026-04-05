@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 03 Apr 2026 18:26:25 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 05 Apr 2026 19:48:09 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818</guid>
+    <pubDate>Sun, 05 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>autonomous research systems</category>
+    <category>claim certification</category>
+    <category>claim release</category>
+    <category>no-meta governance</category>
+    <category>observable-only governance</category>
+    <category>public accountability</category>
+    <category>typed transcripts</category>
+    <category>certification pipelines</category>
+    <category>fail-closed verification</category>
+    <category>provenance records</category>
+    <category>replay outcomes</category>
+    <category>finite verification capacity</category>
+    <source url="https://doi.org/10.5281/zenodo.19427818">10.5281/zenodo.19427818</source>
+    <description><![CDATA[
+      This preprint develops a first-principles typed dynamic theory for certifying and releasing research claims produced by autonomous research systems under finite verification capacity and public accountability constraints. It formalizes public state, authority algebra, typed transcripts, fail-closed certification memory, and a release layer with versioned units and support-ledger accounting under observable-only and no-meta governance.
+Preprint | DOI: 10.5281/zenodo.19427818
+    ]]></description>
+  </item>
   <item>
     <title>When Should a Local Agent Act, Assist, Verify, Withdraw, or Exit? A Certified Local Micro-Theory of Open-Task Participation</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-03-when-should-a-local-agent-act-assist-verify-with-19394600</link>
