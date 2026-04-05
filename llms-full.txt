@@ -48,13 +48,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 193.
-- Date span of listed works: 2025-07-25 to 2026-04-03.
-- Latest listed work (2026-04-03): [When Should a Local Agent Act, Assist, Verify, Withdraw, or Exit? A Certified Local Micro-Theory of Open-Task Participation](https://doi.org/10.5281/zenodo.19394600)
+- Publication entries in Works list: 194.
+- Date span of listed works: 2025-07-25 to 2026-04-05.
+- Latest listed work (2026-04-05): [A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release](https://doi.org/10.5281/zenodo.19427818)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-04-05: [A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release](https://doi.org/10.5281/zenodo.19427818)
 - 2026-04-03: [When Should a Local Agent Act, Assist, Verify, Withdraw, or Exit? A Certified Local Micro-Theory of Open-Task Participation](https://doi.org/10.5281/zenodo.19394600)
 - 2026-04-01: [Constitutional Observable Invention without Meta-Evaluators](https://doi.org/10.5281/zenodo.19363526)
 - 2026-03-31: [Observer-Modifying Contagion on Networks](https://doi.org/10.5281/zenodo.19342966)
