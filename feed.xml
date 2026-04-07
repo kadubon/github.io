@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 05 Apr 2026 19:48:09 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 07 Apr 2026 13:38:08 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Standing-Layer Honest Public Standing Dynamics for Research Claims under Observable-Only, No-Meta Governance</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443</guid>
+    <pubDate>Tue, 07 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>research claims</category>
+    <category>public standing dynamics</category>
+    <category>observable-only governance</category>
+    <category>no-meta governance</category>
+    <category>challengeability</category>
+    <category>restoration memory</category>
+    <category>replayable frontier</category>
+    <category>finite verification capacity</category>
+    <category>retained memory</category>
+    <category>public accountability</category>
+    <category>standing states</category>
+    <category>autonomous research systems</category>
+    <source url="https://doi.org/10.5281/zenodo.19447443">10.5281/zenodo.19447443</source>
+    <description><![CDATA[
+      This preprint develops a first-principles theory of honest public standing dynamics for research claims under observable-only and no-meta governance. It analyzes how public claims move among standing states under declared interfaces, replayable frontiers, and explicit service, reserve, and retained-memory constraints, and derives boundary and restoration results for challengeability, re-entry, overload, and exploration slack.
+Preprint | DOI: 10.5281/zenodo.19447443
+    ]]></description>
+  </item>
   <item>
     <title>A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818</link>
