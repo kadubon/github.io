@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Tue, 07 Apr 2026 13:38:08 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 12 Apr 2026 16:55:50 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Institution-Relative Pairwise Information Necessity for Metadata-Conditioned Black-Box Acceptance</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-12-institution-relative-pairwise-information-necess-19533356</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-12-institution-relative-pairwise-information-necess-19533356</guid>
+    <pubDate>Sun, 12 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>black-box acceptance</category>
+    <category>metadata-conditioned auditing</category>
+    <category>institution-relative admissibility</category>
+    <category>common-law control state</category>
+    <category>auditability</category>
+    <category>AI audit theory</category>
+    <category>model evaluation</category>
+    <category>Kullback-Leibler divergence</category>
+    <category>provenance factorization</category>
+    <category>certified support</category>
+    <category>selector legality</category>
+    <category>non-vacuity boundary</category>
+    <source url="https://doi.org/10.5281/zenodo.19533356">10.5281/zenodo.19533356</source>
+    <description><![CDATA[
+      This preprint develops a mathematical theory of institution-relative black-box acceptance under metadata-conditioned auditing, where decisions rely on publicly auditable evidence rather than internal model states. It formalizes common-law control states, certified support, selector legality, provenance factorization, and non-vacuity boundaries, and proves necessity lower bounds on witness-level divergence and source information under declared false-accept and false-reject constraints.
+Preprint | DOI: 10.5281/zenodo.19533356
+    ]]></description>
+  </item>
   <item>
     <title>Standing-Layer Honest Public Standing Dynamics for Research Claims under Observable-Only, No-Meta Governance</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443</link>
