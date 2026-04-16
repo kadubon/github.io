@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 12 Apr 2026 16:55:50 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 16 Apr 2026 11:56:26 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364</guid>
+    <pubDate>Thu, 16 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>autonomous agents</category>
+    <category>institutional interoperability</category>
+    <category>capability transport</category>
+    <category>disclosure channels</category>
+    <category>Bayesian planning</category>
+    <category>belief-state planning</category>
+    <category>strategic institutions</category>
+    <category>partial observability</category>
+    <category>Blackwell order</category>
+    <category>verifiable credentials</category>
+    <category>resource-aware planning</category>
+    <category>revocation risk</category>
+    <source url="https://doi.org/10.5281/zenodo.19601364">10.5281/zenodo.19601364</source>
+    <description><![CDATA[
+      This preprint develops a formal planning theory for autonomous agents that move across institutions, credential ecosystems, and administrative domains under uncertainty. It separates raw institutional states, capability summaries for planning, and visible summaries for evaluation, and derives transport, disclosure, and belief-state planning results for revocation-aware, resource-aware, and strategically aware decision-making across institutions.
+Preprint | DOI: 10.5281/zenodo.19601364
+    ]]></description>
+  </item>
   <item>
     <title>Institution-Relative Pairwise Information Necessity for Metadata-Conditioned Black-Box Acceptance</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-12-institution-relative-pairwise-information-necess-19533356</link>
