@@ -48,13 +48,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 197.
-- Date span of listed works: 2025-07-25 to 2026-04-16.
-- Latest listed work (2026-04-16): [Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents](https://doi.org/10.5281/zenodo.19601364)
+- Publication entries in Works list: 198.
+- Date span of listed works: 2025-07-25 to 2026-04-17.
+- Latest listed work (2026-04-17): [Small-to-Frontier Transfer Theory for Agentic AI](https://doi.org/10.5281/zenodo.19619480)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-04-17: [Small-to-Frontier Transfer Theory for Agentic AI](https://doi.org/10.5281/zenodo.19619480)
 - 2026-04-16: [Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents](https://doi.org/10.5281/zenodo.19601364)
 - 2026-04-12: [Institution-Relative Pairwise Information Necessity for Metadata-Conditioned Black-Box Acceptance](https://doi.org/10.5281/zenodo.19533356)
 - 2026-04-07: [Standing-Layer Honest Public Standing Dynamics for Research Claims under Observable-Only, No-Meta Governance](https://doi.org/10.5281/zenodo.19447443)
