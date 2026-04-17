@@ -3,11 +3,12 @@
 This repository hosts the GitHub Pages research hub for K. Takahashi, with static, machine-readable entry points for original work in AI safety, cognitive security, no-meta governance, and auditable autonomous intelligence.
 It is designed for human readers, search engines, AI crawlers, and LLM summarizers to discover concept pages, DOI-linked papers, and structured research metadata without requiring dynamic rendering.
 The site emphasizes semantic HTML, DOI-based scholarly destinations, crawler-friendly navigation, and scientific explanatory pages for topics including self-concealing information, observer-modifying dynamics, and observable-only governance.
-It also includes cluster landing pages for auditability and replay, long-running agents and multi-agent reasoning, provenance-oriented semantic infrastructure, earlier self-improving intelligence foundations, theory translation and comparative mathematics, and propagation or front-dynamics persistence models.
+It also includes a site-wide research map above the cluster pages, plus cluster landing pages for auditability and replay, long-running agents and multi-agent reasoning, provenance-oriented semantic infrastructure, earlier self-improving intelligence foundations, theory translation and comparative mathematics, and propagation or front-dynamics persistence models.
 
 ## Canonical URLs
 
 - Home: https://kadubon.github.io/github.io/
+- Research Map: https://kadubon.github.io/github.io/research-map.html
 - Self-Concealing Information / Observer-Modifying Dynamics: https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
 - Auditability / Replay / Fail-Closed AI Systems: https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
 - Long-Running Agents / Memory Limits / Multi-Agent Reasoning: https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html
@@ -25,6 +26,7 @@ It also includes cluster landing pages for auditability and replay, long-running
 ## Discoverability and Machine Readability
 
 - Schema.org JSON-LD is embedded on key pages (`ProfilePage`, `Person`, `CollectionPage`, `ScholarlyArticle`, `TechArticle`, `CreativeWork`).
+- `research-map.html` provides a site-wide synthesis layer with pillar structure, dependency arrows, stable anchors, and audience-specific read paths.
 - `no-meta-observable-index.html` provides a visible YAML canonical field guide for the no-meta / observable-only research series.
 - Cluster landing pages provide visible YAML and structured concept maps for major local research groupings.
 - Semantic HTML5 tags provide clear document structure for parsers and crawlers.
@@ -40,6 +42,7 @@ It also includes cluster landing pages for auditability and replay, long-running
 ## Main Pages
 
 - `index.html`: profile page and research program overview
+- `research-map.html`: site-wide synthesis page mapping the theory stack, cluster dependencies, canonical entry points, and audience read paths
 - `self-concealing-information-observer-modifying-dynamics.html`: concept entry page for self-concealing information, observer-modifying dynamics, internal blindness, external anchors, and delayed audit
 - `auditability-replay-fail-closed-ai.html`: cluster landing page for AI auditability, deterministic replay, fail-closed verification, audit gates, and lifecycle certification
 - `long-running-agents-memory-multi-agent-reasoning.html`: cluster landing page for long-running agents, bounded memory, finite context, multi-agent reasoning, and evaluation decay

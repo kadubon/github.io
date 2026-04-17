@@ -8,6 +8,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 ## Core Pages
 
 - [Home](https://kadubon.github.io/github.io/): profile, research overview, and canonical entry point.
+- [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page and dependency map above the thematic cluster pages.
 - [Self-Concealing Information / Observer-Modifying Dynamics](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): cluster landing page for self-concealing information, observer-modifying dynamics, delayed audit, and adjacent provenance or cognitive-drift papers.
 - [Auditability / Replay / Fail-Closed AI Systems](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html): cluster landing page for auditability, deterministic replay, fail-closed verification, audit gates, certification, and deployment safety.
 - [Long-Running Agents / Memory Limits / Multi-Agent Reasoning](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html): cluster landing page for long-running agents, bounded memory, finite context, multi-agent inference, recursive self-improvement stability, and benchmark decay.
@@ -20,6 +21,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 
 ## Machine-Readable Endpoints
 
+- [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with stable anchors and cross-cluster dependency structure.
 - [Self-Concealing Cluster Page](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): visible YAML and cluster navigation for observer-modifying and delayed-audit topics.
 - [Auditability Cluster Page](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html): visible YAML and cluster navigation for auditability, replay, and fail-closed AI systems.
 - [Long-Running Agents Cluster Page](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html): visible YAML and cluster navigation for finite-context agents and multi-agent reasoning.

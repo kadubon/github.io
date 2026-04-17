@@ -16,8 +16,9 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Preferred Retrieval Order for AI Agents
 
-1. [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
-2. Thematic landing pages:
+1. [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with the stack-level dependency map and canonical entry points.
+2. [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
+3. Thematic landing pages:
    - [Self-Concealing Information / Observer-Modifying Dynamics](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html)
    - [Auditability / Replay / Fail-Closed AI Systems](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html)
    - [Long-Running Agents / Memory Limits / Multi-Agent Reasoning](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html)
@@ -25,10 +26,10 @@ The primary machine-readable publication corpus is `works.html`, where each item
    - [Self-Improving Intelligence Foundations](https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html)
    - [Theory Translation / Comparative Mathematics](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html)
    - [Propagation / Front Dynamics / Persistence](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html)
-3. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
-4. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
-5. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
-6. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
+4. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
+5. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
+6. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
+7. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
 
 ## Research Program Summary
 
@@ -102,6 +103,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 ## Core Pages and Functions
 
 - [Home](https://kadubon.github.io/github.io/): profile and high-level overview.
+- [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page mapping pillars, dependency arrows, read paths, and top-level entry points.
 - [Self-Concealing Information / Observer-Modifying Dynamics](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): cluster landing page for self-concealing information, observer-modifying dynamics, delayed audit, provenance-adjacent comparison, and related papers.
 - [Auditability / Replay / Fail-Closed AI Systems](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html): cluster landing page for AI auditability, deterministic replay, fail-closed verification, audit gates, lifecycle certification, and deployment governance.
 - [Long-Running Agents / Memory Limits / Multi-Agent Reasoning](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html): cluster landing page for long-running agents, bounded memory, finite context, multi-agent inference, recursive self-improvement stability, and benchmark validity decay.
@@ -114,6 +116,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Machine-Readable and Citation Endpoints
 
+- [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with stable anchors and cross-cluster dependency structure.
 - [Self-Concealing Cluster Page](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): visible YAML and cluster navigation for observer-modifying and delayed-audit topics.
 - [Auditability Cluster Page](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html): visible YAML and cluster navigation for auditability, replay, and fail-closed AI systems.
 - [Long-Running Agents Cluster Page](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html): visible YAML and cluster navigation for long-running agents, finite context, and multi-agent reasoning.
