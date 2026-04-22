@@ -5,8 +5,35 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 17 Apr 2026 17:27:17 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 22 Apr 2026 16:42:48 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Controller Scale Is Not Enough for Long-Running AGI: A Workflow Theory with Reusable Certified Libraries</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-22-controller-scale-is-not-enough-for-long-running-agi-19690749</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-22-controller-scale-is-not-enough-for-long-running-agi-19690749</guid>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>artificial intelligence</category>
+    <category>long-running AI</category>
+    <category>AGI</category>
+    <category>workflow systems</category>
+    <category>workflow theory</category>
+    <category>certified AI</category>
+    <category>reusable certified libraries</category>
+    <category>proof-carrying workflows</category>
+    <category>replay constraints</category>
+    <category>validation bottlenecks</category>
+    <category>maintenance dynamics</category>
+    <category>partial observability</category>
+    <category>confidence sequences</category>
+    <category>concept drift</category>
+    <source url="https://doi.org/10.5281/zenodo.19690749">10.5281/zenodo.19690749</source>
+    <description><![CDATA[
+      This preprint studies long-running AI systems as typed workflows that select tasks, decompose them into subproblems, invoke tools, preserve traces, schedule audits, and maintain certified records under drift and partial observability. It proves that controller-only scaling is insufficient for robust certified coverage when replay and validation budgets stay fixed, and develops a constructive workflow theory built on reusable certified libraries, monitored calibration, novelty control, and maintenance envelopes.
+Preprint | DOI: 10.5281/zenodo.19690749
+    ]]></description>
+  </item>
   <item>
     <title>Small-to-Frontier Transfer Theory for Agentic AI</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480</link>
