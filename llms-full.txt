@@ -49,13 +49,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 199.
-- Date span of listed works: 2025-07-25 to 2026-04-22.
-- Latest listed work (2026-04-22): [Controller Scale Is Not Enough for Long-Running AGI: A Workflow Theory with Reusable Certified Libraries](https://doi.org/10.5281/zenodo.19690749)
+- Publication entries in Works list: 200.
+- Date span of listed works: 2025-07-25 to 2026-04-24.
+- Latest listed work (2026-04-24): [Certified Service Is Not Enough for Long-Running AGI](https://doi.org/10.5281/zenodo.19719004)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-04-24: [Certified Service Is Not Enough for Long-Running AGI](https://doi.org/10.5281/zenodo.19719004)
 - 2026-04-22: [Controller Scale Is Not Enough for Long-Running AGI: A Workflow Theory with Reusable Certified Libraries](https://doi.org/10.5281/zenodo.19690749)
 - 2026-04-17: [Small-to-Frontier Transfer Theory for Agentic AI](https://doi.org/10.5281/zenodo.19619480)
 - 2026-04-16: [Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents](https://doi.org/10.5281/zenodo.19601364)
