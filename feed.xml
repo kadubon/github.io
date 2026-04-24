@@ -5,8 +5,43 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 22 Apr 2026 16:42:48 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 24 Apr 2026 11:09:15 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Certified Service Is Not Enough for Long-Running AGI</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-24-certified-service-is-not-enough-for-long-running-agi-19719004</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-24-certified-service-is-not-enough-for-long-running-agi-19719004</guid>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>artificial intelligence</category>
+    <category>AI agent</category>
+    <category>AGI</category>
+    <category>artificial general intelligence</category>
+    <category>long-running AI</category>
+    <category>agentic AI</category>
+    <category>autonomous agents</category>
+    <category>workflow certification</category>
+    <category>continuity certification</category>
+    <category>certified workflows</category>
+    <category>operational assurance</category>
+    <category>AI safety</category>
+    <category>AI governance</category>
+    <category>viability theory</category>
+    <category>authority control</category>
+    <category>identity continuity</category>
+    <category>self-modification</category>
+    <category>memory integrity</category>
+    <category>long-term memory</category>
+    <category>multi-agent systems</category>
+    <category>liability</category>
+    <category>auditability</category>
+    <source url="https://doi.org/10.5281/zenodo.19719004">10.5281/zenodo.19719004</source>
+    <description><![CDATA[
+      This preprint develops an operational continuity theory for long-running AGI workflows under finite verification. It argues that certified service coverage is insufficient when agents exercise delegated authority, self-modify, accumulate persistent memory, generate new goals, recover from incidents, or interact with other agents. The framework formalizes continuity-certified AGI through viability conditions for recovery, authority, identity, mutation, goal commitment, memory integrity, federation, liability, trusted-base health, cross-layer consistency, and non-erasing critical-violation history.
+Preprint | DOI: 10.5281/zenodo.19719004
+    ]]></description>
+  </item>
   <item>
     <title>Controller Scale Is Not Enough for Long-Running AGI: A Workflow Theory with Reusable Certified Libraries</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-22-controller-scale-is-not-enough-for-long-running-agi-19690749</link>
