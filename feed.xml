@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 24 Apr 2026 11:09:15 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 25 Apr 2026 14:15:42 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Executable Authority Migration to Declared No-Meta Agency</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529</guid>
+    <pubDate>Sat, 25 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>artificial intelligence</category>
+    <category>no-meta</category>
+    <category>declared no-meta agency</category>
+    <category>authority migration</category>
+    <category>autonomous agents</category>
+    <category>RLHF</category>
+    <category>AI alignment</category>
+    <category>agent governance</category>
+    <category>constitutional AI</category>
+    <category>reward models</category>
+    <category>tool-using agents</category>
+    <category>runtime assurance</category>
+    <category>seed interpreter</category>
+    <category>BootDecision</category>
+    <category>fail-closed control</category>
+    <category>AI auditing</category>
+    <category>object authority</category>
+    <category>proof-carrying control</category>
+    <category>trusted computing base</category>
+    <category>verifiable AI governance</category>
+    <source url="https://doi.org/10.5281/zenodo.19753529">10.5281/zenodo.19753529</source>
+    <description><![CDATA[
+      This preprint develops an executable theory of authority migration for AI agents shaped by human feedback, including RLHF, preference optimization, constitutional AI, reward models, evaluator substitution, and related alignment pipelines. It specifies declared no-meta agency through a BootDecision record, seed interpreter, typed action descriptors, forbidden matchers, object-authority probes, witness tiers, deterministic checker ABI, sandbox profiles, chained ledgers, and fail-closed controls for protected effects, credentials, network calls, external writes, user-data disclosure, checker updates, and kernel updates.
+Preprint | DOI: 10.5281/zenodo.19753529
+    ]]></description>
+  </item>
   <item>
     <title>Certified Service Is Not Enough for Long-Running AGI</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-24-certified-service-is-not-enough-for-long-running-agi-19719004</link>
