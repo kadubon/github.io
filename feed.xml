@@ -5,8 +5,38 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sat, 25 Apr 2026 14:15:42 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 27 Apr 2026 15:59:42 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Certified Artificial Superintelligence Arrival from Typed Audit Logs</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-27-certified-artificial-superintelligence-arrival-f-19810515</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-27-certified-artificial-superintelligence-arrival-f-19810515</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>ASI</category>
+    <category>intelligence explosion</category>
+    <category>recursive self-improvement</category>
+    <category>self-improving AI</category>
+    <category>AI capability evaluation</category>
+    <category>AI safety</category>
+    <category>typed audit logs</category>
+    <category>compatible histories</category>
+    <category>proof kernel</category>
+    <category>causal attribution</category>
+    <category>identifiable coalitions</category>
+    <category>interventional semantics</category>
+    <category>policy intervention</category>
+    <category>ledger viability</category>
+    <category>autonomous AI</category>
+    <category>agentic AI</category>
+    <category>uncertainty quantification</category>
+    <source url="https://doi.org/10.5281/zenodo.19810515">10.5281/zenodo.19810515</source>
+    <description><![CDATA[
+      This preprint develops a process-neutral, proof-carrying framework for certifying artificial superintelligence arrival under incomplete, fallible, and operationally messy evidence. It treats ASI arrival as a layer-relative statement about sustained capability-producing trial generation, renewal, and viability across models, scaffolds, laboratories, organizations, markets, software ecosystems, regulators, evolutionary systems, and coalitions. The framework uses typed audit logs, compatible-history sets, certified random closed sets, bound certificates, decision semantics, coalition attribution, structural interventions, ledger viability, evaluator noninterference, robust task coverage, and asymmetric three-valued rules so missing or unreliable data widens uncertainty rather than counting as favorable evidence.
+Preprint | DOI: 10.5281/zenodo.19810515
+    ]]></description>
+  </item>
   <item>
     <title>Executable Authority Migration to Declared No-Meta Agency</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529</link>
