@@ -41,6 +41,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Stability criteria for recursive self-improvement under endogenous yardstick drift.
 - Constitutional observable invention, public-evidence self-extension, and replay-certified evaluator redesign.
 - Declared no-meta agency, authority migration, seed-interpreter boot control, and runtime assurance for tool-using agents shaped by human-feedback or reward-model pipelines.
+- Certified ASI arrival, typed audit logs, proof-carrying capability-production evidence, and uncertainty-widening certification rules.
 - Semantic translation, accountable semantics, and symbolically checkable contract calculi.
 - Reflexive classification, cognitive drift, and deployment-aware evaluation loops.
 - Observer-modifying information, self-concealment, delayed audit, and diagnosability.
@@ -50,13 +51,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 201.
-- Date span of listed works: 2025-07-25 to 2026-04-25.
-- Latest listed work (2026-04-25): [Executable Authority Migration to Declared No-Meta Agency](https://doi.org/10.5281/zenodo.19753529)
+- Publication entries in Works list: 202.
+- Date span of listed works: 2025-07-25 to 2026-04-27.
+- Latest listed work (2026-04-27): [Certified Artificial Superintelligence Arrival from Typed Audit Logs](https://doi.org/10.5281/zenodo.19810515)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-04-27: [Certified Artificial Superintelligence Arrival from Typed Audit Logs](https://doi.org/10.5281/zenodo.19810515)
 - 2026-04-25: [Executable Authority Migration to Declared No-Meta Agency](https://doi.org/10.5281/zenodo.19753529)
 - 2026-04-24: [Certified Service Is Not Enough for Long-Running AGI](https://doi.org/10.5281/zenodo.19719004)
 - 2026-04-22: [Controller Scale Is Not Enough for Long-Running AGI: A Workflow Theory with Reusable Certified Libraries](https://doi.org/10.5281/zenodo.19690749)
