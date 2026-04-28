@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 27 Apr 2026 15:59:42 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 28 Apr 2026 09:49:00 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Layered Online Service and Replay Control for Verified AI R and D Acceleration</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-04-28-layered-online-service-and-replay-control-for-veri-19836225</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-04-28-layered-online-service-and-replay-control-for-veri-19836225</guid>
+    <pubDate>Tue, 28 Apr 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>Artificial intelligence</category>
+    <category>AI R&amp;D acceleration</category>
+    <category>AI-assisted research</category>
+    <category>AI agents</category>
+    <category>online control</category>
+    <category>service capacity</category>
+    <category>certified replay</category>
+    <category>reproducible AI workflows</category>
+    <category>evaluation methodology</category>
+    <category>evaluator audits</category>
+    <category>benchmark contamination</category>
+    <category>validation throughput</category>
+    <category>research automation</category>
+    <category>software engineering automation</category>
+    <category>Machine learning</category>
+    <category>work-in-process</category>
+    <category>claim verification</category>
+    <category>reusable artifacts</category>
+    <category>AI governance</category>
+    <category>operational reliability</category>
+    <source url="https://doi.org/10.5281/zenodo.19836225">10.5281/zenodo.19836225</source>
+    <description><![CDATA[
+      This preprint introduces Layered Online Service and Certified Replay Control (LOSCR), a model-independent framework for evaluating and controlling verified acceleration in AI-assisted R&D. It separates lightweight telemetry from stronger evidence claims and combines service-capacity control, certified replay, machine-readable claim profiles, deterministic checking, append-only ledgers, evaluator audits, and falsification rules so acceleration claims can be checked, downgraded, quarantined, or escalated against observable evidence and operational capacity.
+Preprint | DOI: 10.5281/zenodo.19836225
+    ]]></description>
+  </item>
   <item>
     <title>Certified Artificial Superintelligence Arrival from Typed Audit Logs</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-27-certified-artificial-superintelligence-arrival-f-19810515</link>
