@@ -1,0 +1,50 @@
+name: Submit IndexNow URLs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "sitemap.xml"
+      - "index.html"
+      - "*.html"
+      - "301c5859d4134ce8a80373c7991ed72f.txt"
+      - "scripts/submit_indexnow.py"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collect changed files
+        if: github.event_name == 'push'
+        run: |
+          set -euo pipefail
+          BASE_SHA="${{ github.event.before }}"
+          HEAD_SHA="${{ github.sha }}"
+          if [[ "$BASE_SHA" =~ ^0+$ ]]; then
+            git ls-files > changed-files.txt
+          else
+            git diff --name-only "$BASE_SHA" "$HEAD_SHA" > changed-files.txt
+          fi
+          cat changed-files.txt
+
+      - name: Submit sitemap-scoped URLs
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            python scripts/submit_indexnow.py --all --wait-key --wait-attempts 30 --wait-seconds 10
+          else
+            python scripts/submit_indexnow.py --changed-file-list changed-files.txt --wait-key --wait-attempts 30 --wait-seconds 10
+          fi
