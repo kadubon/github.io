@@ -5,8 +5,40 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 29 Apr 2026 18:24:02 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 03 May 2026 13:12:04 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Certified Conversion Networks for AI Workflows</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-03-certified-conversion-networks-for-ai-workflows-19994795</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-03-certified-conversion-networks-for-ai-workflows-19994795</guid>
+    <pubDate>Sun, 03 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>AI workflows</category>
+    <category>certified throughput</category>
+    <category>robust certified value</category>
+    <category>AI-integrated workflows</category>
+    <category>workflow optimization</category>
+    <category>compound AI systems</category>
+    <category>AI agents</category>
+    <category>long-running AI systems</category>
+    <category>robust optimization</category>
+    <category>evidence ledgers</category>
+    <category>evidence contracts</category>
+    <category>verification witnesses</category>
+    <category>off-policy evaluation</category>
+    <category>queue stability</category>
+    <category>bottleneck analysis</category>
+    <category>Goodhart's law</category>
+    <category>AI governance</category>
+    <category>deployment certification</category>
+    <category>resource allocation</category>
+    <source url="https://doi.org/10.5281/zenodo.19994795">10.5281/zenodo.19994795</source>
+    <description><![CDATA[
+      This preprint formalizes AI-integrated workflows as certified conversion networks that turn candidate outputs into accepted, authorized, reproducible, maintainable, and safely deployable value. It models services, validators, reviewers, audit processes, memory, authorization, release, rollback, maintenance, and incident response as constrained edges or evidence channels, then uses typed evidence ledgers, contracts, witnesses, bottleneck prices, hard-gate certificates, queue stability, Goodhart budgets, and hazard charges to guide resource allocation.
+Preprint | DOI: 10.5281/zenodo.19994795
+    ]]></description>
+  </item>
   <item>
     <title>Layered Online Service and Replay Control for Verified AI R and D Acceleration</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-04-28-layered-online-service-and-replay-control-for-veri-19836225</link>
