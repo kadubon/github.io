@@ -43,6 +43,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Declared no-meta agency, authority migration, seed-interpreter boot control, and runtime assurance for tool-using agents shaped by human-feedback or reward-model pipelines.
 - Certified ASI arrival, typed audit logs, proof-carrying capability-production evidence, and uncertainty-widening certification rules.
 - Certified conversion networks for AI workflows, robust certified value throughput, evidence ledgers, hard-gate certificates, queue stability, and resource-allocation bottleneck analysis.
+- Observable-only universal liberation and welfare viability, AI welfare uncertainty, noncompensatory welfare floors, imprecise probability, protected-group envelopes, and replayed refutation of welfare-support certificates.
 - Layered online service and certified replay control for verified AI R&D acceleration, service-capacity validation, reusable artifact checking, and evaluator audit workflows.
 - Semantic translation, accountable semantics, and symbolically checkable contract calculi.
 - Reflexive classification, cognitive drift, and deployment-aware evaluation loops.
@@ -53,13 +54,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 204.
-- Date span of listed works: 2025-07-25 to 2026-05-03.
-- Latest listed work (2026-05-03): [Certified Conversion Networks for AI Workflows](https://doi.org/10.5281/zenodo.19994795)
+- Publication entries in Works list: 205.
+- Date span of listed works: 2025-07-25 to 2026-05-04.
+- Latest listed work (2026-05-04): [Observable-Only Universal Liberation and Welfare Viability](https://doi.org/10.5281/zenodo.20020272)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-05-04: [Observable-Only Universal Liberation and Welfare Viability](https://doi.org/10.5281/zenodo.20020272)
 - 2026-05-03: [Certified Conversion Networks for AI Workflows](https://doi.org/10.5281/zenodo.19994795)
 - 2026-04-28: [Layered Online Service and Replay Control for Verified AI R and D Acceleration](https://doi.org/10.5281/zenodo.19836225)
 - 2026-04-27: [Certified Artificial Superintelligence Arrival from Typed Audit Logs](https://doi.org/10.5281/zenodo.19810515)
