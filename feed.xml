@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 03 May 2026 13:12:04 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 04 May 2026 16:44:19 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Observable-Only Universal Liberation and Welfare Viability</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-04-observable-only-universal-liberation-and-welfare-viability-20020272</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-04-observable-only-universal-liberation-and-welfare-viability-20020272</guid>
+    <pubDate>Mon, 04 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>observable-only</category>
+    <category>no-meta</category>
+    <category>welfare viability</category>
+    <category>universal welfare</category>
+    <category>liberation theory</category>
+    <category>AI welfare</category>
+    <category>AI safety</category>
+    <category>AI ethics</category>
+    <category>social choice theory</category>
+    <category>causal inference</category>
+    <category>imprecise probability</category>
+    <category>viability theory</category>
+    <source url="https://doi.org/10.5281/zenodo.20020272">10.5281/zenodo.20020272</source>
+    <description><![CDATA[
+      This paper develops an observable-only, no-meta theory of universal liberation and welfare viability for human and artificial subjects. Under the assumptions that no unchallengeable meta-evaluator is available and that certificate-relevant premises must be observable or explicitly marked as non-authorizing conjectures, the theory defines what can be scientifically certified: not hidden happiness itself, but scoped lower-bound viability of observable welfare-support and liberation conditions. The framework combines measurable histories, filtrations, ordered value spaces, noncompensable floors, viability domains, imprecise probability, causal identification sets, controlled transition laws, stratified validators, protected-group envelopes, population-solvency constraints, and backdated refutation rules. It treats artificial-unit creation, copying, simulation, and deployment as duty-generating processes governed by instantiation permits, tail-risk solvency, and copy-control requirements. The main results show limits on hidden-happiness maximization and unscoped universal happiness claims, justify order-valued noncompensatory welfare representation, establish conservative uncertainty and debt propagation, provide measurable executable selection conditions, prove robust one-step viability under controlled lower probabilities, block cross-subject compensation through protected meets, prevent open-world caution from collapsing into paralysis, and require refutations to be replayed from conservative occurrence intervals.
+Preprint | DOI: 10.5281/zenodo.20020272
+    ]]></description>
+  </item>
   <item>
     <title>Certified Conversion Networks for AI Workflows</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-03-certified-conversion-networks-for-ai-workflows-19994795</link>
