@@ -5,8 +5,45 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 04 May 2026 16:44:19 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 07 May 2026 12:08:09 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Certified Autocatalytic Intelligence Theory: Net-Growth Certificate Algebra for Verified Capability Capital</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-07-certified-autocatalytic-intelligence-theory-net-growth-20061296</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-07-certified-autocatalytic-intelligence-theory-net-growth-20061296</guid>
+    <pubDate>Thu, 07 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>Artificial intelligence</category>
+    <category>verified capability capital</category>
+    <category>capability-capital reproduction</category>
+    <category>AGI</category>
+    <category>ASI</category>
+    <category>artificial general intelligence</category>
+    <category>artificial superintelligence</category>
+    <category>recursive self-improvement</category>
+    <category>net endogenous growth</category>
+    <category>certificate algebra</category>
+    <category>domain witnesses</category>
+    <category>evidence budgets</category>
+    <category>anytime-valid inference</category>
+    <category>confidence sequences</category>
+    <category>causal attribution</category>
+    <category>partial identification</category>
+    <category>provenance</category>
+    <category>deterministic replay</category>
+    <category>AI R&amp;D acceleration</category>
+    <category>automated discovery</category>
+    <category>service feasibility</category>
+    <category>benchmark contamination</category>
+    <category>AI governance</category>
+    <category>AI evaluation</category>
+    <source url="https://doi.org/10.5281/zenodo.20061296">10.5281/zenodo.20061296</source>
+    <description><![CDATA[
+      This preprint develops Certified Autocatalytic Intelligence Theory (CAIT), an operational theory for measuring, certifying, attributing, and controlling reproduction of verified capability capital in AI R&D systems. It argues that AGI/ASI-relevant acceleration should be certified by net, endogenous, resource-normalized, safety-gated production of further verified capability capital rather than raw model capability, benchmark scores, candidate volume, or spectral reproduction diagnostics alone. The framework introduces typed partial certificate algebra, machine-readable registry and certificate records, domain witnesses, status-effect maps, evidence composition tables, window-balance certificates, operational metrics, and arrival decision rules. It separates endogenous reproduction from external injection, human assistance, tool upgrades, unresolved attribution, and unsafe or uncertified artifacts, making AGI/ASI arrival a certificate-relative lower-bound claim about verified capability-capital reproduction rather than hidden mental states or unrestricted deployment readiness.
+Preprint | DOI: 10.5281/zenodo.20061296
+    ]]></description>
+  </item>
   <item>
     <title>Observable-Only Universal Liberation and Welfare Viability</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-04-observable-only-universal-liberation-and-welfare-viability-20020272</link>
