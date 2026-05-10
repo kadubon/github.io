@@ -5,8 +5,36 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 07 May 2026 12:08:09 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 18:41:28 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>OASG: Observable-only Autonomic Slack Gradient Theory</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-10-oasg-observable-only-autonomic-slack-gradient-theory-20107661</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-10-oasg-observable-only-autonomic-slack-gradient-theory-20107661</guid>
+    <pubDate>Sun, 10 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Software</category>
+    <category>AI agents</category>
+    <category>long-running AI</category>
+    <category>workflow-policy optimization</category>
+    <category>observable ledgers</category>
+    <category>JSONL ledger</category>
+    <category>deterministic reducers</category>
+    <category>no-meta gate</category>
+    <category>receipt-backed self-improvement</category>
+    <category>replay receipts</category>
+    <category>rollback receipts</category>
+    <category>KLB_2</category>
+    <category>local-first AI</category>
+    <category>model-agnostic agents</category>
+    <category>Python</category>
+    <category>Apache-2.0</category>
+    <source url="https://doi.org/10.5281/zenodo.20107661">10.5281/zenodo.20107661</source>
+    <description><![CDATA[
+      OASG is an Apache-2.0 Python reference implementation for local-first, model-agnostic workflow-policy optimization in long-running AI-agent workflows. It records observable agent history as append-only JSONL ledgers, verifies canonical hashes and ledger prefixes, reduces history into deterministic operational state, computes finite-horizon <code>KLB_2</code> viability lower bounds, and promotes workflow-policy changes only through runner-produced shadow or lease trials, positive evidence witnesses, rollback receipts, and a conservative no-meta dominance gate. The software optimizes workflow policy rather than model weights, does not use an LLM judge as the improvement oracle, and does not claim semantic truth; its target is durable, auditable, replayable, rollback-aware agent operation.
+Software | DOI: 10.5281/zenodo.20107661
+    ]]></description>
+  </item>
   <item>
     <title>Certified Autocatalytic Intelligence Theory: Net-Growth Certificate Algebra for Verified Capability Capital</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-07-certified-autocatalytic-intelligence-theory-net-growth-20061296</link>
