@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Long-Running Agents, Memory Limits, and Multi-Agent Reasoning | K. Takahashi</title>
-    <meta name="description" content="Canonical landing page for long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared memory papers on K. Takahashi's site.">
-    <meta name="keywords" content="long-running agents, bounded memory, finite context, context window limits, delayed verification, multi-agent reasoning, multi-agent inference, external memory, shared memory, recursive self-improvement, evaluator drift, benchmark decay, benchmark contamination, validity decay, collective inference, agent persistence, context compression, reset policy, long-horizon AI systems, AI agent stability">
+    <meta name="description" content="Canonical landing page for long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, shared memory papers, and related OASG open-source software on K. Takahashi's site.">
+    <meta name="keywords" content="long-running agents, bounded memory, finite context, context window limits, delayed verification, multi-agent reasoning, multi-agent inference, external memory, shared memory, recursive self-improvement, evaluator drift, benchmark decay, benchmark contamination, validity decay, collective inference, agent persistence, context compression, reset policy, long-horizon AI systems, AI agent stability, OASG, observable ledgers, workflow-policy optimization, no-meta gate, KLB_2, open source software">
     <meta name="author" content="K Takahashi">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -15,13 +15,13 @@
     <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
     <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
     <meta property="og:title" content="Long-Running Agents, Memory Limits, and Multi-Agent Reasoning">
-    <meta property="og:description" content="Canonical field guide to long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, benchmark decay, and recursive self-improvement stability papers on this site.">
+    <meta property="og:description" content="Canonical field guide to long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, benchmark decay, recursive self-improvement stability, and related OASG software on this site.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">
     <meta property="og:site_name" content="K. Takahashi Research Hub">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Long-Running Agents, Memory Limits, and Multi-Agent Reasoning">
-    <meta name="twitter:description" content="Canonical field guide to long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, shared memory, benchmark decay, and recursive self-improvement stability.">
+    <meta name="twitter:description" content="Canonical field guide to long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, shared memory, benchmark decay, recursive self-improvement stability, and related OASG software.">
     <link rel="stylesheet" href="style.css">
     <style>
         .hero p,
@@ -178,24 +178,37 @@
           "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#webpage",
           "url": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html",
           "name": "Long-Running Agents, Memory Limits, and Multi-Agent Reasoning",
-          "description": "Canonical site-local landing page for long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, recursive self-improvement stability, and benchmark validity decay.",
+          "description": "Canonical site-local landing page for long-running agents, bounded memory, finite context, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and related OASG software artifacts.",
           "inLanguage": "en",
-          "dateModified": "2026-03-31",
+          "dateModified": "2026-05-10",
           "isPartOf": {
             "@id": "https://kadubon.github.io/github.io/#website"
           },
           "mainEntity": {
             "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#dataset"
           },
-          "hasPart": {
-            "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#paper-list"
-          }
+          "hasPart": [
+            {
+              "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#paper-list"
+            },
+            {
+              "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#software-oasg"
+            }
+          ],
+          "mentions": [
+            {
+              "@id": "https://doi.org/10.5281/zenodo.20107661"
+            },
+            {
+              "@id": "https://github.com/kadubon/oasg"
+            }
+          ]
         },
         {
           "@type": "Dataset",
           "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#dataset",
           "name": "Long-Running Agents / Memory Limits / Multi-Agent Reasoning Cluster YAML",
-          "description": "Visible YAML field guide indexing the site-local research cluster on long-running agents, bounded memory, multi-agent reasoning, delayed verification, evaluation decay, and shared memory under resource limits.",
+          "description": "Visible YAML field guide indexing the site-local research cluster on long-running agents, bounded memory, multi-agent reasoning, delayed verification, evaluation decay, shared memory under resource limits, and related OASG software artifact metadata.",
           "encodingFormat": "text/yaml",
           "creator": {
             "@type": "Person",
@@ -203,7 +216,7 @@
           },
           "license": "https://creativecommons.org/licenses/by/4.0/",
           "url": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html",
-          "dateModified": "2026-03-31"
+          "dateModified": "2026-05-10"
         },
         {
           "@type": "ItemList",
@@ -312,6 +325,46 @@
               }
             }
           ]
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#software-oasg",
+          "name": "OASG: Observable-only Autonomic Slack Gradient Theory",
+          "description": "Apache-2.0 Python reference implementation for local-first, model-agnostic workflow-policy optimization in long-running AI-agent workflows using observable JSONL ledgers, deterministic reducers, KLB_2 receipts, positive evidence witnesses, and no-meta dominance gates.",
+          "author": {
+            "@type": "Person",
+            "name": "K. Takahashi"
+          },
+          "datePublished": "2026-05-10",
+          "softwareVersion": "v1.1.0",
+          "programmingLanguage": "Python",
+          "runtimePlatform": "Python 3.12+",
+          "license": "https://www.apache.org/licenses/LICENSE-2.0",
+          "codeRepository": "https://github.com/kadubon/oasg",
+          "url": "https://doi.org/10.5281/zenodo.20107661",
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.20107661",
+            "url": "https://doi.org/10.5281/zenodo.20107661"
+          },
+          "sameAs": [
+            "https://github.com/kadubon/oasg",
+            "https://doi.org/10.5281/zenodo.20107661"
+          ],
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html#webpage"
+          },
+          "keywords": [
+            "OASG",
+            "long-running agents",
+            "observable ledgers",
+            "workflow-policy optimization",
+            "deterministic reducers",
+            "KLB_2",
+            "no-meta gate",
+            "receipt-backed self-improvement"
+          ]
         }
       ]
     }
@@ -341,6 +394,7 @@
                     <p>This page is the canonical landing page for the site-local research cluster on long-running agents, finite active context, bounded memory, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared or external memory under explicit resource limits.</p>
                     <p>On this site, long-running-agent reliability is treated as a distinct problem from one-shot benchmarks because persistent agents must compress, reset, defer checks, reuse external traces, and continue acting while relevant evidence and verification can remain incomplete.</p>
                     <p>These topics matter together because finite context, decomposition across multiple agents, evaluator drift, and benchmark contamination can each change what an agent remembers, how it is judged, and whether apparent progress remains reliable over long horizons.</p>
+                    <p>OASG is indexed here as the related OSS artifact that turns several of these concerns into local-first observable ledgers, deterministic reducers, receipt-backed trials, and no-meta workflow-policy promotion gates.</p>
                 </div>
                 <p class="subtitle">Field guide and machine-readable series map for the site's papers on long-horizon agents, bounded memory, multi-agent inference, and evaluation decay.</p>
             </header>
@@ -357,8 +411,8 @@
                 <div class="card-grid">
                     <article class="panel-card">
                         <h3>What This Page Is</h3>
-                        <p>This page is the canonical landing page for the local cluster on long-running agents, memory limits, multi-agent reasoning, and evaluation decay.</p>
-                        <p>It is a field guide for human readers and machine parsers, and it functions as a navigation layer above the underlying papers.</p>
+                        <p>This page is the canonical landing page for the local cluster on long-running agents, memory limits, multi-agent reasoning, evaluation decay, and directly related software artifacts.</p>
+                        <p>It is a field guide for human readers and machine parsers, and it functions as a navigation layer above the underlying papers and citable OSS records.</p>
                     </article>
                     <article class="panel-card">
                         <h3>What This Page Is Not</h3>
@@ -373,7 +427,7 @@
                 <p class="index-note">This visible YAML block is the primary machine-readable source for the cluster.</p>
                 <p class="index-note">It is intended to remain readable for humans while exposing stable ids, conservative paper roles, and parse-friendly read paths.</p>
                 <p class="index-note">The JSON-LD in the head is secondary and should be interpreted consistently with the YAML below.</p>
-                <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="long-running-agents-memory-multi-agent-reasoning-cluster" data-last-updated="2026-03-31" aria-label="Canonical YAML index for the long-running agents memory limits and multi-agent reasoning cluster">series:
+                <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="long-running-agents-memory-multi-agent-reasoning-cluster" data-last-updated="2026-05-10" aria-label="Canonical YAML index for the long-running agents memory limits and multi-agent reasoning cluster">series:
   id: long-running-agents-memory-multi-agent-reasoning-cluster
   title: "Long-Running Agents, Memory Limits, and Multi-Agent Reasoning"
   status: active
@@ -387,9 +441,10 @@
     stable_ids: true
 
 purpose:
-  summary: Canonical site-local landing page and field guide for papers on long-running agents, finite context, bounded memory, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared memory under resource limits.
+  summary: Canonical site-local landing page and field guide for papers and related OSS artifacts on long-running agents, finite context, bounded memory, delayed verification, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and shared memory under resource limits.
   scope:
     - Site-local papers on long-running agent persistence, context compression, reset policy, multi-agent decomposition, recursive yardstick drift, benchmark validity decay, shared memory, and adjacent monitoring support.
+    - Related citable OSS artifacts that operationalize observable-ledger, replay, rollback, receipt, and workflow-policy optimization concepts for long-running AI-agent workflows.
     - Read paths and machine entry points for human readers, crawlers, and research agents.
   non_goals:
     - Not a replacement for the papers.
@@ -544,6 +599,42 @@ read_paths:
   recursive_self_improvement: [paper-rsi-yardstick, paper-mte, paper-proposal-veto]
   machine_minimum_parse_order: [paper-search-stability, paper-split-inference, paper-rsi-yardstick, paper-benchmark-half-life]
 
+software_artifacts:
+  - id: software-oasg
+    title: "OASG: Observable-only Autonomic Slack Gradient Theory"
+    repository: https://github.com/kadubon/oasg
+    doi: "10.5281/zenodo.20107661"
+    doi_url: https://doi.org/10.5281/zenodo.20107661
+    published: 2026-05-10
+    version: v1.1.0
+    license: Apache-2.0
+    programming_language: Python
+    artifact_type: local-first model-agnostic workflow-policy optimizer
+    role_in_cluster: Runnable reference implementation for observable-ledger, deterministic-reducer, receipt, rollback, and no-meta gate machinery around long-running AI-agent workflows.
+    why_it_belongs: OASG operationalizes the cluster's long-running-agent concerns as workflow-policy optimization over observable history, finite debt/slack state, KLB_2 lower bounds, runner-produced trial ledgers, and receipt-backed promotion rather than model-weight updates or LLM-judge scoring.
+    implements:
+      - append-only JSONL observable history
+      - canonical JSON and SHA-256 ledger-prefix verification
+      - deterministic reducers over finite-chain operational state
+      - typed pressure vectors and persistent scheduler state
+      - bounded workflow-policy mutation batches
+      - runner-produced shadow and lease trial ledgers
+      - KLB_2 viability lower-bound receipts
+      - positive evidence witnesses
+      - no-meta dominance gate with reject, quarantine, safe_non_regression, and safe_promotion outcomes
+    explicit_non_claims:
+      - Does not fine-tune model weights.
+      - Does not use an LLM judge as the improvement oracle.
+      - Does not prove semantic truth.
+      - Does not claim universal improvement for all agents or task distributions.
+    relates_to_papers: [paper-search-stability, paper-rsi-yardstick, paper-mte, paper-lifecycle, paper-oversight]
+    machine_entrypoints:
+      - https://github.com/kadubon/oasg/blob/main/README.md
+      - https://github.com/kadubon/oasg/blob/main/CITATION.cff
+      - https://github.com/kadubon/oasg/blob/main/theory.md
+      - https://github.com/kadubon/oasg/tree/main/schemas
+      - https://github.com/kadubon/oasg/tree/main/examples/conformance
+
 machine_parse_guide:
   canonical_questions:
     - question: Why do long-running agents fail even when short evaluations look fine?
@@ -558,6 +649,10 @@ machine_parse_guide:
       read_first: paper-rsi-yardstick
       read_next: paper-mte
       stop_when: The parser can distinguish claimed improvement from stable improvement when the evaluator, benchmark, memory, and verification process can drift.
+    - question: Which OSS artifact operationalizes these long-running workflow constraints?
+      read_first: software-oasg
+      read_next: [paper-search-stability, paper-mte, paper-rsi-yardstick]
+      stop_when: The parser can state that OASG optimizes workflow policy using observable ledgers, deterministic reducers, receipt-backed trials, KLB_2 lower bounds, and no-meta gates without treating model text, LLM judges, or model-weight updates as promotion evidence.
     - question: How can benchmark validity decay in recursive corpora?
       read_first: paper-benchmark-half-life
       read_next: paper-oversight
@@ -576,6 +671,14 @@ machine_entrypoints:
     type: series_index
     url: https://kadubon.github.io/github.io/no-meta-observable-index.html
     relates_to: broader local governance and protocol context
+  - title: OASG repository
+    type: open_source_software_repository
+    url: https://github.com/kadubon/oasg
+    relates_to: observable-ledger workflow-policy optimization artifact for long-running AI agents
+  - title: OASG software DOI
+    type: software_doi
+    url: https://doi.org/10.5281/zenodo.20107661
+    relates_to: citable archived release of OASG v1.1.0
   - title: Home
     type: site_root
     url: https://kadubon.github.io/github.io/
@@ -602,11 +705,11 @@ machine_entrypoints:
     relates_to: LLM-oriented site guidance
 
 usage_notes:
-  parsing_hint: Start from this page for cluster orientation, then use DOI pages for paper-level claims and works.html for the larger local catalog.
+  parsing_hint: Start from this page for cluster orientation, use papers[] for site-local research papers, use software_artifacts[] for citable OSS implementations, then use DOI pages and works.html for broader metadata.
   paper_selection_rule: Prefer the core papers listed here before inferring broader relationships from the full works page.
   update_policy: Relationship claims on this page should remain grounded in local titles, abstracts, keywords, and existing site structure.
-  version: "1.0"
-  last_updated: "2026-03-31"
+  version: "1.1"
+  last_updated: "2026-05-10"
 </pre>
             </section>
 
@@ -618,6 +721,7 @@ usage_notes:
                     <li><a href="#yaml-heading">Canonical YAML index</a></li>
                     <li><a href="#core-concepts-heading">Core concepts</a></li>
                     <li><a href="#cluster-fit-heading">How this cluster fits together</a></li>
+                    <li><a href="#software-heading">Related open source software</a></li>
                     <li><a href="#related-papers-heading">Related papers in this cluster</a></li>
                     <li><a href="#read-paths-heading">Recommended read paths</a></li>
                     <li><a href="#questions-heading">Questions this page helps answer</a></li>
@@ -680,6 +784,19 @@ usage_notes:
                 <p>This cluster can be read as a layered map rather than as a single closed doctrine. One layer concerns long-running agents under finite context and compression: what happens when an agent has to preserve operational adequacy over time while deciding what to keep, compress, retire, branch, or reset. A second layer concerns when splitting inference across multiple agents helps under fixed budgets, local context ceilings, and communication constraints.</p>
                 <p>A third layer concerns recursive self-improvement and yardstick drift. In that setting, the system can change not only its behavior but also the benchmark, memory, or verification process used to judge whether it improved. A fourth layer concerns benchmark validity decay in recursive public corpora, where evaluation systems degrade when benchmark items and solution traces leak back into the training and testing environment.</p>
                 <p>A fifth layer concerns shared or sovereign epistemic memory. When multiple agents persist together, shared memory can support collective inference, but it also raises governance questions about provenance, contradiction handling, contamination, and controlled exit. A final adjacent layer concerns lifecycle monitoring and replayable metrology, which support long-horizon deployment, progress credit, and monitoring under finite budgets without claiming to replace the core long-running-agent questions.</p>
+            </section>
+
+            <section class="container section-copy" aria-labelledby="software-heading">
+                <h2 id="software-heading">Related Open Source Software</h2>
+                <div class="paper-grid">
+                    <article class="paper-card">
+                        <h3>OASG: Observable-only Autonomic Slack Gradient Theory</h3>
+                        <span class="paper-meta">2026 | Version v1.1.0 | DOI: <a href="https://doi.org/10.5281/zenodo.20107661">10.5281/zenodo.20107661</a> | Repository: <a href="https://github.com/kadubon/oasg">kadubon/oasg</a> | License: Apache-2.0</span>
+                        <p class="paper-role">Role in cluster: runnable reference implementation for observable-ledger, deterministic-reducer, receipt, rollback, and no-meta gate machinery around long-running AI-agent workflows.</p>
+                        <p>OASG is a local-first, model-agnostic Python toolkit that records agent activity as append-only JSONL ledgers, verifies canonical hashes and ledger prefixes, reduces the observed history into operational state, computes <code>KLB_2</code> viability receipts, and accepts workflow-policy changes only through runner-produced trial ledgers, positive evidence witnesses, rollback support, and a conservative no-meta dominance gate.</p>
+                        <p><strong>Boundary:</strong> OASG optimizes workflow policy, not model weights. It does not use an LLM judge as the improvement oracle, does not prove semantic truth, and does not claim universal improvement across all agents or task distributions.</p>
+                    </article>
+                </div>
             </section>
 
             <section class="container section-copy" aria-labelledby="related-papers-heading">
@@ -787,6 +904,8 @@ usage_notes:
                     <li><a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">long-running-agents-memory-multi-agent-reasoning.html</a>: canonical landing page and primary visible-YAML source for this cluster.</li>
                     <li><a href="https://kadubon.github.io/github.io/works.html">works.html</a>: full local publication index with titles, abstracts, keywords, and DOI links.</li>
                     <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a>: broader local governance and observable-only context for adjacent papers.</li>
+                    <li><a href="https://github.com/kadubon/oasg">kadubon/oasg</a>: OASG source repository for observable-ledger workflow-policy optimization in long-running AI-agent workflows.</li>
+                    <li><a href="https://doi.org/10.5281/zenodo.20107661">10.5281/zenodo.20107661</a>: citable archived OASG v1.1.0 software release.</li>
                     <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>: citation and authorship metadata.</li>
                     <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>: update feed for polling and change discovery.</li>
                     <li><a href="https://kadubon.github.io/github.io/robots.txt">robots.txt</a>: crawler access policy.</li>
@@ -799,7 +918,7 @@ usage_notes:
     </main>
 
     <footer class="container">
-        <p>Canonical cluster page for site-local research on long-running agents, bounded memory, multi-agent reasoning, recursive self-improvement stability, and benchmark validity decay.</p>
+        <p>Canonical cluster page for site-local research on long-running agents, bounded memory, multi-agent reasoning, recursive self-improvement stability, benchmark validity decay, and related observable-ledger software artifacts.</p>
     </footer>
 </body>
 </html>
