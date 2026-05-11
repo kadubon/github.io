@@ -5,8 +5,46 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 10 May 2026 18:41:28 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 11 May 2026 13:32:38 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Affordance-Compiled Intelligence: Observable-Only Cognitive Impedance Matching for No-Meta LLM-Integrated Systems</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-11-affordance-compiled-intelligence-observable-only-cognitive-20116149</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-11-affordance-compiled-intelligence-observable-only-cognitive-20116149</guid>
+    <pubDate>Mon, 11 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>Artificial intelligence</category>
+    <category>LLM</category>
+    <category>Cognitive Impedance Matching Theory</category>
+    <category>LLM agents</category>
+    <category>AI agents</category>
+    <category>compound AI systems</category>
+    <category>LLM-integrated systems</category>
+    <category>world-side compilation</category>
+    <category>affordance compiler</category>
+    <category>executable affordance fields</category>
+    <category>observable-only</category>
+    <category>no-meta</category>
+    <category>fixed model-policy</category>
+    <category>lower certificates</category>
+    <category>evidence dependency graph</category>
+    <category>zero certificates</category>
+    <category>forbidden coordinates</category>
+    <category>AI safety</category>
+    <category>AI alignment</category>
+    <category>authority control</category>
+    <category>auditability</category>
+    <category>dynamic tool discovery</category>
+    <category>retrieval-augmented generation</category>
+    <category>AI governance</category>
+    <category>runtime verification</category>
+    <source url="https://doi.org/10.5281/zenodo.20116149">10.5281/zenodo.20116149</source>
+    <description><![CDATA[
+      Affordance-Compiled Intelligence develops Cognitive Impedance Matching Theory (CIMT), an observable-only and no-meta protected compiler theory for LLM-integrated systems. The paper studies how a fixed model-policy can exhibit different operational capability when the surrounding world is redesigned through observations, typed action handles, validators, repair paths, rollback modes, authority scopes, context summaries, and auditable receipts. CIMT treats system-level capability amplification as a world-side compilation problem rather than a model-weight improvement problem. It defines operational claims through explicit claim objects and evidence objects, using committed observable ledgers, target-evaluation channels, deterministic reducers, validity budget ledgers, evidence dependency graphs, artifact I/O manifests, conformance envelopes, and finite-sample or sequential certificates. Human reviewers, LLM judges, benchmarks, and external auditors are not treated as privileged evaluators; they are modeled as named, fallible measurement channels. The theory provides a conservative certification framework for paired target-channel improvement, vector debt accounting, forbidden-coordinate zero certificates, target-firewall discipline, scope simulation, dynamic widening, runtime and model-policy conformance, macro reliability, repair contraction, distribution-shift transfer, and receipt sufficiency. It also includes worked examples for code-editing agents and retrieval-augmented generation systems. The intended contribution is a practical formal foundation for making fixed-model LLM systems more reliable through observable world-side interface, authority, validation, repair, and audit design.
+Preprint | DOI: 10.5281/zenodo.20116149
+    ]]></description>
+  </item>
   <item>
     <title>OASG: Observable-only Autonomic Slack Gradient Theory</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-10-oasg-observable-only-autonomic-slack-gradient-theory-20107661</link>
