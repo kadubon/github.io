@@ -44,6 +44,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Certified ASI arrival, typed audit logs, proof-carrying capability-production evidence, and uncertainty-widening certification rules.
 - Certified conversion networks for AI workflows, robust certified value throughput, evidence ledgers, hard-gate certificates, queue stability, and resource-allocation bottleneck analysis.
 - Certified autocatalytic intelligence theory, verified capability-capital reproduction, certificate algebra, domain witnesses, evidence budgets, causal attribution, and safety-gated net endogenous growth.
+- Affordance-compiled intelligence, Cognitive Impedance Matching Theory, world-side compilation, executable affordance fields, fixed model-policy reliability, and no-meta runtime verification for LLM-integrated systems.
 - Observable-only universal liberation and welfare viability, AI welfare uncertainty, noncompensatory welfare floors, imprecise probability, protected-group envelopes, and replayed refutation of welfare-support certificates.
 - Layered online service and certified replay control for verified AI R&D acceleration, service-capacity validation, reusable artifact checking, and evaluator audit workflows.
 - Semantic translation, accountable semantics, and symbolically checkable contract calculi.
@@ -55,13 +56,14 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 206.
-- Date span of listed works: 2025-07-25 to 2026-05-07.
-- Latest listed work (2026-05-07): [Certified Autocatalytic Intelligence Theory: Net-Growth Certificate Algebra for Verified Capability Capital](https://doi.org/10.5281/zenodo.20061296)
+- Publication entries in Works list: 207.
+- Date span of listed works: 2025-07-25 to 2026-05-11.
+- Latest listed work (2026-05-11): [Affordance-Compiled Intelligence: Observable-Only Cognitive Impedance Matching for No-Meta LLM-Integrated Systems](https://doi.org/10.5281/zenodo.20116149)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-05-11: [Affordance-Compiled Intelligence: Observable-Only Cognitive Impedance Matching for No-Meta LLM-Integrated Systems](https://doi.org/10.5281/zenodo.20116149)
 - 2026-05-07: [Certified Autocatalytic Intelligence Theory: Net-Growth Certificate Algebra for Verified Capability Capital](https://doi.org/10.5281/zenodo.20061296)
 - 2026-05-04: [Observable-Only Universal Liberation and Welfare Viability](https://doi.org/10.5281/zenodo.20020272)
 - 2026-05-03: [Certified Conversion Networks for AI Workflows](https://doi.org/10.5281/zenodo.19994795)
