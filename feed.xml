@@ -5,12 +5,12 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 15 May 2026 16:30:13 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 21 May 2026 09:46:01 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <item>
     <title>Constraint Generative Theory: Typed Constraint Effects and Scientific Availability</title>
-    <link>https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199441</link>
-    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199441</guid>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440</guid>
     <pubDate>Fri, 15 May 2026 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <category>Preprint</category>
@@ -32,10 +32,10 @@
     <category>formal systems</category>
     <category>formal methods</category>
     <category>Constraint Systems</category>
-    <source url="https://doi.org/10.5281/zenodo.20199441">10.5281/zenodo.20199441</source>
+    <source url="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</source>
     <description><![CDATA[
       This work introduces Constraint Generative Theory (CGT), a constraint-primary effect-semantics framework for studying how declared constraints generate, transform, observe, describe, continue, evaluate, and verify formal structures. The central object of CGT is not a bare set of satisfying assignments, a final output, or a report, but the generated effect profile induced by a constraint system in a declared frame. A constraint is treated as a typed structure-inducing and effect-transforming object with declared level, domain, codomain, effect dimensions, transformation rule or relation, and comparison regime. Constraint tokens, rules, predicates, generators, selectors, policies, schedules, observation lenses, description lenses, evaluator selections, goal predicates, bounds, and verification conditions are treated as presentations of constraints, not as the definition of constraint itself. The paper develops a constraint-effect calculus for comparing how abstract constraints change declared effect dimensions. The calculus includes marginal effects, dimension-relative equivalence, redundancy, independence, interaction, non-commutativity, affordance, continuation shifts, valuation shifts, inconsistency shifts, observation/description shifts, opacity, and generating power. It also distinguishes generated-universe components from full effect profiles, so that reports, observations, descriptions, continuation graphs, inconsistency markers, valuation structures, and certified fragments remain explicit rather than being silently collapsed into a final output. A key motivation of CGT is that output-equivalent or report-equivalent systems may still differ in the constraint effects that generated, observed, described, continued, valued, scheduled, or marked them. This makes constraints and their multi-dimensional generated effects the primary reproducible comparison objects. The framework includes a scientific availability layer for reproducible claims and a certified finite layer for checking selected effect components and effect differences. These layers support reproducibility and verification, but they do not define the core identity of CGT. The work positions CGT conservatively with respect to neighboring formalisms such as model theory, institution theory, closure theory, constraint satisfaction, graph transformation, rewriting logic, structural operational semantics, abstract state machines, coalgebra, cellular automata, category theory, information theory, soft constraints, and paraconsistent logic. CGT is not proposed as a replacement for these theories; rather, it provides a constraint-primary language for comparing generated effect profiles and the transformations induced by constraints.
-Preprint | DOI: 10.5281/zenodo.20199441
+Preprint | DOI: 10.5281/zenodo.20199440
     ]]></description>
   </item>
   <item>
