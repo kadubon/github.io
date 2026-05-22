@@ -1,6 +1,6 @@
 # K. Takahashi Academic and Scientific Research Hub (Full Context)
 
-> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety, persistent semantics under ontology drift, shared epistemic commons, semantic translation, constitutional observable invention, reflexive classification, observer-modifying dynamics, and computer science.
+> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety, Constraint Generative Theory, persistent semantics under ontology drift, shared epistemic commons, semantic translation, constitutional observable invention, reflexive classification, observer-modifying dynamics, and computer science.
 
 This repository-backed website is designed for both humans and automated systems.
 The primary machine-readable publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
@@ -11,6 +11,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - ORCID: [0009-0004-4273-3365](https://orcid.org/0009-0004-4273-3365)
 - Canonical home: [https://kadubon.github.io/github.io/](https://kadubon.github.io/github.io/)
 - Canonical works index: [https://kadubon.github.io/github.io/works.html](https://kadubon.github.io/github.io/works.html)
+- Constraint Generative Theory index: [https://kadubon.github.io/github.io/constraint-generative-theory-index.html](https://kadubon.github.io/github.io/constraint-generative-theory-index.html)
 - Repository: [https://github.com/kadubon/github.io](https://github.com/kadubon/github.io)
 - License: CC BY 4.0 (see repository `LICENCE`)
 
@@ -18,7 +19,8 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 1. [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with the stack-level dependency map and canonical entry points.
 2. [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
-3. Thematic landing pages:
+3. [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): canonical YAML and human-readable field guide for CGT, typed constraint effects, generated effect profiles, scientific availability, formal equations, and the shared series DOI.
+4. Thematic landing pages:
    - [Self-Concealing Information / Observer-Modifying Dynamics](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html)
    - [Auditability / Replay / Fail-Closed AI Systems](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html)
    - [Long-Running Agents / Memory Limits / Multi-Agent Reasoning](https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html)
@@ -26,14 +28,15 @@ The primary machine-readable publication corpus is `works.html`, where each item
    - [Self-Improving Intelligence Foundations](https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html)
    - [Theory Translation / Comparative Mathematics](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html)
    - [Propagation / Front Dynamics / Persistence](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html)
-4. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
-5. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
-6. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
-7. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
+5. [Works](https://kadubon.github.io/github.io/works.html): complete structured publication index.
+6. DOI links from Works: source records and downloadable artifacts (mostly Zenodo).
+7. [RSS Feed](https://kadubon.github.io/github.io/feed.xml): incremental update detection.
+8. [Home](https://kadubon.github.io/github.io/): authoritative program overview and endpoint map.
 
 ## Research Program Summary
 
 - Observable-only and no-meta governance for AI safety.
+- Constraint Generative Theory: typed constraint effects, generated effect profiles, report projection, scientific availability, constraint-marginal probing, comparability bootstrap, and physical availability.
 - Auditable control and verification protocols for autonomous systems.
 - Information-theoretic, thermodynamic, and geometric limits of persistent semantics under ontology drift.
 - Fail-closed verification, deterministic replay, and audit-certificate workflows.
@@ -56,14 +59,16 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 ## Corpus Snapshot (works.html / feed.xml)
 
-- Publication entries in Works list: 207.
-- Date span of listed works: 2025-07-25 to 2026-05-11.
-- Latest listed work (2026-05-11): [Affordance-Compiled Intelligence: Observable-Only Cognitive Impedance Matching for No-Meta LLM-Integrated Systems](https://doi.org/10.5281/zenodo.20116149)
+- Works list entries: 209 total entries (208 publications + 1 software release).
+- Date span of listed works: 2025-07-25 to 2026-05-15.
+- Latest listed work (2026-05-15): [Constraint Generative Theory: Typed Constraint Effects and Scientific Availability](https://doi.org/10.5281/zenodo.20199440)
 - Earliest listed work (2025-07-25): [Computational Autopoiesis: A New Architecture for Autonomous AI](https://doi.org/10.5281/zenodo.16416998)
 
 ## Most Recent Works
 
+- 2026-05-15: [Constraint Generative Theory: Typed Constraint Effects and Scientific Availability](https://doi.org/10.5281/zenodo.20199440)
 - 2026-05-11: [Affordance-Compiled Intelligence: Observable-Only Cognitive Impedance Matching for No-Meta LLM-Integrated Systems](https://doi.org/10.5281/zenodo.20116149)
+- 2026-05-10: [OASG: Observable-only Autonomic Slack Gradient Theory](https://doi.org/10.5281/zenodo.20107661)
 - 2026-05-07: [Certified Autocatalytic Intelligence Theory: Net-Growth Certificate Algebra for Verified Capability Capital](https://doi.org/10.5281/zenodo.20061296)
 - 2026-05-04: [Observable-Only Universal Liberation and Welfare Viability](https://doi.org/10.5281/zenodo.20020272)
 - 2026-05-03: [Certified Conversion Networks for AI Workflows](https://doi.org/10.5281/zenodo.19994795)
@@ -128,6 +133,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - [Theory Translation / Comparative Mathematics](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): cluster landing page for theory translation, comparative mathematics, categorical semantics, profunctor-based comparison, and theorem transport.
 - [Propagation / Front Dynamics / Persistence](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): cluster landing page for persistence as closure, reaction-diffusion style propagation, front dynamics, speed floors, and viable predictive organization.
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
+- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): canonical YAML and explanatory index for CGT, typed constraint effects, generated effect profiles, scientific availability, and series read paths.
 - [Works](https://kadubon.github.io/github.io/works.html): full publication index with structured metadata.
 
 ## Machine-Readable and Citation Endpoints
@@ -141,6 +147,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - [Theory Translation Page](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): visible YAML and cluster navigation for theory translation, comparative mathematics, and theorem transport across formal universes.
 - [Propagation and Persistence Page](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): visible YAML and cluster navigation for persistence, closure-based dynamics, propagation, front speed, and VPO-related formulations.
 - [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): visible YAML canonical navigation index with repository linkage.
+- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): visible YAML canonical navigation index for CGT papers, formal equations, read paths, DOI mapping, and scientific-intuition notes.
 - [RSS Feed](https://kadubon.github.io/github.io/feed.xml)
 - [CITATION.cff](https://kadubon.github.io/github.io/CITATION.cff)
 - [robots.txt](https://kadubon.github.io/github.io/robots.txt)
@@ -151,6 +158,7 @@ The primary machine-readable publication corpus is `works.html`, where each item
 
 - For citable outputs, prefer DOI targets from Works.
 - For complete local metadata in one page, prefer Works JSON-LD plus HTML list.
+- For the CGT paper series, prefer `constraint-generative-theory-index.html` first, then the shared DOI target `10.5281/zenodo.20199440`.
 - Use feed polling for change detection, but prefer Works over RSS for complete corpus counts because the feed can lag behind the works index.
 - Treat `unframing.html` as philosophical context, not a normative technical specification.
 - Treat YAML/TXT artifacts below as supplemental structured context.

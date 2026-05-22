@@ -1,6 +1,6 @@
 # K. Takahashi Academic and Scientific Research Hub
 
-> Canonical research hub for K. Takahashi: AI safety and alignment, observable-only no-meta governance, persistent semantics under ontology drift, auditable autonomous systems, and computational philosophy.
+> Canonical research hub for K. Takahashi: AI safety and alignment, observable-only no-meta governance, Constraint Generative Theory, persistent semantics under ontology drift, auditable autonomous systems, and computational philosophy.
 
 This site publishes DOI-linked research outputs and machine-readable metadata for both human readers and AI agents.
 Primary publication records are listed on the Works page and link to Zenodo DOI entries.
@@ -17,6 +17,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 - [Theory Translation / Comparative Mathematics](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): cluster landing page for theory translation, comparative mathematics, categorical semantics, profunctor-based comparison, and theorem transport across formal universes.
 - [Propagation / Front Dynamics / Persistence](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): cluster landing page for persistence as closure, propagation dynamics, reaction-diffusion style models, front speed, and viable predictive organization.
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
+- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): canonical YAML and human-readable field guide for CGT, typed constraint effects, generated effect profiles, scientific availability, and the shared series DOI.
 - [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
 
 ## Machine-Readable Endpoints
@@ -30,6 +31,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 - [Theory Translation Page](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): visible YAML and cluster navigation for comparative mathematics, theory translation, and theorem transport.
 - [Propagation and Persistence Page](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): visible YAML and cluster navigation for persistence, closure-based dynamics, propagation, and front speed.
 - [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): visible YAML canonical navigation index for the no-meta / observable-only series, including repository linkage.
+- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): visible YAML canonical navigation index for CGT papers, formal equations, read paths, and DOI mapping.
 - [RSS Feed](https://kadubon.github.io/github.io/feed.xml): update polling for publication additions.
 - [Citation Metadata](https://kadubon.github.io/github.io/CITATION.cff): repository citation metadata (includes ORCID and canonical URLs).
 - [Robots Policy](https://kadubon.github.io/github.io/robots.txt): crawler access policy.

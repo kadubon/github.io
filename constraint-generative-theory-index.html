@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constraint Generative Theory (CGT): Claims, Reports, Support, and Scientific Availability | K. Takahashi</title>
+    <meta name="description" content="Human-readable guide to Constraint Generative Theory (CGT), a viewpoint-oriented research series on typed constraints, report lenses, support conditions, scientific availability, abstention, and claim auditing.">
+    <meta name="keywords" content="Constraint Generative Theory, CGT, viewpoint-oriented meta-theory, typed constraints, report lenses, support conditions, scientific availability, abstention, claim auditing, generated effect profiles">
+    <meta name="author" content="K Takahashi">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+    <link rel="canonical" href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">
+    <link rel="alternate" type="application/rss+xml" title="K. Takahashi Research Updates" href="https://kadubon.github.io/github.io/feed.xml">
+    <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+    <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="K. Takahashi Research Hub">
+    <meta property="og:title" content="Constraint Generative Theory (CGT) Series Index">
+    <meta property="og:description" content="CGT is a viewpoint-oriented research series for asking what scientific, technical, AI, and physical reports can actually support.">
+    <meta property="og:url" content="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Constraint Generative Theory (CGT) Series Index">
+    <meta name="twitter:description" content="A human-readable guide to CGT: typed constraints, report lenses, support conditions, scientific availability, and abstention-aware claim reading.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --cgt-ink: #17202a;
+            --cgt-muted: #566573;
+            --cgt-border: #d7dbdd;
+            --cgt-band: #f7f9fb;
+            --cgt-accent: #1261a0;
+        }
+
+        body {
+            color: var(--cgt-ink);
+        }
+
+        .container {
+            max-width: 980px;
+        }
+
+        .hero {
+            border-top: 4px solid var(--cgt-accent);
+        }
+
+        .eyebrow {
+            margin: 0 0 0.4rem;
+            color: var(--cgt-muted);
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .lead {
+            font-size: 1.12rem;
+            line-height: 1.65;
+        }
+
+        .short-version {
+            border: 1px solid var(--cgt-border);
+            border-left: 4px solid var(--cgt-accent);
+            border-radius: 8px;
+            background: #fff;
+            padding: 0.9rem 1rem;
+        }
+
+        .short-version p {
+            margin: 0;
+        }
+
+        .meta-line {
+            color: var(--cgt-muted);
+            font-size: 0.95rem;
+        }
+
+        .site-identity {
+            margin: 0.25rem 0 0;
+            color: var(--cgt-muted);
+            font-size: 0.95rem;
+        }
+
+        .summary-grid,
+        .paper-grid,
+        .path-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .claim,
+        .paper-card,
+        .path-card,
+        .formula-card {
+            border: 1px solid var(--cgt-border);
+            border-radius: 8px;
+            background: var(--cgt-band);
+            padding: 1rem;
+        }
+
+        .paper-card h3,
+        .path-card h3,
+        .formula-card h3 {
+            margin-top: 0;
+        }
+
+        .paper-card time,
+        .paper-card .role {
+            display: inline-block;
+            margin: 0 0.6rem 0.5rem 0;
+            color: var(--cgt-muted);
+            font-size: 0.92rem;
+        }
+
+        .formula-list {
+            display: grid;
+            gap: 0.85rem;
+        }
+
+        .formula-card code {
+            display: block;
+            overflow-x: auto;
+            white-space: pre;
+            background: #fff;
+            border: 1px solid var(--cgt-border);
+            border-radius: 6px;
+            padding: 0.75rem;
+        }
+
+        .yaml-index {
+            font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.92rem;
+            line-height: 1.48;
+        }
+
+        .compact-list li {
+            margin-bottom: 0.45rem;
+        }
+
+        .machine-note {
+            border-left: 4px solid var(--cgt-accent);
+            background: #f1f6fb;
+            padding: 0.85rem 1rem;
+        }
+
+        .plain-reading,
+        .misreading {
+            margin-top: 0.55rem;
+            color: var(--cgt-muted);
+            font-size: 0.94rem;
+        }
+
+        .plain-reading strong,
+        .misreading strong,
+        .paper-card dt {
+            color: var(--cgt-ink);
+        }
+
+        .paper-card dl {
+            margin: 0.65rem 0 0;
+        }
+
+        .paper-card dt {
+            font-weight: 700;
+            margin-top: 0.55rem;
+        }
+
+        .paper-card dd {
+            margin: 0.1rem 0 0;
+        }
+
+        .flow-note {
+            border: 1px solid var(--cgt-border);
+            border-radius: 8px;
+            background: #fff;
+            padding: 1rem;
+        }
+
+        .structured-summary {
+            border: 1px solid var(--cgt-border);
+            border-radius: 8px;
+            background: #fff;
+            padding: 0.85rem 1rem;
+        }
+
+        .structured-summary summary {
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .oss-list {
+            display: grid;
+            gap: 0.85rem;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .oss-list li {
+            border: 1px solid var(--cgt-border);
+            border-radius: 8px;
+            background: var(--cgt-band);
+            padding: 1rem;
+        }
+
+        .use-this-for {
+            display: block;
+            margin-top: 0.45rem;
+            color: var(--cgt-muted);
+        }
+
+        .example-list li {
+            margin-bottom: 0.45rem;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                margin: 24px 0.75rem;
+                padding: 18px;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#cgt-webpage",
+          "url": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html",
+          "name": "Constraint Generative Theory (CGT) Series Index",
+          "description": "Human-readable guide to the Constraint Generative Theory paper series as a viewpoint-oriented research program for reading claims, reports, support conditions, scientific availability, uncertainty, and abstention under declared constraints.",
+          "inLanguage": "en",
+          "dateModified": "2026-05-22",
+          "isPartOf": {
+            "@id": "https://kadubon.github.io/github.io/#website"
+          },
+          "about": {
+            "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"
+          },
+          "mainEntity": {
+            "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#canonical-cgt-yaml"
+          },
+          "significantLink": [
+            "https://doi.org/10.5281/zenodo.20199440",
+            "https://kadubon.github.io/github.io/",
+            "https://kadubon.github.io/github.io/research-map.html",
+            "https://kadubon.github.io/github.io/works.html",
+            "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+            "https://kadubon.github.io/github.io/llms.txt",
+            "https://kadubon.github.io/github.io/llms-full.txt",
+            "https://kadubon.github.io/github.io/sitemap.xml",
+            "https://github.com/kadubon/cgt-marker",
+            "https://github.com/kadubon/cgt-availability",
+            "https://github.com/kadubon/cgt-bandwidth-dynamics"
+          ],
+          "keywords": [
+            "Constraint Generative Theory",
+            "CGT",
+            "typed constraint effects",
+            "generated effect profiles",
+            "claim auditing",
+            "support conditions",
+            "hidden assumptions",
+            "scientific availability",
+            "claim boundaries",
+            "abstention",
+            "retained diagnostic status",
+            "report projection",
+            "constraint marginal probing",
+            "comparability bootstrap",
+            "mutual constraint viability",
+            "constraint bandwidth dynamics",
+            "conceptual monopoly diagnostics",
+            "constraint interaction ecology",
+            "physical availability"
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#canonical-cgt-yaml",
+          "name": "Constraint Generative Theory Series YAML Index",
+          "description": "Structured YAML summary indexing the CGT paper series, mathematical anchors, human reading summary, claim boundaries, paper relations, glossary, related OSS companions, common misreadings, FAQ, and reading paths.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html",
+          "dateModified": "2026-05-22",
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creator": {
+            "@type": "Person",
+            "name": "K Takahashi",
+            "url": "https://kadubon.github.io/github.io/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "ORCID",
+              "value": "0009-0004-4273-3365"
+            }
+          }
+        },
+        {
+          "@type": "CreativeWorkSeries",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series",
+          "name": "Constraint Generative Theory",
+          "alternateName": "CGT",
+          "description": "A viewpoint-oriented research series that treats constraints as typed effect-generating and effect-transforming objects in declared frames, while leaving reports, support conditions, certificates, physical interpretations, and availability claims conditional on declared lenses and evidence.",
+          "creator": {
+            "@id": "https://kadubon.github.io/github.io/#person"
+          },
+          "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "DOI",
+            "value": "10.5281/zenodo.20199440",
+            "url": "https://doi.org/10.5281/zenodo.20199440"
+          },
+          "sameAs": [
+            "https://doi.org/10.5281/zenodo.20199440"
+          ],
+          "hasPart": [
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-cgt-core"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-marginal-probing"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-comparability-bootstrap"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-scientific-availability"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-mutual-constraint-viability"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-bandwidth-dynamics"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-conceptual-monopoly-diagnostics"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-interaction-ecology"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-physical-availability"}
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#cgt-paper-list",
+          "name": "Constraint Generative Theory paper list",
+          "numberOfItems": 9,
+          "itemListOrder": "https://schema.org/ItemListOrderAscending",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-cgt-core"}},
+            {"@type": "ListItem", "position": 2, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-marginal-probing"}},
+            {"@type": "ListItem", "position": 3, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-comparability-bootstrap"}},
+            {"@type": "ListItem", "position": 4, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-scientific-availability"}},
+            {"@type": "ListItem", "position": 5, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-mutual-constraint-viability"}},
+            {"@type": "ListItem", "position": 6, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-bandwidth-dynamics"}},
+            {"@type": "ListItem", "position": 7, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-conceptual-monopoly-diagnostics"}},
+            {"@type": "ListItem", "position": 8, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-interaction-ecology"}},
+            {"@type": "ListItem", "position": 9, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-physical-availability"}}
+          ]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-cgt-core",
+          "name": "Constraint Generative Theory: Typed Constraint Effects and Scientific Availability",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-15",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["CGT core", "typed constraint effects", "effect profile", "scientific availability"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-marginal-probing",
+          "name": "Constraint-Marginal Probing in Constraint Generative Theory: Report-Relative Closure, Interaction, and Scientific Projection Design",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-16",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["constraint marginal probing", "report-relative closure", "scientific projection design"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-comparability-bootstrap",
+          "name": "Comparability Bootstrap in Constraint Generative Theory: Typed Well-Formedness, Cascaded Closure, and Interaction-Generated Interfaces",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-17",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["comparability bootstrap", "typed well-formedness", "interaction-generated interfaces"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-scientific-availability",
+          "name": "Scientific Availability in Constraint Generative Theory: Report Factorization, Residual Constraints, and Infinitary Diagnostics",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-18",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["scientific availability", "report factorization", "residual constraints"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-mutual-constraint-viability",
+          "name": "Mutual Constraint Viability in Constraint Generative Theory: Row-Typed Applicability Effect Sequents",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-18",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["mutual constraint viability", "row-typed sequents", "future applicability"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-bandwidth-dynamics",
+          "name": "Constraint Bandwidth Dynamics in Constraint Generative Theory: Applicability Support Completion and Exact Release",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-19",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["constraint bandwidth", "support completion", "exact release"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-conceptual-monopoly-diagnostics",
+          "name": "Conceptual Monopoly Diagnostics under No-Meta Constraints: Observable Certificates, Correction Bandwidth, and Anti-Erasure Release",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-20",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["conceptual monopoly diagnostics", "no-meta constraints", "observable certificates"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-interaction-ecology",
+          "name": "Constraint Interaction Ecology in Constraint Generative Theory: Profile-Faithful Feedback, Typed Residual Certificates, and Residual Transport Barriers",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-21",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["constraint interaction ecology", "interaction residual certificate", "residual transport barriers"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-physical-availability",
+          "name": "Constraint-Generated Physical Availability: Report Lenses, Certificate Calculus, Memory Completion, and Hidden Dissipation",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-21",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["physical availability", "report lenses", "hidden dissipation", "memory completion"]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h1>Constraint Generative Theory (CGT) Series Index</h1>
+            <p class="site-identity">K. Takahashi Research Hub</p>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+                <li><a aria-current="page" href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">CGT Index</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container hero" id="overview">
+            <p class="eyebrow">Series Field Guide</p>
+            <h2>A viewpoint-oriented guide to claim support</h2>
+            <p class="lead">Constraint Generative Theory (CGT) is a viewpoint-oriented meta-theory for reading scientific, technical, and AI-system claims through typed constraints, generated effect profiles, report lenses, support conditions, scientific availability, and abstention-aware certificates.</p>
+            <p>CGT starts from a simple distinction: a system may report an answer, but that report may not contain the support needed for the stronger claim a reader wants to make. CGT asks what a given report, model output, measurement, audit log, or scientific statement is actually allowed to support.</p>
+            <p>In this vocabulary, a report is the visible or declared output; support is the evidence and constraint structure behind it; availability is the declared route by which a claim can be observed, described, verified, failed, reproduced, or continued; and abstention is the status kept when support is not enough. A constraint is not only a restriction: in a declared frame it can generate observation, comparison, verification, continuation, repair, release, or abstention structure.</p>
+            <p class="meta-line">Series DOI: <a href="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</a>. This page was last updated on <time datetime="2026-05-22">2026-05-22</time>.</p>
+        </section>
+
+        <section class="container short-version" id="short-version" aria-label="Short version">
+            <p><strong>In one sentence:</strong> CGT is a way to ask whether a reported result actually supports the claim being made, or whether the correct status is only bounded, diagnostic, unavailable, or abstained.</p>
+        </section>
+
+        <section class="container" id="human-readable-overview">
+            <h2>Overview</h2>
+            <p>CGT begins from a conservative observation: many scientific and technical reports are projections. They may preserve the answer that a reader sees while forgetting how the answer was generated, which comparison interface made it meaningful, which observation or description lens was used, which continuation paths remain possible, which inconsistency policy was active, or which verification and failure conditions were declared.</p>
+            <p>The core paper therefore treats the generated effect profile as the object to be compared. A report is still important, but it is not identified with the full profile. This lets the series discuss report-equivalent systems that differ in hidden coordinates such as availability, continuation, interaction, support, release, diagnostic debt, or physical residuals.</p>
+            <p>This page collects the CGT series in one place because the papers are easier to understand as a connected research program than as isolated supplements. The goal is to give readers a map: the core idea, the vocabulary, the reading order, the boundaries, and the related implementation-facing experiments.</p>
+            <p>Read this page as an entry point to the series. It gives the conceptual map first, then the paper map, then the mathematical anchors and structured summary for readers who need exact handles.</p>
+        </section>
+
+        <section class="container" id="what-cgt-is">
+            <h2>What CGT Is</h2>
+            <p>CGT is a viewpoint-oriented meta-theory: a disciplined way to read claims by asking which constraints, lenses, support structures, and failure conditions make the claim available. It is useful when the visible report is too small to show the generated comparisons, observations, descriptions, continuations, or certificates on which a stronger claim would depend.</p>
+            <p>In this sense, CGT functions as a field guide for scientific, technical, and AI-system claims about software systems, physical systems, model outputs, measurements, and audit records. It separates the report from the supported claim; separates report equality from effect-profile equality; and separates what is determined, bounded, unsupported, unavailable, or properly abstained from under declared constraints.</p>
+            <p>Typical CGT questions are concrete, even when the formal vocabulary is abstract:</p>
+            <ul class="example-list">
+                <li>Given an AI benchmark score, what claim about real-world capability is actually supported, and which hidden assumptions or deployment conditions remain outside the report?</li>
+                <li>Given an audit log for a software or research automation system, what failure, verification, reproducibility, or uncertainty status is actually available?</li>
+                <li>Given a physical measurement, what hidden dissipation, memory, reversibility, or support claim is still unsupported by the limited report lens?</li>
+            </ul>
+            <p>The frame-relative character is essential. Once carriers, systems, transformations, comparison regimes, observation and description lenses, normalizers, verifiers, bounds, and failure predicates are specified, CGT asks which effects are generated and which claims are scientifically available.</p>
+        </section>
+
+        <section class="container" id="claim-boundaries">
+            <h2>What CGT Is Not</h2>
+            <p>CGT does not replace existing scientific or formal theories. It does not replace thermodynamics, stochastic thermodynamics, information theory, open-system modeling, model theory, category theory, logic, constraint satisfaction, or AI theory. It gives a language for asking what a report, model output, certificate, or physical readout is allowed to support.</p>
+            <p>It also does not claim that constraints are the absolute basis of reality, that every scientific judgment can be automated, or that every effect has a ready-made software estimator. CGT is not a search ranking strategy, not AI-search optimization content, and not a software-first product page; this page is a research index and conceptual overview.</p>
+            <p>Missing checker rows, undeclared lenses, unbounded enumeration, or unverified transport should leave a claim unsupported, unavailable, or abstained from rather than promoted to a stronger conclusion.</p>
+            <p>The intended scientific use is narrower and more testable: make report/support gaps explicit, keep evidence conditions declared, and preserve diagnostic status when the available fragment is not enough for the desired claim.</p>
+        </section>
+
+        <section class="container" id="core-claims">
+            <h2>Core Claims for First-Time Readers</h2>
+            <div class="summary-grid">
+                <article class="claim">
+                    <h3>1. Constraints Generate Effects</h3>
+                    <p>Within a declared frame, a constraint may narrow options, but it may also create the very structure by which options are compared, observed, described, verified, repaired, released, or marked as unavailable.</p>
+                    <p class="misreading"><strong>Avoid:</strong> reading "constraint" as only a predicate, truth condition, or CSP relation.</p>
+                </article>
+                <article class="claim">
+                    <h3>2. Comparability Comes Before Distinction</h3>
+                    <p>CGT first asks whether two objects, states, histories, reports, or effects can be compared at all. Only then can a proposed distinction be used as evidence for a stronger claim.</p>
+                    <p class="misreading"><strong>Avoid:</strong> assuming that every proposed distinction is already well formed before a comparison interface exists.</p>
+                </article>
+                <article class="claim">
+                    <h3>3. Reports Are Projections</h3>
+                    <p>A report is a selected view of an effect profile. Two systems can produce the same report while differing in continuation, verification, interaction, residual support, or other coordinates the report lens does not show.</p>
+                    <p class="misreading"><strong>Avoid:</strong> treating report equality as effect-profile equality.</p>
+                </article>
+                <article class="claim">
+                    <h3>4. Marginal Effects Are Typed</h3>
+                    <p>The effect of adding a constraint is measured by named dimensions. A constraint can be redundant for one dimension and active for another, so independence, opacity, and interaction must be typed.</p>
+                    <p class="misreading"><strong>Avoid:</strong> asking for a single scalar "effect of a constraint" without naming the relevant dimensions.</p>
+                </article>
+                <article class="claim">
+                    <h3>5. Availability Is Declared</h3>
+                    <p>Within CGT, a claim is scientifically available only through declared data: how the effect is observed, described, normalized, verified, failed, reproduced, traced, and continued.</p>
+                    <p class="misreading"><strong>Avoid:</strong> treating a named effect as scientifically available merely because it appears in a report.</p>
+                </article>
+                <article class="claim">
+                    <h3>6. Certificates Expose Missing Evidence</h3>
+                    <p>Later CGT papers use certificates, residual profiles, support frontiers, abstention modes, and release ledgers to show exactly where evidence is present, missing, diagnostic-only, or insufficient.</p>
+                    <p class="misreading"><strong>Avoid:</strong> treating abstention, retained failure, or diagnostic-only status as a negative result or a positive certificate.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="series-map">
+            <h2>Series Map</h2>
+            <p>All entries below belong to the same CGT Zenodo directory and use the DOI <a href="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</a>.</p>
+            <p>The sequence moves from basic semantics to increasingly applied diagnostic layers. The core paper defines effect profiles. The next papers ask how reports hide distinctions, how availability is certified, how constraints remain mutually viable, how bandwidth and release behave, how conceptual monopolies can be diagnosed, how interactions leave residuals, and how physical reports can be read without overclaiming.</p>
+            <p class="flow-note">The papers form a progression: the core paper defines the viewpoint, the projection and availability papers explain what reports can hide, the certificate papers handle finite support and diagnostic status, and the physical paper applies the same report-lens discipline to physical availability. Later papers extend the reading practice; they do not replace the core.</p>
+            <div class="paper-grid">
+                <article class="paper-card" id="paper-cgt-core-visible">
+                    <h3>Constraint Generative Theory: Typed Constraint Effects and Scientific Availability</h3>
+                    <time datetime="2026-05-15">2026-05-15</time><span class="role">foundation</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>What should be compared when a constraint system generates more than a final report?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Introduces the main CGT vocabulary: typed constraints, generated effect profiles, report projection, marginal effects, interaction, continuation, valuation, inconsistency policy, and scientific availability.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>Do not compare only the final answer; compare what the constraint system made observable, comparable, verifiable, and available.</dd>
+                        <dt>Boundary</dt>
+                        <dd>It is a frame discipline for reading claims, not a claim that constraints are the ultimate nature of reality.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-constraint-marginal-probing-visible">
+                    <h3>Constraint-Marginal Probing in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-16">2026-05-16</time><span class="role">projection and probe design</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>If reports hide distinctions, which selected dimensions or probes can reveal them?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Shows how selected probes or dimensions can recover differences hidden by a coarse report, and states finite cover problems for choosing such probes.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>If a report hides the difference, choose probes that can reveal the relevant missing dimensions.</dd>
+                        <dt>Boundary</dt>
+                        <dd>The complexity results concern declared finite candidate pools, not every possible projection problem.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-comparability-bootstrap-visible">
+                    <h3>Comparability Bootstrap in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-17">2026-05-17</time><span class="role">well-formedness foundation</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>When is a proposed distinction even well formed?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Explains why a distinction needs a comparison interface before it can do scientific work, and studies how such interfaces can be declared or generated.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>Before saying two things differ, first declare how they can be compared.</dd>
+                        <dt>Boundary</dt>
+                        <dd>The paper does not say distinction is impossible without CGT; it says CGT requires an explicit comparison interface before using a distinction as a typed constraint.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-scientific-availability-visible">
+                    <h3>Scientific Availability in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-18">2026-05-18</time><span class="role">reproducibility layer</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>When can a selected effect be handled as a reproducible scientific claim?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Defines the evidence package needed to treat selected effects as available: projection, observation, description, normalization, verification, failure, reproduction, provenance, and continuation data.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>A claim is usable only when the observation, description, verification, and failure conditions are declared.</dd>
+                        <dt>Boundary</dt>
+                        <dd>Availability is a diagnostic presentation of selected effects, not an intrinsic label attached to a claim independently of lenses and protocols.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-mutual-constraint-viability-visible">
+                    <h3>Mutual Constraint Viability in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-18">2026-05-18</time><span class="role">future applicability calculus</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>Does applying a constraint preserve the later ability to constrain the applicator, authority, support, markers, repairs, and affected system?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Tracks whether one constraint application preserves or damages later channels for support, repair, authority, markers, and affected systems.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>A rule should not destroy the future ability to audit, repair, or constrain the system.</dd>
+                        <dt>Boundary</dt>
+                        <dd>Diagnostic-only rows are retained as diagnostics unless the declared calculus retypes them as usable support.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-constraint-bandwidth-dynamics-visible">
+                    <h3>Constraint Bandwidth Dynamics in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-19">2026-05-19</time><span class="role">support completion and release</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>What later-constraint readout is lost when a report lens is too coarse?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Describes how finite reports can lose support information, how support can be completed, and when a release claim is exactly justified.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>A coarse report can lose later support channels, and release should only occur when the loss is accounted for.</dd>
+                        <dt>Boundary</dt>
+                        <dd>Exact release is not assumed cancellation; it is derived from finite checker tables and descends only where the declared quotient supports it.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-conceptual-monopoly-diagnostics-visible">
+                    <h3>Conceptual Monopoly Diagnostics under No-Meta Constraints</h3>
+                    <time datetime="2026-05-20">2026-05-20</time><span class="role">diagnostic certificate theory</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>When does a row-presented concept become a dependency gateway for witness availability?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Turns conceptual monopoly into a lens-relative certificate problem: which witnesses exist, which corrections are possible, and which erasures must be blocked.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>A concept becomes risky when it controls whether alternative witnesses or corrections can appear.</dd>
+                        <dt>Boundary</dt>
+                        <dd>It is not a moral score, a diversity metric, or a lens-free theory of concepts; missing rows require abstention or retained diagnostic status.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-constraint-interaction-ecology-visible">
+                    <h3>Constraint Interaction Ecology in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-21">2026-05-21</time><span class="role">interaction residual ecology</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>When do multiple constraints jointly generate, mask, suppress, retain, discharge, or make unavailable effects that lower-order summaries cannot reconstruct?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Records residual effects that appear only through constraint interaction, including masking, suppression, retention, discharge, unavailability, and transport barriers.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>Rules can interact by masking, suppressing, retaining, or discharging effects that no single rule shows alone.</dd>
+                        <dt>Boundary</dt>
+                        <dd>The central object is not scalar synergy or causal interaction; it is a finite certified residual profile under declared basis-cleanliness checks.</dd>
+                    </dl>
+                </article>
+                <article class="paper-card" id="paper-physical-availability-visible">
+                    <h3>Constraint-Generated Physical Availability</h3>
+                    <time datetime="2026-05-21">2026-05-21</time><span class="role">physical interface</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>When a physical claim is reported through a limited lens, which effect coordinates are determined, bounded, forgotten, or still unavailable?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Applies CGT to physical report lenses, asking what a limited report determines, bounds, forgets, or leaves unavailable in cases such as dissipation, memory, and free-energy claims.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>A physical number may be correct but still insufficient for a stronger physical claim.</dd>
+                        <dt>Boundary</dt>
+                        <dd>It is a report-lens interface, not a new physical law, a universal hidden-dissipation estimator, or a replacement for thermodynamics, stochastic thermodynamics, information theory, or open-system modeling.</dd>
+                    </dl>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="reading-paths">
+            <h2>Reading Paths</h2>
+            <p>The paths below are intended to prevent premature synthesis. Readers who start with later certificate papers should still return to the core effect-profile semantics, because the later objects are diagnostic and finite-support layers over that core.</p>
+            <div class="path-grid">
+                <article class="path-card">
+                    <h3>First-Time Reader</h3>
+                    <ol>
+                        <li>CGT core paper</li>
+                        <li>Comparability Bootstrap</li>
+                        <li>Scientific Availability</li>
+                        <li>Constraint-Marginal Probing</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>Finite Certificates and Diagnostics</h3>
+                    <ol>
+                        <li>Scientific Availability</li>
+                        <li>Mutual Constraint Viability</li>
+                        <li>Constraint Bandwidth Dynamics</li>
+                        <li>Constraint Interaction Ecology</li>
+                        <li>Conceptual Monopoly Diagnostics</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>Physical Interface</h3>
+                    <ol>
+                        <li>CGT core paper</li>
+                        <li>Scientific Availability</li>
+                        <li>Constraint-Generated Physical Availability</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>For Research Agents and Indexers</h3>
+                    <ol>
+                        <li>Use the structured summary below for stable handles.</li>
+                        <li>Extract <code>formal_core.equations</code>.</li>
+                        <li>Use <code>papers[].id</code> as stable handles.</li>
+                        <li>Use the DOI as the series-level scholarly target.</li>
+                    </ol>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="related-oss-reference-implementations">
+            <h2>Related OSS and Reference Implementations</h2>
+            <p>CGT is not primarily a software project, but a few repositories explore small implementation-facing fragments. They are useful as reference experiments for readers who want to see how marker records, availability status, or bandwidth-style support completion might be represented in code.</p>
+            <p>These repositories should be read as partial companions and reference experiments, not as complete implementations of the full theory.</p>
+            <ul class="oss-list">
+                <li><strong><a href="https://github.com/kadubon/cgt-marker">CGT Marker</a></strong>: A related OSS project for marker-oriented CGT ideas, useful for thinking about how constraint-generated markers, retained diagnostic status, and observable records may be represented in software.<span class="use-this-for"><strong>Use this for:</strong> thinking about marker records, retained diagnostic status, and observable trace design.</span></li>
+                <li><strong><a href="https://github.com/kadubon/cgt-availability">CGT Availability</a></strong>: A related OSS project connected to CGT-style scientific availability, report/support separation, and abstention-aware claim handling.<span class="use-this-for"><strong>Use this for:</strong> thinking about claim status, report/support separation, and abstention-aware evidence handling.</span></li>
+                <li><strong><a href="https://github.com/kadubon/cgt-bandwidth-dynamics">CGT Bandwidth Dynamics</a></strong>: A related OSS project exploring bandwidth, support completion, residual effects, and release-style reasoning in a more implementation-facing form.<span class="use-this-for"><strong>Use this for:</strong> thinking about bandwidth, support completion, residual effects, and release-style reasoning.</span></li>
+            </ul>
+        </section>
+
+        <section class="container" id="scientific-intuition">
+            <h2>Scientific Intuition and Guardrails</h2>
+            <p>The core manuscript preserves philosophical and intuitive motivation in comments, but the public scientific reading should remain operational. These guardrails explain how to use that motivation without turning it into a broader claim than the papers support.</p>
+            <ul class="compact-list">
+                <li><strong>Constraint is broader than predicate satisfaction.</strong> In CGT, a constraint may generate a universe, make relata comparable, split distinctions, create observation paths, mark contradictions, or open later constraint paths. This breadth is controlled by typed levels and declared presentations.</li>
+                <li><strong>The no-constraint limit is formal.</strong> The pre-constraint condition is handled as a formal boundary, not as an object to which the theory assigns a scientific claim.</li>
+                <li><strong>Generated membership is frame-relative.</strong> Occurrence is handled as membership, observability, or availability generated by a declared system, not as a claim about the ultimate nature of reality.</li>
+                <li><strong>Truth is a special selection structure.</strong> Binary truth and falsity can be modeled, but CGT first requires comparability, distinction, selection, and report structure.</li>
+                <li><strong>Freedom includes continuation capacity.</strong> A constraint can reduce immediate state freedom while increasing later well-typed applications, repairs, observations, or comparison paths.</li>
+                <li><strong>Valuation is evaluator-relative but declared.</strong> Meaning or value is represented by reproducible valuation maps over effect profiles, not by private psychology or undeclared preference.</li>
+                <li><strong>Contradiction can be routed.</strong> Marker policies can record, route, or expose inconsistency instead of forcing collapse or explosion.</li>
+                <li><strong>Goals are constraints over systems.</strong> A target selector is explanatory only when its language, cost, locality, bounds, validation, and failure conditions are declared.</li>
+                <li><strong>Anti-tautology requires failure conditions.</strong> A CGT claim should expose enough typed data for reproduction, comparison, abstention, or refutation.</li>
+            </ul>
+        </section>
+
+        <section class="container" id="faq">
+            <h2>FAQ</h2>
+            <div class="summary-grid">
+                <article class="claim">
+                    <h3>Is CGT a new theory of physics?</h3>
+                    <p>No. The physical availability paper uses CGT to ask what limited physical reports support; it does not replace physical theory.</p>
+                </article>
+                <article class="claim">
+                    <h3>Is CGT an AI governance framework?</h3>
+                    <p>It is relevant to AI governance, audit, and research agents, but it is broader than governance and remains a viewpoint-oriented theory.</p>
+                </article>
+                <article class="claim">
+                    <h3>Why does CGT emphasize abstention?</h3>
+                    <p>Because unsupported claims should not be promoted to positive evidence. Abstention preserves uncertainty and missing support conditions.</p>
+                </article>
+                <article class="claim">
+                    <h3>How is a report different from a supported claim?</h3>
+                    <p>A report is what a lens exposes. A supported claim requires declared evidence, verification, failure conditions, and availability data for the stronger reading.</p>
+                </article>
+                <article class="claim">
+                    <h3>Can CGT be implemented as software?</h3>
+                    <p>Only fragments are currently represented in related OSS; the full series is primarily theoretical.</p>
+                </article>
+                <article class="claim">
+                    <h3>Why do all entries use the same DOI?</h3>
+                    <p>The entries belong to the same Zenodo CGT directory and intentionally share the series DOI.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="formal-core">
+            <h2>Mathematical Anchors for Technical Readers</h2>
+            <p>This section is optional for first-time readers. It gives stable mathematical handles for the prose above.</p>
+            <p>The formulas below are written as literal LaTeX strings and exposed with <code>data-tex</code> attributes. They are kept as text so mathematical notation, visible prose, and structured summaries stay aligned without requiring a JavaScript math engine.</p>
+            <p>For human readers, the point of these anchors is to keep several questions separate: what constraint was declared, which effect dimensions it can touch, what profile it generates, which report lens forgets which coordinates, and which availability package supports a reproducible claim.</p>
+            <div class="formula-list">
+                <article class="formula-card">
+                    <h3>Declared Constraint Judgment</h3>
+                    <code data-tex="\Frame\vdash \kappa: (\Level_\kappa,\Domain_\kappa,\Cod_\kappa,J_\kappa,\Trans_\kappa,\Compare_\kappa)">\Frame\vdash \kappa: (\Level_\kappa,\Domain_\kappa,\Cod_\kappa,J_\kappa,\Trans_\kappa,\Compare_\kappa)</code>
+                    <p>A constraint is typed by level, domain, codomain, affected effect dimensions, transformation data, and comparison regime.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> before a constraint can do work, the frame must say where it applies, what it can transform, and how its effects will be compared.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Declared Constraint Record</h3>
+                    <code data-tex="\kappa=(\Pres_\kappa,\Level_\kappa,\Domain_\kappa,\Cod_\kappa,J_\kappa,\Trans_\kappa,\Compare_\kappa,\rho_\kappa)">\kappa=(\Pres_\kappa,\Level_\kappa,\Domain_\kappa,\Cod_\kappa,J_\kappa,\Trans_\kappa,\Compare_\kappa,\rho_\kappa)</code>
+                    <p>The presentation is included but does not exhaust what the constraint is within the declared frame.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> a token, rule, predicate, lens, or policy may present a constraint, but CGT keeps the typed effect role separate from that presentation.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Effect Semantics</h3>
+                    <code data-tex="\Eff_{\Frame}:\Sys_{\Frame}\to\EffSpace_{\Frame}">\Eff_{\Frame}:\Sys_{\Frame}\to\EffSpace_{\Frame}</code>
+                    <code data-tex="\Eff_{\Frame}(C)=(\Eff^d_{\Frame}(C))_{d\in\Dim_{\Frame}}">\Eff_{\Frame}(C)=(\Eff^d_{\Frame}(C))_{d\in\Dim_{\Frame}}</code>
+                    <code data-tex="\EffSpace_{\Frame}=\prod_{d\in\Dim_{\Frame}}\EffSpace^d_{\Frame}">\EffSpace_{\Frame}=\prod_{d\in\Dim_{\Frame}}\EffSpace^d_{\Frame}</code>
+                    <p>The primary semantic object is a product of typed effect dimensions.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> CGT compares systems by profiles with many coordinates, not only by their final externally visible answer.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Expanded Effect Profile</h3>
+                    <code data-tex="\Eff_{\Frame}(C)=(\Raw_{\Frame}(C),\Uni_{\Frame}(C),\Cmp_C,\Dist_C,\Sel_C,\Class_C,\ObsEff_C,\DescEff_C,\KGraph_{\Frame}(C),\ValEff_C,\IncEff_C,\HistEff_C,\VerEff_C)">\Eff_{\Frame}(C)=(\Raw_{\Frame}(C),\Uni_{\Frame}(C),\Cmp_C,\Dist_C,\Sel_C,\Class_C,\ObsEff_C,\DescEff_C,\KGraph_{\Frame}(C),\ValEff_C,\IncEff_C,\HistEff_C,\VerEff_C)</code>
+                    <p>This instance keeps generated universe, comparability, distinction, selection, observation, description, continuation, valuation, inconsistency, history, and verification explicit.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> this is the checklist of what a report may hide. If two systems agree on output but differ here, CGT treats the difference as real within the declared frame.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Report Projection and Availability Fragment</h3>
+                    <code data-tex="\Rep_Q:\Eff_{\Frame}(C)\to\RObj_Q(C)">\Rep_Q:\Eff_{\Frame}(C)\to\RObj_Q(C)</code>
+                    <code data-tex="\AProf_Q(C)=(\RObj_Q(C),X_Q(C),K_Q(C),M_Q(C))">\AProf_Q(C)=(\RObj_Q(C),X_Q(C),K_Q(C),M_Q(C))</code>
+                    <p>Reports and certified availability fragments are projections or packages over effect profiles, not replacements for them.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> the visible report and the evidence package are important, but they are selected views of a richer profile.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Marginal Effect</h3>
+                    <code data-tex="\Marg^J_\kappa(C)=(\Compare_d(\Eff^d_{\Frame}(C),\Eff^d_{\Frame}(C\oplus_C\kappa)))_{d\in J}">\Marg^J_\kappa(C)=(\Compare_d(\Eff^d_{\Frame}(C),\Eff^d_{\Frame}(C\oplus_C\kappa)))_{d\in J}</code>
+                    <code data-tex="C\equiv_J C\oplus_C\kappa">C\equiv_J C\oplus_C\kappa</code>
+                    <p>A constraint can be redundant, active, opaque, or interaction-bearing only relative to declared dimensions and comparison data.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> adding a constraint may change observation but not report, verification but not state count, or continuation but not immediate output.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Order-Sensitive Interaction</h3>
+                    <code data-tex="\CommEff^J_{\Frame}(C;\kappa,\lambda)=\Compare_J(\Eff^J_{\Frame}((C\oplus_C\kappa)\oplus_C\lambda),\Eff^J_{\Frame}((C\oplus_C\lambda)\oplus_C\kappa))">\CommEff^J_{\Frame}(C;\kappa,\lambda)=\Compare_J(\Eff^J_{\Frame}((C\oplus_C\kappa)\oplus_C\lambda),\Eff^J_{\Frame}((C\oplus_C\lambda)\oplus_C\kappa))</code>
+                    <p>CGT can express non-commuting constraint effects without assuming vector subtraction or scalar synergy.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> two constraints can have different effects depending on application order, and the comparison must name the affected dimensions.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Continuation and Freedom</h3>
+                    <code data-tex="\Cont_{\Frame}:\Sys_{\Frame}\to\Pow(\Sys_{\Frame})">\Cont_{\Frame}:\Sys_{\Frame}\to\Pow(\Sys_{\Frame})</code>
+                    <code data-tex="F_{\mathrm{state}}(C)=\log(1+\card{S_C})">F_{\mathrm{state}}(C)=\log(1+\card{S_C})</code>
+                    <code data-tex="F_{\mathrm{cont}}(C)\in\{\card{E_C},\max depth(\KGraph_{\Frame}(C)),\log(1+\card{N_C}),H_C\}">F_{\mathrm{cont}}(C)\in\{\card{E_C},\max depth(\KGraph_{\Frame}(C)),\log(1+\card{N_C}),H_C\}</code>
+                    <p>Freedom is not only remaining states. It also measures room for further constraint application and continuation structure.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> a constraint may reduce immediate state options while increasing the number or depth of later well-typed moves.</p>
+                </article>
+                <article class="formula-card">
+                    <h3>Physical Availability Interface</h3>
+                    <code data-tex="\Ecal=\prod_{d\in D}E_d">\Ecal=\prod_{d\in D}E_d</code>
+                    <code data-tex="P:\Ecal\to R">P:\Ecal\to R</code>
+                    <code data-tex="D=\bar D\circ P \ \mathrm{iff}\ D\ \mathrm{is\ constant\ on\ every}\ P\ \mathrm{fiber}">D=\bar D\circ P \ \mathrm{iff}\ D\ \mathrm{is\ constant\ on\ every}\ P\ \mathrm{fiber}</code>
+                    <p>The physical paper uses report lenses to distinguish what a limited physical report determines, bounds, forgets, or leaves unavailable.</p>
+                    <p class="plain-reading"><strong>Plain reading:</strong> if a diagnostic changes inside a report fiber, the report alone cannot support that diagnostic claim.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="machine-readable-yaml">
+            <h2>Structured Metadata Appendix</h2>
+            <p class="machine-note">The structured summary below keeps stable handles for citation, indexing, and research-agent use. It is supporting metadata; the main page remains the human-readable guide above.</p>
+            <details class="structured-summary">
+                <summary>Structured summary for citation, indexing, and research-agent use</summary>
+            <pre id="canonical-cgt-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="constraint-generative-theory-series" data-last-updated="2026-05-22" aria-label="Structured YAML summary for the Constraint Generative Theory series">series:
+  id: constraint-generative-theory-series
+  abbreviation: CGT
+  title: "Constraint Generative Theory"
+  maintainer: K Takahashi
+  language: en
+  canonical_index: https://kadubon.github.io/github.io/constraint-generative-theory-index.html
+  homepage: https://kadubon.github.io/github.io/
+  doi: https://doi.org/10.5281/zenodo.20199440
+  license: https://creativecommons.org/licenses/by/4.0/
+  last_updated: 2026-05-22
+  machine_reading_status:
+    visible_yaml_primary: true
+    json_ld_secondary: true
+    stable_paper_ids: true
+    formulas_as_latex_strings: true
+
+purpose:
+  summary: "Human-readable field guide for the CGT paper series."
+  audience:
+    - first-time human readers
+    - scholarly indexers
+    - machine readers
+    - AI research agents
+    - LLM summarizers
+  what_this_series_is: "A viewpoint-oriented meta-theory for reading reports, support conditions, scientific availability, and abstention under declared constraints."
+  what_this_series_is_not:
+    - "Not a replacement for model theory, constraint satisfaction, rewriting logic, category theory, information theory, paraconsistent logic, thermodynamics, or stochastic process theory."
+    - "Not a theory that treats final reports or satisfying assignments as the whole semantic object."
+    - "Not an ontology of the ultimate nature of reality, a universal estimator, a ready-made software stack, or a claim that all scientific judgment can be automated."
+    - "Not a search ranking strategy, AI-search optimization page, or software-first product page."
+
+short_version:
+  text: "CGT is a way to ask whether a reported result actually supports the claim being made, or whether the correct status is only bounded, diagnostic, unavailable, or abstained."
+
+core_thesis:
+  short: "Constraints can generate and transform typed effects inside declared frames."
+  expanded:
+    - "The primary CGT object is the generated effect profile of a constraint system in a declared frame."
+    - "Reports, observations, descriptions, valuations, continuation graphs, inconsistency markers, and scientific certificates are projections or components of effect profiles."
+    - "Output-equivalent or report-equivalent systems can differ in the effects that generated, observed, described, continued, valued, scheduled, or verified them."
+    - "Comparability precedes distinction, and distinction precedes binary truth or falsity."
+    - "Within CGT, scientific availability is represented by declared observation, description, normalization, verification, failure, reproduction, provenance, and continuation data."
+
+human_reading_summary:
+  one_paragraph: "CGT is best read as a viewpoint-oriented language for asking what a declared constraint system generates beyond the report a reader sees. Its central comparison object is the effect profile: the generated universe, comparison interface, distinctions, observations, descriptions, continuation paths, valuations, inconsistency markers, histories, and verification data induced by constraints in a declared frame."
+  reader_warning: "Do not treat this page as claiming that constraints are the ultimate basis of reality. Treat the theory as frame-relative: claims require declared carriers, systems, transformations, lenses, checkers, bounds, and failure conditions."
+  why_the_series_exists:
+    - "The core paper defines the effect-profile semantics."
+    - "Projection and availability papers explain what reports hide and what evidence packages make selected effects scientifically usable."
+    - "Certificate and diagnostic papers handle finite evidence, support, release, interaction, and abstention."
+    - "The physical interface paper asks what limited physical report lenses determine or forget."
+
+claim_boundaries:
+  no_replacement_claim:
+    - "CGT does not replace model theory, CSP, rewriting logic, category theory, information theory, thermodynamics, stochastic thermodynamics, or paraconsistent logic."
+    - "It provides a constraint-primary comparison language for generated effect profiles."
+  availability_is_relative: "Scientific availability is always relative to declared projection, observation, description, normalization, verification, failure, reproduction, provenance, and continuation data."
+  complexity_scope: "NP-completeness and finite audit results are for fixed candidate pools, bounded fragments, or polynomially verifiable certificate regimes."
+  physical_scope: "Constraint-generated physical availability is an interface for report-lens diagnosis, not a replacement for established physical theories."
+  failure_policy: "Missing checker rows, undeclared lenses, unbounded enumeration, or unverified transport should produce abstention or retained diagnostic status rather than a positive claim."
+
+paper_relations:
+  formal_core:
+    - cgt-core
+    - comparability-bootstrap
+  projection_and_availability:
+    - constraint-marginal-probing
+    - scientific-availability
+  certificate_and_diagnostic_layers:
+    - mutual-constraint-viability
+    - constraint-bandwidth-dynamics
+    - constraint-interaction-ecology
+    - conceptual-monopoly-diagnostics
+  physical_interface:
+    - constraint-generated-physical-availability
+  dependency_hint: "Later certificate papers should be read as finite or diagnostic layers over the core effect-profile semantics, not as replacements for it."
+
+glossary:
+  declared_frame: "The typed setting that names carriers, systems, transformations, comparison regimes, observation and description lenses, normalizers, verifiers, bounds, and failure predicates."
+  effect_profile: "The multidimensional record generated by a constraint system, including report-visible and report-hidden coordinates."
+  report_lens: "A projection from an effect profile to a report object; it can forget coordinates relevant to availability or diagnosis."
+  scientific_availability: "A declared package showing how selected effects can be observed, described, normalized, verified, failed, reproduced, and continued."
+  retained_diagnostic_status: "A typed record that preserves uncertainty, boundary, failure, or diagnostic-only information without promoting it to positive floor evidence."
+  abstention: "The correct output when the declared fragment lacks enough typed evidence to certify the stronger claim."
+
+common_misreadings:
+  - misreading: "CGT says constraints are the origin of reality."
+    correction: "The scientific reading is frame-relative: constraints generate effect profiles inside declared frames."
+  - misreading: "A report is the same as the generated effect profile."
+    correction: "A report is a projection and may forget continuation, verification, support, interaction, or physical residuals."
+  - misreading: "Scientific availability follows from a successful report."
+    correction: "Availability requires declared observation, description, verification, failure, reproduction, and related evidence."
+  - misreading: "A finite diagnostic certificate proves an unrestricted ambient claim."
+    correction: "Finite certificates prove only the declared finite or bounded fragment unless a stronger interface is certified."
+  - misreading: "Conceptual monopoly diagnostics measure true diversity or moral status."
+    correction: "They diagnose lens-relative witness availability using observable certificates."
+
+scientific_integrity_notes:
+  - "Use abstention when a checker row, comparison interface, lens, finite bound, support certificate, or transport witness is missing."
+  - "Keep report equality separate from effect-profile equality."
+  - "State whether a result is core semantic, finite certificate, diagnostic, physical-interface, or complexity-theoretic."
+  - "Do not turn philosophical intuition into an unstated scientific premise."
+  - "Preserve declared failure conditions so the claim can be reproduced, challenged, or refuted."
+
+formal_core:
+  primary_object: generated_effect_profile
+  equations:
+    declared_constraint_judgment:
+      tex: "\\Frame\\vdash \\kappa: (\\Level_\\kappa,\\Domain_\\kappa,\\Cod_\\kappa,J_\\kappa,\\Trans_\\kappa,\\Compare_\\kappa)"
+      role: "Types a constraint by level, domain, codomain, effect dimensions, transformation data, and comparison regime."
+    declared_constraint_record:
+      tex: "\\kappa=(\\Pres_\\kappa,\\Level_\\kappa,\\Domain_\\kappa,\\Cod_\\kappa,J_\\kappa,\\Trans_\\kappa,\\Compare_\\kappa,\\rho_\\kappa)"
+      role: "Records presentation without reducing constraint identity to presentation."
+    effect_semantics:
+      tex: "\\Eff_{\\Frame}:\\Sys_{\\Frame}\\to\\EffSpace_{\\Frame}"
+      role: "Maps a constraint system to its typed effect profile."
+    effect_profile:
+      tex: "\\Eff_{\\Frame}(C)=(\\Eff^d_{\\Frame}(C))_{d\\in\\Dim_{\\Frame}}"
+      role: "Collects dimension-indexed effects."
+    effect_space:
+      tex: "\\EffSpace_{\\Frame}=\\prod_{d\\in\\Dim_{\\Frame}}\\EffSpace^d_{\\Frame}"
+      role: "Product space for typed effect dimensions."
+    expanded_profile:
+      tex: "\\Eff_{\\Frame}(C)=(\\Raw_{\\Frame}(C),\\Uni_{\\Frame}(C),\\Cmp_C,\\Dist_C,\\Sel_C,\\Class_C,\\ObsEff_C,\\DescEff_C,\\KGraph_{\\Frame}(C),\\ValEff_C,\\IncEff_C,\\HistEff_C,\\VerEff_C)"
+      role: "Keeps generated universe, comparability, distinction, selection, classification, observation, description, continuation, valuation, inconsistency, history, and verification explicit."
+    report_projection:
+      tex: "\\Rep_Q:\\Eff_{\\Frame}(C)\\to\\RObj_Q(C)"
+      role: "Models a report as a projection from effect profile."
+    availability_profile:
+      tex: "\\AProf_Q(C)=(\\RObj_Q(C),X_Q(C),K_Q(C),M_Q(C))"
+      role: "Certified availability fragment for a report question or lens."
+    marginal_effect:
+      tex: "\\Marg^J_\\kappa(C)=(\\Compare_d(\\Eff^d_{\\Frame}(C),\\Eff^d_{\\Frame}(C\\oplus_C\\kappa)))_{d\\in J}"
+      role: "Dimension-relative comparison after adding a constraint."
+    dimension_relative_redundancy:
+      tex: "C\\equiv_J C\\oplus_C\\kappa"
+      role: "Constraint is redundant only relative to declared dimensions J."
+    commutator:
+      tex: "\\CommEff^J_{\\Frame}(C;\\kappa,\\lambda)=\\Compare_J(\\Eff^J_{\\Frame}((C\\oplus_C\\kappa)\\oplus_C\\lambda),\\Eff^J_{\\Frame}((C\\oplus_C\\lambda)\\oplus_C\\kappa))"
+      role: "Order-sensitive constraint interaction."
+    continuation:
+      tex: "\\Cont_{\\Frame}:\\Sys_{\\Frame}\\to\\Pow(\\Sys_{\\Frame})"
+      role: "Continuation options generated by a system."
+    state_freedom:
+      tex: "F_{\\mathrm{state}}(C)=\\log(1+\\card{S_C})"
+      role: "State-count style freedom."
+    continuation_freedom:
+      tex: "F_{\\mathrm{cont}}(C)\\in\\{\\card{E_C},\\max depth(\\KGraph_{\\Frame}(C)),\\log(1+\\card{N_C}),H_C\\}"
+      role: "Continuation-structure style freedom."
+    physical_report_lens:
+      tex: "P:\\Ecal\\to R"
+      role: "Maps physical effect profiles to reports."
+    report_factorization:
+      tex: "D=\\bar D\\circ P \\ \\mathrm{iff}\\ D\\ \\mathrm{is\\ constant\\ on\\ every}\\ P\\ \\mathrm{fiber}"
+      role: "Diagnostic is report-determined exactly when it is constant on report fibers."
+
+papers:
+  - id: cgt-core
+    title: "Constraint Generative Theory: Typed Constraint Effects and Scientific Availability"
+    published: 2026-05-15
+    role: foundation
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Defines CGT, typed constraint records, effect profiles, report projection, marginal effects, interaction, continuation, valuation, inconsistency policies, and scientific availability."
+  - id: constraint-marginal-probing
+    title: "Constraint-Marginal Probing in Constraint Generative Theory: Report-Relative Closure, Interaction, and Scientific Projection Design"
+    published: 2026-05-16
+    role: projection-and-probe-design
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Studies how probes and selected effect dimensions recover distinctions hidden by report classes; includes NP-complete finite cover problems."
+  - id: comparability-bootstrap
+    title: "Comparability Bootstrap in Constraint Generative Theory: Typed Well-Formedness, Cascaded Closure, and Interaction-Generated Interfaces"
+    published: 2026-05-17
+    role: comparability-and-well-formedness
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Shows that distinctions become well-formed only after comparison interfaces exist or are generated; develops closure and interaction-generated comparability."
+  - id: scientific-availability
+    title: "Scientific Availability in Constraint Generative Theory: Report Factorization, Residual Constraints, and Infinitary Diagnostics"
+    published: 2026-05-18
+    role: reproducibility-and-diagnostics
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Defines availability packages, dependency closure, availability preorder, report-factorization obstruction, residual constraints, and infinitary diagnostics."
+  - id: mutual-constraint-viability
+    title: "Mutual Constraint Viability in Constraint Generative Theory: Row-Typed Applicability Effect Sequents"
+    published: 2026-05-18
+    role: future-applicability-calculus
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Tracks whether applying one constraint preserves future ability to constrain applicator, authority, support, markers, repairs, and affected systems."
+  - id: constraint-bandwidth-dynamics
+    title: "Constraint Bandwidth Dynamics in Constraint Generative Theory: Applicability Support Completion and Exact Release"
+    published: 2026-05-19
+    role: bandwidth-completion-and-release
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Defines finite bandwidth readout, residual effect certificate hypergraphs, support antichains, completion, exact release, and finite audit algorithms."
+  - id: conceptual-monopoly-diagnostics
+    title: "Conceptual Monopoly Diagnostics under No-Meta Constraints: Observable Certificates, Correction Bandwidth, and Anti-Erasure Release"
+    published: 2026-05-20
+    role: no-meta-diagnostic-certificates
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Models conceptual monopoly as a lens-relative constraint-effect certificate problem, not as a moral or diversity score."
+  - id: constraint-interaction-ecology
+    title: "Constraint Interaction Ecology in Constraint Generative Theory: Profile-Faithful Feedback, Typed Residual Certificates, and Residual Transport Barriers"
+    published: 2026-05-21
+    role: interaction-residual-ecology
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Develops interaction residual certificates for joint generation, masking, suppression, retention, discharge, unavailability, and transport barriers."
+  - id: constraint-generated-physical-availability
+    title: "Constraint-Generated Physical Availability: Report Lenses, Certificate Calculus, Memory Completion, and Hidden Dissipation"
+    published: 2026-05-21
+    role: physical-interface
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Applies CGT to physical report lenses, hidden dissipation, entropy-production completion, memory completion, Landauer-style debt, and conditional free energy."
+
+read_paths:
+  first_time_reader:
+    - cgt-core
+    - comparability-bootstrap
+    - scientific-availability
+    - constraint-marginal-probing
+  finite_certificates:
+    - scientific-availability
+    - mutual-constraint-viability
+    - constraint-bandwidth-dynamics
+    - constraint-interaction-ecology
+    - conceptual-monopoly-diagnostics
+  physical_interface:
+    - cgt-core
+    - scientific-availability
+    - constraint-generated-physical-availability
+  research_agents_and_indexers:
+    - machine_parse_guide
+    - formal_core.equations
+    - papers
+    - machine_entry_points
+
+related_oss:
+  role: "implementation-facing companions, not complete implementations of the full CGT series"
+  repositories:
+    - id: cgt-marker
+      name: "cgt-marker"
+      url: "https://github.com/kadubon/cgt-marker"
+      relation: "marker-oriented CGT records and diagnostic-status representation"
+    - id: cgt-availability
+      name: "cgt-availability"
+      url: "https://github.com/kadubon/cgt-availability"
+      relation: "scientific availability, report/support separation, and abstention-aware claim handling"
+    - id: cgt-bandwidth-dynamics
+      name: "cgt-bandwidth-dynamics"
+      url: "https://github.com/kadubon/cgt-bandwidth-dynamics"
+      relation: "bandwidth, support completion, residual effects, and release-style reasoning"
+
+faq:
+  - question: "Is CGT a new theory of physics?"
+    answer: "No. The physical availability paper uses CGT to ask what limited physical reports support; it does not replace physical theory."
+  - question: "Is CGT an AI governance framework?"
+    answer: "It is relevant to AI governance, audit, and research agents, but it is broader than governance and remains a viewpoint-oriented theory."
+  - question: "Why does CGT emphasize abstention?"
+    answer: "Because unsupported claims should not be promoted to positive evidence."
+  - question: "How is a report different from a supported claim?"
+    answer: "A report is what a lens exposes; a supported claim requires declared evidence, verification, failure conditions, and availability data."
+  - question: "Can CGT be implemented as software?"
+    answer: "Only fragments are currently represented in related OSS; the full series is primarily theoretical."
+  - question: "Why do all entries use the same DOI?"
+    answer: "The entries belong to the same Zenodo CGT directory and intentionally share the series DOI."
+
+conceptual_background:
+  constraint_scope: "Constraint is broader than truth condition, predicate, or CSP relation."
+  no_constraint_limit: "The pre-constraint condition is handled only as a formal limit, not as an object of the theory."
+  generated_membership: "Existence-language is replaced by constraint-relative generated membership or occurrence."
+  comparison_order: "Comparability precedes distinction; distinction precedes selection; binary truth is a special selection structure."
+  freedom: "Freedom includes room for further constraints, not only number of states left."
+  valuation: "Valuation is evaluator-relative but operationally declared over effect profiles."
+  contradiction: "Contradiction can be marked and routed instead of collapsed."
+  goals: "Goals are constraints over spaces of constraint systems and require declared language, cost, bounds, validation, and failure conditions."
+  anti_tautology: "Scientific CGT claims should declare enough data for reproduction, comparison, abstention, or refutation."
+
+machine_parse_guide:
+  stable_handles: "Use papers[].id as stable local handles."
+  canonical_series_doi: "Use series.doi as the DOI target for all CGT papers in this directory."
+  formula_priority: "Prefer formal_core.equations over prose paraphrase for mathematical extraction."
+  report_warning: "Do not identify report equality with effect-profile equality."
+  availability_warning: "Do not treat a claim as scientifically available unless observation, description, normalization, verification, failure, reproduction, and continuation data are declared or explicitly abstained."
+
+machine_entry_points:
+  home: https://kadubon.github.io/github.io/
+  cgt_index: https://kadubon.github.io/github.io/constraint-generative-theory-index.html
+  works: https://kadubon.github.io/github.io/works.html
+  research_map: https://kadubon.github.io/github.io/research-map.html
+  no_meta_index: https://kadubon.github.io/github.io/no-meta-observable-index.html
+  llms_txt: https://kadubon.github.io/github.io/llms.txt
+  llms_full_txt: https://kadubon.github.io/github.io/llms-full.txt
+  sitemap: https://kadubon.github.io/github.io/sitemap.xml
+  doi: https://doi.org/10.5281/zenodo.20199440</pre>
+            </details>
+        </section>
+
+        <section class="container" id="machine-entry-points">
+            <h2>Related Pages and Entry Points</h2>
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a>: profile, research overview, and site-level endpoint map.</li>
+                <li><a href="https://kadubon.github.io/github.io/research-map.html">research-map.html</a>: site-wide research map and cross-cluster dependency guide.</li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">works.html</a>: canonical publication list with DOI links and JSON-LD.</li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a>: adjacent visible YAML field guide for no-meta and observable-only work.</li>
+                <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a>: additional site guide with compact orientation for the research corpus.</li>
+                <li><a href="https://kadubon.github.io/github.io/llms-full.txt">llms-full.txt</a>: additional site guide with extended orientation for the research corpus.</li>
+                <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a>: crawl discovery map.</li>
+                <li><a href="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</a>: common CGT series DOI target.</li>
+            </ul>
+        </section>
+
+        <section class="container" id="citation">
+            <h2>Citation</h2>
+            <p>Use the shared CGT series DOI for the papers and supplements listed on this page: <a href="https://doi.org/10.5281/zenodo.20199440">https://doi.org/10.5281/zenodo.20199440</a>. The repeated DOI is intentional because the entries belong to the same Zenodo directory.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 K. Takahashi</p>
+    </footer>
+</body>
+</html>

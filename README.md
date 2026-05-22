@@ -2,7 +2,7 @@
 
 This repository hosts the GitHub Pages research hub for K. Takahashi, with static, machine-readable entry points for original work in AI safety, cognitive security, no-meta governance, and auditable autonomous intelligence.
 It is designed for human readers, search engines, AI crawlers, and LLM summarizers to discover concept pages, DOI-linked papers, and structured research metadata without requiring dynamic rendering.
-The site emphasizes semantic HTML, DOI-based scholarly destinations, crawler-friendly navigation, and scientific explanatory pages for topics including self-concealing information, observer-modifying dynamics, and observable-only governance.
+The site emphasizes semantic HTML, DOI-based scholarly destinations, crawler-friendly navigation, and scientific explanatory pages for topics including Constraint Generative Theory, self-concealing information, observer-modifying dynamics, and observable-only governance.
 It also includes a site-wide research map above the cluster pages, plus cluster landing pages for auditability and replay, long-running agents and multi-agent reasoning, provenance-oriented semantic infrastructure, earlier self-improving intelligence foundations, theory translation and comparative mathematics, and propagation or front-dynamics persistence models.
 
 ## Canonical URLs
@@ -17,6 +17,7 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 - Theory Translation / Comparative Mathematics: https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html
 - Propagation / Front Dynamics / Persistence: https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html
 - No-Meta / Observable-Only Series Index: https://kadubon.github.io/github.io/no-meta-observable-index.html
+- Constraint Generative Theory Series Index: https://kadubon.github.io/github.io/constraint-generative-theory-index.html
 - Works (publication index): https://kadubon.github.io/github.io/works.html
 - RSS feed: https://kadubon.github.io/github.io/feed.xml
 - robots.txt: https://kadubon.github.io/github.io/robots.txt
@@ -28,6 +29,7 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 - Schema.org JSON-LD is embedded on key pages (`ProfilePage`, `Person`, `CollectionPage`, `ScholarlyArticle`, `TechArticle`, `CreativeWork`).
 - `research-map.html` provides a site-wide synthesis layer with pillar structure, dependency arrows, stable anchors, and audience-specific read paths.
 - `no-meta-observable-index.html` provides a visible YAML canonical field guide for the no-meta / observable-only research series.
+- `constraint-generative-theory-index.html` provides a visible YAML and human-readable field guide for Constraint Generative Theory, typed constraint effects, generated effect profiles, scientific availability, and the shared CGT DOI directory.
 - Cluster landing pages provide visible YAML and structured concept maps for major local research groupings.
 - Semantic HTML5 tags provide clear document structure for parsers and crawlers.
 - Crawl entry points include internal links, RSS (`feed.xml`), `robots.txt`, and `sitemap.xml`.
@@ -37,6 +39,7 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 
 - Autonomous and auditable AI systems
 - AI safety and alignment under no-meta governance
+- Constraint Generative Theory, typed constraint effects, and scientific availability
 - Formal theory of intelligence
 
 ## Main Pages
@@ -51,6 +54,7 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 - `theory-translation-comparative-mathematics.html`: cluster landing page for theory translation, comparative mathematics, categorical semantics, theorem transport, and formal interoperability
 - `propagation-front-dynamics-persistence.html`: cluster landing page for persistence as closure, propagation dynamics, front speed, reaction-diffusion style models, and viable predictive organization
 - `no-meta-observable-index.html`: canonical YAML field guide for the no-meta / observable-only series
+- `constraint-generative-theory-index.html`: canonical YAML and explanatory index for the Constraint Generative Theory series
 - `works.html`: reverse-chronological publication list with DOI links
 
 ## Citation

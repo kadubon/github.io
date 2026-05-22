@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Map | Site-Wide Theory Stack | K. Takahashi</title>
-    <meta name="description" content="Canonical site-wide synthesis page for K. Takahashi's research program. Maps how foundations, semantics, verification, long-running agents, transfer, deployment, governance, and public accountability fit together across the site.">
-    <meta name="keywords" content="research map, theory stack, site-wide synthesis, dependency map, AI safety, auditable intelligence, ontology drift, verification, long-running agents, transfer, deployment, no-meta governance, authority migration, declared no-meta agency, runtime assurance, provenance">
+    <title>Research Map: Auditable AI, No-Meta Governance, CGT, and Research Agents | K. Takahashi</title>
+    <meta name="description" content="Human-readable research map for K. Takahashi's work on auditable autonomous intelligence, no-meta governance, observable evidence, long-running agents, CGT, claim certification, and AI research agents.">
+    <meta name="keywords" content="research map, auditable autonomous intelligence, AI safety, AI governance, no-meta governance, observable evidence, CGT, claim certification, deterministic replay, fail-closed verification, ontology drift, long-running agents, research agents, memory governance, public accountability">
     <meta name="author" content="K Takahashi">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -14,14 +14,14 @@
     <link rel="sitemap" type="application/xml" href="https://kadubon.github.io/github.io/sitemap.xml">
     <link rel="describedby" type="text/plain" href="https://kadubon.github.io/github.io/CITATION.cff">
     <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
-    <meta property="og:title" content="Research Map | Site-Wide Theory Stack">
-    <meta property="og:description" content="Canonical site-wide synthesis page mapping the research stack across foundations, semantics, verification, long-running agents, transfer, deployment, governance, and public accountability.">
+    <meta property="og:title" content="Research Map: Auditable AI, No-Meta Governance, CGT, and Research Agents">
+    <meta property="og:description" content="Human-readable site-wide map for auditable autonomous intelligence, no-meta governance, observable evidence, CGT, claim certification, and AI research agents.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kadubon.github.io/github.io/research-map.html">
     <meta property="og:site_name" content="K. Takahashi Research Hub">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Research Map | Site-Wide Theory Stack">
-    <meta name="twitter:description" content="Canonical site-wide synthesis page for the research program on auditable autonomous intelligence, transfer, governance, and deployment.">
+    <meta name="twitter:title" content="Research Map: Auditable AI, No-Meta Governance, CGT, and Research Agents">
+    <meta name="twitter:description" content="A human-readable map of the research stack across no-meta governance, replay, long-running agents, CGT, claim certification, and reference implementations.">
     <link rel="stylesheet" href="style.css">
     <style>
         .hero p,
@@ -171,6 +171,21 @@
             padding: 1rem;
         }
 
+        .structured-summary {
+            margin-top: 1rem;
+        }
+
+        .structured-summary summary {
+            cursor: pointer;
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+        }
+
+        .meta-line {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
         .route-card ol {
             margin: 0.35rem 0 0;
             padding-left: 1.25rem;
@@ -198,10 +213,10 @@
           ],
           "@id": "https://kadubon.github.io/github.io/research-map.html#webpage",
           "url": "https://kadubon.github.io/github.io/research-map.html",
-          "name": "Research Map | Site-Wide Theory Stack",
-          "description": "Canonical site-wide synthesis page mapping how the site's foundations, semantics, verification, long-running agents, transfer, deployment, governance, and public accountability layers fit together.",
+          "name": "Research Map: Auditable AI, No-Meta Governance, CGT, and Research Agents",
+          "description": "Human-readable research map for K. Takahashi's work on auditable autonomous intelligence, no-meta governance, observable evidence, long-running agents, CGT, claim certification, and AI research agents.",
           "inLanguage": "en",
-          "dateModified": "2026-04-25",
+          "dateModified": "2026-05-22",
           "isPartOf": {
             "@id": "https://kadubon.github.io/github.io/#website"
           },
@@ -213,7 +228,19 @@
           },
           "breadcrumb": {
             "@id": "https://kadubon.github.io/github.io/research-map.html#breadcrumbs"
-          }
+          },
+          "significantLink": [
+            "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+            "https://kadubon.github.io/github.io/constraint-generative-theory-index.html",
+            "https://kadubon.github.io/github.io/works.html",
+            "https://github.com/kadubon/oasg",
+            "https://github.com/kadubon/cimt-kernel",
+            "https://github.com/kadubon/certified-memory-governance-layer",
+            "https://github.com/kadubon/no-meta-standing-ledger",
+            "https://github.com/kadubon/cgt-marker",
+            "https://github.com/kadubon/cgt-availability",
+            "https://github.com/kadubon/cgt-bandwidth-dynamics"
+          ]
         },
         {
           "@type": "ItemList",
@@ -308,6 +335,7 @@
                 <li><a aria-current="page" href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
                 <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
                 <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta Index</a></li>
+                <li><a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">CGT Index</a></li>
             </ul>
         </nav>
     </header>
@@ -321,60 +349,437 @@
                         <li><span aria-current="page">Research Map</span></li>
                     </ol>
                 </nav>
-                <p class="eyebrow">Canonical Site-Wide Synthesis Page</p>
+                <p class="eyebrow">Site-Wide Research Map</p>
                 <h1>Research Map</h1>
                 <div class="summary-stack" aria-label="Top summary">
-                    <p>This page is the integrated map of the research program across foundations, persistent semantics, verification, long-running agents, transfer, deployment, governance, and public accountability.</p>
-                    <p>Use it as the site-wide coordination layer above the cluster pages and the full works index when you need the global structure, dependency arrows, canonical entry points, and upper-layer deployment or governance split.</p>
-                    <p>It is a navigation and synthesis page rather than a new theory paper.</p>
+                    <p>This page is the site-wide map of a research program on auditable autonomous intelligence: how AI systems, research agents, workflows, institutions, and scientific claims can remain checkable under finite evidence, ontology drift, long time horizons, and no privileged meta-judge.</p>
+                    <p>It connects the local clusters - no-meta governance, observable-only evidence, deterministic replay, long-running agents, claim certification, Constraint Generative Theory (CGT), transfer theory, and reference implementations - into one reading map.</p>
+                    <p>This is a navigation and synthesis page, not a new theory paper.</p>
                 </div>
-                <p class="subtitle">Executive map, dependency map, and theory stack overview for the site's research clusters and machine-readable entry points.</p>
+                <p class="subtitle">Use this page to understand the current research stack, the major clusters, the dependency flow, and the most useful entry points.</p>
+                <p class="meta-line">Last updated: <time datetime="2026-05-22">May 22, 2026</time>.</p>
             </header>
+
+            <section class="container section-copy" id="short-version" aria-labelledby="short-version-heading">
+                <h2 id="short-version-heading">In One Sentence</h2>
+                <p>In one sentence: this research map shows how the site's papers and OSS experiments fit into a stack for making AI-system claims, scientific claims, and deployment claims more auditable, replayable, bounded, and contestable.</p>
+            </section>
 
             <section class="container section-copy section-nav" aria-labelledby="section-guide-heading">
                 <h2 id="section-guide-heading">Section Guide</h2>
                 <ul>
                     <li><a href="#why-this-page-exists">Why This Page Exists</a></li>
-                    <li><a href="#canonical-yaml-map">Canonical YAML Map</a></li>
-                    <li><a href="#core-stack">Core Stack / Major Pillars</a></li>
+                    <li><a href="#program-studies">What This Research Program Studies</a></li>
+                    <li><a href="#how-to-use-map">How to Use This Map</a></li>
+                    <li><a href="#current-map-glance">Current Map at a Glance</a></li>
+                    <li><a href="#core-stack">Major Pillars</a></li>
+                    <li><a href="#cross-cutting-lenses">Cross-Cutting Lenses</a></li>
                     <li><a href="#dependency-map">Dependency Map</a></li>
-                    <li><a href="#read-paths">Read Paths by Audience</a></li>
-                    <li><a href="#entry-points">Entry Points and Machine-Readable Navigation</a></li>
-                    <li><a href="#non-goals">Non-Goals / Boundary Conditions</a></li>
+                    <li><a href="#read-paths">Reading Paths by Audience</a></li>
+                    <li><a href="#related-oss">Related OSS and Reference Implementations</a></li>
+                    <li><a href="#entry-points">Related Pages and Entry Points</a></li>
+                    <li><a href="#non-goals">What This Map Is Not</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#canonical-yaml-map">Structured Metadata Appendix</a></li>
                 </ul>
             </section>
 
             <section class="container section-copy" id="why-this-page-exists" aria-labelledby="why-heading">
                 <h2 id="why-heading">Why This Page Exists</h2>
-                <p>The site already contains multiple cluster pages and a full works index. Those pages explain local topics and expose paper-level links, but they do not by themselves provide a single stack-level map of how the clusters depend on one another.</p>
-                <p>This page supplies that missing synthesis layer. It states what problem each major pillar addresses, which pillars are foundational versus upper-layer or deployment-facing, and where new readers should begin before moving into the local cluster pages or the full publication list.</p>
+                <p>The site contains many papers, cluster pages, and implementation-facing repositories. Those materials are easier to understand when they are read as a connected research program rather than as isolated publications.</p>
+                <p>This page supplies the site-level map: the core problem, the major layers, the cross-cutting theories, the reading order, the boundaries, and the current entry points for readers who need a concise orientation before moving into papers or repositories.</p>
+            </section>
+
+            <section class="container section-copy" id="program-studies" aria-labelledby="program-studies-heading">
+                <h2 id="program-studies-heading">What This Research Program Studies</h2>
+                <p>The program studies what can be trusted, certified, transferred, or released when intelligence is long-running, partially observed, self-modifying, socially embedded, and evaluated under finite evidence. Instead of assuming ideal evaluators or hidden semantic access, many papers route claims through observable records, replayable traces, bounded certificates, support ledgers, and fail-closed controls.</p>
+                <p>The recurring question is how AI safety, AI governance, autonomous agents, research agents, audit logs, deterministic replay, ontology drift, memory governance, claim certification, public accountability, scientific availability, and deployment evaluation can be organized without silently upgrading unsupported claims into stronger ones.</p>
+            </section>
+
+            <section class="container section-copy" id="how-to-use-map" aria-labelledby="how-to-use-heading">
+                <h2 id="how-to-use-heading">How to Use This Map</h2>
+                <ul class="machine-list">
+                    <li>Use <a href="https://kadubon.github.io/github.io/research-map.html">research-map.html</a> for the global structure and dependency flow.</li>
+                    <li>Use <a href="https://kadubon.github.io/github.io/works.html">works.html</a> as the complete publication index with stable anchors and DOI links.</li>
+                    <li>Use <a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a> for the no-meta / observable-only series on governance without privileged meta-judges.</li>
+                    <li>Use <a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">constraint-generative-theory-index.html</a> for the CGT series on claims, reports, support, scientific availability, and abstention.</li>
+                    <li>Use the repository links as implementation-facing companions and reference experiments, not as complete implementations of the full theory stack.</li>
+                </ul>
+            </section>
+
+            <section class="container section-copy" id="current-map-glance" aria-labelledby="current-map-heading">
+                <h2 id="current-map-heading">Current Map at a Glance</h2>
                 <div class="card-grid">
                     <article class="panel-card">
-                        <h3>What This Page Is</h3>
-                        <p>A site-wide coordination and navigation layer for human readers, policy readers, engineers, AI agents, and parsers.</p>
-                        <p>A compact statement of the research stack, the main dependency arrows, and the canonical entry pages for each pillar.</p>
+                        <h3>Formal Foundations and Persistence</h3>
+                        <p>How systems, translations, persistent objects, and self-organizing intelligence are framed before later governance claims are made.</p>
                     </article>
                     <article class="panel-card">
-                        <h3>What This Page Is Not</h3>
-                        <p>Not a replacement for the cluster pages, not a complete publication list, and not a survey of external literature.</p>
-                        <p>Not a claim that the site has solved governance, alignment, or deployment in full. It only maps the local research program and its stated dependencies.</p>
+                        <h3>Ontology Drift and Provenance</h3>
+                        <p>How meanings, records, and interfaces remain comparable, or stop being comparable, under observer change and long-horizon drift.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Verification and Auditability</h3>
+                        <p>How AI-system and research claims are checked through replay, logs, certificates, confidence processes, and fail-closed rules.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Long-Running Agents</h3>
+                        <p>How memory, context limits, recursive improvement, multi-agent routing, and delayed verification affect autonomous operation.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>No-Meta / Observable-Only Governance</h3>
+                        <p>How authority, claim release, public standing, and accountability work when no unchallengeable external evaluator is assumed.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Constraint Generative Theory</h3>
+                        <p>How reports, typed constraints, support conditions, availability, and abstention are read through generated effect profiles.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Transfer and Deployment</h3>
+                        <p>How small-scale evidence, institution-crossing transport, and frontier deployment claims are bounded before release decisions.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Reference Implementations</h3>
+                        <p>How selected fragments are explored in OSS without claiming that the repositories implement the whole research stack.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" id="core-stack" aria-labelledby="core-stack-heading">
+                <h2 id="core-stack-heading">Major Pillars</h2>
+                <p class="cluster-note">The stack below is ordered from foundational layers to upper-layer transfer, deployment, governance, and accountability layers. The pillars are not a claim of completion; they are a reading map for the local research program.</p>
+                <div class="pillar-grid">
+                    <article class="pillar-card" id="pillar-foundations" data-pillar-id="foundations-translation-persistence">
+                        <h3>1. Formal Foundations, Translation, and Persistence</h3>
+                        <p class="pillar-layer">Layer: foundational</p>
+                        <p><strong>What this solves:</strong> It supplies the formal language for self-organizing intelligence, persistence conditions, and translation across frameworks.</p>
+                        <p><strong>Why it matters:</strong> Claims about agent structure, self-improvement, or cross-system comparison become unstable when the objects being compared and the transport assumptions behind them are left implicit.</p>
+                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">Self-Improving Intelligence Foundations</a></p>
+                        <ul class="representative-list">
+                            <li><a href="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">Theory Translation and Comparative Mathematics</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">Propagation, Front Dynamics, and Persistence</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2025-07-25-computational-autopoiesis-a-new-architecture-for-16416998">Computational Autopoiesis: A New Architecture for Autonomous AI</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2025-07-25-a-category-theoretic-framework-for-a-self-organi-16417130">A Category-Theoretic Framework for a Self-Organizing World Model in Artificial Intelligence</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="pillar-card" id="pillar-semantics" data-pillar-id="semantics-ontology-drift-provenance">
+                        <h3>2. Persistent Semantics, Ontology Drift, and Provenance</h3>
+                        <p class="pillar-layer">Layer: foundational-interpretive</p>
+                        <p><strong>What this solves:</strong> It asks when claims, records, interfaces, and meanings remain comparable, or fail to remain comparable, under observer change, ontology drift, or record absence.</p>
+                        <p><strong>Why it matters:</strong> Long-running agents, public audits, and deployment claims depend on provenance and semantic continuity that can be checked rather than merely assumed.</p>
+                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information and Observer-Modifying Dynamics</a></p>
+                        <ul class="representative-list">
+                            <li><a href="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">Provenance, Records, and Semantic Interfaces</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-02-16-no-meta-intelligence-under-ontology-drift-inform-18653537">No-Meta Intelligence Under Ontology Drift</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-26-a-symbolically-effective-contract-calculus-for-g-19231780">A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-28-record-absence-and-preference-reorganization-on--19272154">Record Absence and Preference Reorganization on a Fixed Comparison Frame</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="pillar-card" id="pillar-verification" data-pillar-id="verification-auditability-evaluation-bounds">
+                        <h3>3. Verification, Auditability, and Evaluation Bounds</h3>
+                        <p class="pillar-layer">Layer: measurement and control</p>
+                        <p><strong>What this solves:</strong> This pillar asks how an AI-system or research claim can be checked from logs, replay, certificates, confidence processes, or bounded evaluation protocols, rather than from informal assurance.</p>
+                        <p><strong>Why it matters:</strong> Progress claims about frontier systems are weak if they cannot be reconstructed, audited, bounded, or withheld when the required evidence is missing.</p>
+                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></p>
+                        <ul class="representative-list">
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-03-metrology-theoretic-epistemics-engine-mte-observ-18845340">Metrology-Theoretic Epistemics Engine (MTE)</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-18-counterfactually-auditable-lifecycle-certificati-19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-12-oversight-centered-metrology-and-control-for-age-18973272">Oversight-Centered Metrology and Control for Agentic Systems</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-11-ai-benchmark-half-life-in-recursive-corpora-a-th-18954286">AI Benchmark Half-Life in Recursive Corpora</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="pillar-card" id="pillar-agents" data-pillar-id="long-running-agents-memory-multi-agent-operation">
+                        <h3>4. Long-Running Agents, Memory Limits, and Multi-Agent Operation</h3>
+                        <p class="pillar-layer">Layer: operational</p>
+                        <p><strong>What this solves:</strong> It studies persistent agent behavior under finite active context, lossy memory, delayed verification, self-modification pressure, and multi-agent decomposition.</p>
+                        <p><strong>Why it matters:</strong> Deployment-relevant autonomy is long-horizon. One-shot benchmarks do not determine what a persistent agent can remember, verify, route, or repair after many updates, resets, and handoffs.</p>
+                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</a></p>
+                        <ul class="representative-list">
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-08-search-stability-under-finite-context-a-minimal--18905242">Search Stability under Finite Context</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-10-when-should-inference-be-split-a-fixed-budget-th-18932509">When Should Inference Be Split?</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-16-recursive-self-improvement-stability-under-endog-19044634">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-03-when-should-a-local-agent-act-assist-verify-with-19394600">When Should a Local Agent Act, Assist, Verify, Withdraw, or Exit?</a></li>
+                        </ul>
+                    </article>
+
+                    <article class="pillar-card" id="pillar-upper-layer" data-pillar-id="transfer-deployment-governance-accountability">
+                        <h3>5. Transfer, Deployment, Governance, and Public Accountability</h3>
+                        <p class="pillar-layer">Layer: upper-layer</p>
+                        <p><strong>What this solves:</strong> It connects earlier layers to transfer criteria, deployment decisions, authority migration, claim certification and release, public standing, and observable-only accountability.</p>
+                        <p><strong>Why it matters:</strong> Local technical gains do not justify deployment by themselves. Upper-layer claims need transfer validity, release discipline, public evidence, and clear boundaries on what has actually been certified.</p>
+                        <p><strong>Transfer / deployment focus:</strong> Small-to-frontier transfer, frontier escalation, institution-crossing transport, and deployment-relevant evaluation.</p>
+                        <p><strong>Governance / accountability focus:</strong> No-meta certification, public standing, authority migration, release control, and observable-only governance.</p>
+                        <p class="pillar-flagship">Governance flagship: <a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></p>
+                        <p class="pillar-flagship">Adjacent claim-support lens: <a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">Constraint Generative Theory (CGT) Series Index</a></p>
+                        <p class="pillar-flagship">Authority migration entry point: <a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></p>
+                        <p class="pillar-flagship">Transfer / deployment flagship: <a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></p>
+                        <p class="pillar-subheading">Governance and accountability pages</p>
+                        <ul class="representative-list">
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-01-constitutional-observable-invention-without-meta-19363526">Constitutional Observable Invention without Meta-Evaluators</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818">A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443">Standing-Layer Honest Public Standing Dynamics for Research Claims</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></li>
+                        </ul>
+                        <p class="pillar-subheading">Transfer and deployment pages</p>
+                        <ul class="representative-list">
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364">Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" id="cross-cutting-lenses" aria-labelledby="cross-cutting-heading">
+                <h2 id="cross-cutting-heading">Cross-Cutting Lenses</h2>
+                <p>Some theories operate across multiple pillars rather than belonging to only one layer. They help read claims, evidence boundaries, release conditions, and deployment implications across the stack.</p>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3><a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">Constraint Generative Theory (CGT): Claims, Reports, Support, and Scientific Availability</a></h3>
+                        <p>CGT is a viewpoint-oriented meta-theory for reading what a report, model output, audit log, measurement, or scientific statement is allowed to support. It separates report equality from effect-profile equality and treats availability, support, and abstention as explicit diagnostic objects.</p>
+                        <p><strong>Boundary:</strong> CGT is not a replacement for physics, logic, category theory, AI theory, or a complete software stack. It is a way to read claim-support relations under declared constraints.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only</a></h3>
+                        <p>This lens asks what can be governed, replayed, certified, challenged, or withheld when no privileged external meta-judge is assumed.</p>
+                        <p><strong>Boundary:</strong> It does not remove human judgment or solve all AI governance; it frames governance under declared observable evidence.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Auditability / Replay / Fail-Closed Control</h3>
+                        <p>This lens treats audit logs, deterministic replay, certificates, and fail-closed gates as practical ways to prevent unsupported upgrades of claims or actions.</p>
+                        <p><strong>Boundary:</strong> Replay is evidence about a recorded process, not unrestricted proof of truth or safety.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Transfer / Deployment Validity</h3>
+                        <p>This lens asks what small-scale evidence, benchmark evidence, or institution-relative evidence can support about frontier or deployment settings.</p>
+                        <p><strong>Boundary:</strong> Transfer remains bounded by declared assumptions, evidence channels, and transport limits.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Research-Agent Claim Certification</h3>
+                        <p>This lens studies how AI research agents and AI scientist workflows can release, withhold, downgrade, or certify claims under finite verification capacity.</p>
+                        <p><strong>Boundary:</strong> It supports auditability and abstention; it does not automate all scientific judgment.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" id="dependency-map" aria-labelledby="dependency-heading">
+                <h2 id="dependency-heading">Dependency Map</h2>
+                <p>This section states directional dependencies rather than publication chronology. The arrows show which lower layers constrain the interpretation or admissibility of higher-layer claims; the cross-cutting lenses can be applied across those arrows.</p>
+                <ul class="dependency-list">
+                    <li><strong>Formal foundations, translation, and persistence -&gt; persistent semantics, ontology drift, and provenance.</strong> Translation and persistence results constrain what can still count as the same object, record, or interface when meanings drift.</li>
+                    <li><strong>Formal foundations, translation, and persistence -&gt; verification, auditability, and evaluation bounds.</strong> Audit and evaluation rules depend on explicit object boundaries, transport assumptions, and persistence conditions.</li>
+                    <li><strong>Persistent semantics, ontology drift, and provenance -&gt; verification, auditability, and evaluation bounds.</strong> Replay, certification, and benchmarking only remain meaningful when the claims and records being checked have stable enough interpretations.</li>
+                    <li><strong>Verification, auditability, and evaluation bounds -&gt; long-running agents, memory limits, and multi-agent operation.</strong> Persistent agents need replay surfaces, validity checks, and bounded credit rules before memory compression, routing, or delegation can be trusted.</li>
+                    <li><strong>Persistent semantics, ontology drift, and provenance -&gt; transfer, deployment, governance, and public accountability.</strong> Governance and deployment cannot remain stable if meanings, records, or institutional interfaces drift without provenance controls.</li>
+                    <li><strong>Verification, auditability, and evaluation bounds -&gt; transfer, deployment, governance, and public accountability.</strong> Release, certification, and deployment claims require replayable evidence and explicit evaluation bounds rather than informal confidence.</li>
+                    <li><strong>Long-running agents, memory limits, and multi-agent operation -&gt; transfer, deployment, governance, and public accountability.</strong> Deployment rules depend on what persistent agent systems can actually remember, coordinate, and verify over long horizons.</li>
+                </ul>
+            </section>
+
+            <section class="container section-copy" id="read-paths" aria-labelledby="read-paths-heading">
+                <h2 id="read-paths-heading">Reading Paths by Audience</h2>
+                <div class="route-grid">
+                    <article class="route-card">
+                        <h3>First-Time Human Reader</h3>
+                        <p class="route-audience">Use this path for a compact orientation before reading papers.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">Constraint Generative Theory (CGT) Series Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>AI Governance / Safety Reader</h3>
+                        <p class="route-audience">Use this path for no-meta governance, fail-closed verification, and public accountability.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818">A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>Engineer / Systems Builder</h3>
+                        <p class="route-audience">Use this path if your main question is how to build or constrain persistent agent systems.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">Provenance, Records, and Semantic Interfaces</a></li>
+                            <li><a href="https://github.com/kadubon/oasg">OASG repository</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>Autonomous Research Agent / AI Scientist Reader</h3>
+                        <p class="route-audience">Use this path for claim release, finite verification, and research automation.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818">Typed Dynamic No-Meta Claim Certification and Release</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443">Standing-Layer Honest Public Standing Dynamics</a></li>
+                            <li><a href="https://github.com/kadubon/no-meta-standing-ledger">no-meta-standing-ledger</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>CGT / Claim-Support Reader</h3>
+                        <p class="route-audience">Use this path if your main question is how reports differ from supported claims.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">Constraint Generative Theory Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440">Scientific Availability and CGT papers via Works</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>Implementation / OSS Reader</h3>
+                        <p class="route-audience">Use this path for reference experiments and implementation-facing companions.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Index</a></li>
+                            <li><a href="#related-oss">Related OSS section</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>Policy / Deployment Reader</h3>
+                        <p class="route-audience">Use this path for transfer, release, authority migration, and public standing.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364">Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></li>
+                        </ol>
+                    </article>
+                    <article class="route-card">
+                        <h3>Formal Foundations Reader</h3>
+                        <p class="route-audience">Use this path if you want the formal stack before governance or deployment layers.</p>
+                        <ol>
+                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">Self-Improving Intelligence Foundations</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">Theory Translation and Comparative Mathematics</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">Propagation, Front Dynamics, and Persistence</a></li>
+                            <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information and Observer-Modifying Dynamics</a></li>
+                        </ol>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" id="related-oss" aria-labelledby="related-oss-heading">
+                <h2 id="related-oss-heading">Related OSS and Reference Implementations</h2>
+                <p>Several repositories explore implementation-facing fragments of the research program. They are reference experiments and partial companions, not complete implementations of the full theory stack.</p>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3>Governance / Observable-Only Workflows</h3>
+                        <ul class="representative-list">
+                            <li><strong><a href="https://github.com/kadubon/oasg">OASG</a></strong>: observable-only autonomic slack-gradient workflow experiments for long-running AI-agent systems. <strong>Use this for:</strong> observable workflow-policy optimization and ledger-style control experiments. <strong>Boundary:</strong> not a full governance stack.</li>
+                            <li><strong><a href="https://github.com/kadubon/no-meta-standing-ledger">no-meta-standing-ledger</a></strong>: a local-first public standing ledger for replayable research and AI-system claims. <strong>Use this for:</strong> public standing, challenge, lineage, and finite verification-capacity experiments. <strong>Boundary:</strong> public standing is not unrestricted truth.</li>
+                        </ul>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Memory and Long-Running Agents</h3>
+                        <ul class="representative-list">
+                            <li><strong><a href="https://github.com/kadubon/certified-memory-governance-layer">certified-memory-governance-layer</a></strong>: certified memory governance with append-only ledgers, authority gates, retrieval filtering, and telemetry replay. <strong>Use this for:</strong> memory receipts, replayable telemetry, and retrieval-governance experiments. <strong>Boundary:</strong> memory governance support, not a guarantee of semantic continuity.</li>
+                        </ul>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Affordance and LLM-Integrated Systems</h3>
+                        <ul class="representative-list">
+                            <li><strong><a href="https://github.com/kadubon/cimt-kernel">cimt-kernel</a></strong>: reference kernel for CIMT-style no-meta, observable-only certification machinery. <strong>Use this for:</strong> affordance compilation, certification kernels, and runtime-checking interfaces. <strong>Boundary:</strong> a kernel-level reference, not a full agent architecture.</li>
+                        </ul>
+                    </article>
+                    <article class="panel-card">
+                        <h3>CGT Companions</h3>
+                        <ul class="representative-list">
+                            <li><strong><a href="https://github.com/kadubon/cgt-marker">cgt-marker</a></strong>: marker-oriented CGT records and diagnostic-status representation. <strong>Use this for:</strong> thinking about marker records, retained diagnostic status, and observable trace design. <strong>Boundary:</strong> not a complete CGT implementation.</li>
+                            <li><strong><a href="https://github.com/kadubon/cgt-availability">cgt-availability</a></strong>: availability-oriented CGT companion for report/support separation and abstention-aware claim handling. <strong>Use this for:</strong> scientific availability, claim status, and support-condition experiments. <strong>Boundary:</strong> not a universal scientific verifier.</li>
+                            <li><strong><a href="https://github.com/kadubon/cgt-bandwidth-dynamics">cgt-bandwidth-dynamics</a></strong>: implementation-facing experiments around bandwidth, support completion, residual effects, and release-style reasoning. <strong>Use this for:</strong> bandwidth and residual-effect reasoning. <strong>Boundary:</strong> not a full software stack for CGT.</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container section-copy" id="entry-points" aria-labelledby="entry-points-heading">
+                <h2 id="entry-points-heading">Related Pages and Entry Points</h2>
+                <ul class="machine-list">
+                    <li><a href="https://kadubon.github.io/github.io/">Home</a>: top-level profile and entry point.</li>
+                    <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a>: this site-wide synthesis page.</li>
+                    <li><a href="https://kadubon.github.io/github.io/works.html">Works</a>: complete publication index with stable anchors, abstracts, DOI links, and publication metadata.</li>
+                    <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a>: series guide for observable-only governance, auditability, and fail-closed claim release.</li>
+                    <li><a href="https://kadubon.github.io/github.io/constraint-generative-theory-index.html">Constraint Generative Theory (CGT) Series Index</a>: series guide for claims, reports, support, scientific availability, and abstention.</li>
+                    <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a>: cluster page for certification, replay, and fail-closed control.</li>
+                    <li><a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</a>: cluster page for persistent operation under bounded context.</li>
+                    <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a> and <a href="https://kadubon.github.io/github.io/llms-full.txt">llms-full.txt</a>: additional plain-text site guides.</li>
+                    <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>, <a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>, and <a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a>: update feed, citation metadata, and sitemap.</li>
+                </ul>
+            </section>
+
+            <section class="container section-copy" id="non-goals" aria-labelledby="non-goals-heading">
+                <h2 id="non-goals-heading">What This Map Is Not</h2>
+                <ul class="machine-list">
+                    <li>Not a new theory paper or a replacement for the original papers and cluster pages.</li>
+                    <li>Not the complete publication inventory; use <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for that function.</li>
+                    <li>Not a complete external literature survey or a ranking of research areas.</li>
+                    <li>Not proof that all layers are solved, complete, or deployment-ready.</li>
+                    <li>Not a claim that the OSS repositories implement all theories in the research program.</li>
+                    <li>Not an AI-search optimization page or a marketing page.</li>
+                </ul>
+            </section>
+
+            <section class="container section-copy" id="faq" aria-labelledby="faq-heading">
+                <h2 id="faq-heading">FAQ</h2>
+                <div class="card-grid">
+                    <article class="panel-card">
+                        <h3>What is this research map for?</h3>
+                        <p>It gives a site-wide orientation to the local research program: major clusters, dependency flow, reading paths, boundaries, and current entry points.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Where should a first-time reader start?</h3>
+                        <p>Start with this page, then read the No-Meta / Observable-Only Index, the CGT Index, and the complete Works index as needed.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What is the difference between research-map.html and works.html?</h3>
+                        <p><code>research-map.html</code> explains structure and dependencies. <code>works.html</code> is the full publication list with paper-level anchors and DOI links.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What is the difference between the No-Meta Index and the CGT Index?</h3>
+                        <p>The No-Meta Index focuses on observable-only governance without privileged meta-judges. The CGT Index focuses on how reports, constraints, support, availability, and abstention shape claim reading.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>Are the repositories complete implementations?</h3>
+                        <p>No. They are partial companions and reference experiments for selected fragments of the theory stack.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>What is the main research theme?</h3>
+                        <p>The common theme is how AI-system claims, scientific claims, and deployment claims can remain auditable, bounded, reproducible, and contestable under finite evidence.</p>
+                    </article>
+                    <article class="panel-card">
+                        <h3>How should AI research agents use this page?</h3>
+                        <p>Use the visible explanations first to avoid over-reading the map, then use the structured appendix, works index, and series pages for stable links and metadata.</p>
                     </article>
                 </div>
             </section>
 
             <section class="container section-copy" id="canonical-yaml-map" aria-labelledby="yaml-heading">
-                <h2 id="yaml-heading">Canonical YAML Map</h2>
-                <p class="index-note">This visible YAML block is the primary machine-readable summary for the site-wide map.</p>
-                <p class="index-note">It is intentionally compact and structural so the richer interpretation remains in the HTML sections below.</p>
-                <p class="index-note">The JSON-LD in the head is limited to page, breadcrumb, and pillar-list metadata and does not imply a separate YAML file.</p>
-                <pre id="canonical-synthesis-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="site-wide-research-map" data-last-updated="2026-04-25" aria-label="Canonical YAML map for the site-wide research stack">page:
+                <h2 id="yaml-heading">Structured Metadata Appendix</h2>
+                <p class="index-note">The structured summary below supports citation, indexing, and research-agent navigation. The human-readable guide above is the main reading surface.</p>
+                <details class="structured-summary">
+                    <summary>Structured summary for citation, indexing, and research-agent use</summary>
+                    <pre id="canonical-synthesis-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="site-wide-research-map" data-last-updated="2026-05-22" aria-label="Structured YAML map for the site-wide research stack">page:
   id: research-map
   title: "Research Map"
   canonical_url: https://kadubon.github.io/github.io/research-map.html
   page_type: site-wide-synthesis
-  role: cross-cluster navigation and dependency map
-  updated: 2026-04-25
-  primary_machine_summary_anchor: "#canonical-synthesis-yaml"
+  role: "human-readable cross-cluster navigation and dependency map"
+  updated: 2026-05-22
+  structured_summary_anchor: "#canonical-synthesis-yaml"
 
 pillars:
   - id: foundations-translation-persistence
@@ -412,297 +817,170 @@ pillars:
     title: "Transfer, Deployment, Governance, and Public Accountability"
     flagship_pages:
       - https://kadubon.github.io/github.io/no-meta-observable-index.html
+      - https://kadubon.github.io/github.io/constraint-generative-theory-index.html
       - https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480
       - https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529
+
+cross_cutting_lenses:
+  - id: no-meta-observable-only
+    title: "No-Meta / Observable-Only"
+    url: https://kadubon.github.io/github.io/no-meta-observable-index.html
+    role: "governance under observable evidence without privileged meta-judges"
+  - id: cgt
+    title: "Constraint Generative Theory"
+    url: https://kadubon.github.io/github.io/constraint-generative-theory-index.html
+    role: "claim-support reading through typed constraint effects, reports, availability, and abstention"
+  - id: auditability-replay-fail-closed
+    title: "Auditability / Replay / Fail-Closed Control"
+    url: https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
+    role: "bounded verification through logs, replay, certificates, and fail-closed gates"
+  - id: long-running-agent-memory
+    title: "Long-Running Agent Memory"
+    url: https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html
+    role: "persistent autonomy under context, memory, and coordination limits"
+  - id: transfer-deployment-validity
+    title: "Transfer / Deployment Validity"
+    url: https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480
+    role: "bounded transport from small-scale evidence to deployment claims"
 
 dependencies:
   - from: foundations-translation-persistence
     to: semantics-ontology-drift-provenance
-    constraint: semantic comparability under drift
+    constraint: "semantic comparability under drift"
   - from: foundations-translation-persistence
     to: verification-auditability-evaluation-bounds
-    constraint: explicit objects, transport, and persistence conditions
+    constraint: "explicit objects, transport, and persistence conditions"
   - from: semantics-ontology-drift-provenance
     to: verification-auditability-evaluation-bounds
-    constraint: auditability requires stable-enough claim and record interpretation
+    constraint: "auditability requires stable-enough claim and record interpretation"
   - from: verification-auditability-evaluation-bounds
     to: long-running-agents-memory-multi-agent-operation
-    constraint: persistent agents need replay, validity checks, and bounded credit
+    constraint: "persistent agents need replay, validity checks, and bounded credit"
   - from: semantics-ontology-drift-provenance
     to: transfer-deployment-governance-accountability
-    constraint: governance and deployment need provenance-stable interfaces
+    constraint: "governance and deployment need provenance-stable interfaces"
   - from: verification-auditability-evaluation-bounds
     to: transfer-deployment-governance-accountability
-    constraint: release and certification need replayable evidence and bounded evaluation
+    constraint: "release and certification need replayable evidence and bounded evaluation"
   - from: long-running-agents-memory-multi-agent-operation
     to: transfer-deployment-governance-accountability
-    constraint: deployment depends on long-horizon memory and coordination limits
+    constraint: "deployment depends on long-horizon memory and coordination limits"
 
 audience_paths:
   first_time_human_reader:
     - https://kadubon.github.io/github.io/
     - https://kadubon.github.io/github.io/research-map.html
     - https://kadubon.github.io/github.io/no-meta-observable-index.html
-    - https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
-    - https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
+    - https://kadubon.github.io/github.io/constraint-generative-theory-index.html
     - https://kadubon.github.io/github.io/works.html
+  ai_governance_safety_reader:
+    - https://kadubon.github.io/github.io/research-map.html
+    - https://kadubon.github.io/github.io/no-meta-observable-index.html
+    - https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
+    - https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818
+    - https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480
   engineer_systems_builder:
     - https://kadubon.github.io/github.io/research-map.html
     - https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
     - https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html
     - https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html
-    - https://kadubon.github.io/github.io/works.html#2026-03-03-metrology-theoretic-epistemics-engine-mte-observ-18845340
-    - https://kadubon.github.io/github.io/works.html#2026-03-18-counterfactually-auditable-lifecycle-certificati-19089134
-    - https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480
-    - https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529
-  policy_governance_reader:
+    - https://github.com/kadubon/oasg
+  autonomous_research_agent_reader:
     - https://kadubon.github.io/github.io/research-map.html
     - https://kadubon.github.io/github.io/no-meta-observable-index.html
-    - https://kadubon.github.io/github.io/works.html#2026-04-01-constitutional-observable-invention-without-meta-19363526
     - https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818
     - https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443
+    - https://github.com/kadubon/no-meta-standing-ledger
+  cgt_claim_support_reader:
+    - https://kadubon.github.io/github.io/research-map.html
+    - https://kadubon.github.io/github.io/constraint-generative-theory-index.html
+    - https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440
+    - https://kadubon.github.io/github.io/no-meta-observable-index.html
+    - https://kadubon.github.io/github.io/works.html
+  implementation_oss_reader:
+    - https://kadubon.github.io/github.io/research-map.html
+    - https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
+    - https://kadubon.github.io/github.io/no-meta-observable-index.html
+    - https://kadubon.github.io/github.io/research-map.html#related-oss
+    - https://kadubon.github.io/github.io/works.html
+  policy_deployment_reader:
+    - https://kadubon.github.io/github.io/research-map.html
+    - https://kadubon.github.io/github.io/no-meta-observable-index.html
     - https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364
     - https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480
     - https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529
-  ai_agent_machine_parser:
-    - https://kadubon.github.io/github.io/research-map.html#canonical-synthesis-yaml
-    - https://kadubon.github.io/github.io/no-meta-observable-index.html#canonical-series-yaml
-    - https://kadubon.github.io/github.io/llms.txt
-    - https://kadubon.github.io/github.io/llms-full.txt
-    - https://kadubon.github.io/github.io/works.html
-    - https://kadubon.github.io/github.io/sitemap.xml
-  foundations_first_researcher:
+  formal_foundations_reader:
     - https://kadubon.github.io/github.io/research-map.html
     - https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html
     - https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html
     - https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html
     - https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html
-    - https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html
+  research_agents_and_indexers:
+    - https://kadubon.github.io/github.io/research-map.html#canonical-synthesis-yaml
+    - https://kadubon.github.io/github.io/no-meta-observable-index.html#canonical-series-yaml
+    - https://kadubon.github.io/github.io/constraint-generative-theory-index.html#canonical-cgt-yaml
+    - https://kadubon.github.io/github.io/works.html
+    - https://kadubon.github.io/github.io/llms.txt
+    - https://kadubon.github.io/github.io/llms-full.txt
+    - https://kadubon.github.io/github.io/sitemap.xml
+
+related_oss:
+  role: "reference experiments and partial implementation-facing companions, not complete implementations"
+  repositories:
+    - id: oasg
+      title: "OASG"
+      type: "reference experiment"
+      url: https://github.com/kadubon/oasg
+      relates_to: "observable-only workflows, ledger-style control, and long-running AI-agent systems"
+    - id: no-meta-standing-ledger
+      title: "no-meta-standing-ledger"
+      type: "reference experiment"
+      url: https://github.com/kadubon/no-meta-standing-ledger
+      relates_to: "public standing, challenge, lineage, and finite verification-capacity experiments"
+    - id: certified-memory-governance-layer
+      title: "certified-memory-governance-layer"
+      type: "companion repository"
+      url: https://github.com/kadubon/certified-memory-governance-layer
+      relates_to: "memory receipts, replayable telemetry, retrieval governance, and authority gates"
+    - id: cimt-kernel
+      title: "cimt-kernel"
+      type: "companion repository"
+      url: https://github.com/kadubon/cimt-kernel
+      relates_to: "CIMT-style no-meta observable-only certification machinery"
+    - id: cgt-marker
+      title: "cgt-marker"
+      type: "CGT companion"
+      url: https://github.com/kadubon/cgt-marker
+      relates_to: "marker records, retained diagnostic status, and observable trace design"
+    - id: cgt-availability
+      title: "cgt-availability"
+      type: "CGT companion"
+      url: https://github.com/kadubon/cgt-availability
+      relates_to: "scientific availability, report/support separation, and abstention-aware claim handling"
+    - id: cgt-bandwidth-dynamics
+      title: "cgt-bandwidth-dynamics"
+      type: "CGT companion"
+      url: https://github.com/kadubon/cgt-bandwidth-dynamics
+      relates_to: "bandwidth, support completion, residual effects, and release-style reasoning"
 
 machine_entry_points:
   - https://kadubon.github.io/github.io/
   - https://kadubon.github.io/github.io/research-map.html
   - https://kadubon.github.io/github.io/works.html
   - https://kadubon.github.io/github.io/no-meta-observable-index.html
+  - https://kadubon.github.io/github.io/constraint-generative-theory-index.html
   - https://kadubon.github.io/github.io/llms.txt
   - https://kadubon.github.io/github.io/llms-full.txt
   - https://kadubon.github.io/github.io/feed.xml
   - https://kadubon.github.io/github.io/CITATION.cff
   - https://kadubon.github.io/github.io/sitemap.xml</pre>
-            </section>
-
-            <section class="container section-copy" id="core-stack" aria-labelledby="core-stack-heading">
-                <h2 id="core-stack-heading">Core Stack / Major Pillars</h2>
-                <p class="cluster-note">The stack below is ordered from foundational layers to upper-layer transfer, deployment, governance, and accountability layers.</p>
-                <ul class="orientation-list" aria-label="Layer orientation">
-                    <li>Foundational layers: formal foundations, translation, persistence, and drift-aware semantics.</li>
-                    <li>Constraint layers: verification, auditability, and evaluation bounds.</li>
-                    <li>Operational layer: long-running agents, memory limits, and multi-agent operation.</li>
-                    <li>Upper layer: transfer, deployment, governance, and public accountability.</li>
-                </ul>
-                <div class="pillar-grid">
-                    <article class="pillar-card" id="pillar-foundations" data-pillar-id="foundations-translation-persistence">
-                        <h3>1. Formal Foundations, Translation, and Persistence</h3>
-                        <p class="pillar-layer">Layer: foundational</p>
-                        <p><strong>What this solves:</strong> It supplies the formal language for self-organizing intelligence, persistence conditions, and translation across frameworks.</p>
-                        <p><strong>Why it matters:</strong> Claims about agent structure, self-improvement, or cross-system comparison remain unstable when the underlying objects and transport assumptions are left implicit.</p>
-                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">Self-Improving Intelligence Foundations</a></p>
-                        <ul class="representative-list">
-                            <li><a href="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">Theory Translation and Comparative Mathematics</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">Propagation, Front Dynamics, and Persistence</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2025-07-25-computational-autopoiesis-a-new-architecture-for-16416998">Computational Autopoiesis: A New Architecture for Autonomous AI</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2025-07-25-a-category-theoretic-framework-for-a-self-organi-16417130">A Category-Theoretic Framework for a Self-Organizing World Model in Artificial Intelligence</a></li>
-                        </ul>
-                    </article>
-
-                    <article class="pillar-card" id="pillar-semantics" data-pillar-id="semantics-ontology-drift-provenance">
-                        <h3>2. Persistent Semantics, Ontology Drift, and Provenance</h3>
-                        <p class="pillar-layer">Layer: foundational-interpretive</p>
-                        <p><strong>What this solves:</strong> It explains how claims, records, and interfaces remain comparable, or fail to remain comparable, under observer change, semantic drift, or record absence.</p>
-                        <p><strong>Why it matters:</strong> Frontier AI, autonomous systems, and public audits depend on meanings that survive drift and on interfaces whose provenance is explicit enough to be checked.</p>
-                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information and Observer-Modifying Dynamics</a></p>
-                        <ul class="representative-list">
-                            <li><a href="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">Provenance, Records, and Semantic Interfaces</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-02-16-no-meta-intelligence-under-ontology-drift-inform-18653537">No-Meta Intelligence Under Ontology Drift</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-26-a-symbolically-effective-contract-calculus-for-g-19231780">A Symbolically Effective Contract Calculus for Gluing-Coherent Semantic Translation</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-28-record-absence-and-preference-reorganization-on--19272154">Record Absence and Preference Reorganization on a Fixed Comparison Frame</a></li>
-                        </ul>
-                    </article>
-
-                    <article class="pillar-card" id="pillar-verification" data-pillar-id="verification-auditability-evaluation-bounds">
-                        <h3>3. Verification, Auditability, and Evaluation Bounds</h3>
-                        <p class="pillar-layer">Layer: measurement and control</p>
-                        <p><strong>What this solves:</strong> It specifies replayable evidence surfaces, lifecycle certification, bounded progress credit, and validity limits for evaluation under partial or delayed evidence.</p>
-                        <p><strong>Why it matters:</strong> Progress claims about frontier systems are weak if they cannot be reconstructed, audited, or bounded without relying on internal assurances.</p>
-                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></p>
-                        <ul class="representative-list">
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-03-metrology-theoretic-epistemics-engine-mte-observ-18845340">Metrology-Theoretic Epistemics Engine (MTE)</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-18-counterfactually-auditable-lifecycle-certificati-19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-12-oversight-centered-metrology-and-control-for-age-18973272">Oversight-Centered Metrology and Control for Agentic Systems</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-11-ai-benchmark-half-life-in-recursive-corpora-a-th-18954286">AI Benchmark Half-Life in Recursive Corpora</a></li>
-                        </ul>
-                    </article>
-
-                    <article class="pillar-card" id="pillar-agents" data-pillar-id="long-running-agents-memory-multi-agent-operation">
-                        <h3>4. Long-Running Agents, Memory Limits, and Multi-Agent Operation</h3>
-                        <p class="pillar-layer">Layer: operational</p>
-                        <p><strong>What this solves:</strong> It analyzes persistent agent behavior under finite active context, lossy memory, delayed verification, and agent decomposition.</p>
-                        <p><strong>Why it matters:</strong> Deployment-relevant autonomy is long-horizon. One-shot benchmarks do not determine what a persistent agent can retain, route, or verify after many updates, resets, and handoffs.</p>
-                        <p class="pillar-flagship">Flagship entry point: <a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</a></p>
-                        <ul class="representative-list">
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-08-search-stability-under-finite-context-a-minimal--18905242">Search Stability under Finite Context</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-10-when-should-inference-be-split-a-fixed-budget-th-18932509">When Should Inference Be Split?</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-16-recursive-self-improvement-stability-under-endog-19044634">Recursive Self-Improvement Stability under Endogenous Yardstick Drift</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-03-when-should-a-local-agent-act-assist-verify-with-19394600">When Should a Local Agent Act, Assist, Verify, Withdraw, or Exit?</a></li>
-                        </ul>
-                    </article>
-
-                    <article class="pillar-card" id="pillar-upper-layer" data-pillar-id="transfer-deployment-governance-accountability">
-                        <h3>5. Transfer, Deployment, Governance, and Public Accountability</h3>
-                        <p class="pillar-layer">Layer: upper-layer</p>
-                        <p><strong>What this solves:</strong> It turns the earlier layers into transfer criteria, deployment decisions, claim certification, release control, institutional transport, and public accountability rules.</p>
-                        <p><strong>Why it matters:</strong> Local technical gains do not justify deployment by themselves. Upper-layer decisions still need transfer validity, release discipline, and public evidence-bearing accountability.</p>
-                        <p><strong>Transfer / deployment focus:</strong> Small-to-frontier transfer, frontier escalation, and institution-crossing deployment decisions.</p>
-                        <p><strong>Governance / accountability focus:</strong> No-meta certification, authority migration, release control, public standing, and observable-only accountability.</p>
-                        <p class="pillar-flagship">Governance flagship: <a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></p>
-                        <p class="pillar-flagship">Authority migration entry point: <a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></p>
-                        <p class="pillar-flagship">Transfer / deployment flagship: <a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></p>
-                        <p class="pillar-subheading">Governance and accountability pages</p>
-                        <ul class="representative-list">
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-01-constitutional-observable-invention-without-meta-19363526">Constitutional Observable Invention without Meta-Evaluators</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818">A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443">Standing-Layer Honest Public Standing Dynamics for Research Claims</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></li>
-                        </ul>
-                        <p class="pillar-subheading">Transfer and deployment pages</p>
-                        <ul class="representative-list">
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364">Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></li>
-                        </ul>
-                    </article>
-                </div>
-            </section>
-
-            <section class="container section-copy" id="dependency-map" aria-labelledby="dependency-heading">
-                <h2 id="dependency-heading">Dependency Map</h2>
-                <p>This section states directional dependencies rather than publication chronology. The arrows show which lower layers constrain the interpretation or admissibility of higher-layer claims.</p>
-                <ul class="dependency-list">
-                    <li><strong>Formal foundations, translation, and persistence -&gt; persistent semantics, ontology drift, and provenance.</strong> Translation and persistence results constrain what can still count as the same object, record, or interface when semantics drift.</li>
-                    <li><strong>Formal foundations, translation, and persistence -&gt; verification, auditability, and evaluation bounds.</strong> Audit and evaluation rules depend on explicit object boundaries, transport assumptions, and persistence conditions.</li>
-                    <li><strong>Persistent semantics, ontology drift, and provenance -&gt; verification, auditability, and evaluation bounds.</strong> Replay, certification, and benchmarking only remain meaningful when the claims and records being checked still have stable enough interpretations.</li>
-                    <li><strong>Verification, auditability, and evaluation bounds -&gt; long-running agents, memory limits, and multi-agent operation.</strong> Persistent agents need replay surfaces, validity checks, and bounded credit rules before memory compression, routing, or delegation can be trusted.</li>
-                    <li><strong>Persistent semantics, ontology drift, and provenance -&gt; transfer, deployment, governance, and public accountability.</strong> Governance and deployment cannot remain stable if meanings, records, or institutional interfaces drift without provenance controls.</li>
-                    <li><strong>Verification, auditability, and evaluation bounds -&gt; transfer, deployment, governance, and public accountability.</strong> Release, certification, and deployment claims require replayable evidence and explicit evaluation bounds rather than informal confidence.</li>
-                    <li><strong>Long-running agents, memory limits, and multi-agent operation -&gt; transfer, deployment, governance, and public accountability.</strong> Deployment rules depend on what persistent agent systems can actually remember, coordinate, and verify over long horizons.</li>
-                </ul>
-            </section>
-
-            <section class="container section-copy" id="read-paths" aria-labelledby="read-paths-heading">
-                <h2 id="read-paths-heading">Read Paths by Audience</h2>
-                <div class="route-grid">
-                    <article class="route-card">
-                        <h3>First-Time Human Reader</h3>
-                        <p class="route-audience">Use this path if you need a compact orientation before reading papers.</p>
-                        <ol>
-                            <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information and Observer-Modifying Dynamics</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
-                        </ol>
-                    </article>
-
-                    <article class="route-card">
-                        <h3>Engineer / Systems Builder</h3>
-                        <p class="route-audience">Use this path if your main question is how to build or constrain persistent agent systems.</p>
-                        <ol>
-                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/provenance-records-semantic-interfaces.html">Provenance, Records, and Semantic Interfaces</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-03-metrology-theoretic-epistemics-engine-mte-observ-18845340">Metrology-Theoretic Epistemics Engine (MTE)</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-18-counterfactually-auditable-lifecycle-certificati-19089134">Counterfactually Auditable Lifecycle Certification for Autonomous Agents</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></li>
-                        </ol>
-                    </article>
-
-                    <article class="route-card">
-                        <h3>Policy / Governance Reader</h3>
-                        <p class="route-audience">Use this path if your main question is certification, release policy, transfer, or public accountability.</p>
-                        <ol>
-                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-01-constitutional-observable-invention-without-meta-19363526">Constitutional Observable Invention without Meta-Evaluators</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-05-a-typed-dynamic-no-meta-theory-of-autonomous-res-19427818">A Typed, Dynamic, No-Meta Theory of Autonomous Research Claim Certification and Release</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-07-standing-layer-honest-public-standing-dynamics-f-19447443">Standing-Layer Honest Public Standing Dynamics for Research Claims</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-16-bayesian-capability-transport-disclosure-channel-19601364">Bayesian Capability Transport, Disclosure Channels, and Strategic Institutions for Autonomous Agents</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a></li>
-                        </ol>
-                    </article>
-
-                    <article class="route-card">
-                        <h3>AI Agent / Machine Parser</h3>
-                        <p class="route-audience">Use visible, site-local machine-readable summaries before inferring cross-page structure.</p>
-                        <ol>
-                            <li><a href="https://kadubon.github.io/github.io/research-map.html#canonical-synthesis-yaml">Research Map YAML</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html#canonical-series-yaml">No-Meta Index YAML</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/llms-full.txt">llms-full.txt</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a></li>
-                        </ol>
-                    </article>
-
-                    <article class="route-card">
-                        <h3>Researcher Who Wants the Formal Foundations First</h3>
-                        <p class="route-audience">Use this path if you want the formal stack before the governance or deployment layers.</p>
-                        <ol>
-                            <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html">Self-Improving Intelligence Foundations</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html">Theory Translation and Comparative Mathematics</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html">Propagation, Front Dynamics, and Persistence</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information and Observer-Modifying Dynamics</a></li>
-                            <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a></li>
-                        </ol>
-                    </article>
-                </div>
-            </section>
-
-            <section class="container machine-copy" id="entry-points" aria-labelledby="entry-points-heading">
-                <h2 id="entry-points-heading">Entry Points and Machine-Readable Navigation</h2>
-                <ul class="machine-list">
-                    <li><a href="https://kadubon.github.io/github.io/">Home</a>: top-level human entry point and site profile page.</li>
-                    <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a>: site-wide synthesis layer above the thematic cluster pages.</li>
-                    <li><a href="https://kadubon.github.io/github.io/works.html">Works</a>: full publication index with stable anchors, abstracts, keywords, DOI links, and schema.org metadata.</li>
-                    <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">No-Meta / Observable-Only Series Index</a>: canonical YAML field guide for the governance-focused series.</li>
-                    <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-25-executable-authority-migration-to-declared-no-meta-agency-19753529">Executable Authority Migration to Declared No-Meta Agency</a>: authority migration and runtime-assurance entry point for declared no-meta agency.</li>
-                    <li><a href="https://kadubon.github.io/github.io/works.html#2026-04-17-small-to-frontier-transfer-theory-for-agentic-a-19619480">Small-to-Frontier Transfer Theory for Agentic AI</a>: upper-layer transfer and frontier-escalation entry point.</li>
-                    <li><a href="https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html">Self-Concealing Information and Observer-Modifying Dynamics</a>: entry page for drift, observer modification, and semantics.</li>
-                    <li><a href="https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html">Auditability, Replay, and Fail-Closed AI Systems</a>: entry page for certification, replay, and fail-closed control.</li>
-                    <li><a href="https://kadubon.github.io/github.io/long-running-agents-memory-multi-agent-reasoning.html">Long-Running Agents, Memory Limits, and Multi-Agent Reasoning</a>: entry page for persistent operation under bounded context.</li>
-                    <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a> and <a href="https://kadubon.github.io/github.io/llms-full.txt">llms-full.txt</a>: machine-oriented site guides.</li>
-                    <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>, <a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>, and <a href="https://kadubon.github.io/github.io/sitemap.xml">sitemap.xml</a>: update polling, citation metadata, and crawl discovery.</li>
-                </ul>
-            </section>
-
-            <section class="container section-copy" id="non-goals" aria-labelledby="non-goals-heading">
-                <h2 id="non-goals-heading">Non-Goals / Boundary Conditions</h2>
-                <ul class="machine-list">
-                    <li>This page is not a replacement for the original papers or cluster pages.</li>
-                    <li>This page is not the complete publication inventory; use <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for that function.</li>
-                    <li>This page is not a survey of external literature and does not attempt to map the full external field.</li>
-                    <li>This page is not a new theorem paper or a new formal system.</li>
-                    <li>This page is not an exhaustive ontology of every page on the site; it curates the main pillars needed for orientation and parsing.</li>
-                </ul>
+                </details>
             </section>
         </article>
     </main>
 
     <footer class="container">
-        <p>Canonical site-wide synthesis page for the research program on auditable autonomous intelligence, no-meta governance, transfer, and deployment-relevant verification.</p>
+        <p>Site-wide research map for auditable autonomous intelligence, no-meta governance, CGT, claim certification, transfer, and deployment-relevant verification.</p>
     </footer>
 </body>
 </html>

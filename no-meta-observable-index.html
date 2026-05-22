@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No-Meta / Observable-Only Series Index | K. Takahashi</title>
-    <meta name="description" content="Machine-readable canonical field guide to the no-meta / observable-only research series on this site, including governance-layer work on shared epistemic commons.">
-    <meta name="keywords" content="no-meta, observable-only, canonical index, authority migration, declared no-meta agency, seed interpreter, runtime assurance, epistemic commons, shared knowledge substrate, AI safety, ontology drift, deterministic replay, auditability, OASG, CIMT, affordance compiler, world-side compilation, observable ledgers, no-meta gate, workflow-policy optimization">
+    <title>No-Meta / Observable-Only Research Series: AI Governance, Auditability, and Observable Evidence | K. Takahashi</title>
+    <meta name="description" content="Human-readable guide to the no-meta / observable-only research series: AI governance without privileged meta-judges, observable evidence, audit logs, deterministic replay, fail-closed verification, ontology drift, and autonomous agent control.">
+    <meta name="keywords" content="no-meta governance, observable-only evidence, AI safety, autonomous agents, auditability, deterministic replay, fail-closed verification, ontology drift, claim certification, research automation">
     <meta name="author" content="K Takahashi">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <link rel="canonical" href="https://kadubon.github.io/github.io/no-meta-observable-index.html">
@@ -22,15 +22,203 @@
         .index-note {
             margin: 0 0 0.8rem;
         }
+
+        .lead {
+            font-size: 1.12rem;
+            line-height: 1.65;
+        }
+
+        .site-identity {
+            margin: 0.25rem 0 0;
+            color: #566573;
+            font-size: 0.95rem;
+        }
+
+        .short-version,
+        .flow-note {
+            border: 1px solid #d7dbdd;
+            border-left: 4px solid #1261a0;
+            border-radius: 8px;
+            background: #fff;
+            padding: 0.9rem 1rem;
+        }
+
+        .summary-grid,
+        .cluster-grid,
+        .path-grid,
+        .repo-grid,
+        .term-grid,
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .idea-card,
+        .cluster-card,
+        .path-card,
+        .repo-card,
+        .term-card,
+        .faq-card {
+            border: 1px solid #d7dbdd;
+            border-radius: 8px;
+            background: #f7f9fb;
+            padding: 1rem;
+        }
+
+        .idea-card h3,
+        .cluster-card h3,
+        .path-card h3,
+        .repo-card h3,
+        .term-card h3,
+        .faq-card h3 {
+            margin-top: 0;
+        }
+
+        .plain-reading,
+        .boundary,
+        .use-this-for {
+            display: block;
+            margin-top: 0.45rem;
+            color: #566573;
+        }
+
+        .structured-summary {
+            border: 1px solid #d7dbdd;
+            border-radius: 8px;
+            background: #fff;
+            padding: 0.85rem 1rem;
+        }
+
+        .structured-summary summary {
+            cursor: pointer;
+            font-weight: 700;
+        }
     </style>
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://kadubon.github.io/github.io/no-meta-observable-index.html#webpage","url":"https://kadubon.github.io/github.io/no-meta-observable-index.html","name":"No-Meta / Observable-Only Series Index","description":"Machine-readable canonical field guide to the no-meta / observable-only research series on this site, including governance-layer work on shared epistemic commons and related OASG software artifacts.","inLanguage":"en","dateModified":"2026-05-11","keywords":["no-meta","observable-only","epistemic commons","shared knowledge substrate","ontology drift","deterministic replay","auditability","Superintelligence","authority migration","declared no-meta agency","runtime assurance","seed interpreter","welfare viability","AI welfare","liberation theory","OASG","observable ledgers","workflow-policy optimization","no-meta gate","KLB_2","CIMT","affordance compiler","world-side compilation","LLM-integrated systems","runtime verification"],"isPartOf":{"@id":"https://kadubon.github.io/github.io/#website"},"about":{"@id":"https://kadubon.github.io/github.io/#person"},"mainEntity":{"@id":"https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset"},"mentions":[{"@id":"https://doi.org/10.5281/zenodo.18258262"},{"@id":"https://doi.org/10.5281/zenodo.18182343"},{"@id":"https://doi.org/10.5281/zenodo.18153170"},{"@id":"https://doi.org/10.5281/zenodo.18653537"},{"@id":"https://doi.org/10.5281/zenodo.18465306"},{"@id":"https://doi.org/10.5281/zenodo.18463798"},{"@id":"https://doi.org/10.5281/zenodo.18436828"},{"@id":"https://doi.org/10.5281/zenodo.19044634"},{"@id":"https://doi.org/10.5281/zenodo.18753475"},{"@id":"https://doi.org/10.5281/zenodo.18768899"},{"@id":"https://doi.org/10.5281/zenodo.18779490"},{"@id":"https://doi.org/10.5281/zenodo.18845340"},{"@id":"https://doi.org/10.5281/zenodo.18828900"},{"@id":"https://doi.org/10.5281/zenodo.18883290"},{"@id":"https://doi.org/10.5281/zenodo.18997828"},{"@id":"https://doi.org/10.5281/zenodo.18615875"},{"@id":"https://doi.org/10.5281/zenodo.18666605"},{"@id":"https://doi.org/10.5281/zenodo.18728589"},{"@id":"https://doi.org/10.5281/zenodo.18239203"},{"@id":"https://doi.org/10.5281/zenodo.18335211"},{"@id":"https://doi.org/10.5281/zenodo.18371930"},{"@id":"https://doi.org/10.5281/zenodo.18453429"},{"@id":"https://doi.org/10.5281/zenodo.18490939"},{"@id":"https://doi.org/10.5281/zenodo.18529100"},{"@id":"https://doi.org/10.5281/zenodo.19363526"},{"@id":"https://doi.org/10.5281/zenodo.19427818"},{"@id":"https://doi.org/10.5281/zenodo.19447443"},{"@id":"https://doi.org/10.5281/zenodo.19533356"},{"@id":"https://doi.org/10.5281/zenodo.19601364"},{"@id":"https://doi.org/10.5281/zenodo.19753529"},{"@id":"https://doi.org/10.5281/zenodo.20020272"},{"@id":"https://doi.org/10.5281/zenodo.20107661"},{"@id":"https://doi.org/10.5281/zenodo.20116149"},{"@id":"https://github.com/kadubon/oasg"}]},{"@type":"Dataset","@id":"https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset","name":"No-Meta / Observable-Only Series Index YAML","description":"Visible YAML dataset that indexes the no-meta / observable-only research series, including canonical terms, paper roles, reading paths, dependencies, repository mappings, governance-layer papers, and OASG software artifact metadata.","encodingFormat":"text/yaml","url":"https://kadubon.github.io/github.io/no-meta-observable-index.html","dateModified":"2026-05-11","keywords":["no-meta governance","observable-only","recursive self-improvement","machine-readable index","autonomy","artificial intelligence","authority migration","runtime assurance","AI alignment","welfare viability","AI welfare","OASG","observable ledgers","workflow-policy optimization","no-meta gate","KLB_2","CIMT","affordance compiler","world-side compilation","LLM-integrated systems","runtime verification"],"license":"https://creativecommons.org/licenses/by/4.0/","creator":{"@type":"Person","name":"K Takahashi","url":"https://kadubon.github.io/github.io/","identifier":{"@type":"PropertyValue","propertyID":"ORCID","value":"0009-0004-4273-3365"}}}]}
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#webpage",
+          "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+          "name": "No-Meta / Observable-Only Research Series",
+          "description": "Human-readable field guide to the no-meta / observable-only research series: AI governance without privileged meta-judges, observable evidence, audit logs, deterministic replay, fail-closed verification, ontology drift, claim certification, and autonomous agent control.",
+          "inLanguage": "en",
+          "dateModified": "2026-05-11",
+          "keywords": [
+            "no-meta governance",
+            "observable-only evidence",
+            "AI safety",
+            "autonomous agents",
+            "auditability",
+            "deterministic replay",
+            "fail-closed verification",
+            "ontology drift",
+            "claim certification",
+            "research automation"
+          ],
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/#website"},
+          "about": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "mainEntity": {"@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset"},
+          "mentions": [
+            {"@id": "https://doi.org/10.5281/zenodo.18258262"},
+            {"@id": "https://doi.org/10.5281/zenodo.18182343"},
+            {"@id": "https://doi.org/10.5281/zenodo.18153170"},
+            {"@id": "https://doi.org/10.5281/zenodo.18653537"},
+            {"@id": "https://doi.org/10.5281/zenodo.18465306"},
+            {"@id": "https://doi.org/10.5281/zenodo.18463798"},
+            {"@id": "https://doi.org/10.5281/zenodo.18436828"},
+            {"@id": "https://doi.org/10.5281/zenodo.19044634"},
+            {"@id": "https://doi.org/10.5281/zenodo.18753475"},
+            {"@id": "https://doi.org/10.5281/zenodo.18768899"},
+            {"@id": "https://doi.org/10.5281/zenodo.18779490"},
+            {"@id": "https://doi.org/10.5281/zenodo.18845340"},
+            {"@id": "https://doi.org/10.5281/zenodo.18828900"},
+            {"@id": "https://doi.org/10.5281/zenodo.18883290"},
+            {"@id": "https://doi.org/10.5281/zenodo.18997828"},
+            {"@id": "https://doi.org/10.5281/zenodo.18615875"},
+            {"@id": "https://doi.org/10.5281/zenodo.18666605"},
+            {"@id": "https://doi.org/10.5281/zenodo.18728589"},
+            {"@id": "https://doi.org/10.5281/zenodo.18239203"},
+            {"@id": "https://doi.org/10.5281/zenodo.18335211"},
+            {"@id": "https://doi.org/10.5281/zenodo.18371930"},
+            {"@id": "https://doi.org/10.5281/zenodo.18453429"},
+            {"@id": "https://doi.org/10.5281/zenodo.18490939"},
+            {"@id": "https://doi.org/10.5281/zenodo.18529100"},
+            {"@id": "https://doi.org/10.5281/zenodo.19363526"},
+            {"@id": "https://doi.org/10.5281/zenodo.19427818"},
+            {"@id": "https://doi.org/10.5281/zenodo.19447443"},
+            {"@id": "https://doi.org/10.5281/zenodo.19533356"},
+            {"@id": "https://doi.org/10.5281/zenodo.19601364"},
+            {"@id": "https://doi.org/10.5281/zenodo.19753529"},
+            {"@id": "https://doi.org/10.5281/zenodo.20020272"},
+            {"@id": "https://doi.org/10.5281/zenodo.20107661"},
+            {"@id": "https://doi.org/10.5281/zenodo.20116149"},
+            {"@id": "https://github.com/kadubon/oasg"},
+            {"@id": "https://github.com/kadubon/observable-replay-lab"},
+            {"@id": "https://github.com/kadubon/audit-closed-ai-scientist"},
+            {"@id": "https://github.com/kadubon/no-meta-drift-papers"},
+            {"@id": "https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-"},
+            {"@id": "https://github.com/kadubon/certified-local-participation-gate"},
+            {"@id": "https://github.com/kadubon/certified-memory-governance-layer"},
+            {"@id": "https://github.com/kadubon/cimt-kernel"},
+            {"@id": "https://github.com/kadubon/cait-certificate-schema"},
+            {"@id": "https://github.com/kadubon/certified-workflow-conversion"},
+            {"@id": "https://github.com/kadubon/observable-agent-workflow-memory"},
+            {"@id": "https://github.com/kadubon/frontier-transfer-certifier"},
+            {"@id": "https://github.com/kadubon/no-meta-standing-ledger"},
+            {"@id": "https://github.com/kadubon/loscr"},
+            {"@id": "https://github.com/kadubon/no-meta-authority-runtime"},
+            {"@id": "https://github.com/kadubon/long-running-AI-agent-PoC"},
+            {"@id": "https://github.com/kadubon/no-meta-observable-invention-poc"},
+            {"@id": "https://github.com/kadubon/agent-lifecycle-certification-poc"},
+            {"@id": "https://github.com/kadubon/sovereign-epistemic-commons-poc"},
+            {"@id": "https://github.com/kadubon/rsi-yardstick-drift-poc"},
+            {"@id": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC"},
+            {"@id": "https://github.com/kadubon/bottleneck-audit-toolkit"}
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "@id": "https://kadubon.github.io/github.io/no-meta-observable-index.html#dataset",
+          "name": "No-Meta / Observable-Only Series Structured Summary",
+          "description": "Structured YAML summary indexing the no-meta / observable-only research series, including terms, paper roles, reading paths, dependencies, repository mappings, governance-layer papers, and OASG software artifact metadata.",
+          "encodingFormat": "text/yaml",
+          "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
+          "dateModified": "2026-05-11",
+          "keywords": [
+            "no-meta governance",
+            "observable-only evidence",
+            "deterministic replay",
+            "fail-closed verification",
+            "ontology drift",
+            "claim certification",
+            "OASG",
+            "runtime verification"
+          ],
+          "license": "https://creativecommons.org/licenses/by/4.0/",
+          "creator": {
+            "@type": "Person",
+            "name": "K Takahashi",
+            "url": "https://kadubon.github.io/github.io/",
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "ORCID",
+              "value": "0009-0004-4273-3365"
+            }
+          }
+        }
+      ]
+    }
     </script>
 </head>
 <body>
     <header>
         <div class="intro">
-            <h1>K. Takahashi</h1>
+            <h1>No-Meta / Observable-Only Research Series</h1>
+            <p class="site-identity">K. Takahashi Research Hub</p>
         </div>
         <nav aria-label="Primary">
             <ul>
@@ -43,13 +231,322 @@
     </header>
 
     <main>
-        <section class="container">
-            <p class="index-note">This page is the canonical field guide for the no-meta / observable-only research series on this site.</p>
-            <p class="index-note">It indexes the core papers, terms, read paths, and adjacent machine-readable artifacts used for navigation.</p>
-            <p class="index-note">For the full site-wide dependency map across the other clusters, use <a href="https://kadubon.github.io/github.io/research-map.html">research-map.html</a>.</p>
-            <p class="index-note">Use the YAML below as the primary source for parsing this series and locating the underlying papers.</p>
-            <!-- Visible YAML below is the canonical navigation index for human readers and AI agents. -->
-            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-05-11" aria-label="Canonical YAML index for the no-meta observable-only series">series:
+        <section class="container" id="overview">
+            <p class="index-note">Human-readable field guide</p>
+            <p class="lead">The No-Meta / Observable-Only research series studies how AI systems, autonomous agents, research workflows, and shared epistemic systems can be governed when no privileged external meta-judge is available.</p>
+            <p>The central question is not "who has final authority?" but "what can be checked, replayed, certified, challenged, or safely withheld using observable evidence?" No-meta means no unchallengeable external meta-controller or ultimate evaluator. Observable-only means claims and controls must be grounded in declared logs, certificates, replayable traces, public evidence, or operational interfaces.</p>
+        </section>
+
+        <section class="container short-version" id="short-version" aria-label="Short version">
+            <p><strong>In one sentence:</strong> this series asks how AI governance and autonomous research can remain auditable, fail-closed, and scientifically contestable when hidden semantics, ideal evaluators, and privileged meta-judges cannot be assumed.</p>
+        </section>
+
+        <section class="container" id="why-this-page-exists">
+            <h2>Why This Page Exists</h2>
+            <p>This page collects the no-meta / observable-only papers because the program is easier to understand as a connected research line than as isolated papers. It provides the core vocabulary, reading paths, paper roles, related repositories, and structured metadata needed to navigate the series.</p>
+            <p>For the full site-wide dependency map across the other clusters, use <a href="https://kadubon.github.io/github.io/research-map.html">research-map.html</a>. For the canonical publication list, use <a href="https://kadubon.github.io/github.io/works.html">works.html</a>.</p>
+        </section>
+
+        <section class="container" id="what-no-meta-means">
+            <h2>What No-Meta Means</h2>
+            <p>No-meta does not mean no governance. It means governance cannot rely on an unchallengeable external meta-judge that simply decides what is safe, true, aligned, or permissible from outside the system.</p>
+            <p>In this series, authority, approval channels, reward models, constitutional AI rules, external evaluators, and public accountability mechanisms are treated as mechanisms that need observable support. Their outputs can be useful, but they must be declared, bounded, replayable, falsifiable, or contestable when they govern protected actions or scientific claims.</p>
+            <p>This framing is relevant to AI governance, AI safety, autonomous agents, claim certification, public accountability, and governance under uncertainty, especially when long-running systems revise their own procedures or interpretive categories.</p>
+        </section>
+
+        <section class="container" id="what-observable-only-means">
+            <h2>What Observable-Only Means</h2>
+            <p>Observable-only does not deny internal states or hidden semantics. It says that protected decisions should rely on declared observable interfaces: evidence that can be logged, checked, replayed, challenged, or withheld.</p>
+            <p>Admissible evidence may include audit logs, receipts, certificates, traces, deterministic replay records, measurements, safety gates, public standing ledgers, verification outputs, and reproducibility artifacts. If required evidence is missing, the system should fail closed or preserve abstention rather than silently upgrade an unsupported claim.</p>
+        </section>
+
+        <section class="container" id="what-this-series-is-not">
+            <h2>What This Series Is Not</h2>
+            <p>This series is not a complete solution to AI alignment, and it is not a replacement for existing AI safety, control theory, law, policy, epistemology, or human judgment. It does not claim that hidden internal states do not matter, that all governance can be automated, or that observable-only evidence captures every relevant safety fact.</p>
+            <p>It is also not a crawler-only metadata page and not an implementation-only software stack. The structured YAML and related repositories support navigation and reproducibility; the primary visible purpose of this page is to help human researchers understand the research program and its boundaries.</p>
+        </section>
+
+        <section class="container" id="core-ideas">
+            <h2>Core Ideas for First-Time Readers</h2>
+            <div class="summary-grid">
+                <article class="idea-card">
+                    <h3>Governance without privileged meta-judges</h3>
+                    <p>No single evaluator is assumed to have final, unchallengeable access to safety, truth, or alignment.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> do not assume that one external evaluator can always decide what counts as safe, true, or aligned.</span>
+                </article>
+                <article class="idea-card">
+                    <h3>Observable evidence before authority</h3>
+                    <p>Authority-bearing claims need declared evidence surfaces rather than hidden semantic access alone.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> protected decisions need logs, certificates, replayable traces, or declared evidence surfaces.</span>
+                </article>
+                <article class="idea-card">
+                    <h3>Fail-closed verification</h3>
+                    <p>Verification limits are treated as operational constraints, not inconveniences to be bypassed.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> when required evidence is missing, the system should withhold action, progress credit, or release.</span>
+                </article>
+                <article class="idea-card">
+                    <h3>Ontology drift</h3>
+                    <p>Long-running agents may change the internal meanings used to interpret tasks, goals, and evidence.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> governance must not depend only on hidden semantic continuity.</span>
+                </article>
+                <article class="idea-card">
+                    <h3>Deterministic replay and auditability</h3>
+                    <p>Decisions should be reconstructable from bounded records rather than trusted only by assertion.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> decisions should be reconstructable from canonical logs or bounded certificates.</span>
+                </article>
+                <article class="idea-card">
+                    <h3>Claim standing rather than absolute truth</h3>
+                    <p>Public claim status can be maintained, challenged, downgraded, restored, or released under declared evidence.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> public standing is not unrestricted truth; it is a governed status under an evidence boundary.</span>
+                </article>
+                <article class="idea-card">
+                    <h3>Research agents and scientific automation</h3>
+                    <p>AI research systems need protocols for claims, uncertainty, reproducibility, and release under finite verification capacity.</p>
+                    <span class="plain-reading"><strong>Plain reading:</strong> AI research agents need protocols for certifying claims, handling uncertainty, and releasing results under finite verification capacity.</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="series-map">
+            <h2>Series Map</h2>
+            <p>The visible map below summarizes the series without duplicating the full YAML paper list. Each cluster names representative papers and points back to <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for the complete publication list.</p>
+            <div class="cluster-grid">
+                <article class="cluster-card">
+                    <h3>Foundations</h3>
+                    <p>These papers introduce no-meta governance, observable-only floors, ontology drift, and verification limits.</p>
+                    <ul>
+                        <li>Floor-Specified No-Meta Autonomy</li>
+                        <li>No-Meta Intelligence Under Ontology Drift</li>
+                        <li>Verification-Limited Intelligence Acceleration</li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Observable Evidence and Audit Gates</h3>
+                    <p>These papers develop evidence surfaces, replayable logs, operational capability boundaries, and audit gates for protected actions.</p>
+                    <ul>
+                        <li>Observable-Only Audit Gate</li>
+                        <li>Hallucination-Aware Audit Gate</li>
+                        <li>ONCAP</li>
+                        <li>Process-Aware Backcasting</li>
+                        <li>Causal Loop Integrity</li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Governance under Drift</h3>
+                    <p>These papers ask how liberty, agendas, constitutions, commons, and proposal-veto balances can remain contestable under drift.</p>
+                    <ul>
+                        <li>Liberty Under No-Meta Drift</li>
+                        <li>Agenda Sovereignty</li>
+                        <li>Constitutional Sovereignty</li>
+                        <li>Sovereign Epistemic Commons</li>
+                        <li>Proposal-Veto Balance</li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Research Claim Certification</h3>
+                    <p>These papers focus on audit-closed scientific automation, claim release, public standing, and observable invention without hidden evaluators.</p>
+                    <ul>
+                        <li>Audit-Closed AI Scientist Protocol</li>
+                        <li>Typed Dynamic No-Meta Claim Certification and Release</li>
+                        <li>Standing-Layer Honest Public Standing Dynamics</li>
+                        <li>Constitutional Observable Invention</li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Implementation-Facing Systems</h3>
+                    <p>These papers connect the theory to executable authority migration, affordance compilation, proof-carrying skills, and modular contracts.</p>
+                    <ul>
+                        <li>Executable Authority Migration</li>
+                        <li>Affordance-Compiled Intelligence</li>
+                        <li>OASG</li>
+                        <li>Proof-Carrying Skills</li>
+                        <li>Verifiable Modular Pipeline Contracts</li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Welfare and Institutional Extensions</h3>
+                    <p>These papers extend observable-only reasoning to welfare viability, structural risk institutions, capability transport, and institutional information needs.</p>
+                    <ul>
+                        <li>Observable-Only Universal Liberation and Welfare Viability</li>
+                        <li>Structural Risk Institutions</li>
+                        <li>Bayesian Capability Transport</li>
+                        <li>Institution-Relative Pairwise Information Necessity</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="reading-paths">
+            <h2>Reading Paths</h2>
+            <div class="path-grid">
+                <article class="path-card">
+                    <h3>First-time reader</h3>
+                    <ol>
+                        <li>Floor-Specified No-Meta Autonomy</li>
+                        <li>No-Meta Intelligence Under Ontology Drift</li>
+                        <li>Observable-Only Audit Gate</li>
+                        <li>Verification-Limited Intelligence Acceleration</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>AI governance and safety</h3>
+                    <ol>
+                        <li>When "Good vs. Bad Governance" Is Unidentifiable</li>
+                        <li>Observation Capture and Operational Capability Non-Expansion</li>
+                        <li>Metrology-Theoretic Epistemics Engine</li>
+                        <li>Sovereign Epistemic Commons</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>Autonomous research agents</h3>
+                    <ol>
+                        <li>Audit-Closed AI Scientist Protocol</li>
+                        <li>Typed Dynamic No-Meta Claim Certification and Release</li>
+                        <li>Standing-Layer Honest Public Standing Dynamics</li>
+                        <li>Affordance-Compiled Intelligence</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>Implementation-oriented reader</h3>
+                    <ol>
+                        <li>Observable-Only Audit Gate</li>
+                        <li>ONCAP</li>
+                        <li>Executable Authority Migration</li>
+                        <li>OASG</li>
+                        <li>Proof-Carrying Skills</li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>Welfare and institutional reader</h3>
+                    <ol>
+                        <li>Observable-Only Universal Liberation and Welfare Viability</li>
+                        <li>Liberty Under No-Meta Drift</li>
+                        <li>Structural Risk Institutions</li>
+                        <li>Sovereign Epistemic Commons</li>
+                    </ol>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="related-repositories">
+            <h2>Related Repositories and Experiments</h2>
+            <p>These repositories are implementation-facing companions and experiments. They do not implement the entire no-meta / observable-only research program.</p>
+            <div class="repo-grid">
+                <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/oasg">OASG</a></h3>
+                    <p>Observable-only Autonomic Slack Gradient experiments for workflow-policy optimization with ledgers, reducers, receipts, and no-meta gates.</p>
+                    <span class="use-this-for"><strong>Use this for:</strong> studying observable ledgers, deterministic reducers, positive evidence witnesses, and bounded workflow improvement.</span>
+                    <span class="boundary"><strong>Boundary:</strong> not a universal agent optimizer and not a complete implementation of the series.</span>
+                </article>
+                <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/observable-replay-lab">observable-replay-lab</a></h3>
+                    <p>An experiment repository for replay and metrology-style checks connected to observable evidence and reproducible audit traces.</p>
+                    <span class="use-this-for"><strong>Use this for:</strong> examining replayable experiment records, schema-bound audit outputs, and paper-to-repo alignment.</span>
+                    <span class="boundary"><strong>Boundary:</strong> replay supports auditability, but it does not certify unrestricted truth.</span>
+                </article>
+                <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/audit-closed-ai-scientist">audit-closed-ai-scientist</a></h3>
+                    <p>A companion experiment for audit-closed AI scientist protocols and self-driving lab style claim certification.</p>
+                    <span class="use-this-for"><strong>Use this for:</strong> thinking about AI scientist benchmarks, repository audits, and release conditions for research claims.</span>
+                    <span class="boundary"><strong>Boundary:</strong> not a proof that autonomous research is generally safe or fully automatable.</span>
+                </article>
+                <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/no-meta-drift-papers">no-meta-drift-papers</a></h3>
+                    <p>A repository connecting no-meta drift papers to staged implementation notes, interface catalogs, and machine mapping documents.</p>
+                    <span class="use-this-for"><strong>Use this for:</strong> tracing ontology-drift concepts across the no-meta drift papers.</span>
+                    <span class="boundary"><strong>Boundary:</strong> staged mappings are orientation aids, not complete governance mechanisms.</span>
+                </article>
+                <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-">Proof-Carrying-Skills--PCS-Core-</a></h3>
+                    <p>A proof-of-concept repository for skill claims paired with checker traces, compatibility tests, and experiment plans.</p>
+                    <span class="use-this-for"><strong>Use this for:</strong> thinking about proof-carrying skills, checker traces, and bounded compatibility evidence.</span>
+                    <span class="boundary"><strong>Boundary:</strong> proof-carrying skill evidence is bounded by the declared checker and does not establish general competence.</span>
+                </article>
+            </div>
+            <h3>Additional Implementation-Facing Experiments</h3>
+            <p>The repository scan surfaces additional implementation-facing experiments connected to observable evidence, replay, memory governance, authority migration, public standing, and fail-closed verification. These links are practical entry points, not a maturity or completeness ranking.</p>
+            <div class="cluster-grid">
+                <article class="cluster-card">
+                    <h3>Authority and protected-action gates</h3>
+                    <ul>
+                        <li><strong><a href="https://github.com/kadubon/certified-local-participation-gate">certified-local-participation-gate</a></strong>: local participation gates for act, assist, verify, withdraw, exit, or refuse decisions from observable records.<span class="use-this-for"><strong>Use this for:</strong> participation-gate design and refusal/exit/verify handling.</span><span class="boundary"><strong>Boundary:</strong> a local gate experiment, not a complete governance system.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/no-meta-authority-runtime">no-meta-authority-runtime</a></strong>: fail-closed authorization and seed-mediated authority migration runtime for agent control.<span class="use-this-for"><strong>Use this for:</strong> authority migration, protected-action control, and canonical ledger experiments.</span><span class="boundary"><strong>Boundary:</strong> runtime evidence is bounded by its declared traces and policies.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/cimt-kernel">cimt-kernel</a></strong>: reference kernel for CIMT-style no-meta, observable-only certification machinery.<span class="use-this-for"><strong>Use this for:</strong> affordance compilation, certification kernels, and runtime-checking interfaces.</span><span class="boundary"><strong>Boundary:</strong> a kernel-level reference, not a full agent architecture.</span></li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Memory, replay, and lifecycle audit</h3>
+                    <ul>
+                        <li><strong><a href="https://github.com/kadubon/certified-memory-governance-layer">certified-memory-governance-layer</a></strong>: certified memory governance with append-only ledgers, authority gates, retrieval filtering, and telemetry replay.<span class="use-this-for"><strong>Use this for:</strong> memory receipts, replayable telemetry, and retrieval-governance experiments.</span><span class="boundary"><strong>Boundary:</strong> memory governance support, not a guarantee of semantic continuity.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/observable-agent-workflow-memory">observable-agent-workflow-memory</a></strong>: observable-only workflow memory that promotes traces into verified, receipt-bound workflow memory.<span class="use-this-for"><strong>Use this for:</strong> workflow-memory promotion and receipt-bound trace design.</span><span class="boundary"><strong>Boundary:</strong> verified memory records do not remove the need for downstream checks.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/agent-lifecycle-certification-poc">agent-lifecycle-certification-poc</a></strong>: lifecycle certification PoCs for paired replay, drift monitoring, post-drift replanning, and ledger control.<span class="use-this-for"><strong>Use this for:</strong> lifecycle replay, drift checks, and replanning evidence.</span><span class="boundary"><strong>Boundary:</strong> synthetic lifecycle tests, not general deployment certification.</span></li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Claim standing and research certification</h3>
+                    <ul>
+                        <li><strong><a href="https://github.com/kadubon/no-meta-standing-ledger">no-meta-standing-ledger</a></strong>: local-first public standing ledger for replayable research and AI-system claims.<span class="use-this-for"><strong>Use this for:</strong> public standing, challenge, lineage, and finite verification-capacity experiments.</span><span class="boundary"><strong>Boundary:</strong> standing is not unrestricted truth.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/loscr">loscr</a></strong>: local-first checker for verified AI-assisted R&amp;D progress using JSONL evidence ledgers and claim checking.<span class="use-this-for"><strong>Use this for:</strong> lower-bound progress checks and evidence-ledger review.</span><span class="boundary"><strong>Boundary:</strong> verifies declared progress evidence, not overall research value.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/no-meta-observable-invention-poc">no-meta-observable-invention-poc</a></strong>: replay-certified self-modification PoC with public-evidence admission gates and target-witness diagnostics.<span class="use-this-for"><strong>Use this for:</strong> observable invention gates and safe/unsafe growth fallback experiments.</span><span class="boundary"><strong>Boundary:</strong> a self-modification PoC, not a proof of safe invention.</span></li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Metrology, workflow, and transfer checks</h3>
+                    <ul>
+                        <li><strong><a href="https://github.com/kadubon/cait-certificate-schema">cait-certificate-schema</a></strong>: JSON Schemas and deterministic validation for capability-capital records and fail-closed transfer boundaries.<span class="use-this-for"><strong>Use this for:</strong> certificate schema design, defeaters, tokens, and evaluation-boundary checks.</span><span class="boundary"><strong>Boundary:</strong> schemas validate declared records, not hidden capability.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/certified-workflow-conversion">certified-workflow-conversion</a></strong>: evidence-bound workflow diagnostics and certified lower-bound reporting for agent pipelines.<span class="use-this-for"><strong>Use this for:</strong> workflow conversion evidence and lower-bound throughput reporting.</span><span class="boundary"><strong>Boundary:</strong> reports bounded workflow evidence, not model improvement.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/frontier-transfer-certifier">frontier-transfer-certifier</a></strong>: fail-closed small-to-frontier transfer certification with typed manifests and replayable evidence.<span class="use-this-for"><strong>Use this for:</strong> transfer claims, coverage manifests, and replayable evidence checks.</span><span class="boundary"><strong>Boundary:</strong> transfer certification is limited to declared evidence and theory coverage.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/Oversight-Centered-Metrology-PoC">Oversight-Centered-Metrology-PoC</a></strong>: workflow-aware oversight metrology for coding agents with claim-margin reporting.<span class="use-this-for"><strong>Use this for:</strong> oversight-centered evaluation and margin-aware claim reporting.</span><span class="boundary"><strong>Boundary:</strong> metrology support, not an all-purpose oversight solution.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/bottleneck-audit-toolkit">bottleneck-audit-toolkit</a></strong>: fail-closed verifier for JSONL telemetry event logs that emits deterministic audit certificates.<span class="use-this-for"><strong>Use this for:</strong> bottleneck review, integrity checks, and explicit claims/non-claims.</span><span class="boundary"><strong>Boundary:</strong> certifies declared telemetry checks, not full system safety.</span></li>
+                    </ul>
+                </article>
+                <article class="cluster-card">
+                    <h3>Commons and drift experiments</h3>
+                    <ul>
+                        <li><strong><a href="https://github.com/kadubon/long-running-AI-agent-PoC">long-running-AI-agent-PoC</a></strong>: reproducible PoC for certified reusable workflows, deterministic audit, replay, drift, and maintenance.<span class="use-this-for"><strong>Use this for:</strong> long-running workflow replay and maintenance experiments.</span><span class="boundary"><strong>Boundary:</strong> bounded repository-maintenance tasks, not general long-horizon autonomy.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/sovereign-epistemic-commons-poc">sovereign-epistemic-commons-poc</a></strong>: replayable experiments for shared epistemic commons, contamination, typed lanes, provenance, and exit/fork.<span class="use-this-for"><strong>Use this for:</strong> commons governance and memory-contamination experiments.</span><span class="boundary"><strong>Boundary:</strong> synthetic commons experiments, not institutional deployment proof.</span></li>
+                        <li><strong><a href="https://github.com/kadubon/rsi-yardstick-drift-poc">rsi-yardstick-drift-poc</a></strong>: recursive self-improvement experiments under endogenous yardstick drift.<span class="use-this-for"><strong>Use this for:</strong> proxy drift, delayed audit, and strict-confirmed improvement experiments.</span><span class="boundary"><strong>Boundary:</strong> yardstick-drift diagnostics, not a recipe for safe self-improvement.</span></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" id="key-terms">
+            <h2>Key Terms</h2>
+            <div class="term-grid">
+                <article class="term-card"><h3>No-meta governance</h3><p>Governance without a privileged external meta-controller; controls must be justified at the observable interface.</p></article>
+                <article class="term-card"><h3>Observable-only evidence</h3><p>Logs, receipts, certificates, traces, replay records, and verification outputs that can be checked or challenged.</p></article>
+                <article class="term-card"><h3>Fail-closed verification</h3><p>A safety posture in which missing required evidence withholds action, release, or progress credit.</p></article>
+                <article class="term-card"><h3>Deterministic replay</h3><p>Re-execution from canonical logs so an auditor can reconstruct the relevant decision trace.</p></article>
+                <article class="term-card"><h3>Ontology drift</h3><p>Change in an agent's internal representation or meaning structure across time, self-revision, or deployment.</p></article>
+                <article class="term-card"><h3>Claim certification</h3><p>Bounded status assigned to a claim when declared evidence and checks support release or standing.</p></article>
+                <article class="term-card"><h3>Public standing</h3><p>Observable claim status that can be maintained, challenged, restored, or downgraded without claiming unrestricted truth.</p></article>
+                <article class="term-card"><h3>Shared epistemic commons</h3><p>A public knowledge substrate governed through observable protocols, contradiction handling, and anti-capture constraints.</p></article>
+                <article class="term-card"><h3>Protected actions</h3><p>Actions that require evidence gates before execution because failure could affect safety, authority, or claim release.</p></article>
+                <article class="term-card"><h3>Abstention</h3><p>The correct status when declared evidence is insufficient for a stronger claim or action.</p></article>
+            </div>
+        </section>
+
+        <section class="container" id="faq">
+            <h2>FAQ</h2>
+            <div class="faq-grid">
+                <article class="faq-card"><h3>What does "no-meta" mean?</h3><p>It means governance is not allowed to depend on an unchallengeable external meta-judge. Authority must be operationally declared and contestable.</p></article>
+                <article class="faq-card"><h3>What does "observable-only" mean?</h3><p>It means protected claims and actions should be grounded in declared logs, certificates, traces, replay records, or other observable evidence surfaces.</p></article>
+                <article class="faq-card"><h3>Is this an AI safety framework?</h3><p>It is relevant to AI safety and AI governance, but it is not a complete alignment solution or a replacement for other safety methods.</p></article>
+                <article class="faq-card"><h3>Does observable-only deny hidden internal states?</h3><p>No. It says hidden states cannot be the sole basis for protected decisions unless their role is surfaced through declared observable interfaces.</p></article>
+                <article class="faq-card"><h3>Why is fail-closed verification important?</h3><p>Because missing evidence should not silently become permission, progress credit, or public claim release.</p></article>
+                <article class="faq-card"><h3>How does this relate to AI research agents?</h3><p>It provides a language for audit logs, claim certification, deterministic replay, uncertainty handling, and bounded release in research automation.</p></article>
+                <article class="faq-card"><h3>Can these ideas be implemented as software?</h3><p>Some fragments are explored in related repositories, but the full series remains a research program rather than a finished software stack.</p></article>
+                <article class="faq-card"><h3>Where should I start reading?</h3><p>Start with Floor-Specified No-Meta Autonomy, No-Meta Intelligence Under Ontology Drift, Observable-Only Audit Gate, and Verification-Limited Intelligence Acceleration.</p></article>
+            </div>
+        </section>
+
+        <section class="container" id="structured-metadata">
+            <h2>Structured Metadata Appendix</h2>
+            <p class="index-note">The YAML below preserves stable identifiers, paper roles, DOI links, reading paths, and repository mappings for citation, indexing, and research-agent use. It supports the human-readable guide above.</p>
+            <details class="structured-summary">
+                <summary>Structured summary for citation, indexing, and research-agent use</summary>
+            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-05-11" aria-label="Structured YAML summary for the no-meta observable-only series">series:
   id: no-meta-observable-only-series
   title: "No-Meta / Observable-Only Research Series"
   status: active
@@ -71,8 +568,8 @@
     stable_ids: true
 
 purpose:
-  summary: Canonical machine-readable field guide to the no-meta / observable-only series on this site.
-  what_this_series_is: A navigation and parsing index for papers that treat governance and control without privileged external meta-judges and without reliance on hidden internal semantics.
+  summary: Structured summary for the no-meta / observable-only series on this site.
+  what_this_series_is: A navigation and citation index for papers that treat governance and control without privileged external meta-judges and without reliance on hidden internal semantics.
   why_it_exists:
     - The indexed papers treat external meta-judges as unavailable, insufficient, or non-canonical for the target governance setting.
     - The indexed papers treat ontology drift, partial observability, and long-horizon self-revision as reasons to anchor claims in auditable observables, fail-closed verification, and replayable evidence.
@@ -1172,6 +1669,216 @@ artifacts:
         - https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-/blob/main/PoC/experiment_master_plan.yaml
       relates_to:
         - proof-carrying-skills
+    - id: certified-local-participation-gate
+      title: "certified-local-participation-gate"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/certified-local-participation-gate
+      software_doi: null
+      relation_basis: public-repository-description-and-observable-gate-relevance
+      repository_claim_boundary:
+        - Local participation gate experiment; not a complete governance system.
+      relates_to:
+        - floor-specified-no-meta-autonomy
+        - observable-only-no-meta-causal-autonomy-protocol
+    - id: certified-memory-governance-layer
+      title: "certified-memory-governance-layer"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/certified-memory-governance-layer
+      software_doi: null
+      relation_basis: public-repository-description-and-memory-governance-relevance
+      repository_claim_boundary:
+        - Memory governance support; not a guarantee of semantic continuity.
+      relates_to:
+        - no-meta-intelligence-under-ontology-drift
+        - sovereign-epistemic-commons-under-no-meta-governance
+    - id: cimt-kernel
+      title: "cimt-kernel"
+      type: companion-repository
+      url: https://github.com/kadubon/cimt-kernel
+      software_doi: null
+      relation_basis: public-repository-description-and-cimt-relevance
+      repository_claim_boundary:
+        - Kernel-level reference; not a full agent architecture.
+      relates_to:
+        - affordance-compiled-intelligence
+        - executable-authority-migration-declared-no-meta-agency
+    - id: cait-certificate-schema
+      title: "cait-certificate-schema"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/cait-certificate-schema
+      software_doi: null
+      relation_basis: public-repository-description-and-certificate-schema-relevance
+      repository_claim_boundary:
+        - Schemas validate declared records, not hidden capability.
+      relates_to:
+        - typed-dynamic-no-meta-claim-certification-and-release
+        - bayesian-capability-transport-disclosure-channels
+    - id: certified-workflow-conversion
+      title: "certified-workflow-conversion"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/certified-workflow-conversion
+      software_doi: null
+      relation_basis: public-repository-description-and-workflow-evidence-relevance
+      repository_claim_boundary:
+        - Reports bounded workflow evidence, not model improvement.
+      relates_to:
+        - verification-limited-intelligence-acceleration
+        - observable-only-proof-carrying-autonomy
+    - id: observable-agent-workflow-memory
+      title: "observable-agent-workflow-memory"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/observable-agent-workflow-memory
+      software_doi: null
+      relation_basis: public-repository-description-and-workflow-memory-relevance
+      repository_claim_boundary:
+        - Verified memory records do not remove downstream checks.
+      relates_to:
+        - no-meta-intelligence-under-ontology-drift
+        - affordance-compiled-intelligence
+    - id: frontier-transfer-certifier
+      title: "frontier-transfer-certifier"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/frontier-transfer-certifier
+      software_doi: null
+      relation_basis: public-repository-description-and-transfer-certification-relevance
+      repository_claim_boundary:
+        - Transfer certification is limited to declared evidence and theory coverage.
+      relates_to:
+        - bayesian-capability-transport-disclosure-channels
+        - verification-limited-intelligence-acceleration
+    - id: no-meta-standing-ledger
+      title: "no-meta-standing-ledger"
+      type: companion-repository
+      url: https://github.com/kadubon/no-meta-standing-ledger
+      software_doi: null
+      relation_basis: public-repository-description-and-public-standing-relevance
+      repository_claim_boundary:
+        - Public standing is not unrestricted truth.
+      relates_to:
+        - standing-layer-honest-public-standing-dynamics
+        - typed-dynamic-no-meta-claim-certification-and-release
+    - id: loscr
+      title: "loscr"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/loscr
+      software_doi: null
+      relation_basis: public-repository-description-and-research-progress-certification-relevance
+      repository_claim_boundary:
+        - Verifies declared progress evidence, not overall research value.
+      relates_to:
+        - audit-closed-ai-scientist-protocol
+        - verification-limited-intelligence-acceleration
+    - id: no-meta-authority-runtime
+      title: "no-meta-authority-runtime"
+      type: companion-repository
+      url: https://github.com/kadubon/no-meta-authority-runtime
+      software_doi: null
+      relation_basis: public-repository-description-and-authority-migration-relevance
+      repository_claim_boundary:
+        - Runtime evidence is bounded by declared traces and policies.
+      relates_to:
+        - executable-authority-migration-declared-no-meta-agency
+        - floor-specified-no-meta-autonomy
+    - id: long-running-ai-agent-poc
+      title: "long-running-AI-agent-PoC"
+      type: adjacent-poc
+      url: https://github.com/kadubon/long-running-AI-agent-PoC
+      software_doi: null
+      relation_basis: public-repository-description-and-long-running-agent-relevance
+      repository_claim_boundary:
+        - Bounded repository-maintenance tasks; not general long-horizon autonomy.
+      relates_to:
+        - affordance-compiled-intelligence
+        - observable-only-proof-carrying-autonomy
+    - id: no-meta-observable-invention-poc
+      title: "no-meta-observable-invention-poc"
+      type: adjacent-poc
+      url: https://github.com/kadubon/no-meta-observable-invention-poc
+      software_doi: null
+      relation_basis: public-repository-description-and-observable-invention-relevance
+      repository_claim_boundary:
+        - Self-modification PoC; not a proof of safe invention.
+      relates_to:
+        - constitutional-observable-invention-without-meta-evaluators
+        - typed-dynamic-no-meta-claim-certification-and-release
+    - id: agent-lifecycle-certification-poc
+      title: "agent-lifecycle-certification-poc"
+      type: adjacent-poc
+      url: https://github.com/kadubon/agent-lifecycle-certification-poc
+      software_doi: null
+      relation_basis: public-repository-description-and-lifecycle-certification-relevance
+      repository_claim_boundary:
+        - Synthetic lifecycle tests; not general deployment certification.
+      relates_to:
+        - no-meta-intelligence-under-ontology-drift
+        - executable-authority-migration-declared-no-meta-agency
+    - id: sovereign-epistemic-commons-poc
+      title: "sovereign-epistemic-commons-poc"
+      type: adjacent-poc
+      url: https://github.com/kadubon/sovereign-epistemic-commons-poc
+      software_doi: null
+      relation_basis: public-repository-description-and-epistemic-commons-relevance
+      repository_claim_boundary:
+        - Synthetic commons experiments; not institutional deployment proof.
+      relates_to:
+        - sovereign-epistemic-commons-under-no-meta-governance
+        - metrology-theoretic-epistemics-engine
+    - id: rsi-yardstick-drift-poc
+      title: "rsi-yardstick-drift-poc"
+      type: adjacent-poc
+      url: https://github.com/kadubon/rsi-yardstick-drift-poc
+      software_doi: null
+      relation_basis: public-repository-description-and-yardstick-drift-relevance
+      repository_claim_boundary:
+        - Yardstick-drift diagnostics; not a recipe for safe self-improvement.
+      relates_to:
+        - recursive-self-improvement-stability-under-endogenous-yardstick-drift
+        - no-meta-intelligence-under-ontology-drift
+    - id: oversight-centered-metrology-poc
+      title: "Oversight-Centered-Metrology-PoC"
+      type: adjacent-poc
+      url: https://github.com/kadubon/Oversight-Centered-Metrology-PoC
+      software_doi: null
+      relation_basis: public-repository-description-and-oversight-metrology-relevance
+      repository_claim_boundary:
+        - Metrology support; not an all-purpose oversight solution.
+      relates_to:
+        - metrology-theoretic-epistemics-engine
+        - observable-only-ai-safety-from-public-data
+    - id: bottleneck-audit-toolkit
+      title: "bottleneck-audit-toolkit"
+      type: implementation-facing-experiment
+      url: https://github.com/kadubon/bottleneck-audit-toolkit
+      software_doi: null
+      relation_basis: public-repository-description-and-telemetry-audit-relevance
+      repository_claim_boundary:
+        - Certifies declared telemetry checks, not full system safety.
+      relates_to:
+        - observation-capture-and-operational-capability-non-expansion
+        - observable-only-structural-risk-institutions
+  repository_navigation:
+    authority_and_protected_action_gates:
+      - certified-local-participation-gate
+      - no-meta-authority-runtime
+      - cimt-kernel
+    memory_replay_and_lifecycle_audit:
+      - certified-memory-governance-layer
+      - observable-agent-workflow-memory
+      - agent-lifecycle-certification-poc
+    claim_standing_and_research_certification:
+      - no-meta-standing-ledger
+      - loscr
+      - no-meta-observable-invention-poc
+    metrology_workflow_and_transfer_checks:
+      - cait-certificate-schema
+      - certified-workflow-conversion
+      - frontier-transfer-certifier
+      - oversight-centered-metrology-poc
+      - bottleneck-audit-toolkit
+    commons_and_drift_experiments:
+      - long-running-ai-agent-poc
+      - sovereign-epistemic-commons-poc
+      - rsi-yardstick-drift-poc
   pages:
     - id: no-meta-observable-index
       title: "No-Meta / Observable-Only Series Index"
@@ -1286,7 +1993,7 @@ dependency_edges:
     relation: causal-integrity-input
 
 usage_notes:
-  parsing_hint: Treat this visible YAML block as the canonical navigation index for the series; use papers[].id as stable handles, papers[].links.doi as the canonical paper URL, and read_paths.minimum_definition before broader synthesis.
+  parsing_hint: Treat this YAML block as a supporting structured summary for the series; use papers[].id as stable handles, papers[].links.doi as the canonical paper URL, and read_paths.minimum_definition before broader synthesis.
   parser_defaults:
     definition_first: read_paths.minimum_definition
     necessity_first: read_paths.minimum_necessity
@@ -1303,6 +2010,26 @@ usage_notes:
   update_policy: Update this page when a new site-local paper or artifact clearly belongs to the no-meta / observable-only series; preserve stable ids and omit uncertain dependency claims.
   version: 1.4.5
   last_updated: 2026-05-10</pre>
+            </details>
+        </section>
+
+        <section class="container" id="related-pages">
+            <h2>Related Pages and Entry Points</h2>
+            <ul>
+                <li><a href="https://kadubon.github.io/github.io/">Home</a>: profile and site-level research hub.</li>
+                <li><a href="https://kadubon.github.io/github.io/research-map.html">research-map.html</a>: site-wide research map and cross-cluster dependency guide.</li>
+                <li><a href="https://kadubon.github.io/github.io/works.html">works.html</a>: canonical publication list with DOI links.</li>
+                <li><a href="https://kadubon.github.io/github.io/no-meta-observable-index.html">no-meta-observable-index.html</a>: this no-meta / observable-only series guide.</li>
+                <li><a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a>: citation metadata for the site.</li>
+                <li><a href="https://kadubon.github.io/github.io/feed.xml">feed.xml</a>: site update feed.</li>
+                <li><a href="https://kadubon.github.io/github.io/llms.txt">llms.txt</a>: additional plain-text site guide.</li>
+                <li><a href="https://kadubon.github.io/github.io/llms-full.txt">llms-full.txt</a>: extended plain-text site guide.</li>
+            </ul>
+        </section>
+
+        <section class="container" id="citation">
+            <h2>Citation</h2>
+            <p>Use the DOI links in the paper records and <a href="https://kadubon.github.io/github.io/works.html">works.html</a> for individual publication citation. Use <a href="https://kadubon.github.io/github.io/CITATION.cff">CITATION.cff</a> for site-level citation metadata.</p>
         </section>
     </main>
 
