@@ -1,18 +1,21 @@
 cff-version: 1.2.0
 message: "If you use this research hub, please cite it using this metadata."
-title: "K. Takahashi Academic and Scientific Research Hub"
+title: "K. Takahashi Research Hub"
 type: software
 authors:
   - family-names: "Takahashi"
     given-names: "K"
     orcid: "https://orcid.org/0009-0004-4273-3365"
-abstract: "Personal academic and scientific research hub for K. Takahashi, featuring AI safety/alignment publications and related research in self-organizing systems and computational philosophy, with machine-readable metadata for automated discovery."
+abstract: "Personal research hub for K. Takahashi, featuring DOI-linked publications on auditable autonomous intelligence, no-meta governance, Constraint Generative Theory, self-organizing systems, and related computer science work."
 keywords:
   - "academic website"
   - "scientific research hub"
   - "artificial intelligence"
   - "AI safety"
+  - "AI governance"
   - "No-Meta governance"
+  - "Constraint Generative Theory"
+  - "auditable autonomous intelligence"
   - "self-organizing systems"
   - "computational philosophy"
 url: "https://kadubon.github.io/github.io/"

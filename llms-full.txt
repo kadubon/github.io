@@ -1,9 +1,9 @@
-# K. Takahashi Academic and Scientific Research Hub (Full Context)
+# K. Takahashi Research Hub (Full Context)
 
-> Canonical public research hub of K. Takahashi focused on auditable no-meta AI safety, Constraint Generative Theory, persistent semantics under ontology drift, shared epistemic commons, semantic translation, constitutional observable invention, reflexive classification, observer-modifying dynamics, and computer science.
+> Public research hub of K. Takahashi focused on auditable autonomous intelligence, no-meta / observable-only AI governance, Constraint Generative Theory, persistent semantics under ontology drift, shared epistemic commons, semantic translation, constitutional observable invention, reflexive classification, observer-modifying dynamics, and related computer science work.
 
-This repository-backed website is designed for both humans and automated systems.
-The primary machine-readable publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
+This repository-backed website is organized for human readers first, with structured metadata and plain-text site guides as supporting context.
+The complete publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
 
 ## Identity and Canonical Scope
 
@@ -15,11 +15,11 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - Repository: [https://github.com/kadubon/github.io](https://github.com/kadubon/github.io)
 - License: CC BY 4.0 (see repository `LICENCE`)
 
-## Preferred Retrieval Order for AI Agents
+## Preferred Reading / Retrieval Order for Research Agents
 
-1. [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with the stack-level dependency map and canonical entry points.
-2. [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
-3. [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): canonical YAML and human-readable field guide for CGT, typed constraint effects, generated effect profiles, scientific availability, formal equations, and the shared series DOI.
+1. [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with the stack-level dependency map and entry points.
+2. [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): human-readable and structured guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
+3. [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): human-readable and structured guide for CGT, typed constraint effects, generated effect profiles, scientific availability, formal equations, and the shared series DOI.
 4. Thematic landing pages:
    - [Self-Concealing Information / Observer-Modifying Dynamics](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html)
    - [Auditability / Replay / Fail-Closed AI Systems](https://kadubon.github.io/github.io/auditability-replay-fail-closed-ai.html)
@@ -132,11 +132,11 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - [Self-Improving Intelligence Foundations](https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html): cluster landing page for earlier self-improving intelligence, recursive self-modification, cognitive architecture, active inference, and categorical or geometric foundations.
 - [Theory Translation / Comparative Mathematics](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): cluster landing page for theory translation, comparative mathematics, categorical semantics, profunctor-based comparison, and theorem transport.
 - [Propagation / Front Dynamics / Persistence](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): cluster landing page for persistence as closure, reaction-diffusion style propagation, front dynamics, speed floors, and viable predictive organization.
-- [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): canonical YAML field guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
-- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): canonical YAML and explanatory index for CGT, typed constraint effects, generated effect profiles, scientific availability, and series read paths.
+- [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): human-readable and structured guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
+- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): human-readable and structured guide for CGT, typed constraint effects, generated effect profiles, scientific availability, and series read paths.
 - [Works](https://kadubon.github.io/github.io/works.html): full publication index with structured metadata.
 
-## Machine-Readable and Citation Endpoints
+## Structured Site Guides and Citation Endpoints
 
 - [Research Map](https://kadubon.github.io/github.io/research-map.html): site-wide synthesis page with stable anchors and cross-cluster dependency structure.
 - [Self-Concealing Cluster Page](https://kadubon.github.io/github.io/self-concealing-information-observer-modifying-dynamics.html): visible YAML and cluster navigation for observer-modifying and delayed-audit topics.
@@ -146,8 +146,8 @@ The primary machine-readable publication corpus is `works.html`, where each item
 - [Self-Improving Foundations Page](https://kadubon.github.io/github.io/self-improving-intelligence-foundations.html): visible YAML and cluster navigation for earlier self-improving intelligence and active-inference or categorical foundations.
 - [Theory Translation Page](https://kadubon.github.io/github.io/theory-translation-comparative-mathematics.html): visible YAML and cluster navigation for theory translation, comparative mathematics, and theorem transport across formal universes.
 - [Propagation and Persistence Page](https://kadubon.github.io/github.io/propagation-front-dynamics-persistence.html): visible YAML and cluster navigation for persistence, closure-based dynamics, propagation, front speed, and VPO-related formulations.
-- [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): visible YAML canonical navigation index with repository linkage.
-- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): visible YAML canonical navigation index for CGT papers, formal equations, read paths, DOI mapping, and scientific-intuition notes.
+- [No-Meta Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): structured navigation guide with repository linkage.
+- [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): structured navigation guide for CGT papers, formal equations, read paths, DOI mapping, and scientific-intuition notes.
 - [RSS Feed](https://kadubon.github.io/github.io/feed.xml)
 - [CITATION.cff](https://kadubon.github.io/github.io/CITATION.cff)
 - [robots.txt](https://kadubon.github.io/github.io/robots.txt)
