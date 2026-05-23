@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constraint Generative Theory (CGT): Claims, Reports, Support, and Scientific Availability | K. Takahashi</title>
     <meta name="description" content="Human-readable guide to Constraint Generative Theory (CGT), a viewpoint-oriented research series on typed constraints, report lenses, support conditions, scientific availability, abstention, and claim auditing.">
-    <meta name="keywords" content="Constraint Generative Theory, CGT, viewpoint-oriented meta-theory, typed constraints, report lenses, support conditions, scientific availability, experimental availability, abstention, claim auditing, machine-checkable audit certificates, generated effect profiles">
+    <meta name="keywords" content="Constraint Generative Theory, CGT, viewpoint-oriented meta-theory, typed constraints, report lenses, support conditions, scientific availability, experimental availability, statistical verifier semantics, abstention, claim auditing, certificate-carrying replay, machine-checkable audit certificates, generated effect profiles">
     <meta name="author" content="K Takahashi">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
@@ -232,7 +232,7 @@
           "name": "Constraint Generative Theory (CGT) Series Index",
           "description": "Human-readable guide to the Constraint Generative Theory paper series as a viewpoint-oriented research program for reading claims, reports, support conditions, scientific availability, uncertainty, and abstention under declared constraints.",
           "inLanguage": "en",
-          "dateModified": "2026-05-22",
+          "dateModified": "2026-05-24",
           "isPartOf": {
             "@id": "https://kadubon.github.io/github.io/#website"
           },
@@ -276,7 +276,10 @@
             "constraint interaction ecology",
             "physical availability",
             "experimental availability",
-            "machine-checkable audit certificates"
+            "machine-checkable audit certificates",
+            "statistical verifier semantics",
+            "certificate-carrying replay",
+            "purpose-indexed availability"
           ]
         },
         {
@@ -286,7 +289,7 @@
           "description": "Structured YAML summary indexing the CGT paper series, mathematical anchors, human reading summary, claim boundaries, paper relations, glossary, related OSS companions, common misreadings, FAQ, and reading paths.",
           "encodingFormat": "text/yaml",
           "url": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html",
-          "dateModified": "2026-05-22",
+          "dateModified": "2026-05-24",
           "license": "https://creativecommons.org/licenses/by/4.0/",
           "creator": {
             "@type": "Person",
@@ -327,14 +330,15 @@
             {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-conceptual-monopoly-diagnostics"},
             {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-interaction-ecology"},
             {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-physical-availability"},
-            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-experimental-availability"}
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-experimental-availability"},
+            {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-statistical-verifier-semantics"}
           ]
         },
         {
           "@type": "ItemList",
           "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#cgt-paper-list",
           "name": "Constraint Generative Theory paper list",
-          "numberOfItems": 10,
+          "numberOfItems": 11,
           "itemListOrder": "https://schema.org/ItemListOrderAscending",
           "itemListElement": [
             {"@type": "ListItem", "position": 1, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-cgt-core"}},
@@ -346,7 +350,8 @@
             {"@type": "ListItem", "position": 7, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-conceptual-monopoly-diagnostics"}},
             {"@type": "ListItem", "position": 8, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-constraint-interaction-ecology"}},
             {"@type": "ListItem", "position": 9, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-physical-availability"}},
-            {"@type": "ListItem", "position": 10, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-experimental-availability"}}
+            {"@type": "ListItem", "position": 10, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-experimental-availability"}},
+            {"@type": "ListItem", "position": 11, "item": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-statistical-verifier-semantics"}}
           ]
         },
         {
@@ -458,6 +463,17 @@
           "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
           "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
           "keywords": ["experimental availability", "audit certificates", "obstruction codes", "replay contracts", "machine-checkable claims"]
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#paper-statistical-verifier-semantics",
+          "name": "Statistical Verifier Semantics in Constraint Generative Theory: Availability, Certificate-Carrying Replay, and Purpose-Indexed Cone-Stable Frontier Transport",
+          "author": {"@id": "https://kadubon.github.io/github.io/#person"},
+          "datePublished": "2026-05-24",
+          "isPartOf": {"@id": "https://kadubon.github.io/github.io/constraint-generative-theory-index.html#constraint-generative-theory-series"},
+          "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.20199440", "url": "https://doi.org/10.5281/zenodo.20199440"},
+          "sameAs": ["https://doi.org/10.5281/zenodo.20199440"],
+          "keywords": ["statistical verifier semantics", "meta-statistical availability", "certificate-carrying replay", "purpose-indexed availability", "cone-stable frontier transport"]
         }
       ]
     }
@@ -487,7 +503,7 @@
             <p class="lead">Constraint Generative Theory (CGT) is a viewpoint-oriented meta-theory for reading scientific, technical, and AI-system claims through typed constraints, generated effect profiles, report lenses, support conditions, scientific availability, and abstention-aware certificates.</p>
             <p>CGT starts from a simple distinction: a system may report an answer, but that report may not contain the support needed for the stronger claim a reader wants to make. CGT asks what a given report, model output, measurement, audit log, or scientific statement is actually allowed to support.</p>
             <p>In this vocabulary, a report is the visible or declared output; support is the evidence and constraint structure behind it; availability is the declared route by which a claim can be observed, described, verified, failed, reproduced, or continued; and abstention is the status kept when support is not enough. A constraint is not only a restriction: in a declared frame it can generate observation, comparison, verification, continuation, repair, release, or abstention structure.</p>
-            <p class="meta-line">Series DOI: <a href="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</a>. This page was last updated on <time datetime="2026-05-22">2026-05-22</time>.</p>
+            <p class="meta-line">Series DOI: <a href="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</a>. This page was last updated on <time datetime="2026-05-24">2026-05-24</time>.</p>
         </section>
 
         <section class="container short-version" id="short-version" aria-label="Short version">
@@ -562,7 +578,7 @@
         <section class="container" id="series-map">
             <h2>Series Map</h2>
             <p>All entries below belong to the same CGT Zenodo directory and use the DOI <a href="https://doi.org/10.5281/zenodo.20199440">10.5281/zenodo.20199440</a>.</p>
-            <p class="flow-note">The papers move from basic semantics to increasingly applied diagnostic layers: the core paper defines effect profiles and the viewpoint, the projection and availability papers explain what reports can hide, the certificate papers handle finite support and diagnostic status, and the physical and experimental availability papers apply the same report-lens discipline to domain-facing reports. Later papers extend the reading practice; they do not replace the core.</p>
+            <p class="flow-note">The papers move from basic semantics to increasingly applied diagnostic layers: the core paper defines effect profiles and the viewpoint, the projection and availability papers explain what reports can hide, the certificate papers handle finite support and diagnostic status, and the physical, experimental, and statistical verifier papers apply the same report-lens discipline to domain-facing reports and statistical artifacts. Later papers extend the reading practice; they do not replace the core.</p>
             <div class="paper-grid">
                 <article class="paper-card" id="paper-cgt-core-visible">
                     <h3>Constraint Generative Theory: Typed Constraint Effects and Scientific Availability</h3>
@@ -704,6 +720,20 @@
                         <dd>It is a theory-level certificate discipline, not a software implementation or a replacement for causal inference, statistics, metrology, privacy theory, reporting guidance, workflow standards, or provenance standards.</dd>
                     </dl>
                 </article>
+                <article class="paper-card" id="paper-statistical-verifier-semantics-visible">
+                    <h3>Statistical Verifier Semantics in Constraint Generative Theory</h3>
+                    <time datetime="2026-05-24">2026-05-24</time><span class="role">meta-statistical availability</span>
+                    <dl>
+                        <dt>Question</dt>
+                        <dd>When does a statistical artifact such as a p-value, posterior, conformal set, benchmark score, or risk estimate support the stronger claim a reader wants to make?</dd>
+                        <dt>Contribution</dt>
+                        <dd>Defines a CGT meta-statistical verifier layer with status product preorders, marker nuclei, certificate-carrying replay, finite audit abstraction, approximate frontier risk semantics, represented effective bandwidth replay, and purpose-indexed cone-stable frontier transport.</dd>
+                        <dt>Plain reading</dt>
+                        <dd>A statistical number is a report projection; availability depends on the declared selection path, calibration domain, deployment loss, replay contract, purpose, and unresolved marker debt.</dd>
+                        <dt>Boundary</dt>
+                        <dd>It does not replace statistical inference, Blackwell theory, computable analysis, validated numerics, safe testing, provenance schemas, or multiobjective optimization; it classifies what those artifacts can support under declared effect coordinates.</dd>
+                    </dl>
+                </article>
             </div>
         </section>
 
@@ -725,6 +755,7 @@
                     <ol>
                         <li>Scientific Availability</li>
                         <li>Constraint-Generated Experimental Availability</li>
+                        <li>Statistical Verifier Semantics</li>
                         <li>Mutual Constraint Viability</li>
                         <li>Constraint Bandwidth Dynamics</li>
                         <li>Constraint Interaction Ecology</li>
@@ -884,7 +915,7 @@
             <p class="machine-note">The structured summary below keeps stable handles for citation, indexing, and research-agent use. It is supporting metadata; the main page remains the human-readable guide above.</p>
             <details class="structured-summary">
                 <summary>Structured summary for citation, indexing, and research-agent use</summary>
-            <pre id="canonical-cgt-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="constraint-generative-theory-series" data-last-updated="2026-05-22" aria-label="Structured YAML summary for the Constraint Generative Theory series">series:
+            <pre id="canonical-cgt-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="constraint-generative-theory-series" data-last-updated="2026-05-24" aria-label="Structured YAML summary for the Constraint Generative Theory series">series:
   id: constraint-generative-theory-series
   abbreviation: CGT
   title: "Constraint Generative Theory"
@@ -894,7 +925,7 @@
   homepage: https://kadubon.github.io/github.io/
   doi: https://doi.org/10.5281/zenodo.20199440
   license: https://creativecommons.org/licenses/by/4.0/
-  last_updated: 2026-05-22
+  last_updated: 2026-05-24
   machine_reading_status:
     visible_yaml_primary: true
     json_ld_secondary: true
@@ -937,6 +968,7 @@ human_reading_summary:
     - "Certificate and diagnostic papers handle finite evidence, support, release, interaction, and abstention."
     - "The physical interface paper asks what limited physical report lenses determine or forget."
     - "The experimental availability paper turns claim availability into machine-checkable audit certificates, obstruction codes, provenance, and replay contracts."
+    - "The statistical verifier semantics paper treats statistical artifacts as report projections whose availability depends on typed status, replay, approximation, representation, purpose, and unresolved marker debt."
 
 claim_boundaries:
   no_replacement_claim:
@@ -946,6 +978,7 @@ claim_boundaries:
   complexity_scope: "NP-completeness and finite audit results are for fixed candidate pools, bounded fragments, or polynomially verifiable certificate regimes."
   physical_scope: "Constraint-generated physical availability is an interface for report-lens diagnosis, not a replacement for established physical theories."
   experimental_scope: "Constraint-generated experimental availability is a certificate discipline for declared audit records; it does not replace causal inference, statistics, metrology, privacy theory, reporting guidance, workflow standards, or provenance standards."
+  statistical_scope: "Statistical verifier semantics classifies what statistical artifacts support under declared effect coordinates; it does not replace statistical inference, Blackwell theory, computable analysis, validated numerics, safe testing, provenance schemas, or multiobjective optimization."
   failure_policy: "Missing checker rows, undeclared lenses, unbounded enumeration, or unverified transport should produce abstention or retained diagnostic status rather than a positive claim."
 
 paper_relations:
@@ -961,6 +994,7 @@ paper_relations:
     - constraint-interaction-ecology
     - conceptual-monopoly-diagnostics
     - constraint-generated-experimental-availability
+    - statistical-verifier-semantics
   physical_interface:
     - constraint-generated-physical-availability
   dependency_hint: "Later certificate papers should be read as finite or diagnostic layers over the core effect-profile semantics, not as replacements for it."
@@ -971,6 +1005,7 @@ glossary:
   report_lens: "A projection from an effect profile to a report object; it can forget coordinates relevant to availability or diagnosis."
   scientific_availability: "A declared package showing how selected effects can be observed, described, normalized, verified, failed, reproduced, and continued."
   experimental_availability: "A declared audit-certificate package showing how experimental claim status can be computed from typed records, verifier traces, obstruction codes, provenance, and replay contracts."
+  statistical_verifier_semantics: "A meta-statistical CGT layer for deciding what statistical reports can support under typed status records, replay contracts, approximation ledgers, purpose requirements, and marker debt."
   retained_diagnostic_status: "A typed record that preserves uncertainty, boundary, failure, or diagnostic-only information without promoting it to positive floor evidence."
   abstention: "The correct output when the declared fragment lacks enough typed evidence to certify the stronger claim."
 
@@ -987,12 +1022,15 @@ common_misreadings:
     correction: "They diagnose lens-relative witness availability using observable certificates."
   - misreading: "A machine-checkable experimental certificate automates all scientific judgment."
     correction: "It computes status only for the declared audit record and leaves domain methods, missing evidence, and external judgment boundaries explicit."
+  - misreading: "Statistical verifier semantics makes statistical inference unnecessary."
+    correction: "It treats statistical methods as domain artifacts whose claim-support role still depends on declared selection, calibration, loss, replay, purpose, and approximation conditions."
 
 scientific_integrity_notes:
   - "Use abstention when a checker row, comparison interface, lens, finite bound, support certificate, or transport witness is missing."
   - "Keep report equality separate from effect-profile equality."
   - "State whether a result is core semantic, finite certificate, diagnostic, physical-interface, or complexity-theoretic."
   - "Treat experimental audit certificates as declared support records, not as replacements for domain-specific methodology."
+  - "Treat statistical verifier statuses as claim-support classifications, not as replacements for statistical modeling or decision analysis."
   - "Do not turn philosophical intuition into an unstated scientific premise."
   - "Preserve declared failure conditions so the claim can be reproduced, challenged, or refuted."
 
@@ -1109,6 +1147,12 @@ papers:
     role: experimental-audit-certificates
     doi: https://doi.org/10.5281/zenodo.20199440
     contribution: "Defines a CGT audit language for experimental availability, including typed certificate graphs, status and obstruction codes, verifier traces, provenance, and replay contracts."
+  - id: statistical-verifier-semantics
+    title: "Statistical Verifier Semantics in Constraint Generative Theory: Availability, Certificate-Carrying Replay, and Purpose-Indexed Cone-Stable Frontier Transport"
+    published: 2026-05-24
+    role: meta-statistical-availability
+    doi: https://doi.org/10.5281/zenodo.20199440
+    contribution: "Defines a CGT meta-statistical verifier layer for statistical artifacts, certificate-carrying replay, finite audit abstraction, approximate frontier risk semantics, represented effective bandwidth replay, and purpose-indexed cone-stable frontier transport."
 
 read_paths:
   first_time_reader:
@@ -1119,6 +1163,7 @@ read_paths:
   finite_certificates:
     - scientific-availability
     - constraint-generated-experimental-availability
+    - statistical-verifier-semantics
     - mutual-constraint-viability
     - constraint-bandwidth-dynamics
     - constraint-interaction-ecology
