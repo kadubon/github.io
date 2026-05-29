@@ -5,8 +5,37 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 22 May 2026 11:28:09 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 29 May 2026 20:10:26 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Boundary-Encoded Stability Theory (BEST)</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-29-boundary-encoded-stability-theory-best-20443834</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-29-boundary-encoded-stability-theory-best-20443834</guid>
+    <pubDate>Fri, 29 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>stochastic viability</category>
+    <category>boundary-layer viability</category>
+    <category>black-box systems</category>
+    <category>killed processes</category>
+    <category>fallible control</category>
+    <category>stochastic control</category>
+    <category>surface laws</category>
+    <category>surfaced perturbations</category>
+    <category>metabolic capital</category>
+    <category>metabolic margin</category>
+    <category>resource concentration</category>
+    <category>schema reorganization</category>
+    <category>evidence gates</category>
+    <category>memory approximation</category>
+    <category>probabilistic systems</category>
+    <category>hazard process</category>
+    <source url="https://doi.org/10.5281/zenodo.20443834">10.5281/zenodo.20443834</source>
+    <description><![CDATA[
+      This manuscript introduces Boundary-Encoded Stability Theory (BEST), a stochastic viability framework for analyzing long-running black-box systems through the persistence of their self-maintaining boundary layers rather than through full access to hidden internal state. A BEST system is modeled as a discrete-time killed process with surfaced perturbations, observation timing, metabolic boundary variables, exchange requirements, fallible control execution, schema exit and reorganization, and an absorbing death state. The paper develops mathematical certificates for boundary-layer survival, including surface-equivalence and non-identifiability results, metabolic capital constructions, stochastic-order resource concentration, stopped and time-uniform metabolic-margin bounds, history-dependent surface-law and memory-approximation results, evidence-gated schema reorganization, finite-horizon risk ledgers, infinite-horizon hazard characterizations, and continuous-time killed-generator extension conditions. The framework is intended as a structured theory of boundary persistence under uncertainty and fallible execution; it is not a containment, alignment, or hidden-bulk safety guarantee.
+Preprint | DOI: 10.5281/zenodo.20443834
+    ]]></description>
+  </item>
   <item>
     <title>Constraint Generative Theory: Typed Constraint Effects and Scientific Availability</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440</link>
