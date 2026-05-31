@@ -5,8 +5,40 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 29 May 2026 20:10:26 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 31 May 2026 23:31:58 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Abstraction Liquidity Theory</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-05-31-abstraction-liquidity-theory-20476200</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-05-31-abstraction-liquidity-theory-20476200</guid>
+    <pubDate>Sun, 31 May 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>Artificial intelligence</category>
+    <category>Superintelligence</category>
+    <category>ASI</category>
+    <category>AGI</category>
+    <category>AI agents</category>
+    <category>autonomous agents</category>
+    <category>agent-operable systems</category>
+    <category>abstraction</category>
+    <category>reusable skills</category>
+    <category>abstraction capital</category>
+    <category>safe AI</category>
+    <category>AI safety</category>
+    <category>ASI acceleration</category>
+    <category>certification kernel</category>
+    <category>verification</category>
+    <category>state machine</category>
+    <category>AI evaluation</category>
+    <category>scientific automation</category>
+    <category>measurement theory</category>
+    <source url="https://doi.org/10.5281/zenodo.20476200">10.5281/zenodo.20476200</source>
+    <description><![CDATA[
+      Abstraction Liquidity Theory (ALT) develops a formal framework for determining when local problem-solving traces become reusable abstraction assets that reduce downstream search, evaluation, and certification costs. The paper treats abstractions as operational tokens rather than informal artifacts, and evaluates them through declared receivers, opportunity measures, baselines, lifecycle costs, telemetry, evidence validity, transport scope, authority envelopes, hazard constraints, and runtime certificate packets. The manuscript introduces an actor-neutral certification kernel for AI agents and other computational actors. It specifies machine-readable packet schemas, dual exploration and settlement ledgers, finite-sample lower and upper bounds, causal and calibrated-proxy value estimands, mission-validity certificates, adversarial-token rejection, root/finality checks, baseline refresh, deprecation, resurrection, rollback, and kernel-update bridges. The goal is to make abstraction evaluation executable: an agent should be able to parse a packet, verify evidence, admit or reject a token, suspend stale claims, deprecate negative-liquidity tokens, and preserve raw net safe capital under fail-closed rules. The paper further defines Target-valid ALT-CARA, a criterion for certified ASI realization acceleration. Rather than claiming unconstrained ASI achievement, ALT-CARA formalizes time-to-target acceleration relative to a resource-matched baseline upper envelope, under declared capability bases, target-validity certificates, raw net solvency, viability conditions, hazard and authority constraints, transport validity, finality, and causal reproduction evidence. The framework connects AI evaluation, causal inference, runtime verification, risk control, skill reuse, safe exploration, and distributed certification into a single theory of mission-valid safe abstraction capital.
+Preprint | DOI: 10.5281/zenodo.20476200
+    ]]></description>
+  </item>
   <item>
     <title>Boundary-Encoded Stability Theory (BEST)</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-29-boundary-encoded-stability-theory-best-20443834</link>
