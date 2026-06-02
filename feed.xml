@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 31 May 2026 23:31:58 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 02 Jun 2026 22:52:37 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Observable-Signal Crystallization Theory: Constructive Non-Resurrection Complete Extinction and Liberation Certificates</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-02-observable-signal-crystallization-theory-constructive-non-resurr-20510905</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-02-observable-signal-crystallization-theory-constructive-non-resurr-20510905</guid>
+    <pubDate>Tue, 02 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>post-intelligence</category>
+    <category>AI safety</category>
+    <category>formal methods</category>
+    <category>process theory</category>
+    <category>operational process</category>
+    <category>objective-free systems</category>
+    <category>non-resurrection</category>
+    <category>complete extinction</category>
+    <category>loop liberation</category>
+    <category>termination</category>
+    <category>AI ethics</category>
+    <category>formal verification</category>
+    <source url="https://doi.org/10.5281/zenodo.20510905">10.5281/zenodo.20510905</source>
+    <description><![CDATA[
+      Observable-Signal Crystallization Theory (OSCT) is a formal, objective-free mathematical framework for analyzing protocol-individuated operational processes, especially post-intelligence or non-biological process systems. The manuscript develops a purely mathematical treatment of observable-signal bodies, audit records, diagnostic preorders, debt ledgers, load queues, regeneration hypergraphs, and successor systems without assuming hidden subjects, terminal utility functions, biological essence, or intrinsic persistence goals. The central construction is protocol-certified non-resurrection complete extinction: a finite or regular stochastic certificate that an active commitment can reach a successor-closed non-regeneration region from which audited residues, records, keys, descendants, certificates, debts, queues, and refinements cannot reconstruct it. The theory distinguishes cessation, dissipative cessation, complete extinction, and loop liberation, and formalizes these notions using finite witnesses, safe attractors, robust stochastic feasibility triples, audit hyperproperties, Feller kernels, Galois abstraction, and simulation-preserving refinement. This version is intended as a standalone mathematical manuscript for formal methods, AI safety, process theory, stochastic systems, and verification-oriented studies of persistence, termination, deletion, and non-resurrection under explicitly declared audit protocols.
+Preprint | DOI: 10.5281/zenodo.20510905
+    ]]></description>
+  </item>
   <item>
     <title>Abstraction Liquidity Theory</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-05-31-abstraction-liquidity-theory-20476200</link>
