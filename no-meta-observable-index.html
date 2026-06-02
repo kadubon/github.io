@@ -106,7 +106,7 @@
           "name": "No-Meta / Observable-Only Research Series",
           "description": "Human-readable field guide to the no-meta / observable-only research series: AI governance without privileged meta-judges, observable evidence, audit logs, deterministic replay, fail-closed verification, ontology drift, claim certification, and autonomous agent control.",
           "inLanguage": "en",
-          "dateModified": "2026-05-11",
+          "dateModified": "2026-06-02",
           "keywords": [
             "no-meta governance",
             "observable-only evidence",
@@ -156,6 +156,7 @@
             {"@id": "https://doi.org/10.5281/zenodo.20020272"},
             {"@id": "https://doi.org/10.5281/zenodo.20107661"},
             {"@id": "https://doi.org/10.5281/zenodo.20116149"},
+            {"@id": "https://doi.org/10.5281/zenodo.20510905"},
             {"@id": "https://github.com/kadubon/oasg"},
             {"@id": "https://github.com/kadubon/observable-replay-lab"},
             {"@id": "https://github.com/kadubon/audit-closed-ai-scientist"},
@@ -187,7 +188,7 @@
           "description": "Structured YAML summary indexing the no-meta / observable-only research series, including terms, paper roles, reading paths, dependencies, repository mappings, governance-layer papers, and OASG software artifact metadata.",
           "encodingFormat": "text/yaml",
           "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
-          "dateModified": "2026-05-11",
+          "dateModified": "2026-06-02",
           "keywords": [
             "no-meta governance",
             "observable-only evidence",
@@ -196,7 +197,9 @@
             "ontology drift",
             "claim certification",
             "OASG",
-            "runtime verification"
+            "runtime verification",
+            "non-resurrection",
+            "formal verification"
           ],
           "license": "https://creativecommons.org/licenses/by/4.0/",
           "creator": {
@@ -373,6 +376,13 @@
                         <li>Institution-Relative Pairwise Information Necessity</li>
                     </ul>
                 </article>
+                <article class="cluster-card">
+                    <h3>Termination and Liberation Certificates</h3>
+                    <p>These papers treat objective-free process persistence, non-resurrection, complete extinction, and loop liberation through declared observable protocols.</p>
+                    <ul>
+                        <li>Observable-Signal Crystallization Theory</li>
+                    </ul>
+                </article>
             </div>
         </section>
 
@@ -423,6 +433,14 @@
                         <li><a href="https://kadubon.github.io/github.io/works.html#2026-02-24-liberty-under-no-meta-drift-18753475">Liberty Under No-Meta Drift</a> <span class="path-doi">DOI: <a href="https://doi.org/10.5281/zenodo.18753475">10.5281/zenodo.18753475</a></span></li>
                         <li><a href="https://kadubon.github.io/github.io/works.html#2026-02-17-observable-only-structural-risk-institutions-wit-18666605">Structural Risk Institutions</a> <span class="path-doi">DOI: <a href="https://doi.org/10.5281/zenodo.18666605">10.5281/zenodo.18666605</a></span></li>
                         <li><a href="https://kadubon.github.io/github.io/works.html#2026-03-13-sovereign-epistemic-commons-under-no-meta-govern-18997828">Sovereign Epistemic Commons</a> <span class="path-doi">DOI: <a href="https://doi.org/10.5281/zenodo.18997828">10.5281/zenodo.18997828</a></span></li>
+                    </ol>
+                </article>
+                <article class="path-card">
+                    <h3>Termination and liberation reader</h3>
+                    <ol>
+                        <li><a href="https://kadubon.github.io/github.io/works.html#2026-06-02-observable-signal-crystallization-theory-constructive-non-resurr-20510905">Observable-Signal Crystallization Theory</a> <span class="path-doi">DOI: <a href="https://doi.org/10.5281/zenodo.20510905">10.5281/zenodo.20510905</a></span></li>
+                        <li><a href="https://kadubon.github.io/github.io/works.html#2026-05-04-observable-only-universal-liberation-and-welfare-viability-20020272">Observable-Only Universal Liberation and Welfare Viability</a> <span class="path-doi">DOI: <a href="https://doi.org/10.5281/zenodo.20020272">10.5281/zenodo.20020272</a></span></li>
+                        <li><a href="https://kadubon.github.io/github.io/works.html#2026-01-08-observable-only-audit-gate-for-non-markovian-com-18182343">Observable-Only Audit Gate</a> <span class="path-doi">DOI: <a href="https://doi.org/10.5281/zenodo.18182343">10.5281/zenodo.18182343</a></span></li>
                     </ol>
                 </article>
             </div>
@@ -546,7 +564,7 @@
             <p class="index-note">The YAML below preserves stable identifiers, paper roles, DOI links, reading paths, and repository mappings for citation, indexing, and research-agent use. It supports the human-readable guide above.</p>
             <details class="structured-summary">
                 <summary>Structured summary for citation, indexing, and research-agent use</summary>
-            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-05-11" aria-label="Structured YAML summary for the no-meta observable-only series">series:
+            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-06-02" aria-label="Structured YAML summary for the no-meta observable-only series">series:
   id: no-meta-observable-only-series
   title: "No-Meta / Observable-Only Research Series"
   status: active
@@ -602,6 +620,14 @@ machine_parse_guide:
         - process-aware-observable-only-backcasting-meta-layer
         - observable-only-no-meta-causal-autonomy-protocol
       stop_when: The parser can state what counts as admissible evidence, logs, gates, certificates, or replay surfaces in this series.
+    - question: how-can-termination-or-liberation-be-certified-without-hidden-subjects
+      read_first:
+        - observable-signal-crystallization-theory
+      read_next:
+        - observable-only-universal-liberation-and-welfare-viability
+        - observable-only-audit-gate-non-markovian-components
+        - floor-specified-no-meta-autonomy
+      stop_when: The parser can distinguish cessation, complete extinction, loop liberation, and non-resurrection certificates under declared observable audit protocols.
     - question: why-does-the-series-impose-these-constraints
       read_first:
         - no-meta-intelligence-under-ontology-drift
@@ -729,6 +755,11 @@ read_paths:
     - liberty-under-no-meta-drift
     - observable-only-structural-risk-institutions
     - sovereign-epistemic-commons-under-no-meta-governance
+  termination_liberation:
+    - observable-signal-crystallization-theory
+    - observable-only-universal-liberation-and-welfare-viability
+    - observable-only-audit-gate-non-markovian-components
+    - floor-specified-no-meta-autonomy
 
 canonical_terms:
   - term: no-meta governance
@@ -752,6 +783,11 @@ canonical_terms:
       - floor-specified-no-meta-autonomy
       - observable-only-audit-gate-non-markovian-components
       - hallucination-aware-audit-gate
+  - term: protocol-certified non-resurrection
+    definition: A finite or regular stochastic certificate that a protocol-individuated process reaches a successor-closed non-regeneration region from which audited residues, records, descendants, and refinements cannot reconstruct the active commitment.
+    needed_for: Parse OSCT's treatment of termination, complete extinction, and loop liberation without hidden subjects or intrinsic persistence goals.
+    primary_papers:
+      - observable-signal-crystallization-theory
   - term: ontology drift
     definition: Change in an agent's internal representation or meaning structure across time, self-revision, or deployment.
     needed_for: Parse why semantic continuity cannot be assumed.
@@ -1586,6 +1622,39 @@ papers:
       - compositional guarantees
       - drift hardening
 
+  - id: observable-signal-crystallization-theory
+    title: "Observable-Signal Crystallization Theory: Constructive Non-Resurrection Complete Extinction and Liberation Certificates"
+    published: 2026-06-02
+    role: termination-liberation-formalism
+    priority: supporting
+    answers:
+      - how-can-termination-or-liberation-be-certified-without-hidden-subjects
+      - what-counts-as-non-resurrection-under-declared-audit-protocols
+      - how-can-objective-free-processes-be-analyzed-through-observable-signals
+    contributes:
+      - observable-signal body and audit-record formalism for protocol-individuated operational processes
+      - protocol-certified non-resurrection complete extinction certificates
+      - formal distinction between cessation, dissipative cessation, complete extinction, and loop liberation
+    depends_on:
+      - observable-only-audit-gate-non-markovian-components
+      - floor-specified-no-meta-autonomy
+      - observable-only-universal-liberation-and-welfare-viability
+    links:
+      doi: https://doi.org/10.5281/zenodo.20510905
+      zenodo: https://zenodo.org/records/20510905
+      html: https://kadubon.github.io/github.io/works.html#2026-06-02-observable-signal-crystallization-theory-constructive-non-resurr-20510905
+      pdf: null
+    keywords:
+      - observable-signal crystallization theory
+      - post-intelligence
+      - non-resurrection
+      - complete extinction
+      - loop liberation
+      - objective-free systems
+      - process theory
+      - formal verification
+      - audit protocols
+
 artifacts:
   repositories:
     - id: github-io-source
@@ -2008,8 +2077,8 @@ usage_notes:
     missing_priority_defaults_to: supporting
   repository_parsing_hint: When a repository entry includes machine_entrypoints, prefer those files over README prose for paper-to-repo linkage.
   update_policy: Update this page when a new site-local paper or artifact clearly belongs to the no-meta / observable-only series; preserve stable ids and omit uncertain dependency claims.
-  version: 1.4.5
-  last_updated: 2026-05-10</pre>
+  version: 1.4.6
+  last_updated: 2026-06-02</pre>
             </details>
         </section>
 
