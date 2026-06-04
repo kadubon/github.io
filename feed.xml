@@ -5,8 +5,34 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 03 Jun 2026 20:51:33 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 04 Jun 2026 13:08:15 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Executable Capability Percolation Theory</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-04-executable-capability-percolation-theory-20535654</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-04-executable-capability-percolation-theory-20535654</guid>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>ASI proxy</category>
+    <category>capability hypergraph</category>
+    <category>phase transition</category>
+    <category>stochastic control</category>
+    <category>percolation theory</category>
+    <category>directed hypergraph</category>
+    <category>path-law response</category>
+    <category>mean-field approximation</category>
+    <category>Gibbs activation</category>
+    <category>rate-distortion quotient</category>
+    <category>autocatalytic networks</category>
+    <category>verification ledger</category>
+    <category>AI</category>
+    <source url="https://doi.org/10.5281/zenodo.20535654">10.5281/zenodo.20535654</source>
+    <description><![CDATA[
+      Executable Capability Percolation Theory (ECPT) is a mathematical framework for studying how execution-available capability packets can accumulate, combine, and propagate through constrained directed hypergraphs. The theory models ASI-proxy phase approach as a typed phase-control problem rather than as an absolute claim about artificial superintelligence. It separates settled, provisional, and speculative target claims, and represents capability growth through stochastic relaxation quotients, global Gibbs activation, speculative RAF-like closure, liquidity-debt settlement, reachable-mass recursion, and intervention-identified mean-field envelopes. This version emphasizes operability and machine readability. It introduces constructed path-law response policies, log-linked generator identification, finite-sample quotient certification, self-normalized risk margins, AND-support activation thresholds, and protocol-relative checker soundness. The TeX source also embeds a machine-readable manifest, claim registry, citation metadata, CodeMeta JSON-LD, and BibTeX mirror, making the artifact suitable for reproducible mathematical review and metadata indexing.
+Preprint | DOI: 10.5281/zenodo.20535654
+    ]]></description>
+  </item>
   <item>
     <title>Salience-Queue Occupation Theory</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-03-salience-queue-occupation-theory-20526451</link>
