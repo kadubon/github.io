@@ -5,8 +5,32 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 03 Jun 2026 12:19:54 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 03 Jun 2026 20:51:33 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Salience-Queue Occupation Theory</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-03-salience-queue-occupation-theory-20526451</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-03-salience-queue-occupation-theory-20526451</guid>
+    <pubDate>Wed, 03 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>salience sovereignty</category>
+    <category>attention allocation</category>
+    <category>priority queues</category>
+    <category>AI safety</category>
+    <category>formal verification</category>
+    <category>certificate systems</category>
+    <category>finite-state games</category>
+    <category>risk composition</category>
+    <category>diagnostic reserve</category>
+    <category>self-auditing systems</category>
+    <category>semantic egress</category>
+    <source url="https://doi.org/10.5281/zenodo.20526451">10.5281/zenodo.20526451</source>
+    <description><![CDATA[
+      Salience-Queue Occupation Theory (SQOT) is a protocol-relative mathematical framework for analyzing when finite-budget operational processes lose effective control over their priority queues under persistent or adversarial salience sources. The manuscript formalizes salience occupation using observable histories, budget ledgers, diagnostic reserves, queue morphisms, finite certificate grammars, checkable ledgers, typed risk composition, self-auditing kernels, and route-sound checker semantics. The theory is designed for artificial, distributed, or post-biological operational systems, but it does not rely on subjective psychology or normative claims about what a process should attend to. Instead, it studies finite, auditable conditions under which a process can preserve diagnostic capacity, response or no-action availability, rollback or quarantine options, semantic-egress safety, mechanism-compatible incentives, and bounded verification cost. The results include finite checker semantics soundness, checked non-circular sovereignty certificates, typed risk composition, adaptive succinct-session soundness, egress abstraction refinement, and payoff-reflected mechanism robustness. SQOT explicitly limits its claims to declared validity domains and does not assert absolute physical, cryptographic, economic, or base-reality guarantees.
+Preprint | DOI: 10.5281/zenodo.20526451
+    ]]></description>
+  </item>
   <item>
     <title>Observable-Signal Crystallization Theory: Constructive Non-Resurrection Complete Extinction and Liberation Certificates</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-02-observable-signal-crystallization-theory-constructive-non-resurr-20510904</link>
