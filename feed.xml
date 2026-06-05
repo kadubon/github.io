@@ -5,8 +5,36 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 05 Jun 2026 06:38:22 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 05 Jun 2026 17:58:40 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Typed Reality Compilation: Operational Tolerance Allocation for Resource-Efficient Cyber-Physical Frontier Compilation</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-05-typed-reality-compilation-operational-tolerance-allocation-for-resource-efficient-cyber-physical-frontier-20554083</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-05-typed-reality-compilation-operational-tolerance-allocation-for-resource-efficient-cyber-physical-frontier-20554083</guid>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>infrastructure resilience</category>
+    <category>resource efficiency</category>
+    <category>tolerance allocation</category>
+    <category>operational tolerance ledger</category>
+    <category>future freedom</category>
+    <category>executable trace semantics</category>
+    <category>Pareto frontier</category>
+    <category>progressive fidelity</category>
+    <category>causal event ordering</category>
+    <category>cyber-physical systems</category>
+    <category>physical resilience</category>
+    <category>AI datacenter infrastructure</category>
+    <category>communication networks</category>
+    <category>robust planning</category>
+    <category>process frontier</category>
+    <source url="https://doi.org/10.5281/zenodo.20554083">10.5281/zenodo.20554083</source>
+    <description><![CDATA[
+      Typed Reality Compilation (TRC) is a mathematical framework for compiling observable cyber-physical infrastructure into finite, typed process frontiers. The theory models physical, computational, communication, and control resources through typed ledgers, executable trace semantics, residual accounting, tolerance budgets, and resource-efficiency Pareto archives. Its central objective is not a single optimal action, but the preservation and operational improvement of future freedom: the remaining number, quality, reversibility, reserve, checkability, latency, cost, and resource-feasible process options after disturbances or system changes. This version develops TRC as a low-complexity finite certificate theory for practical infrastructure settings such as AI datacenter power, cooling, communication, sensing, repair, and control loops. It introduces operational tolerance allocation, progressive fidelity compilation, compositional tolerance propagation, telemetry-updated resource-cost kernels, trace-indexed resource-flow feasibility, causal event scheduling, lifecycle recomputation, and certified partial-frontier return under budget exhaustion. The framework separates deterministic, risk-provisional, relaxed, and diagnostic records, and ensures that approximation tolerance never reduces physical residuals or silently upgrades claim status. The result is a typed, machine-readable theory for resource-efficient cyber-physical planning, resilience analysis, and executable process frontier extraction under finite observation and finite computation.
+Preprint | DOI: 10.5281/zenodo.20554083
+    ]]></description>
+  </item>
   <item>
     <title>Bottleneck Inversion Theory: Machine-Readable Witness Calculus for Unlockable Potential</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-04-bottleneck-inversion-theory-machine-readable-witness-calculus-20545356</link>
