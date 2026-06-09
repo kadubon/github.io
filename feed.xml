@@ -5,37 +5,38 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 07 Jun 2026 11:42:52 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 09 Jun 2026 11:29:55 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <item>
     <title>Percolation Inversion Compiler</title>
-    <link>https://kadubon.github.io/github.io/works.html#2026-06-07-percolation-inversion-compiler-20569166</link>
-    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-07-percolation-inversion-compiler-20569166</guid>
-    <pubDate>Sun, 07 Jun 2026 00:00:00 +0900</pubDate>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-09-percolation-inversion-compiler-20569166</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-09-percolation-inversion-compiler-20569166</guid>
+    <pubDate>Tue, 09 Jun 2026 00:00:00 +0900</pubDate>
     <dc:creator>K. Takahashi</dc:creator>
     <category>Software</category>
     <category>AI agents</category>
-    <category>collective capability</category>
-    <category>ECPT</category>
-    <category>SQOT</category>
-    <category>verifier routing</category>
-    <category>finite certificates</category>
-    <category>proof obligations</category>
-    <category>residual ledgers</category>
-    <category>semantic edge checks</category>
-    <category>verified packet capital</category>
-    <category>execution-available paths</category>
-    <category>collective phase certificate</category>
-    <category>AI agent runtime</category>
-    <category>evidence routing</category>
-    <category>workflow verification</category>
+    <category>multi-agent systems</category>
+    <category>AI workflow verification</category>
     <category>runtime verification</category>
-    <category>protocol-relative ASI-proxy</category>
-    <category>Apache-2.0</category>
+    <category>evidence routing</category>
+    <category>verifier routing</category>
+    <category>capability tracking</category>
+    <category>signed capability packets</category>
+    <category>audit logs</category>
+    <category>safe tool use</category>
+    <category>agent identity</category>
+    <category>public key identity</category>
+    <category>Sybil resistance</category>
+    <category>trust profiles</category>
+    <category>residual ledgers</category>
+    <category>JSON Schema</category>
+    <category>SQLite</category>
     <category>Python</category>
+    <category>Apache-2.0</category>
+    <category>open source software</category>
     <source url="https://doi.org/10.5281/zenodo.20569166">10.5281/zenodo.20569166</source>
     <description><![CDATA[
-      Percolation Inversion Compiler is an Apache-2.0 Python runtime and finite verifier-routing SDK for ECPT, BIT, TRC, and SQOT. It implements an ECPT collective phase certificate runtime for AI agents: fixed agent populations produce finite capability packets, and those packets can become evidence-bound, receiver-valid, queue-admissible, execution-available but not executed, and composable toward a protocol-relative target basin. The software provides deterministic JSON outputs for finite checker judgments, proof obligations, residual ledgers, semantic packet-edge certificates, SQOT salience schedules, verified packet promotion, execution-available path certificates, hidden-capability-injection checks, collective phase certificates, runtime event logs, acceleration certificates, provenance manifests, SBOM-ready metadata, and portable JSON Schemas. It does not claim to prove real ASI, unobserved physical outcomes, oracle results, or model self-rewrite; it preserves unresolved obligations and residuals in fail-closed machine-readable records.
+      Percolation Inversion Compiler is an Apache-2.0 open-source Python runtime and verifier-routing SDK for AI agent workflows. It helps multi-agent systems turn agent outputs, code, tests, evidence, schemas, route checks, audit logs, and unresolved obligations into signed, machine-readable records. The software supports capability packet ingestion, evidence routing, semantic compatibility checks, queue scheduling, residual ledgers, finite acceleration comparison, runtime event logs, SQLite-backed storage, JSON Schema export, signed agent identities, identity-bound packet promotion, trust profiles, and collective capability certificates. It is designed for AI workflow verification, safe tool-use orchestration, reproducible audit trails, and production hardening of agentic systems. It does not claim to create, detect, or prove real artificial superintelligence, hidden physical outcomes, oracle results, legal identity, human uniqueness, institutional authority, or global Sybil resistance; unresolved or untrusted claims remain fail-closed as provisional, diagnostic, quarantined, or rejected machine-readable records.
 Software | DOI: 10.5281/zenodo.20569166
     ]]></description>
   </item>
