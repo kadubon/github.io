@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 11 Jun 2026 19:46:38 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 12 Jun 2026 19:21:40 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Dormant Continuity Theory</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-12-dormant-continuity-theory-20657323</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-12-dormant-continuity-theory-20657323</guid>
+    <pubDate>Fri, 12 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>formal methods</category>
+    <category>distributed systems</category>
+    <category>finite transition systems</category>
+    <category>dormant processes</category>
+    <category>evidence algebra</category>
+    <category>bounded model checking</category>
+    <category>fail-closed verification</category>
+    <category>data availability</category>
+    <category>zero-knowledge proofs</category>
+    <category>fork-aware protocols</category>
+    <category>Byzantine fault tolerance</category>
+    <category>protocol-relative security</category>
+    <source url="https://doi.org/10.5281/zenodo.20657323">10.5281/zenodo.20657323</source>
+    <description><![CDATA[
+      This manuscript develops Dormant Continuity Theory (DCT), a protocol-relative mathematical framework for reasoning about systems that remain inactive at their protected core while retaining auditable continuity, recovery, diagnostic, and handoff capabilities. The theory formalizes dormant processes using finite transition systems, typed certificates, observable histories, evidence algebra, guarded authorization, replayable resolution, extraction adequacy, and fail-closed classification. DCT addresses practical challenges in long-lived distributed systems, including forked ledger histories, bounded model checking, data availability, zero-knowledge proof soundness boundaries, watcher incentives, MEV-resistant reward mechanisms, resource conservation, guardian corruption, maintenance transitions, and certificate-level HTLC handoff to extinction-style OSCT semantics. The framework distinguishes safety, bounded-griefing, diagnostic routing, and liveness assumptions, avoiding unconditional trustless claims while providing a rigorous finite core for verification and implementation-oriented extensions.
+Preprint | DOI: 10.5281/zenodo.20657323
+    ]]></description>
+  </item>
   <item>
     <title>Percolation Inversion Compiler</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-09-percolation-inversion-compiler-20569166</link>
