@@ -5,8 +5,39 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 12 Jun 2026 19:21:40 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 20:30:45 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Consent-Bounded Contact Theory</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-13-consent-bounded-contact-theory-20678428</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-13-consent-bounded-contact-theory-20678428</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>formal methods</category>
+    <category>AI safety</category>
+    <category>digital consent</category>
+    <category>contact legitimacy</category>
+    <category>contact authorization</category>
+    <category>AI governance</category>
+    <category>autonomous agents</category>
+    <category>AI agent</category>
+    <category>distributed systems</category>
+    <category>access control</category>
+    <category>protocol semantics</category>
+    <category>operational semantics</category>
+    <category>provenance</category>
+    <category>auditability</category>
+    <category>revocation</category>
+    <category>challengeability</category>
+    <category>Sybil resistance</category>
+    <category>responsible AI</category>
+    <source url="https://doi.org/10.5281/zenodo.20678428">10.5281/zenodo.20678428</source>
+    <description><![CDATA[
+      Consent-Bounded Contact Theory (CBCT) develops a protocol-level theory for deciding when contact and contact-derived artifacts may be accepted as legitimate. In this framework, contact includes not only physical interaction or direct communication, but also querying, copying, forking, merging, modeling, simulating, representing, reactivating, auditing, inheriting, refining, and blocking contact-derived claims in long-lived artificial, collective, or autonomous processes. The theory defines consent-bounded legitimacy through observable evidence, credential closure, trust anchors, consent claims, negotiation transcripts, provenance records, residual routes, bridge contracts, ledgers, audit anchors, and finite certificates, while avoiding claims of physical non-contact, hidden subjective consent, complete observability, or substrate-specific standing. CBCT combines finite causal event presentations, raw observation closure, conservative presentation abstraction, stratified rule semantics, bitemporal finality, observer-merge-aware audit structures, source-authority evidence fusion, Sybil-aware source quotients, polarity-aware repair propagation, accounting doctrines, coverage epochs, bridge event morphisms, and policy-fibration gluing. The framework is substrate-neutral and is applicable to autonomous agents, AI governance, distributed systems, digital consent, provenance-aware auditing, long-running services, copied or forked processes, dormant systems, collective processes, and future intelligent infrastructures.
+Preprint | DOI: 10.5281/zenodo.20678428
+    ]]></description>
+  </item>
   <item>
     <title>Dormant Continuity Theory</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-12-dormant-continuity-theory-20657323</link>
