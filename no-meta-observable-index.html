@@ -106,7 +106,7 @@
           "name": "No-Meta / Observable-Only Research Series",
           "description": "Human-readable field guide to the no-meta / observable-only research series: AI governance without privileged meta-judges, observable evidence, audit logs, deterministic replay, fail-closed verification, ontology drift, claim certification, and autonomous agent control.",
           "inLanguage": "en",
-          "dateModified": "2026-06-04",
+          "dateModified": "2026-06-14",
           "keywords": [
             "no-meta governance",
             "observable-only evidence",
@@ -172,6 +172,7 @@
             {"@id": "https://doi.org/10.5281/zenodo.20535654"},
             {"@id": "https://doi.org/10.5281/zenodo.20545356"},
             {"@id": "https://github.com/kadubon/oasg"},
+            {"@id": "https://github.com/kadubon/percolation-inversion-compiler"},
             {"@id": "https://github.com/kadubon/observable-replay-lab"},
             {"@id": "https://github.com/kadubon/audit-closed-ai-scientist"},
             {"@id": "https://github.com/kadubon/no-meta-drift-papers"},
@@ -202,7 +203,7 @@
           "description": "Structured YAML summary indexing the no-meta / observable-only research series, including terms, paper roles, reading paths, dependencies, repository mappings, governance-layer papers, and OASG software artifact metadata.",
           "encodingFormat": "text/yaml",
           "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
-          "dateModified": "2026-06-04",
+          "dateModified": "2026-06-14",
           "keywords": [
             "no-meta governance",
             "observable-only evidence",
@@ -512,6 +513,12 @@
                     <p class="boundary"><strong>Boundary:</strong> not a universal agent optimizer and not a complete implementation of the series.</p>
                 </article>
                 <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/percolation-inversion-compiler">percolation-inversion-compiler</a></h3>
+                    <p>An Apache-2.0 Python runtime and verifier-routing SDK for AI agent workflow verification, evidence routing, residual ledgers, signed capability packets, and fail-closed reuse checks.</p>
+                    <p class="use-this-for"><strong>Use this for:</strong> testing auditable agent-output checks, packet promotion, JSON Schema outputs, provenance manifests, runtime logs, and collective capability certificates.</p>
+                    <p class="boundary"><strong>Boundary:</strong> a finite protocol-relative checker runtime; it does not prove real ASI, hidden physical outcomes, oracle results, or unrestricted agent safety.</p>
+                </article>
+                <article class="repo-card">
                     <h3><a href="https://github.com/kadubon/observable-replay-lab">observable-replay-lab</a></h3>
                     <p>An experiment repository for replay and metrology-style checks connected to observable evidence and reproducible audit traces.</p>
                     <p class="use-this-for"><strong>Use this for:</strong> examining replayable experiment records, schema-bound audit outputs, and paper-to-repo alignment.</p>
@@ -619,7 +626,7 @@
             <p class="index-note">The YAML below preserves stable identifiers, paper roles, DOI links, reading paths, and repository mappings for citation, indexing, and research-agent use. It supports the human-readable guide above.</p>
             <details class="structured-summary">
                 <summary>Structured summary for citation, indexing, and research-agent use</summary>
-            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-06-04" aria-label="Structured YAML summary for the no-meta observable-only series">series:
+            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-06-14" aria-label="Structured YAML summary for the no-meta observable-only series">series:
   id: no-meta-observable-only-series
   title: "No-Meta / Observable-Only Research Series"
   status: active
@@ -1905,6 +1912,28 @@ artifacts:
         - observable-only-proof-carrying-autonomy
         - verification-limited-intelligence-acceleration
         - recursive-self-improvement-stability-under-endogenous-yardstick-drift
+    - id: percolation-inversion-compiler
+      title: "Percolation Inversion Compiler"
+      type: reference-implementation-repository
+      url: https://github.com/kadubon/percolation-inversion-compiler
+      software_doi: https://doi.org/10.5281/zenodo.20569166
+      version: v0.4.1
+      license: Apache-2.0
+      programming_language: Python
+      relation_basis: explicit-software-citation-and-release-doi
+      machine_entrypoints:
+        - https://github.com/kadubon/percolation-inversion-compiler/blob/main/README.md
+        - https://github.com/kadubon/percolation-inversion-compiler/blob/main/CITATION.cff
+        - https://github.com/kadubon/percolation-inversion-compiler/tree/main/schemas
+      repository_claim_boundary:
+        - Implements finite verifier routing, evidence routing, residual ledgers, signed capability packets, runtime logs, JSON Schema outputs, and fail-closed packet promotion for AI agent workflows.
+        - Does not prove real ASI, hidden physical outcomes, oracle results, legal identity, global Sybil resistance, or unrestricted agent safety.
+      relates_to:
+        - executable-capability-percolation-theory
+        - salience-queue-occupation-theory
+        - bottleneck-inversion-theory
+        - observable-only-proof-carrying-autonomy
+        - affordance-compiled-intelligence
     - id: observable-replay-lab
       title: "observable-replay-lab"
       type: experiment-repository
@@ -2157,6 +2186,7 @@ artifacts:
       - loscr
       - no-meta-observable-invention-poc
     metrology_workflow_and_transfer_checks:
+      - percolation-inversion-compiler
       - cait-certificate-schema
       - certified-workflow-conversion
       - frontier-transfer-certifier
@@ -2234,6 +2264,20 @@ artifacts:
         - positive evidence witnesses
         - no-meta dominance gate receipts
         - rollback, quarantine, and library conflict receipts
+    - id: percolation-inversion-compiler-verifier-routing
+      repository: percolation-inversion-compiler
+      type: ai-agent-workflow-verification-runtime
+      relates_to:
+        - executable-capability-percolation-theory
+        - salience-queue-occupation-theory
+        - bottleneck-inversion-theory
+        - observable-only-proof-carrying-autonomy
+      primary_outputs:
+        - deterministic JSON checker reports
+        - evidence-route and residual-ledger records
+        - signed packet and identity-bound promotion records
+        - runtime event logs and provenance manifests
+        - portable JSON Schemas
     - id: audit-closed-ai-scientist-benchmark
       repository: audit-closed-ai-scientist-repo
       type: self-driving-lab-benchmark
