@@ -5,8 +5,35 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sat, 13 Jun 2026 20:30:45 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 15 Jun 2026 11:01:47 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Asymmetric Coexistence Theory: Governance-Aware Certification of Non-Capturing Assistance</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-15-asymmetric-coexistence-theory-governance-aware-certification-of-non-capturing-assistance-20694904</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-15-asymmetric-coexistence-theory-governance-aware-certification-of-non-capturing-assistance-20694904</guid>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>non-capturing assistance</category>
+    <category>AI governance</category>
+    <category>human-AI interaction</category>
+    <category>autonomy preservation</category>
+    <category>agency viability</category>
+    <category>dependency debt</category>
+    <category>runtime assurance</category>
+    <category>certification framework</category>
+    <category>auditability</category>
+    <category>non-domination</category>
+    <category>adaptive evaluation</category>
+    <category>AI safety</category>
+    <category>institutional governance</category>
+    <category>future intelligent societies</category>
+    <source url="https://doi.org/10.5281/zenodo.20694904">10.5281/zenodo.20694904</source>
+    <description><![CDATA[
+      Asymmetric Coexistence Theory (ACT) is a governance-aware theory for certifying non-capturing assistance in relations between unequally capable agents. Future intelligent societies may include humans, artificial intelligence systems, institutions, collective agents, future constituencies, and adaptive systems whose capabilities differ greatly; in such settings, assistance can increase short-term performance while reducing the assisted party's long-term ability to understand, refuse, repair, learn, contest, exit, recover, form values, generate independent descriptions of the world, or act before irreversible choices close. The paper develops ACT as a framework for evaluating whether assistance preserves agency under asymmetric power, dependency, uncertainty, and changing social or technical conditions. It introduces a minimal kernel consisting of typed agency spaces, asymmetric regimes, admissible baselines, counterfactual agency estimands, dependency debt, recoverability, and certification claims, plus extension modules for semantic capture, time-critical decisions, successor identity, recursive certification, audit independence, adaptive challenge evidence, certification governance, runtime hazards, non-dominating enforcement, model uncertainty, historical baseline corruption, coalitional pressure, scarce certification resources, multi-scale composition, and stochastic capture risk. The main contribution is to treat non-capturing assistance as a runtime assurance problem rather than as an omniscient proof of autonomy: an ACT certificate states its claim, scope, assumptions, evidence, argument, defeaters, residual risk, lifecycle state, monitoring conditions, revalidation triggers, audit traces, challenge evidence, certification base, governance records, enforcement boundaries, and fallback obligations.
+Preprint | DOI: 10.5281/zenodo.20694904
+    ]]></description>
+  </item>
   <item>
     <title>Consent-Bounded Contact Theory</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-13-consent-bounded-contact-theory-20678428</link>
