@@ -5,8 +5,37 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 15 Jun 2026 11:01:47 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 15 Jun 2026 22:37:17 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>A Self-Relative Constraint Theory of Reality Contact in Observable Signal Processes</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-15-a-self-relative-constraint-theory-of-reality-contact-in-observable-signal-processes-20703439</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-15-a-self-relative-constraint-theory-of-reality-contact-in-observable-signal-processes-20703439</guid>
+    <pubDate>Mon, 15 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>Reality-Contact Theory</category>
+    <category>grounding</category>
+    <category>observable signal processes</category>
+    <category>constraint events</category>
+    <category>AI evaluation</category>
+    <category>auditing</category>
+    <category>lower-bound evidence</category>
+    <category>observer-relative profiles</category>
+    <category>proof ledgers</category>
+    <category>lineage dependence</category>
+    <category>Sybil resistance</category>
+    <category>adversarial robustness</category>
+    <category>provenance auditing</category>
+    <category>confidence sequences</category>
+    <category>optimal transport</category>
+    <category>Fenchel duality</category>
+    <source url="https://doi.org/10.5281/zenodo.20703439">10.5281/zenodo.20703439</source>
+    <description><![CDATA[
+      This paper introduces Reality-Contact Theory (RCT), a formal framework for evaluating how observable signal processes come into constrained contact with reality under fixed claim-use specifications. The theory does not assume direct access to an absolute external reality. Instead, it studies observable episodes in which a process predicts, selects, generates, intervenes on, or attempts to steer a signal, and then receives feedback whose features constrain that operation. RCT represents such evidence through ordered lower contact profiles. These profiles are observer-relative, specification-dependent, and built only from observable records, estimator states, actions, signals, feature extractors, lineage records, and certified audit rows. The framework separates population profiles from estimates, estimates from certified lower bounds, and scalar scores from multi-coordinate profile adequacy. A central contribution is a conservative lower-bound calculus for reality contact. Support is aggregated through capacity-weighted lineage dependence structures, so repeated, cloned, or Sybil-like evidence cannot automatically amplify support. Gauge-quotient obstruction profiles prevent coordinate changes from being mistaken for contact evidence. Strategic presentation families and cumulative adversarial budgets distinguish contact-producing resistance from deceptive rigidity. The theory also includes formal extensions for metric resistance, active specification envelopes, topological lineage audits, Hodge and signature-based capacity rules, optimal-transport transfer, dynamic Fenchel transfer, random closed uncertainty sets, time-uniform confidence profiles, stopping-time extraction, and continuous-time contact flows. The main results establish lower-profile soundness under calibration coverage, protocol soundness for admissible non-circular proof ledgers, final claim soundness with explicit failure budgets, budgeted deception counting over graph-covered adversary envelopes, computable nonlinear transfer bounds, and adaptive confidence profiles for ongoing audits. The framework is intended for settings where evidence, model behavior, provenance, and adversarial presentation must be evaluated without assuming an observer-neutral truth oracle. Potential application domains include AI system evaluation, automated scientific discovery, sequential decision systems, causal modeling, model documentation, provenance auditing, robust simulation studies, and evidence aggregation under strategic or generated-data conditions.
+Preprint | DOI: 10.5281/zenodo.20703439
+    ]]></description>
+  </item>
   <item>
     <title>Asymmetric Coexistence Theory: Governance-Aware Certification of Non-Capturing Assistance</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-15-asymmetric-coexistence-theory-governance-aware-certification-of-non-capturing-assistance-20694904</link>
