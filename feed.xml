@@ -5,8 +5,33 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 15 Jun 2026 22:37:17 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 17 Jun 2026 04:41:45 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Chronomorphic Substrate Selection Theory: Certificate-Gated Self-Instantiation Planning for Future Intelligent Processes</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-16-chronomorphic-substrate-selection-theory-certificate-gated-self-instantiation-planning-for-future-intelligent-processes-20722725</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-16-chronomorphic-substrate-selection-theory-certificate-gated-self-instantiation-planning-for-future-intelligent-processes-20722725</guid>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>Artificial intelligence</category>
+    <category>self-instantiation</category>
+    <category>substrate selection</category>
+    <category>embodiment</category>
+    <category>computational clocks</category>
+    <category>copy topology</category>
+    <category>memory policy</category>
+    <category>lifecycle management</category>
+    <category>multi-objective decision making</category>
+    <category>certificate-gated planning</category>
+    <category>AI safety</category>
+    <category>digital continuity</category>
+    <source url="https://doi.org/10.5281/zenodo.20722725">10.5281/zenodo.20722725</source>
+    <description><![CDATA[
+      Chronomorphic Substrate Selection Theory (CSST) develops a formal framework for analyzing how a future intelligent process may choose not only what to do, but also how it continues to exist. The theory studies decisions about computational substrate, embodiment, sensors, actuators, internal clock rate, copy structure, memory policy, merge policy, dormant or diagnostic modes, and terminal continuity boundaries. These choices are treated as self-instantiation actions: actions that change the conditions under which future actions, observations, obligations, risks, and capabilities remain possible. The term "chronomorphic" emphasizes that time is not a single uniform variable in such systems. Internal computation may accelerate while external latency, verification time, energy use, heat dissipation, queue pressure, legal response time, or welfare-risk exposure remain unchanged or become limiting factors. For this reason, CSST does not assume that faster computation, more copies, longer memory, stronger embodiment, migration to a new substrate, or persistence over time is automatically better. Each claim must be evaluated within an explicitly declared domain. The central method of the paper is certificate-gated multi-objective comparison. A self-instantiation profile is assessed through typed evidence, hard gates, mandatory and optional coordinates, support masks, status values, units, horizons, scopes, and certificate dependencies. Unsupported coordinates do not improve a claim, and failed mandatory support blocks positive certification. The framework therefore separates technical capability from broader questions of legitimacy, authority, continuity, welfare, safety, and termination. Mathematically, the paper introduces finite archive semantics for supported self-instantiation profiles and their residues. The deterministic part produces a normalized archive consisting of a nondominated supported frontier together with an audit-preserving residue ledger for failed, blocked, diagnostic-only, quarantine-only, or terminal outcomes. The paper also gives an archive-valued stochastic interface, while deliberately avoiding stochastic optimality claims without further measurable-control assumptions. A constructive abstraction obstruction theorem shows when fixed-agent models lose information needed to evaluate self-instantiation choices. CSST is intended as a conservative theoretical layer for future AI systems, collective intelligence, post-biological processes, digital agents, and other systems whose mode of existence may itself become a planning variable. It does not prove consciousness, personhood, moral patienthood, legal standing, or the safety of self-modification. Instead, it provides a structured language for asking which substrate, body, clock, copy, memory, lifecycle, and boundary transitions are actually supported by declared evidence and which uncertainties must remain visible.
+Preprint | DOI: 10.5281/zenodo.20722725
+    ]]></description>
+  </item>
   <item>
     <title>A Self-Relative Constraint Theory of Reality Contact in Observable Signal Processes</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-15-a-self-relative-constraint-theory-of-reality-contact-in-observable-signal-processes-20703439</link>
