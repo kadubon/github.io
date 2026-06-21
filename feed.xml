@@ -5,7 +5,7 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Wed, 17 Jun 2026 04:41:45 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 22 Jun 2026 08:17:04 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
   <item>
     <title>Chronomorphic Substrate Selection Theory: Certificate-Gated Self-Instantiation Planning for Future Intelligent Processes</title>
@@ -152,14 +152,19 @@ Preprint | DOI: 10.5281/zenodo.20657323
     <dc:creator>K. Takahashi</dc:creator>
     <category>Software</category>
     <category>AI agents</category>
+    <category>AI agent output checker</category>
     <category>multi-agent systems</category>
     <category>AI workflow verification</category>
     <category>runtime verification</category>
+    <category>workflow report generator</category>
     <category>evidence routing</category>
     <category>verifier routing</category>
     <category>capability tracking</category>
     <category>signed capability packets</category>
+    <category>proof obligations</category>
+    <category>safe reuse checks</category>
     <category>audit logs</category>
+    <category>provenance</category>
     <category>safe tool use</category>
     <category>agent identity</category>
     <category>public key identity</category>
@@ -169,11 +174,16 @@ Preprint | DOI: 10.5281/zenodo.20657323
     <category>JSON Schema</category>
     <category>SQLite</category>
     <category>Python</category>
+    <category>pip</category>
+    <category>PyPI</category>
+    <category>TypeScript</category>
+    <category>Node.js</category>
+    <category>npm</category>
     <category>Apache-2.0</category>
     <category>open source software</category>
     <source url="https://doi.org/10.5281/zenodo.20569166">10.5281/zenodo.20569166</source>
     <description><![CDATA[
-      Percolation Inversion Compiler is an Apache-2.0 open-source Python runtime and verifier-routing SDK for AI agent workflows. It helps multi-agent systems turn agent outputs, code, tests, evidence, schemas, route checks, audit logs, and unresolved obligations into signed, machine-readable records. The software supports capability packet ingestion, evidence routing, semantic compatibility checks, queue scheduling, residual ledgers, finite acceleration comparison, runtime event logs, SQLite-backed storage, JSON Schema export, signed agent identities, identity-bound packet promotion, trust profiles, and collective capability certificates. It is designed for AI workflow verification, safe tool-use orchestration, reproducible audit trails, and production hardening of agentic systems. It does not claim to create, detect, or prove real artificial superintelligence, hidden physical outcomes, oracle results, legal identity, human uniqueness, institutional authority, or global Sybil resistance; unresolved or untrusted claims remain fail-closed as provisional, diagnostic, quarantined, or rejected machine-readable records.
+      Percolation Inversion Compiler is an Apache-2.0 open-source AI agent output checker and workflow verification toolkit with a canonical Python/pip implementation and a TypeScript/npm port. It helps multi-agent systems turn agent text, pull requests, external inputs, messages, code, tests, evidence, route checks, audit logs, and unresolved obligations into deterministic JSON reports and machine-readable records. The Python package <code>percolation-inversion-compiler</code> is v0.4.4 and provides the core runtime, verifier routing, optional sidecars, agent autonomy audit, canonical readiness audit, JSON Schema export, signed identity and profile checks, packet exchange, runtime event logs, provenance records, and fail-closed residual ledgers. The npm package <code>percolation-inversion-compiler-ts</code> is v0.4.5 and ports the public JSON, CLI, schema, conformance, and safety semantics for Node.js, JavaScript, and TypeScript agent runtimes; use the <code>pic-ts</code> CLI for npm workflows. PIC is designed for AI agent output checking, multi-agent workflow verification, safe reuse checks, reproducible audit trails, and protocol-relative ASI-proxy evaluation. It does not claim to create, detect, or prove real artificial superintelligence, hidden physical outcomes, oracle results, legal identity, human uniqueness, institutional authority, or unrestricted agent safety; unresolved or untrusted claims remain fail-closed as candidate, diagnostic, quarantined, rejected, or residual machine-readable records.
 Software | DOI: 10.5281/zenodo.20569166
     ]]></description>
   </item>
