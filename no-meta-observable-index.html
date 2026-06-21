@@ -106,7 +106,7 @@
           "name": "No-Meta / Observable-Only Research Series",
           "description": "Human-readable field guide to the no-meta / observable-only research series: AI governance without privileged meta-judges, observable evidence, audit logs, deterministic replay, fail-closed verification, ontology drift, claim certification, and autonomous agent control.",
           "inLanguage": "en",
-          "dateModified": "2026-06-14",
+          "dateModified": "2026-06-22",
           "keywords": [
             "no-meta governance",
             "observable-only evidence",
@@ -173,6 +173,7 @@
             {"@id": "https://doi.org/10.5281/zenodo.20545356"},
             {"@id": "https://github.com/kadubon/oasg"},
             {"@id": "https://github.com/kadubon/percolation-inversion-compiler"},
+            {"@id": "https://github.com/kadubon/percolation-inversion-compiler-ts"},
             {"@id": "https://github.com/kadubon/observable-replay-lab"},
             {"@id": "https://github.com/kadubon/audit-closed-ai-scientist"},
             {"@id": "https://github.com/kadubon/no-meta-drift-papers"},
@@ -203,7 +204,7 @@
           "description": "Structured YAML summary indexing the no-meta / observable-only research series, including terms, paper roles, reading paths, dependencies, repository mappings, governance-layer papers, and OASG software artifact metadata.",
           "encodingFormat": "text/yaml",
           "url": "https://kadubon.github.io/github.io/no-meta-observable-index.html",
-          "dateModified": "2026-06-14",
+          "dateModified": "2026-06-22",
           "keywords": [
             "no-meta governance",
             "observable-only evidence",
@@ -513,10 +514,16 @@
                     <p class="boundary"><strong>Boundary:</strong> not a universal agent optimizer and not a complete implementation of the series.</p>
                 </article>
                 <article class="repo-card">
-                    <h3><a href="https://github.com/kadubon/percolation-inversion-compiler">percolation-inversion-compiler</a></h3>
-                    <p>An Apache-2.0 Python runtime and verifier-routing SDK for AI agent workflow verification, evidence routing, residual ledgers, signed capability packets, and fail-closed reuse checks.</p>
-                    <p class="use-this-for"><strong>Use this for:</strong> testing auditable agent-output checks, packet promotion, JSON Schema outputs, provenance manifests, runtime logs, and collective capability certificates.</p>
+                    <h3><a href="https://github.com/kadubon/percolation-inversion-compiler">percolation-inversion-compiler</a> (Python/pip)</h3>
+                    <p>An Apache-2.0 Python v0.4.4 runtime, CLI, and verifier-routing SDK for AI agent output checking, multi-agent workflow verification, evidence routing, residual ledgers, optional sidecars, signed capability packets, and fail-closed reuse checks.</p>
+                    <p class="use-this-for"><strong>Use this for:</strong> pip-based core PIC workflows, auditable agent-output checks, packet promotion, JSON Schema outputs, provenance manifests, autonomy audits, runtime logs, and collective capability certificates.</p>
                     <p class="boundary"><strong>Boundary:</strong> a finite protocol-relative checker runtime; it does not prove real ASI, hidden physical outcomes, oracle results, or unrestricted agent safety.</p>
+                </article>
+                <article class="repo-card">
+                    <h3><a href="https://github.com/kadubon/percolation-inversion-compiler-ts">percolation-inversion-compiler-ts</a> (TypeScript/npm)</h3>
+                    <p>An Apache-2.0 TypeScript v0.4.5 and Node.js package that ports the Python v0.4.4 public JSON, CLI, schema, conformance, and safety semantics for npm and JavaScript agent runtimes.</p>
+                    <p class="use-this-for"><strong>Use this for:</strong> npm-based <code>pic-ts</code> workflows, AI agent output reports, LLM output validation, schema validation, conformance checks, packet inspection, and residual-preserving workflow automation.</p>
+                    <p class="boundary"><strong>Boundary:</strong> a compatibility port and deterministic report generator; it does not execute command-like text, prove real-world truth, prove ASI, or replace the canonical Python implementation.</p>
                 </article>
                 <article class="repo-card">
                     <h3><a href="https://github.com/kadubon/observable-replay-lab">observable-replay-lab</a></h3>
@@ -626,7 +633,7 @@
             <p class="index-note">The YAML below preserves stable identifiers, paper roles, DOI links, reading paths, and repository mappings for citation, indexing, and research-agent use. It supports the human-readable guide above.</p>
             <details class="structured-summary">
                 <summary>Structured summary for citation, indexing, and research-agent use</summary>
-            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-06-14" aria-label="Structured YAML summary for the no-meta observable-only series">series:
+            <pre id="canonical-series-yaml" class="yaml-index" data-format="yaml" data-machine-readable="primary" data-series-id="no-meta-observable-only-series" data-last-updated="2026-06-22" aria-label="Structured YAML summary for the no-meta observable-only series">series:
   id: no-meta-observable-only-series
   title: "No-Meta / Observable-Only Research Series"
   status: active
@@ -1917,21 +1924,58 @@ artifacts:
       type: reference-implementation-repository
       url: https://github.com/kadubon/percolation-inversion-compiler
       software_doi: https://doi.org/10.5281/zenodo.20569166
-      version: v0.4.1
+      version: v0.4.4
       license: Apache-2.0
       programming_language: Python
+      distribution:
+        package_manager: pip
+        package_name: percolation-inversion-compiler
+        package_url: https://pypi.org/project/percolation-inversion-compiler/
+      companion_port:
+        id: percolation-inversion-compiler-ts
+        language: TypeScript
+        package_manager: npm
+        package_name: percolation-inversion-compiler-ts
+        compatibility_target: Python v0.4.4 public JSON, CLI, schema, conformance, and safety semantics
       relation_basis: explicit-software-citation-and-release-doi
       machine_entrypoints:
         - https://github.com/kadubon/percolation-inversion-compiler/blob/main/README.md
         - https://github.com/kadubon/percolation-inversion-compiler/blob/main/CITATION.cff
         - https://github.com/kadubon/percolation-inversion-compiler/tree/main/schemas
       repository_claim_boundary:
-        - Implements finite verifier routing, evidence routing, residual ledgers, signed capability packets, runtime logs, JSON Schema outputs, and fail-closed packet promotion for AI agent workflows.
-        - Does not prove real ASI, hidden physical outcomes, oracle results, legal identity, global Sybil resistance, or unrestricted agent safety.
+        - Implements finite verifier routing, evidence routing, residual ledgers, signed capability packets, optional sidecars, agent autonomy audits, runtime logs, JSON Schema outputs, and fail-closed packet promotion for AI agent workflows.
+        - Does not prove real ASI, hidden physical outcomes, oracle results, legal identity, global Sybil resistance, command execution safety, or unrestricted agent safety.
       relates_to:
         - executable-capability-percolation-theory
         - salience-queue-occupation-theory
         - bottleneck-inversion-theory
+        - observable-only-proof-carrying-autonomy
+        - affordance-compiled-intelligence
+    - id: percolation-inversion-compiler-ts
+      title: "percolation-inversion-compiler-ts"
+      type: compatibility-port-repository
+      url: https://github.com/kadubon/percolation-inversion-compiler-ts
+      software_doi: null
+      version: v0.4.5
+      license: Apache-2.0
+      programming_language: TypeScript
+      distribution:
+        package_manager: npm
+        package_name: percolation-inversion-compiler-ts
+        package_url: https://www.npmjs.com/package/percolation-inversion-compiler-ts
+        cli: pic-ts
+      relation_basis: public-npm-port-of-python-pic-json-cli-schema-conformance-and-safety-semantics
+      machine_entrypoints:
+        - https://github.com/kadubon/percolation-inversion-compiler-ts/blob/main/README.md
+        - https://github.com/kadubon/percolation-inversion-compiler-ts/blob/main/CHANGELOG.md
+        - https://github.com/kadubon/percolation-inversion-compiler-ts/tree/main/schemas
+      repository_claim_boundary:
+        - Ports the Python v0.4.4 public JSON, CLI, schema, conformance, and safety semantics for Node.js, JavaScript, TypeScript, npm, and agent runtime workflows.
+        - Does not execute command-like text, prove real-world truth, prove real ASI, replace the canonical Python implementation, or silently settle residual obligations.
+      relates_to:
+        - percolation-inversion-compiler
+        - executable-capability-percolation-theory
+        - salience-queue-occupation-theory
         - observable-only-proof-carrying-autonomy
         - affordance-compiled-intelligence
     - id: observable-replay-lab
@@ -2187,6 +2231,7 @@ artifacts:
       - no-meta-observable-invention-poc
     metrology_workflow_and_transfer_checks:
       - percolation-inversion-compiler
+      - percolation-inversion-compiler-ts
       - cait-certificate-schema
       - certified-workflow-conversion
       - frontier-transfer-certifier
@@ -2276,8 +2321,23 @@ artifacts:
         - deterministic JSON checker reports
         - evidence-route and residual-ledger records
         - signed packet and identity-bound promotion records
+        - optional sidecar diagnostics and agent autonomy audits
         - runtime event logs and provenance manifests
         - portable JSON Schemas
+    - id: percolation-inversion-compiler-ts-npm-port
+      repository: percolation-inversion-compiler-ts
+      type: npm-typescript-agent-workflow-verification-port
+      relates_to:
+        - percolation-inversion-compiler
+        - executable-capability-percolation-theory
+        - salience-queue-occupation-theory
+        - observable-only-proof-carrying-autonomy
+      primary_outputs:
+        - Node.js and npm CLI reports through pic-ts
+        - TypeScript-compatible JSON workflow reports
+        - schema validation and conformance fixtures
+        - packet inspection reports with inert command-like text detection
+        - residual-preserving compatibility records
     - id: audit-closed-ai-scientist-benchmark
       repository: audit-closed-ai-scientist-repo
       type: self-driving-lab-benchmark
@@ -2340,7 +2400,7 @@ usage_notes:
   repository_parsing_hint: When a repository entry includes machine_entrypoints, prefer those files over README prose for paper-to-repo linkage.
   update_policy: Update this page when a new site-local paper or artifact clearly belongs to the no-meta / observable-only series; preserve stable ids and omit uncertain dependency claims.
   version: 1.4.9
-  last_updated: 2026-06-04</pre>
+  last_updated: 2026-06-22</pre>
             </details>
         </section>
 
