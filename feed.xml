@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Mon, 22 Jun 2026 19:30:37 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 26 Jun 2026 16:02:31 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Problemogenesis Theory: A Finite Proof-Carrying Audit Calculus for Problem-Frame Activation</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-26-problemogenesis-theory-a-finite-proof-carrying-audit-calculus-for-problem-frame-activation-20913669</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-26-problemogenesis-theory-a-finite-proof-carrying-audit-calculus-for-problem-frame-activation-20913669</guid>
+    <pubDate>Fri, 26 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>AI agent</category>
+    <category>problem framing</category>
+    <category>audit trail</category>
+    <category>proof-carrying records</category>
+    <category>autonomous systems</category>
+    <category>AI safety</category>
+    <category>scientific discovery</category>
+    <category>evidence governance</category>
+    <category>certificate checking</category>
+    <category>replayable logs</category>
+    <category>decision accountability</category>
+    <category>provenance</category>
+    <category>risk control</category>
+    <category>formal verification</category>
+    <category>trusted base</category>
+    <category>bounded systems</category>
+    <category>authority management</category>
+    <category>traceable reasoning</category>
+    <category>safety governance</category>
+    <category>problem activation</category>
+    <source url="https://doi.org/10.5281/zenodo.20913669">10.5281/zenodo.20913669</source>
+    <description><![CDATA[
+      Problemogenesis Theory develops a finite proof-carrying audit calculus for deciding when anomalies, failed requirements, retained traces, or proposed interventions may be activated as legitimate problem frames for action. It treats problem identification as a replayable governance process rather than as a given premise. The framework centers on bounded envelope logs that record sources, certificates, clocks, resources, risks, actions, and authority claims, then checks evidence, obligations, coverage, risk records, resource permissions, certificate liveness, deterministic replay, safe patching, action provenance, non-hindsight novelty, and preservation under joins within a finite horizon. The paper targets autonomous and semi-autonomous systems, AI research agents, scientific workflow tools, and safety-critical decision processes where action should remain tied to explicit evidence, reviewable authority, and declared trusted footprints. It does not by itself prove external truth, physical effect, cryptographic security, statistical validity, or global optimality unless those assumptions are included in scope.
+Preprint | DOI: 10.5281/zenodo.20913669
+    ]]></description>
+  </item>
   <item>
     <title>Chronomorphic Substrate Selection Theory: Certificate-Gated Self-Instantiation Planning for Future Intelligent Processes</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-16-chronomorphic-substrate-selection-theory-certificate-gated-self-instantiation-planning-for-future-intelligent-processes-20722725</link>
