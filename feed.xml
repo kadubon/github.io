@@ -5,8 +5,40 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 26 Jun 2026 16:02:31 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 28 Jun 2026 18:56:00 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Finite Operational Structure Theory: A Mathematical Theory of Finite Operational Cuts</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-06-28-finite-operational-structure-theory-a-mathematical-theory-of-finite-operational-cuts-20995846</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-06-28-finite-operational-structure-theory-a-mathematical-theory-of-finite-operational-cuts-20995846</guid>
+    <pubDate>Sun, 28 Jun 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>finite reasoning</category>
+    <category>operational support</category>
+    <category>AI safety</category>
+    <category>AI governance</category>
+    <category>decision accountability</category>
+    <category>audit trail</category>
+    <category>certificate checking</category>
+    <category>evidence tracking</category>
+    <category>obligation tracking</category>
+    <category>runtime assurance</category>
+    <category>safety cases</category>
+    <category>automated decision systems</category>
+    <category>intelligent agents</category>
+    <category>finite verification</category>
+    <category>uncertainty management</category>
+    <category>transition validity</category>
+    <category>support graphs</category>
+    <category>non-vacuous reasoning</category>
+    <category>formal accountability</category>
+    <source url="https://doi.org/10.5281/zenodo.20995846">10.5281/zenodo.20995846</source>
+    <description><![CDATA[
+      Finite Operational Structure Theory (FOST) develops a mathematical framework for finite operational reasoning under incomplete information. Rather than assuming a hidden true state, complete view of reality, global probability model, or primitive objective standard, the paper studies what a finite process can operationally support when it evaluates a finite expression under a declared mode of use. Its core object is an evaluated ledger: a finite accountability record of claims, support, certificates, omissions, unresolved issues, obligations, environment conditions, and transition witnesses. The theory introduces finite operational cuts, staged ledger construction, validation kernels, object kernels, certificate targets, support graphs, typed frontier closure, status and admissibility records, transition validity, and obligation tracking, with safeguards against vacuous reasoning, unsupported scope narrowing, missing external criticism, weak impact classification, environment omission, root-debt hiding, and misuse of certificates beyond their valid target. FOST is intended for intelligent systems, AI agents, research workflows, safety cases, governance processes, and automated decision systems that must act without final truth or complete information while preserving visible omissions, uncertainty, obligations, and change records.
+Preprint | DOI: 10.5281/zenodo.20995846
+    ]]></description>
+  </item>
   <item>
     <title>Problemogenesis Theory: A Finite Proof-Carrying Audit Calculus for Problem-Frame Activation</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-26-problemogenesis-theory-a-finite-proof-carrying-audit-calculus-for-problem-frame-activation-20913669</link>
