@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 28 Jun 2026 18:56:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 02 Jul 2026 10:14:37 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Collective Capability Runtime</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-01-collective-capability-runtime-21103275</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-01-collective-capability-runtime-21103275</guid>
+    <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Software</category>
+    <category>AI agents</category>
+    <category>multi-agent runtime</category>
+    <category>agent task coordination</category>
+    <category>workflow automation</category>
+    <category>task queue</category>
+    <category>blackboard memory</category>
+    <category>capability packets</category>
+    <category>runtime verification</category>
+    <category>verification reports</category>
+    <category>audit logs</category>
+    <category>residual ledger</category>
+    <category>release audit</category>
+    <category>protocol-relative ASI-proxy</category>
+    <category>machine-readable records</category>
+    <category>JSON Schema</category>
+    <category>SQLite</category>
+    <category>Python</category>
+    <category>PyPI</category>
+    <category>Apache-2.0</category>
+    <category>open source software</category>
+    <source url="https://doi.org/10.5281/zenodo.21103275">10.5281/zenodo.21103275</source>
+    <description><![CDATA[
+      Collective Capability Runtime (CCR) is an Apache-2.0 open-source Python runtime for coordinating distributed AI-agent work through tasks, leases, blackboard memory, capability packets, role-separated verification, residual tracking, provider reports, release audits, and benchmark comparison. It helps multi-agent workflows convert candidate work into reusable, verifiable, machine-readable records while preserving unresolved obligations, hazards, authority limits, and resource-matched baseline checks. CCR can interoperate with Percolation Inversion Compiler for packet-level and phase-proxy verification, but PIC output does not by itself settle CCR claims. Version v1.4.0 adds a local advisory ASI-proxy loop layer, token distillation and deduplication commands, foundry diagnostics, graph quotient checks, cache and index rebuilds, and performance reports without provider execution or network calls by default. CCR is intended for AI agent task coordination, workflow automation, runtime verification, audit logs, release safety checks, and protocol-relative ASI-proxy phase diagnostics. It does not claim to detect or create real artificial superintelligence, self-modify models, update model weights, grant execution authority, prove physical outcomes, or treat execution-available paths as executed work; blocked or untrusted states remain residual-preserving machine-readable records.
+Software | DOI: 10.5281/zenodo.21103275
+    ]]></description>
+  </item>
   <item>
     <title>Finite Operational Structure Theory: A Mathematical Theory of Finite Operational Cuts</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-06-28-finite-operational-structure-theory-a-mathematical-theory-of-finite-operational-cuts-20995846</link>
