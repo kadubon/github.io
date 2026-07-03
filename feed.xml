@@ -5,8 +5,40 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 02 Jul 2026 10:14:37 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 03 Jul 2026 09:25:31 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Verifier Ecology Theory: Packetized Self-Verification Under Residual Accountability</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-03-verifier-ecology-theory-packetized-self-verification-under-residual-accountability-21147093</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-03-verifier-ecology-theory-packetized-self-verification-under-residual-accountability-21147093</guid>
+    <pubDate>Fri, 03 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>verifier</category>
+    <category>verifier ecology</category>
+    <category>AI evaluation</category>
+    <category>AI safety</category>
+    <category>self-verifying systems</category>
+    <category>verification</category>
+    <category>validation</category>
+    <category>certification</category>
+    <category>residual accountability</category>
+    <category>residuals</category>
+    <category>evaluator design</category>
+    <category>benchmark failure</category>
+    <category>reward hacking</category>
+    <category>formal methods</category>
+    <category>runtime verification</category>
+    <category>audit protocol</category>
+    <category>provenance</category>
+    <category>self-improving AI</category>
+    <category>AI governance</category>
+    <source url="https://doi.org/10.5281/zenodo.21147093">10.5281/zenodo.21147093</source>
+    <description><![CDATA[
+      Verifier Ecology Theory (VET) studies systems where generating candidate outputs is no longer the main bottleneck and the harder problem is how the system evaluates, repairs, rejects, preserves, certifies, and updates its own tests, scores, proofs, monitors, benchmarks, assumptions, and judging procedures. The paper introduces verifier packets: structured, revisable verification assets that record origin, scope, procedure, certification conditions, destructive or narrowing boundaries, residual records, update and retirement conditions, and circulation status. VET treats tests, metrics, proofs, and evaluators as members of an ecology rather than isolated authorities, and asks whether that ecology can keep its own failures visible and repairable. A central concept is residual accountability: unknowns, failed assumptions, missing evidence, scope changes, translation losses, counterexamples, and safety gaps should be preserved as residuals and routed into future question formation, counterexample search, boundary revision, packet repair, schema revision, quarantine, retirement, or justified preservation. The theory identifies verifier overclosure as a failure mode in which local accuracy, speed, or certification power improves while future question formation narrows, residuals disappear, unfamiliar cases are forced into existing schemas, or destructive paths become harder to detect. VET provides a process model based on observable histories, typed records, residual ledgers, verifier packets, certification profiles, reachability certificates, counter-packets, local authority decisions, and packet circulation between systems, with schema sketches and audit guidance for AI evaluation pipelines, autonomous research systems, self-verifying agents, runtime monitoring, scientific workflows, and safety governance.
+Preprint | DOI: 10.5281/zenodo.21147093
+    ]]></description>
+  </item>
   <item>
     <title>Collective Capability Runtime</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-01-collective-capability-runtime-21103275</link>
