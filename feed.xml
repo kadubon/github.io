@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Fri, 03 Jul 2026 09:25:31 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 05 Jul 2026 10:32:13 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Dynamic Future-Claim Certification: A Replayable Authority Validation Protocol with Canonical Artifacts</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-05-dynamic-future-claim-certification-a-replayable-authority-validation-protocol-with-canonical-artifacts-21199529</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-05-dynamic-future-claim-certification-a-replayable-authority-validation-protocol-with-canonical-artifacts-21199529</guid>
+    <pubDate>Sun, 05 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>future claims</category>
+    <category>bounded future</category>
+    <category>claim certification</category>
+    <category>decision systems</category>
+    <category>AI agents</category>
+    <category>planning systems</category>
+    <category>runtime assurance</category>
+    <category>machine-readable certificates</category>
+    <category>formal verification</category>
+    <category>reachability analysis</category>
+    <category>model checking</category>
+    <category>monitoring systems</category>
+    <category>assumption tracking</category>
+    <category>evidence records</category>
+    <category>certificate lifecycle</category>
+    <category>auditability</category>
+    <category>replayable validation</category>
+    <category>provenance</category>
+    <category>policy gates</category>
+    <category>safe automation</category>
+    <source url="https://doi.org/10.5281/zenodo.21199529">10.5281/zenodo.21199529</source>
+    <description><![CDATA[
+      Dynamic Future-Claim Certification (DFCC) is a replayable protocol for deciding when a bounded claim about the future may be asserted, denied, withheld, reused, weakened, transferred, blocked, or retired. The paper addresses planning systems, controllers, monitoring tools, verification workflows, AI agents, and decision-support systems where future-facing statements can authorize actions, block actions, allocate resources, or become assumptions for other systems while their authority depends on assumptions that may later change. DFCC does not replace forecasting, probability, statistics, reachability analysis, model checking, runtime verification, or assurance cases; instead, it adds a machine-checkable lifecycle layer above such methods. A future claim is evaluated only within an explicit assessment frame, accepted observations, admitted assumptions, finite horizon, dependency records, policy gates, and validation checks. The framework separates issue-time certificates from recomputed status-time authority views, so a claim that was valid when issued can later be maintained, weakened, transferred, suspended, revoked, or recomputed as inputs, models, dependencies, policies, or evidence change. The paper emphasizes canonical artifacts, manifest digests, schema validation, closed failure records, reason references, set references, wire-level records, conformance profiles, and golden tests so independent implementations can recompute the same authority status from the same admitted inputs. DFCC is intended for safe planning, AI agent governance, runtime assurance, formal verification, monitoring systems, software workflows, and decision systems that must manage bounded future claims under changing assumptions.
+Preprint | DOI: 10.5281/zenodo.21199529
+    ]]></description>
+  </item>
   <item>
     <title>Verifier Ecology Theory: Packetized Self-Verification Under Residual Accountability</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-03-verifier-ecology-theory-packetized-self-verification-under-residual-accountability-21147093</link>
