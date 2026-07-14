@@ -5,8 +5,44 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 05 Jul 2026 10:32:13 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 16:49:42 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Collective Phase Control Fabric</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-14-collective-phase-control-fabric-21349042</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-14-collective-phase-control-fabric-21349042</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Software</category>
+    <category>evidence control</category>
+    <category>collective workflows</category>
+    <category>multi-agent systems</category>
+    <category>decision support</category>
+    <category>finite intervention control</category>
+    <category>provenance</category>
+    <category>audit trail</category>
+    <category>verification capacity</category>
+    <category>resource constraints</category>
+    <category>coordination protocols</category>
+    <category>trial bindings</category>
+    <category>scientific computing</category>
+    <category>network science</category>
+    <category>Petri nets</category>
+    <category>reaction networks</category>
+    <category>digital signatures</category>
+    <category>DSSE</category>
+    <category>supply-chain security</category>
+    <category>JSON Schema</category>
+    <category>Python</category>
+    <category>PyPI</category>
+    <category>Apache-2.0</category>
+    <category>open source software</category>
+    <source url="https://doi.org/10.5281/zenodo.21349042">10.5281/zenodo.21349042</source>
+    <description><![CDATA[
+      Collective Phase Control Fabric (CPCF) is an Apache-2.0 Python evidence-control toolkit for finite collective workflows. It supports evidence-bound analysis and finite intervention control by validating provenance, exact resource constraints, causal-formation records, catalytic support, verification capacity, independence, perturbations, coordination, and externally registered trial bindings. Version v0.6.0 is a Beta research package with an offline <code>cpcf</code> CLI, schema inspection, self-checks, bundle verification, legacy inspection, typed evidence, trust, scientific-analysis, planning, coordination, and trial models, plus optional API, worker, runner, solver, and KMS integrations. The release also includes reproducible environment metadata, generated references, SBOM-ready materials, checksums, and build provenance for Windows and Linux CPython 3.12-3.14 workflows. CPCF reports operational organization profiles for audit, decision support, scientific computing, provenance tracking, and multi-agent workflow analysis. It does not claim to create, detect, or certify collective superintelligence, causality, statistical validity, thermodynamic feasibility, physical phase behavior, deployment assurance, or runner isolation; unavailable external soak, restore, threat-model review, and penetration-test evidence remain out of scope.
+Software | DOI: 10.5281/zenodo.21349042
+    ]]></description>
+  </item>
   <item>
     <title>Dynamic Future-Claim Certification: A Replayable Authority Validation Protocol with Canonical Artifacts</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-05-dynamic-future-claim-certification-a-replayable-authority-validation-protocol-with-canonical-artifacts-21199529</link>
@@ -101,7 +137,7 @@ Preprint | DOI: 10.5281/zenodo.21147093
     <category>open source software</category>
     <source url="https://doi.org/10.5281/zenodo.21103275">10.5281/zenodo.21103275</source>
     <description><![CDATA[
-      Collective Capability Runtime (CCR) is an Apache-2.0 open-source Python runtime for coordinating distributed AI-agent work through tasks, leases, blackboard memory, capability packets, role-separated verification, residual tracking, provider reports, release audits, and benchmark comparison. It helps multi-agent workflows convert candidate work into reusable, verifiable, machine-readable records while preserving unresolved obligations, hazards, authority limits, and resource-matched baseline checks. CCR can interoperate with Percolation Inversion Compiler for packet-level and phase-proxy verification, but PIC output does not by itself settle CCR claims. Version v1.4.0 adds a local advisory ASI-proxy loop layer, token distillation and deduplication commands, foundry diagnostics, graph quotient checks, cache and index rebuilds, and performance reports without provider execution or network calls by default. CCR is intended for AI agent task coordination, workflow automation, runtime verification, audit logs, release safety checks, and protocol-relative ASI-proxy phase diagnostics. It does not claim to detect or create real artificial superintelligence, self-modify models, update model weights, grant execution authority, prove physical outcomes, or treat execution-available paths as executed work; blocked or untrusted states remain residual-preserving machine-readable records.
+      Collective Capability Runtime (CCR) is an Apache-2.0 JSON-first Python runtime for coordinating verifiable work across AI agents. It keeps tasks, evidence, disagreements, verification, residuals, and unfinished work visible so several agents can build reusable capability without treating repeated answers or raw agent count as proof. CCR uses a CLI, JSON schemas, SQLite or PostgreSQL state, and an optional HTTP API to exchange auditable work. Version v1.6.0 adds distributed collective runtime support: independent agent workcells, transactional task leases with heartbeats and fencing tokens, verified residual resolution, optional PostgreSQL 16+ workers, OIDC + DPoP authentication, resource-matched experiments, and approval-bound external operation gates. It measures protocol-relative ASI-proxy progress through checked results, residual half-life, verification yield, independent contributors, error correlation, and communication or verification cost under declared resource limits. CCR does not run an LLM and does not claim real ASI, consciousness, model-weight updates, legal authority, or physical outcomes; accepted reports are not settlement, unknown measurements remain unknown, and side-effecting provider execution must pass explicit approval and dispatch controls.
 Software | DOI: 10.5281/zenodo.21103275
     ]]></description>
   </item>
@@ -346,7 +382,7 @@ Preprint | DOI: 10.5281/zenodo.20657323
     <category>open source software</category>
     <source url="https://doi.org/10.5281/zenodo.20569166">10.5281/zenodo.20569166</source>
     <description><![CDATA[
-      Percolation Inversion Compiler is an Apache-2.0 open-source AI agent output checker and workflow verification toolkit with a canonical Python/pip implementation and a TypeScript/npm port. It helps multi-agent systems turn agent text, pull requests, external inputs, messages, code, tests, evidence, route checks, audit logs, and unresolved obligations into deterministic JSON reports and machine-readable records. The Python package <code>percolation-inversion-compiler</code> is v0.5.0 and provides the core runtime, verifier routing, optional sidecars, Phase Ecology Lab records, agent autonomy audit, canonical readiness audit, JSON Schema export, signed identity and profile checks, packet exchange, runtime event logs, provenance records, and fail-closed residual ledgers. The npm package <code>percolation-inversion-compiler-ts</code> is v0.5.0 and ports the public JSON, CLI, schema, conformance, and safety semantics, including Phase Ecology Lab records, for Node.js, JavaScript, and TypeScript agent runtimes; use the <code>pic-ts</code> CLI for npm workflows. PIC is designed for AI agent output checking, multi-agent workflow verification, safe reuse checks, reproducible audit trails, and protocol-relative ASI-proxy evaluation. It does not claim to create, detect, or prove real artificial superintelligence, hidden physical outcomes, oracle results, legal identity, human uniqueness, institutional authority, or unrestricted agent safety; unresolved or untrusted claims remain fail-closed as candidate, diagnostic, quarantined, rejected, or residual machine-readable records.
+      Percolation Inversion Compiler is an Apache-2.0 certificate compiler and local AI agent runtime with a canonical Python/pip implementation and a TypeScript/npm port. It turns finite inputs into checked capability packets, proof obligations, residual ledgers, typed trace normal forms, frontier extraction, salience queues, verifier tasks, provenance records, and machine-readable schemas. The Python package <code>percolation-inversion-compiler</code> is v1.1.0 and adds strict public input boundaries, known/unknown measurement, witness-only positive bottleneck coordinates, measured queue costs, rechecked abstraction-lift records, finite typed traces, resource-matched acceleration measurement, and an explicit approval-bound operation path. The npm package <code>percolation-inversion-compiler-ts</code> is v1.1.0 and provides cross-language runtime support for strict PIC checks, resource-matched acceleration measurement, diagnostic flow checks, verified capability routing, approval-bound typed operations, and the <code>pic</code> / <code>pic-ts</code> CLI for Node.js agent workflows. PIC supports AI agent integration and protocol-relative ASI-proxy phase control, but it does not prove real artificial superintelligence, consciousness, model-weight change, legal authority, physical or oracle truth, or observed outcomes; missing values stay unknown, candidate volume does not become verified capability, and packet content, trace content, safe-command hints, and check results are never executed automatically.
 Software | DOI: 10.5281/zenodo.20569166
     ]]></description>
   </item>
