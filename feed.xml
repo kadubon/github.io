@@ -5,8 +5,42 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Tue, 14 Jul 2026 16:49:42 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 19:12:09 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Epistemic Interface Autogenesis in Controlled Open Worlds</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-16-epistemic-interface-autogenesis-in-controlled-open-worlds-21393443</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-16-epistemic-interface-autogenesis-in-controlled-open-worlds-21393443</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>controlled open worlds</category>
+    <category>physical compilation</category>
+    <category>physical causal compiler</category>
+    <category>feasible generability</category>
+    <category>stateful stochastic protocols</category>
+    <category>model-blind online transducers</category>
+    <category>statistical experiment comparison</category>
+    <category>assume-guarantee contracts</category>
+    <category>stochastic system composition</category>
+    <category>construction graph semantics</category>
+    <category>information-actuation obstruction</category>
+    <category>partial identification</category>
+    <category>lifecycle resource accounting</category>
+    <category>provenance auditing</category>
+    <category>source replacement effects</category>
+    <category>causal deployment effects</category>
+    <category>sequential evidence certification</category>
+    <category>autonomous system evaluation</category>
+    <category>robotic laboratories</category>
+    <category>embedded systems</category>
+    <category>evidence debt</category>
+    <source url="https://doi.org/10.5281/zenodo.21393443">10.5281/zenodo.21393443</source>
+    <description><![CDATA[
+      Epistemic Interface Autogenesis in Controlled Open Worlds develops a formal framework for evaluating when an embedded system appears to generate a new epistemic interface: an executable mechanism for obtaining observations, making requests, interpreting records, testing claims, or invoking protected services. Rather than reducing novelty or autonomy to a single score, it separates what an interface makes physically executable, whether the same behavior can be generated from inherited components and services, whether observed improvements are caused by deployment, and what remains unresolved because models, channels, construction paths, or interventions are incomplete. The paper represents interfaces as stateful stochastic protocols with separate stopping times for decision closure and physical closure, and distinguishes requests, delivered actions, physical effects, recovery processes, lifecycle resources, provenance, actor equivariance, qualification, eligibility, and authority. It defines physical causal compilers, feasible construction graphs, semantic construction, operational reproducibility, metric approximation, robust separation, and partial identification, with certificates for physical marginals, protected-action errors, task errors, plan and model coverage, lifecycle resource refinement, and evidence debt. The intended result is a typed certificate, refutation, or explicit unresolved evidence debt for generated research interfaces, robotic laboratories, monitored services, and embedded systems where timing, physical delivery, resource use, and evidence boundaries matter.
+Preprint | DOI: 10.5281/zenodo.21393443
+    ]]></description>
+  </item>
   <item>
     <title>Collective Phase Control Fabric</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-14-collective-phase-control-fabric-21349042</link>
