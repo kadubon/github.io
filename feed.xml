@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 16 Jul 2026 19:12:09 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 23 Jul 2026 10:52:55 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Functional Process Control Dynamics</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-23-functional-process-control-dynamics-21501931</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-23-functional-process-control-dynamics-21501931</guid>
+    <pubDate>Thu, 23 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>causal inference</category>
+    <category>partial identification</category>
+    <category>process control</category>
+    <category>provenance hypergraphs</category>
+    <category>functional selection</category>
+    <category>recurrence analysis</category>
+    <category>exergy</category>
+    <category>feedback control</category>
+    <category>protocol uncertainty</category>
+    <category>claim certification</category>
+    <category>hybrid systems</category>
+    <category>controller attribution</category>
+    <category>microgrid modeling</category>
+    <category>artificial intelligence systems</category>
+    <category>functional roles</category>
+    <category>open systems</category>
+    <category>cyber-physical systems</category>
+    <category>evidence boundaries</category>
+    <category>auditable workflows</category>
+    <category>complex systems</category>
+    <source url="https://doi.org/10.5281/zenodo.21501931">10.5281/zenodo.21501931</source>
+    <description><![CDATA[
+      Functional Process Control Dynamics (FPCD) is an auditable framework for evaluating claims about functional roles, process recurrence, directed physical flows, operational control, and environmental feedback under uncertain protocols. It addresses a common problem in complex systems research: persistence, repeated behavior, energy use, organizational authority, or correlated system changes can be mistaken for evidence of selection, control, causal influence, or functional continuity. The framework separates opportunity creation from responses within registered opportunities, functional-role classification from quantitative role accounting, compositional change from provenance-supported recurrence, recurrence from functional selection, measured exergy flows from controller exposure and signed policy effects, and factorial interactions from identifiable feedback-path effects. It combines causal inference, partial identification, process provenance, control-system analysis, and thermodynamic exergy accounting with explicit physical boundaries, reference environments, ports, inventories, actuator paths, compatible-value regions, and protocol uncertainty. Its main output is a reproducible claim certificate that records the estimand, protocol, evidence, compatible-value region, decision threshold, and claim status, including supported, false conditional on maintained assumptions, not identified, protocol inconsistent, or comparison undefined. FPCD applies to artificial, biological, human, organizational, cyber-physical, and hybrid systems without treating intelligence, fitness, agency, value, or energy consumption as universal explanatory primitives.
+Preprint | DOI: 10.5281/zenodo.21501931
+    ]]></description>
+  </item>
   <item>
     <title>Epistemic Interface Autogenesis in Controlled Open Worlds</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-16-epistemic-interface-autogenesis-in-controlled-open-worlds-21393443</link>
