@@ -5,8 +5,41 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Thu, 23 Jul 2026 10:52:55 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 24 Jul 2026 19:07:53 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Evidence-Carrying Operational Claims in Open Systems: Physical Ledgers, Typed Interfaces, and One-Sided Deployment Guarantees</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-07-24-evidence-carrying-operational-claims-in-open-systems-physical-ledgers-typed-interfaces-and-one-sided-deployment-guarantees-21531413</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-07-24-evidence-carrying-operational-claims-in-open-systems-physical-ledgers-typed-interfaces-and-one-sided-deployment-guarantees-21531413</guid>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>evidence-carrying operational claims</category>
+    <category>operational assurance</category>
+    <category>open systems</category>
+    <category>safety-critical systems</category>
+    <category>one-sided deployment guarantees</category>
+    <category>probabilistic safety verification</category>
+    <category>stochastic hybrid systems</category>
+    <category>partial observability</category>
+    <category>robust control</category>
+    <category>causal identification</category>
+    <category>model abstraction</category>
+    <category>physical resource accounting</category>
+    <category>physical ledgers</category>
+    <category>typed interfaces</category>
+    <category>data provenance</category>
+    <category>assurance cases</category>
+    <category>runtime monitoring</category>
+    <category>JSON Schema</category>
+    <category>claim certificates</category>
+    <category>deployment safety</category>
+    <source url="https://doi.org/10.5281/zenodo.21531413">10.5281/zenodo.21531413</source>
+    <description><![CDATA[
+      Evidence-Carrying Operational Claims in Open Systems develops a contract-based framework for evaluating safety, service delivery, resilience, recovery, and other operational claims in open, partially observable, and adaptive systems. Instead of treating these properties as intrinsic system attributes, the paper represents each claim as a typed, evidence-carrying proposition relative to a declared physical boundary, institutional boundary, environment mechanism, observation history, intervention regime, policy class, shared resources, and finite physical horizon. The framework combines stochastic hybrid models, exact physical ledgers, calibrated observation models, measurement uncertainty, causal identification, transportability, scenario-fixed experiment interfaces, computable concrete models, and abstractions. Its main formal result is a finite-horizon, one-sided deployment certificate that transfers an abstract lower safety value to deployment under partial observation while keeping learning-data coverage, deployment-path probability, reconciliation discrepancy, and implementation or abstraction radii as distinct quantities. The paper also defines claim-sufficient scopes, Pareto profiles, verdict semantics, and machine-readable JSON Schema validation for physical balance, provenance exclusivity, artifact containment, hashes, and certificate recomputation. The validator checks finite records and does not establish external evidence truth, causal assumptions, statistical models, or real-world safety.
+Preprint | DOI: 10.5281/zenodo.21531413
+    ]]></description>
+  </item>
   <item>
     <title>Functional Process Control Dynamics</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-23-functional-process-control-dynamics-21501931</link>
