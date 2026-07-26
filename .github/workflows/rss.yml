@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: derived-content-writers
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest

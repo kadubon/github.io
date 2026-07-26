@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: agent-discovery-catalogs
+  group: derived-content-writers
   cancel-in-progress: false
 
 jobs:
