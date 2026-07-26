@@ -5,6 +5,15 @@
 This site publishes DOI-linked research outputs and structured site guides for human readers and research agents.
 Primary publication records are listed on the Works page and link to Zenodo DOI entries.
 
+## Machine-Readable Discovery
+
+- [Agent Index](https://kadubon.github.io/github.io/agent-index.json): compact entry-point map, source counts, authority order, and cautious selection guidance for autonomous agents.
+- [Research Catalog](https://kadubon.github.io/github.io/research-catalog.json): complete DOI, abstract, keyword, date, and canonical-link records derived from the Works JSON-LD.
+- [OSS Catalog](https://kadubon.github.io/github.io/oss-catalog.json): all public, non-fork repositories owned by `kadubon`, including descriptions, topics, licenses, branches, archive state, and source-activity timestamps.
+- [Human-Readable OSS Catalog](https://kadubon.github.io/github.io/oss.html): repository catalog for readers and indexers that prefer semantic HTML.
+
+Catalog inclusion is a discovery aid, not a claim of production readiness, security, maintenance, endorsement, or scientific validation. Follow DOI records for research claims and inspect repository README, license, tests, dependencies, releases, and source activity before software reuse.
+
 ## Core Pages
 
 - [Home](https://kadubon.github.io/github.io/): profile, research overview, start links, and support information.
@@ -19,6 +28,7 @@ Primary publication records are listed on the Works page and link to Zenodo DOI 
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): human-readable and structured guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): human-readable and structured guide for CGT, typed constraint effects, generated effect profiles, scientific availability, and the shared series DOI.
 - [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
+- [OSS Catalog](https://kadubon.github.io/github.io/oss.html): public repository index with corresponding machine-readable metadata.
 
 ## Additional Site Guides and Metadata
 

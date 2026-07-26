@@ -5,6 +5,10 @@
 This repository-backed website is organized for human readers first, with structured metadata and plain-text site guides as supporting context.
 The complete publication corpus is `works.html`, where each item includes title, type, date, DOI, abstract, and keywords, with parallel Schema.org JSON-LD metadata.
 
+## Live Machine-Readable Catalogs
+
+For current counts and records, prefer [agent-index.json](https://kadubon.github.io/github.io/agent-index.json), [research-catalog.json](https://kadubon.github.io/github.io/research-catalog.json), and [oss-catalog.json](https://kadubon.github.io/github.io/oss-catalog.json). The narrative snapshot below is retained as extended context and may lag the generated catalogs.
+
 ## Identity and Canonical Scope
 
 - Author: K. Takahashi

@@ -19,6 +19,10 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 - No-Meta / Observable-Only Series Index: https://kadubon.github.io/github.io/no-meta-observable-index.html
 - Constraint Generative Theory Series Index: https://kadubon.github.io/github.io/constraint-generative-theory-index.html
 - Works (publication index): https://kadubon.github.io/github.io/works.html
+- OSS catalog: https://kadubon.github.io/github.io/oss.html
+- Agent discovery index: https://kadubon.github.io/github.io/agent-index.json
+- Research catalog: https://kadubon.github.io/github.io/research-catalog.json
+- OSS metadata catalog: https://kadubon.github.io/github.io/oss-catalog.json
 - RSS feed: https://kadubon.github.io/github.io/feed.xml
 - robots.txt: https://kadubon.github.io/github.io/robots.txt
 - sitemap.xml: https://kadubon.github.io/github.io/sitemap.xml
@@ -27,6 +31,10 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 ## Discoverability and Machine Readability
 
 - Schema.org JSON-LD is embedded on key pages (`ProfilePage`, `Person`, `CollectionPage`, `ScholarlyArticle`, `TechArticle`, `CreativeWork`).
+- `agent-index.json` gives autonomous agents a compact authority order, retrieval map, corpus counts, and selection cautions.
+- `research-catalog.json` exposes the Works JSON-LD as a direct DOI/abstract/keyword catalog.
+- `oss-catalog.json` and `oss.html` expose all public, non-fork repositories with descriptions, topics, licenses, archive state, and source-activity metadata.
+- `scripts/generate_agent_catalogs.py` rebuilds these discovery files without modifying papers or software repositories.
 - `research-map.html` provides a site-wide synthesis layer with pillar structure, dependency arrows, stable anchors, and audience-specific read paths.
 - `no-meta-observable-index.html` provides a visible YAML canonical field guide for the no-meta / observable-only research series.
 - `constraint-generative-theory-index.html` provides a visible YAML and human-readable field guide for Constraint Generative Theory, typed constraint effects, generated effect profiles, scientific availability, and the shared CGT DOI directory.
@@ -56,6 +64,10 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 - `no-meta-observable-index.html`: canonical YAML field guide for the no-meta / observable-only series
 - `constraint-generative-theory-index.html`: canonical YAML and explanatory index for the Constraint Generative Theory series
 - `works.html`: reverse-chronological publication list with DOI links
+- `oss.html`: generated human-readable public repository catalog
+- `agent-index.json`: generated research-and-software discovery entry point for autonomous agents
+- `research-catalog.json`: generated structured publication records derived from `works.html`
+- `oss-catalog.json`: generated public GitHub repository metadata
 
 ## Citation
 

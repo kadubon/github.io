@@ -13,3 +13,9 @@ Disallow: /package-lock.json
 
 Feed: https://kadubon.github.io/github.io/feed.xml
 Sitemap: https://kadubon.github.io/github.io/sitemap.xml
+
+# Machine-readable discovery entry points
+# https://kadubon.github.io/github.io/agent-index.json
+# https://kadubon.github.io/github.io/research-catalog.json
+# https://kadubon.github.io/github.io/oss-catalog.json
+# https://kadubon.github.io/github.io/llms.txt

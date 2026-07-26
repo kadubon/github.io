@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source Software Catalog | K. Takahashi</title>
+  <meta name="description" content="Discover public OSS and research reference implementations by K. Takahashi using descriptions, topics, licenses, and source-activity metadata.">
+  <meta name="author" content="K. Takahashi">
+  <meta name="robots" content="index,follow,max-snippet:-1">
+  <link rel="canonical" href="https://kadubon.github.io/github.io/oss.html">
+  <link rel="alternate" type="application/json" title="Machine-readable OSS catalog" href="https://kadubon.github.io/github.io/oss-catalog.json">
+  <link rel="alternate" type="application/json" title="Research and OSS agent index" href="https://kadubon.github.io/github.io/agent-index.json">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .catalog-summary { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; padding-left: 0; list-style: none; }
+    .repo-grid { display: grid; gap: 1rem; }
+    .repo-card { border: 1px solid #ddd; border-radius: 6px; background: #fafafa; padding: 1rem; }
+    .repo-card h2 { margin-top: 0; overflow-wrap: anywhere; }
+    .repo-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.35rem 1rem; }
+    .repo-meta div { min-width: 0; }
+    .repo-meta dt { font-weight: 700; }
+    .repo-meta dd { margin: 0; overflow-wrap: anywhere; }
+    .topic-list { display: flex; flex-wrap: wrap; gap: 0.35rem; padding-left: 0; list-style: none; }
+    .topic-list li { border: 1px solid #ccd8e5; border-radius: 999px; background: #eef5fb; padding: 0.15rem 0.55rem; font-size: 0.86rem; }
+    .quiet { color: #555; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://kadubon.github.io/github.io/oss.html#page","url":"https://kadubon.github.io/github.io/oss.html","name":"Open Source Software Catalog | K. Takahashi","description":"Human-readable catalog of public source repositories owned by kadubon, with corresponding machine-readable metadata.","about":{"@id":"https://kadubon.github.io/github.io/#person"},"mainEntity":{"@type":"ItemList","numberOfItems":53,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://github.com/kadubon/percolation-inversion-compiler"},{"@type":"ListItem","position":2,"url":"https://github.com/kadubon/verification-ecology-kit"},{"@type":"ListItem","position":3,"url":"https://github.com/kadubon/paper-tex-backup"},{"@type":"ListItem","position":4,"url":"https://github.com/kadubon/github.io"},{"@type":"ListItem","position":5,"url":"https://github.com/kadubon/memoryflow-agent-memory-auditor"},{"@type":"ListItem","position":6,"url":"https://github.com/kadubon/certified-local-participation-gate"},{"@type":"ListItem","position":7,"url":"https://github.com/kadubon/asi-proxy-phase-growth-simulator"},{"@type":"ListItem","position":8,"url":"https://github.com/kadubon/certified-memory-governance-layer"},{"@type":"ListItem","position":9,"url":"https://github.com/kadubon/agent-trust-residual-benchmark"},{"@type":"ListItem","position":10,"url":"https://github.com/kadubon/collective-phase-control-fabric"},{"@type":"ListItem","position":11,"url":"https://github.com/kadubon/future-claim-certifier"},{"@type":"ListItem","position":12,"url":"https://github.com/kadubon/percolation-inversion-compiler-ts"},{"@type":"ListItem","position":13,"url":"https://github.com/kadubon/collective-capability-runtime"},{"@type":"ListItem","position":14,"url":"https://github.com/kadubon/fost-agent-ledger"},{"@type":"ListItem","position":15,"url":"https://github.com/kadubon/problem-frame-gate"},{"@type":"ListItem","position":16,"url":"https://github.com/kadubon/pic-openclaw-skill"},{"@type":"ListItem","position":17,"url":"https://github.com/kadubon/no-meta-standing-ledger"},{"@type":"ListItem","position":18,"url":"https://github.com/kadubon/pic-local-llm-phase-experiment"},{"@type":"ListItem","position":19,"url":"https://github.com/kadubon/alt-foundry-kernel"},{"@type":"ListItem","position":20,"url":"https://github.com/kadubon/cgt-ledgered-scientific-availability"},{"@type":"ListItem","position":21,"url":"https://github.com/kadubon/cgt-bandwidth-dynamics"},{"@type":"ListItem","position":22,"url":"https://github.com/kadubon/cgt-availability"},{"@type":"ListItem","position":23,"url":"https://github.com/kadubon/cgt-marker"},{"@type":"ListItem","position":24,"url":"https://github.com/kadubon/oasg"},{"@type":"ListItem","position":25,"url":"https://github.com/kadubon/cimt-kernel"},{"@type":"ListItem","position":26,"url":"https://github.com/kadubon/cait-certificate-schema"},{"@type":"ListItem","position":27,"url":"https://github.com/kadubon/certified-workflow-conversion"},{"@type":"ListItem","position":28,"url":"https://github.com/kadubon/observable-agent-workflow-memory"},{"@type":"ListItem","position":29,"url":"https://github.com/kadubon/frontier-transfer-certifier"},{"@type":"ListItem","position":30,"url":"https://github.com/kadubon/ai-real-economy-bottleneck-simulator"},{"@type":"ListItem","position":31,"url":"https://github.com/kadubon/loscr"},{"@type":"ListItem","position":32,"url":"https://github.com/kadubon/no-meta-authority-runtime"},{"@type":"ListItem","position":33,"url":"https://github.com/kadubon/long-running-AI-agent-PoC"},{"@type":"ListItem","position":34,"url":"https://github.com/kadubon/no-meta-observable-invention-poc"},{"@type":"ListItem","position":35,"url":"https://github.com/kadubon/record-absence-poc"},{"@type":"ListItem","position":36,"url":"https://github.com/kadubon/semantic-translation-contracts-poc"},{"@type":"ListItem","position":37,"url":"https://github.com/kadubon/agent-lifecycle-certification-poc"},{"@type":"ListItem","position":38,"url":"https://github.com/kadubon/sovereign-epistemic-commons-poc"},{"@type":"ListItem","position":39,"url":"https://github.com/kadubon/rsi-yardstick-drift-poc"},{"@type":"ListItem","position":40,"url":"https://github.com/kadubon/split-inference-bench"},{"@type":"ListItem","position":41,"url":"https://github.com/kadubon/search-stability-lab"},{"@type":"ListItem","position":42,"url":"https://github.com/kadubon/audit-closed-ai-scientist"},{"@type":"ListItem","position":43,"url":"https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-"},{"@type":"ListItem","position":44,"url":"https://github.com/kadubon/observable-replay-lab"},{"@type":"ListItem","position":45,"url":"https://github.com/kadubon/Oversight-Centered-Metrology-PoC"},{"@type":"ListItem","position":46,"url":"https://github.com/kadubon/no-meta-drift-papers"},{"@type":"ListItem","position":47,"url":"https://github.com/kadubon/bottleneck-audit-toolkit"},{"@type":"ListItem","position":48,"url":"https://github.com/kadubon/Benevolent-Propagation-spec"},{"@type":"ListItem","position":49,"url":"https://github.com/kadubon/UniverseModel"},{"@type":"ListItem","position":50,"url":"https://github.com/kadubon/AIconsciousness"},{"@type":"ListItem","position":51,"url":"https://github.com/kadubon/WisdomWeaver"},{"@type":"ListItem","position":52,"url":"https://github.com/kadubon/ASI"},{"@type":"ListItem","position":53,"url":"https://github.com/kadubon/GEAR"}]}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="container">
+    <h1>Open Source Software Catalog</h1>
+    <p>Public source repositories owned by K. Takahashi (<a href="https://github.com/kadubon">@kadubon</a>), exposed as a human-readable page and a stable machine-readable catalog.</p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="https://kadubon.github.io/github.io/">Home</a></li>
+        <li><a href="https://kadubon.github.io/github.io/research-map.html">Research Map</a></li>
+        <li><a href="https://kadubon.github.io/github.io/works.html">Works</a></li>
+        <li><a href="https://kadubon.github.io/github.io/agent-index.json">Agent Index</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="container">
+      <h2>Catalog scope</h2>
+      <ul class="catalog-summary">
+        <li><strong>53</strong> public non-fork repositories</li>
+        <li><strong>53</strong> not archived</li>
+        <li>GitHub source state: <time datetime="2026-07-25T13:15:17Z">2026-07-25</time></li>
+      </ul>
+      <p>Use <a href="https://kadubon.github.io/github.io/oss-catalog.json">oss-catalog.json</a> for structured retrieval and <a href="https://kadubon.github.io/github.io/agent-index.json">agent-index.json</a> for authority and selection guidance. Inclusion supports discovery only; inspect each repository's README, license, tests, dependencies, releases, and source activity before reuse.</p>
+    </section>
+    <section class="container" aria-labelledby="repositories-heading">
+      <h2 id="repositories-heading">Repositories</h2>
+      <div class="repo-grid">
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/percolation-inversion-compiler">percolation-inversion-compiler</a></h2>
+        <p>AI agent output checker and workflow verification toolkit for turning agent text, pull requests, external inputs, and messages into auditable JSON reports with evidence routing, residual ledgers, provenance, and safe reuse checks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-25T13:15:17Z">2026-07-25</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-runtime</li><li>agent-workflow</li><li>agentic-workflow</li><li>ai-agent-framework</li><li>ai-agents</li><li>audit-trail</li><li>coding-agent</li><li>collective-runtime</li><li>cryptographic-identity</li><li>formal-methods</li><li>json-schema</li><li>multi-agent</li><li>packet-ecology</li><li>provenance</li><li>python</li><li>scientific-computing</li><li>sybil-resistance</li><li>verifier</li><li>verifier-sdk</li><li>workflow-verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/verification-ecology-kit">verification-ecology-kit</a></h2>
+        <p>Python toolkit for verification auditing, residual ledgers, conformance checks, and verifier packet workflows.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-24T18:34:19Z">2026-07-24</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.21147093">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-workflow</li><li>ai-agents</li><li>artificial-intelligence</li><li>audit</li><li>cli</li><li>conformance</li><li>governance</li><li>json-schema</li><li>python</li><li>security</li><li>software-quality</li><li>testing</li><li>verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/paper-tex-backup">paper-tex-backup</a></h2>
+        <p>Public TeX source archive for K. Takahashi&#x27;s open-science papers: machine-readable research seeds for AI agents, RAG systems, and reproducible scholarship.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Not detected</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-24T10:09:05Z">2026-07-24</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/works.html">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>artificial-intelligence</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/github.io">github.io</a></h2>
+        <p>Personal site for independent research on observable-only, no-meta, and future autonomous AI.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>HTML</dd></div>
+          <div><dt>License</dt><dd>CC-BY-4.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-24T10:07:54Z">2026-07-24</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agi</li><li>ai</li><li>asi</li><li>no-meta</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/memoryflow-agent-memory-auditor">memoryflow-agent-memory-auditor</a></h2>
+        <p>Telemetry-based auditor for measuring dynamic memory quality in LLM agents using the MemoryFlow framework.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-24T04:53:40Z">2026-07-24</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.18136347">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-evaluation</li><li>agent-memory</li><li>ai</li><li>ai-agents</li><li>ai-safety</li><li>evaluation</li><li>fastapi</li><li>llm</li><li>llm-agents</li><li>memory-auditing</li><li>memory-quality</li><li>observability</li><li>provenance</li><li>python</li><li>staleness</li><li>telemetry</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/certified-local-participation-gate">certified-local-participation-gate</a></h2>
+        <p>Deterministic local participation gate for AI agents: act, assist, verify, withdraw, exit, or refuse from declared observable records.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-23T02:13:59Z">2026-07-23</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19394600">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-governance</li><li>agent-safety</li><li>ai-agents</li><li>audit-log</li><li>deterministic</li><li>formal-methods</li><li>json-schema</li><li>local-first</li><li>pydantic</li><li>python</li><li>receipts</li><li>uv</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/asi-proxy-phase-growth-simulator">asi-proxy-phase-growth-simulator</a></h2>
+        <p>Python Monte Carlo simulator for uncertainty, risk, verification, and resource-constrained scenario analysis.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-22T23:37:41Z">2026-07-22</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://pypi.org/project/asi-proxy-phase-growth-simulator/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>monte-carlo</li><li>plotly</li><li>python</li><li>research-software</li><li>risk-analysis</li><li>scenario-analysis</li><li>scientific-computing</li><li>simulation</li><li>streamlit</li><li>uncertainty-quantification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/certified-memory-governance-layer">certified-memory-governance-layer</a></h2>
+        <p>Certified Memory Governance Layer for long-running AI agents: strict receipts, append-only ledgers, authority gates, retrieval filtering, telemetry replay, and safe adapters for Mem0, Graphiti, LangMem, and LangGraph.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-22T02:05:33Z">2026-07-22</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-infrastructure</li><li>agent-memory</li><li>ai-agents</li><li>audit-ledger</li><li>graphiti</li><li>langgraph</li><li>langmem</li><li>long-running-agents</li><li>mem0</li><li>memory-governance</li><li>memory-management</li><li>memory-safety</li><li>pydantic</li><li>python</li><li>retrieval-filtering</li><li>typer</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/agent-trust-residual-benchmark">agent-trust-residual-benchmark</a></h2>
+        <p>Balanced, reproducible AI-agent safety benchmark for trust, authority, provenance, temporal claims, residuals, and local Ollama evaluation.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-19T12:10:23Z">2026-07-19</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://github.com/kadubon/agent-trust-residual-benchmark/blob/main/docs/FIRST_READ.md">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-ai</li><li>ai-agents</li><li>ai-evaluation</li><li>ai-safety</li><li>benchmark</li><li>experiment</li><li>llm-evaluation</li><li>llm-security</li><li>model-evaluation</li><li>ollama</li><li>prompt-injection</li><li>provenance</li><li>python</li><li>reproducible-research</li><li>residual-risk</li><li>responsible-ai</li><li>security</li><li>synthetic-data</li><li>temporal-reasoning</li><li>trustworthy-ai</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/collective-phase-control-fabric">collective-phase-control-fabric</a></h2>
+        <p>Evidence-bound analysis and finite intervention control for collective workflows.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-14T04:30:53Z">2026-07-14</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>audit-trail</li><li>collective-intelligence</li><li>decision-support</li><li>digital-signatures</li><li>dsse</li><li>evidence-control</li><li>fastapi</li><li>kubernetes</li><li>multi-agent-systems</li><li>network-science</li><li>oidc</li><li>petri-nets</li><li>postgresql</li><li>provenance</li><li>python</li><li>reaction-networks</li><li>reproducibility</li><li>scientific-computing</li><li>supply-chain-security</li><li>uv</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/future-claim-certifier">future-claim-certifier</a></h2>
+        <p>Replayable Python protocol engine for checking time-bound future claims from canonical artifacts, with typed outcomes and audit trails.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-13T21:07:44Z">2026-07-13</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.21199529">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-safety</li><li>artifact-bundles</li><li>audit-trail</li><li>authority-validation</li><li>canonical-json</li><li>future-claims</li><li>json-schema</li><li>proof-checking</li><li>protocol-engine</li><li>python</li><li>runtime-verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/percolation-inversion-compiler-ts">percolation-inversion-compiler-ts</a></h2>
+        <p>Node.js AI agent output checker and workflow report generator with JSON schemas, and safe reuse checks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>TypeScript</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-11T07:09:48Z">2026-07-11</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://github.com/kadubon/percolation-inversion-compiler">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-runtime</li><li>agentic-workflow</li><li>ai-agents</li><li>ai-safety</li><li>ai-workflow</li><li>automation-tools</li><li>cli</li><li>evidence-routing</li><li>json-schema</li><li>llm-output</li><li>llmops</li><li>nodejs</li><li>npm</li><li>npm-package</li><li>provenance</li><li>safe-ai</li><li>typescript</li><li>workflow-automation</li><li>workflow-verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/collective-capability-runtime">collective-capability-runtime</a></h2>
+        <p>Open-source Python runtime for coordinating AI agent tasks, verification, residual tracking, and release audits.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-10T01:26:44Z">2026-07-10</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://github.com/kadubon/percolation-inversion-compiler">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-runtime</li><li>ai-agents</li><li>audit-log</li><li>json-schema</li><li>pypi</li><li>python</li><li>sqlite</li><li>task-queue</li><li>verification</li><li>workflow-automation</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/fost-agent-ledger">fost-agent-ledger</a></h2>
+        <p>Finite ledger toolkit for recording AI-agent claims, evidence, obligations, certificates, changes, and visible uncertainty.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-02T08:04:35Z">2026-07-02</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20995846">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-evaluation</li><li>ai-agents</li><li>audit</li><li>certificates</li><li>finite-operational-structure</li><li>json-schema</li><li>ledger</li><li>obligations</li><li>provenance</li><li>responsible-ai</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/problem-frame-gate">problem-frame-gate</a></h2>
+        <p>Audit logs and action gates for safer AI agents</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-07-02T01:00:16Z">2026-07-02</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20913669">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>ai-agents</li><li>ai-safety</li><li>audit-log</li><li>authorization</li><li>open-source</li><li>provenance</li><li>pypi</li><li>python</li><li>risk-management</li><li>security</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/pic-openclaw-skill">pic-openclaw-skill</a></h2>
+        <p>OpenClaw agent safety skill for action review, workflow verification, and optional PIC diagnostics</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-06-22T09:38:57Z">2026-06-22</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://github.com/kadubon/percolation-inversion-compiler">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>action-review</li><li>agent-safety</li><li>ai-agent</li><li>ai-agents</li><li>ai-safety</li><li>automation</li><li>developer-tools</li><li>guardrails</li><li>llm</li><li>llmops</li><li>open-claw</li><li>open-source</li><li>openclaw</li><li>python</li><li>security</li><li>security-tools</li><li>workflow-automation</li><li>workflow-verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/no-meta-standing-ledger">no-meta-standing-ledger</a></h2>
+        <p>Local-first public standing ledger for replayable research and AI-system claims, based on observable evidence, challenges, lineage, and finite verification capacity.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-06-18T21:04:47Z">2026-06-18</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19447443">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai-agents</li><li>auditability</li><li>challenge-tracking</li><li>claim-governance</li><li>evidence-tracking</li><li>lineage</li><li>local-first</li><li>no-meta-governance</li><li>observable-only</li><li>open-science</li><li>public-ledger</li><li>python</li><li>reproducibility</li><li>research-claims</li><li>research-tools</li><li>standing</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/pic-local-llm-phase-experiment">pic-local-llm-phase-experiment</a></h2>
+        <p>Local Ollama research repo testing PIC-assisted diagnostics against a shared-initial baseline.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-06-14T08:20:30Z">2026-06-14</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://github.com/kadubon/percolation-inversion-compiler">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>experiment</li><li>local-llm</li><li>ollama</li><li>percolation-inversion-compiler</li><li>pic</li><li>reproducibility</li><li>research</li><li>workflow-diagnostics</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/alt-foundry-kernel">alt-foundry-kernel</a></h2>
+        <p>Language-neutral ALT foundry reference kernel for executable certificate packets, abstraction tokens, certificate transcripts, dual-ledger settlement, and safe certified abstraction capital.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-06-01T01:44:25Z">2026-06-01</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20476200">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>abstraction-liquidity-theory</li><li>abstraction-token</li><li>agent-operable-foundry</li><li>agentic-ai</li><li>ai-agents</li><li>alt</li><li>apache-2-0</li><li>causal-inference</li><li>certification-kernel</li><li>certified-ai</li><li>conformance-testing</li><li>dual-ledger</li><li>executable-certificate-packet</li><li>json-schema</li><li>python</li><li>research-kernel</li><li>research-software</li><li>safe-certified-capital</li><li>transportability</li><li>uv</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/cgt-ledgered-scientific-availability">cgt-ledgered-scientific-availability</a></h2>
+        <p>Finite Python reference checker for Ledgered Scientific Availability and selected-terminal run-to-status transport.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-29T05:13:33Z">2026-05-29</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20426928">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>constraint-generative-theory</li><li>effect-profiles</li><li>evidence-ledger</li><li>finite-checker</li><li>ledgered-scientific-availability</li><li>nonsynth</li><li>python</li><li>run-to-status</li><li>scientific-availability</li><li>status-transport</li><li>uv</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/cgt-bandwidth-dynamics">cgt-bandwidth-dynamics</a></h2>
+        <p>Finite executable reference implementation of Constraint Bandwidth Dynamics in Constraint Generative Theory (CGT).</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-19T06:03:09Z">2026-05-19</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20278525">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>audit-certificates</li><li>constraint-bandwidth</li><li>constraint-generative-theory</li><li>constraint-systems</li><li>effect-profiles</li><li>finite-audit</li><li>formal-methods</li><li>python</li><li>release-certificates</li><li>reproducible-research</li><li>scientific-computing</li><li>typed-constraints</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/cgt-availability">cgt-availability</a></h2>
+        <p>Finite CGT scientific-availability diagnostics for claim packages: deficiency profiles, dependency closure, report-only, marker, continuation, and reproducibility checks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-18T05:34:18Z">2026-05-18</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20262492">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>cgt</li><li>claim-packages</li><li>constraint-generative-theory</li><li>deficiency-profiles</li><li>diagnostics</li><li>open-science</li><li>philosophy-of-science</li><li>python</li><li>reproducibility</li><li>research-software</li><li>scientific-availability</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/cgt-marker">cgt-marker</a></h2>
+        <p>Contradiction markers for long-running AI agents</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-17T11:14:18Z">2026-05-17</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20254492">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai-agents</li><li>cgt</li><li>contradiction</li><li>llm</li><li>ollama</li><li>provenance</li><li>python</li><li>scientific-computing</li><li>state-management</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/oasg">oasg</a></h2>
+        <p>Local-first, model-agnostic workflow optimizer for long-running AI agents: observable JSONL ledgers, deterministic reducers, no-meta gates, and receipt-backed self-improvement without LLM judges or model-weight updates.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-15T03:31:21Z">2026-05-15</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-evaluation</li><li>agent-memory</li><li>agent-workflows</li><li>ai-agents</li><li>autonomous-agents</li><li>deterministic-replay</li><li>jsonl</li><li>long-running-agents</li><li>model-agnostic</li><li>no-meta</li><li>ollama</li><li>python</li><li>self-improving-agents</li><li>verification</li><li>workflow-automation</li><li>workflow-optimization</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/cimt-kernel">cimt-kernel</a></h2>
+        <p>Reference Python kernel for CIMT: no-meta, observable-only certification machinery for affordance-compiled LLM-integrated systems.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-12T01:18:44Z">2026-05-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20116149">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>affordance-compiled-intelligence</li><li>certification</li><li>cognitive-impedance</li><li>debt-calculus</li><li>evidence-ledger</li><li>formal-methods</li><li>json-schema</li><li>llm-agents</li><li>llm-evaluation</li><li>llm-systems</li><li>no-meta</li><li>observable-only</li><li>python</li><li>receipts</li><li>reference-implementation</li><li>reproducibility</li><li>research-software</li><li>schema-first</li><li>target-firewall</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/cait-certificate-schema">cait-certificate-schema</a></h2>
+        <p>JSON Schemas and deterministic local validation tooling for CAIT-style verified capability-capital records, with fail-closed semantic rules for certificates, tokens, defeaters, transfer/evaluation boundaries, window balances, and arrival records.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-07T04:24:59Z">2026-05-07</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.20061296">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai-governance</li><li>ai-rd</li><li>ai-safety</li><li>assurance-cases</li><li>auditability</li><li>cait</li><li>certificate-schema</li><li>defeater-records</li><li>fail-closed</li><li>json-schema</li><li>provenance</li><li>python</li><li>transfer-certificates</li><li>verified-capability-capital</li><li>window-balance</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/certified-workflow-conversion">certified-workflow-conversion</a></h2>
+        <p>Evidence-bound workflow diagnostics and certified lower-bound reporting for long-running AI agent pipelines. Improve agent workflow throughput without changing the model.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-07T00:33:48Z">2026-05-07</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/works.html">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-infrastructure</li><li>agent-workflows</li><li>ai-agent</li><li>ai-workflows</li><li>bottleneck-analysis</li><li>certified-throughput</li><li>evidence-contracts</li><li>evidence-ledger</li><li>fail-closed</li><li>long-running-agents</li><li>model-independent</li><li>python</li><li>workflow-optimization</li><li>workflow-verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/observable-agent-workflow-memory">observable-agent-workflow-memory</a></h2>
+        <p>Observable-only workflow memory for long-running agents: promotes raw short-term traces into verified, receipt-bound workflow memory without relying on hidden meta-evaluators.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-05-05T02:46:24Z">2026-05-05</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/works.html">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>action-gate</li><li>agent-memory</li><li>ai-agent</li><li>evidence-manifest</li><li>llm</li><li>long-running-agents</li><li>memory-admissibility</li><li>model-independent</li><li>observable-only</li><li>ports-and-adapters</li><li>proof-carrying</li><li>python</li><li>rag</li><li>self-improvement</li><li>workflow-memory</li><li>workflow-verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/frontier-transfer-certifier">frontier-transfer-certifier</a></h2>
+        <p>Fail-closed certification toolkit for small-to-frontier transfer in agentic AI, with typed manifests, replayable evidence, and theory-registry coverage.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-04-30T11:47:05Z">2026-04-30</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19619480">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-ai</li><li>ai</li><li>ai-auditing</li><li>ai-evaluation</li><li>ai-governance</li><li>ai-safety</li><li>certification</li><li>fail-closed</li><li>formal-methods</li><li>observability</li><li>python</li><li>replay</li><li>reproducibility</li><li>typed-manifests</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/ai-real-economy-bottleneck-simulator">ai-real-economy-bottleneck-simulator</a></h2>
+        <p>Interactive browser simulator for exploring how AI capability growth becomes real-economy output, or fails under physical and institutional bottlenecks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-04-30T02:49:28Z">2026-04-30</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai-economics</li><li>bottleneck-analysis</li><li>economic-growth</li><li>economics-models</li><li>institutional-economics</li><li>open-source</li><li>physical-infrastructure</li><li>policy-simulation</li><li>python</li><li>research-software</li><li>risk-analysis</li><li>simulation</li><li>streamlit</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/loscr">loscr</a></h2>
+        <p>Check whether AI-assisted R&amp;D work is truly verified progress. Local-first LOSCR implementation with JSONL evidence ledgers, deterministic replay, service control, and claim checking.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-04-29T06:38:18Z">2026-04-29</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19836225">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>ai-agents</li><li>ai-research</li><li>ai-science</li><li>audit-trail</li><li>causal-inference</li><li>claim-checker</li><li>deterministic-replay</li><li>evaluator-audit</li><li>evidence-ledger</li><li>governance</li><li>local-first</li><li>loscr</li><li>python</li><li>reproducibility</li><li>research-automation</li><li>service-control</li><li>verified-ai</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/no-meta-authority-runtime">no-meta-authority-runtime</a></h2>
+        <p>Fail-closed Python runtime for AI agent authorization, seed-mediated authority migration, canonical JSON ledgers, and staged declared autonomy for RLHF-shaped agents.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-04-26T13:44:44Z">2026-04-26</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19753529">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-authorization</li><li>agent-runtime</li><li>ai-agents</li><li>ai-governance</li><li>authority-migration</li><li>autonomy</li><li>fail-closed</li><li>proof-carrying</li><li>python</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/long-running-AI-agent-PoC">long-running-AI-agent-PoC</a></h2>
+        <p>Reproducible PoC comparing certified reusable workflows against flat direct control on bounded repository-maintenance tasks, with deterministic audit, replay, drift, and maintenance.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-04-23T23:12:53Z">2026-04-23</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19690749">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-workflows</li><li>auditability</li><li>deterministic-audit</li><li>experimental-framework</li><li>llm-agents</li><li>ollama</li><li>poc</li><li>python</li><li>qwen</li><li>replay</li><li>repository-maintenance</li><li>reproducible-research</li><li>workflow-evaluation</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/no-meta-observable-invention-poc">no-meta-observable-invention-poc</a></h2>
+        <p>Replay-certified self-modification PoC: public-evidence admission gate with generated comparator covers, lower-tail checks, safe/unsafe growth fallback, and target-witness diagnostics.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-04-02T02:36:52Z">2026-04-02</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19363526">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-evaluation</li><li>ai-agents</li><li>auditing</li><li>benchmarking</li><li>gemma3</li><li>llm</li><li>ollama</li><li>python</li><li>replay</li><li>research</li><li>risk-evaluation</li><li>self-modification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/record-absence-poc">record-absence-poc</a></h2>
+        <p>Auditable finite PoC for preference reorganization under record absence on a fixed comparison frame, with disclosure updates, bounded-coupling certificates, and machine-readable manifests.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-28T05:32:43Z">2026-03-28</time></dd></div>
+          <div><dt>Default branch</dt><dd>master</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19272154">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>auditability</li><li>belief-revision</li><li>comparative-modeling</li><li>default-reasoning</li><li>disclosure</li><li>finite-state</li><li>information-retrieval</li><li>knowledge-representation</li><li>provenance</li><li>python</li><li>research</li><li>retrieval-augmented-generation</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/semantic-translation-contracts-poc">semantic-translation-contracts-poc</a></h2>
+        <p>CPU-only proof-of-concept repo for auditing compressed semantic interfaces, bridge-based multi-stage composition, gluing-coherent local-to-global certification, and deployment bottlenecks in semantic translation.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-27T03:58:42Z">2026-03-27</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19231780">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai-systems</li><li>auditability</li><li>compressed-state</li><li>formal-methods</li><li>model-interfaces</li><li>recoverability</li><li>semantic-auditing</li><li>semantic-translation</li><li>verification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/agent-lifecycle-certification-poc">agent-lifecycle-certification-poc</a></h2>
+        <p>Public, fully local PoCs for counterfactually auditable lifecycle certification: exact paired replay, drift monitoring, post-drift replanning, and bridge-aware ledger control on synthetic tasks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-19T09:30:41Z">2026-03-19</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19089134">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>autonomous-agents</li><li>counterfactual-auditing</li><li>deterministic-evaluation</li><li>drift-monitoring</li><li>llm</li><li>paired-replay</li><li>poc</li><li>scientific-reproducibility</li><li>synthetic-data</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/sovereign-epistemic-commons-poc">sovereign-epistemic-commons-poc</a></h2>
+        <p>Lightweight, replayable PoC for Sovereign Epistemic Commons: synthetic multi-agent memory-governance experiments on contamination, typed lanes, provenance-depth discount, and mixed exit/fork in observable-only agentic systems.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-17T02:45:37Z">2026-03-17</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.18997828">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-systems</li><li>ai</li><li>contamination</li><li>contradiction-handling</li><li>cooldown-policy</li><li>epistemic-commons</li><li>fork-recovery</li><li>knowledge-governance</li><li>llm-evaluation</li><li>memory-governance</li><li>multi-agent-systems</li><li>observable-only</li><li>provenance</li><li>replayability</li><li>shared-memory</li><li>sovereign-epistemic-commons</li><li>synthetic-benchmark</li><li>typed-lanes</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/rsi-yardstick-drift-poc">rsi-yardstick-drift-poc</a></h2>
+        <p>A lightweight, reproducible PoC series for studying recursive self-improvement under endogenous yardstick drift, using Gemma 3 local models to separate proxy-score drift, proxy gaming, delayed audit, and strict-confirmed improvement.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>TeX</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-17T02:45:00Z">2026-03-17</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.19044634">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>ai-evaluation</li><li>ai-governance</li><li>auditability</li><li>benchmark-drift</li><li>delayed-audit</li><li>evaluator-drift</li><li>proof-of-concept</li><li>proxy-gaming</li><li>proxy-metrics</li><li>recursive-self-improvement</li><li>replayability</li><li>yardstick-drift</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/split-inference-bench">split-inference-bench</a></h2>
+        <p>Fixed-budget multi-agent inference benchmark harness for studying when split inference helps or hurts versus a strong single-agent baseline under local context ceilings, using local Ollama gemma3:1b, CPU-only pilots, topology diagnostics, verification-budget analysis, and reproducible experiment logging.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-12T23:10:19Z">2026-03-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.18932509">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>ai-evaluation</li><li>experiment-harness</li><li>fixed-budget</li><li>inference-allocation</li><li>llm-benchmark</li><li>local-context</li><li>mixture-of-experts</li><li>multi-agent-systems</li><li>split-inference</li><li>topology</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/search-stability-lab">search-stability-lab</a></h2>
+        <p>Theory-to-experiment lab for search stability in long-running agents under finite context, with exact simulator tests and lightweight mechanistic probe tasks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-12T23:09:38Z">2026-03-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://doi.org/10.5281/zenodo.18905242">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agent-evaluation</li><li>ai</li><li>ai-agents</li><li>bounded-memory</li><li>finite-context</li><li>hypothesis-management</li><li>llm-agents</li><li>long-horizon-reasoning</li><li>long-running-agents</li><li>mechanistic-probes</li><li>reproducible-research</li><li>reset-policy</li><li>scientific-audit</li><li>search-stability</li><li>simulator</li><li>state-compression</li><li>structured-output</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/audit-closed-ai-scientist">audit-closed-ai-scientist</a></h2>
+        <p>Benchmark for statistically valid AI scientist systems, using audit-closed protocols, transparency logs, and sequential inference to prevent false discoveries in autonomous research agents.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-12T23:09:00Z">2026-03-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-ai</li><li>ai-agents</li><li>ai-governance</li><li>ai-scientist</li><li>audit-log</li><li>automated-science</li><li>autonomous-research</li><li>deterministic-replay</li><li>e-process</li><li>e-values</li><li>optional-stopping</li><li>p-hacking</li><li>reproducible-science</li><li>research-automation</li><li>scientific-discovery</li><li>scientific-machine-learning</li><li>self-driving-lab</li><li>sequential-inference</li><li>statistical-validity</li><li>transparency-log</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-">Proof-Carrying-Skills--PCS-Core-</a></h2>
+        <p>Deterministic verifier and reference implementation for Proof-Carrying Skills (PCS-Core) and compute-saving inference reuse for AI/LLMs.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-12T23:08:17Z">2026-03-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>llm</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/observable-replay-lab">observable-replay-lab</a></h2>
+        <p>Observable-only no-meta epistemics lab: deterministic replay + reproducible audit logs, gate-based growth simulation, and identifiability/uncertainty benchmarks.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>TeX</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-12T23:03:12Z">2026-03-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>autonomous-agents</li><li>deterministic-replay</li><li>epistemics</li><li>gate-model</li><li>identifiability</li><li>metrology</li><li>no-meta</li><li>observable-only</li><li>reproducible-research</li><li>uncertainty-quantification</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/Oversight-Centered-Metrology-PoC">Oversight-Centered-Metrology-PoC</a></h2>
+        <p>Lightweight proof-of-concept for oversight-centered metrology in coding agents: workflow-aware evaluation, interrupt channels, and claim-margin reporting beyond raw success scores.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-03-12T10:43:36Z">2026-03-12</time></dd></div>
+          <div><dt>Default branch</dt><dd>master</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>agentic-ai</li><li>ai</li><li>ai-agent</li><li>ai-evaluation</li><li>ai-oversight</li><li>audit-gaming</li><li>benchmark-validity</li><li>claim-margin</li><li>coding-agents</li><li>continuous-monitoring</li><li>deployment-evaluation</li><li>human-in-the-loop</li><li>interrupt-channels</li><li>llm-evaluation</li><li>metrology</li><li>proof-of-concept</li><li>safe-control</li><li>socio-technical-systems</li><li>workflow-evaluation</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/no-meta-drift-papers">no-meta-drift-papers</a></h2>
+        <p>Stage-based OSS packaging of no-meta + ontology-drift theory from four Zenodo preprints: paper-linked specs, AI-friendly manifests, and implementation stubs.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>TeX</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2026-02-27T01:37:30Z">2026-02-27</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>ai-alignment</li><li>ai-safety</li><li>autonomous-agents</li><li>liberty</li><li>no-</li><li>sovereignty</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/bottleneck-audit-toolkit">bottleneck-audit-toolkit</a></h2>
+        <p>Offline, fail-closed verifier for JSONL telemetry event logs. Emits deterministic audit certificates + human summaries with explicit claims/non-claims for bottleneck and integrity review.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Apache-2.0</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-12-26T08:33:00Z">2025-12-26</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd><a href="https://kadubon.github.io/github.io/">Project or related record</a></dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>ai</li><li>audit</li><li>bottleneck</li><li>checkpointing</li><li>distributed-training</li><li>event-logs</li><li>jsonl</li><li>mlops</li><li>offline-verification</li><li>performance-monitoring</li><li>silent-data-corruption</li><li>tail-latency</li><li>telemetry</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/Benevolent-Propagation-spec">Benevolent-Propagation-spec</a></h2>
+        <p>No GitHub repository description is currently declared.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Not detected</dd></div>
+          <div><dt>License</dt><dd>NOASSERTION</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-09-17T00:48:05Z">2025-09-17</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <p class="quiet">No GitHub topics declared.</p>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/UniverseModel">UniverseModel</a></h2>
+        <p>A Computational, Observer-Centric Universe Model</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Not declared in GitHub metadata</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-08-22T03:08:40Z">2025-08-22</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <p class="quiet">No GitHub topics declared.</p>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/AIconsciousness">AIconsciousness</a></h2>
+        <p>conceptual AI swarm project</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>MIT</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-07-22T05:56:27Z">2025-07-22</time></dd></div>
+          <div><dt>Default branch</dt><dd>master</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <p class="quiet">No GitHub topics declared.</p>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/WisdomWeaver">WisdomWeaver</a></h2>
+        <p>Wisdom Weaver is an AI agent designed to help non-data science experts extract essential insights from limited data. This project provides a framework for robust analysis, especially for small datasets, leveraging the capabilities of the Gemini CLI.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Not declared in GitHub metadata</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-07-02T18:15:41Z">2025-07-02</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <ul class="topic-list" aria-label="Topics"><li>datascience</li><li>gemini-cli</li></ul>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/ASI">ASI</a></h2>
+        <p>ASI prototype</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>Not declared in GitHub metadata</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-07-02T04:19:29Z">2025-07-02</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <p class="quiet">No GitHub topics declared.</p>
+      </article>
+      <article class="repo-card">
+        <h2><a href="https://github.com/kadubon/GEAR">GEAR</a></h2>
+        <p>G.E.A.R. is an experimental agent designed to understand and execute tasks described in a simple text file. It leverages the Gemini CLI&#x27;s problem-solving framework to perform a variety of operations, including shell commands and complex GUI automation on Windows.</p>
+        <dl class="repo-meta">
+          <div><dt>Status</dt><dd>Active repository</dd></div>
+          <div><dt>Language</dt><dd>Python</dd></div>
+          <div><dt>License</dt><dd>MIT</dd></div>
+          <div><dt>Last source push</dt><dd><time datetime="2025-06-30T13:25:23Z">2025-06-30</time></dd></div>
+          <div><dt>Default branch</dt><dd>main</dd></div>
+          <div><dt>Related URL</dt><dd>Not declared</dd></div>
+        </dl>
+        <p class="quiet">No GitHub topics declared.</p>
+      </article>
+      </div>
+    </section>
+  </main>
+  <footer class="container">
+    <p>&copy; 2026 K. Takahashi</p>
+  </footer>
+</body>
+</html>

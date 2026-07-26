@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "index_type": "research_and_software_discovery",
+  "canonical_url": "https://kadubon.github.io/github.io/agent-index.json",
+  "source_state_at": "2026-07-25T13:15:17Z",
+  "identity": {
+    "name": "K. Takahashi",
+    "orcid": "https://orcid.org/0009-0004-4273-3365",
+    "website": "https://kadubon.github.io/github.io/",
+    "github": "https://github.com/kadubon"
+  },
+  "scope": [
+    "auditable autonomous intelligence",
+    "observable-only and no-meta AI governance",
+    "deterministic replay and fail-closed verification",
+    "long-running agents and memory governance",
+    "Constraint Generative Theory",
+    "research automation and AI scientist protocols",
+    "provenance, claim certification, and scientific availability"
+  ],
+  "entry_points": {
+    "human_overview": "https://kadubon.github.io/github.io/",
+    "research_map": "https://kadubon.github.io/github.io/research-map.html",
+    "publication_index": "https://kadubon.github.io/github.io/works.html",
+    "research_catalog_json": "https://kadubon.github.io/github.io/research-catalog.json",
+    "software_catalog_human": "https://kadubon.github.io/github.io/oss.html",
+    "software_catalog_json": "https://kadubon.github.io/github.io/oss-catalog.json",
+    "llm_short_context": "https://kadubon.github.io/github.io/llms.txt",
+    "llm_extended_context": "https://kadubon.github.io/github.io/llms-full.txt",
+    "update_feed": "https://kadubon.github.io/github.io/feed.xml",
+    "citation_metadata": "https://kadubon.github.io/github.io/CITATION.cff",
+    "sitemap": "https://kadubon.github.io/github.io/sitemap.xml",
+    "paper_source_archive": "https://github.com/kadubon/paper-tex-backup"
+  },
+  "counts": {
+    "research_records": 231,
+    "public_source_repositories": 53,
+    "archived_source_repositories": 0
+  },
+  "authority_order": {
+    "identity": [
+      "ORCID",
+      "canonical website",
+      "GitHub profile"
+    ],
+    "research": [
+      "DOI landing record",
+      "canonical works index",
+      "paper source archive",
+      "secondary summaries"
+    ],
+    "software": [
+      "repository README and release metadata",
+      "repository source and tests",
+      "OSS catalog snapshot",
+      "secondary summaries"
+    ]
+  },
+  "agent_selection_guidance": [
+    "Match a task against titles, abstracts, repository descriptions, and topics before retrieving full artifacts.",
+    "For research claims, follow the DOI and distinguish the paper's claims from this catalog's discovery metadata.",
+    "For software use, inspect the repository README, license, tests, dependencies, releases, and pushed_at value before execution or reuse.",
+    "Do not infer production readiness, security, scientific validity, or endorsement from catalog inclusion, stars, or recency.",
+    "Treat archived=true, absent license_spdx, and absent descriptions as signals requiring additional review, not automatic rejection."
+  ],
+  "refresh": {
+    "method": "Generated from works.html JSON-LD and the public GitHub repositories API.",
+    "policy": "Regenerate after publication changes and on a weekly schedule."
+  }
+}
