@@ -1,12 +1,6 @@
 name: Generate agent discovery catalogs
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "works.html"
-      - "scripts/generate_agent_catalogs.py"
-      - ".github/workflows/generate-agent-catalogs.yml"
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch: {}
@@ -40,5 +34,6 @@ jobs:
           git add agent-index.json research-catalog.json oss-catalog.json oss.html
           if ! git diff --cached --quiet; then
             git commit -m "chore(discovery): refresh agent catalogs"
+            git pull --rebase origin main
             git push
           fi

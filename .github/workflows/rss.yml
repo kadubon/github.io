@@ -1,11 +1,13 @@
-name: Generate RSS feed.xml
+name: Generate RSS feed and agent catalogs
 
 on:
   push:
-    branches: [ main ]      # ← ブランチ名が master なら合わせる
+    branches: [main]
     paths:
       - "works.html"
       - "scripts/generate_feed.py"
+      - "scripts/generate_agent_catalogs.py"
+      - ".github/workflows/rss.yml"
   workflow_dispatch: {}
 
 permissions:
@@ -35,13 +37,20 @@ jobs:
           ls -l
           echo "==== head feed.xml ===="
           head -n 30 feed.xml || true
-      - name: Commit & push
+
+      - name: Generate agent catalogs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/generate_agent_catalogs.py
+
+      - name: Commit and push derived files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f feed.xml
+          git add -f feed.xml agent-index.json research-catalog.json oss-catalog.json oss.html
           if [[ -n "$(git diff --cached --name-only)" ]]; then
-            git commit -m "chore(rss): auto-generate feed.xml"
+            git commit -m "chore(discovery): refresh feed and agent catalogs"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit."
