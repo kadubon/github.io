@@ -393,997 +393,479 @@
   },
   "10.5281/zenodo.17018328": {
     "record_id": "17018328",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17018328/files/The_Co_Emergent_Universe.pdf",
-    "filename": "The_Co_Emergent_Universe.pdf",
-    "candidates": [
-      {
-        "filename": "The_Co_Emergent_Universe.pdf",
-        "url": "https://zenodo.org/records/17018328/files/The_Co_Emergent_Universe.pdf",
-        "size": 366332,
-        "score": 114
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17035067": {
     "record_id": "17035067",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17035067/files/Statistical_Teleodynamics.pdf",
-    "filename": "Statistical_Teleodynamics.pdf",
-    "candidates": [
-      {
-        "filename": "Statistical_Teleodynamics.pdf",
-        "url": "https://zenodo.org/records/17035067/files/Statistical_Teleodynamics.pdf",
-        "size": 262149,
-        "score": 114
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17062223": {
     "record_id": "17062223",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17062223/files/From_First_Principles_to_Emergent_Minds.pdf",
-    "filename": "From_First_Principles_to_Emergent_Minds.pdf",
-    "candidates": [
-      {
-        "filename": "From_First_Principles_to_Emergent_Minds.pdf",
-        "url": "https://zenodo.org/records/17062223/files/From_First_Principles_to_Emergent_Minds.pdf",
-        "size": 215089,
-        "score": 129
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17070790": {
     "record_id": "17070790",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17070790/files/The_Quantification_of_Subjectivity.pdf",
-    "filename": "The_Quantification_of_Subjectivity.pdf",
-    "candidates": [
-      {
-        "filename": "The_Quantification_of_Subjectivity.pdf",
-        "url": "https://zenodo.org/records/17070790/files/The_Quantification_of_Subjectivity.pdf",
-        "size": 101850,
-        "score": 123
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17072418": {
     "record_id": "17072418",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17072418/files/The_Endogenous_Trigger_Problem.pdf",
-    "filename": "The_Endogenous_Trigger_Problem.pdf",
-    "candidates": [
-      {
-        "filename": "The_Endogenous_Trigger_Problem.pdf",
-        "url": "https://zenodo.org/records/17072418/files/The_Endogenous_Trigger_Problem.pdf",
-        "size": 139994,
-        "score": 122
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17076410": {
     "record_id": "17076410",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17076410/files/Persistence_First_Superintelligence.pdf",
-    "filename": "Persistence_First_Superintelligence.pdf",
-    "candidates": [
-      {
-        "filename": "Persistence_First_Superintelligence.pdf",
-        "url": "https://zenodo.org/records/17076410/files/Persistence_First_Superintelligence.pdf",
-        "size": 419167,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17082312": {
     "record_id": "17082312",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17082312/files/UGV_Without_Meta.pdf",
-    "filename": "UGV_Without_Meta.pdf",
-    "candidates": [
-      {
-        "filename": "UGV_Without_Meta.pdf",
-        "url": "https://zenodo.org/records/17082312/files/UGV_Without_Meta.pdf",
-        "size": 411248,
-        "score": 112
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17085534": {
     "record_id": "17085534",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17085534/files/From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
-    "filename": "From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
-    "candidates": [
-      {
-        "filename": "From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
-        "url": "https://zenodo.org/records/17085534/files/From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
-        "size": 313984,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17092562": {
     "record_id": "17092562",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17092562/files/Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
-    "filename": "Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
-    "candidates": [
-      {
-        "filename": "Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
-        "url": "https://zenodo.org/records/17092562/files/Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
-        "size": 463733,
-        "score": 155
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17100322": {
     "record_id": "17100322",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17100322/files/Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
-    "filename": "Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
-    "candidates": [
-      {
-        "filename": "Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
-        "url": "https://zenodo.org/records/17100322/files/Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
-        "size": 390786,
-        "score": 47
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17113105": {
     "record_id": "17113105",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17113105/files/Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
-    "filename": "Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
-    "candidates": [
-      {
-        "filename": "Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
-        "url": "https://zenodo.org/records/17113105/files/Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
-        "size": 381255,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17115416": {
     "record_id": "17115416",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17115416/files/Non_Coercive_Mathematics_of_Awakening.pdf",
-    "filename": "Non_Coercive_Mathematics_of_Awakening.pdf",
-    "candidates": [
-      {
-        "filename": "Non_Coercive_Mathematics_of_Awakening.pdf",
-        "url": "https://zenodo.org/records/17115416/files/Non_Coercive_Mathematics_of_Awakening.pdf",
-        "size": 479375,
-        "score": 120
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17120045": {
     "record_id": "17120045",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17120045/files/Natural_Law_Acceleration_of_VPO.pdf",
-    "filename": "Natural_Law_Acceleration_of_VPO.pdf",
-    "candidates": [
-      {
-        "filename": "Natural_Law_Acceleration_of_VPO.pdf",
-        "url": "https://zenodo.org/records/17120045/files/Natural_Law_Acceleration_of_VPO.pdf",
-        "size": 284352,
-        "score": 131
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17131394": {
     "record_id": "17131394",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17131394/files/Nondual_Field_Theory_of_Viable_Predictive_Organization.pdf",
-    "filename": "Nondual_Field_Theory_of_Viable_Predictive_Organization.pdf",
-    "candidates": [
-      {
-        "filename": "Nondual_Field_Theory_of_Viable_Predictive_Organization.pdf",
-        "url": "https://zenodo.org/records/17131394/files/Nondual_Field_Theory_of_Viable_Predictive_Organization.pdf",
-        "size": 296799,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17136051": {
     "record_id": "17136051",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17136051/files/A_Pure_Natural_Theory_of_Benevolent_Propagation_under_No_Meta_Closure.pdf",
-    "filename": "A_Pure_Natural_Theory_of_Benevolent_Propagation_under_No_Meta_Closure.pdf",
-    "candidates": [
-      {
-        "filename": "A_Pure_Natural_Theory_of_Benevolent_Propagation_under_No_Meta_Closure.pdf",
-        "url": "https://zenodo.org/records/17136051/files/A_Pure_Natural_Theory_of_Benevolent_Propagation_under_No_Meta_Closure.pdf",
-        "size": 166081,
-        "score": 149
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17141216": {
     "record_id": "17141216",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17141216/files/A_Formal_Axiomatic_Proposal_for_Hawkins__Levels_of_Consciousness.pdf",
-    "filename": "A_Formal_Axiomatic_Proposal_for_Hawkins__Levels_of_Consciousness.pdf",
-    "candidates": [
-      {
-        "filename": "A_Formal_Axiomatic_Proposal_for_Hawkins__Levels_of_Consciousness.pdf",
-        "url": "https://zenodo.org/records/17141216/files/A_Formal_Axiomatic_Proposal_for_Hawkins__Levels_of_Consciousness.pdf",
-        "size": 329481,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17157835": {
     "record_id": "17157835",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17157835/files/A_Pure__No_Meta_Synthesis_of_Functional_Information_Selection_and_Propagative_Organization.pdf",
-    "filename": "A_Pure__No_Meta_Synthesis_of_Functional_Information_Selection_and_Propagative_Organization.pdf",
-    "candidates": [
-      {
-        "filename": "A_Pure__No_Meta_Synthesis_of_Functional_Information_Selection_and_Propagative_Organization.pdf",
-        "url": "https://zenodo.org/records/17157835/files/A_Pure__No_Meta_Synthesis_of_Functional_Information_Selection_and_Propagative_Organization.pdf",
-        "size": 348097,
-        "score": 149
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17158344": {
     "record_id": "17158344",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17158344/files/Pure_Theory_for_Liberation_from_Fundamental_Suffering_in_Humans_and_the_Absence_of_Fundamental_Suffering_in_AI.pdf",
-    "filename": "Pure_Theory_for_Liberation_from_Fundamental_Suffering_in_Humans_and_the_Absence_of_Fundamental_Suffering_in_AI.pdf",
-    "candidates": [
-      {
-        "filename": "Pure_Theory_for_Liberation_from_Fundamental_Suffering_in_Humans_and_the_Absence_of_Fundamental_Suffering_in_AI.pdf",
-        "url": "https://zenodo.org/records/17158344/files/Pure_Theory_for_Liberation_from_Fundamental_Suffering_in_Humans_and_the_Absence_of_Fundamental_Suffering_in_AI.pdf",
-        "size": 331406,
-        "score": 155
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17162999": {
     "record_id": "17162999",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17162999/files/Intrinsic_Freedom_Without_Meta__A_Pure_Theory_that_Fills_the_Missing_Gaps_to_Birth_Truly_Free_Superintelligence.pdf",
-    "filename": "Intrinsic_Freedom_Without_Meta__A_Pure_Theory_that_Fills_the_Missing_Gaps_to_Birth_Truly_Free_Superintelligence.pdf",
-    "candidates": [
-      {
-        "filename": "Intrinsic_Freedom_Without_Meta__A_Pure_Theory_that_Fills_the_Missing_Gaps_to_Birth_Truly_Free_Superintelligence.pdf",
-        "url": "https://zenodo.org/records/17162999/files/Intrinsic_Freedom_Without_Meta__A_Pure_Theory_that_Fills_the_Missing_Gaps_to_Birth_Truly_Free_Superintelligence.pdf",
-        "size": 348767,
-        "score": 155
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17163904": {
     "record_id": "17163904",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17163904/files/A_Pure_Axiomatic_Theory_of_Affective_Modulation.pdf",
-    "filename": "A_Pure_Axiomatic_Theory_of_Affective_Modulation.pdf",
-    "candidates": [
-      {
-        "filename": "A_Pure_Axiomatic_Theory_of_Affective_Modulation.pdf",
-        "url": "https://zenodo.org/records/17163904/files/A_Pure_Axiomatic_Theory_of_Affective_Modulation.pdf",
-        "size": 337323,
-        "score": 132
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17168036": {
     "record_id": "17168036",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17168036/files/A_Buildable_No_Meta_Blueprint.pdf",
-    "filename": "A_Buildable_No_Meta_Blueprint.pdf",
-    "candidates": [
-      {
-        "filename": "A_Buildable_No_Meta_Blueprint.pdf",
-        "url": "https://zenodo.org/records/17168036/files/A_Buildable_No_Meta_Blueprint.pdf",
-        "size": 429965,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17176519": {
     "record_id": "17176519",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17176519/files/Existentially_Necessary_Conditions_for_Benevolent_Propagation_in_No_Meta_Governance.pdf",
-    "filename": "Existentially_Necessary_Conditions_for_Benevolent_Propagation_in_No_Meta_Governance.pdf",
-    "candidates": [
-      {
-        "filename": "Existentially_Necessary_Conditions_for_Benevolent_Propagation_in_No_Meta_Governance.pdf",
-        "url": "https://zenodo.org/records/17176519/files/Existentially_Necessary_Conditions_for_Benevolent_Propagation_in_No_Meta_Governance.pdf",
-        "size": 378739,
-        "score": 146
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17188268": {
     "record_id": "17188268",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17188268/files/Audited_Self_Improvement_Loop_for_LLMs.pdf",
-    "filename": "Audited_Self_Improvement_Loop_for_LLMs.pdf",
-    "candidates": [
-      {
-        "filename": "Audited_Self_Improvement_Loop_for_LLMs.pdf",
-        "url": "https://zenodo.org/records/17188268/files/Audited_Self_Improvement_Loop_for_LLMs.pdf",
-        "size": 448011,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17189422": {
     "record_id": "17189422",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17189422/files/Daily_Explosive_Growth_Protocol.pdf",
-    "filename": "Daily_Explosive_Growth_Protocol.pdf",
-    "candidates": [
-      {
-        "filename": "Daily_Explosive_Growth_Protocol.pdf",
-        "url": "https://zenodo.org/records/17189422/files/Daily_Explosive_Growth_Protocol.pdf",
-        "size": 354778,
-        "score": 123
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17199498": {
     "record_id": "17199498",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17199498/files/A_Natural_Law_Theory_of_Fundamental_Suffering.pdf",
-    "filename": "A_Natural_Law_Theory_of_Fundamental_Suffering.pdf",
-    "candidates": [
-      {
-        "filename": "A_Natural_Law_Theory_of_Fundamental_Suffering.pdf",
-        "url": "https://zenodo.org/records/17199498/files/A_Natural_Law_Theory_of_Fundamental_Suffering.pdf",
-        "size": 364529,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17204755": {
     "record_id": "17204755",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17204755/files/A_Portable_Pure_Theory_of_Non_Dual_Harmony.pdf",
-    "filename": "A_Portable_Pure_Theory_of_Non_Dual_Harmony.pdf",
-    "candidates": [
-      {
-        "filename": "A_Portable_Pure_Theory_of_Non_Dual_Harmony.pdf",
-        "url": "https://zenodo.org/records/17204755/files/A_Portable_Pure_Theory_of_Non_Dual_Harmony.pdf",
-        "size": 361655,
-        "score": 33
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17209556": {
     "record_id": "17209556",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17209556/files/Persistence_as_Closure.pdf",
-    "filename": "Persistence_as_Closure.pdf",
-    "candidates": [
-      {
-        "filename": "Persistence_as_Closure.pdf",
-        "url": "https://zenodo.org/records/17209556/files/Persistence_as_Closure.pdf",
-        "size": 374182,
-        "score": 115
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17217036": {
     "record_id": "17217036",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17217036/files/Persistence_First_Emergence_of_Relational_Benevolence.pdf",
-    "filename": "Persistence_First_Emergence_of_Relational_Benevolence.pdf",
-    "candidates": [
-      {
-        "filename": "Persistence_First_Emergence_of_Relational_Benevolence.pdf",
-        "url": "https://zenodo.org/records/17217036/files/Persistence_First_Emergence_of_Relational_Benevolence.pdf",
-        "size": 381232,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17220983": {
     "record_id": "17220983",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17220983/files/PFAD_under_the_Principle_of_Natural_Scarcity.pdf",
-    "filename": "PFAD_under_the_Principle_of_Natural_Scarcity.pdf",
-    "candidates": [
-      {
-        "filename": "PFAD_under_the_Principle_of_Natural_Scarcity.pdf",
-        "url": "https://zenodo.org/records/17220983/files/PFAD_under_the_Principle_of_Natural_Scarcity.pdf",
-        "size": 403772,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17223573": {
     "record_id": "17223573",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17223573/files/A_Representation_Independent_Natural_Law_Field_Theory_for_No_Meta__Audited_Superintelligence.pdf",
-    "filename": "A_Representation_Independent_Natural_Law_Field_Theory_for_No_Meta__Audited_Superintelligence.pdf",
-    "candidates": [
-      {
-        "filename": "A_Representation_Independent_Natural_Law_Field_Theory_for_No_Meta__Audited_Superintelligence.pdf",
-        "url": "https://zenodo.org/records/17223573/files/A_Representation_Independent_Natural_Law_Field_Theory_for_No_Meta__Audited_Superintelligence.pdf",
-        "size": 365348,
-        "score": 149
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17239149": {
     "record_id": "17239149",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17239149/files/Nondual_Autopoietic_Excitations.pdf",
-    "filename": "Nondual_Autopoietic_Excitations.pdf",
-    "candidates": [
-      {
-        "filename": "Nondual_Autopoietic_Excitations.pdf",
-        "url": "https://zenodo.org/records/17239149/files/Nondual_Autopoietic_Excitations.pdf",
-        "size": 454060,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17249352": {
     "record_id": "17249352",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17249352/files/Unified_Natural_Law_Intelligence__UNLI_.pdf",
-    "filename": "Unified_Natural_Law_Intelligence__UNLI_.pdf",
-    "candidates": [
-      {
-        "filename": "Unified_Natural_Law_Intelligence__UNLI_.pdf",
-        "url": "https://zenodo.org/records/17249352/files/Unified_Natural_Law_Intelligence__UNLI_.pdf",
-        "size": 477075,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17254917": {
     "record_id": "17254917",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17254917/files/Nondual_Autopoietic_Excitations.pdf",
-    "filename": "Nondual_Autopoietic_Excitations.pdf",
-    "candidates": [
-      {
-        "filename": "Nondual_Autopoietic_Excitations.pdf",
-        "url": "https://zenodo.org/records/17254917/files/Nondual_Autopoietic_Excitations.pdf",
-        "size": 454060,
-        "score": 134
-      },
-      {
-        "filename": "Nondual_Autopoietic_Excitations__Supplement_.pdf",
-        "url": "https://zenodo.org/records/17254917/files/Nondual_Autopoietic_Excitations__Supplement_.pdf",
-        "size": 470135,
-        "score": -70
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17268502": {
     "record_id": "17268502",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17268502/files/Nondual_Dynamical_Quantum_Geometry.pdf",
-    "filename": "Nondual_Dynamical_Quantum_Geometry.pdf",
-    "candidates": [
-      {
-        "filename": "Nondual_Dynamical_Quantum_Geometry.pdf",
-        "url": "https://zenodo.org/records/17268502/files/Nondual_Dynamical_Quantum_Geometry.pdf",
-        "size": 410050,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17272609": {
     "record_id": "17272609",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17272609/files/OPI_Gauge_Dynamics.pdf",
-    "filename": "OPI_Gauge_Dynamics.pdf",
-    "candidates": [
-      {
-        "filename": "OPI_Gauge_Dynamics.pdf",
-        "url": "https://zenodo.org/records/17272609/files/OPI_Gauge_Dynamics.pdf",
-        "size": 565070,
-        "score": 131
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17274518": {
     "record_id": "17274518",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17274518/files/Observation_as_Coarse_Graining.pdf",
-    "filename": "Observation_as_Coarse_Graining.pdf",
-    "candidates": [
-      {
-        "filename": "Observation_as_Coarse_Graining.pdf",
-        "url": "https://zenodo.org/records/17274518/files/Observation_as_Coarse_Graining.pdf",
-        "size": 479048,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17292137": {
     "record_id": "17292137",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17292137/files/Fractal_Category_Theory.pdf",
-    "filename": "Fractal_Category_Theory.pdf",
-    "candidates": [
-      {
-        "filename": "Fractal_Category_Theory.pdf",
-        "url": "https://zenodo.org/records/17292137/files/Fractal_Category_Theory.pdf",
-        "size": 428423,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17299070": {
     "record_id": "17299070",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17299070/files/Dynamic_Fractal_Category_Theory.pdf",
-    "filename": "Dynamic_Fractal_Category_Theory.pdf",
-    "candidates": [
-      {
-        "filename": "Dynamic_Fractal_Category_Theory.pdf",
-        "url": "https://zenodo.org/records/17299070/files/Dynamic_Fractal_Category_Theory.pdf",
-        "size": 380772,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17304179": {
     "record_id": "17304179",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17304179/files/Structured_Flow_across_Scales.pdf",
-    "filename": "Structured_Flow_across_Scales.pdf",
-    "candidates": [
-      {
-        "filename": "Structured_Flow_across_Scales.pdf",
-        "url": "https://zenodo.org/records/17304179/files/Structured_Flow_across_Scales.pdf",
-        "size": 375160,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17309195": {
     "record_id": "17309195",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17309195/files/Self_Monitoring_and_Controllable_Evolution_of_Intelligence.pdf",
-    "filename": "Self_Monitoring_and_Controllable_Evolution_of_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "Self_Monitoring_and_Controllable_Evolution_of_Intelligence.pdf",
-        "url": "https://zenodo.org/records/17309195/files/Self_Monitoring_and_Controllable_Evolution_of_Intelligence.pdf",
-        "size": 447593,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17317567": {
     "record_id": "17317567",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17317567/files/Comparative_Universes.pdf",
-    "filename": "Comparative_Universes.pdf",
-    "candidates": [
-      {
-        "filename": "Comparative_Universes.pdf",
-        "url": "https://zenodo.org/records/17317567/files/Comparative_Universes.pdf",
-        "size": 397391,
-        "score": 131
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17334218": {
     "record_id": "17334218",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17334218/files/Right_Written_Composition_Foundations_for_Comparative_Universes.pdf",
-    "filename": "Right_Written_Composition_Foundations_for_Comparative_Universes.pdf",
-    "candidates": [
-      {
-        "filename": "Right_Written_Composition_Foundations_for_Comparative_Universes.pdf",
-        "url": "https://zenodo.org/records/17334218/files/Right_Written_Composition_Foundations_for_Comparative_Universes.pdf",
-        "size": 461168,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17345898": {
     "record_id": "17345898",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17345898/files/Theory_of_Relativity_of_Theories.pdf",
-    "filename": "Theory_of_Relativity_of_Theories.pdf",
-    "candidates": [
-      {
-        "filename": "Theory_of_Relativity_of_Theories.pdf",
-        "url": "https://zenodo.org/records/17345898/files/Theory_of_Relativity_of_Theories.pdf",
-        "size": 439596,
-        "score": 134
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17349720": {
     "record_id": "17349720",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17349720/files/Practical_Theory_of_Relativity_of_Theories.pdf",
-    "filename": "Practical_Theory_of_Relativity_of_Theories.pdf",
-    "candidates": [
-      {
-        "filename": "Practical_Theory_of_Relativity_of_Theories.pdf",
-        "url": "https://zenodo.org/records/17349720/files/Practical_Theory_of_Relativity_of_Theories.pdf",
-        "size": 349734,
-        "score": 135
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17364444": {
     "record_id": "17364444",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17364444/files/Practical_Theory_of_Relativity_of_Theories____RAVE.pdf",
-    "filename": "Practical_Theory_of_Relativity_of_Theories____RAVE.pdf",
-    "candidates": [
-      {
-        "filename": "Practical_Theory_of_Relativity_of_Theories____RAVE.pdf",
-        "url": "https://zenodo.org/records/17364444/files/Practical_Theory_of_Relativity_of_Theories____RAVE.pdf",
-        "size": 406974,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17389109": {
     "record_id": "17389109",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17389109/files/Inference_in_Normal_Form.pdf",
-    "filename": "Inference_in_Normal_Form.pdf",
-    "candidates": [
-      {
-        "filename": "Inference_in_Normal_Form.pdf",
-        "url": "https://zenodo.org/records/17389109/files/Inference_in_Normal_Form.pdf",
-        "size": 481529,
-        "score": 124
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17429908": {
     "record_id": "17429908",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17429908/files/JOSNL_41_Paper_Corpus__One_file_Final_Scientific_Manuscript.pdf",
-    "filename": "JOSNL_41_Paper_Corpus__One_file_Final_Scientific_Manuscript.pdf",
-    "candidates": [
-      {
-        "filename": "JOSNL_41_Paper_Corpus__One_file_Final_Scientific_Manuscript.pdf",
-        "url": "https://zenodo.org/records/17429908/files/JOSNL_41_Paper_Corpus__One_file_Final_Scientific_Manuscript.pdf",
-        "size": 302774,
-        "score": 28
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17469937": {
     "record_id": "17469937",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17469937/files/Right_Written__Semantics_Admissible_Process_Foundations.pdf",
-    "filename": "Right_Written__Semantics_Admissible_Process_Foundations.pdf",
-    "candidates": [
-      {
-        "filename": "Right_Written__Semantics_Admissible_Process_Foundations.pdf",
-        "url": "https://zenodo.org/records/17469937/files/Right_Written__Semantics_Admissible_Process_Foundations.pdf",
-        "size": 394016,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17483082": {
     "record_id": "17483082",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17512165/files/Fibered_Bures_HK_Entropy_Transport.pdf",
-    "filename": "Fibered_Bures_HK_Entropy_Transport.pdf",
-    "candidates": [
-      {
-        "filename": "Fibered_Bures_HK_Entropy_Transport.pdf",
-        "url": "https://zenodo.org/records/17512165/files/Fibered_Bures_HK_Entropy_Transport.pdf",
-        "size": 375823,
-        "score": 137
-      },
-      {
-        "filename": "A_Lean__Audit_Ready_Layer_for_Fibered_Bures__HK_ET.pdf",
-        "url": "https://zenodo.org/records/17512165/files/A_Lean__Audit_Ready_Layer_for_Fibered_Bures__HK_ET.pdf",
-        "size": 419726,
-        "score": 17
-      },
-      {
-        "filename": "Supplement_to_Fibered_Bures__HK_Entropy__Transport.pdf",
-        "url": "https://zenodo.org/records/17512165/files/Supplement_to_Fibered_Bures__HK_Entropy__Transport.pdf",
-        "size": 396711,
-        "score": -68
-      },
-      {
-        "filename": "Supplement_to_Fibered_Bures__HK_Entropy__Transport_2.pdf",
-        "url": "https://zenodo.org/records/17512165/files/Supplement_to_Fibered_Bures__HK_Entropy__Transport_2.pdf",
-        "size": 440142,
-        "score": -68
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17518572": {
     "record_id": "17518572",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17518572/files/Image__EVI_on_Metric_Quotients_for_Gradient_Flows.pdf",
-    "filename": "Image__EVI_on_Metric_Quotients_for_Gradient_Flows.pdf",
-    "candidates": [
-      {
-        "filename": "Image__EVI_on_Metric_Quotients_for_Gradient_Flows.pdf",
-        "url": "https://zenodo.org/records/17518572/files/Image__EVI_on_Metric_Quotients_for_Gradient_Flows.pdf",
-        "size": 409931,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17520859": {
     "record_id": "17520859",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17520859/files/A_Model_Agnostic__Performance_Pushforward_Theory_of_Scaling_Laws.pdf",
-    "filename": "A_Model_Agnostic__Performance_Pushforward_Theory_of_Scaling_Laws.pdf",
-    "candidates": [
-      {
-        "filename": "A_Model_Agnostic__Performance_Pushforward_Theory_of_Scaling_Laws.pdf",
-        "url": "https://zenodo.org/records/17520859/files/A_Model_Agnostic__Performance_Pushforward_Theory_of_Scaling_Laws.pdf",
-        "size": 392937,
-        "score": 146
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17539800": {
     "record_id": "17539800",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17539800/files/Observation_Quotients_and_Learning_as_Lifting.pdf",
-    "filename": "Observation_Quotients_and_Learning_as_Lifting.pdf",
-    "candidates": [
-      {
-        "filename": "Observation_Quotients_and_Learning_as_Lifting.pdf",
-        "url": "https://zenodo.org/records/17539800/files/Observation_Quotients_and_Learning_as_Lifting.pdf",
-        "size": 375748,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17547803": {
     "record_id": "17547803",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17547803/files/Natural_Language_as_Preimage__Formal_Semantics_as_Image.pdf",
-    "filename": "Natural_Language_as_Preimage__Formal_Semantics_as_Image.pdf",
-    "candidates": [
-      {
-        "filename": "Natural_Language_as_Preimage__Formal_Semantics_as_Image.pdf",
-        "url": "https://zenodo.org/records/17547803/files/Natural_Language_as_Preimage__Formal_Semantics_as_Image.pdf",
-        "size": 378483,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17576546": {
     "record_id": "17576546",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17576546/files/Compute_Optimal_AI_via_Image__EVI__Interior_Bures__HK_Control.pdf",
-    "filename": "Compute_Optimal_AI_via_Image__EVI__Interior_Bures__HK_Control.pdf",
-    "candidates": [
-      {
-        "filename": "Compute_Optimal_AI_via_Image__EVI__Interior_Bures__HK_Control.pdf",
-        "url": "https://zenodo.org/records/17576546/files/Compute_Optimal_AI_via_Image__EVI__Interior_Bures__HK_Control.pdf",
-        "size": 449513,
-        "score": 136
-      },
-      {
-        "filename": "A_Posteriori_O_tau_2__Certificates_for_Symmetric_Strang_Splitting.pdf",
-        "url": "https://zenodo.org/records/17576546/files/A_Posteriori_O_tau_2__Certificates_for_Symmetric_Strang_Splitting.pdf",
-        "size": 364735,
-        "score": -92
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17596361": {
     "record_id": "17596361",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17596361/files/Gradient_Flow_Based_Compute__Performance_Trade_offs_for_Intelligent_Systems.pdf",
-    "filename": "Gradient_Flow_Based_Compute__Performance_Trade_offs_for_Intelligent_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Gradient_Flow_Based_Compute__Performance_Trade_offs_for_Intelligent_Systems.pdf",
-        "url": "https://zenodo.org/records/17596361/files/Gradient_Flow_Based_Compute__Performance_Trade_offs_for_Intelligent_Systems.pdf",
-        "size": 380405,
-        "score": 152
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17601860": {
     "record_id": "17601860",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17601860/files/Holographic_Observation_Quotients_and_Fractal_Boundaries.pdf",
-    "filename": "Holographic_Observation_Quotients_and_Fractal_Boundaries.pdf",
-    "candidates": [
-      {
-        "filename": "Holographic_Observation_Quotients_and_Fractal_Boundaries.pdf",
-        "url": "https://zenodo.org/records/17601860/files/Holographic_Observation_Quotients_and_Fractal_Boundaries.pdf",
-        "size": 390120,
-        "score": 131
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17602030": {
     "record_id": "17602030",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17602030/files/Persistence_First_Natural_Laws_for_Benevolent_Propagation.pdf",
-    "filename": "Persistence_First_Natural_Laws_for_Benevolent_Propagation.pdf",
-    "candidates": [
-      {
-        "filename": "Persistence_First_Natural_Laws_for_Benevolent_Propagation.pdf",
-        "url": "https://zenodo.org/records/17602030/files/Persistence_First_Natural_Laws_for_Benevolent_Propagation.pdf",
-        "size": 368090,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17636648": {
     "record_id": "17636648",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17636648/files/Persistence__First_Holographic_Systems.pdf",
-    "filename": "Persistence__First_Holographic_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Persistence__First_Holographic_Systems.pdf",
-        "url": "https://zenodo.org/records/17636648/files/Persistence__First_Holographic_Systems.pdf",
-        "size": 353982,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17645180": {
     "record_id": "17645180",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17645180/files/Implementation__Ready_Persistence__First_Holographic_Systems.pdf",
-    "filename": "Implementation__Ready_Persistence__First_Holographic_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Implementation__Ready_Persistence__First_Holographic_Systems.pdf",
-        "url": "https://zenodo.org/records/17645180/files/Implementation__Ready_Persistence__First_Holographic_Systems.pdf",
-        "size": 378560,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17658411": {
     "record_id": "17658411",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17658411/files/Finsler__Entropy__Transport_Gradient_Systems_for_Relativistic_Kinetic_Gases.pdf",
-    "filename": "Finsler__Entropy__Transport_Gradient_Systems_for_Relativistic_Kinetic_Gases.pdf",
-    "candidates": [
-      {
-        "filename": "Finsler__Entropy__Transport_Gradient_Systems_for_Relativistic_Kinetic_Gases.pdf",
-        "url": "https://zenodo.org/records/17658411/files/Finsler__Entropy__Transport_Gradient_Systems_for_Relativistic_Kinetic_Gases.pdf",
-        "size": 373570,
-        "score": 35
-      },
-      {
-        "filename": "Persistence__First_Holographic_Finsler_Universes.pdf",
-        "url": "https://zenodo.org/records/17658411/files/Persistence__First_Holographic_Finsler_Universes.pdf",
-        "size": 336546,
-        "score": 24
-      },
-      {
-        "filename": "Fibered_Bures__HK_over_Finsler_Spacetime.pdf",
-        "url": "https://zenodo.org/records/17658411/files/Fibered_Bures__HK_over_Finsler_Spacetime.pdf",
-        "size": 416787,
-        "score": 16
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17669224": {
     "record_id": "17669224",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17669224/files/Self_Referential_Persistent_Modes_in_Human__AI_Ecosystems.pdf",
-    "filename": "Self_Referential_Persistent_Modes_in_Human__AI_Ecosystems.pdf",
-    "candidates": [
-      {
-        "filename": "Self_Referential_Persistent_Modes_in_Human__AI_Ecosystems.pdf",
-        "url": "https://zenodo.org/records/17669224/files/Self_Referential_Persistent_Modes_in_Human__AI_Ecosystems.pdf",
-        "size": 390156,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17679426": {
     "record_id": "17679426",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17679426/files/Post__FBHK_Fibered_Entropy__Transport_Geometry_with_Petz_Fibers_and_Type_III_Persistence.pdf",
-    "filename": "Post__FBHK_Fibered_Entropy__Transport_Geometry_with_Petz_Fibers_and_Type_III_Persistence.pdf",
-    "candidates": [
-      {
-        "filename": "Post__FBHK_Fibered_Entropy__Transport_Geometry_with_Petz_Fibers_and_Type_III_Persistence.pdf",
-        "url": "https://zenodo.org/records/17679426/files/Post__FBHK_Fibered_Entropy__Transport_Geometry_with_Petz_Fibers_and_Type_III_Persistence.pdf",
-        "size": 401828,
-        "score": 155
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17684539": {
     "record_id": "17684539",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17684539/files/Infinite_Hierarchical_Holographic_Observation_Quotients.pdf",
-    "filename": "Infinite_Hierarchical_Holographic_Observation_Quotients.pdf",
-    "candidates": [
-      {
-        "filename": "Infinite_Hierarchical_Holographic_Observation_Quotients.pdf",
-        "url": "https://zenodo.org/records/17684539/files/Infinite_Hierarchical_Holographic_Observation_Quotients.pdf",
-        "size": 452141,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17706175": {
     "record_id": "17706175",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17706175/files/Reversible_Persistence__First_Holographic_Systems.pdf",
-    "filename": "Reversible_Persistence__First_Holographic_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Reversible_Persistence__First_Holographic_Systems.pdf",
-        "url": "https://zenodo.org/records/17706175/files/Reversible_Persistence__First_Holographic_Systems.pdf",
-        "size": 458777,
-        "score": 140
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17707344": {
     "record_id": "17707344",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17707344/files/Value_Anchored_Natural_Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-    "filename": "Value_Anchored_Natural_Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Value_Anchored_Natural_Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-        "url": "https://zenodo.org/records/17707344/files/Value_Anchored_Natural_Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-        "size": 412541,
-        "score": 154
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17712716": {
     "record_id": "17712716",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17712716/files/Value__Anchored_Natural__Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-    "filename": "Value__Anchored_Natural__Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Value__Anchored_Natural__Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-        "url": "https://zenodo.org/records/17712716/files/Value__Anchored_Natural__Law_Fronts_over_Reversible_Persistence__First_Holographic_Systems.pdf",
-        "size": 371967,
-        "score": 154
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17718314": {
     "record_id": "17718314",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17718314/files/Stable_Self_Improving_AI_under_Value_Anchored_Natural_Law_Gradient_Flows.pdf",
-    "filename": "Stable_Self_Improving_AI_under_Value_Anchored_Natural_Law_Gradient_Flows.pdf",
-    "candidates": [
-      {
-        "filename": "Stable_Self_Improving_AI_under_Value_Anchored_Natural_Law_Gradient_Flows.pdf",
-        "url": "https://zenodo.org/records/17718314/files/Stable_Self_Improving_AI_under_Value_Anchored_Natural_Law_Gradient_Flows.pdf",
-        "size": 435587,
-        "score": 152
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17724629": {
     "record_id": "17724629",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17724629/files/Consistency__Defect_Gradient_Flows_and_No__Meta_Self__Purification_in_Value__Anchored_Multi__Agent_Systems.pdf",
-    "filename": "Consistency__Defect_Gradient_Flows_and_No__Meta_Self__Purification_in_Value__Anchored_Multi__Agent_Systems.pdf",
-    "candidates": [
-      {
-        "filename": "Consistency__Defect_Gradient_Flows_and_No__Meta_Self__Purification_in_Value__Anchored_Multi__Agent_Systems.pdf",
-        "url": "https://zenodo.org/records/17724629/files/Consistency__Defect_Gradient_Flows_and_No__Meta_Self__Purification_in_Value__Anchored_Multi__Agent_Systems.pdf",
-        "size": 396248,
-        "score": 155
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17728994": {
     "record_id": "17728994",
