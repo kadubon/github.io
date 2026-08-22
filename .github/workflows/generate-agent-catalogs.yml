@@ -3,6 +3,14 @@ name: Generate agent discovery catalogs
 on:
   schedule:
     - cron: "17 3 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "works.html"
+      - "scripts/generate_agent_catalogs.py"
+      - "scripts/generate_paper_pages.py"
+      - "scripts/validate_paper_pages.py"
+      - ".github/workflows/generate-agent-catalogs.yml"
   workflow_dispatch: {}
 
 permissions:
@@ -22,16 +30,19 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate catalogs
+      - name: Generate catalogs and paper pages
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python scripts/generate_agent_catalogs.py
+        run: |
+          python scripts/generate_agent_catalogs.py
+          python scripts/generate_paper_pages.py --refresh-zenodo
+          python scripts/validate_paper_pages.py
 
       - name: Commit derived catalog updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add agent-index.json research-catalog.json oss-catalog.json oss.html
+          git add agent-index.json research-catalog.json oss-catalog.json oss.html papers/ sitemap.xml data/zenodo-pdf-map.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(discovery): refresh agent catalogs"
             git pull --rebase origin main

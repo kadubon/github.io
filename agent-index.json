@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "index_type": "research_and_software_discovery",
   "canonical_url": "https://kadubon.github.io/github.io/agent-index.json",
-  "source_state_at": "2026-08-10T04:54:33Z",
+  "source_state_at": "2026-08-19T08:07:07Z",
   "identity": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -23,6 +23,8 @@
     "research_map": "https://kadubon.github.io/github.io/research-map.html",
     "publication_index": "https://kadubon.github.io/github.io/works.html",
     "research_catalog_json": "https://kadubon.github.io/github.io/research-catalog.json",
+    "paper_landing_index": "https://kadubon.github.io/github.io/papers/",
+    "paper_landing_catalog_json": "https://kadubon.github.io/github.io/papers/index.json",
     "software_catalog_human": "https://kadubon.github.io/github.io/oss.html",
     "software_catalog_json": "https://kadubon.github.io/github.io/oss-catalog.json",
     "llm_short_context": "https://kadubon.github.io/github.io/llms.txt",
@@ -34,6 +36,7 @@
   },
   "counts": {
     "research_records": 231,
+    "scholarly_paper_count": 227,
     "public_source_repositories": 54,
     "archived_source_repositories": 0
   },

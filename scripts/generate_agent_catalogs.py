@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 import re
 from typing import Any, Iterable
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -87,6 +87,15 @@ def extract_doi(identifier: Any) -> str:
     return ""
 
 
+def stable_slug(local_record_url: str, date_published: str, title: str, doi: str) -> str:
+    """Use the established Works anchor as the stable paper-page slug."""
+    fragment = urlparse(local_record_url).fragment
+    if re.fullmatch(r"[a-z0-9-]+", fragment):
+        return fragment
+    normalized = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+    return f"{iso_date(date_published)}-{normalized}-{doi.rsplit('.', 1)[-1]}".strip("-")
+
+
 def load_research_catalog() -> tuple[list[dict[str, Any]], str]:
     source = WORKS_PATH.read_text(encoding="utf-8")
     graphs: list[dict[str, Any]] = []
@@ -135,8 +144,9 @@ def load_research_catalog() -> tuple[list[dict[str, Any]], str]:
         ]
         doi = extract_doi(node.get("identifier"))
         date_published = str(node.get("datePublished", ""))
-        records.append(
-            {
+        local_record_url = str(node.get("mainEntityOfPage", ""))
+        title = str(node.get("headline") or node.get("name") or "")
+        record = {
                 "record_type": (
                     "research_software"
                     if schema_type == "SoftwareSourceCode"
@@ -144,20 +154,23 @@ def load_research_catalog() -> tuple[list[dict[str, Any]], str]:
                 ),
                 "schema_org_type": schema_type,
                 "id": node.get("@id", ""),
-                "title": node.get("headline") or node.get("name") or "",
+                "title": title,
                 "authors": authors,
                 "date_published": date_published,
                 "doi": doi,
                 "doi_url": f"https://doi.org/{doi}" if doi else "",
                 "canonical_url": node.get("url") or node.get("mainEntityOfPage") or "",
-                "local_record_url": node.get("mainEntityOfPage", ""),
+                "local_record_url": local_record_url,
                 "abstract": node.get("description", ""),
                 "keywords": normalize_keywords(node.get("keywords")),
                 "language": node.get("inLanguage", ""),
                 "genre": node.get("genre", ""),
                 "same_as": node.get("sameAs", []),
-            }
-        )
+        }
+        if record["record_type"] == "scholarly_article":
+            record["slug"] = stable_slug(local_record_url, date_published, title, doi)
+            record["landing_page_url"] = f"{SITE_URL}papers/{record['slug']}/"
+        records.append(record)
 
     records.sort(
         key=lambda item: (item["date_published"], item["title"]),
@@ -354,6 +367,8 @@ def agent_index(
             "research_map": f"{SITE_URL}research-map.html",
             "publication_index": f"{SITE_URL}works.html",
             "research_catalog_json": f"{SITE_URL}research-catalog.json",
+            "paper_landing_index": f"{SITE_URL}papers/",
+            "paper_landing_catalog_json": f"{SITE_URL}papers/index.json",
             "software_catalog_human": f"{SITE_URL}oss.html",
             "software_catalog_json": f"{SITE_URL}oss-catalog.json",
             "llm_short_context": f"{SITE_URL}llms.txt",
@@ -365,6 +380,7 @@ def agent_index(
         },
         "counts": {
             "research_records": len(research_records),
+            "scholarly_paper_count": sum(1 for record in research_records if record["record_type"] == "scholarly_article"),
             "public_source_repositories": len(oss_records),
             "archived_source_repositories": sum(
                 1 for record in oss_records if record["archived"]

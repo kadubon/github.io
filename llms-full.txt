@@ -15,6 +15,8 @@ For current counts and records, prefer [agent-index.json](https://kadubon.github
 - ORCID: [0009-0004-4273-3365](https://orcid.org/0009-0004-4273-3365)
 - Canonical home: [https://kadubon.github.io/github.io/](https://kadubon.github.io/github.io/)
 - Canonical works index: [https://kadubon.github.io/github.io/works.html](https://kadubon.github.io/github.io/works.html)
+- Individual scholarly paper landing pages: [https://kadubon.github.io/github.io/papers/](https://kadubon.github.io/github.io/papers/)
+- Machine-readable paper landing-page index: [https://kadubon.github.io/github.io/papers/index.json](https://kadubon.github.io/github.io/papers/index.json)
 - Constraint Generative Theory index: [https://kadubon.github.io/github.io/constraint-generative-theory-index.html](https://kadubon.github.io/github.io/constraint-generative-theory-index.html)
 - Repository: [https://github.com/kadubon/github.io](https://github.com/kadubon/github.io)
 - License: CC BY 4.0 (see repository `LICENCE`)

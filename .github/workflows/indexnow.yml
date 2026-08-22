@@ -7,6 +7,8 @@ on:
       - "sitemap.xml"
       - "index.html"
       - "*.html"
+      - "papers/**/*.html"
+      - "papers/index.json"
       - "301c5859d4134ce8a80373c7991ed72f.txt"
       - "scripts/submit_indexnow.py"
       - ".github/workflows/indexnow.yml"

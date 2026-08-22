@@ -19,6 +19,8 @@ It also includes a site-wide research map above the cluster pages, plus cluster 
 - No-Meta / Observable-Only Series Index: https://kadubon.github.io/github.io/no-meta-observable-index.html
 - Constraint Generative Theory Series Index: https://kadubon.github.io/github.io/constraint-generative-theory-index.html
 - Works (publication index): https://kadubon.github.io/github.io/works.html
+- Papers (individual scholarly landing pages): https://kadubon.github.io/github.io/papers/
+- Machine-readable papers index: https://kadubon.github.io/github.io/papers/index.json
 - OSS catalog: https://kadubon.github.io/github.io/oss.html
 - Agent discovery index: https://kadubon.github.io/github.io/agent-index.json
 - Research catalog: https://kadubon.github.io/github.io/research-catalog.json

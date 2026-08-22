@@ -28,6 +28,8 @@ Catalog inclusion is a discovery aid, not a claim of production readiness, secur
 - [No-Meta / Observable-Only Series Index](https://kadubon.github.io/github.io/no-meta-observable-index.html): human-readable and structured guide for the no-meta / observable-only series, including paper roles and experiment-repository mappings.
 - [Constraint Generative Theory Series Index](https://kadubon.github.io/github.io/constraint-generative-theory-index.html): human-readable and structured guide for CGT, typed constraint effects, generated effect profiles, scientific availability, and the shared series DOI.
 - [Works](https://kadubon.github.io/github.io/works.html): reverse-chronological publication list with title, date, DOI, abstract, and keywords.
+- [Individual scholarly paper landing pages](https://kadubon.github.io/github.io/papers/): static, crawler-friendly full-abstract pages.
+- [Machine-readable paper landing-page index](https://kadubon.github.io/github.io/papers/index.json): compact corpus routing for scholarly papers.
 - [OSS Catalog](https://kadubon.github.io/github.io/oss.html): public repository index with corresponding machine-readable metadata.
 
 ## Additional Site Guides and Metadata
