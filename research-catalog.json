@@ -3,7 +3,7 @@
   "catalog_type": "research_works",
   "canonical_url": "https://kadubon.github.io/github.io/research-catalog.json",
   "source_url": "https://kadubon.github.io/github.io/works.html",
-  "source_state_date": "2026-07-24",
+  "source_state_date": "2026-08-30",
   "creator": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -11,8 +11,42 @@
     "github": "https://github.com/kadubon"
   },
   "selection_policy": "All ScholarlyArticle and SoftwareSourceCode records in the canonical works.html JSON-LD graph.",
-  "record_count": 231,
+  "record_count": 232,
   "records": [
+    {
+      "record_type": "scholarly_article",
+      "schema_org_type": "ScholarlyArticle",
+      "id": "https://kadubon.github.io/github.io/works.html#pub-2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023",
+      "title": "Reusable Consequence States Under Partial Support and Model Uncertainty",
+      "authors": [
+        "K. Takahashi"
+      ],
+      "date_published": "2026-08-30T00:00:00+09:00",
+      "doi": "10.5281/zenodo.22170023",
+      "doi_url": "https://doi.org/10.5281/zenodo.22170023",
+      "canonical_url": "https://doi.org/10.5281/zenodo.22170023",
+      "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023",
+      "abstract": "This preprint develops a mathematical framework for reusable state representations in controlled systems when observations have partial support and the data remain compatible with multiple, globally coupled models. It distinguishes summaries that preserve current predictions or rewards from consequence states that can be updated after a later action and observation without retaining the full history. The framework defines typed consequence contracts, finite-state consequence programs, model-indexed profiles, and a residual product construction whose context signature is the coarsest deterministic representation preserving the complete labelled model profile. It also introduces a program-product Kantorovich operator that characterizes program-relative probabilistic bisimulation and bounds normalized discounted program values, while showing when local uncertainty envelopes are conservative rather than exact. The work connects state abstraction, predictive-state representations, partial identification, causal inference, specification refinement, and deployment transfer without assuming full support, independent local uncertainty, Bayesian priors, or a universal utility function.",
+      "keywords": [
+        "reusable consequence states",
+        "state abstraction",
+        "partial support",
+        "model uncertainty",
+        "predictive state representations",
+        "probabilistic bisimulation",
+        "Kantorovich metric",
+        "partial identification",
+        "causal inference",
+        "nonrectangular uncertainty"
+      ],
+      "language": "en",
+      "genre": "Preprint",
+      "same_as": [
+        "https://doi.org/10.5281/zenodo.22170023"
+      ],
+      "slug": "2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023",
+      "landing_page_url": "https://kadubon.github.io/github.io/papers/2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023/"
+    },
     {
       "record_type": "scholarly_article",
       "schema_org_type": "ScholarlyArticle",

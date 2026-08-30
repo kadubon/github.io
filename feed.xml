@@ -5,8 +5,31 @@
   <link>https://kadubon.github.io/github.io/</link>
   <description>Research preprints and theoretical works by K. Takahashi</description>
   <language>en</language>
-  <lastBuildDate>Sun, 26 Jul 2026 20:35:45 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 15:41:46 +0900</lastBuildDate>
   <atom:link rel="self" type="application/rss+xml" href="https://kadubon.github.io/github.io/feed.xml" />
+  <item>
+    <title>Reusable Consequence States Under Partial Support and Model Uncertainty</title>
+    <link>https://kadubon.github.io/github.io/works.html#2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023</link>
+    <guid isPermaLink="true">https://kadubon.github.io/github.io/works.html#2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023</guid>
+    <pubDate>Sun, 30 Aug 2026 00:00:00 +0900</pubDate>
+    <dc:creator>K. Takahashi</dc:creator>
+    <category>Preprint</category>
+    <category>reusable consequence states</category>
+    <category>state abstraction</category>
+    <category>partial support</category>
+    <category>model uncertainty</category>
+    <category>predictive state representations</category>
+    <category>probabilistic bisimulation</category>
+    <category>Kantorovich metric</category>
+    <category>partial identification</category>
+    <category>causal inference</category>
+    <category>nonrectangular uncertainty</category>
+    <source url="https://doi.org/10.5281/zenodo.22170023">10.5281/zenodo.22170023</source>
+    <description><![CDATA[
+      This preprint develops a mathematical framework for reusable state representations in controlled systems when observations have partial support and the data remain compatible with multiple, globally coupled models. It distinguishes summaries that preserve current predictions or rewards from consequence states that can be updated after a later action and observation without retaining the full history. The framework defines typed consequence contracts, finite-state consequence programs, model-indexed profiles, and a residual product construction whose context signature is the coarsest deterministic representation preserving the complete labelled model profile. It also introduces a program-product Kantorovich operator that characterizes program-relative probabilistic bisimulation and bounds normalized discounted program values, while showing when local uncertainty envelopes are conservative rather than exact. The work connects state abstraction, predictive-state representations, partial identification, causal inference, specification refinement, and deployment transfer without assuming full support, independent local uncertainty, Bayesian priors, or a universal utility function.
+Preprint | DOI: 10.5281/zenodo.22170023
+    ]]></description>
+  </item>
   <item>
     <title>Evidence-Carrying Operational Claims in Open Systems: Physical Ledgers, Typed Interfaces, and One-Sided Deployment Guarantees</title>
     <link>https://kadubon.github.io/github.io/works.html#2026-07-24-evidence-carrying-operational-claims-in-open-systems-physical-ledgers-typed-interfaces-and-one-sided-deployment-guarantees-21531413</link>
