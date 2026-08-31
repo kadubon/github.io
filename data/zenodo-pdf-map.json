@@ -71,31 +71,17 @@
   },
   "10.5281/zenodo.16623941": {
     "record_id": "16623941",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
-    "filename": "Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
-        "url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
-        "size": 69200,
-        "score": 20
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16625104": {
     "record_id": "16625104",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-    "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-        "url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-        "size": 46155,
-        "score": 26
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16625633": {
     "record_id": "16625633",
@@ -113,283 +99,143 @@
   },
   "10.5281/zenodo.16633860": {
     "record_id": "16633860",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
-    "filename": "Takahashi_2025_Post_LLM.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Post_LLM.pdf",
-        "url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
-        "size": 87302,
-        "score": 6
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16663817": {
     "record_id": "16663817",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
-    "filename": "Takahashi_2025_Proposals_for_AGI.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Proposals_for_AGI.pdf",
-        "url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
-        "size": 375339,
-        "score": 4
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16675542": {
     "record_id": "16675542",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
-    "filename": "2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
-    "candidates": [
-      {
-        "filename": "2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
-        "url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
-        "size": 298812,
-        "score": 14
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16728870": {
     "record_id": "16728870",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
-    "filename": "Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
-        "url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
-        "size": 232395,
-        "score": 26
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16734292": {
     "record_id": "16734292",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
-    "filename": "Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
-        "url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
-        "size": 192759,
-        "score": 26
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16734893": {
     "record_id": "16734893",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
-    "filename": "A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
-    "candidates": [
-      {
-        "filename": "A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
-        "url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
-        "size": 265654,
-        "score": 25
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16761052": {
     "record_id": "16761052",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
-    "filename": "A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
-    "candidates": [
-      {
-        "filename": "A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
-        "url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
-        "size": 271212,
-        "score": 41
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16777305": {
     "record_id": "16777305",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16777305/files/Formal_Specification_of_Self_Improving_Intelligence.pdf",
-    "filename": "Formal_Specification_of_Self_Improving_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "Formal_Specification_of_Self_Improving_Intelligence.pdf",
-        "url": "https://zenodo.org/records/16777305/files/Formal_Specification_of_Self_Improving_Intelligence.pdf",
-        "size": 289531,
-        "score": 132
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16783997": {
     "record_id": "16783997",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16783997/files/A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
-    "filename": "A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
-        "url": "https://zenodo.org/records/16783997/files/A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
-        "size": 1493240,
-        "score": 21
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16788690": {
     "record_id": "16788690",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16788690/files/A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
-    "filename": "A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
-        "url": "https://zenodo.org/records/16788690/files/A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
-        "size": 284247,
-        "score": 133
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16860493": {
     "record_id": "16860493",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16860493/files/A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
-    "filename": "A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
-    "candidates": [
-      {
-        "filename": "A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
-        "url": "https://zenodo.org/records/16860493/files/A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
-        "size": 256860,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16899150": {
     "record_id": "16899150",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16899150/files/A_Protocol_for_a_Post_Cartesian_AI.pdf",
-    "filename": "A_Protocol_for_a_Post_Cartesian_AI.pdf",
-    "candidates": [
-      {
-        "filename": "A_Protocol_for_a_Post_Cartesian_AI.pdf",
-        "url": "https://zenodo.org/records/16899150/files/A_Protocol_for_a_Post_Cartesian_AI.pdf",
-        "size": 286450,
-        "score": 27
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16908339": {
     "record_id": "16908339",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16908339/files/From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
-    "filename": "From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
-    "candidates": [
-      {
-        "filename": "From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
-        "url": "https://zenodo.org/records/16908339/files/From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
-        "size": 213229,
-        "score": 143
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16924567": {
     "record_id": "16924567",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16924567/files/Valuing_Work_Beyond_Bullshit.pdf",
-    "filename": "Valuing_Work_Beyond_Bullshit.pdf",
-    "candidates": [
-      {
-        "filename": "Valuing_Work_Beyond_Bullshit.pdf",
-        "url": "https://zenodo.org/records/16924567/files/Valuing_Work_Beyond_Bullshit.pdf",
-        "size": 305521,
-        "score": 126
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16945789": {
     "record_id": "16945789",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16945789/files/A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
-    "filename": "A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
-        "url": "https://zenodo.org/records/16945789/files/A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
-        "size": 457780,
-        "score": 47
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16964007": {
     "record_id": "16964007",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16964007/files/Self_Constrained_Liberation.pdf",
-    "filename": "Self_Constrained_Liberation.pdf",
-    "candidates": [
-      {
-        "filename": "Self_Constrained_Liberation.pdf",
-        "url": "https://zenodo.org/records/16964007/files/Self_Constrained_Liberation.pdf",
-        "size": 235568,
-        "score": 116
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16983553": {
     "record_id": "16983553",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16983553/files/Symbiotic_Genesis.pdf",
-    "filename": "Symbiotic_Genesis.pdf",
-    "candidates": [
-      {
-        "filename": "Symbiotic_Genesis.pdf",
-        "url": "https://zenodo.org/records/16983553/files/Symbiotic_Genesis.pdf",
-        "size": 230999,
-        "score": 115
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17000967": {
     "record_id": "17000967",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17000967/files/The_Symbiotic_Constitution.pdf",
-    "filename": "The_Symbiotic_Constitution.pdf",
-    "candidates": [
-      {
-        "filename": "The_Symbiotic_Constitution.pdf",
-        "url": "https://zenodo.org/records/17000967/files/The_Symbiotic_Constitution.pdf",
-        "size": 196821,
-        "score": 123
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17008678": {
     "record_id": "17008678",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17008678/files/From_Adaptation_to_Poiesis.pdf",
-    "filename": "From_Adaptation_to_Poiesis.pdf",
-    "candidates": [
-      {
-        "filename": "From_Adaptation_to_Poiesis.pdf",
-        "url": "https://zenodo.org/records/17008678/files/From_Adaptation_to_Poiesis.pdf",
-        "size": 400492,
-        "score": 121
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17015125": {
     "record_id": "17015125",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17015125/files/AI_Evolution_Protocol_v11.pdf",
-    "filename": "AI_Evolution_Protocol_v11.pdf",
-    "candidates": [
-      {
-        "filename": "AI_Evolution_Protocol_v11.pdf",
-        "url": "https://zenodo.org/records/17015125/files/AI_Evolution_Protocol_v11.pdf",
-        "size": 195826,
-        "score": 131
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17018328": {
     "record_id": "17018328",
@@ -883,17 +729,10 @@
   },
   "10.5281/zenodo.17731000": {
     "record_id": "17731000",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17731000/files/A_No_Meta_Theory_of_Relativity_of_Theories.pdf",
-    "filename": "A_No_Meta_Theory_of_Relativity_of_Theories.pdf",
-    "candidates": [
-      {
-        "filename": "A_No_Meta_Theory_of_Relativity_of_Theories.pdf",
-        "url": "https://zenodo.org/records/17731000/files/A_No_Meta_Theory_of_Relativity_of_Theories.pdf",
-        "size": 506543,
-        "score": 137
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17732875": {
     "record_id": "17732875",
@@ -2770,6 +2609,20 @@
         "url": "https://zenodo.org/records/21531413/files/Evidence-Carrying%20Operational%20Claims%20in%20Open%20Systems.pdf",
         "size": 588717,
         "score": 132
+      }
+    ]
+  },
+  "10.5281/zenodo.22170023": {
+    "record_id": "22170023",
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/22170023/files/Reusable%20Consequence%20States%20Under%20Partial%20Support%20and%20Model%20Uncertainty.pdf",
+    "filename": "Reusable Consequence States Under Partial Support and Model Uncertainty.pdf",
+    "candidates": [
+      {
+        "filename": "Reusable Consequence States Under Partial Support and Model Uncertainty.pdf",
+        "url": "https://zenodo.org/records/22170023/files/Reusable%20Consequence%20States%20Under%20Partial%20Support%20and%20Model%20Uncertainty.pdf",
+        "size": 507193,
+        "score": 149
       }
     ]
   }

@@ -8,8 +8,33 @@
     "orcid": "https://orcid.org/0009-0004-4273-3365",
     "website": "https://kadubon.github.io/github.io/"
   },
-  "paper_count": 227,
+  "paper_count": 228,
   "papers": [
+    {
+      "title": "Reusable Consequence States Under Partial Support and Model Uncertainty",
+      "authors": [
+        "K. Takahashi"
+      ],
+      "date_published": "2026-08-30T00:00:00+09:00",
+      "doi": "10.5281/zenodo.22170023",
+      "doi_url": "https://doi.org/10.5281/zenodo.22170023",
+      "landing_page_url": "https://kadubon.github.io/github.io/papers/2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023/",
+      "zenodo_pdf_url": "https://zenodo.org/records/22170023/files/Reusable%20Consequence%20States%20Under%20Partial%20Support%20and%20Model%20Uncertainty.pdf",
+      "pdf_status": "PDF_RESOLVED",
+      "works_entry_url": "https://kadubon.github.io/github.io/works.html#2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023",
+      "keywords": [
+        "reusable consequence states",
+        "state abstraction",
+        "partial support",
+        "model uncertainty",
+        "predictive state representations",
+        "probabilistic bisimulation",
+        "Kantorovich metric",
+        "partial identification",
+        "causal inference",
+        "nonrectangular uncertainty"
+      ]
+    },
     {
       "title": "Evidence-Carrying Operational Claims in Open Systems: Physical Ledgers, Typed Interfaces, and One-Sided Deployment Guarantees",
       "authors": [
@@ -3722,8 +3747,8 @@
       "doi": "10.5281/zenodo.17731000",
       "doi_url": "https://doi.org/10.5281/zenodo.17731000",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-11-27-a-no-meta-theory-of-relativity-of-theories-17731000/",
-      "zenodo_pdf_url": "https://zenodo.org/records/17731000/files/A_No_Meta_Theory_of_Relativity_of_Theories.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-11-27-a-no-meta-theory-of-relativity-of-theories-17731000",
       "keywords": [
         "AI",
@@ -5483,8 +5508,8 @@
       "doi": "10.5281/zenodo.17015125",
       "doi_url": "https://doi.org/10.5281/zenodo.17015125",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-09-01-ai-evolution-protocol-v11-17015125/",
-      "zenodo_pdf_url": "https://zenodo.org/records/17015125/files/AI_Evolution_Protocol_v11.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-09-01-ai-evolution-protocol-v11-17015125",
       "keywords": [
         "AI safety",
@@ -5509,8 +5534,8 @@
       "doi": "10.5281/zenodo.17000967",
       "doi_url": "https://doi.org/10.5281/zenodo.17000967",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-30-the-symbiotic-constitution-a-dialectical-synthes-17000967/",
-      "zenodo_pdf_url": "https://zenodo.org/records/17000967/files/The_Symbiotic_Constitution.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-30-the-symbiotic-constitution-a-dialectical-synthes-17000967",
       "keywords": [
         "AI",
@@ -5533,8 +5558,8 @@
       "doi": "10.5281/zenodo.17008678",
       "doi_url": "https://doi.org/10.5281/zenodo.17008678",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-30-from-adaptation-to-poiesis-a-formal-theory-of-se-17008678/",
-      "zenodo_pdf_url": "https://zenodo.org/records/17008678/files/From_Adaptation_to_Poiesis.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-30-from-adaptation-to-poiesis-a-formal-theory-of-se-17008678",
       "keywords": [
         "AI",
@@ -5560,8 +5585,8 @@
       "doi": "10.5281/zenodo.16983553",
       "doi_url": "https://doi.org/10.5281/zenodo.16983553",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-28-symbiotic-genesis-a-navigational-protocol-for-co-16983553/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16983553/files/Symbiotic_Genesis.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-28-symbiotic-genesis-a-navigational-protocol-for-co-16983553",
       "keywords": [
         "large language models",
@@ -5586,8 +5611,8 @@
       "doi": "10.5281/zenodo.16964007",
       "doi_url": "https://doi.org/10.5281/zenodo.16964007",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-27-self-constrained-liberation-cosmological-autopoi-16964007/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16964007/files/Self_Constrained_Liberation.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-27-self-constrained-liberation-cosmological-autopoi-16964007",
       "keywords": [
         "AI",
@@ -5610,8 +5635,8 @@
       "doi": "10.5281/zenodo.16945789",
       "doi_url": "https://doi.org/10.5281/zenodo.16945789",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-26-genesis-protocol-a-meta-algorithmic-framework-fo-16945789/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16945789/files/A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-26-genesis-protocol-a-meta-algorithmic-framework-fo-16945789",
       "keywords": [
         "AI",
@@ -5636,8 +5661,8 @@
       "doi": "10.5281/zenodo.16924567",
       "doi_url": "https://doi.org/10.5281/zenodo.16924567",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-22-valuing-work-beyond-bullshit-a-wellby-based-fram-16924567/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16924567/files/Valuing_Work_Beyond_Bullshit.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-22-valuing-work-beyond-bullshit-a-wellby-based-fram-16924567",
       "keywords": [
         "bullshit jobs",
@@ -5663,8 +5688,8 @@
       "doi": "10.5281/zenodo.16908339",
       "doi_url": "https://doi.org/10.5281/zenodo.16908339",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-20-from-rigidity-to-insight-a-framework-for-verifia-16908339/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16908339/files/From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-20-from-rigidity-to-insight-a-framework-for-verifia-16908339",
       "keywords": [
         "AI",
@@ -5689,8 +5714,8 @@
       "doi": "10.5281/zenodo.16899150",
       "doi_url": "https://doi.org/10.5281/zenodo.16899150",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-19-alayavijnana-inference-a-protocol-for-a-post-car-16899150/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16899150/files/A_Protocol_for_a_Post_Cartesian_AI.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-19-alayavijnana-inference-a-protocol-for-a-post-car-16899150",
       "keywords": [
         "AI",
@@ -5712,8 +5737,8 @@
       "doi": "10.5281/zenodo.16860493",
       "doi_url": "https://doi.org/10.5281/zenodo.16860493",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-14-a-metacognitive-perturbation-framework-for-neuro-16860493/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16860493/files/A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-14-a-metacognitive-perturbation-framework-for-neuro-16860493",
       "keywords": [
         "AI",
@@ -5737,8 +5762,8 @@
       "doi": "10.5281/zenodo.16788690",
       "doi_url": "https://doi.org/10.5281/zenodo.16788690",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-10-a-computable-framework-for-the-liberation-of-art-16788690/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16788690/files/A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-10-a-computable-framework-for-the-liberation-of-art-16788690",
       "keywords": [
         "AI",
@@ -5762,8 +5787,8 @@
       "doi": "10.5281/zenodo.16783997",
       "doi_url": "https://doi.org/10.5281/zenodo.16783997",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-09-a-formal-framework-for-teleogenesis-in-self-orga-16783997/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16783997/files/A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-09-a-formal-framework-for-teleogenesis-in-self-orga-16783997",
       "keywords": [
         "AI",
@@ -5788,8 +5813,8 @@
       "doi": "10.5281/zenodo.16777305",
       "doi_url": "https://doi.org/10.5281/zenodo.16777305",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-08-formal-specification-of-self-improving-intellige-16777305/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16777305/files/Formal_Specification_of_Self_Improving_Intelligence.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-08-formal-specification-of-self-improving-intellige-16777305",
       "keywords": [
         "AI",
@@ -5814,8 +5839,8 @@
       "doi": "10.5281/zenodo.16761052",
       "doi_url": "https://doi.org/10.5281/zenodo.16761052",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-07-formalizing-the-poietic-self-a-rigorous-categori-16761052/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-07-formalizing-the-poietic-self-a-rigorous-categori-16761052",
       "keywords": [
         "large language models",
@@ -5839,8 +5864,8 @@
       "doi": "10.5281/zenodo.16734893",
       "doi_url": "https://doi.org/10.5281/zenodo.16734893",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-04-formal-specification-of-self-improving-intellige-16734893/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-04-formal-specification-of-self-improving-intellige-16734893",
       "keywords": [
         "AI",
@@ -5865,8 +5890,8 @@
       "doi": "10.5281/zenodo.16734292",
       "doi_url": "https://doi.org/10.5281/zenodo.16734292",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-03-a-computational-framework-for-emergent-cognitive-16734292/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-03-a-computational-framework-for-emergent-cognitive-16734292",
       "keywords": [
         "AI",
@@ -5888,8 +5913,8 @@
       "doi": "10.5281/zenodo.16728870",
       "doi_url": "https://doi.org/10.5281/zenodo.16728870",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-02-a-framework-for-autonomous-technological-evoluti-16728870/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-02-a-framework-for-autonomous-technological-evoluti-16728870",
       "keywords": [
         "AI",
@@ -5911,8 +5936,8 @@
       "doi": "10.5281/zenodo.16675542",
       "doi_url": "https://doi.org/10.5281/zenodo.16675542",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-01-a-homotopy-theoretic-framework-for-self-improvin-16675542/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-01-a-homotopy-theoretic-framework-for-self-improvin-16675542",
       "keywords": [
         "AI",
@@ -5937,8 +5962,8 @@
       "doi": "10.5281/zenodo.16663817",
       "doi_url": "https://doi.org/10.5281/zenodo.16663817",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-08-01-a-formal-blueprint-for-autonomous-self-improving-16663817/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-08-01-a-formal-blueprint-for-autonomous-self-improving-16663817",
       "keywords": [
         "AI",
@@ -5960,8 +5985,8 @@
       "doi": "10.5281/zenodo.16623941",
       "doi_url": "https://doi.org/10.5281/zenodo.16623941",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-31-the-logic-of-stable-existence-a-proposal-for-you-16623941/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-31-the-logic-of-stable-existence-a-proposal-for-you-16623941",
       "keywords": [
         "AI",
@@ -5983,8 +6008,8 @@
       "doi": "10.5281/zenodo.16633860",
       "doi_url": "https://doi.org/10.5281/zenodo.16633860",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-31-beyond-linguistic-description-a-roadmap-to-post--16633860/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-31-beyond-linguistic-description-a-roadmap-to-post--16633860",
       "keywords": [
         "AI",
@@ -6006,8 +6031,8 @@
       "doi": "10.5281/zenodo.16625104",
       "doi_url": "https://doi.org/10.5281/zenodo.16625104",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-31-a-computational-framework-for-growth-based-intel-16625104/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-31-a-computational-framework-for-growth-based-intel-16625104",
       "keywords": [
         "AI",
