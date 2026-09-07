@@ -8,8 +8,35 @@
     "orcid": "https://orcid.org/0009-0004-4273-3365",
     "website": "https://kadubon.github.io/github.io/"
   },
-  "paper_count": 228,
+  "paper_count": 229,
   "papers": [
+    {
+      "title": "Observing and Accelerating Collective Capability Growth",
+      "authors": [
+        "K. Takahashi"
+      ],
+      "date_published": "2026-09-07T00:00:00+09:00",
+      "doi": "10.5281/zenodo.22604358",
+      "doi_url": "https://doi.org/10.5281/zenodo.22604358",
+      "landing_page_url": "https://kadubon.github.io/github.io/papers/2026-09-07-observing-and-accelerating-collective-capability-growth-22604358/",
+      "zenodo_pdf_url": "https://zenodo.org/records/22604358/files/Observing%20and%20Accelerating%20Collective%20Capability%20Growth.pdf",
+      "pdf_status": "PDF_RESOLVED",
+      "works_entry_url": "https://kadubon.github.io/github.io/works.html#2026-09-07-observing-and-accelerating-collective-capability-growth-22604358",
+      "keywords": [
+        "multi-agent systems",
+        "collective intelligence",
+        "collective capability growth",
+        "AI research automation",
+        "recursive capability growth",
+        "AGI",
+        "artificial general intelligence",
+        "artificial superintelligence",
+        "verification-limited growth",
+        "finite-horizon control",
+        "ASI",
+        "capability measurement"
+      ]
+    },
     {
       "title": "Reusable Consequence States Under Partial Support and Model Uncertainty",
       "authors": [
@@ -3722,8 +3749,8 @@
       "doi": "10.5281/zenodo.17732875",
       "doi_url": "https://doi.org/10.5281/zenodo.17732875",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-11-27-dynamic-trot-fields-and-no-meta-self-relational--17732875/",
-      "zenodo_pdf_url": "https://zenodo.org/records/17732875/files/Dynamic_TRoT_Fields_and_No_Meta_Self_Relational_Evaluation.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-11-27-dynamic-trot-fields-and-no-meta-self-relational--17732875",
       "keywords": [
         "AI",
@@ -6054,8 +6081,8 @@
       "doi": "10.5281/zenodo.16625633",
       "doi_url": "https://doi.org/10.5281/zenodo.16625633",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-31-a-computational-framework-for-growth-based-intel-16625633/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-31-a-computational-framework-for-growth-based-intel-16625633",
       "keywords": [
         "AI",
@@ -6077,8 +6104,8 @@
       "doi": "10.5281/zenodo.16518769",
       "doi_url": "https://doi.org/10.5281/zenodo.16518769",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-28-collective-autonomous-adaptive-intelligence-caai-16518769/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-28-collective-autonomous-adaptive-intelligence-caai-16518769",
       "keywords": [
         "AI",
@@ -6101,8 +6128,8 @@
       "doi": "10.5281/zenodo.16416998",
       "doi_url": "https://doi.org/10.5281/zenodo.16416998",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-25-computational-autopoiesis-a-new-architecture-for-16416998/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-25-computational-autopoiesis-a-new-architecture-for-16416998",
       "keywords": [
         "AI",
@@ -6124,8 +6151,8 @@
       "doi": "10.5281/zenodo.16417279",
       "doi_url": "https://doi.org/10.5281/zenodo.16417279",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-25-a-unified-theory-for-self-organizing-intelligenc-16417279/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16417279/files/Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-25-a-unified-theory-for-self-organizing-intelligenc-16417279",
       "keywords": [
         "artificial general intelligence",
@@ -6148,8 +6175,8 @@
       "doi": "10.5281/zenodo.16420862",
       "doi_url": "https://doi.org/10.5281/zenodo.16420862",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-25-a-unified-framework-for-self-organizing-intellig-16420862/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16420862/files/Takahashi_2025_Self_Organizing_Intelligence.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-25-a-unified-framework-for-self-organizing-intellig-16420862",
       "keywords": [
         "AI",
@@ -6173,8 +6200,8 @@
       "doi": "10.5281/zenodo.16417130",
       "doi_url": "https://doi.org/10.5281/zenodo.16417130",
       "landing_page_url": "https://kadubon.github.io/github.io/papers/2025-07-25-a-category-theoretic-framework-for-a-self-organi-16417130/",
-      "zenodo_pdf_url": "https://zenodo.org/records/16417130/files/Takahashi_2025_Categorical_World_Model.pdf",
-      "pdf_status": "PDF_RESOLVED",
+      "zenodo_pdf_url": null,
+      "pdf_status": "PDF_UNRESOLVED",
       "works_entry_url": "https://kadubon.github.io/github.io/works.html#2025-07-25-a-category-theoretic-framework-for-a-self-organi-16417130",
       "keywords": [
         "category theory",

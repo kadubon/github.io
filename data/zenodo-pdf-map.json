@@ -1,73 +1,38 @@
 {
   "10.5281/zenodo.16416998": {
     "record_id": "16416998",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
-    "filename": "Takahashi_2025_Computational_Autopoiesis.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Computational_Autopoiesis.pdf",
-        "url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
-        "size": 75616,
-        "score": 18
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16417130": {
     "record_id": "16417130",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16417130/files/Takahashi_2025_Categorical_World_Model.pdf",
-    "filename": "Takahashi_2025_Categorical_World_Model.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Categorical_World_Model.pdf",
-        "url": "https://zenodo.org/records/16417130/files/Takahashi_2025_Categorical_World_Model.pdf",
-        "size": 111594,
-        "score": 15
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16417279": {
     "record_id": "16417279",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16417279/files/Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
-    "filename": "Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
-        "url": "https://zenodo.org/records/16417279/files/Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
-        "size": 158647,
-        "score": 18
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16420862": {
     "record_id": "16420862",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16420862/files/Takahashi_2025_Self_Organizing_Intelligence.pdf",
-    "filename": "Takahashi_2025_Self_Organizing_Intelligence.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Self_Organizing_Intelligence.pdf",
-        "url": "https://zenodo.org/records/16420862/files/Takahashi_2025_Self_Organizing_Intelligence.pdf",
-        "size": 114107,
-        "score": 17
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16518769": {
     "record_id": "16518769",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
-    "filename": "Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
-        "url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
-        "size": 1468196,
-        "score": 19
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16623941": {
     "record_id": "16623941",
@@ -85,17 +50,10 @@
   },
   "10.5281/zenodo.16625633": {
     "record_id": "16625633",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-    "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-    "candidates": [
-      {
-        "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-        "url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
-        "size": 46155,
-        "score": 26
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.16633860": {
     "record_id": "16633860",
@@ -736,17 +694,10 @@
   },
   "10.5281/zenodo.17732875": {
     "record_id": "17732875",
-    "status": "PDF_RESOLVED",
-    "pdf_url": "https://zenodo.org/records/17732875/files/Dynamic_TRoT_Fields_and_No_Meta_Self_Relational_Evaluation.pdf",
-    "filename": "Dynamic_TRoT_Fields_and_No_Meta_Self_Relational_Evaluation.pdf",
-    "candidates": [
-      {
-        "filename": "Dynamic_TRoT_Fields_and_No_Meta_Self_Relational_Evaluation.pdf",
-        "url": "https://zenodo.org/records/17732875/files/Dynamic_TRoT_Fields_and_No_Meta_Self_Relational_Evaluation.pdf",
-        "size": 434753,
-        "score": 146
-      }
-    ]
+    "status": "PDF_UNRESOLVED",
+    "pdf_url": null,
+    "candidates": [],
+    "reason": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17744509": {
     "record_id": "17744509",
@@ -2623,6 +2574,20 @@
         "url": "https://zenodo.org/records/22170023/files/Reusable%20Consequence%20States%20Under%20Partial%20Support%20and%20Model%20Uncertainty.pdf",
         "size": 507193,
         "score": 149
+      }
+    ]
+  },
+  "10.5281/zenodo.22604358": {
+    "record_id": "22604358",
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/22604358/files/Observing%20and%20Accelerating%20Collective%20Capability%20Growth.pdf",
+    "filename": "Observing and Accelerating Collective Capability Growth.pdf",
+    "candidates": [
+      {
+        "filename": "Observing and Accelerating Collective Capability Growth.pdf",
+        "url": "https://zenodo.org/records/22604358/files/Observing%20and%20Accelerating%20Collective%20Capability%20Growth.pdf",
+        "size": 528561,
+        "score": 140
       }
     ]
   }

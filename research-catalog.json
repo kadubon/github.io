@@ -3,7 +3,7 @@
   "catalog_type": "research_works",
   "canonical_url": "https://kadubon.github.io/github.io/research-catalog.json",
   "source_url": "https://kadubon.github.io/github.io/works.html",
-  "source_state_date": "2026-08-30",
+  "source_state_date": "2026-09-07",
   "creator": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -11,8 +11,44 @@
     "github": "https://github.com/kadubon"
   },
   "selection_policy": "All ScholarlyArticle and SoftwareSourceCode records in the canonical works.html JSON-LD graph.",
-  "record_count": 232,
+  "record_count": 233,
   "records": [
+    {
+      "record_type": "scholarly_article",
+      "schema_org_type": "ScholarlyArticle",
+      "id": "https://kadubon.github.io/github.io/works.html#pub-2026-09-07-observing-and-accelerating-collective-capability-growth-22604358",
+      "title": "Observing and Accelerating Collective Capability Growth",
+      "authors": [
+        "K. Takahashi"
+      ],
+      "date_published": "2026-09-07T00:00:00+09:00",
+      "doi": "10.5281/zenodo.22604358",
+      "doi_url": "https://doi.org/10.5281/zenodo.22604358",
+      "canonical_url": "https://doi.org/10.5281/zenodo.22604358",
+      "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-09-07-observing-and-accelerating-collective-capability-growth-22604358",
+      "abstract": "This preprint develops a finite-time framework for measuring, attributing, and improving collective capability growth subject to explicit resource budgets, verification capacity, evidence requirements, protected service floors, and unresolved repair obligations. It evaluates an interaction against resource-, information-, and time-matched policies reoptimized after that interaction is removed, so communication volume, agent count, replicated compute, or unverified output are not automatically credited as collective growth. The framework combines joint task and research capacity measurement, interaction ablation, supporting-price inequalities, information-theoretic recognition bounds, adaptive confidence sequences, finite-horizon control, and executable continuation. Its results bound terminal capability, statistical recognition against negative models, and deferred repair obligations, and analyze verification queues, resource limits, dependence diagnostics, and the trade-off between communication and funded continuation. The claims are protocol-relative and finite-horizon; the paper does not claim to observe artificial general intelligence, artificial superintelligence, a physical phase transition, or deployed-system intelligence growth.",
+      "keywords": [
+        "multi-agent systems",
+        "collective intelligence",
+        "collective capability growth",
+        "AI research automation",
+        "recursive capability growth",
+        "AGI",
+        "artificial general intelligence",
+        "artificial superintelligence",
+        "verification-limited growth",
+        "finite-horizon control",
+        "ASI",
+        "capability measurement"
+      ],
+      "language": "en",
+      "genre": "Preprint",
+      "same_as": [
+        "https://doi.org/10.5281/zenodo.22604358"
+      ],
+      "slug": "2026-09-07-observing-and-accelerating-collective-capability-growth-22604358",
+      "landing_page_url": "https://kadubon.github.io/github.io/papers/2026-09-07-observing-and-accelerating-collective-capability-growth-22604358/"
+    },
     {
       "record_type": "scholarly_article",
       "schema_org_type": "ScholarlyArticle",
