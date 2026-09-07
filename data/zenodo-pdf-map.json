@@ -1,108 +1,213 @@
 {
   "10.5281/zenodo.16416998": {
     "record_id": "16416998",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
+    "filename": "Takahashi_2025_Computational_Autopoiesis.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Computational_Autopoiesis.pdf",
+        "url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
+        "size": 75616,
+        "score": 18
+      }
+    ]
   },
   "10.5281/zenodo.16417130": {
     "record_id": "16417130",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16417130/files/Takahashi_2025_Categorical_World_Model.pdf",
+    "filename": "Takahashi_2025_Categorical_World_Model.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Categorical_World_Model.pdf",
+        "url": "https://zenodo.org/records/16417130/files/Takahashi_2025_Categorical_World_Model.pdf",
+        "size": 111594,
+        "score": 15
+      }
+    ]
   },
   "10.5281/zenodo.16417279": {
     "record_id": "16417279",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16417279/files/Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
+    "filename": "Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
+        "url": "https://zenodo.org/records/16417279/files/Takahashi_2025_Unified_Theory_of_Intelligence.pdf",
+        "size": 158647,
+        "score": 18
+      }
+    ]
   },
   "10.5281/zenodo.16420862": {
     "record_id": "16420862",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16420862/files/Takahashi_2025_Self_Organizing_Intelligence.pdf",
+    "filename": "Takahashi_2025_Self_Organizing_Intelligence.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Self_Organizing_Intelligence.pdf",
+        "url": "https://zenodo.org/records/16420862/files/Takahashi_2025_Self_Organizing_Intelligence.pdf",
+        "size": 114107,
+        "score": 17
+      }
+    ]
   },
   "10.5281/zenodo.16518769": {
     "record_id": "16518769",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+    "filename": "Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+        "url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+        "size": 1468196,
+        "score": 19
+      }
+    ]
   },
   "10.5281/zenodo.16623941": {
     "record_id": "16623941",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+    "filename": "Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+        "url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+        "size": 69200,
+        "score": 20
+      }
+    ]
   },
   "10.5281/zenodo.16625104": {
     "record_id": "16625104",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "size": 46155,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16625633": {
     "record_id": "16625633",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "size": 46155,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16633860": {
     "record_id": "16633860",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
+    "filename": "Takahashi_2025_Post_LLM.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Post_LLM.pdf",
+        "url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
+        "size": 87302,
+        "score": 6
+      }
+    ]
   },
   "10.5281/zenodo.16663817": {
     "record_id": "16663817",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
+    "filename": "Takahashi_2025_Proposals_for_AGI.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Proposals_for_AGI.pdf",
+        "url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
+        "size": 375339,
+        "score": 4
+      }
+    ]
   },
   "10.5281/zenodo.16675542": {
     "record_id": "16675542",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+    "filename": "2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+    "candidates": [
+      {
+        "filename": "2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+        "url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+        "size": 298812,
+        "score": 14
+      }
+    ]
   },
   "10.5281/zenodo.16728870": {
     "record_id": "16728870",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+    "filename": "Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+        "url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+        "size": 232395,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16734292": {
     "record_id": "16734292",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+    "filename": "Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+        "url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+        "size": 192759,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16734893": {
     "record_id": "16734893",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+    "filename": "A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+    "candidates": [
+      {
+        "filename": "A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+        "url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+        "size": 265654,
+        "score": 25
+      }
+    ]
   },
   "10.5281/zenodo.16761052": {
     "record_id": "16761052",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+    "filename": "A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+    "candidates": [
+      {
+        "filename": "A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+        "url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+        "size": 271212,
+        "score": 41
+      }
+    ]
   },
   "10.5281/zenodo.16777305": {
     "record_id": "16777305",
