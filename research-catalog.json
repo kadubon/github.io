@@ -3,7 +3,7 @@
   "catalog_type": "research_works",
   "canonical_url": "https://kadubon.github.io/github.io/research-catalog.json",
   "source_url": "https://kadubon.github.io/github.io/works.html",
-  "source_state_date": "2026-09-07",
+  "source_state_date": "2026-09-21",
   "creator": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -229,7 +229,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.21349042",
       "canonical_url": "https://doi.org/10.5281/zenodo.21349042",
       "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-07-14-collective-phase-control-fabric-21349042",
-      "abstract": "Collective Phase Control Fabric (CPCF) is an Apache-2.0 Python evidence-control toolkit for finite collective workflows. It supports evidence-bound analysis and finite intervention control by validating provenance, exact resource constraints, causal-formation records, catalytic support, verification capacity, independence, perturbations, coordination, and externally registered trial bindings. Version v0.6.0 is a Beta research package with an offline cpcf CLI, schema inspection, self-checks, bundle verification, legacy inspection, typed evidence, trust, scientific-analysis, planning, coordination, and trial models, plus optional API, worker, runner, solver, and KMS integrations. The release also includes reproducible environment metadata, generated references, SBOM-ready materials, checksums, and build provenance for Windows and Linux CPython 3.12-3.14 workflows. CPCF reports operational organization profiles for audit, decision support, scientific computing, provenance tracking, and multi-agent workflow analysis. It does not claim to create, detect, or certify collective superintelligence, causality, statistical validity, thermodynamic feasibility, physical phase behavior, deployment assurance, or runner isolation; unavailable external soak, restore, threat-model review, and penetration-test evidence remain out of scope.",
+      "abstract": "Collective Phase Control Fabric (CPCF) is an Apache-2.0 Python evidence-control toolkit for finite collective workflows. It supports evidence-bound analysis and finite intervention control by validating provenance, exact resource constraints, causal-formation records, catalytic support, verification capacity, independence, perturbations, coordination, and externally registered trial bindings. Version v1.0.1 is a Beta research package with an offline cpcf CLI, schema inspection, self-checks, bundle verification, legacy inspection, typed evidence, trust, scientific-analysis, planning, coordination, and trial models, plus optional API, worker, runner, solver, and KMS integrations. The release also includes reproducible environment metadata, generated references, SBOM-ready materials, checksums, and build provenance for Windows and Linux CPython 3.12-3.14 workflows. CPCF reports operational organization profiles for audit, decision support, scientific computing, provenance tracking, and multi-agent workflow analysis. It does not claim to create, detect, or certify collective superintelligence, causality, statistical validity, thermodynamic feasibility, physical phase behavior, deployment assurance, or runner isolation; unavailable external soak, restore, threat-model review, and penetration-test evidence remain out of scope. The current release additionally supports fixed-model information gathering and independently checked finite capability composition under declared costs. These are model demonstrations, not an empirical acceleration experiment. Latest GitHub release observed on 2026-09-21: v1.0.1. Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
       "keywords": [
         "evidence control",
         "collective workflows",
@@ -262,7 +262,13 @@
         "https://doi.org/10.5281/zenodo.21349900",
         "https://github.com/kadubon/collective-phase-control-fabric",
         "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v0.6.0",
-        "https://pypi.org/project/collective-phase-control-fabric/"
+        "https://pypi.org/project/collective-phase-control-fabric/",
+        "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
+      ],
+      "software_version": "v1.0.1",
+      "software_license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "code_repositories": [
+        "https://github.com/kadubon/collective-phase-control-fabric"
       ]
     },
     {
@@ -365,7 +371,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.21103275",
       "canonical_url": "https://doi.org/10.5281/zenodo.21103275",
       "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-07-01-collective-capability-runtime-21103275",
-      "abstract": "Collective Capability Runtime (CCR) is an Apache-2.0 JSON-first Python runtime for coordinating verifiable work across AI agents. It keeps tasks, evidence, disagreements, verification, residuals, and unfinished work visible so several agents can build reusable capability without treating repeated answers or raw agent count as proof. CCR uses a CLI, JSON schemas, SQLite or PostgreSQL state, and an optional HTTP API to exchange auditable work. Version v1.6.0 adds distributed collective runtime support: independent agent workcells, transactional task leases with heartbeats and fencing tokens, verified residual resolution, optional PostgreSQL 16+ workers, OIDC + DPoP authentication, resource-matched experiments, and approval-bound external operation gates. It measures protocol-relative ASI-proxy progress through checked results, residual half-life, verification yield, independent contributors, error correlation, and communication or verification cost under declared resource limits. CCR does not run an LLM and does not claim real ASI, consciousness, model-weight updates, legal authority, or physical outcomes; accepted reports are not settlement, unknown measurements remain unknown, and side-effecting provider execution must pass explicit approval and dispatch controls.",
+      "abstract": "Collective Capability Runtime (CCR) is an Apache-2.0 JSON-first Python runtime for coordinating verifiable work across AI agents. It keeps tasks, evidence, disagreements, verification, residuals, and unfinished work visible so several agents can build reusable capability without treating repeated answers or raw agent count as proof. CCR uses a CLI, JSON schemas, SQLite or PostgreSQL state, and an optional HTTP API to exchange auditable work. The distributed runtime includes: independent agent workcells, transactional task leases with heartbeats and fencing tokens, verified residual resolution, optional PostgreSQL 16+ workers, OIDC + DPoP authentication, resource-matched experiments, and approval-bound external operation gates. It measures protocol-relative ASI-proxy progress through checked results, residual half-life, verification yield, independent contributors, error correlation, and communication or verification cost under declared resource limits. CCR does not run an LLM and does not claim real ASI, consciousness, model-weight updates, legal authority, or physical outcomes; accepted reports are not settlement, unknown measurements remain unknown, and side-effecting provider execution must pass explicit approval and dispatch controls. Version v1.8.0 adds opt-in evidence-bound service accounting, receiver-qualified reuse and verification-aware allocation. Its offline growth example is synthetic. Latest GitHub release observed on 2026-09-21: v1.8.0. Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
       "keywords": [
         "AI agents",
         "multi-agent runtime",
@@ -395,7 +401,13 @@
         "https://doi.org/10.5281/zenodo.21287077",
         "https://github.com/kadubon/collective-capability-runtime",
         "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.6.0",
-        "https://pypi.org/project/collective-capability-runtime/"
+        "https://pypi.org/project/collective-capability-runtime/",
+        "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.8.0"
+      ],
+      "software_version": "v1.8.0",
+      "software_license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "code_repositories": [
+        "https://github.com/kadubon/collective-capability-runtime"
       ]
     },
     {
@@ -690,7 +702,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20569166",
       "canonical_url": "https://doi.org/10.5281/zenodo.20569166",
       "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-06-09-percolation-inversion-compiler-20569166",
-      "abstract": "Percolation Inversion Compiler is an Apache-2.0 certificate compiler and local AI agent runtime with a canonical Python/pip implementation and a TypeScript/npm port. It turns finite inputs into checked capability packets, proof obligations, residual ledgers, typed trace normal forms, frontier extraction, salience queues, verifier tasks, provenance records, and machine-readable schemas. The Python package percolation-inversion-compiler is v1.1.0 and adds strict public input boundaries, known/unknown measurement, witness-only positive bottleneck coordinates, measured queue costs, rechecked abstraction-lift records, finite typed traces, resource-matched acceleration measurement, and an explicit approval-bound operation path. The npm package percolation-inversion-compiler-ts is v1.1.0 and provides cross-language runtime support for strict PIC checks, resource-matched acceleration measurement, diagnostic flow checks, verified capability routing, approval-bound typed operations, and the pic / pic-ts CLI for Node.js agent workflows. PIC supports AI agent integration and protocol-relative ASI-proxy phase control, but it does not prove real artificial superintelligence, consciousness, model-weight change, legal authority, physical or oracle truth, or observed outcomes; missing values stay unknown, candidate volume does not become verified capability, and packet content, trace content, safe-command hints, and check results are never executed automatically.",
+      "abstract": "Percolation Inversion Compiler is an Apache-2.0 certificate compiler and local AI agent runtime with a canonical Python/pip implementation and a TypeScript/npm port. It turns finite inputs into checked capability packets, proof obligations, residual ledgers, typed trace normal forms, frontier extraction, salience queues, verifier tasks, provenance records, and machine-readable schemas. The Python package percolation-inversion-compiler is v1.1.0 and adds strict public input boundaries, known/unknown measurement, witness-only positive bottleneck coordinates, measured queue costs, rechecked abstraction-lift records, finite typed traces, resource-matched acceleration measurement, and an explicit approval-bound operation path. The npm package percolation-inversion-compiler-ts is v1.1.0 and provides cross-language runtime support for strict PIC checks, resource-matched acceleration measurement, diagnostic flow checks, verified capability routing, approval-bound typed operations, and the pic / pic-ts CLI for Node.js agent workflows. PIC supports AI agent integration and protocol-relative ASI-proxy phase control, but it does not prove real artificial superintelligence, consciousness, model-weight change, legal authority, physical or oracle truth, or observed outcomes; missing values stay unknown, candidate volume does not become verified capability, and packet content, trace content, safe-command hints, and check results are never executed automatically. Latest GitHub release observed on 2026-09-21: Python v1.1.0; TypeScript v1.1.0. Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
       "keywords": [
         "AI agents",
         "AI agent output checker",
@@ -734,6 +746,12 @@
         "https://github.com/kadubon/percolation-inversion-compiler-ts",
         "https://github.com/kadubon/percolation-inversion-compiler-ts/releases/tag/v1.1.0",
         "https://www.npmjs.com/package/percolation-inversion-compiler-ts"
+      ],
+      "software_version": "Python v1.1.0; TypeScript v1.1.0",
+      "software_license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "code_repositories": [
+        "https://github.com/kadubon/percolation-inversion-compiler",
+        "https://github.com/kadubon/percolation-inversion-compiler-ts"
       ]
     },
     {
@@ -1106,7 +1124,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20107661",
       "canonical_url": "https://doi.org/10.5281/zenodo.20107661",
       "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-05-10-oasg-observable-only-autonomic-slack-gradient-theory-20107661",
-      "abstract": "Apache-2.0 Python reference implementation for local-first, model-agnostic workflow-policy optimization in long-running AI-agent workflows. OASG records observable history as append-only JSONL ledgers, verifies canonical hashes and ledger prefixes, reduces history into deterministic operational state, computes finite-horizon KLB_2 viability lower bounds, and promotes only receipt-backed workflow-policy changes through a conservative no-meta dominance gate.",
+      "abstract": "Apache-2.0 Python reference implementation for local-first, model-agnostic workflow-policy optimization in long-running AI-agent workflows. OASG records observable history as append-only JSONL ledgers, verifies canonical hashes and ledger prefixes, reduces history into deterministic operational state, computes finite-horizon KLB_2 viability lower bounds, and promotes only receipt-backed workflow-policy changes through a conservative no-meta dominance gate. Latest GitHub release observed on 2026-09-21: v1.1.0. Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
       "keywords": [
         "AI agents",
         "long-running AI",
@@ -1127,6 +1145,12 @@
       "genre": "",
       "same_as": [
         "https://doi.org/10.5281/zenodo.20107661",
+        "https://github.com/kadubon/oasg",
+        "https://github.com/kadubon/oasg/releases/tag/v1.1.0"
+      ],
+      "software_version": "v1.1.0",
+      "software_license": "https://www.apache.org/licenses/LICENSE-2.0",
+      "code_repositories": [
         "https://github.com/kadubon/oasg"
       ]
     },

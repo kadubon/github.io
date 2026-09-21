@@ -30,6 +30,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install beautifulsoup4
+          pip install -r requirements-index.txt
       - name: Generate feed.xml
         run: |
           python scripts/generate_feed.py
@@ -41,16 +42,29 @@ jobs:
       - name: Generate agent catalogs
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python scripts/generate_agent_catalogs.py
+        run: |
+          python scripts/generate_agent_catalogs.py
+          python scripts/generate_paper_pages.py
+          python scripts/generate_collective_intelligence_index.py
+          python scripts/validate_paper_pages.py
+          python scripts/validate_collective_intelligence_index.py
 
       - name: Commit and push derived files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f feed.xml agent-index.json research-catalog.json oss-catalog.json oss.html
+          git add -f feed.xml agent-index.json research-catalog.json oss-catalog.json oss.html papers/ sitemap.xml data/zenodo-pdf-map.json collective-intelligence-index* collective-intelligence.bib
           if [[ -n "$(git diff --cached --name-only)" ]]; then
             git commit -m "chore(discovery): refresh feed and agent catalogs"
             git pull --rebase origin main
+            python scripts/generate_feed.py
+            python scripts/generate_agent_catalogs.py --offline
+            python scripts/generate_paper_pages.py
+            python scripts/generate_collective_intelligence_index.py
+            python scripts/validate_paper_pages.py
+            python scripts/validate_collective_intelligence_index.py
+            git add -f feed.xml agent-index.json research-catalog.json oss-catalog.json oss.html papers/ sitemap.xml data/zenodo-pdf-map.json collective-intelligence-index* collective-intelligence.bib
+            if ! git diff --cached --quiet; then git commit -m "chore(discovery): reconcile rebased sources"; fi
             git push
           else
             echo "No changes to commit."

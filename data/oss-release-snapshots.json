@@ -1,0 +1,714 @@
+{
+  "repositories": {
+    "AIconsciousness": {
+      "default_branch_revision": "b4f7bfb5a4e6792914b8f1dad2ba45d4293f2d2f",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/AIconsciousness"
+    },
+    "ASI": {
+      "default_branch_revision": "c4b7ef8f3523f694c72451b6242ea88d1f46aa1d",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/ASI"
+    },
+    "Benevolent-Propagation-spec": {
+      "default_branch_revision": "3f57f917185087ff1196fe079c718dd230f21295",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2025-09-16T23:56:48Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/Benevolent-Propagation-spec/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/Benevolent-Propagation-spec"
+    },
+    "GEAR": {
+      "default_branch_revision": "fabadcc878a1d8271483407050ddce9e0a7ec448",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/GEAR"
+    },
+    "Oversight-Centered-Metrology-PoC": {
+      "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC"
+    },
+    "Proof-Carrying-Skills--PCS-Core-": {
+      "default_branch_revision": "d4e148a42b450d5a03d7e544e644134fa6bc04c6",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-02-13T06:12:49Z",
+        "tag": "v.1",
+        "url": "https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-/releases/tag/v.1"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-"
+    },
+    "UniverseModel": {
+      "default_branch_revision": "19614c7828aa0b984fe3a8136b96c1abd3ab6adc",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2025-08-22T03:04:52Z",
+        "tag": "v1.0.0",
+        "url": "https://github.com/kadubon/UniverseModel/releases/tag/v1.0.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/UniverseModel"
+    },
+    "WisdomWeaver": {
+      "default_branch_revision": "84d9a9e146b8bb7ac0a7813a4282ae2b00130270",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/WisdomWeaver"
+    },
+    "agent-lifecycle-certification-poc": {
+      "default_branch_revision": "c12cf337afe2ca73350f0eeb33f0b3b6582b4382",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/agent-lifecycle-certification-poc"
+    },
+    "agent-trust-residual-benchmark": {
+      "default_branch_revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/agent-trust-residual-benchmark/releases/download/v0.2.0/agent_trust_residual_benchmark-0.2.0-py3-none-any.whl",
+          "https://github.com/kadubon/agent-trust-residual-benchmark/releases/download/v0.2.0/agent_trust_residual_benchmark-0.2.0.tar.gz"
+        ],
+        "published_at": "2026-07-19T12:10:23Z",
+        "tag": "v0.2.0",
+        "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/agent-trust-residual-benchmark"
+    },
+    "ai-real-economy-bottleneck-simulator": {
+      "default_branch_revision": "f9427a832911d8798d928a4fae6a3dfa33910bba",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-04-30T02:45:55Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/ai-real-economy-bottleneck-simulator/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/ai-real-economy-bottleneck-simulator"
+    },
+    "alt-foundry-kernel": {
+      "default_branch_revision": "e0296486bb568fdeeda449dada3bc67753ddfe7f",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/alt-foundry-kernel/releases/download/v0.5.0/alt_foundry_kernel-0.5.0-py3-none-any.whl",
+          "https://github.com/kadubon/alt-foundry-kernel/releases/download/v0.5.0/alt_foundry_kernel-0.5.0.tar.gz",
+          "https://github.com/kadubon/alt-foundry-kernel/releases/download/v0.5.0/qualification-manifest.json",
+          "https://github.com/kadubon/alt-foundry-kernel/releases/download/v0.5.0/SHA256SUMS",
+          "https://github.com/kadubon/alt-foundry-kernel/releases/download/v0.5.0/validation-manifest.json"
+        ],
+        "published_at": "2026-09-20T04:42:20Z",
+        "tag": "v0.5.0",
+        "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/alt-foundry-kernel"
+    },
+    "asi-proxy-phase-growth-simulator": {
+      "default_branch_revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/download/v0.1.0/asi_proxy_phase_growth_simulator-0.1.0-py3-none-any.whl",
+          "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/download/v0.1.0/asi_proxy_phase_growth_simulator-0.1.0.tar.gz"
+        ],
+        "published_at": "2026-07-21T04:16:46Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator"
+    },
+    "asi-proxy-phase-skill": {
+      "default_branch_revision": "5706214a9a3d5e194f371f8ccc2eb71132f82270",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/asi-proxy-phase-skill/releases/download/v1.1.1/asi-proxy-phase-skill-v1.1.1.zip",
+          "https://github.com/kadubon/asi-proxy-phase-skill/releases/download/v1.1.1/asi-proxy-phase-skill-v1.1.1.zip.sha256"
+        ],
+        "published_at": "2026-07-31T01:31:01Z",
+        "tag": "v1.1.1",
+        "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/asi-proxy-phase-skill"
+    },
+    "audit-closed-ai-scientist": {
+      "default_branch_revision": "1e844d1bca18d7bb298aa198e1250bb07bd7ea44",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-08-26T02:05:53Z",
+        "tag": "v0.2.0",
+        "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/audit-closed-ai-scientist"
+    },
+    "bottleneck-audit-toolkit": {
+      "default_branch_revision": "7889666b9490ba9f3811c2919dccd26e928b5dbb",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2025-12-26T08:33:00Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/bottleneck-audit-toolkit/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/bottleneck-audit-toolkit"
+    },
+    "cait-certificate-schema": {
+      "default_branch_revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/cait-certificate-schema/releases/download/v0.2.0/cait_certificate_schema-0.2.0-py3-none-any.whl",
+          "https://github.com/kadubon/cait-certificate-schema/releases/download/v0.2.0/cait_certificate_schema-0.2.0.tar.gz",
+          "https://github.com/kadubon/cait-certificate-schema/releases/download/v0.2.0/SHA256SUMS"
+        ],
+        "published_at": "2026-09-13T00:23:18Z",
+        "tag": "v0.2.0",
+        "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/cait-certificate-schema"
+    },
+    "certified-local-participation-gate": {
+      "default_branch_revision": "8f598604cdab5856840d7c0a30356a7b3a391818",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/certified-local-participation-gate/releases/download/v0.1.1/clpg-0.1.1-py3-none-any.whl",
+          "https://github.com/kadubon/certified-local-participation-gate/releases/download/v0.1.1/clpg-0.1.1.tar.gz"
+        ],
+        "published_at": "2026-05-14T04:19:27Z",
+        "tag": "v0.1.1",
+        "url": "https://github.com/kadubon/certified-local-participation-gate/releases/tag/v0.1.1"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/certified-local-participation-gate"
+    },
+    "certified-memory-governance-layer": {
+      "default_branch_revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-14T01:30:00Z",
+        "tag": "v1.1.2",
+        "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/certified-memory-governance-layer"
+    },
+    "certified-workflow-conversion": {
+      "default_branch_revision": "2d5d43f50f92fd3d33f3e34301aec86354b12906",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-07T00:14:46Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/certified-workflow-conversion/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/certified-workflow-conversion"
+    },
+    "cgt-availability": {
+      "default_branch_revision": "264b76566302dca1689aebd50c5105c4d70850d3",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-18T05:34:18Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/cgt-availability/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/cgt-availability"
+    },
+    "cgt-bandwidth-dynamics": {
+      "default_branch_revision": "ed73e79ac29f083440e0d2bf5ff2b6f38ba88358",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-19T06:05:01Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/cgt-bandwidth-dynamics/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/cgt-bandwidth-dynamics"
+    },
+    "cgt-ledgered-scientific-availability": {
+      "default_branch_revision": "706bde2748135a4f41c27328442f5ef3d44d803c",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-29T04:56:45Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/cgt-ledgered-scientific-availability/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/cgt-ledgered-scientific-availability"
+    },
+    "cgt-marker": {
+      "default_branch_revision": "206ba1f451b134cf1226393bd42b7e134789f4d0",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/cgt-marker"
+    },
+    "cimt-kernel": {
+      "default_branch_revision": "1a48f0862cc346f0dcbd9a4d987f35f504d29455",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/cimt-kernel"
+    },
+    "collective-capability-runtime": {
+      "default_branch_revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/collective_capability_runtime-1.8.0-py3-none-any.whl",
+          "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/collective_capability_runtime-1.8.0.tar.gz",
+          "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/SHA256SUMS"
+        ],
+        "published_at": "2026-09-12T23:16:29Z",
+        "tag": "v1.8.0",
+        "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.8.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/collective-capability-runtime"
+    },
+    "collective-phase-control-fabric": {
+      "default_branch_revision": "340b4899d5b0892e06d7d2c1ab1f1d48df15e981",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/collective-phase-control-fabric/releases/download/v1.0.1/collective_phase_control_fabric-1.0.1-py3-none-any.whl",
+          "https://github.com/kadubon/collective-phase-control-fabric/releases/download/v1.0.1/collective_phase_control_fabric-1.0.1.tar.gz",
+          "https://github.com/kadubon/collective-phase-control-fabric/releases/download/v1.0.1/cpcf-sbom.cdx.json",
+          "https://github.com/kadubon/collective-phase-control-fabric/releases/download/v1.0.1/SHA256SUMS",
+          "https://github.com/kadubon/collective-phase-control-fabric/releases/download/v1.0.1/slsa-provenance.jsonl"
+        ],
+        "published_at": "2026-09-13T15:02:46Z",
+        "tag": "v1.0.1",
+        "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/collective-phase-control-fabric"
+    },
+    "fost-agent-ledger": {
+      "default_branch_revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-07-02T08:04:35Z",
+        "tag": "v2.0.0",
+        "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/fost-agent-ledger"
+    },
+    "frontier-transfer-certifier": {
+      "default_branch_revision": "5a392e99e6683cc0e58e39ca27d81df7ddc4fc92",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/frontier-transfer-certifier"
+    },
+    "future-claim-certifier": {
+      "default_branch_revision": "017a4c1be9adce4cd7035d77a8b73520884e5243",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/future_claim_certifier-1.1.0-py3-none-any.whl",
+          "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/future_claim_certifier-1.1.0.tar.gz",
+          "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/python-dependencies.json",
+          "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/SHA256SUMS.txt"
+        ],
+        "published_at": "2026-07-06T23:41:50Z",
+        "tag": "v1.1.0",
+        "url": "https://github.com/kadubon/future-claim-certifier/releases/tag/v1.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/future-claim-certifier"
+    },
+    "github.io": {
+      "default_branch_revision": "bbb39fe095d5b68c2333fdb48da6ac756fd3edbc",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-08-22T05:35:27Z",
+        "tag": "v1.4.0",
+        "url": "https://github.com/kadubon/github.io/releases/tag/v1.4.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/github.io"
+    },
+    "long-running-AI-agent-PoC": {
+      "default_branch_revision": "cdbdb00b7d04a99db1ec3f73e0286a1b6ec1552b",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/long-running-AI-agent-PoC"
+    },
+    "loscr": {
+      "default_branch_revision": "334307b59a4870b90f6162705c793bb5615a555a",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-04-29T05:30:28Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/loscr"
+    },
+    "memoryflow-agent-memory-auditor": {
+      "default_branch_revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-01T03:15:40Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor"
+    },
+    "no-meta-authority-runtime": {
+      "default_branch_revision": "7acf0b9c1a0d4a6598f0c675f4202b21de17950d",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/no-meta-authority-runtime"
+    },
+    "no-meta-drift-papers": {
+      "default_branch_revision": "068851c962c5b7072d2fbb8e9f55a32b4711a351",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-02-27T01:53:16Z",
+        "tag": "v.2",
+        "url": "https://github.com/kadubon/no-meta-drift-papers/releases/tag/v.2"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/no-meta-drift-papers"
+    },
+    "no-meta-observable-invention-poc": {
+      "default_branch_revision": "f83066ede5fd997672e0869a98f13c2109d10591",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/no-meta-observable-invention-poc"
+    },
+    "no-meta-standing-ledger": {
+      "default_branch_revision": "e87a9001536070bb968ec569f07e287a2ee386d2",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-04-30T01:05:34Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/no-meta-standing-ledger/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/no-meta-standing-ledger"
+    },
+    "oasg": {
+      "default_branch_revision": "7593f74b5d6a4701865dc97b079c3e725c4fd7ee",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-05-10T08:47:02Z",
+        "tag": "v1.1.0",
+        "url": "https://github.com/kadubon/oasg/releases/tag/v1.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/oasg"
+    },
+    "observable-agent-workflow-memory": {
+      "default_branch_revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/observable-agent-workflow-memory"
+    },
+    "observable-replay-lab": {
+      "default_branch_revision": "6b4048889b8e01978f7296f73558e9be4be41ebc",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-03-04T01:50:13Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/observable-replay-lab/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/observable-replay-lab"
+    },
+    "paper-tex-backup": {
+      "default_branch_revision": "7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-06-16T23:48:10Z",
+        "tag": "v0.1.0",
+        "url": "https://github.com/kadubon/paper-tex-backup/releases/tag/v0.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/paper-tex-backup"
+    },
+    "percolation-inversion-compiler": {
+      "default_branch_revision": "55cd5f219d02f02927e247317156e757b1d5d6da",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation-inversion-compiler-1.1.0.cyclonedx.json",
+          "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation-inversion-compiler-1.1.0.provenance.json",
+          "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation-inversion-compiler-1.1.0.sbom.json",
+          "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation-inversion-compiler-1.1.0.schemas.zip",
+          "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation_inversion_compiler-1.1.0-py3-none-any.whl",
+          "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation_inversion_compiler-1.1.0.tar.gz"
+        ],
+        "published_at": "2026-07-11T07:05:56Z",
+        "tag": "v1.1.0",
+        "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/percolation-inversion-compiler"
+    },
+    "percolation-inversion-compiler-ts": {
+      "default_branch_revision": "3bde373ab1a159fbf207e1726e39c132f12a9c89",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-07-11T07:09:48Z",
+        "tag": "v1.1.0",
+        "url": "https://github.com/kadubon/percolation-inversion-compiler-ts/releases/tag/v1.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/percolation-inversion-compiler-ts"
+    },
+    "pic-local-llm-phase-experiment": {
+      "default_branch_revision": "50e10a05dec4fc72df4170610778838f686d3223",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-06-14T08:21:21Z",
+        "tag": "v0.2.0",
+        "url": "https://github.com/kadubon/pic-local-llm-phase-experiment/releases/tag/v0.2.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/pic-local-llm-phase-experiment"
+    },
+    "pic-openclaw-skill": {
+      "default_branch_revision": "31e4e5976fd0c14fc8b9b342b7271759be5987cd",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-06-22T09:39:11Z",
+        "tag": "v0.2.0",
+        "url": "https://github.com/kadubon/pic-openclaw-skill/releases/tag/v0.2.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/pic-openclaw-skill"
+    },
+    "problem-frame-gate": {
+      "default_branch_revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "latest_release": {
+        "assets": [],
+        "published_at": "2026-07-02T01:04:13Z",
+        "tag": "v1.1.0",
+        "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/problem-frame-gate"
+    },
+    "record-absence-poc": {
+      "default_branch_revision": "7f6aa17574b52e1ed978e606a91711c3e0d32bcc",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/record-absence-poc"
+    },
+    "rsi-yardstick-drift-poc": {
+      "default_branch_revision": "a936b5928235f5e2dde67c9224b8e8d897ea8bd1",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/rsi-yardstick-drift-poc"
+    },
+    "search-stability-lab": {
+      "default_branch_revision": "54b24fce5a62380c98fa89d2cb4cc9eadc120ce5",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/search-stability-lab"
+    },
+    "semantic-translation-contracts-poc": {
+      "default_branch_revision": "773ca7b422063395c09de5bae51af94726a65f7a",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/semantic-translation-contracts-poc"
+    },
+    "sovereign-epistemic-commons-poc": {
+      "default_branch_revision": "14471f43d2921221f62b350d0726be592d9dce24",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/sovereign-epistemic-commons-poc"
+    },
+    "split-inference-bench": {
+      "default_branch_revision": "a9bbbfe1b390e5888dca0e1b04c14ea736941043",
+      "latest_release": null,
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "no_published_github_release",
+      "source_url": "https://github.com/kadubon/split-inference-bench"
+    },
+    "verification-ecology-kit": {
+      "default_branch_revision": "4008e311ceb16edd6e74d9f71341a90120c0d046",
+      "latest_release": {
+        "assets": [
+          "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/SHA256SUMS",
+          "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/verification_ecology_kit-1.3.0-py3-none-any.whl",
+          "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/verification_ecology_kit-1.3.0.tar.gz"
+        ],
+        "published_at": "2026-09-12T23:26:21Z",
+        "tag": "v1.3.0",
+        "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
+      },
+      "observed_at": "2026-09-21T00:45:42+00:00",
+      "package_registry_status": "not_checked_by_this_github_refresh",
+      "refresh_status": "current",
+      "release_status": "observed",
+      "source_url": "https://github.com/kadubon/verification-ecology-kit"
+    }
+  },
+  "schema_version": "1.0"
+}

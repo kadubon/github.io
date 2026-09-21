@@ -85,3 +85,24 @@ See `LICENCE`.
 ## Deployment
 
 This is a static website and can be hosted on GitHub Pages or any static hosting platform.
+
+## Collective Intelligence Research and OSS Index
+
+[English](https://kadubon.github.io/github.io/collective-intelligence-index.html) ·
+[日本語](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html) ·
+[registry](https://kadubon.github.io/github.io/collective-intelligence-index.json).
+The static index joins existing publication and repository identities with a
+bilingual editorial/evidence layer. It includes problem routes, version-bound
+relationships, complete Markdown and a generated verified-field bibliography.
+Upstream fixture checks, local index tests and proposed integrations remain
+distinct. No indexed package or autonomous service runs on the website.
+
+See [maintenance](docs/collective-intelligence-index-maintenance.md) for source
+authority, reviewed corpus, unknowns, release refresh, schema and validation.
+Run `python scripts/generate_collective_intelligence_index.py --check`,
+`python scripts/validate_collective_intelligence_index.py` and
+`python -m unittest discover -s tests -v` after installing `requirements-index.txt`.
+Use `python scripts/generate_agent_catalogs.py --offline` for deterministic
+catalogue regeneration. GitHub release observations are separate from source
+versions and refreshed explicitly by `scripts/refresh_oss_release_snapshots.py`.
+`.nojekyll` preserves the plain Markdown downloads on the existing static Pages site.

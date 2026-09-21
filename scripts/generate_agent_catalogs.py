@@ -11,6 +11,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 from html import escape
 import json
+import argparse
 import os
 from pathlib import Path
 import re
@@ -170,6 +171,11 @@ def load_research_catalog() -> tuple[list[dict[str, Any]], str]:
         if record["record_type"] == "scholarly_article":
             record["slug"] = stable_slug(local_record_url, date_published, title, doi)
             record["landing_page_url"] = f"{SITE_URL}papers/{record['slug']}/"
+        else:
+            record['software_version'] = node.get('softwareVersion')
+            record['software_license'] = node.get('license')
+            sources = node.get('codeRepository', [])
+            record['code_repositories'] = sources if isinstance(sources, list) else [sources]
         records.append(record)
 
     records.sort(
@@ -354,6 +360,7 @@ def agent_index(
             "github": GITHUB_PROFILE,
         },
         "scope": [
+            "collective capability research, problem routing and version-bound OSS interoperability",
             "auditable autonomous intelligence",
             "observable-only and no-meta AI governance",
             "deterministic replay and fail-closed verification",
@@ -363,6 +370,13 @@ def agent_index(
             "provenance, claim certification, and scientific availability",
         ],
         "entry_points": {
+            "collective_intelligence_en": f"{SITE_URL}collective-intelligence-index.html",
+            "collective_intelligence_ja": f"{SITE_URL}collective-intelligence-index.ja.html",
+            "collective_intelligence_registry": f"{SITE_URL}collective-intelligence-index.json",
+            "collective_intelligence_markdown": f"{SITE_URL}collective-intelligence-index.md",
+            "collective_intelligence_markdown_ja": f"{SITE_URL}collective-intelligence-index.ja.md",
+            "collective_intelligence_schema": f"{SITE_URL}schemas/collective-intelligence-index.schema.json",
+            "collective_intelligence_bibliography": f"{SITE_URL}collective-intelligence.bib",
             "human_overview": SITE_URL,
             "research_map": f"{SITE_URL}research-map.html",
             "publication_index": f"{SITE_URL}works.html",
@@ -489,6 +503,9 @@ def render_oss_html(records: list[dict[str, Any]]) -> str:
           <div><dt>License</dt><dd>{escape(record["license_spdx"] or "Not declared in GitHub metadata")}</dd></div>
           <div><dt>Last source push</dt><dd><time datetime="{escape(record["pushed_at"], quote=True)}">{escape(iso_date(record["pushed_at"]) or "Unknown")}</time></dd></div>
           <div><dt>Default branch</dt><dd>{escape(record["default_branch"] or "Unknown")}</dd></div>
+          <div><dt>Latest observed GitHub release</dt><dd>{escape((record.get("release_observation", {}).get("latest_release") or {}).get("tag", "No published release observed / unknown"))}</dd></div>
+          <div><dt>Release/source observation</dt><dd>{escape(record.get("release_observation", {}).get("observed_at", "Unknown"))}</dd></div>
+          <div><dt>Default-branch revision</dt><dd>{escape(record.get("release_observation", {}).get("default_branch_revision", "Unknown"))}</dd></div>
           <div><dt>Related URL</dt><dd>{homepage}</dd></div>
         </dl>
         {topics_block}
@@ -533,6 +550,7 @@ def render_oss_html(records: list[dict[str, Any]]) -> str:
         <li><a href="{SITE_URL}">Home</a></li>
         <li><a href="{SITE_URL}research-map.html">Research Map</a></li>
         <li><a href="{SITE_URL}works.html">Works</a></li>
+        <li><a href="{SITE_URL}collective-intelligence-index.html">Collective Intelligence Index</a></li>
         <li><a href="{SITE_URL}agent-index.json">Agent Index</a></li>
       </ul>
     </nav>
@@ -563,8 +581,25 @@ def render_oss_html(records: list[dict[str, Any]]) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--offline', action='store_true', help='Reuse checked-in public OSS metadata; never access the network.')
+    args = parser.parse_args()
     research_records, research_state = load_research_catalog()
-    oss_records = load_oss_catalog()
+    oss_records = (json.loads((ROOT / 'oss-catalog.json').read_text(encoding='utf-8'))['repositories']
+                   if args.offline else load_oss_catalog())
+    snapshots = json.loads((ROOT / 'data/oss-release-snapshots.json').read_text(encoding='utf-8'))['repositories']
+    reviewed = json.loads((ROOT / 'data/collective-intelligence-evidence.json').read_text(encoding='utf-8'))
+    curation = json.loads((ROOT / 'data/collective-intelligence-curation.json').read_text(encoding='utf-8'))
+    licenses = {r['source_catalog_id']: reviewed['software'][r['id']]
+                for r in curation['resources'] if r['kind'] == 'software'}
+    for record in oss_records:
+        record['release_observation'] = snapshots.get(record['name'], {'refresh_status': 'unresolved'})
+        if record['full_name'] in licenses:
+            source = licenses[record['full_name']]
+            record.setdefault('github_license_spdx', record['license_spdx'])
+            record['license_spdx'] = source['license_spdx']
+            record['license_observation'] = {'url': source['license_url'], 'source_revision': source['source_revision'],
+                                           'reviewed_at': reviewed['reviewed_at'], 'method': 'LICENSE file inspected; GitHub detection kept separately'}
 
     write_json(
         ROOT / "research-catalog.json",

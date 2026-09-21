@@ -1,0 +1,2231 @@
+{
+  "schema_version": "1.0",
+  "modified_at": "2026-09-21",
+  "resources": [
+    {
+      "id": "paper-growth",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-09-07-observing-and-accelerating-collective-capability-growth-22604358",
+      "tier": "core",
+      "primary_role": "finite-control-and-information",
+      "roles": [
+        "finite-control-and-information"
+      ],
+      "summary": {
+        "en": "Joint task/research service, interaction ablation, evidence costs and funded continuation.",
+        "ja": "課題遂行・研究サービス、相互作用の除去比較、証拠費用と継続資源を扱う。"
+      },
+      "relevance_reason": {
+        "en": "Joint task/research service, interaction ablation, evidence costs and funded continuation.",
+        "ja": "課題遂行・研究サービス、相互作用の除去比較、証拠費用と継続資源を扱う。"
+      },
+      "limitations": {
+        "en": "Finite horizon; matched information/resources; calibration and model premises. Synthetic examples do not establish deployed acceleration.",
+        "ja": "有限期間、情報・資源を揃えた比較、校正とモデルの前提が必要。合成例は実運用の加速を実証しない。"
+      },
+      "evidence_refs": [
+        "e-paper-growth"
+      ],
+      "problem_ids": [
+        "accounting",
+        "information"
+      ]
+    },
+    {
+      "id": "paper-vet",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-07-03-verifier-ecology-theory-packetized-self-verification-under-residual-accountability-21147093",
+      "tier": "core",
+      "primary_role": "verification-capacity",
+      "roles": [
+        "verification-capacity"
+      ],
+      "summary": {
+        "en": "Scoped verifier packets preserve residuals and revisable boundaries when verification is the bottleneck.",
+        "ja": "検証が律速になるとき、残余義務と改訂可能な境界を検証パケットに保持する。"
+      },
+      "relevance_reason": {
+        "en": "Scoped verifier packets preserve residuals and revisable boundaries when verification is the bottleneck.",
+        "ja": "検証が律速になるとき、残余義務と改訂可能な境界を検証パケットに保持する。"
+      },
+      "limitations": {
+        "en": "Structural claims concern the declared transition model; packet acceptance is not external truth.",
+        "ja": "構造的主張は宣言した遷移モデル内。パケット受理は外界の真実の証明ではない。"
+      },
+      "evidence_refs": [
+        "e-paper-vet"
+      ],
+      "problem_ids": [
+        "verification-backlog"
+      ]
+    },
+    {
+      "id": "paper-ecpt",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-06-04-executable-capability-percolation-theory-20535654",
+      "tier": "core",
+      "primary_role": "capability-formation",
+      "roles": [
+        "capability-formation"
+      ],
+      "summary": {
+        "en": "Executable packet hypergraphs connect finite capability formation, queues and typed phase diagnostics.",
+        "ja": "実行可能なパケットのハイパーグラフから能力形成、待ち行列、型付き診断を整理する。"
+      },
+      "relevance_reason": {
+        "en": "Executable packet hypergraphs connect finite capability formation, queues and typed phase diagnostics.",
+        "ja": "実行可能なパケットのハイパーグラフから能力形成、待ち行列、型付き診断を整理する。"
+      },
+      "limitations": {
+        "en": "Quotients, response laws, baselines and certificates require their own witnesses; reachability alone is insufficient.",
+        "ja": "商・応答則・基準・証明には個別の証拠が必要。到達可能性だけでは不十分。"
+      },
+      "evidence_refs": [
+        "e-paper-ecpt"
+      ],
+      "problem_ids": [
+        "obligations"
+      ]
+    },
+    {
+      "id": "paper-alt",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-05-31-abstraction-liquidity-theory-20476200",
+      "tier": "core",
+      "primary_role": "reusable-abstraction",
+      "roles": [
+        "reusable-abstraction"
+      ],
+      "summary": {
+        "en": "Receiver-relative search-cost reduction is charged for formation, transfer, verification and lifecycle costs.",
+        "ja": "受け手ごとの探索費用削減を、形成・移転・検証・ライフサイクル費用と比較する。"
+      },
+      "relevance_reason": {
+        "en": "Receiver-relative search-cost reduction is charged for formation, transfer, verification and lifecycle costs.",
+        "ja": "受け手ごとの探索費用削減を、形成・移転・検証・ライフサイクル費用と比較する。"
+      },
+      "limitations": {
+        "en": "Positive certified surplus needs compatible measurement, transport, authority and finality premises; compression is insufficient.",
+        "ja": "正の認証済み剰余には測定・移転・権限・確定の前提が必要。圧縮だけでは足りない。"
+      },
+      "evidence_refs": [
+        "e-paper-alt"
+      ],
+      "problem_ids": [
+        "reuse"
+      ]
+    },
+    {
+      "id": "paper-cait",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-05-07-certified-autocatalytic-intelligence-theory-net-growth-20061296",
+      "tier": "core",
+      "primary_role": "capability-accounting",
+      "roles": [
+        "capability-accounting"
+      ],
+      "summary": {
+        "en": "Typed partial certificates separate endogenous verified capital reproduction from copied outputs and external inputs.",
+        "ja": "型付き部分証明で内生的な検証済み能力の再生産をコピーや外部投入と区別する。"
+      },
+      "relevance_reason": {
+        "en": "Typed partial certificates separate endogenous verified capital reproduction from copied outputs and external inputs.",
+        "ja": "型付き部分証明で内生的な検証済み能力の再生産をコピーや外部投入と区別する。"
+      },
+      "limitations": {
+        "en": "Composition needs domain witnesses; spectral diagnostics and accepted arrival-shaped records do not detect real ASI.",
+        "ja": "合成には領域証拠が必要。スペクトル診断や到達形式の記録は実際のASIを検出しない。"
+      },
+      "evidence_refs": [
+        "e-paper-cait"
+      ],
+      "problem_ids": [
+        "accounting"
+      ]
+    },
+    {
+      "id": "paper-loscr",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-04-28-layered-online-service-and-replay-control-for-veri-19836225",
+      "tier": "core",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification"
+      ],
+      "summary": {
+        "en": "Online ledgers, service obligations and replay libraries determine the strongest supported R&D claim.",
+        "ja": "オンライン台帳、サービス義務、再生ライブラリから研究開発の主張可能な範囲を決める。"
+      },
+      "relevance_reason": {
+        "en": "Online ledgers, service obligations and replay libraries determine the strongest supported R&D claim.",
+        "ja": "オンライン台帳、サービス義務、再生ライブラリから研究開発の主張可能な範囲を決める。"
+      },
+      "limitations": {
+        "en": "Estimator, evaluator, baseline and maintenance evidence remain premises; a claim checker cannot manufacture them.",
+        "ja": "推定・評価・基準・保守の根拠は前提であり、検査器が生成して補えるものではない。"
+      },
+      "evidence_refs": [
+        "e-paper-loscr"
+      ],
+      "problem_ids": []
+    },
+    {
+      "id": "paper-collective-phase",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2025-12-08-collective-phase-transitions-beyond-individual-s-17853555",
+      "tier": "core",
+      "primary_role": "collective-coordination",
+      "roles": [
+        "collective-coordination"
+      ],
+      "summary": {
+        "en": "A Gibbs-model construction separates individual saturation from collective advantage and local evaluability.",
+        "ja": "Gibbsモデルで個体の飽和と集団の優位、局所的な評価可能性を分ける。"
+      },
+      "relevance_reason": {
+        "en": "A Gibbs-model construction separates individual saturation from collective advantage and local evaluability.",
+        "ja": "Gibbsモデルで個体の飽和と集団の優位、局所的な評価可能性を分ける。"
+      },
+      "limitations": {
+        "en": "Statistical-mechanical model assumptions, mixing and a scalar proxy are explicit; no empirical AI phase transition follows.",
+        "ja": "統計力学モデル、混合性、スカラー代理量の仮定に依存する。AIの実際の相転移は導かれない。"
+      },
+      "evidence_refs": [
+        "e-paper-collective-phase"
+      ],
+      "problem_ids": [
+        "coordinate"
+      ]
+    },
+    {
+      "id": "paper-audit-closed",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-02-22-audit-closed-ai-scientist-protocol-18728589",
+      "tier": "core",
+      "primary_role": "research-validity",
+      "roles": [
+        "research-validity"
+      ],
+      "summary": {
+        "en": "Transparency logs, sequential e-processes and alpha accounting constrain adaptive research decisions.",
+        "ja": "透明性ログ、逐次e過程、アルファ予算で適応的研究判断を制約する。"
+      },
+      "relevance_reason": {
+        "en": "Transparency logs, sequential e-processes and alpha accounting constrain adaptive research decisions.",
+        "ja": "透明性ログ、逐次e過程、アルファ予算で適応的研究判断を制約する。"
+      },
+      "limitations": {
+        "en": "Statistical guarantees require the declared observation and sampling assumptions; synthetic benchmarks are bounded.",
+        "ja": "統計的保証には宣言した観測・標本化の仮定が必要。合成ベンチマークの範囲は有限。"
+      },
+      "evidence_refs": [
+        "e-paper-audit-closed"
+      ],
+      "problem_ids": [
+        "adaptive-research"
+      ]
+    },
+    {
+      "id": "paper-consequence",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023",
+      "tier": "supporting",
+      "primary_role": "finite-control-and-information",
+      "roles": [
+        "finite-control-and-information"
+      ],
+      "summary": {
+        "en": "Reusable update states retain globally coupled model uncertainty across later actions and observations.",
+        "ja": "後続の行動・観測を通じて、モデル間の結合した不確実性を保持する更新状態を扱う。"
+      },
+      "relevance_reason": {
+        "en": "Reusable update states retain globally coupled model uncertainty across later actions and observations.",
+        "ja": "後続の行動・観測を通じて、モデル間の結合した不確実性を保持する更新状態を扱う。"
+      },
+      "limitations": {
+        "en": "Finite dynamics/programs; local rectangular envelopes can be conservative. This is conceptual support, not a CPCF implementation identity.",
+        "ja": "有限の動力学・プログラムが基礎。局所的包絡は保守的になり得る。CPCFとの関係は概念的支援。"
+      },
+      "evidence_refs": [
+        "e-paper-consequence"
+      ],
+      "problem_ids": [
+        "information"
+      ]
+    },
+    {
+      "id": "paper-operational-claims",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-07-24-evidence-carrying-operational-claims-in-open-systems-physical-ledgers-typed-interfaces-and-one-sided-deployment-guarantees-21531413",
+      "tier": "supporting",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification"
+      ],
+      "summary": {
+        "en": "Typed evidence connects physical/resource ledgers, uncertainty and one-sided finite-horizon deployment claims.",
+        "ja": "型付き根拠が物理・資源台帳、不確実性、有限期間の片側保証を結ぶ。"
+      },
+      "relevance_reason": {
+        "en": "Typed evidence connects physical/resource ledgers, uncertainty and one-sided finite-horizon deployment claims.",
+        "ja": "型付き根拠が物理・資源台帳、不確実性、有限期間の片側保証を結ぶ。"
+      },
+      "limitations": {
+        "en": "Provenance and finite record checking do not establish evidence truth, causal identification or physical safety.",
+        "ja": "来歴と有限記録の検査は根拠の真実性、因果識別、物理的安全性を確立しない。"
+      },
+      "evidence_refs": [
+        "e-paper-operational-claims"
+      ],
+      "problem_ids": [
+        "obligations"
+      ]
+    },
+    {
+      "id": "paper-bit",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-06-04-bottleneck-inversion-theory-machine-readable-witness-calculus-20545356",
+      "tier": "supporting",
+      "primary_role": "resource-viability",
+      "roles": [
+        "resource-viability"
+      ],
+      "summary": {
+        "en": "Unit-typed intervention witnesses bound unlockable target value and resource displacement.",
+        "ja": "単位を付けた介入証拠から、解放できる対象価値と資源代替の下界を求める。"
+      },
+      "relevance_reason": {
+        "en": "Unit-typed intervention witnesses bound unlockable target value and resource displacement.",
+        "ja": "単位を付けた介入証拠から、解放できる対象価値と資源代替の下界を求める。"
+      },
+      "limitations": {
+        "en": "Unsupported coordinates remain unreported; compatible ledgers and resource-matched comparisons are required.",
+        "ja": "裏付けのない座標は報告しない。整合した台帳と資源を揃えた比較が必要。"
+      },
+      "evidence_refs": [
+        "e-paper-bit"
+      ],
+      "problem_ids": [
+        "verification-funding"
+      ]
+    },
+    {
+      "id": "paper-sqot",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-06-03-salience-queue-occupation-theory-20526451",
+      "tier": "supporting",
+      "primary_role": "verification-capacity",
+      "roles": [
+        "verification-capacity"
+      ],
+      "summary": {
+        "en": "Finite attention, diagnostic reserves and verification queues expose opportunity and audit costs.",
+        "ja": "有限の注意、診断用の予備資源、検証待ち行列から機会費用と監査費用を明示する。"
+      },
+      "relevance_reason": {
+        "en": "Finite attention, diagnostic reserves and verification queues expose opportunity and audit costs.",
+        "ja": "有限の注意、診断用の予備資源、検証待ち行列から機会費用と監査費用を明示する。"
+      },
+      "limitations": {
+        "en": "Protocol-relative diagnostics allow abstention and quarantine; attention priorities are not a universal objective.",
+        "ja": "プロトコル相対の診断は棄権・隔離を許す。注意の優先順位は普遍的目的ではない。"
+      },
+      "evidence_refs": [
+        "e-paper-sqot"
+      ],
+      "problem_ids": [
+        "verification-backlog"
+      ]
+    },
+    {
+      "id": "paper-cgt",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440",
+      "tier": "supporting",
+      "primary_role": "interoperability-and-discovery",
+      "roles": [
+        "interoperability-and-discovery"
+      ],
+      "summary": {
+        "en": "Typed constraint effects distinguish identical final reports from different generation and verification conditions.",
+        "ja": "型付き制約効果により、同じ最終報告でも生成・検証条件が異なることを扱う。"
+      },
+      "relevance_reason": {
+        "en": "Typed constraint effects distinguish identical final reports from different generation and verification conditions.",
+        "ja": "型付き制約効果により、同じ最終報告でも生成・検証条件が異なることを扱う。"
+      },
+      "limitations": {
+        "en": "The catalogue record identifies this work only; related CGT source manuscripts sharing series metadata are not collapsed into it. Concept/series DOI: catalogue date 2026-05-15 differs from DataCite issued 2026-05-28; exact TeX/version binding unresolved.",
+        "ja": "このカタログ記録はこの論文のみを指す。シリーズ情報を共有する関連原稿を同一視しない。 概念・シリーズDOIのカタログ日付2026-05-15とDataCite発行日2026-05-28は異なり、TeXと版の厳密な対応は未解決。"
+      },
+      "evidence_refs": [
+        "e-paper-cgt"
+      ],
+      "problem_ids": []
+    },
+    {
+      "id": "paper-conversion",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-05-03-certified-conversion-networks-for-ai-workflows-19994795",
+      "tier": "supporting",
+      "primary_role": "resource-viability",
+      "roles": [
+        "resource-viability"
+      ],
+      "summary": {
+        "en": "Certified value throughput includes validation, authorization, queue capacity and maintenance bottlenecks.",
+        "ja": "認証された価値の処理量に、検証・権限・待ち行列容量・保守の律速を含める。"
+      },
+      "relevance_reason": {
+        "en": "Certified value throughput includes validation, authorization, queue capacity and maintenance bottlenecks.",
+        "ja": "認証された価値の処理量に、検証・権限・待ち行列容量・保守の律速を含める。"
+      },
+      "limitations": {
+        "en": "Uniform or held-out certification, uncertainty contracts and hard gates are required.",
+        "ja": "一様保証または検証用分割、不確実性契約、厳格なゲートが必要。"
+      },
+      "evidence_refs": [
+        "e-paper-conversion"
+      ],
+      "problem_ids": [
+        "adaptation",
+        "verification-funding"
+      ]
+    },
+    {
+      "id": "paper-continuity",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-04-24-certified-service-is-not-enough-for-long-running-agi-19719004",
+      "tier": "supporting",
+      "primary_role": "workflow-memory",
+      "roles": [
+        "workflow-memory"
+      ],
+      "summary": {
+        "en": "Recovery, authority, identity and memory integrity remain obligations beyond certified task service.",
+        "ja": "復旧・権限・同一性・記憶の健全性は、課題サービスの認証後も独立した義務として残る。"
+      },
+      "relevance_reason": {
+        "en": "Recovery, authority, identity and memory integrity remain obligations beyond certified task service.",
+        "ja": "復旧・権限・同一性・記憶の健全性は、課題サービスの認証後も独立した義務として残る。"
+      },
+      "limitations": {
+        "en": "Conditional assurance depends on trusted bases and non-erasing violation histories, not an AGI finding.",
+        "ja": "信頼基盤と違反履歴を消さない条件付き保証であり、AGIの確認ではない。"
+      },
+      "evidence_refs": [
+        "e-paper-continuity"
+      ],
+      "problem_ids": [
+        "memory"
+      ]
+    },
+    {
+      "id": "paper-workflow-library",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-04-22-controller-scale-is-not-enough-for-long-running-agi-19690749",
+      "tier": "supporting",
+      "primary_role": "workflow-memory",
+      "roles": [
+        "workflow-memory"
+      ],
+      "summary": {
+        "en": "Reusable audited workflow libraries are compared with resource-matched flat control under replay ceilings.",
+        "ja": "再生資源の上限下で、監査済みの再利用ライブラリを資源条件を揃えた直接制御と比較する。"
+      },
+      "relevance_reason": {
+        "en": "Reusable audited workflow libraries are compared with resource-matched flat control under replay ceilings.",
+        "ja": "再生資源の上限下で、監査済みの再利用ライブラリを資源条件を揃えた直接制御と比較する。"
+      },
+      "limitations": {
+        "en": "Bounded typed families, trusted checkers and maintenance envelopes limit the constructive result.",
+        "ja": "構成的結果は型付き有限課題群、信頼する検査器、保守包絡に制限される。"
+      },
+      "evidence_refs": [
+        "e-paper-workflow-library"
+      ],
+      "problem_ids": [
+        "memory"
+      ]
+    },
+    {
+      "id": "paper-split-inference",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-03-10-when-should-inference-be-split-a-fixed-budget-th-18932509",
+      "tier": "supporting",
+      "primary_role": "collective-coordination",
+      "roles": [
+        "collective-coordination"
+      ],
+      "summary": {
+        "en": "Fixed-budget inference splitting asks when local context limits permit a multi-agent advantage.",
+        "ja": "固定予算下で、局所文脈の限界が複数エージェントの優位を許す条件を問う。"
+      },
+      "relevance_reason": {
+        "en": "Fixed-budget inference splitting asks when local context limits permit a multi-agent advantage.",
+        "ja": "固定予算下で、局所文脈の限界が複数エージェントの優位を許す条件を問う。"
+      },
+      "limitations": {
+        "en": "Communication and verification costs and a strong single-agent comparator must be retained.",
+        "ja": "通信・検証費用と強い単体エージェントの比較対象を保持する必要がある。"
+      },
+      "evidence_refs": [
+        "e-paper-split-inference"
+      ],
+      "problem_ids": [
+        "coordinate"
+      ]
+    },
+    {
+      "id": "paper-pcs",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-02-05-stop-recomputing-for-ai-llms-proof-carrying-skil-18490939",
+      "tier": "supporting",
+      "primary_role": "reusable-abstraction",
+      "roles": [
+        "reusable-abstraction"
+      ],
+      "summary": {
+        "en": "Bounded observable predicates and invocation-bound receipts support reuse without full recomputation.",
+        "ja": "有限の観測述語と呼出しに結び付けた受領証で全再計算なしの再利用を支える。"
+      },
+      "relevance_reason": {
+        "en": "Bounded observable predicates and invocation-bound receipts support reuse without full recomputation.",
+        "ja": "有限の観測述語と呼出しに結び付けた受領証で全再計算なしの再利用を支える。"
+      },
+      "limitations": {
+        "en": "Trust is limited to the minimal checker and declared anchors; receipts are not unrestricted semantic truth.",
+        "ja": "信頼は最小検査器と宣言した観測基点に限定。受領証は無制限の意味的真実ではない。"
+      },
+      "evidence_refs": [
+        "e-paper-pcs"
+      ],
+      "problem_ids": [
+        "reuse"
+      ]
+    },
+    {
+      "id": "paper-verification-limited",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-01-31-verification-limited-intelligence-acceleration-o-18436828",
+      "tier": "supporting",
+      "primary_role": "verification-capacity",
+      "roles": [
+        "verification-capacity"
+      ],
+      "summary": {
+        "en": "Strict observable progress credit prevents missing evidence from inflating reported progress.",
+        "ja": "厳格な観測可能進捗の計上で、根拠の欠落による進捗水増しを防ぐ。"
+      },
+      "relevance_reason": {
+        "en": "Strict observable progress credit prevents missing evidence from inflating reported progress.",
+        "ja": "厳格な観測可能進捗の計上で、根拠の欠落による進捗水増しを防ぐ。"
+      },
+      "limitations": {
+        "en": "Conditional acceleration envelopes require observable premises and a semantic adequacy link to capability.",
+        "ja": "条件付き加速包絡には観測可能な前提と能力への意味的対応が必要。"
+      },
+      "evidence_refs": [
+        "e-paper-verification-limited"
+      ],
+      "problem_ids": [
+        "verification-backlog"
+      ]
+    },
+    {
+      "id": "sw-ccr",
+      "kind": "software",
+      "source_catalog_id": "kadubon/collective-capability-runtime",
+      "tier": "core",
+      "primary_role": "collective-coordination",
+      "roles": [
+        "collective-coordination"
+      ],
+      "summary": {
+        "en": "Coordinate leased tasks, independent workcells, disagreements and verification-aware growth accounting.",
+        "ja": "リース付き課題、独立作業群、意見の相違、検証容量を考慮した成長計上を調整する。"
+      },
+      "relevance_reason": {
+        "en": "Coordinate leased tasks, independent workcells, disagreements and verification-aware growth accounting.",
+        "ja": "リース付き課題、独立作業群、意見の相違、検証容量を考慮した成長計上を調整する。"
+      },
+      "limitations": {
+        "en": "Synthetic growth examples; accepted evidence is not settlement. Dispatch requires separate approval.",
+        "ja": "成長例は合成。根拠の受理は確定ではない。外部実行には別の承認が必要。"
+      },
+      "evidence_refs": [
+        "e-collective-capability-runtime-readme-md",
+        "e-collective-capability-runtime-docs-verified-growth-md",
+        "e-collective-capability-runtime-license",
+        "e-collective-capability-runtime-pyproject-toml"
+      ],
+      "problem_ids": [
+        "coordinate",
+        "interchange"
+      ]
+    },
+    {
+      "id": "sw-pic",
+      "kind": "software",
+      "source_catalog_id": "kadubon/percolation-inversion-compiler",
+      "tier": "core",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification"
+      ],
+      "summary": {
+        "en": "Compile finite agent outputs into checked packets and preserve unknown output obligations.",
+        "ja": "有限のエージェント出力を検査付きパケットに変換し、不明な出力義務を保持する。"
+      },
+      "relevance_reason": {
+        "en": "Compile finite agent outputs into checked packets and preserve unknown output obligations.",
+        "ja": "有限のエージェント出力を検査付きパケットに変換し、不明な出力義務を保持する。"
+      },
+      "limitations": {
+        "en": "Hints are inert; finite certificate acceptance is not execution, truth or physical success.",
+        "ja": "ヒントは非実行。有限証明の受理は実行・真実・物理的成功を意味しない。"
+      },
+      "evidence_refs": [
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml"
+      ],
+      "problem_ids": [
+        "obligations"
+      ]
+    },
+    {
+      "id": "sw-vek",
+      "kind": "software",
+      "source_catalog_id": "kadubon/verification-ecology-kit",
+      "tier": "core",
+      "primary_role": "verification-capacity",
+      "roles": [
+        "verification-capacity"
+      ],
+      "summary": {
+        "en": "Record verifier packets and allocate finite verification work with explicit shared resources.",
+        "ja": "検証パケットを記録し、共有資源を明示して有限の検証作業を割り当てる。"
+      },
+      "relevance_reason": {
+        "en": "Record verifier packets and allocate finite verification work with explicit shared resources.",
+        "ja": "検証パケットを記録し、共有資源を明示して有限の検証作業を割り当てる。"
+      },
+      "limitations": {
+        "en": "Experimental local capacity profile: at most 12 work/actions and 16 slots; synthetic/model accounting only. Observed and guaranteed service remain null.",
+        "ja": "実験的な局所容量プロファイルは最大12作業・行動、16スロット。合成・モデル計上のみ。観測・保証サービスはnull。"
+      },
+      "evidence_refs": [
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml"
+      ],
+      "problem_ids": [
+        "verification-backlog",
+        "interchange",
+        "verification-funding"
+      ]
+    },
+    {
+      "id": "sw-alt",
+      "kind": "software",
+      "source_catalog_id": "kadubon/alt-foundry-kernel",
+      "tier": "core",
+      "primary_role": "reusable-abstraction",
+      "roles": [
+        "reusable-abstraction"
+      ],
+      "summary": {
+        "en": "Qualify bounded reusable candidates for named receivers and compare full costs with solving from scratch.",
+        "ja": "受け手を指定して有限の再利用候補を適格化し、全費用を都度解法と比較する。"
+      },
+      "relevance_reason": {
+        "en": "Qualify bounded reusable candidates for named receivers and compare full costs with solving from scratch.",
+        "ja": "受け手を指定して有限の再利用候補を適格化し、全費用を都度解法と比較する。"
+      },
+      "limitations": {
+        "en": "Alpha collective-reuse profile; receiver qualification grants no settlement or execution. GitHub Release assets, not an assumed PyPI distribution.",
+        "ja": "集団再利用プロファイルはAlpha。適格化は確定・実行権限を与えない。配布はGitHub Release資産でPyPIを仮定しない。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-readme-md",
+        "e-alt-foundry-kernel-docs-collective-reuse-md",
+        "e-alt-foundry-kernel-license",
+        "e-alt-foundry-kernel-pyproject-toml"
+      ],
+      "problem_ids": [
+        "reuse",
+        "interchange"
+      ]
+    },
+    {
+      "id": "sw-cait",
+      "kind": "software",
+      "source_catalog_id": "kadubon/cait-certificate-schema",
+      "tier": "core",
+      "primary_role": "capability-accounting",
+      "roles": [
+        "capability-accounting"
+      ],
+      "summary": {
+        "en": "Replay finite accounting histories to separate unique stock, service reuse, copies and unresolved origin.",
+        "ja": "有限の計上履歴を再生し、一意な蓄積、サービス再利用、コピー、未解明の起源を分ける。"
+      },
+      "relevance_reason": {
+        "en": "Replay finite accounting histories to separate unique stock, service reuse, copies and unresolved origin.",
+        "ja": "有限の計上履歴を再生し、一意な蓄積、サービス再利用、コピー、未解明の起源を分ける。"
+      },
+      "limitations": {
+        "en": "Experimental accounting; copies are not new assets. VEK counters are supplied, not reconstructed from the absent original journal.",
+        "ja": "実験的計上。コピーは新しい資産ではない。VEKの数値は提供値であり、欠けた元履歴から再構成していない。"
+      },
+      "evidence_refs": [
+        "e-cait-certificate-schema-readme-md",
+        "e-cait-certificate-schema-docs-accounting-md",
+        "e-cait-certificate-schema-license",
+        "e-cait-certificate-schema-pyproject-toml"
+      ],
+      "problem_ids": [
+        "accounting",
+        "interchange"
+      ]
+    },
+    {
+      "id": "sw-cpcf",
+      "kind": "software",
+      "source_catalog_id": "kadubon/collective-phase-control-fabric",
+      "tier": "core",
+      "primary_role": "finite-control-and-information",
+      "roles": [
+        "finite-control-and-information"
+      ],
+      "summary": {
+        "en": "Choose finite information gathering and paid capability investment while preserving coupled model uncertainty.",
+        "ja": "モデル間の結合した不確実性を保持しつつ、有限の情報収集と費用付き能力投資を選ぶ。"
+      },
+      "relevance_reason": {
+        "en": "Choose finite information gathering and paid capability investment while preserving coupled model uncertainty.",
+        "ja": "モデル間の結合した不確実性を保持しつつ、有限の情報収集と費用付き能力投資を選ぶ。"
+      },
+      "limitations": {
+        "en": "Beta research; finite model demonstrations only. Signed observations do not certify causal models. No empirical acceleration experiment.",
+        "ja": "Beta研究実装。有限モデルの例のみ。署名付き観測は因果モデルを認証しない。経験的加速実験はない。"
+      },
+      "evidence_refs": [
+        "e-collective-phase-control-fabric-readme-md",
+        "e-collective-phase-control-fabric-docs-epistemic-growth-control-md",
+        "e-collective-phase-control-fabric-license",
+        "e-collective-phase-control-fabric-pyproject-toml"
+      ],
+      "problem_ids": [
+        "information"
+      ]
+    },
+    {
+      "id": "sw-oawm",
+      "kind": "software",
+      "source_catalog_id": "kadubon/observable-agent-workflow-memory",
+      "tier": "supporting",
+      "primary_role": "workflow-memory",
+      "roles": [
+        "workflow-memory"
+      ],
+      "summary": {
+        "en": "Promote verified procedures through evidence manifests and explicit promotion receipts.",
+        "ja": "根拠目録と明示的な昇格受領証を通じ、検証済み手続きを記憶に昇格する。"
+      },
+      "relevance_reason": {
+        "en": "Promote verified procedures through evidence manifests and explicit promotion receipts.",
+        "ja": "根拠目録と明示的な昇格受領証を通じ、検証済み手続きを記憶に昇格する。"
+      },
+      "limitations": {
+        "en": "Procedural admissibility is not factual truth; no GitHub release was found. Source declares 0.1.0 beta.",
+        "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。ソースの宣言は0.1.0 beta。"
+      },
+      "evidence_refs": [
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
+        "e-observable-agent-workflow-memory-license",
+        "e-observable-agent-workflow-memory-pyproject-toml"
+      ],
+      "problem_ids": [
+        "memory"
+      ]
+    },
+    {
+      "id": "sw-oasg",
+      "kind": "software",
+      "source_catalog_id": "kadubon/oasg",
+      "tier": "supporting",
+      "primary_role": "workflow-adaptation",
+      "roles": [
+        "workflow-adaptation"
+      ],
+      "summary": {
+        "en": "Trial bounded local workflow-policy changes and promote only receipt-backed non-regression.",
+        "ja": "有限の局所ワークフロー方策を試行し、受領証で裏付けた非劣化のみ昇格する。"
+      },
+      "relevance_reason": {
+        "en": "Trial bounded local workflow-policy changes and promote only receipt-backed non-regression.",
+        "ja": "有限の局所ワークフロー方策を試行し、受領証で裏付けた非劣化のみ昇格する。"
+      },
+      "limitations": {
+        "en": "Reference/alpha production status; changes workflow policy, not model weights. Runtime trials can execute local commands under host policy.",
+        "ja": "参照実装・本番利用はAlpha。変更対象はモデル重みではなく方策。試行はホスト方針の下で局所コマンドを実行し得る。"
+      },
+      "evidence_refs": [
+        "e-oasg-readme-md",
+        "e-oasg-docs-architecture-md",
+        "e-oasg-license",
+        "e-oasg-pyproject-toml"
+      ],
+      "problem_ids": [
+        "adaptation"
+      ]
+    },
+    {
+      "id": "sw-audit",
+      "kind": "software",
+      "source_catalog_id": "kadubon/audit-closed-ai-scientist",
+      "tier": "supporting",
+      "primary_role": "research-validity",
+      "roles": [
+        "research-validity"
+      ],
+      "summary": {
+        "en": "Benchmark adaptive scientific discovery with committed logs and sequential testing.",
+        "ja": "コミット済みログと逐次検定で適応的科学発見をベンチマークする。"
+      },
+      "relevance_reason": {
+        "en": "Benchmark adaptive scientific discovery with committed logs and sequential testing.",
+        "ja": "コミット済みログと逐次検定で適応的科学発見をベンチマークする。"
+      },
+      "limitations": {
+        "en": "Benchmarks do not certify arbitrary laboratories or agents; every benchmark writes output artifacts. Software Apache-2.0; bundled paper CC BY 4.0.",
+        "ja": "ベンチマークは任意の実験室・エージェントを認証しない。実行は成果物を書き込む。ソフトはApache-2.0、同梱論文はCC BY 4.0。"
+      },
+      "evidence_refs": [
+        "e-audit-closed-ai-scientist-readme-md",
+        "e-audit-closed-ai-scientist-license",
+        "e-audit-closed-ai-scientist-pyproject-toml"
+      ],
+      "problem_ids": [
+        "adaptive-research"
+      ]
+    },
+    {
+      "id": "sw-loscr",
+      "kind": "software",
+      "source_catalog_id": "kadubon/loscr",
+      "tier": "supporting",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification"
+      ],
+      "summary": {
+        "en": "Downgrade or quarantine strong R&D claims when replay, service, evaluator or dependency evidence fails.",
+        "ja": "再生・サービス・評価・依存の根拠不足時に研究開発の強い主張を格下げ・隔離する。"
+      },
+      "relevance_reason": {
+        "en": "Downgrade or quarantine strong R&D claims when replay, service, evaluator or dependency evidence fails.",
+        "ja": "再生・サービス・評価・依存の根拠不足時に研究開発の強い主張を格下げ・隔離する。"
+      },
+      "limitations": {
+        "en": "Structural claim checking requires external statistical premises. Even doctor may initialize local state.",
+        "ja": "構造検査には外部の統計的前提が必要。doctorも局所状態を初期化し得る。"
+      },
+      "evidence_refs": [
+        "e-loscr-readme-md",
+        "e-loscr-docs-theory-map-md",
+        "e-loscr-license",
+        "e-loscr-pyproject-toml"
+      ],
+      "problem_ids": [
+        "adaptive-research"
+      ]
+    },
+    {
+      "id": "sw-simulator",
+      "kind": "software",
+      "source_catalog_id": "kadubon/asi-proxy-phase-growth-simulator",
+      "tier": "supporting",
+      "primary_role": "scenario-analysis",
+      "roles": [
+        "scenario-analysis"
+      ],
+      "summary": {
+        "en": "Explore verification, resource, coordination and memory shocks in conditional scenarios.",
+        "ja": "条件付きシナリオで検証・資源・調整・記憶の変動を探索する。"
+      },
+      "relevance_reason": {
+        "en": "Explore verification, resource, coordination and memory shocks in conditional scenarios.",
+        "ja": "条件付きシナリオで検証・資源・調整・記憶の変動を探索する。"
+      },
+      "limitations": {
+        "en": "No world forecast, ASI date or probability; synthetic parameter choices are not measurements.",
+        "ja": "世界予測・ASI到来日・確率は提供しない。合成パラメータは測定値ではない。"
+      },
+      "evidence_refs": [
+        "e-asi-proxy-phase-growth-simulator-readme-md",
+        "e-asi-proxy-phase-growth-simulator-docs-model-reference-md",
+        "e-asi-proxy-phase-growth-simulator-license",
+        "e-asi-proxy-phase-growth-simulator-pyproject-toml"
+      ],
+      "problem_ids": [
+        "forecast"
+      ]
+    },
+    {
+      "id": "sw-skill",
+      "kind": "software",
+      "source_catalog_id": "kadubon/asi-proxy-phase-skill",
+      "tier": "supporting",
+      "primary_role": "interoperability-and-discovery",
+      "roles": [
+        "interoperability-and-discovery"
+      ],
+      "summary": {
+        "en": "An installable skill supplies evidence-gated discovery and bounded intervention guidance.",
+        "ja": "インストール可能なスキルが、根拠を条件とした探索と有限介入の手引きを提供する。"
+      },
+      "relevance_reason": {
+        "en": "An installable skill supplies evidence-gated discovery and bounded intervention guidance.",
+        "ja": "インストール可能なスキルが、根拠を条件とした探索と有限介入の手引きを提供する。"
+      },
+      "limitations": {
+        "en": "An advisory skill is not a running service; its bundled corpus is an older snapshot. Installation/execution needs host authorization.",
+        "ja": "助言用スキルであり稼働サービスではない。同梱コーパスは古いスナップショット。導入・実行はホストの権限に従う。"
+      },
+      "evidence_refs": [
+        "e-asi-proxy-phase-skill-readme-md",
+        "e-asi-proxy-phase-skill-license",
+        "e-asi-proxy-phase-skill-pyproject-toml"
+      ],
+      "problem_ids": [
+        "forecast"
+      ]
+    }
+  ],
+  "roles": [
+    "collective-coordination",
+    "capability-formation",
+    "evidence-and-verification",
+    "verification-capacity",
+    "reusable-abstraction",
+    "capability-accounting",
+    "finite-control-and-information",
+    "workflow-memory",
+    "workflow-adaptation",
+    "research-validity",
+    "resource-viability",
+    "scenario-analysis",
+    "interoperability-and-discovery"
+  ],
+  "problems": [
+    {
+      "id": "coordinate",
+      "question": {
+        "en": "How should multiple agents divide work and preserve disagreements?",
+        "ja": "複数エージェントの作業分担と意見の相違をどう保持するか？"
+      },
+      "queries": [
+        "coordinate leased multi-agent work"
+      ],
+      "symptoms": {
+        "en": "coordinate leased multi-agent work",
+        "ja": "複数エージェントの作業分担と意見の相違をどう保持するか？"
+      },
+      "first_reads": [
+        "sw-ccr",
+        "paper-split-inference",
+        "paper-collective-phase"
+      ],
+      "required_inputs": {
+        "en": "Mission scope, independent proposals, leases, common budget.",
+        "ja": "任務範囲、独立提案、リース、共通予算。"
+      },
+      "expected_outputs": {
+        "en": "Leased work and unresolved disagreements with traceable evidence.",
+        "ja": "追跡可能な根拠を伴うリース作業と未解決の意見差。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. No authority to dispatch; missing independent verification or expired lease.",
+        "ja": "ホスト方針に従う助言経路。実行権限の欠如、独立検証の不足、リース期限切れ。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "No authority to dispatch; missing independent verification or expired lease.",
+        "ja": "実行権限の欠如、独立検証の不足、リース期限切れ。"
+      },
+      "evidence_refs": [
+        "e-collective-capability-runtime-readme-md",
+        "e-collective-capability-runtime-docs-verified-growth-md",
+        "e-collective-capability-runtime-license",
+        "e-collective-capability-runtime-pyproject-toml",
+        "e-paper-split-inference",
+        "e-paper-collective-phase"
+      ]
+    },
+    {
+      "id": "obligations",
+      "question": {
+        "en": "What remains to be checked before an output is reusable?",
+        "ja": "出力を再利用する前に何を検証する必要があるか？"
+      },
+      "queries": [
+        "preserve unknown output obligations"
+      ],
+      "symptoms": {
+        "en": "preserve unknown output obligations",
+        "ja": "出力を再利用する前に何を検証する必要があるか？"
+      },
+      "first_reads": [
+        "sw-pic",
+        "paper-ecpt",
+        "paper-operational-claims"
+      ],
+      "required_inputs": {
+        "en": "Output, declared schema, evidence and known/unknown measurements.",
+        "ja": "出力、宣言スキーマ、根拠、既知・未知の測定。"
+      },
+      "expected_outputs": {
+        "en": "Residual-preserving packet and bounded next checks.",
+        "ja": "残余を保持したパケットと有限の次検査。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing source evidence or requested execution outside authority.",
+        "ja": "ホスト方針に従う助言経路。元根拠の不足または権限外の実行要求。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing source evidence or requested execution outside authority.",
+        "ja": "元根拠の不足または権限外の実行要求。"
+      },
+      "evidence_refs": [
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-paper-ecpt",
+        "e-paper-operational-claims"
+      ]
+    },
+    {
+      "id": "verification-backlog",
+      "question": {
+        "en": "What should change when verification becomes the bottleneck?",
+        "ja": "検証が律速となるとき何を変更すべきか？"
+      },
+      "queries": [
+        "verification backlog"
+      ],
+      "symptoms": {
+        "en": "verification backlog",
+        "ja": "検証が律速となるとき何を変更すべきか？"
+      },
+      "first_reads": [
+        "paper-vet",
+        "sw-vek",
+        "paper-sqot",
+        "paper-verification-limited"
+      ],
+      "required_inputs": {
+        "en": "Checks, integer slots, registered service eligibility and typed budgets.",
+        "ja": "検査、整数スロット、登録サービス適格性、型付き予算。"
+      },
+      "expected_outputs": {
+        "en": "Finite schedule, backlog, repair and unfinished-work report.",
+        "ja": "有限日程、滞留、修復、未完了作業の報告。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Observed service requested from synthetic local profile, unsupported preemption, or finite bounds exceeded.",
+        "ja": "ホスト方針に従う助言経路。合成局所プロファイルに観測サービスを要求、未対応の中断、有限上限の超過。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Observed service requested from synthetic local profile, unsupported preemption, or finite bounds exceeded.",
+        "ja": "合成局所プロファイルに観測サービスを要求、未対応の中断、有限上限の超過。"
+      },
+      "evidence_refs": [
+        "e-paper-vet",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml",
+        "e-paper-sqot",
+        "e-paper-verification-limited"
+      ]
+    },
+    {
+      "id": "reuse",
+      "question": {
+        "en": "When does reuse beat solving a task again?",
+        "ja": "再利用はいつ都度の解法より有利か？"
+      },
+      "queries": [
+        "reuse versus solving from scratch"
+      ],
+      "symptoms": {
+        "en": "reuse versus solving from scratch",
+        "ja": "再利用はいつ都度の解法より有利か？"
+      },
+      "first_reads": [
+        "paper-alt",
+        "sw-alt",
+        "paper-pcs"
+      ],
+      "required_inputs": {
+        "en": "Named receiver/task, matched scratch baseline and all formation/transfer/check/maintenance costs.",
+        "ja": "受け手・課題、条件を揃えた都度解法、全形成・移転・検査・保守費用。"
+      },
+      "expected_outputs": {
+        "en": "Qualified receiver options, exact typed costs and bounded comparison.",
+        "ja": "適格な受け手選択肢、厳密な型付き費用、有限比較。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Receiver mismatch, missing cost, expiry or unsupported lifecycle mapping.",
+        "ja": "ホスト方針に従う助言経路。受け手の不一致、費用欠落、期限切れ、未対応のライフサイクル写像。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Receiver mismatch, missing cost, expiry or unsupported lifecycle mapping.",
+        "ja": "受け手の不一致、費用欠落、期限切れ、未対応のライフサイクル写像。"
+      },
+      "evidence_refs": [
+        "e-paper-alt",
+        "e-alt-foundry-kernel-readme-md",
+        "e-alt-foundry-kernel-docs-collective-reuse-md",
+        "e-alt-foundry-kernel-license",
+        "e-alt-foundry-kernel-pyproject-toml",
+        "e-paper-pcs"
+      ]
+    },
+    {
+      "id": "accounting",
+      "question": {
+        "en": "Did the system accumulate capability, or just copy artifacts?",
+        "ja": "能力を蓄積したのか、成果物をコピーしただけか？"
+      },
+      "queries": [
+        "did copied artifacts increase capability"
+      ],
+      "symptoms": {
+        "en": "did copied artifacts increase capability",
+        "ja": "能力を蓄積したのか、成果物をコピーしただけか？"
+      },
+      "first_reads": [
+        "paper-cait",
+        "sw-cait",
+        "paper-growth"
+      ],
+      "required_inputs": {
+        "en": "Unique source history, origins, lifecycle events, typed costs and stock/service units.",
+        "ja": "一意な元履歴、起源、ライフサイクル、型付き費用、蓄積・サービス単位。"
+      },
+      "expected_outputs": {
+        "en": "Separate unique stock, service, external input and unresolved attribution.",
+        "ja": "一意な蓄積、サービス、外部投入、未解明の帰属を分離。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing original journal, valuation witness, compatible units or causal design.",
+        "ja": "ホスト方針に従う助言経路。元履歴、評価証拠、単位整合、因果設計が欠ける場合。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing original journal, valuation witness, compatible units or causal design.",
+        "ja": "元履歴、評価証拠、単位整合、因果設計が欠ける場合。"
+      },
+      "evidence_refs": [
+        "e-paper-cait",
+        "e-cait-certificate-schema-readme-md",
+        "e-cait-certificate-schema-docs-accounting-md",
+        "e-cait-certificate-schema-license",
+        "e-cait-certificate-schema-pyproject-toml",
+        "e-paper-growth"
+      ]
+    },
+    {
+      "id": "information",
+      "question": {
+        "en": "Which observations could change the next investment decision?",
+        "ja": "どの観測が次の投資判断を変えるか？"
+      },
+      "queries": [
+        "choose information gathering before capability investment"
+      ],
+      "symptoms": {
+        "en": "choose information gathering before capability investment",
+        "ja": "どの観測が次の投資判断を変えるか？"
+      },
+      "first_reads": [
+        "paper-growth",
+        "sw-cpcf",
+        "paper-consequence"
+      ],
+      "required_inputs": {
+        "en": "Finite coupled models, observation kernels, costs and funded continuation.",
+        "ja": "有限の結合モデル、観測核、費用、継続資源。"
+      },
+      "expected_outputs": {
+        "en": "Observation-based policy and conditional information-use comparison.",
+        "ja": "観測に基づく方策と条件付き情報利用比較。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Impossible observation, exhausted search budget or real-world acceleration claim.",
+        "ja": "ホスト方針に従う助言経路。不可能な観測、探索予算超過、実世界の加速主張。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Impossible observation, exhausted search budget or real-world acceleration claim.",
+        "ja": "不可能な観測、探索予算超過、実世界の加速主張。"
+      },
+      "evidence_refs": [
+        "e-paper-growth",
+        "e-collective-phase-control-fabric-readme-md",
+        "e-collective-phase-control-fabric-docs-epistemic-growth-control-md",
+        "e-collective-phase-control-fabric-license",
+        "e-collective-phase-control-fabric-pyproject-toml",
+        "e-paper-consequence"
+      ]
+    },
+    {
+      "id": "memory",
+      "question": {
+        "en": "How can a procedure remain reusable after failure or withdrawal?",
+        "ja": "失敗や撤回後も手続きをどう管理するか？"
+      },
+      "queries": [
+        "remember a verified procedure"
+      ],
+      "symptoms": {
+        "en": "remember a verified procedure",
+        "ja": "失敗や撤回後も手続きをどう管理するか？"
+      },
+      "first_reads": [
+        "sw-oawm",
+        "paper-workflow-library",
+        "paper-continuity"
+      ],
+      "required_inputs": {
+        "en": "Observable events, checker receipts, workflow contract and explicit promotion.",
+        "ja": "観測事象、検査受領証、手続き契約、明示的昇格。"
+      },
+      "expected_outputs": {
+        "en": "Version-bound admissibility with contradictions and tombstones retained.",
+        "ja": "矛盾と廃止履歴を保持したバージョン付き許容性。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing promotion receipt; a factual truth or automatic ALT promotion request.",
+        "ja": "ホスト方針に従う助言経路。昇格受領証の欠落、事実の真実性またはALT自動昇格の要求。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing promotion receipt; a factual truth or automatic ALT promotion request.",
+        "ja": "昇格受領証の欠落、事実の真実性またはALT自動昇格の要求。"
+      },
+      "evidence_refs": [
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
+        "e-observable-agent-workflow-memory-license",
+        "e-observable-agent-workflow-memory-pyproject-toml",
+        "e-paper-workflow-library",
+        "e-paper-continuity"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "question": {
+        "en": "How can local workflow policy change under protected limits?",
+        "ja": "保護すべき限界の下で局所方策をどう変更するか？"
+      },
+      "queries": [
+        "change local workflow policy"
+      ],
+      "symptoms": {
+        "en": "change local workflow policy",
+        "ja": "保護すべき限界の下で局所方策をどう変更するか？"
+      },
+      "first_reads": [
+        "sw-oasg",
+        "paper-conversion"
+      ],
+      "required_inputs": {
+        "en": "Ledger prefixes, candidate policy, trial workload and rollback evidence.",
+        "ja": "台帳接頭辞、方策候補、試行課題、復旧根拠。"
+      },
+      "expected_outputs": {
+        "en": "Shadow/lease trial result and gated promotion or rejection.",
+        "ja": "shadow・lease試行結果と条件付き昇格・棄却。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Protected regression, incomplete receipts or host execution authority missing.",
+        "ja": "ホスト方針に従う助言経路。保護対象の劣化、受領証不足、実行権限の欠如。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Protected regression, incomplete receipts or host execution authority missing.",
+        "ja": "保護対象の劣化、受領証不足、実行権限の欠如。"
+      },
+      "evidence_refs": [
+        "e-oasg-readme-md",
+        "e-oasg-docs-architecture-md",
+        "e-oasg-license",
+        "e-oasg-pyproject-toml",
+        "e-paper-conversion"
+      ]
+    },
+    {
+      "id": "adaptive-research",
+      "question": {
+        "en": "How should adaptive research preserve valid evidence?",
+        "ja": "適応的研究で有効な根拠をどう保持するか？"
+      },
+      "queries": [
+        "adaptive hypothesis testing"
+      ],
+      "symptoms": {
+        "en": "adaptive hypothesis testing",
+        "ja": "適応的研究で有効な根拠をどう保持するか？"
+      },
+      "first_reads": [
+        "paper-audit-closed",
+        "sw-audit",
+        "sw-loscr"
+      ],
+      "required_inputs": {
+        "en": "Preregistered protocol, sampling/observation assumptions, seed and alpha budget.",
+        "ja": "事前登録プロトコル、標本化・観測の仮定、乱数種、アルファ予算。"
+      },
+      "expected_outputs": {
+        "en": "Declared benchmark evidence and supported claim level.",
+        "ja": "宣言したベンチマーク根拠と支持される主張水準。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Undeclared adaptation, unmodeled laboratory or request for universal certification.",
+        "ja": "ホスト方針に従う助言経路。未宣言の適応、未モデル化の実験室、普遍的認証の要求。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Undeclared adaptation, unmodeled laboratory or request for universal certification.",
+        "ja": "未宣言の適応、未モデル化の実験室、普遍的認証の要求。"
+      },
+      "evidence_refs": [
+        "e-paper-audit-closed",
+        "e-audit-closed-ai-scientist-readme-md",
+        "e-audit-closed-ai-scientist-license",
+        "e-audit-closed-ai-scientist-pyproject-toml",
+        "e-loscr-readme-md",
+        "e-loscr-docs-theory-map-md",
+        "e-loscr-license",
+        "e-loscr-pyproject-toml"
+      ]
+    },
+    {
+      "id": "forecast",
+      "question": {
+        "en": "Can this index forecast an ASI arrival date?",
+        "ja": "この索引からASI到来日を予測できるか？"
+      },
+      "queries": [
+        "forecast when ASI will arrive"
+      ],
+      "symptoms": {
+        "en": "forecast when ASI will arrive",
+        "ja": "この索引からASI到来日を予測できるか？"
+      },
+      "first_reads": [
+        "sw-simulator",
+        "sw-skill"
+      ],
+      "required_inputs": {
+        "en": "A clearly labeled conditional scenario, if scenario analysis is desired.",
+        "ja": "シナリオ分析を行う場合の、明示的な条件付き設定。"
+      },
+      "expected_outputs": {
+        "en": "Unsupported forecast; only conditional sensitivity analysis is offered.",
+        "ja": "到来予測は未対応。条件付き感度分析のみ。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Stop date/probability prediction: no empirical ASI arrival model is established.",
+        "ja": "ホスト方針に従う助言経路。日付・確率の予測は停止。経験的なASI到来モデルは確立されていない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Stop date/probability prediction: no empirical ASI arrival model is established.",
+        "ja": "日付・確率の予測は停止。経験的なASI到来モデルは確立されていない。"
+      },
+      "evidence_refs": [
+        "e-asi-proxy-phase-growth-simulator-readme-md",
+        "e-asi-proxy-phase-growth-simulator-docs-model-reference-md",
+        "e-asi-proxy-phase-growth-simulator-license",
+        "e-asi-proxy-phase-growth-simulator-pyproject-toml",
+        "e-asi-proxy-phase-skill-readme-md",
+        "e-asi-proxy-phase-skill-license",
+        "e-asi-proxy-phase-skill-pyproject-toml"
+      ]
+    },
+    {
+      "id": "interchange",
+      "question": {
+        "en": "Which integration has actually been checked at these versions?",
+        "ja": "このバージョンの連携で何が実際に検査されたか？"
+      },
+      "queries": [
+        "integrate ALT with CCR automatically"
+      ],
+      "symptoms": {
+        "en": "integrate ALT with CCR automatically",
+        "ja": "このバージョンの連携で何が実際に検査されたか？"
+      },
+      "first_reads": [
+        "sw-alt",
+        "sw-ccr",
+        "sw-vek",
+        "sw-cait"
+      ],
+      "required_inputs": {
+        "en": "Exact producer/consumer versions, fixture schema hashes, scope and host admission rules.",
+        "ja": "生成元・受け手の厳密な版、スキーマハッシュ、範囲、ホスト受入規則。"
+      },
+      "expected_outputs": {
+        "en": "Version-scoped mappings plus explicit missing custom sidecar admission.",
+        "ja": "版に限定した写像と、未実装の補助記録受入処理。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.",
+        "ja": "ホスト方針に従う助言経路。ホスト受入未実装、新しい版、未対応ライフサイクル、推移的互換性の推測。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.",
+        "ja": "ホスト受入未実装、新しい版、未対応ライフサイクル、推移的互換性の推測。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-readme-md",
+        "e-alt-foundry-kernel-docs-collective-reuse-md",
+        "e-alt-foundry-kernel-license",
+        "e-alt-foundry-kernel-pyproject-toml",
+        "e-collective-capability-runtime-readme-md",
+        "e-collective-capability-runtime-docs-verified-growth-md",
+        "e-collective-capability-runtime-license",
+        "e-collective-capability-runtime-pyproject-toml",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml",
+        "e-cait-certificate-schema-readme-md",
+        "e-cait-certificate-schema-docs-accounting-md",
+        "e-cait-certificate-schema-license",
+        "e-cait-certificate-schema-pyproject-toml"
+      ]
+    },
+    {
+      "id": "verification-funding",
+      "question": {
+        "en": "Who funds verification and carries residual risk?",
+        "ja": "検証費用と残余リスクを誰が負担するか？"
+      },
+      "queries": [
+        "identify who pays for verification"
+      ],
+      "symptoms": {
+        "en": "identify who pays for verification",
+        "ja": "検証費用と残余リスクを誰が負担するか？"
+      },
+      "first_reads": [
+        "paper-conversion",
+        "paper-bit",
+        "sw-vek"
+      ],
+      "required_inputs": {
+        "en": "Declared payer, authority, resource ownership and accountability arrangement.",
+        "ja": "費用負担者、権限、資源所有、責任分担の宣言。"
+      },
+      "expected_outputs": {
+        "en": "Contextual funding questions and typed costs, not a generated market.",
+        "ja": "制度的な費用負担の論点と型付き費用。市場を生成するものではない。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing institutional agreement; a package cannot assign legal authority or liability.",
+        "ja": "ホスト方針に従う助言経路。制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing institutional agreement; a package cannot assign legal authority or liability.",
+        "ja": "制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。"
+      },
+      "evidence_refs": [
+        "e-paper-conversion",
+        "e-paper-bit",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "basis-sw-ccr",
+      "source": "sw-ccr",
+      "target": "paper-growth",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+        "target": "10.5281/zenodo.22604358 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-collective-capability-runtime-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-pic",
+      "source": "sw-pic",
+      "target": "paper-ecpt",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "55cd5f219d02f02927e247317156e757b1d5d6da",
+        "target": "10.5281/zenodo.20535654 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-percolation-inversion-compiler-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-vek",
+      "source": "sw-vek",
+      "target": "paper-vet",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "4008e311ceb16edd6e74d9f71341a90120c0d046",
+        "target": "10.5281/zenodo.21147093 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-verification-ecology-kit-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-alt",
+      "source": "sw-alt",
+      "target": "paper-alt",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "e0296486bb568fdeeda449dada3bc67753ddfe7f",
+        "target": "10.5281/zenodo.20476200 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-cait",
+      "source": "sw-cait",
+      "target": "paper-cait",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+        "target": "10.5281/zenodo.20061296 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-cait-certificate-schema-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-cpcf",
+      "source": "sw-cpcf",
+      "target": "paper-growth",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "340b4899d5b0892e06d7d2c1ab1f1d48df15e981",
+        "target": "10.5281/zenodo.22604358 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-collective-phase-control-fabric-readme-md",
+        "e-collective-phase-control-fabric-docs-growth-research-mapping-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-oawm",
+      "source": "sw-oawm",
+      "target": "paper-workflow-library",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+        "target": "10.5281/zenodo.19690749 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-sources-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-audit",
+      "source": "sw-audit",
+      "target": "paper-audit-closed",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "1e844d1bca18d7bb298aa198e1250bb07bd7ea44",
+        "target": "10.5281/zenodo.18728589 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-audit-closed-ai-scientist-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "basis-sw-loscr",
+      "source": "sw-loscr",
+      "target": "paper-loscr",
+      "kind": "based_on",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Repository cites this research for a bounded role.",
+        "ja": "リポジトリが限定された役割の研究として参照する。"
+      },
+      "versions": {
+        "source": "334307b59a4870b90f6162705c793bb5615a555a",
+        "target": "10.5281/zenodo.19836225 / archive 7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd"
+      },
+      "checked_fields": [
+        "citation"
+      ],
+      "unsupported_obligations": {
+        "en": "A citation does not establish complete implementation.",
+        "ja": "引用は完全実装を意味しない。"
+      },
+      "evidence_refs": [
+        "e-loscr-readme-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "alt-to-ccr",
+      "source": "sw-alt",
+      "target": "sw-ccr",
+      "kind": "exports_proposal_to",
+      "status": "tested_upstream",
+      "evidence_origin": "upstream_reported",
+      "scope": {
+        "en": "ALT 0.5.0 native open/unleased task parses against CCR 1.8.0; ALT sidecar is additional.",
+        "ja": "ALT 0.5.0の未リース課題はCCR 1.8.0の形式に適合。ALT補助記録は追加項目。"
+      },
+      "versions": {
+        "source": "0.5.0",
+        "target": "1.8.0 / 1591e88e3b05f9b5fb06b2d0c749aad8bc0909be"
+      },
+      "checked_fields": [
+        "ccr.task.v0.1",
+        "open status",
+        "unleased proposal"
+      ],
+      "unsupported_obligations": {
+        "en": "Custom ALT sidecar admission, leases, rewards and execution are not supplied.",
+        "ja": "ALT補助記録の受入、リース、報酬、実行は提供されない。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-docs-reuse-interchange-md",
+        "e-alt-release",
+        "e-alt-native-test"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "alt-from-vek",
+      "source": "sw-alt",
+      "target": "sw-vek",
+      "kind": "imports_artifact_from",
+      "status": "tested_upstream",
+      "evidence_origin": "upstream_reported",
+      "scope": {
+        "en": "Capacity report schema and scope/clock/work-conservation checks on pinned fixtures.",
+        "ja": "固定フィクスチャの容量報告スキーマ、範囲・時計・作業保存を検査。"
+      },
+      "versions": {
+        "source": "0.5.0",
+        "target": "1.3.0 / b07998135cb9dccde1e67db3c6ed77fdec847e09"
+      },
+      "checked_fields": [
+        "scope",
+        "clock",
+        "work conservation"
+      ],
+      "unsupported_obligations": {
+        "en": "Counters are supplied, not replayed; no observed rate or empirical independence.",
+        "ja": "計数は提供値で再生ではない。観測速度や経験的独立性は得られない。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-docs-reuse-interchange-md",
+        "e-alt-release",
+        "e-alt-native-test"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "alt-to-vek",
+      "source": "sw-alt",
+      "target": "sw-vek",
+      "kind": "tested_interchange_with",
+      "status": "tested_upstream",
+      "evidence_origin": "upstream_reported",
+      "scope": {
+        "en": "Finite synthetic check demand accepted by the released VEK checker.",
+        "ja": "有限の合成検査需要を公開VEK検査器が受理。"
+      },
+      "versions": {
+        "source": "0.5.0",
+        "target": "1.3.0 / b07998135cb9dccde1e67db3c6ed77fdec847e09"
+      },
+      "checked_fields": [
+        "native contract",
+        "schedule"
+      ],
+      "unsupported_obligations": {
+        "en": "Host residual/service/unit registration and real observed capacity are absent.",
+        "ja": "ホストの残余・サービス・単位登録と実観測容量は別途必要。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-docs-reuse-interchange-md",
+        "e-alt-release",
+        "e-alt-native-test"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "alt-to-cait",
+      "source": "sw-alt",
+      "target": "sw-cait",
+      "kind": "tested_interchange_with",
+      "status": "tested_upstream",
+      "evidence_origin": "upstream_reported",
+      "scope": {
+        "en": "Supported complete history passes released analyzer/checker; copies do not create assets.",
+        "ja": "対応済み完全履歴を公開解析・検査器が受理。コピーは資産を増やさない。"
+      },
+      "versions": {
+        "source": "0.5.0",
+        "target": "0.2.0 / 7d12bcf0bc4c6eae2acdd177175b6be414a274f6"
+      },
+      "checked_fields": [
+        "unique formation",
+        "costs",
+        "receiver checks",
+        "requests/results",
+        "withdrawal"
+      ],
+      "unsupported_obligations": {
+        "en": "Expiry, contradiction, refresh, correction and some parent mappings remain partial; no cost-to-capital or arrival claim.",
+        "ja": "期限切れ・矛盾・更新・修正・一部親写像は部分対応。費用から能力への変換・到達主張はない。"
+      },
+      "evidence_refs": [
+        "e-alt-foundry-kernel-docs-reuse-interchange-md",
+        "e-alt-release",
+        "e-alt-native-test"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "vek-to-ccr",
+      "source": "sw-vek",
+      "target": "sw-ccr",
+      "kind": "exports_proposal_to",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Capacity extension accompanies schema-valid candidate task.",
+        "ja": "スキーマ適合候補課題に容量拡張が付随する。"
+      },
+      "versions": {
+        "source": "1.3.0",
+        "target": "6d8a30820806044b3a4b18d499fbe89bef83fbf2"
+      },
+      "checked_fields": [
+        "ccr.task.v0.1",
+        "duration rounding",
+        "x_vek_capacity"
+      ],
+      "unsupported_obligations": {
+        "en": "CCR base schema does not enforce extensions; custom admission and atomic host reservation required.",
+        "ja": "CCR基本スキーマは拡張を強制しない。専用受入とホストの原子的資源予約が必要。"
+      },
+      "evidence_refs": [
+        "e-verification-ecology-kit-docs-capacity-interchange-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "cait-from-vek",
+      "source": "sw-cait",
+      "target": "sw-vek",
+      "kind": "imports_artifact_from",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Pinned capacity schema preserves counters and rejects a false guarantee fixture.",
+        "ja": "固定容量スキーマで計数を保持し、虚偽保証フィクスチャを拒否。"
+      },
+      "versions": {
+        "source": "0.2.0",
+        "target": "1.3.0 / b07998135cb9dccde1e67db3c6ed77fdec847e09"
+      },
+      "checked_fields": [
+        "schema",
+        "scope",
+        "source digest",
+        "work conservation"
+      ],
+      "unsupported_obligations": {
+        "en": "Original VEK reducer journal is absent; counters are not independently reconstructed.",
+        "ja": "元VEK履歴がなく、計数は独立再構成されていない。"
+      },
+      "evidence_refs": [
+        "e-cait-certificate-schema-docs-interchange-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "ccr-from-alt-legacy",
+      "source": "sw-ccr",
+      "target": "sw-alt",
+      "kind": "imports_artifact_from",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "CCR growth importer pins ALT 0.4.0 token schema, not the new reuse profile.",
+        "ja": "CCR成長取込はALT 0.4.0のトークンスキーマに固定。新しい再利用プロファイルではない。"
+      },
+      "versions": {
+        "source": "1.8.0",
+        "target": "0.4.0 / b5170dbee93b9183f86570c9b2fa325be9cded51"
+      },
+      "checked_fields": [
+        "token identity",
+        "dependencies",
+        "guard",
+        "provenance"
+      ],
+      "unsupported_obligations": {
+        "en": "Receiver service qualification and newer ALT profile acceptance are not implied.",
+        "ja": "受け手のサービス適格化や新ALTプロファイルの受入を意味しない。"
+      },
+      "evidence_refs": [
+        "e-collective-capability-runtime-docs-verified-growth-interchange-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "ccr-from-pic",
+      "source": "sw-ccr",
+      "target": "sw-pic",
+      "kind": "imports_artifact_from",
+      "status": "documented",
+      "evidence_origin": "source_inspected",
+      "scope": {
+        "en": "Optional provider reports preserve blockers, residuals and candidate-only flags.",
+        "ja": "任意プロバイダ報告の阻害要因・残余・候補限定フラグを保持。"
+      },
+      "versions": {
+        "source": "1.8.0",
+        "target": "1.1.0"
+      },
+      "checked_fields": [
+        "accepted",
+        "settled",
+        "blockers",
+        "residuals"
+      ],
+      "unsupported_obligations": {
+        "en": "No index-run interoperability test; PIC acceptance alone cannot settle CCR or authorize dispatch.",
+        "ja": "索引作業での連携実行テストはない。PIC受理だけでCCR確定・外部実行はできない。"
+      },
+      "evidence_refs": [
+        "e-collective-capability-runtime-interop-pic-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "cpcf-to-ccr",
+      "source": "sw-cpcf",
+      "target": "sw-ccr",
+      "kind": "proposed_integration_with",
+      "status": "proposed",
+      "evidence_origin": "editorial",
+      "scope": {
+        "en": "A planner candidate could become host work only through a separately implemented admitted adapter.",
+        "ja": "計画候補をホスト作業にするには、別途実装した受入アダプタが必要。"
+      },
+      "versions": {
+        "source": "1.0.1",
+        "target": "1.8.0"
+      },
+      "checked_fields": [],
+      "unsupported_obligations": {
+        "en": "Legacy CCR 1.6.0 inspection is quarantined; no v0.6 promotion mapping or execution authority.",
+        "ja": "旧CCR 1.6.0確認は隔離。v0.6昇格写像・実行権限はない。"
+      },
+      "evidence_refs": [
+        "e-collective-phase-control-fabric-docs-adapters-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "alt-to-oawm",
+      "source": "sw-alt",
+      "target": "sw-oawm",
+      "kind": "proposed_integration_with",
+      "status": "proposed",
+      "evidence_origin": "editorial",
+      "scope": {
+        "en": "Qualified reuse may be relevant input to a future memory adapter.",
+        "ja": "適格化済み再利用は将来の記憶アダプタへの入力候補。"
+      },
+      "versions": {
+        "source": "0.5.0",
+        "target": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff"
+      },
+      "checked_fields": [],
+      "unsupported_obligations": {
+        "en": "No adapter or promotion receipt exists in this checked mapping; OAWM requires its own event/manifests/checkers.",
+        "ja": "確認した写像にアダプタ・昇格受領証はない。OAWM固有の事象・目録・検査器が必要。"
+      },
+      "evidence_refs": [
+        "e-observable-agent-workflow-memory-docs-theory-sources-md",
+        "e-alt-foundry-kernel-docs-reuse-interchange-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    },
+    {
+      "id": "cpcf-consequence",
+      "source": "sw-cpcf",
+      "target": "paper-consequence",
+      "kind": "related_concept",
+      "status": "documented",
+      "evidence_origin": "editorial",
+      "scope": {
+        "en": "Coupled model uncertainty informs the reading route, without a full theorem-implementation claim.",
+        "ja": "結合したモデル不確実性が読書経路を支える。定理の完全実装の主張ではない。"
+      },
+      "versions": {
+        "source": "340b4899d5b0892e06d7d2c1ab1f1d48df15e981",
+        "target": "10.5281/zenodo.22170023"
+      },
+      "checked_fields": [],
+      "unsupported_obligations": {
+        "en": "No proof that the software implements the paper residual-product theorem.",
+        "ja": "論文の残差積定理をソフトウェアが実装する証明はない。"
+      },
+      "evidence_refs": [
+        "e-paper-consequence",
+        "e-collective-phase-control-fabric-readme-md",
+        "e-collective-phase-control-fabric-docs-epistemic-growth-control-md"
+      ],
+      "checked_at": "2026-09-21",
+      "locally_executed": false
+    }
+  ],
+  "read_paths": [
+    {
+      "id": "reader",
+      "resource_ids": [
+        "paper-growth",
+        "paper-vet",
+        "paper-alt",
+        "paper-cait"
+      ]
+    },
+    {
+      "id": "implementer",
+      "resource_ids": [
+        "sw-ccr",
+        "sw-pic",
+        "sw-vek",
+        "sw-alt",
+        "sw-cait",
+        "sw-cpcf"
+      ]
+    },
+    {
+      "id": "machine",
+      "resource_ids": [
+        "sw-skill",
+        "sw-simulator"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": {
+        "en": "Collective Intelligence Research and OSS Index",
+        "ja": "集合知研究・OSS索引"
+      },
+      "text": {
+        "en": "A problem-first map of K. Takahashi’s research and public software. This is a finite, editorially selected map of the site corpus, not a world survey, endorsement or deployed intelligence system. Source observation and editorial review: 2026-09-21.",
+        "ja": "K. Takahashiの研究と公開ソフトウェアを問題からたどる索引。サイト内コーパスを有限に選定した編集物で、世界全体の総説、推薦、稼働知能システムではない。ソース確認・編集レビュー: 2026-09-21。"
+      }
+    },
+    {
+      "id": "start-here",
+      "heading": {
+        "en": "Start here",
+        "ja": "最初に読む"
+      },
+      "text": {
+        "en": "Readers can start with the growth paper. Implementers can choose a problem below, then inspect the pinned contract and negative cases before installation. Machine consumers can retrieve the JSON registry, schema and complete Markdown; routing is advisory under their host policy.",
+        "ja": "研究者は成長論文から、実装者は以下の問題から入り、導入前に固定版契約と否定例を確認できる。機械利用者はJSONレジストリ、スキーマ、完全なMarkdownを取得できる。経路はホスト方針に従う助言。"
+      }
+    },
+    {
+      "id": "definitions",
+      "heading": {
+        "en": "Definitions and non-claims",
+        "ja": "定義と非主張"
+      },
+      "text": {
+        "en": "Collective intelligence concerns what interaction contributes under a declared task and comparison protocol. Collective capability growth concerns net changes in checked, reusable task and research capacity. Operational self-acceleration is the stronger claim that existing capability contributes to faster future formation under matched resources, quality, time and external inputs. These are separate propositions. Phase normally denotes a proposed protocol-relative regime here; the Gibbs-model paper states its own narrower mathematical premises.",
+        "ja": "集合知は、課題と比較プロトコルを宣言した上での相互作用の寄与を指す。集合的能力成長は、検査済みで再利用可能な課題・研究能力の純変化を指す。運用上の自己加速は、資源・品質・時間・外部投入を揃えた上で既存能力が将来の形成速度に寄与する、より強い主張。これらは別の命題。phaseは原則として提案されたプロトコル相対の状態であり、Gibbsモデル論文には別途限定的な数学的前提がある。"
+      }
+    },
+    {
+      "id": "problems",
+      "heading": {
+        "en": "Find a route by problem",
+        "ja": "問題から探す"
+      },
+      "text": {
+        "en": "",
+        "ja": ""
+      }
+    },
+    {
+      "id": "core-software",
+      "heading": {
+        "en": "Core software",
+        "ja": "中核ソフトウェア"
+      },
+      "text": {
+        "en": "",
+        "ja": ""
+      }
+    },
+    {
+      "id": "core-papers",
+      "heading": {
+        "en": "Core papers",
+        "ja": "中核論文"
+      },
+      "text": {
+        "en": "",
+        "ja": ""
+      }
+    },
+    {
+      "id": "supporting-research",
+      "heading": {
+        "en": "Supporting research and tools",
+        "ja": "支援研究とツール"
+      },
+      "text": {
+        "en": "",
+        "ja": ""
+      }
+    },
+    {
+      "id": "workflow",
+      "heading": {
+        "en": "Proposed evidence-preserving workflow",
+        "ja": "根拠を保持する作業手順案"
+      },
+      "text": {
+        "en": "Generate → Verify → Reuse → Account → Reallocate is a conceptual workflow, not an executable pipeline. Preserve original bytes, identities, clocks, costs and unresolved obligations at each handoff. Use the typed relationships below before connecting any two tools. A schema match alone grants neither semantic acceptance nor execution authority.",
+        "ja": "生成 → 検証 → 再利用 → 計上 → 再配分は概念的手順であり、そのまま実行できるパイプラインではない。各引渡しで元バイト列、同一性、時計、費用、未解決義務を保持する。ツールを接続する前に以下の型付き関係を確認する。スキーマ適合だけでは意味的受理も実行権限も得られない。"
+      }
+    },
+    {
+      "id": "interoperability",
+      "heading": {
+        "en": "Version-bound interoperability",
+        "ja": "バージョンを限定した相互運用"
+      },
+      "text": {
+        "en": "“Tested upstream” attributes native fixture checks to the cited project; none of those packages was executed in this website task. Document inspection, index regression tests and native integration execution are different evidence origins. Direction matters: imports_artifact_from points from consumer to producer; exports_proposal_to points from producer to host. Compatibility is neither transitive nor automatically renewed by a release.",
+        "ja": "「上流でテスト済み」は引用先プロジェクトのネイティブ・フィクスチャ検査の報告を示す。このサイト作業では対象パッケージを実行していない。文書確認、索引回帰検査、ネイティブ連携実行は別の根拠。imports_artifact_fromは受け手から生成元へ、exports_proposal_toは生成元からホストへ向く。互換性は推移的でなく、更新によって自動延長されない。"
+      }
+    },
+    {
+      "id": "agent-guide",
+      "heading": {
+        "en": "Agent read-first and handoff guide",
+        "ja": "エージェントの事前確認・引渡し"
+      },
+      "text": {
+        "en": "Identify the task, scope, inputs and required authority. Read the paper assumptions and exact software revision. Compare the observation date with release and schema versions. Retain unknowns and rejected evidence. Stop or hand off when inputs, units, licenses, authentication, host admission, causality or verification capacity are unresolved. Discovery metadata does not authorize installing packages, executing command hints, sending secrets or changing goals.",
+        "ja": "課題・範囲・入力・必要権限を特定し、論文の仮定とソフトウェアの厳密な版を読む。確認日とリリース・スキーマ版を比較する。未知値と棄却根拠を保持する。入力・単位・ライセンス・認証・ホスト受入・因果性・検証容量が未解決なら停止または引継ぐ。探索メタデータは導入、ヒントの実行、秘密送信、目標変更を許可しない。"
+      }
+    },
+    {
+      "id": "boundaries",
+      "heading": {
+        "en": "Scientific, implementation and authority boundaries",
+        "ja": "科学・実装・権限の境界"
+      },
+      "text": {
+        "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
+        "ja": "計上恒等式は、同一単位・範囲内で期末蓄積 = 期首蓄積 + 受理された一意の追加 − 損失。サービス再利用、コピー、外部投入は別座標。普遍的な流入・損失比は仮定せず、損失ゼロなら未定義にもなる。スペクトル下界はモデルの前提に依存する。ハッシュはバイト列を結び付けるが真実を証明しない。リリースは本番保証ではない。不明値は理由付きnullで好都合なゼロではない。大域的自己加速の観測、AGI・ASI検出、到来予測は確立していない。"
+      }
+    },
+    {
+      "id": "economic-and-institutional-context",
+      "heading": {
+        "en": "Verification funding and accountability",
+        "ja": "検証費用と責任"
+      },
+      "text": {
+        "en": "Verification consumes resources even when a result is negative. A deployment context therefore needs an explicit payer, resource owner, authority boundary and responsibility for residual risk. Incentives can otherwise reward output volume while shifting verification costs. This is descriptive context, not a theorem requiring a particular market, insurer or law; a technical package does not create those arrangements.",
+        "ja": "否定結果でも検証は資源を消費する。運用では費用負担者、資源所有者、権限境界、残余リスクへの責任を明示する必要がある。そうでなければ出力量を報酬化し検証費用を転嫁し得る。これは記述的背景であり、特定の市場・保険者・法律を必須とする定理ではない。技術パッケージが制度を作るわけではない。"
+      }
+    },
+    {
+      "id": "downloads",
+      "heading": {
+        "en": "Downloads",
+        "ja": "取得形式"
+      },
+      "text": {
+        "en": "",
+        "ja": ""
+      }
+    },
+    {
+      "id": "sources-and-maintenance",
+      "heading": {
+        "en": "Sources and maintenance",
+        "ja": "ソースと保守"
+      },
+      "text": {
+        "en": "Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.",
+        "ja": "書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。"
+      }
+    }
+  ]
+}

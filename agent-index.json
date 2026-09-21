@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "index_type": "research_and_software_discovery",
   "canonical_url": "https://kadubon.github.io/github.io/agent-index.json",
-  "source_state_at": "2026-09-13T15:02:45Z",
+  "source_state_at": "2026-09-21T00:00:00Z",
   "identity": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -10,6 +10,7 @@
     "github": "https://github.com/kadubon"
   },
   "scope": [
+    "collective capability research, problem routing and version-bound OSS interoperability",
     "auditable autonomous intelligence",
     "observable-only and no-meta AI governance",
     "deterministic replay and fail-closed verification",
@@ -19,6 +20,13 @@
     "provenance, claim certification, and scientific availability"
   ],
   "entry_points": {
+    "collective_intelligence_en": "https://kadubon.github.io/github.io/collective-intelligence-index.html",
+    "collective_intelligence_ja": "https://kadubon.github.io/github.io/collective-intelligence-index.ja.html",
+    "collective_intelligence_registry": "https://kadubon.github.io/github.io/collective-intelligence-index.json",
+    "collective_intelligence_markdown": "https://kadubon.github.io/github.io/collective-intelligence-index.md",
+    "collective_intelligence_markdown_ja": "https://kadubon.github.io/github.io/collective-intelligence-index.ja.md",
+    "collective_intelligence_schema": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
+    "collective_intelligence_bibliography": "https://kadubon.github.io/github.io/collective-intelligence.bib",
     "human_overview": "https://kadubon.github.io/github.io/",
     "research_map": "https://kadubon.github.io/github.io/research-map.html",
     "publication_index": "https://kadubon.github.io/github.io/works.html",

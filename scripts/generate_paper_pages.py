@@ -88,6 +88,9 @@ def resolve_pdf(doi: str, title: str, cache: dict[str, object], refresh: bool) -
     record_id = zenodo_id(doi)
     cached = cache.get(doi)
     if isinstance(cached, dict) and cached.get("record_id") == record_id and not refresh:
+        if not cached.get('candidates'):
+            # A failed lookup is not evidence that a record has no PDF.
+            return dict(cached)
         return select_pdf(record_id, list(cached.get("candidates", [])), title)
     if not record_id:
         return {"record_id": None, "status": "PDF_UNRESOLVED", "pdf_url": None, "candidates": [], "reason": "Not a Zenodo record DOI"}
@@ -103,6 +106,11 @@ def resolve_pdf(doi: str, title: str, cache: dict[str, object], refresh: bool) -
             error = caught
             time.sleep(0.25)
     if payload is None:
+        if isinstance(cached, dict) and cached.get('record_id') == record_id:
+            preserved = dict(cached)
+            preserved['refresh_status'] = 'stale'
+            preserved['refresh_error'] = f'Zenodo API lookup failed after retries: {type(error).__name__}'
+            return preserved
         return {"record_id": record_id, "status": "PDF_UNRESOLVED", "pdf_url": None, "candidates": [], "reason": f"Zenodo API lookup failed after retries: {type(error).__name__}"}
     actual_dois = {str(payload.get("doi") or "").lower(), str(payload.get("metadata", {}).get("doi") or "").lower(), str(payload.get("conceptdoi") or "").lower(), str(payload.get("metadata", {}).get("conceptdoi") or "").lower()}
     # A concept DOI can legitimately resolve to the latest versioned Zenodo record.
@@ -206,13 +214,18 @@ def sync_sitemap(paper_urls: list[str]) -> None:
     original = ET.parse(path).getroot()
     namespace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
     existing = [node.findtext(namespace + "loc") or "" for node in original.findall(namespace + "url")]
+    # Preserve genuine metadata on non-paper entries owned by other generators.
+    metadata = {node.findtext(namespace + "loc"): node for node in original.findall(namespace + "url")}
     remaining = [url for url in existing if not url.startswith(SITE_URL + "papers/")]
     root = ET.Element(namespace + "urlset")
     for url in sorted(set(remaining + paper_urls)):
+        if url in remaining and url in metadata:
+            root.append(metadata[url])
+            continue
         node = ET.SubElement(root, namespace + "url")
         ET.SubElement(node, namespace + "loc").text = url
     ET.register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
-    ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
+    path.write_bytes(ET.tostring(root, encoding="utf-8", xml_declaration=True))
 
 
 def clean_stale(slugs: set[str]) -> None:

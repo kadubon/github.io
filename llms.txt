@@ -53,3 +53,13 @@ Catalog inclusion is a discovery aid, not a claim of production readiness, secur
 ## Optional
 
 - [GitHub](https://github.com/kadubon): PoC repositories.
+
+## Collective Intelligence Research and OSS Index
+
+Problem-driven research and OSS routing with version-bound evidence, explicit unknowns and proposed-versus-tested relationships. These optional discovery aids are not access policy or a universal indexing requirement.
+
+- English: https://kadubon.github.io/github.io/collective-intelligence-index.html
+- Japanese: https://kadubon.github.io/github.io/collective-intelligence-index.ja.html
+- Registry: https://kadubon.github.io/github.io/collective-intelligence-index.json
+- Complete Markdown: https://kadubon.github.io/github.io/collective-intelligence-index.md
+- Schema: https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json
