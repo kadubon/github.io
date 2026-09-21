@@ -1397,7 +1397,7 @@
             "tag": "v1.8.0",
             "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.8.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1549,7 +1549,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1700,7 +1700,7 @@
             "tag": "v1.3.0",
             "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1852,7 +1852,7 @@
             "tag": "v0.5.0",
             "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1999,7 +1999,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2154,7 +2154,7 @@
             "tag": "v1.0.1",
             "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2283,7 +2283,7 @@
         "release_observation": {
           "default_branch_revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
           "latest_release": null,
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -2414,7 +2414,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/oasg/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2548,7 +2548,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2681,7 +2681,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2815,7 +2815,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2927,7 +2927,7 @@
             "tag": "v1.1.1",
             "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
           },
-          "observed_at": "2026-09-21T01:36:30+00:00",
+          "observed_at": "2026-09-21T08:58:00+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -7392,5 +7392,5 @@
       "verification-funding"
     ]
   },
-  "content_digest": "5f4852dfbf8ada3255f58343085bd46663e51554d6c029a0bb198c9e4d7cab4b"
+  "content_digest": "ae1d8d6ada181098a1d5478d68fc454b93ca05c96249d37d6b729d3445c323be"
 }
