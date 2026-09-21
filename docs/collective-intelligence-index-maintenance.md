@@ -127,6 +127,8 @@ in the inspected baseline. The explicit existing HTML pages remain the reader
 destinations. No new hosting service, release, version bump or endpoint exists.
 
 Both trusted derived-content writers share `derived-content-writers` and
+check out the current `main` when starting, rather than a queued event's old
+commit, so a preceding writer's generated updates are retained. They
 rebuild after rebasing before pushing; read-only pull-request CI has only
 contents-read permission and does not use `pull_request_target`. Existing
 paper generation preserves non-paper sitemap metadata. The feed still

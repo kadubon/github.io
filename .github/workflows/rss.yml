@@ -22,6 +22,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued writer must start after the preceding writer's commit.
+          ref: main
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
