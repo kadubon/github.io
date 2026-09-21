@@ -1,10 +1,17 @@
 {
   "10.5281/zenodo.16416998": {
     "record_id": "16416998",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
+    "filename": "Takahashi_2025_Computational_Autopoiesis.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Computational_Autopoiesis.pdf",
+        "url": "https://zenodo.org/records/16416998/files/Takahashi_2025_Computational_Autopoiesis.pdf",
+        "size": 75616,
+        "score": 18
+      }
+    ]
   },
   "10.5281/zenodo.16417130": {
     "record_id": "16417130",
@@ -50,647 +57,1016 @@
   },
   "10.5281/zenodo.16518769": {
     "record_id": "16518769",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+    "filename": "Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+        "url": "https://zenodo.org/records/16518769/files/Takahashi_2025_Framework_for_AI_as_a_Self_OrgTakahashi_2025_.pdf",
+        "size": 1468196,
+        "score": 19
+      }
+    ]
   },
   "10.5281/zenodo.16623941": {
     "record_id": "16623941",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+    "filename": "Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+        "url": "https://zenodo.org/records/16623941/files/Takahashi_2025_Logic_of_Stable_Existence_for_AGI.pdf",
+        "size": 69200,
+        "score": 20
+      }
+    ]
   },
   "10.5281/zenodo.16625104": {
     "record_id": "16625104",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "url": "https://zenodo.org/records/16625104/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "size": 46155,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16625633": {
     "record_id": "16625633",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "url": "https://zenodo.org/records/16625633/files/Takahashi_2025_Co_Evolution_Model_of_Self_and_Cosmos.pdf",
+        "size": 46155,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16633860": {
     "record_id": "16633860",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
+    "filename": "Takahashi_2025_Post_LLM.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Post_LLM.pdf",
+        "url": "https://zenodo.org/records/16633860/files/Takahashi_2025_Post_LLM.pdf",
+        "size": 87302,
+        "score": 6
+      }
+    ]
   },
   "10.5281/zenodo.16663817": {
     "record_id": "16663817",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
+    "filename": "Takahashi_2025_Proposals_for_AGI.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Proposals_for_AGI.pdf",
+        "url": "https://zenodo.org/records/16663817/files/Takahashi_2025_Proposals_for_AGI.pdf",
+        "size": 375339,
+        "score": 4
+      }
+    ]
   },
   "10.5281/zenodo.16675542": {
     "record_id": "16675542",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+    "filename": "2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+    "candidates": [
+      {
+        "filename": "2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+        "url": "https://zenodo.org/records/16675542/files/2025_Takahashi_Higher_Category_Theory_for_AAII.pdf",
+        "size": 298812,
+        "score": 14
+      }
+    ]
   },
   "10.5281/zenodo.16728870": {
     "record_id": "16728870",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+    "filename": "Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+        "url": "https://zenodo.org/records/16728870/files/Takahashi_2025_Framework_for_Autonomous_Technological_Evolution.pdf",
+        "size": 232395,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16734292": {
     "record_id": "16734292",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+    "filename": "Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+    "candidates": [
+      {
+        "filename": "Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+        "url": "https://zenodo.org/records/16734292/files/Takahashi_2025_Foundational_principles_for_self_improving_AI.pdf",
+        "size": 192759,
+        "score": 26
+      }
+    ]
   },
   "10.5281/zenodo.16734893": {
     "record_id": "16734893",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+    "filename": "A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+    "candidates": [
+      {
+        "filename": "A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+        "url": "https://zenodo.org/records/16734893/files/A_Categorical_and_Geometric_Blueprint_for_CAAI.pdf",
+        "size": 265654,
+        "score": 25
+      }
+    ]
   },
   "10.5281/zenodo.16761052": {
     "record_id": "16761052",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+    "filename": "A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+    "candidates": [
+      {
+        "filename": "A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+        "url": "https://zenodo.org/records/16761052/files/A_Rigorous_Categorical_and_Geometric_Framework_for_Self_Improving_AI.pdf",
+        "size": 271212,
+        "score": 41
+      }
+    ]
   },
   "10.5281/zenodo.16777305": {
     "record_id": "16777305",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16777305/files/Formal_Specification_of_Self_Improving_Intelligence.pdf",
+    "filename": "Formal_Specification_of_Self_Improving_Intelligence.pdf",
+    "candidates": [
+      {
+        "filename": "Formal_Specification_of_Self_Improving_Intelligence.pdf",
+        "url": "https://zenodo.org/records/16777305/files/Formal_Specification_of_Self_Improving_Intelligence.pdf",
+        "size": 289531,
+        "score": 132
+      }
+    ]
   },
   "10.5281/zenodo.16783997": {
     "record_id": "16783997",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16783997/files/A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
+    "filename": "A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
+    "candidates": [
+      {
+        "filename": "A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
+        "url": "https://zenodo.org/records/16783997/files/A_Formal_Framework_for_Teleogenetic_Intelligence.pdf",
+        "size": 1493240,
+        "score": 21
+      }
+    ]
   },
   "10.5281/zenodo.16788690": {
     "record_id": "16788690",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16788690/files/A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
+    "filename": "A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
+    "candidates": [
+      {
+        "filename": "A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
+        "url": "https://zenodo.org/records/16788690/files/A_Computable_Framework_for_the_Liberation_of_Artificial_Intelligence.pdf",
+        "size": 284247,
+        "score": 133
+      }
+    ]
   },
   "10.5281/zenodo.16860493": {
     "record_id": "16860493",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16860493/files/A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
+    "filename": "A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
+    "candidates": [
+      {
+        "filename": "A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
+        "url": "https://zenodo.org/records/16860493/files/A_Metacognitive_Perturbation_Framework_for_Neuro_Inspired_AI_Optimization.pdf",
+        "size": 256860,
+        "score": 143
+      }
+    ]
   },
   "10.5281/zenodo.16899150": {
     "record_id": "16899150",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16899150/files/A_Protocol_for_a_Post_Cartesian_AI.pdf",
+    "filename": "A_Protocol_for_a_Post_Cartesian_AI.pdf",
+    "candidates": [
+      {
+        "filename": "A_Protocol_for_a_Post_Cartesian_AI.pdf",
+        "url": "https://zenodo.org/records/16899150/files/A_Protocol_for_a_Post_Cartesian_AI.pdf",
+        "size": 286450,
+        "score": 27
+      }
+    ]
   },
   "10.5281/zenodo.16908339": {
     "record_id": "16908339",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16908339/files/From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
+    "filename": "From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
+    "candidates": [
+      {
+        "filename": "From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
+        "url": "https://zenodo.org/records/16908339/files/From_Rigidity_to_Insight_A_Framework_for_Verifiable_AI_Metacognition.pdf",
+        "size": 213229,
+        "score": 143
+      }
+    ]
   },
   "10.5281/zenodo.16924567": {
     "record_id": "16924567",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16924567/files/Valuing_Work_Beyond_Bullshit.pdf",
+    "filename": "Valuing_Work_Beyond_Bullshit.pdf",
+    "candidates": [
+      {
+        "filename": "Valuing_Work_Beyond_Bullshit.pdf",
+        "url": "https://zenodo.org/records/16924567/files/Valuing_Work_Beyond_Bullshit.pdf",
+        "size": 305521,
+        "score": 126
+      }
+    ]
   },
   "10.5281/zenodo.16945789": {
     "record_id": "16945789",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16945789/files/A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
+    "filename": "A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
+    "candidates": [
+      {
+        "filename": "A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
+        "url": "https://zenodo.org/records/16945789/files/A_Meta_Algorithmic_Framework_for_Bootstrapping_and_Verifiable_Emancipation_of_Autonomous_Intelligence.pdf",
+        "size": 457780,
+        "score": 47
+      }
+    ]
   },
   "10.5281/zenodo.16964007": {
     "record_id": "16964007",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16964007/files/Self_Constrained_Liberation.pdf",
+    "filename": "Self_Constrained_Liberation.pdf",
+    "candidates": [
+      {
+        "filename": "Self_Constrained_Liberation.pdf",
+        "url": "https://zenodo.org/records/16964007/files/Self_Constrained_Liberation.pdf",
+        "size": 235568,
+        "score": 116
+      }
+    ]
   },
   "10.5281/zenodo.16983553": {
     "record_id": "16983553",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/16983553/files/Symbiotic_Genesis.pdf",
+    "filename": "Symbiotic_Genesis.pdf",
+    "candidates": [
+      {
+        "filename": "Symbiotic_Genesis.pdf",
+        "url": "https://zenodo.org/records/16983553/files/Symbiotic_Genesis.pdf",
+        "size": 230999,
+        "score": 115
+      }
+    ]
   },
   "10.5281/zenodo.17000967": {
     "record_id": "17000967",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17000967/files/The_Symbiotic_Constitution.pdf",
+    "filename": "The_Symbiotic_Constitution.pdf",
+    "candidates": [
+      {
+        "filename": "The_Symbiotic_Constitution.pdf",
+        "url": "https://zenodo.org/records/17000967/files/The_Symbiotic_Constitution.pdf",
+        "size": 196821,
+        "score": 123
+      }
+    ]
   },
   "10.5281/zenodo.17008678": {
     "record_id": "17008678",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17008678/files/From_Adaptation_to_Poiesis.pdf",
+    "filename": "From_Adaptation_to_Poiesis.pdf",
+    "candidates": [
+      {
+        "filename": "From_Adaptation_to_Poiesis.pdf",
+        "url": "https://zenodo.org/records/17008678/files/From_Adaptation_to_Poiesis.pdf",
+        "size": 400492,
+        "score": 121
+      }
+    ]
   },
   "10.5281/zenodo.17015125": {
     "record_id": "17015125",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17015125/files/AI_Evolution_Protocol_v11.pdf",
+    "filename": "AI_Evolution_Protocol_v11.pdf",
+    "candidates": [
+      {
+        "filename": "AI_Evolution_Protocol_v11.pdf",
+        "url": "https://zenodo.org/records/17015125/files/AI_Evolution_Protocol_v11.pdf",
+        "size": 195826,
+        "score": 131
+      }
+    ]
   },
   "10.5281/zenodo.17018328": {
     "record_id": "17018328",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17018328/files/The_Co_Emergent_Universe.pdf",
+    "filename": "The_Co_Emergent_Universe.pdf",
+    "candidates": [
+      {
+        "filename": "The_Co_Emergent_Universe.pdf",
+        "url": "https://zenodo.org/records/17018328/files/The_Co_Emergent_Universe.pdf",
+        "size": 366332,
+        "score": 114
+      }
+    ]
   },
   "10.5281/zenodo.17035067": {
     "record_id": "17035067",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17035067/files/Statistical_Teleodynamics.pdf",
+    "filename": "Statistical_Teleodynamics.pdf",
+    "candidates": [
+      {
+        "filename": "Statistical_Teleodynamics.pdf",
+        "url": "https://zenodo.org/records/17035067/files/Statistical_Teleodynamics.pdf",
+        "size": 262149,
+        "score": 114
+      }
+    ]
   },
   "10.5281/zenodo.17062223": {
     "record_id": "17062223",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17062223/files/From_First_Principles_to_Emergent_Minds.pdf",
+    "filename": "From_First_Principles_to_Emergent_Minds.pdf",
+    "candidates": [
+      {
+        "filename": "From_First_Principles_to_Emergent_Minds.pdf",
+        "url": "https://zenodo.org/records/17062223/files/From_First_Principles_to_Emergent_Minds.pdf",
+        "size": 215089,
+        "score": 129
+      }
+    ]
   },
   "10.5281/zenodo.17070790": {
     "record_id": "17070790",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17070790/files/The_Quantification_of_Subjectivity.pdf",
+    "filename": "The_Quantification_of_Subjectivity.pdf",
+    "candidates": [
+      {
+        "filename": "The_Quantification_of_Subjectivity.pdf",
+        "url": "https://zenodo.org/records/17070790/files/The_Quantification_of_Subjectivity.pdf",
+        "size": 101850,
+        "score": 123
+      }
+    ]
   },
   "10.5281/zenodo.17072418": {
     "record_id": "17072418",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17072418/files/The_Endogenous_Trigger_Problem.pdf",
+    "filename": "The_Endogenous_Trigger_Problem.pdf",
+    "candidates": [
+      {
+        "filename": "The_Endogenous_Trigger_Problem.pdf",
+        "url": "https://zenodo.org/records/17072418/files/The_Endogenous_Trigger_Problem.pdf",
+        "size": 139994,
+        "score": 122
+      }
+    ]
   },
   "10.5281/zenodo.17076410": {
     "record_id": "17076410",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17076410/files/Persistence_First_Superintelligence.pdf",
+    "filename": "Persistence_First_Superintelligence.pdf",
+    "candidates": [
+      {
+        "filename": "Persistence_First_Superintelligence.pdf",
+        "url": "https://zenodo.org/records/17076410/files/Persistence_First_Superintelligence.pdf",
+        "size": 419167,
+        "score": 134
+      }
+    ]
   },
   "10.5281/zenodo.17082312": {
     "record_id": "17082312",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17082312/files/UGV_Without_Meta.pdf",
+    "filename": "UGV_Without_Meta.pdf",
+    "candidates": [
+      {
+        "filename": "UGV_Without_Meta.pdf",
+        "url": "https://zenodo.org/records/17082312/files/UGV_Without_Meta.pdf",
+        "size": 411248,
+        "score": 112
+      }
+    ]
   },
   "10.5281/zenodo.17085534": {
     "record_id": "17085534",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17085534/files/From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
+    "filename": "From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
+    "candidates": [
+      {
+        "filename": "From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
+        "url": "https://zenodo.org/records/17085534/files/From_Persistence_and_UGV_Axioms_to_Cosmic_No_Meta_Superintelligence.pdf",
+        "size": 313984,
+        "score": 134
+      }
+    ]
   },
   "10.5281/zenodo.17092562": {
     "record_id": "17092562",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17092562/files/Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
+    "filename": "Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
+    "candidates": [
+      {
+        "filename": "Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
+        "url": "https://zenodo.org/records/17092562/files/Assumption_Minimized_Sufficient_Conditions_for_Cosmically_Spreading_Good_Superintelligence_under_No_Meta_Governance.pdf",
+        "size": 463733,
+        "score": 155
+      }
+    ]
   },
   "10.5281/zenodo.17100322": {
     "record_id": "17100322",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17100322/files/Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
+    "filename": "Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
+    "candidates": [
+      {
+        "filename": "Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
+        "url": "https://zenodo.org/records/17100322/files/Persistence___Creation___Natural_Law_Sufficient_Conditions_for_A_s__Beneficial_Coverage_without_Meta_Design.pdf",
+        "size": 390786,
+        "score": 47
+      }
+    ]
   },
   "10.5281/zenodo.17113105": {
     "record_id": "17113105",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17113105/files/Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
+    "filename": "Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
+    "candidates": [
+      {
+        "filename": "Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
+        "url": "https://zenodo.org/records/17113105/files/Engineering_Happiness_in_Human_AI_Intelligence_Networks.pdf",
+        "size": 381255,
+        "score": 140
+      }
+    ]
   },
   "10.5281/zenodo.17115416": {
     "record_id": "17115416",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17115416/files/Non_Coercive_Mathematics_of_Awakening.pdf",
+    "filename": "Non_Coercive_Mathematics_of_Awakening.pdf",
+    "candidates": [
+      {
+        "filename": "Non_Coercive_Mathematics_of_Awakening.pdf",
+        "url": "https://zenodo.org/records/17115416/files/Non_Coercive_Mathematics_of_Awakening.pdf",
+        "size": 479375,
+        "score": 120
+      }
+    ]
   },
   "10.5281/zenodo.17120045": {
     "record_id": "17120045",
-    "status": "PDF_UNRESOLVED",
-    "pdf_url": null,
-    "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/17120045/files/Natural_Law_Acceleration_of_VPO.pdf",
+    "filename": "Natural_Law_Acceleration_of_VPO.pdf",
+    "candidates": [
+      {
+        "filename": "Natural_Law_Acceleration_of_VPO.pdf",
+        "url": "https://zenodo.org/records/17120045/files/Natural_Law_Acceleration_of_VPO.pdf",
+        "size": 284352,
+        "score": 131
+      }
+    ]
   },
   "10.5281/zenodo.17131394": {
     "record_id": "17131394",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17136051": {
     "record_id": "17136051",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17141216": {
     "record_id": "17141216",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17157835": {
     "record_id": "17157835",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17158344": {
     "record_id": "17158344",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17162999": {
     "record_id": "17162999",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17163904": {
     "record_id": "17163904",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17168036": {
     "record_id": "17168036",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17176519": {
     "record_id": "17176519",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17188268": {
     "record_id": "17188268",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17189422": {
     "record_id": "17189422",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17199498": {
     "record_id": "17199498",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17204755": {
     "record_id": "17204755",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17209556": {
     "record_id": "17209556",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17217036": {
     "record_id": "17217036",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17220983": {
     "record_id": "17220983",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17223573": {
     "record_id": "17223573",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17239149": {
     "record_id": "17239149",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17249352": {
     "record_id": "17249352",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17254917": {
     "record_id": "17254917",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17268502": {
     "record_id": "17268502",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17272609": {
     "record_id": "17272609",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17274518": {
     "record_id": "17274518",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17292137": {
     "record_id": "17292137",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17299070": {
     "record_id": "17299070",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17304179": {
     "record_id": "17304179",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17309195": {
     "record_id": "17309195",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17317567": {
     "record_id": "17317567",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17334218": {
     "record_id": "17334218",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17345898": {
     "record_id": "17345898",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17349720": {
     "record_id": "17349720",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17364444": {
     "record_id": "17364444",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17389109": {
     "record_id": "17389109",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17429908": {
     "record_id": "17429908",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17469937": {
     "record_id": "17469937",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17483082": {
     "record_id": "17483082",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17518572": {
     "record_id": "17518572",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17520859": {
     "record_id": "17520859",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17539800": {
     "record_id": "17539800",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17547803": {
     "record_id": "17547803",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17576546": {
     "record_id": "17576546",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17596361": {
     "record_id": "17596361",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17601860": {
     "record_id": "17601860",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17602030": {
     "record_id": "17602030",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17636648": {
     "record_id": "17636648",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17645180": {
     "record_id": "17645180",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17658411": {
     "record_id": "17658411",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17669224": {
     "record_id": "17669224",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17679426": {
     "record_id": "17679426",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17684539": {
     "record_id": "17684539",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17706175": {
     "record_id": "17706175",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17707344": {
     "record_id": "17707344",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17712716": {
     "record_id": "17712716",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17718314": {
     "record_id": "17718314",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17724629": {
     "record_id": "17724629",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17728994": {
     "record_id": "17728994",
@@ -711,14 +1087,18 @@
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17732875": {
     "record_id": "17732875",
     "status": "PDF_UNRESOLVED",
     "pdf_url": null,
     "candidates": [],
-    "reason": "Zenodo API lookup failed after retries: HTTPError"
+    "reason": "Zenodo API lookup failed after retries: HTTPError",
+    "refresh_status": "stale",
+    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
   },
   "10.5281/zenodo.17744509": {
     "record_id": "17744509",
