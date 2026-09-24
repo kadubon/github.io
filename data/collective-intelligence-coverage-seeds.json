@@ -1,0 +1,2374 @@
+{
+  "version": "1.0",
+  "scope": "Supplied A–O intent families. Acceptance expectations only; operational aliases live in curation. Lexical reachability is not relevance, ranking or adoption.",
+  "seeds": [
+    {
+      "id": "a-01",
+      "family": "A",
+      "query": {
+        "en": "AI agent says \"done\" but task is not finished",
+        "ja": "AIエージェントが完了と言うのに実際には終わっていない"
+      },
+      "expected_problem_id": "completion-and-outcome",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-02",
+      "family": "A",
+      "query": {
+        "en": "false completion",
+        "ja": "完了の誤報告"
+      },
+      "expected_problem_id": "completion-and-outcome",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-03",
+      "family": "A",
+      "query": {
+        "en": "tool receipt vs actual outcome",
+        "ja": "ツールの受領証と実際の成果の違い"
+      },
+      "expected_problem_id": "completion-and-outcome",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-04",
+      "family": "A",
+      "query": {
+        "en": "postcondition verification",
+        "ja": "実行後の完了条件を確認したい"
+      },
+      "expected_problem_id": "completion-and-outcome",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-05",
+      "family": "A",
+      "query": {
+        "en": "agent keeps retrying",
+        "ja": "エージェントが再試行を続ける"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-06",
+      "family": "A",
+      "query": {
+        "en": "agent stuck in a loop",
+        "ja": "エージェントがループから抜けない"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-07",
+      "family": "A",
+      "query": {
+        "en": "repeated tool calls",
+        "ja": "同じツール呼び出しを繰り返す"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-08",
+      "family": "A",
+      "query": {
+        "en": "agent never terminates",
+        "ja": "エージェントがいつまでも終了しない"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-09",
+      "family": "A",
+      "query": {
+        "en": "partial failure",
+        "ja": "処理が途中だけ失敗した"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-10",
+      "family": "A",
+      "query": {
+        "en": "crash recovery",
+        "ja": "クラッシュ後に処理を復旧したい"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-11",
+      "family": "A",
+      "query": {
+        "en": "duplicate side effects",
+        "ja": "外部への操作が二重に実行された"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-12",
+      "family": "A",
+      "query": {
+        "en": "idempotency",
+        "ja": "再試行の冪等性を確認したい"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-13",
+      "family": "A",
+      "query": {
+        "en": "replay vs rerun",
+        "ja": "履歴の再生と処理の再実行は違うのか"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-14",
+      "family": "A",
+      "query": {
+        "en": "uncertain external outcome",
+        "ja": "外部で操作が成功したかわからない"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "a-15",
+      "family": "A",
+      "query": {
+        "en": "reconciliation",
+        "ja": "外部の実行結果と台帳を照合したい"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-01",
+      "family": "B",
+      "query": {
+        "en": "AI agent works in demo but fails in production",
+        "ja": "デモでは動くのに本番で失敗する"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-02",
+      "family": "B",
+      "query": {
+        "en": "AI agent reliability",
+        "ja": "AIエージェントの信頼性を評価したい"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-03",
+      "family": "B",
+      "query": {
+        "en": "AI agent success rate",
+        "ja": "エージェントの成功率をどう測るか"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-04",
+      "family": "B",
+      "query": {
+        "en": "agent SLO / SLA",
+        "ja": "エージェントのSLOやSLAを設定したい"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-05",
+      "family": "B",
+      "query": {
+        "en": "error budget",
+        "ja": "失敗を許容する予算を決めたい"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-06",
+      "family": "B",
+      "query": {
+        "en": "repeated-run consistency",
+        "ja": "繰り返し実行すると結果が安定しない"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-07",
+      "family": "B",
+      "query": {
+        "en": "pass^k",
+        "ja": "連続試行の成功指標pass^kを評価したい"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-08",
+      "family": "B",
+      "query": {
+        "en": "flaky AI agent",
+        "ja": "エージェントが時々失敗する"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-09",
+      "family": "B",
+      "query": {
+        "en": "fault tolerance",
+        "ja": "エージェントの障害耐性を確認したい"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-10",
+      "family": "B",
+      "query": {
+        "en": "rate limits / 429",
+        "ja": "429制限でエージェントが再試行する"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-11",
+      "family": "B",
+      "query": {
+        "en": "retry storms",
+        "ja": "再試行が集中して負荷が増える"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-12",
+      "family": "B",
+      "query": {
+        "en": "queue backlog",
+        "ja": "検証キューがたまっている"
+      },
+      "expected_problem_id": "verification-backlog",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-13",
+      "family": "B",
+      "query": {
+        "en": "verification bottleneck",
+        "ja": "検証がボトルネックになっている"
+      },
+      "expected_problem_id": "verification-backlog",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-14",
+      "family": "B",
+      "query": {
+        "en": "graceful degradation",
+        "ja": "障害時に機能を段階的に制限したい"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "b-15",
+      "family": "B",
+      "query": {
+        "en": "production readiness",
+        "ja": "エージェントを本番投入してよいか"
+      },
+      "expected_problem_id": "production-reliability",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-01",
+      "family": "C",
+      "query": {
+        "en": "AI agent chooses wrong tool",
+        "ja": "エージェントが間違ったツールを選ぶ"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-02",
+      "family": "C",
+      "query": {
+        "en": "AI agent cannot find a tool",
+        "ja": "エージェントが必要なツールを見つけられない"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-03",
+      "family": "C",
+      "query": {
+        "en": "too many MCP tools",
+        "ja": "MCPツールが多すぎる"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-04",
+      "family": "C",
+      "query": {
+        "en": "MCP tool overload",
+        "ja": "MCPツールの説明で文脈が埋まる"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-05",
+      "family": "C",
+      "query": {
+        "en": "tool search / tool routing",
+        "ja": "ツールの検索と振り分けを見直したい"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-06",
+      "family": "C",
+      "query": {
+        "en": "function calling with many tools",
+        "ja": "多数のツールでfunction callingを使いたい"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-07",
+      "family": "C",
+      "query": {
+        "en": "tool selected correctly but wrong arguments",
+        "ja": "ツールは合っているが引数が間違う"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-08",
+      "family": "C",
+      "query": {
+        "en": "tool metadata ambiguity",
+        "ja": "ツールの説明が曖昧で選べない"
+      },
+      "expected_problem_id": "tool-routing",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "c-09",
+      "family": "C",
+      "query": {
+        "en": "tool discoverability vs permission",
+        "ja": "ツールの発見と使用許可を区別したい"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-01",
+      "family": "D",
+      "query": {
+        "en": "tool schema changed",
+        "ja": "ツールのスキーマが変更された"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-02",
+      "family": "D",
+      "query": {
+        "en": "function-calling schema changed",
+        "ja": "関数呼出しのスキーマ変更で壊れた"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-03",
+      "family": "D",
+      "query": {
+        "en": "MCP tool stopped working after update",
+        "ja": "更新後にMCPツールが動かなくなった"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-04",
+      "family": "D",
+      "query": {
+        "en": "API update broke agent",
+        "ja": "API更新後にエージェントが壊れた"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-05",
+      "family": "D",
+      "query": {
+        "en": "stale tool definition",
+        "ja": "古いツール定義を使っている"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-06",
+      "family": "D",
+      "query": {
+        "en": "JSON Schema compatibility",
+        "ja": "JSON Schemaの互換性を再確認したい"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-07",
+      "family": "D",
+      "query": {
+        "en": "backward compatibility",
+        "ja": "後方互換性の根拠を確認したい"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-08",
+      "family": "D",
+      "query": {
+        "en": "semantic drift",
+        "ja": "同じ形式でも意味が変わった"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-09",
+      "family": "D",
+      "query": {
+        "en": "stored workflow still uses old API",
+        "ja": "保存した手続きが古いAPIを使う"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "d-10",
+      "family": "D",
+      "query": {
+        "en": "revalidation after dependency/tool version change",
+        "ja": "依存やツールの更新後に再検証したい"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-01",
+      "family": "E",
+      "query": {
+        "en": "AI agent acting with wrong permissions",
+        "ja": "エージェントが誤った権限で動く"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-02",
+      "family": "E",
+      "query": {
+        "en": "agent acting as admin",
+        "ja": "エージェントが管理者として動いている"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-03",
+      "family": "E",
+      "query": {
+        "en": "service account too privileged",
+        "ja": "サービスアカウントの権限が強すぎる"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-04",
+      "family": "E",
+      "query": {
+        "en": "agent acting on behalf of user",
+        "ja": "エージェントが利用者を代理して操作する"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-05",
+      "family": "E",
+      "query": {
+        "en": "delegated authorization",
+        "ja": "委任された権限の範囲を確認したい"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-06",
+      "family": "E",
+      "query": {
+        "en": "OAuth for agents",
+        "ja": "エージェント向けOAuthの実装方法"
+      },
+      "expected_problem_id": null,
+      "unresolved_reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      },
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-07",
+      "family": "E",
+      "query": {
+        "en": "confused deputy",
+        "ja": "代理実行で権限が混同される"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-08",
+      "family": "E",
+      "query": {
+        "en": "MCP token passthrough",
+        "ja": "MCPのトークンパススルー対策"
+      },
+      "expected_problem_id": null,
+      "unresolved_reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      },
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-09",
+      "family": "E",
+      "query": {
+        "en": "subagent credential inheritance",
+        "ja": "子エージェントに資格情報を継承してよいか"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-10",
+      "family": "E",
+      "query": {
+        "en": "capable vs authorized",
+        "ja": "実行できることと許可されることは違う"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-11",
+      "family": "E",
+      "query": {
+        "en": "approval vs authority",
+        "ja": "承認と権限の違いを確認したい"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "e-12",
+      "family": "E",
+      "query": {
+        "en": "tool discovered vs tool permitted",
+        "ja": "見つけたツールを使ってよいとは限らない"
+      },
+      "expected_problem_id": "authority",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-01",
+      "family": "F",
+      "query": {
+        "en": "prompt injection through tools / RAG / MCP",
+        "ja": "ツールやRAGやMCP経由のプロンプト注入"
+      },
+      "expected_problem_id": "security-boundary",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-02",
+      "family": "F",
+      "query": {
+        "en": "malicious MCP server",
+        "ja": "悪意あるMCPサーバからの入力を隔離したい"
+      },
+      "expected_problem_id": "security-boundary",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-03",
+      "family": "F",
+      "query": {
+        "en": "MCP supply-chain attack",
+        "ja": "MCPの供給網攻撃の信頼境界を確認したい"
+      },
+      "expected_problem_id": "security-boundary",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-04",
+      "family": "F",
+      "query": {
+        "en": "tool poisoning",
+        "ja": "ツールの説明に不正な指示が混入した"
+      },
+      "expected_problem_id": "security-boundary",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-05",
+      "family": "F",
+      "query": {
+        "en": "dependency update broke agent",
+        "ja": "依存関係の更新でエージェントが壊れた"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-06",
+      "family": "F",
+      "query": {
+        "en": "transitive dependency drift",
+        "ja": "間接依存の変更で挙動が変わった"
+      },
+      "expected_problem_id": "version-and-dependency-drift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-07",
+      "family": "F",
+      "query": {
+        "en": "package hallucination",
+        "ja": "存在しないパッケージ名をAIが提案した"
+      },
+      "expected_problem_id": null,
+      "unresolved_reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      },
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-08",
+      "family": "F",
+      "query": {
+        "en": "slopsquatting",
+        "ja": "生成されたパッケージ名の先取り攻撃を検出したい"
+      },
+      "expected_problem_id": null,
+      "unresolved_reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      },
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-09",
+      "family": "F",
+      "query": {
+        "en": "AI coding agent installed wrong package",
+        "ja": "AIが間違ったパッケージをインストールした"
+      },
+      "expected_problem_id": null,
+      "unresolved_reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      },
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-10",
+      "family": "F",
+      "query": {
+        "en": "dependency provenance",
+        "ja": "依存パッケージの来歴と信頼範囲を確認したい"
+      },
+      "expected_problem_id": "security-boundary",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "f-11",
+      "family": "F",
+      "query": {
+        "en": "compromised evaluator / trusted base",
+        "ja": "評価器や信頼基盤が侵害された"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-01",
+      "family": "G",
+      "query": {
+        "en": "stale agent memory",
+        "ja": "エージェントが古い記憶を使い続ける"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-02",
+      "family": "G",
+      "query": {
+        "en": "deleted memory still used",
+        "ja": "削除した記憶をまた使ってしまう"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-03",
+      "family": "G",
+      "query": {
+        "en": "agent remembers deleted data",
+        "ja": "エージェントが消したデータを思い出す"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-04",
+      "family": "G",
+      "query": {
+        "en": "how to make an AI agent forget",
+        "ja": "AIエージェントに情報を忘れさせたい"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-05",
+      "family": "G",
+      "query": {
+        "en": "memory deletion",
+        "ja": "エージェントの記憶を削除したい"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-06",
+      "family": "G",
+      "query": {
+        "en": "tombstone",
+        "ja": "記憶の廃止印を検索に反映したい"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-07",
+      "family": "G",
+      "query": {
+        "en": "memory correction",
+        "ja": "記憶の誤りを修正したい"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-08",
+      "family": "G",
+      "query": {
+        "en": "superseded memory",
+        "ja": "置き換え済みの記憶が使われる"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-09",
+      "family": "G",
+      "query": {
+        "en": "memory expiry",
+        "ja": "記憶の有効期限を管理したい"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-10",
+      "family": "G",
+      "query": {
+        "en": "derived summary still contains deleted information",
+        "ja": "派生した要約に削除済み情報が残っている"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-11",
+      "family": "G",
+      "query": {
+        "en": "cache resurrects deleted information",
+        "ja": "キャッシュから消した情報が復活する"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-12",
+      "family": "G",
+      "query": {
+        "en": "dependency withdrawal invalidates workflow memory",
+        "ja": "依存の撤回で保存手続きが無効になった"
+      },
+      "expected_problem_id": "memory",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-13",
+      "family": "G",
+      "query": {
+        "en": "procedural memory revalidation",
+        "ja": "手続き記憶を再検証したい"
+      },
+      "expected_problem_id": "memory",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "g-14",
+      "family": "G",
+      "query": {
+        "en": "RAG deletion vs model unlearning",
+        "ja": "RAGからの削除とモデルの学習解除の違い"
+      },
+      "expected_problem_id": "memory-governance",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-01",
+      "family": "H",
+      "query": {
+        "en": "long conversation makes agent worse",
+        "ja": "会話が長くなるとエージェントの判断が悪化する"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-02",
+      "family": "H",
+      "query": {
+        "en": "context window overload",
+        "ja": "コンテキスト窓がいっぱいになる"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-03",
+      "family": "H",
+      "query": {
+        "en": "tool output overload",
+        "ja": "ツール出力が多すぎる"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-04",
+      "family": "H",
+      "query": {
+        "en": "context compression",
+        "ja": "根拠を残して文脈を圧縮したい"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-05",
+      "family": "H",
+      "query": {
+        "en": "summarization loses evidence",
+        "ja": "要約すると根拠が失われる"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-06",
+      "family": "H",
+      "query": {
+        "en": "agent forgets earlier instruction",
+        "ja": "前に伝えた指示をエージェントが忘れる"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-07",
+      "family": "H",
+      "query": {
+        "en": "context grows too large",
+        "ja": "文脈が大きくなりすぎる"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "h-08",
+      "family": "H",
+      "query": {
+        "en": "evidence-preserving compression",
+        "ja": "証拠を保持したまま圧縮したい"
+      },
+      "expected_problem_id": "context-management",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-01",
+      "family": "I",
+      "query": {
+        "en": "AI agent too expensive",
+        "ja": "AIエージェントの費用が高すぎる"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-02",
+      "family": "I",
+      "query": {
+        "en": "token usage too high",
+        "ja": "トークン使用量が多すぎる"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-03",
+      "family": "I",
+      "query": {
+        "en": "agent burns tokens",
+        "ja": "エージェントがトークンを浪費する"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-04",
+      "family": "I",
+      "query": {
+        "en": "multi-agent cost explosion",
+        "ja": "複数エージェントで費用が急増する"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-05",
+      "family": "I",
+      "query": {
+        "en": "subagent duplication",
+        "ja": "子エージェントが同じ作業をしている"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-06",
+      "family": "I",
+      "query": {
+        "en": "retry amplification",
+        "ja": "再試行が連鎖して費用が膨らむ"
+      },
+      "expected_problem_id": "retry-recovery",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-07",
+      "family": "I",
+      "query": {
+        "en": "verification cost",
+        "ja": "検証にかかる費用を測りたい"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-08",
+      "family": "I",
+      "query": {
+        "en": "LLM agent budget",
+        "ja": "LLMエージェントの予算を管理したい"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-09",
+      "family": "I",
+      "query": {
+        "en": "cost attribution by task/agent/tool",
+        "ja": "課題やエージェントやツール別に費用を把握したい"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-10",
+      "family": "I",
+      "query": {
+        "en": "cheaper model but higher total workflow cost",
+        "ja": "安いモデルにしたのに作業全体の費用が増えた"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "i-11",
+      "family": "I",
+      "query": {
+        "en": "tokens vs money vs human review time",
+        "ja": "トークンと金額と人間のレビュー時間を分けたい"
+      },
+      "expected_problem_id": "cost-and-capacity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-01",
+      "family": "J",
+      "query": {
+        "en": "benchmark improved but production got worse",
+        "ja": "ベンチマークは改善したのに本番性能が悪化した"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-02",
+      "family": "J",
+      "query": {
+        "en": "Goodhart's law",
+        "ja": "指標を最適化したら目的から外れた"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-03",
+      "family": "J",
+      "query": {
+        "en": "reward hacking",
+        "ja": "報酬ハッキングを疑っている"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-04",
+      "family": "J",
+      "query": {
+        "en": "agent cheating tests",
+        "ja": "エージェントがテストをすり抜ける"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-05",
+      "family": "J",
+      "query": {
+        "en": "evaluator tampering",
+        "ja": "評価器を改変してスコアを上げている"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-06",
+      "family": "J",
+      "query": {
+        "en": "LLM judge bias",
+        "ja": "LLM評価器の偏りを確認したい"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-07",
+      "family": "J",
+      "query": {
+        "en": "benchmark contamination",
+        "ja": "ベンチマークの汚染を疑っている"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-08",
+      "family": "J",
+      "query": {
+        "en": "search-time contamination",
+        "ja": "探索中に評価用情報が混入した"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-09",
+      "family": "J",
+      "query": {
+        "en": "evaluation overfitting",
+        "ja": "評価に過適合している"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-10",
+      "family": "J",
+      "query": {
+        "en": "optional stopping",
+        "ja": "有利な時点で検定を打ち切ってよいか"
+      },
+      "expected_problem_id": "adaptive-research",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-11",
+      "family": "J",
+      "query": {
+        "en": "hypothesis shopping",
+        "ja": "都合のよい仮説を選び続けている"
+      },
+      "expected_problem_id": "adaptive-research",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-12",
+      "family": "J",
+      "query": {
+        "en": "test oracle problem",
+        "ja": "テストの正解判定自体が信用できない"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "j-13",
+      "family": "J",
+      "query": {
+        "en": "synthetic evaluation vs real-world evidence",
+        "ja": "合成評価と実世界の根拠を区別したい"
+      },
+      "expected_problem_id": "evaluation-integrity",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-01",
+      "family": "K",
+      "query": {
+        "en": "skill worked before but fails on new task",
+        "ja": "以前使えたスキルが新しい課題では失敗する"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-02",
+      "family": "K",
+      "query": {
+        "en": "negative transfer",
+        "ja": "再利用した知識が逆効果になる"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-03",
+      "family": "K",
+      "query": {
+        "en": "distribution shift",
+        "ja": "課題の分布が変わった"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-04",
+      "family": "K",
+      "query": {
+        "en": "reuse vs solve from scratch",
+        "ja": "再利用と一から解く方法を比較したい"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-05",
+      "family": "K",
+      "query": {
+        "en": "receiver mismatch",
+        "ja": "スキルと受け手の条件が合わない"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-06",
+      "family": "K",
+      "query": {
+        "en": "workflow valid for one context but not another",
+        "ja": "ある文脈で有効な手続きが別の文脈では使えない"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-07",
+      "family": "K",
+      "query": {
+        "en": "external validity",
+        "ja": "検証結果を別の環境へ適用してよいか"
+      },
+      "expected_problem_id": "distribution-shift",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-08",
+      "family": "K",
+      "query": {
+        "en": "copied artifact vs new capability",
+        "ja": "成果物のコピーと新しい能力を区別したい"
+      },
+      "expected_problem_id": "accounting",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "k-09",
+      "family": "K",
+      "query": {
+        "en": "qualified reuse",
+        "ja": "条件を満たした再利用か確認したい"
+      },
+      "expected_problem_id": "reuse",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-01",
+      "family": "L",
+      "query": {
+        "en": "more agents make system slower",
+        "ja": "エージェントを増やすと遅くなる"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-02",
+      "family": "L",
+      "query": {
+        "en": "agents overwrite each other's changes",
+        "ja": "エージェント同士が変更を上書きする"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-03",
+      "family": "L",
+      "query": {
+        "en": "Git / merge conflict between coding agents",
+        "ja": "コーディングエージェント間でGitのマージが競合する"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-04",
+      "family": "L",
+      "query": {
+        "en": "duplicate work",
+        "ja": "複数エージェントの作業が重複する"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-05",
+      "family": "L",
+      "query": {
+        "en": "correlated errors",
+        "ja": "エージェント同士が同じ間違いをする"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-06",
+      "family": "L",
+      "query": {
+        "en": "multi-agent agreement without evidence",
+        "ja": "根拠なしにエージェントが同意している"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-07",
+      "family": "L",
+      "query": {
+        "en": "credit assignment",
+        "ja": "エージェントの貢献を割り当てたい"
+      },
+      "expected_problem_id": "accounting",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-08",
+      "family": "L",
+      "query": {
+        "en": "which agent contributed",
+        "ja": "どのエージェントが貢献したのか"
+      },
+      "expected_problem_id": "accounting",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-09",
+      "family": "L",
+      "query": {
+        "en": "work leasing",
+        "ja": "エージェントの作業をリースで管理したい"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "l-10",
+      "family": "L",
+      "query": {
+        "en": "disagreement preservation",
+        "ja": "エージェントの意見の相違を消さずに保持したい"
+      },
+      "expected_problem_id": "coordinate",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-01",
+      "family": "M",
+      "query": {
+        "en": "too many approval requests",
+        "ja": "承認依頼が多すぎる"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-02",
+      "family": "M",
+      "query": {
+        "en": "human-in-the-loop bottleneck",
+        "ja": "人間の確認待ちがボトルネックになる"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-03",
+      "family": "M",
+      "query": {
+        "en": "approval fatigue",
+        "ja": "承認疲れで確認が雑になる"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-04",
+      "family": "M",
+      "query": {
+        "en": "automation bias",
+        "ja": "自動化された判断を信じすぎてしまう"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-05",
+      "family": "M",
+      "query": {
+        "en": "when should agent escalate",
+        "ja": "どの時点で人間へ引き継ぐべきか"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-06",
+      "family": "M",
+      "query": {
+        "en": "selective human review",
+        "ja": "必要な案件だけ人間がレビューしたい"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-07",
+      "family": "M",
+      "query": {
+        "en": "human review capacity",
+        "ja": "人間のレビュー容量を見積もりたい"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "m-08",
+      "family": "M",
+      "query": {
+        "en": "approval is not verification",
+        "ja": "承認したことと検証したことを区別したい"
+      },
+      "expected_problem_id": "human-oversight",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-01",
+      "family": "N",
+      "query": {
+        "en": "how to stop an AI agent",
+        "ja": "AIエージェントを停止したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-02",
+      "family": "N",
+      "query": {
+        "en": "AI agent kill switch",
+        "ja": "エージェントの緊急停止を設計したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-03",
+      "family": "N",
+      "query": {
+        "en": "rogue agent",
+        "ja": "暴走したエージェントを封じ込めたい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-04",
+      "family": "N",
+      "query": {
+        "en": "agent keeps acting after stop",
+        "ja": "停止後もエージェントが操作を続ける"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-05",
+      "family": "N",
+      "query": {
+        "en": "rollback agent action",
+        "ja": "エージェントの操作を巻き戻したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-06",
+      "family": "N",
+      "query": {
+        "en": "circuit breaker",
+        "ja": "危険な呼出しを遮断したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-07",
+      "family": "N",
+      "query": {
+        "en": "disable dangerous tool",
+        "ja": "危険なツールを無効にしたい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-08",
+      "family": "N",
+      "query": {
+        "en": "revoke agent credentials",
+        "ja": "エージェントの資格情報を失効させたい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-09",
+      "family": "N",
+      "query": {
+        "en": "child agent still running",
+        "ja": "子エージェントがまだ動いている"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-10",
+      "family": "N",
+      "query": {
+        "en": "compensation vs rollback",
+        "ja": "補償処理と巻戻しの違いを確認したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-11",
+      "family": "N",
+      "query": {
+        "en": "uncertain side effect",
+        "ja": "副作用が起きたかわからない"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-12",
+      "family": "N",
+      "query": {
+        "en": "post-incident reconciliation",
+        "ja": "事故後に実行状態を照合したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-13",
+      "family": "N",
+      "query": {
+        "en": "quarantine compromised memory/workflow",
+        "ja": "汚染された記憶や手続きを隔離したい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "n-14",
+      "family": "N",
+      "query": {
+        "en": "restart criteria after incident",
+        "ja": "事故後の再開条件を決めたい"
+      },
+      "expected_problem_id": "incident-response",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-01",
+      "family": "O",
+      "query": {
+        "en": "AI citation does not support claim",
+        "ja": "AIの引用が主張の根拠になっていない"
+      },
+      "expected_problem_id": "evidence-support",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-02",
+      "family": "O",
+      "query": {
+        "en": "fake / weak citation support",
+        "ja": "引用が捏造または根拠として弱い"
+      },
+      "expected_problem_id": "evidence-support",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-03",
+      "family": "O",
+      "query": {
+        "en": "claim-to-evidence mapping",
+        "ja": "主張と根拠の対応を確認したい"
+      },
+      "expected_problem_id": "evidence-support",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-04",
+      "family": "O",
+      "query": {
+        "en": "evidence provenance",
+        "ja": "根拠の来歴をたどりたい"
+      },
+      "expected_problem_id": "evidence-support",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-05",
+      "family": "O",
+      "query": {
+        "en": "signed record does not prove truth",
+        "ja": "署名済み記録でも真実とは限らない"
+      },
+      "expected_problem_id": "evidence-support",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-06",
+      "family": "O",
+      "query": {
+        "en": "generated != verified",
+        "ja": "生成されたことは検証済みを意味しない"
+      },
+      "expected_problem_id": "obligations",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-07",
+      "family": "O",
+      "query": {
+        "en": "verified != reusable",
+        "ja": "検証済みでも再利用できるとは限らない"
+      },
+      "expected_problem_id": "reuse",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-08",
+      "family": "O",
+      "query": {
+        "en": "unknown must remain unknown",
+        "ja": "不明なものを不明のまま残したい"
+      },
+      "expected_problem_id": "obligations",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    },
+    {
+      "id": "o-09",
+      "family": "O",
+      "query": {
+        "en": "adaptive AI research validity",
+        "ja": "適応的AI研究の妥当性を確認したい"
+      },
+      "expected_problem_id": "adaptive-research",
+      "unresolved_reason": null,
+      "baseline_problem_ids": {
+        "en": null,
+        "ja": null
+      }
+    }
+  ],
+  "baseline_commit": "c6abad1f1f23229d3744fb3a4448bce1e72c5826"
+}

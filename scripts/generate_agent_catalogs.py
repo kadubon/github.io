@@ -592,6 +592,7 @@ def main() -> None:
     curation = json.loads((ROOT / 'data/collective-intelligence-curation.json').read_text(encoding='utf-8'))
     licenses = {r['source_catalog_id']: reviewed['software'][r['id']]
                 for r in curation['resources'] if r['kind'] == 'software'}
+    license_dates = {entry['url']: entry['observed_at'] for entry in reviewed['evidence']}
     for record in oss_records:
         record['release_observation'] = snapshots.get(record['name'], {'refresh_status': 'unresolved'})
         if record['full_name'] in licenses:
@@ -599,7 +600,7 @@ def main() -> None:
             record.setdefault('github_license_spdx', record['license_spdx'])
             record['license_spdx'] = source['license_spdx']
             record['license_observation'] = {'url': source['license_url'], 'source_revision': source['source_revision'],
-                                           'reviewed_at': reviewed['reviewed_at'], 'method': 'LICENSE file inspected; GitHub detection kept separately'}
+                                           'reviewed_at': license_dates[source['license_url']], 'method': 'LICENSE file inspected; GitHub detection kept separately'}
 
     write_json(
         ROOT / "research-catalog.json",

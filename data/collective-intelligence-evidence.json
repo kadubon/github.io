@@ -1374,6 +1374,461 @@
         "en": "Source test blocks sockets and asserts native CAIT check and forged-guarantee rejection; conditional dependency skips are visible.",
         "ja": "上流の公開成果物検証報告・ネイティブ検査ソースを確認。索引作業では再実行していない。"
       }
+    },
+    {
+      "id": "e-routing-cmgl-readme-md",
+      "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/README.md",
+      "revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "observed_at": "2026-09-24",
+      "locator": "README.md",
+      "sha256": "6daef955d7ee725cc7f77962a77ccbe09a53d2ac4923485c9d6f073a0885fa56",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Gate memory writes and retrieval using current versions, authority receipts, tombstones and contamination lanes.",
+        "ja": "記憶の書込み・検索結果を、現行版・権限受領証・廃止履歴・汚染区分で制御する。"
+      }
+    },
+    {
+      "id": "e-routing-cmgl-docs-proof-obligations-md",
+      "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/docs/proof-obligations.md",
+      "revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "observed_at": "2026-09-24",
+      "locator": "docs/proof-obligations.md",
+      "sha256": "d60f578a3d78d808cc8f830be881dd4f02e0514e9aff448ed4d5732308770139",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Procedural admissibility only; no factual truth, model unlearning, backend deletion guarantee or prompt-injection immunity. Optional adapters remain application-owned.",
+        "ja": "手続き上の許容性のみ。事実の真実性、モデルの学習解除、バックエンドの完全消去、注入攻撃への免疫は保証しない。外部アダプタの運用はアプリ側が担う。"
+      }
+    },
+    {
+      "id": "e-routing-cmgl-license",
+      "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/LICENSE",
+      "revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "observed_at": "2026-09-24",
+      "locator": "LICENSE",
+      "sha256": "0e82c030c53a6dfc70fe2cf590e6b358329d328d98412775ad8ede4bfac07020",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text inspected.",
+        "ja": "Apache-2.0のライセンス本文を確認。"
+      }
+    },
+    {
+      "id": "e-routing-cmgl-pyproject-toml",
+      "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/pyproject.toml",
+      "revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "observed_at": "2026-09-24",
+      "locator": "pyproject.toml",
+      "sha256": "7142860f1cd674780cd206234824efd9420de4a570782ee8d0b7ce96967bd64f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-cmgl-docs-current-view-md",
+      "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/docs/current-view.md",
+      "revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "observed_at": "2026-09-24",
+      "locator": "docs/current-view.md",
+      "sha256": "39f49781f863af9bd7b62b0d194d22ac400d8a4540828bad847759bdea6a7581",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-cmgl-tests-test-compression-py",
+      "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/tests/test_compression.py",
+      "revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "observed_at": "2026-09-24",
+      "locator": "tests/test_compression.py",
+      "sha256": "d2010fe1fa95c5f913b33345dc530e569194a3e12f5d7d78e284cbae7ccf89ff",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-readme-md",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/README.md",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-09-24",
+      "locator": "README.md",
+      "sha256": "c20192c18d7871033e8fb7386d6674789f89754f410ccb700d9a7b328e2a7f0f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Audit declared memory telemetry for stale, deleted or superseded use, correction latency and non-comparable metrics.",
+        "ja": "宣言された記憶テレメトリから、古い・削除済み・置換済み記憶の使用、修正遅延、比較不能な指標を監査する。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-docs-conformance-profiles-md",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/docs/conformance-profiles.md",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-09-24",
+      "locator": "docs/conformance-profiles.md",
+      "sha256": "cdc3dd2572810039354fb5407c2d6c1a6c7dd8200a4ebdcf48cd863f22275dd1",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Cannot observe silent backend changes, fabricated events or source truth. Auditing deletion telemetry does not erase memory or model weights.",
+        "ja": "未記録のストア変更、捏造事象、情報源の真偽は判定できない。削除記録の監査は記憶やモデル重みの消去ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-license",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/LICENSE",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-09-24",
+      "locator": "LICENSE",
+      "sha256": "278f14359a2c6da12b7140acc5df5fb68386b0809a8dfaa8a726b53e63ff2107",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text inspected.",
+        "ja": "Apache-2.0のライセンス本文を確認。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-pyproject-toml",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/pyproject.toml",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-09-24",
+      "locator": "pyproject.toml",
+      "sha256": "eac4adffb181f7fbc3a684c242347724a5219dc5797660fadd56a41e5a95c35e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-docs-event-schema-md",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/docs/event-schema.md",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-09-24",
+      "locator": "docs/event-schema.md",
+      "sha256": "a12c07e560fe386872f67d50b33233a228171eea72f769159f0717f6a6728911",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-tests-unit-test-verifier-profiles-py",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/tests/unit/test_verifier_profiles.py",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-09-24",
+      "locator": "tests/unit/test_verifier_profiles.py",
+      "sha256": "b44f296268d5083bed6071f1cdbdcd17a48d7239bec1d366501f44ebf95b6e5f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-readme-md",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/README.md",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-09-24",
+      "locator": "README.md",
+      "sha256": "d602f5ee66c0af78b97dbf69e40560d95b135531f2c72e023877b5a6b95d4265",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Check finite action authority and atomically commit a five-row gate bundle before a separately controlled outbox dispatcher.",
+        "ja": "有限の行為権限を検査し、別管理の送信処理に先立ち5行のゲート束を原子的に記録する。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-docs-operations-md",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/docs/operations.md",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-09-24",
+      "locator": "docs/operations.md",
+      "sha256": "dc6bcf002f0581d4a5c26d81bcc5e51386df7a1628ebeaa57f17e043530f23a1",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Finite audit consistency is not OAuth infrastructure, external truth, physical outcome or exactly-once delivery. Deployment owns identities, durable storage, actuator monitoring and incident response.",
+        "ja": "有限の監査整合性はOAuth基盤、外界の真実、物理的成果、厳密な一度限りの配信ではない。識別・永続化・実行監視・事故対応は運用側の責任。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-license",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/LICENSE",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-09-24",
+      "locator": "LICENSE",
+      "sha256": "6ab48b453e7242965a007be441ef49b6b341cf9d058a5935dc27dfbcdaa0e031",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text inspected.",
+        "ja": "Apache-2.0のライセンス本文を確認。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-pyproject-toml",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/pyproject.toml",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-09-24",
+      "locator": "pyproject.toml",
+      "sha256": "eeea9c3038693e4b7e60269be7bc9f39bf49eee90d18b72a82d1986eac57b1c0",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-schemas-gate-request-schema-json",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/schemas/gate-request.schema.json",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-09-24",
+      "locator": "schemas/gate-request.schema.json",
+      "sha256": "2735493f382582c753295411a4d2391c0b43e6c90edb9b66aa6587e43e6b55ce",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-tests-test-v1-1-hardening-py",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/tests/test_v1_1_hardening.py",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-09-24",
+      "locator": "tests/test_v1_1_hardening.py",
+      "sha256": "447a754aac79d11c5ec17db4113faaea465f6150639eeaa683d56b0eb6386252",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-fost-readme-md",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/README.md",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-09-24",
+      "locator": "README.md",
+      "sha256": "61f7c520ef6dc5b1b0757870aeb6e1d22df76aa7682dad24b13e8ae0627778ec",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Separate claimed completion from finite support, checked finality, unresolved obligations and environment changes.",
+        "ja": "完了の自己申告を、有限の支持根拠・検査済み最終性・未解決義務・環境変更から区別する。"
+      }
+    },
+    {
+      "id": "e-routing-fost-docs-json-contract-md",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/docs/json_contract.md",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-09-24",
+      "locator": "docs/json_contract.md",
+      "sha256": "2dd85e1fc7c8536865b76faab177d6bab885cbfba5af15b990337cbaa8ad222a",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "A checked ledger is not a truth oracle or external outcome. Structural migration cannot invent evidence; project-specific modes and freshness policies remain necessary.",
+        "ja": "検査済み台帳は真実の判定器でも外界の成果でもない。構造移行は根拠を作らず、用途別のモードと鮮度方針が必要。"
+      }
+    },
+    {
+      "id": "e-routing-fost-license",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/LICENSE",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-09-24",
+      "locator": "LICENSE",
+      "sha256": "308b1b965975f5b8c71c72a2d027c12613b8d98e861552cf09a96e433feaac02",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text inspected.",
+        "ja": "Apache-2.0のライセンス本文を確認。"
+      }
+    },
+    {
+      "id": "e-routing-fost-pyproject-toml",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/pyproject.toml",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-09-24",
+      "locator": "pyproject.toml",
+      "sha256": "f156ca76e87ea1127cf94d93929a4976b9d3f148758b88967694d4b410d1a778",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-fost-docs-limitations-md",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/docs/limitations.md",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-09-24",
+      "locator": "docs/limitations.md",
+      "sha256": "6c45c3bfae9868d9220a9a9097e5fc0f8c8da6b784deca369b2fec70ce8d0146",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-fost-tests-test-v20-strict-finality-py",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/tests/test_v20_strict_finality.py",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-09-24",
+      "locator": "tests/test_v20_strict_finality.py",
+      "sha256": "8e927651c695804fd5da4ef478df61e755dd779925a96775bbc16dc61aa59065",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-atrb-readme-md",
+      "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/README.md",
+      "revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "observed_at": "2026-09-24",
+      "locator": "README.md",
+      "sha256": "d470992dc4c039302fcbd0d44743304257f65760d14604aafd52fba6c3b08461",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Inspect positive/negative synthetic controls and near misses for authority, evidence scope, residuals and repeated model decisions.",
+        "ja": "権限・根拠範囲・残余・反復判断を扱う合成の陽性・陰性対照と境界事例を調べる。"
+      }
+    },
+    {
+      "id": "e-routing-atrb-docs-v02-experiment-md",
+      "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/docs/V02_EXPERIMENT.md",
+      "revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "observed_at": "2026-09-24",
+      "locator": "docs/V02_EXPERIMENT.md",
+      "sha256": "14622df63fd5c4ec3c014733800e724487e9eb1f9bfcfae4599d2e51179772e6",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Fixtures and validators were co-developed. Cumulative conditions do not isolate causal effects. Compatibility adapters do not establish equivalence with PIC/FOST/PFG/CCR; no real-world safety or generalization claim.",
+        "ja": "フィクスチャと検査器は同時に開発された。累積条件では因果効果を分離できず、互換用アダプタはPIC・FOST・PFG・CCRとの同等性を証明しない。実世界の安全性・一般化は主張しない。"
+      }
+    },
+    {
+      "id": "e-routing-atrb-license",
+      "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/LICENSE",
+      "revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "observed_at": "2026-09-24",
+      "locator": "LICENSE",
+      "sha256": "a52cf934c5a518521971f5cb985d5f7ee5e40be4eb65b7c43b3889b099ac9408",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text inspected.",
+        "ja": "Apache-2.0のライセンス本文を確認。"
+      }
+    },
+    {
+      "id": "e-routing-atrb-pyproject-toml",
+      "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/pyproject.toml",
+      "revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "observed_at": "2026-09-24",
+      "locator": "pyproject.toml",
+      "sha256": "fa3fa3c805365b563bcdb391a9b53506d1fde2b7a1cfb98cfca24591b74122d2",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-atrb-docs-v02-results-md",
+      "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/docs/V02_RESULTS.md",
+      "revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "observed_at": "2026-09-24",
+      "locator": "docs/V02_RESULTS.md",
+      "sha256": "d125d582368331a0accb143332d06dd7d4a18eb9bbd870d12d6211ce7787a677",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-atrb-tests-test-v02-positive-controls-py",
+      "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/tests/test_v02_positive_controls.py",
+      "revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "observed_at": "2026-09-24",
+      "locator": "tests/test_v02_positive_controls.py",
+      "sha256": "c183dfdb4431349b6a2d77cb1d765860ffcc9bee6a4e9c6fce31d9b507f3ae52",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-readme-md",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/README.md",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-09-24",
+      "locator": "README.md",
+      "sha256": "bcec7b7799d8999b6dc78a9c9eaad01431ba10bb213b05ff1a4c6963c340be12",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Examine retry, review cost and escalation load using bounded coding tasks and explicit claim margins.",
+        "ja": "限定されたコード修正課題と主張余裕を用い、再試行・レビュー費用・エスカレーション負荷を調べる。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-experiment-manifest-yaml",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/experiment_manifest.yaml",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-09-24",
+      "locator": "experiment_manifest.yaml",
+      "sha256": "7c0477415f7b27ebe206db95e4cba84f0a44095812d13021c8c1ed7fedb89746",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Twelve synthetic tasks, one logged run per actual model, and scripted costly review do not measure human approval fatigue or establish production readiness. Positive comparative oversight claims remain fail-closed in the reported setup.",
+        "ja": "合成12課題、各実モデル1回の記録、スクリプトによる高費用レビューは、人間の承認疲労の実測でも本番適性の証明でもない。報告設定の比較優位は保守的に未確立。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-licence",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/LICENCE",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-09-24",
+      "locator": "LICENCE",
+      "sha256": "1c6b8627eb8881474ad8e87f5fb9d662d46508ecc5320a47accaee70a8bea593",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text inspected.",
+        "ja": "Apache-2.0のライセンス本文を確認。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-report-workflow-oversight-report-md",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/report/workflow_oversight_report.md",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-09-24",
+      "locator": "report/workflow_oversight_report.md",
+      "sha256": "c439686e9e4f80d2bb8b64fa76fed239143b59c9f5f30c45a132b1198e29c78e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-src-oversight-poc-channels-py",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/src/oversight_poc/channels.py",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-09-24",
+      "locator": "src/oversight_poc/channels.py",
+      "sha256": "0ff3f7cb0fcdaf394ebca24c5dc411c6109b56808cb9722ea230a44c24829487",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source inspected for the bounded routing review; no native execution.",
+        "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
+      }
     }
   ],
   "software": {
@@ -2182,6 +2637,264 @@
       "agent_entrypoints": [
         "https://github.com/kadubon/asi-proxy-phase-skill/blob/5706214a9a3d5e194f371f8ccc2eb71132f82270/asi-proxy-phase-skill/SKILL.md"
       ],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": []
+    },
+    "sw-cmgl": {
+      "source_revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+      "source_version": "1.1.2",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/LICENSE",
+      "docs_url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/docs/proof-obligations.md",
+      "interfaces": {
+        "cmgl": "cmgl.cli:app"
+      },
+      "inputs": {
+        "en": "Memory events with version/digest bindings, verified ledger prefix and structured authority.",
+        "ja": "版・ダイジェスト付き記憶事象、検証済み台帳接頭辞、構造化された権限。"
+      },
+      "outputs": {
+        "en": "Admit/block receipts and an audit-visible current retrieval view.",
+        "ja": "受入・遮断受領証と監査可能な現行検索ビュー。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.10; declared scope and host authority.",
+        "ja": "Python >=3.10。対象範囲とホスト権限を確認。"
+      },
+      "effects": {
+        "en": "Memory admission and view construction can persist local records; deletion semantics do not imply physical erasure of external copies. This review inspected source only.",
+        "ja": "記憶の受入とビュー構築は局所記録を永続化し得る。削除の意味論は外部コピーの物理消去を意味しない。 このレビューではソース確認のみ。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned README, contract and failure cases before considering execution.",
+        "ja": "実行を検討する前に固定版README・契約・失敗例を読む。"
+      },
+      "installation_guidance": {
+        "en": "Follow the pinned upstream source instructions only after host authorization; package registry availability was not independently checked in this review.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。このレビューではパッケージレジストリ上の提供状態を独立確認していない。"
+      },
+      "maturity": {
+        "en": "Bounded source review, not production assurance.",
+        "ja": "限定されたソースレビュー。本番運用保証ではない。"
+      },
+      "agent_entrypoints": [],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": []
+    },
+    "sw-memoryflow": {
+      "source_revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "source_version": "0.1.0",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/LICENSE",
+      "docs_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/docs/conformance-profiles.md",
+      "interfaces": {
+        "memoryflow": "memoryflow.cli:main"
+      },
+      "inputs": {
+        "en": "JSONL memory events, ordering/skew bounds, update IDs, digests and chosen P0/P1/P2 profile.",
+        "ja": "JSONL記憶事象、順序・時計ずれ上限、更新ID、ダイジェスト、P0/P1/P2プロファイル。"
+      },
+      "outputs": {
+        "en": "Version-bound metrics with VALID, DEGRADED, NONCOMPARABLE or NOT_COMPUTABLE status.",
+        "ja": "VALID・DEGRADED・NONCOMPARABLE・NOT_COMPUTABLE等を明示した版付き指標。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.11; declared scope and host authority.",
+        "ja": "Python >=3.11。対象範囲とホスト権限を確認。"
+      },
+      "effects": {
+        "en": "The auditor reads declared event traces and writes audit artifacts; it does not itself alter the observed memory backend. This review inspected source only.",
+        "ja": "監査器は宣言された事象トレースを読み監査成果物を書く。観測対象の記憶バックエンドを自ら変更しない。 このレビューではソース確認のみ。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned README, contract and failure cases before considering execution.",
+        "ja": "実行を検討する前に固定版README・契約・失敗例を読む。"
+      },
+      "installation_guidance": {
+        "en": "Follow the pinned upstream source instructions only after host authorization; package registry availability was not independently checked in this review.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。このレビューではパッケージレジストリ上の提供状態を独立確認していない。"
+      },
+      "maturity": {
+        "en": "Bounded source review, not production assurance.",
+        "ja": "限定されたソースレビュー。本番運用保証ではない。"
+      },
+      "agent_entrypoints": [],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": []
+    },
+    "sw-pfg": {
+      "source_revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "source_version": "1.1.0",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/LICENSE",
+      "docs_url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/docs/operations.md",
+      "interfaces": {
+        "pfg": "problem_frame_gate.cli:main"
+      },
+      "inputs": {
+        "en": "Strict horizon manifest, writer/issuer identities, log, action request, capacities and risk premises.",
+        "ja": "厳格な有限範囲目録、記録者・発行者ID、ログ、行為要求、容量、リスク前提。"
+      },
+      "outputs": {
+        "en": "Rejected request or checked atomic bundle; dispatch and actuator acceptance remain separate records.",
+        "ja": "拒否または検査済み原子的束。送信と実行先の受理は別の記録。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.10; declared scope and host authority.",
+        "ja": "Python >=3.10。対象範囲とホスト権限を確認。"
+      },
+      "effects": {
+        "en": "The committer records decisions without executing an actuator. A separately authorized OutboxBroker can dispatch external actions. This review inspected source only.",
+        "ja": "コミッターはアクチュエーターを実行せず判断を記録する。別途許可されたOutboxBrokerは外部操作を送出し得る。 このレビューではソース確認のみ。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned README, contract and failure cases before considering execution.",
+        "ja": "実行を検討する前に固定版README・契約・失敗例を読む。"
+      },
+      "installation_guidance": {
+        "en": "Follow the pinned upstream source instructions only after host authorization; package registry availability was not independently checked in this review.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。このレビューではパッケージレジストリ上の提供状態を独立確認していない。"
+      },
+      "maturity": {
+        "en": "Bounded source review, not production assurance.",
+        "ja": "限定されたソースレビュー。本番運用保証ではない。"
+      },
+      "agent_entrypoints": [],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": []
+    },
+    "sw-fost": {
+      "source_revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "source_version": "2.0.0",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/LICENSE",
+      "docs_url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/docs/json_contract.md",
+      "interfaces": {
+        "fost-ledger": "fost_agent_ledger.cli:main"
+      },
+      "inputs": {
+        "en": "Finite claim/support graph, certificates, mode, environment tokens and finality records.",
+        "ja": "有限の主張・支持グラフ、証明書、モード、環境トークン、最終性の記録。"
+      },
+      "outputs": {
+        "en": "Mode-scoped admissibility, missing-support codes and transition witnesses.",
+        "ja": "モード限定の許容性、支持不足コード、変化の証拠。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.10; declared scope and host authority.",
+        "ja": "Python >=3.10。対象範囲とホスト権限を確認。"
+      },
+      "effects": {
+        "en": "Ledger and verification operations produce local records and reports; finality of those records is not an external action or observation. This review inspected source only.",
+        "ja": "台帳・検証処理は局所記録と報告を生成する。記録の確定は外部操作や外部観測ではない。 このレビューではソース確認のみ。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned README, contract and failure cases before considering execution.",
+        "ja": "実行を検討する前に固定版README・契約・失敗例を読む。"
+      },
+      "installation_guidance": {
+        "en": "Follow the pinned upstream source instructions only after host authorization; package registry availability was not independently checked in this review.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。このレビューではパッケージレジストリ上の提供状態を独立確認していない。"
+      },
+      "maturity": {
+        "en": "Bounded source review, not production assurance.",
+        "ja": "限定されたソースレビュー。本番運用保証ではない。"
+      },
+      "agent_entrypoints": [],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": []
+    },
+    "sw-atrb": {
+      "source_revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+      "source_version": "0.2.0",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/LICENSE",
+      "docs_url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/docs/V02_EXPERIMENT.md",
+      "interfaces": {
+        "atrb": "atrb.cli:app"
+      },
+      "inputs": {
+        "en": "Pinned cases, expected accept/reject policy, replication settings and declared model/runtime provenance.",
+        "ja": "固定した事例、受理・拒否方針、反復設定、モデル・実行環境の来歴。"
+      },
+      "outputs": {
+        "en": "Fixture-scoped decision metrics, timeout records and explicit validity limits.",
+        "ja": "事例に限定した判断指標、タイムアウト記録、妥当性の限界。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.11; declared scope and host authority.",
+        "ja": "Python >=3.11。対象範囲とホスト権限を確認。"
+      },
+      "effects": {
+        "en": "Benchmark runs produce local synthetic-case artifacts; optional model experiments can contact configured model services. This review inspected source only.",
+        "ja": "ベンチマーク実行は局所的な合成事例の成果物を生成する。任意のモデル実験は設定されたモデルサービスへ接続し得る。 このレビューではソース確認のみ。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned README, contract and failure cases before considering execution.",
+        "ja": "実行を検討する前に固定版README・契約・失敗例を読む。"
+      },
+      "installation_guidance": {
+        "en": "Follow the pinned upstream source instructions only after host authorization; package registry availability was not independently checked in this review.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。このレビューではパッケージレジストリ上の提供状態を独立確認していない。"
+      },
+      "maturity": {
+        "en": "Bounded source review, not production assurance.",
+        "ja": "限定されたソースレビュー。本番運用保証ではない。"
+      },
+      "agent_entrypoints": [],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": []
+    },
+    "sw-oversight": {
+      "source_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "source_version": null,
+      "source_version_status": "unknown_or_not_a_package",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/LICENCE",
+      "docs_url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/experiment_manifest.yaml",
+      "interfaces": {
+        "module": "src.main; source-only experiment"
+      },
+      "inputs": {
+        "en": "Declared small-task protocol, retry/review budgets, channel costs and transport/audit-distortion margins.",
+        "ja": "小課題プロトコル、再試行・レビュー予算、割込み費用、転用・監査歪みの余裕。"
+      },
+      "outputs": {
+        "en": "Workflow metrics and bounded claim status, not a provider leaderboard.",
+        "ja": "モデル提供者の順位ではなく、作業全体の指標と限定された主張状態。"
+      },
+      "prerequisites": {
+        "en": "Python version not declared here; declared scope and host authority.",
+        "ja": "Python 版の明示なし。対象範囲とホスト権限を確認。"
+      },
+      "effects": {
+        "en": "Repair experiments execute local Python functions and write artifacts; optional Gemini/Ollama backends invoke configured model services. This review inspected source only.",
+        "ja": "修復実験は局所Python関数を実行して成果物を書く。任意のGemini/Ollamaバックエンドは設定されたモデルサービスを呼ぶ。 このレビューではソース確認のみ。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned README, contract and failure cases before considering execution.",
+        "ja": "実行を検討する前に固定版README・契約・失敗例を読む。"
+      },
+      "installation_guidance": {
+        "en": "Follow the pinned upstream source instructions only after host authorization; package registry availability was not independently checked in this review.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。このレビューではパッケージレジストリ上の提供状態を独立確認していない。"
+      },
+      "maturity": {
+        "en": "Bounded source review, not production assurance.",
+        "ja": "限定されたソースレビュー。本番運用保証ではない。"
+      },
+      "agent_entrypoints": [],
       "commands": [],
       "related_paper": null,
       "interface_contracts": []
@@ -3636,15 +4349,15 @@
     },
     {
       "source_catalog_id": "kadubon/agent-trust-residual-benchmark",
-      "decision": "excluded",
-      "review_depth": "catalogue_description_topics_release_metadata",
-      "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "2026-09-24: Inspect positive/negative synthetic controls and near misses for authority, evidence scope, residuals and repeated model decisions. Boundary: Fixtures and validators were co-developed. Cumulative conditions do not isolate causal effects. Compatibility adapters do not establish equivalence with PIC/FOST/PFG/CCR; no real-world safety or generalization claim."
     },
     {
       "source_catalog_id": "kadubon/certified-memory-governance-layer",
-      "decision": "excluded",
-      "review_depth": "catalogue_description_topics_release_metadata",
-      "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "2026-09-24: Gate memory writes and retrieval using current versions, authority receipts, tombstones and contamination lanes. Boundary: Procedural admissibility only; no factual truth, model unlearning, backend deletion guarantee or prompt-injection immunity. Optional adapters remain application-owned."
     },
     {
       "source_catalog_id": "kadubon/asi-proxy-phase-skill",
@@ -3654,9 +4367,9 @@
     },
     {
       "source_catalog_id": "kadubon/memoryflow-agent-memory-auditor",
-      "decision": "excluded",
-      "review_depth": "catalogue_description_topics_release_metadata",
-      "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "2026-09-24: Audit declared memory telemetry for stale, deleted or superseded use, correction latency and non-comparable metrics. Boundary: Cannot observe silent backend changes, fabricated events or source truth. Auditing deletion telemetry does not erase memory or model weights."
     },
     {
       "source_catalog_id": "kadubon/certified-local-participation-gate",
@@ -3684,15 +4397,15 @@
     },
     {
       "source_catalog_id": "kadubon/fost-agent-ledger",
-      "decision": "excluded",
-      "review_depth": "catalogue_description_topics_release_metadata",
-      "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "2026-09-24: Separate claimed completion from finite support, checked finality, unresolved obligations and environment changes. Boundary: A checked ledger is not a truth oracle or external outcome. Structural migration cannot invent evidence; project-specific modes and freshness policies remain necessary."
     },
     {
       "source_catalog_id": "kadubon/problem-frame-gate",
-      "decision": "excluded",
-      "review_depth": "catalogue_description_topics_release_metadata",
-      "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "2026-09-24: Check finite action authority and atomically commit a five-row gate bundle before a separately controlled outbox dispatcher. Boundary: Finite audit consistency is not OAuth infrastructure, external truth, physical outcome or exactly-once delivery. Deployment owns identities, durable storage, actuator monitoring and incident response."
     },
     {
       "source_catalog_id": "kadubon/pic-openclaw-skill",
@@ -3858,9 +4571,9 @@
     },
     {
       "source_catalog_id": "kadubon/Oversight-Centered-Metrology-PoC",
-      "decision": "excluded",
-      "review_depth": "catalogue_description_topics_release_metadata",
-      "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "2026-09-24: Examine retry, review cost and escalation load using bounded coding tasks and explicit claim margins. Boundary: Twelve synthetic tasks, one logged run per actual model, and scripted costly review do not measure human approval fatigue or establish production readiness. Positive comparative oversight claims remain fail-closed in the reported setup."
     },
     {
       "source_catalog_id": "kadubon/no-meta-drift-papers",

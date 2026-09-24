@@ -12,7 +12,7 @@ import generate_collective_intelligence_index as gen
 class Document(HTMLParser):
     def __init__(self, text):
         super().__init__(convert_charrefs=True)
-        self.ids = []; self.resources = []; self.relations = []; self.links = []
+        self.ids = []; self.resources = []; self.relations = []; self.problems = []; self.links = []
         self.metadata = []; self.scripts = []; self.script = None; self.lang = None
         self.feed(text)
 
@@ -26,6 +26,8 @@ class Document(HTMLParser):
             self.resources.append(a['data-resource-id'])
         if 'data-relation-id' in a:
             self.relations.append(a['data-relation-id'])
+        if 'data-problem-id' in a:
+            self.problems.append(a['data-problem-id'])
         if any(k.lower().startswith('on') for k in a):
             raise ValueError('Active event attribute')
         for k in ('href', 'src'):
@@ -78,13 +80,20 @@ def validate(root=None):
     resources = {r['id'] for r in model['resources']}
     relations = {r['id'] for r in model['relations']}
     checked_links = 0
+    documents = {}
+    def document(path):
+        if path not in documents:
+            documents[path] = Document(path.read_text(encoding='utf-8'))
+        return documents[path]
     for lang in ('en', 'ja'):
         path = root / (gen.STEM + ('.ja' if lang == 'ja' else '') + '.html')
-        raw = path.read_text(encoding='utf-8'); doc = Document(raw)
+        raw = path.read_text(encoding='utf-8'); doc = document(path)
         if doc.lang != lang or len(doc.ids) != len(set(doc.ids)):
             raise ValueError('Language or duplicate anchor error')
         if set(doc.resources) != resources or set(doc.relations) != relations:
             raise ValueError('Raw HTML resource/relation mismatch')
+        if doc.problems != [p['id'] for p in model['problems']]:
+            raise ValueError('HTML problem set/order mismatch')
         if [a.get('href') for a in doc.metadata if a.get('rel') == 'canonical'] != [gen.page_url(lang)]:
             raise ValueError('Canonical mismatch')
         if {a.get('hreflang'): a.get('href') for a in doc.metadata if 'hreflang' in a} != {x: gen.page_url(x) for x in ('en', 'ja')}:
@@ -94,6 +103,20 @@ def validate(root=None):
         if doc.scripts != [gen.graph(model, lang)]:
             raise ValueError('JSON-LD mismatch')
         md = path.with_suffix('.md').read_text(encoding='utf-8')
+        for p in model['problems']:
+            fields = [p[k][lang] for k in ('question', 'symptoms', 'required_inputs', 'expected_outputs',
+                      'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions')]
+            for value in fields + p['query_aliases'][lang]:
+                if gen.escape(value) not in raw or gen.md_text(value) not in md:
+                    raise ValueError('Bilingual route content missing from HTML/Markdown: ' + p['id'])
+            for pid in p['related_problem_ids']:
+                url = gen.page_url(lang) + '#problem-' + pid
+                if url not in doc.links or url not in md:
+                    raise ValueError('Related route missing')
+        for intent in model['unresolved_intents']:
+            for value in (intent['query'][lang], intent['reason'][lang]):
+                if gen.escape(value) not in raw or gen.md_text(value) not in md:
+                    raise ValueError('Unresolved intent not visible')
         for r in model['resources']:
             if r['canonical_url'] not in doc.links or r['id'] not in md:
                 raise ValueError('Missing initial HTML / Markdown resource')
@@ -108,7 +131,7 @@ def validate(root=None):
                 continue
             if not target.is_file():
                 raise ValueError('Missing public local target: ' + url)
-            if anchor and target.suffix == '.html' and anchor not in Document(target.read_text(encoding='utf-8')).ids:
+            if anchor and target.suffix == '.html' and anchor not in document(target).ids:
                 raise ValueError('Missing local anchor: ' + url)
             checked_links += 1
     for name in ('index.html', 'research-map.html', 'works.html', 'oss.html', 'agent-index.json', 'llms.txt', 'llms-full.txt'):

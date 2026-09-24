@@ -2,3 +2,4 @@ collective-intelligence-index* text eol=lf
 collective-intelligence.bib text eol=lf
 schemas/collective-intelligence-index.schema.json text eol=lf
 sitemap.xml text eol=lf
+docs/collective-intelligence-coverage.md text eol=lf

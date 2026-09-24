@@ -8,6 +8,7 @@ on:
       - 'tests/**'
       - 'data/collective-intelligence-*.json'
       - 'schemas/**'
+      - 'docs/collective-intelligence-coverage.md'
       - 'collective-intelligence*'
       - 'works.html'
       - 'requirements-index.txt'
@@ -29,6 +30,7 @@ jobs:
         run: |
           python scripts/generate_collective_intelligence_index.py --check
           python scripts/validate_collective_intelligence_index.py
+          python scripts/audit_collective_intelligence_coverage.py --check
           python scripts/validate_paper_pages.py
           python -m unittest discover -s tests -v
           python scripts/generate_agent_catalogs.py --offline

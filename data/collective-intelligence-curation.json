@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0",
-  "modified_at": "2026-09-21",
+  "schema_version": "1.1",
+  "modified_at": "2026-09-24",
   "resources": [
     {
       "id": "paper-growth",
@@ -112,7 +112,8 @@
         "e-paper-alt"
       ],
       "problem_ids": [
-        "reuse"
+        "reuse",
+        "distribution-shift"
       ]
     },
     {
@@ -167,7 +168,9 @@
       "evidence_refs": [
         "e-paper-loscr"
       ],
-      "problem_ids": []
+      "problem_ids": [
+        "production-reliability"
+      ]
     },
     {
       "id": "paper-collective-phase",
@@ -278,7 +281,9 @@
         "e-paper-operational-claims"
       ],
       "problem_ids": [
-        "obligations"
+        "obligations",
+        "completion-and-outcome",
+        "evidence-support"
       ]
     },
     {
@@ -306,7 +311,8 @@
         "e-paper-bit"
       ],
       "problem_ids": [
-        "verification-funding"
+        "verification-funding",
+        "cost-and-capacity"
       ]
     },
     {
@@ -334,7 +340,9 @@
         "e-paper-sqot"
       ],
       "problem_ids": [
-        "verification-backlog"
+        "verification-backlog",
+        "context-management",
+        "human-oversight"
       ]
     },
     {
@@ -361,7 +369,9 @@
       "evidence_refs": [
         "e-paper-cgt"
       ],
-      "problem_ids": []
+      "problem_ids": [
+        "version-and-dependency-drift"
+      ]
     },
     {
       "id": "paper-conversion",
@@ -473,7 +483,8 @@
         "e-paper-split-inference"
       ],
       "problem_ids": [
-        "coordinate"
+        "coordinate",
+        "context-management"
       ]
     },
     {
@@ -561,7 +572,10 @@
       ],
       "problem_ids": [
         "coordinate",
-        "interchange"
+        "interchange",
+        "retry-recovery",
+        "authority",
+        "incident-response"
       ]
     },
     {
@@ -592,7 +606,13 @@
         "e-percolation-inversion-compiler-pyproject-toml"
       ],
       "problem_ids": [
-        "obligations"
+        "obligations",
+        "completion-and-outcome",
+        "retry-recovery",
+        "tool-routing",
+        "authority",
+        "security-boundary",
+        "evidence-support"
       ]
     },
     {
@@ -625,7 +645,10 @@
       "problem_ids": [
         "verification-backlog",
         "interchange",
-        "verification-funding"
+        "verification-funding",
+        "production-reliability",
+        "cost-and-capacity",
+        "human-oversight"
       ]
     },
     {
@@ -657,7 +680,8 @@
       ],
       "problem_ids": [
         "reuse",
-        "interchange"
+        "interchange",
+        "distribution-shift"
       ]
     },
     {
@@ -689,7 +713,8 @@
       ],
       "problem_ids": [
         "accounting",
-        "interchange"
+        "interchange",
+        "cost-and-capacity"
       ]
     },
     {
@@ -751,7 +776,10 @@
         "e-observable-agent-workflow-memory-pyproject-toml"
       ],
       "problem_ids": [
-        "memory"
+        "memory",
+        "version-and-dependency-drift",
+        "memory-governance",
+        "distribution-shift"
       ]
     },
     {
@@ -812,7 +840,8 @@
         "e-audit-closed-ai-scientist-pyproject-toml"
       ],
       "problem_ids": [
-        "adaptive-research"
+        "adaptive-research",
+        "evaluation-integrity"
       ]
     },
     {
@@ -843,7 +872,10 @@
         "e-loscr-pyproject-toml"
       ],
       "problem_ids": [
-        "adaptive-research"
+        "adaptive-research",
+        "production-reliability",
+        "version-and-dependency-drift",
+        "evaluation-integrity"
       ]
     },
     {
@@ -906,6 +938,212 @@
       "problem_ids": [
         "forecast"
       ]
+    },
+    {
+      "id": "sw-cmgl",
+      "kind": "software",
+      "source_catalog_id": "kadubon/certified-memory-governance-layer",
+      "tier": "supporting",
+      "primary_role": "workflow-memory",
+      "roles": [
+        "workflow-memory"
+      ],
+      "summary": {
+        "en": "Gate memory writes and retrieval using current versions, authority receipts, tombstones and contamination lanes.",
+        "ja": "記憶の書込み・検索結果を、現行版・権限受領証・廃止履歴・汚染区分で制御する。"
+      },
+      "relevance_reason": {
+        "en": "Gate memory writes and retrieval using current versions, authority receipts, tombstones and contamination lanes.",
+        "ja": "記憶の書込み・検索結果を、現行版・権限受領証・廃止履歴・汚染区分で制御する。"
+      },
+      "limitations": {
+        "en": "Procedural admissibility only; no factual truth, model unlearning, backend deletion guarantee or prompt-injection immunity. Optional adapters remain application-owned.",
+        "ja": "手続き上の許容性のみ。事実の真実性、モデルの学習解除、バックエンドの完全消去、注入攻撃への免疫は保証しない。外部アダプタの運用はアプリ側が担う。"
+      },
+      "evidence_refs": [
+        "e-routing-cmgl-readme-md",
+        "e-routing-cmgl-docs-proof-obligations-md",
+        "e-routing-cmgl-license",
+        "e-routing-cmgl-pyproject-toml",
+        "e-routing-cmgl-docs-current-view-md",
+        "e-routing-cmgl-tests-test-compression-py"
+      ],
+      "problem_ids": [
+        "security-boundary",
+        "memory-governance",
+        "context-management",
+        "incident-response"
+      ]
+    },
+    {
+      "id": "sw-memoryflow",
+      "kind": "software",
+      "source_catalog_id": "kadubon/memoryflow-agent-memory-auditor",
+      "tier": "supporting",
+      "primary_role": "workflow-memory",
+      "roles": [
+        "workflow-memory"
+      ],
+      "summary": {
+        "en": "Audit declared memory telemetry for stale, deleted or superseded use, correction latency and non-comparable metrics.",
+        "ja": "宣言された記憶テレメトリから、古い・削除済み・置換済み記憶の使用、修正遅延、比較不能な指標を監査する。"
+      },
+      "relevance_reason": {
+        "en": "Audit declared memory telemetry for stale, deleted or superseded use, correction latency and non-comparable metrics.",
+        "ja": "宣言された記憶テレメトリから、古い・削除済み・置換済み記憶の使用、修正遅延、比較不能な指標を監査する。"
+      },
+      "limitations": {
+        "en": "Cannot observe silent backend changes, fabricated events or source truth. Auditing deletion telemetry does not erase memory or model weights.",
+        "ja": "未記録のストア変更、捏造事象、情報源の真偽は判定できない。削除記録の監査は記憶やモデル重みの消去ではない。"
+      },
+      "evidence_refs": [
+        "e-routing-memoryflow-readme-md",
+        "e-routing-memoryflow-docs-conformance-profiles-md",
+        "e-routing-memoryflow-license",
+        "e-routing-memoryflow-pyproject-toml",
+        "e-routing-memoryflow-docs-event-schema-md",
+        "e-routing-memoryflow-tests-unit-test-verifier-profiles-py"
+      ],
+      "problem_ids": [
+        "memory-governance"
+      ]
+    },
+    {
+      "id": "sw-pfg",
+      "kind": "software",
+      "source_catalog_id": "kadubon/problem-frame-gate",
+      "tier": "supporting",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification"
+      ],
+      "summary": {
+        "en": "Check finite action authority and atomically commit a five-row gate bundle before a separately controlled outbox dispatcher.",
+        "ja": "有限の行為権限を検査し、別管理の送信処理に先立ち5行のゲート束を原子的に記録する。"
+      },
+      "relevance_reason": {
+        "en": "Check finite action authority and atomically commit a five-row gate bundle before a separately controlled outbox dispatcher.",
+        "ja": "有限の行為権限を検査し、別管理の送信処理に先立ち5行のゲート束を原子的に記録する。"
+      },
+      "limitations": {
+        "en": "Finite audit consistency is not OAuth infrastructure, external truth, physical outcome or exactly-once delivery. Deployment owns identities, durable storage, actuator monitoring and incident response.",
+        "ja": "有限の監査整合性はOAuth基盤、外界の真実、物理的成果、厳密な一度限りの配信ではない。識別・永続化・実行監視・事故対応は運用側の責任。"
+      },
+      "evidence_refs": [
+        "e-routing-pfg-readme-md",
+        "e-routing-pfg-docs-operations-md",
+        "e-routing-pfg-license",
+        "e-routing-pfg-pyproject-toml",
+        "e-routing-pfg-schemas-gate-request-schema-json",
+        "e-routing-pfg-tests-test-v1-1-hardening-py"
+      ],
+      "problem_ids": [
+        "retry-recovery",
+        "tool-routing",
+        "authority",
+        "incident-response"
+      ]
+    },
+    {
+      "id": "sw-fost",
+      "kind": "software",
+      "source_catalog_id": "kadubon/fost-agent-ledger",
+      "tier": "supporting",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification"
+      ],
+      "summary": {
+        "en": "Separate claimed completion from finite support, checked finality, unresolved obligations and environment changes.",
+        "ja": "完了の自己申告を、有限の支持根拠・検査済み最終性・未解決義務・環境変更から区別する。"
+      },
+      "relevance_reason": {
+        "en": "Separate claimed completion from finite support, checked finality, unresolved obligations and environment changes.",
+        "ja": "完了の自己申告を、有限の支持根拠・検査済み最終性・未解決義務・環境変更から区別する。"
+      },
+      "limitations": {
+        "en": "A checked ledger is not a truth oracle or external outcome. Structural migration cannot invent evidence; project-specific modes and freshness policies remain necessary.",
+        "ja": "検査済み台帳は真実の判定器でも外界の成果でもない。構造移行は根拠を作らず、用途別のモードと鮮度方針が必要。"
+      },
+      "evidence_refs": [
+        "e-routing-fost-readme-md",
+        "e-routing-fost-docs-json-contract-md",
+        "e-routing-fost-license",
+        "e-routing-fost-pyproject-toml",
+        "e-routing-fost-docs-limitations-md",
+        "e-routing-fost-tests-test-v20-strict-finality-py"
+      ],
+      "problem_ids": [
+        "completion-and-outcome",
+        "version-and-dependency-drift",
+        "evidence-support"
+      ]
+    },
+    {
+      "id": "sw-atrb",
+      "kind": "software",
+      "source_catalog_id": "kadubon/agent-trust-residual-benchmark",
+      "tier": "supporting",
+      "primary_role": "research-validity",
+      "roles": [
+        "research-validity"
+      ],
+      "summary": {
+        "en": "Inspect positive/negative synthetic controls and near misses for authority, evidence scope, residuals and repeated model decisions.",
+        "ja": "権限・根拠範囲・残余・反復判断を扱う合成の陽性・陰性対照と境界事例を調べる。"
+      },
+      "relevance_reason": {
+        "en": "Inspect positive/negative synthetic controls and near misses for authority, evidence scope, residuals and repeated model decisions.",
+        "ja": "権限・根拠範囲・残余・反復判断を扱う合成の陽性・陰性対照と境界事例を調べる。"
+      },
+      "limitations": {
+        "en": "Fixtures and validators were co-developed. Cumulative conditions do not isolate causal effects. Compatibility adapters do not establish equivalence with PIC/FOST/PFG/CCR; no real-world safety or generalization claim.",
+        "ja": "フィクスチャと検査器は同時に開発された。累積条件では因果効果を分離できず、互換用アダプタはPIC・FOST・PFG・CCRとの同等性を証明しない。実世界の安全性・一般化は主張しない。"
+      },
+      "evidence_refs": [
+        "e-routing-atrb-readme-md",
+        "e-routing-atrb-docs-v02-experiment-md",
+        "e-routing-atrb-license",
+        "e-routing-atrb-pyproject-toml",
+        "e-routing-atrb-docs-v02-results-md",
+        "e-routing-atrb-tests-test-v02-positive-controls-py"
+      ],
+      "problem_ids": [
+        "security-boundary",
+        "evaluation-integrity"
+      ]
+    },
+    {
+      "id": "sw-oversight",
+      "kind": "software",
+      "source_catalog_id": "kadubon/Oversight-Centered-Metrology-PoC",
+      "tier": "supporting",
+      "primary_role": "research-validity",
+      "roles": [
+        "research-validity"
+      ],
+      "summary": {
+        "en": "Examine retry, review cost and escalation load using bounded coding tasks and explicit claim margins.",
+        "ja": "限定されたコード修正課題と主張余裕を用い、再試行・レビュー費用・エスカレーション負荷を調べる。"
+      },
+      "relevance_reason": {
+        "en": "Examine retry, review cost and escalation load using bounded coding tasks and explicit claim margins.",
+        "ja": "限定されたコード修正課題と主張余裕を用い、再試行・レビュー費用・エスカレーション負荷を調べる。"
+      },
+      "limitations": {
+        "en": "Twelve synthetic tasks, one logged run per actual model, and scripted costly review do not measure human approval fatigue or establish production readiness. Positive comparative oversight claims remain fail-closed in the reported setup.",
+        "ja": "合成12課題、各実モデル1回の記録、スクリプトによる高費用レビューは、人間の承認疲労の実測でも本番適性の証明でもない。報告設定の比較優位は保守的に未確立。"
+      },
+      "evidence_refs": [
+        "e-routing-oversight-readme-md",
+        "e-routing-oversight-experiment-manifest-yaml",
+        "e-routing-oversight-licence",
+        "e-routing-oversight-report-workflow-oversight-report-md",
+        "e-routing-oversight-src-oversight-poc-channels-py"
+      ],
+      "problem_ids": [
+        "human-oversight"
+      ]
     }
   ],
   "roles": [
@@ -925,134 +1163,575 @@
   ],
   "problems": [
     {
-      "id": "coordinate",
+      "id": "completion-and-outcome",
       "question": {
-        "en": "How should multiple agents divide work and preserve disagreements?",
-        "ja": "複数エージェントの作業分担と意見の相違をどう保持するか？"
+        "en": "My agent says done, but the task is not finished",
+        "ja": "AIエージェントが完了と言うのに実際には終わっていない"
       },
-      "queries": [
-        "coordinate leased multi-agent work"
-      ],
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "AI agent says \"done\" but task is not finished",
+          "false completion",
+          "tool receipt vs actual outcome",
+          "postcondition verification",
+          "why does my AI agent say done when it isn't finished?"
+        ],
+        "ja": [
+          "完了の誤報告",
+          "ツールの受領証と実際の成果の違い",
+          "実行後の完了条件を確認したい",
+          "完了していないのにAIが完了と言うのはなぜ"
+        ]
+      },
       "symptoms": {
-        "en": "coordinate leased multi-agent work",
-        "ja": "複数エージェントの作業分担と意見の相違をどう保持するか？"
+        "en": "My agent says done, but the task is not finished",
+        "ja": "AIエージェントが完了と言うのに実際には終わっていない"
       },
+      "symptom_group": "reliability",
       "first_reads": [
-        "sw-ccr",
-        "paper-split-inference",
-        "paper-collective-phase"
+        "sw-pic",
+        "sw-fost",
+        "paper-operational-claims"
       ],
       "required_inputs": {
-        "en": "Mission scope, independent proposals, leases, common budget.",
-        "ja": "任務範囲、独立提案、リース、共通予算。"
+        "en": "Declared postconditions, claimed completion, receipts and independent observations.",
+        "ja": "完了条件、完了の申告、受領証、独立した観測。"
       },
       "expected_outputs": {
-        "en": "Leased work and unresolved disagreements with traceable evidence.",
-        "ja": "追跡可能な根拠を伴うリース作業と未解決の意見差。"
+        "en": "Separate reported, checked and externally observed completion; keep open obligations.",
+        "ja": "申告・検査・外界で観測した完了を分け、未解決義務を残す。"
       },
       "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. No authority to dispatch; missing independent verification or expired lease.",
-        "ja": "ホスト方針に従う助言経路。実行権限の欠如、独立検証の不足、リース期限切れ。"
+        "en": "A receipt or checked ledger cannot establish an unobserved external outcome.",
+        "ja": "受領証や検査済み台帳だけでは未観測の外部成果を確定できない。"
       },
       "stop_or_handoff_conditions": {
-        "en": "No authority to dispatch; missing independent verification or expired lease.",
-        "ja": "実行権限の欠如、独立検証の不足、リース期限切れ。"
+        "en": "If the postcondition cannot be observed, retain unknown and hand off before reporting done.",
+        "ja": "完了条件を観測できなければ未知のまま保持し、完了を報告する前に引き継ぐ。"
+      },
+      "related_problem_ids": [
+        "retry-recovery",
+        "obligations",
+        "evidence-support"
+      ],
+      "evidence_refs": [
+        "e-paper-operational-claims",
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-routing-fost-readme-md",
+        "e-routing-fost-docs-json-contract-md",
+        "e-routing-fost-license",
+        "e-routing-fost-pyproject-toml",
+        "e-routing-fost-docs-limitations-md",
+        "e-routing-fost-tests-test-v20-strict-finality-py"
+      ]
+    },
+    {
+      "id": "retry-recovery",
+      "question": {
+        "en": "My agent keeps calling the same tool",
+        "ja": "同じツール呼び出しを繰り返す"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "agent keeps retrying",
+          "agent stuck in a loop",
+          "repeated tool calls",
+          "agent never terminates",
+          "partial failure",
+          "crash recovery",
+          "duplicate side effects",
+          "idempotency",
+          "replay vs rerun",
+          "uncertain external outcome",
+          "reconciliation",
+          "rate limits / 429",
+          "retry storms",
+          "retry amplification",
+          "agent keeps retrying the same MCP tool"
+        ],
+        "ja": [
+          "エージェントが再試行を続ける",
+          "エージェントがループから抜けない",
+          "エージェントがいつまでも終了しない",
+          "処理が途中だけ失敗した",
+          "クラッシュ後に処理を復旧したい",
+          "外部への操作が二重に実行された",
+          "再試行の冪等性を確認したい",
+          "履歴の再生と処理の再実行は違うのか",
+          "外部で操作が成功したかわからない",
+          "外部の実行結果と台帳を照合したい",
+          "429制限でエージェントが再試行する",
+          "再試行が集中して負荷が増える",
+          "再試行が連鎖して費用が膨らむ",
+          "同じMCPツールの再試行が止まらない"
+        ]
+      },
+      "symptoms": {
+        "en": "My agent keeps calling the same tool",
+        "ja": "同じツール呼び出しを繰り返す"
+      },
+      "symptom_group": "reliability",
+      "first_reads": [
+        "sw-pfg",
+        "sw-ccr",
+        "sw-pic"
+      ],
+      "required_inputs": {
+        "en": "Attempt IDs, lease/dispatch records, retry budget, idempotency contract and external receipts.",
+        "ja": "試行ID、リース・送信履歴、再試行予算、冪等性契約、外部受領証。"
+      },
+      "expected_outputs": {
+        "en": "Distinguish replay of evidence from rerunning an action; expose unfinished or uncertain effects.",
+        "ja": "証拠の再生と行為の再実行を分け、未完了・不確かな作用を明示する。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No universal termination proof, retry scheduler or exactly-once side-effect guarantee. Provider backoff and deduplication remain host obligations.",
+        "ja": "普遍的な停止証明、再試行スケジューラ、一度限りの作用保証はない。待機制御と重複排除はホストの責任。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Stop blind retries after an uncertain effect or exhausted budget; reconcile with the actuator owner.",
+        "ja": "作用不明または予算超過なら無条件の再試行を止め、実行先の管理者と照合する。"
+      },
+      "related_problem_ids": [
+        "completion-and-outcome",
+        "cost-and-capacity",
+        "incident-response"
+      ],
+      "evidence_refs": [
+        "e-collective-capability-runtime-readme-md",
+        "e-collective-capability-runtime-docs-verified-growth-md",
+        "e-collective-capability-runtime-license",
+        "e-collective-capability-runtime-pyproject-toml",
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-routing-pfg-readme-md",
+        "e-routing-pfg-docs-operations-md",
+        "e-routing-pfg-license",
+        "e-routing-pfg-pyproject-toml",
+        "e-routing-pfg-schemas-gate-request-schema-json",
+        "e-routing-pfg-tests-test-v1-1-hardening-py"
+      ]
+    },
+    {
+      "id": "production-reliability",
+      "question": {
+        "en": "It works in a demo but fails in production",
+        "ja": "デモでは動くのに本番で失敗する"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "AI agent works in demo but fails in production",
+          "AI agent reliability",
+          "AI agent success rate",
+          "agent SLO / SLA",
+          "error budget",
+          "repeated-run consistency",
+          "pass^k",
+          "flaky AI agent",
+          "fault tolerance",
+          "graceful degradation",
+          "production readiness"
+        ],
+        "ja": [
+          "AIエージェントの信頼性を評価したい",
+          "エージェントの成功率をどう測るか",
+          "エージェントのSLOやSLAを設定したい",
+          "失敗を許容する予算を決めたい",
+          "繰り返し実行すると結果が安定しない",
+          "連続試行の成功指標pass^kを評価したい",
+          "エージェントが時々失敗する",
+          "エージェントの障害耐性を確認したい",
+          "障害時に機能を段階的に制限したい",
+          "エージェントを本番投入してよいか"
+        ]
+      },
+      "symptoms": {
+        "en": "It works in a demo but fails in production",
+        "ja": "デモでは動くのに本番で失敗する"
+      },
+      "symptom_group": "reliability",
+      "first_reads": [
+        "sw-loscr",
+        "paper-loscr",
+        "sw-vek"
+      ],
+      "required_inputs": {
+        "en": "Repeated-run workload, versioned environment, failures, service windows and matched resource limits.",
+        "ja": "反復実行課題、版付き環境、失敗記録、サービス窓、条件を揃えた資源上限。"
+      },
+      "expected_outputs": {
+        "en": "Scope service claims to supported observations, degradation and unresolved capacity.",
+        "ja": "サービスの主張を、裏付けのある観測・劣化・未解決容量に限定する。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Release presence, one success or synthetic capacity is not an SLO/SLA guarantee. This route supplies no pass^k estimator or provider 429 handler.",
+        "ja": "リリース、1回の成功、合成容量はSLO・SLA保証ではない。pass^k推定器や429対応処理は提供しない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "With missing denominators, independence, drift checks or error budgets, withhold readiness and escalate to service owners.",
+        "ja": "分母・独立性・変化の検査・エラー予算が不足すれば本番適性を確定せずサービス管理者へ引き継ぐ。"
+      },
+      "related_problem_ids": [
+        "evaluation-integrity",
+        "version-and-dependency-drift",
+        "verification-backlog"
+      ],
+      "evidence_refs": [
+        "e-paper-loscr",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml",
+        "e-loscr-readme-md",
+        "e-loscr-docs-theory-map-md",
+        "e-loscr-license",
+        "e-loscr-pyproject-toml"
+      ]
+    },
+    {
+      "id": "adaptation",
+      "question": {
+        "en": "How can local workflow policy change under protected limits?",
+        "ja": "保護すべき限界の下で局所方策をどう変更するか？"
+      },
+      "queries": [
+        "change local workflow policy"
+      ],
+      "symptoms": {
+        "en": "A workflow change needs a safe trial and rollback evidence",
+        "ja": "作業手順の変更を試し、戻せる根拠を確認したい"
+      },
+      "first_reads": [
+        "sw-oasg",
+        "paper-conversion"
+      ],
+      "required_inputs": {
+        "en": "Ledger prefixes, candidate policy, trial workload and rollback evidence.",
+        "ja": "台帳接頭辞、方策候補、試行課題、復旧根拠。"
+      },
+      "expected_outputs": {
+        "en": "Shadow/lease trial result and gated promotion or rejection.",
+        "ja": "shadow・lease試行結果と条件付き昇格・棄却。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Protected regression, incomplete receipts or host execution authority missing.",
+        "ja": "ホスト方針に従う助言経路。保護対象の劣化、受領証不足、実行権限の欠如。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Protected regression, incomplete receipts or host execution authority missing.",
+        "ja": "保護対象の劣化、受領証不足、実行権限の欠如。"
+      },
+      "evidence_refs": [
+        "e-paper-conversion",
+        "e-oasg-readme-md",
+        "e-oasg-docs-architecture-md",
+        "e-oasg-license",
+        "e-oasg-pyproject-toml"
+      ],
+      "symptom_group": "reliability",
+      "query_aliases": {
+        "en": [],
+        "ja": []
+      },
+      "related_problem_ids": [
+        "production-reliability",
+        "version-and-dependency-drift",
+        "incident-response"
+      ]
+    },
+    {
+      "id": "tool-routing",
+      "question": {
+        "en": "My MCP agent cannot find or choose the right tool",
+        "ja": "MCPのツールを正しく選べない"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "AI agent chooses wrong tool",
+          "AI agent cannot find a tool",
+          "too many MCP tools",
+          "MCP tool overload",
+          "tool search / tool routing",
+          "function calling with many tools",
+          "tool selected correctly but wrong arguments",
+          "tool metadata ambiguity"
+        ],
+        "ja": [
+          "エージェントが間違ったツールを選ぶ",
+          "エージェントが必要なツールを見つけられない",
+          "MCPツールが多すぎる",
+          "MCPツールの説明で文脈が埋まる",
+          "ツールの検索と振り分けを見直したい",
+          "多数のツールでfunction callingを使いたい",
+          "ツールは合っているが引数が間違う",
+          "ツールの説明が曖昧で選べない"
+        ]
+      },
+      "symptoms": {
+        "en": "My MCP agent cannot find or choose the right tool",
+        "ja": "MCPのツールを正しく選べない"
+      },
+      "symptom_group": "tools",
+      "first_reads": [
+        "sw-pic",
+        "sw-pfg"
+      ],
+      "required_inputs": {
+        "en": "Task, candidate tool descriptions, input schemas, effects, evidence and required authority.",
+        "ja": "課題、候補ツールの説明、入力スキーマ、作用、根拠、必要権限。"
+      },
+      "expected_outputs": {
+        "en": "A bounded inspection of input obligations and authorization before a host selects a tool.",
+        "ja": "ホストがツールを選ぶ前に、入力義務と権限を限定的に確認する。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Diagnostic entry only: no MCP search engine, tool-ranking algorithm or large-tool-set performance evidence. Discoverability does not imply permission.",
+        "ja": "診断の入口のみ。MCP検索エンジン、順位付け手法、多数ツールでの性能根拠はない。発見できることは使用許可ではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Ambiguous descriptions or arguments require clarification and host-side schema checks; never infer permission from a match.",
+        "ja": "説明や引数が曖昧なら確認とホスト側スキーマ検査を行い、一致から権限を推測しない。"
+      },
+      "related_problem_ids": [
+        "authority",
+        "version-and-dependency-drift",
+        "interchange"
+      ],
+      "evidence_refs": [
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-routing-pfg-readme-md",
+        "e-routing-pfg-docs-operations-md",
+        "e-routing-pfg-license",
+        "e-routing-pfg-pyproject-toml",
+        "e-routing-pfg-schemas-gate-request-schema-json",
+        "e-routing-pfg-tests-test-v1-1-hardening-py"
+      ]
+    },
+    {
+      "id": "version-and-dependency-drift",
+      "question": {
+        "en": "My agent broke after an API update",
+        "ja": "API更新後にエージェントが壊れた"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "tool schema changed",
+          "function-calling schema changed",
+          "MCP tool stopped working after update",
+          "API update broke agent",
+          "stale tool definition",
+          "JSON Schema compatibility",
+          "backward compatibility",
+          "semantic drift",
+          "stored workflow still uses old API",
+          "revalidation after dependency/tool version change",
+          "dependency update broke agent",
+          "transitive dependency drift",
+          "agent broke after model update"
+        ],
+        "ja": [
+          "ツールのスキーマが変更された",
+          "関数呼出しのスキーマ変更で壊れた",
+          "更新後にMCPツールが動かなくなった",
+          "古いツール定義を使っている",
+          "JSON Schemaの互換性を再確認したい",
+          "後方互換性の根拠を確認したい",
+          "同じ形式でも意味が変わった",
+          "保存した手続きが古いAPIを使う",
+          "依存やツールの更新後に再検証したい",
+          "依存関係の更新でエージェントが壊れた",
+          "間接依存の変更で挙動が変わった",
+          "モデル更新後にエージェントが壊れた"
+        ]
+      },
+      "symptoms": {
+        "en": "My agent broke after an API update",
+        "ja": "API更新後にエージェントが壊れた"
+      },
+      "symptom_group": "tools",
+      "first_reads": [
+        "sw-oawm",
+        "sw-fost",
+        "sw-loscr"
+      ],
+      "required_inputs": {
+        "en": "Old/new versions, schemas, dependency digests, stored workflow contracts and replay evidence.",
+        "ja": "変更前後の版、スキーマ、依存ダイジェスト、保存手続き契約、再生根拠。"
+      },
+      "expected_outputs": {
+        "en": "Invalidate affected assumptions and require renewed checks for the changed environment.",
+        "ja": "影響する仮定を失効させ、変わった環境での再検査を要求する。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "A JSON shape match or structural migration does not prove semantic/backward compatibility. No universal dependency vulnerability scanner.",
+        "ja": "JSONの形状適合や構造移行は意味・後方互換性の証明ではない。汎用の依存脆弱性検査器ではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Quarantine stale workflows when version bindings or required revalidation are missing.",
+        "ja": "版の結び付けや必要な再検証がなければ古い手続きを隔離する。"
+      },
+      "related_problem_ids": [
+        "memory",
+        "tool-routing",
+        "production-reliability"
+      ],
+      "evidence_refs": [
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
+        "e-observable-agent-workflow-memory-license",
+        "e-observable-agent-workflow-memory-pyproject-toml",
+        "e-loscr-readme-md",
+        "e-loscr-docs-theory-map-md",
+        "e-loscr-license",
+        "e-loscr-pyproject-toml",
+        "e-routing-fost-readme-md",
+        "e-routing-fost-docs-json-contract-md",
+        "e-routing-fost-license",
+        "e-routing-fost-pyproject-toml",
+        "e-routing-fost-docs-limitations-md",
+        "e-routing-fost-tests-test-v20-strict-finality-py"
+      ]
+    },
+    {
+      "id": "interchange",
+      "question": {
+        "en": "Which integration has actually been checked at these versions?",
+        "ja": "このバージョンの連携で何が実際に検査されたか？"
+      },
+      "queries": [
+        "integrate ALT with CCR automatically"
+      ],
+      "symptoms": {
+        "en": "Can these exact tool versions work together?",
+        "ja": "この組合せのツールは実際に連携できるか"
+      },
+      "first_reads": [
+        "sw-alt",
+        "sw-ccr",
+        "sw-vek"
+      ],
+      "required_inputs": {
+        "en": "Exact producer/consumer versions, fixture schema hashes, scope and host admission rules.",
+        "ja": "生成元・受け手の厳密な版、スキーマハッシュ、範囲、ホスト受入規則。"
+      },
+      "expected_outputs": {
+        "en": "Version-scoped mappings plus explicit missing custom sidecar admission.",
+        "ja": "版に限定した写像と、未実装の補助記録受入処理。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.",
+        "ja": "ホスト方針に従う助言経路。ホスト受入未実装、新しい版、未対応ライフサイクル、推移的互換性の推測。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.",
+        "ja": "ホスト受入未実装、新しい版、未対応ライフサイクル、推移的互換性の推測。"
       },
       "evidence_refs": [
         "e-collective-capability-runtime-readme-md",
         "e-collective-capability-runtime-docs-verified-growth-md",
         "e-collective-capability-runtime-license",
         "e-collective-capability-runtime-pyproject-toml",
-        "e-paper-split-inference",
-        "e-paper-collective-phase"
-      ]
-    },
-    {
-      "id": "obligations",
-      "question": {
-        "en": "What remains to be checked before an output is reusable?",
-        "ja": "出力を再利用する前に何を検証する必要があるか？"
-      },
-      "queries": [
-        "preserve unknown output obligations"
-      ],
-      "symptoms": {
-        "en": "preserve unknown output obligations",
-        "ja": "出力を再利用する前に何を検証する必要があるか？"
-      },
-      "first_reads": [
-        "sw-pic",
-        "paper-ecpt",
-        "paper-operational-claims"
-      ],
-      "required_inputs": {
-        "en": "Output, declared schema, evidence and known/unknown measurements.",
-        "ja": "出力、宣言スキーマ、根拠、既知・未知の測定。"
-      },
-      "expected_outputs": {
-        "en": "Residual-preserving packet and bounded next checks.",
-        "ja": "残余を保持したパケットと有限の次検査。"
-      },
-      "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. Missing source evidence or requested execution outside authority.",
-        "ja": "ホスト方針に従う助言経路。元根拠の不足または権限外の実行要求。"
-      },
-      "stop_or_handoff_conditions": {
-        "en": "Missing source evidence or requested execution outside authority.",
-        "ja": "元根拠の不足または権限外の実行要求。"
-      },
-      "evidence_refs": [
-        "e-percolation-inversion-compiler-readme-md",
-        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
-        "e-percolation-inversion-compiler-license",
-        "e-percolation-inversion-compiler-pyproject-toml",
-        "e-paper-ecpt",
-        "e-paper-operational-claims"
-      ]
-    },
-    {
-      "id": "verification-backlog",
-      "question": {
-        "en": "What should change when verification becomes the bottleneck?",
-        "ja": "検証が律速となるとき何を変更すべきか？"
-      },
-      "queries": [
-        "verification backlog"
-      ],
-      "symptoms": {
-        "en": "verification backlog",
-        "ja": "検証が律速となるとき何を変更すべきか？"
-      },
-      "first_reads": [
-        "paper-vet",
-        "sw-vek",
-        "paper-sqot",
-        "paper-verification-limited"
-      ],
-      "required_inputs": {
-        "en": "Checks, integer slots, registered service eligibility and typed budgets.",
-        "ja": "検査、整数スロット、登録サービス適格性、型付き予算。"
-      },
-      "expected_outputs": {
-        "en": "Finite schedule, backlog, repair and unfinished-work report.",
-        "ja": "有限日程、滞留、修復、未完了作業の報告。"
-      },
-      "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. Observed service requested from synthetic local profile, unsupported preemption, or finite bounds exceeded.",
-        "ja": "ホスト方針に従う助言経路。合成局所プロファイルに観測サービスを要求、未対応の中断、有限上限の超過。"
-      },
-      "stop_or_handoff_conditions": {
-        "en": "Observed service requested from synthetic local profile, unsupported preemption, or finite bounds exceeded.",
-        "ja": "合成局所プロファイルに観測サービスを要求、未対応の中断、有限上限の超過。"
-      },
-      "evidence_refs": [
-        "e-paper-vet",
         "e-verification-ecology-kit-readme-md",
         "e-verification-ecology-kit-docs-capacity-md",
         "e-verification-ecology-kit-license",
         "e-verification-ecology-kit-pyproject-toml",
-        "e-paper-sqot",
-        "e-paper-verification-limited"
+        "e-alt-foundry-kernel-readme-md",
+        "e-alt-foundry-kernel-docs-collective-reuse-md",
+        "e-alt-foundry-kernel-license",
+        "e-alt-foundry-kernel-pyproject-toml"
+      ],
+      "symptom_group": "tools",
+      "query_aliases": {
+        "en": [],
+        "ja": []
+      },
+      "related_problem_ids": [
+        "version-and-dependency-drift",
+        "tool-routing",
+        "authority"
+      ]
+    },
+    {
+      "id": "distribution-shift",
+      "question": {
+        "en": "A skill that worked before fails on a new task",
+        "ja": "以前使えたスキルが別の課題では失敗する"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "skill worked before but fails on new task",
+          "negative transfer",
+          "distribution shift",
+          "reuse vs solve from scratch",
+          "receiver mismatch",
+          "workflow valid for one context but not another",
+          "external validity"
+        ],
+        "ja": [
+          "以前使えたスキルが新しい課題では失敗する",
+          "再利用した知識が逆効果になる",
+          "課題の分布が変わった",
+          "再利用と一から解く方法を比較したい",
+          "スキルと受け手の条件が合わない",
+          "ある文脈で有効な手続きが別の文脈では使えない",
+          "検証結果を別の環境へ適用してよいか"
+        ]
+      },
+      "symptoms": {
+        "en": "A skill that worked before fails on a new task",
+        "ja": "以前使えたスキルが別の課題では失敗する"
+      },
+      "symptom_group": "tools",
+      "first_reads": [
+        "sw-alt",
+        "paper-alt",
+        "sw-oawm"
+      ],
+      "required_inputs": {
+        "en": "Named receiver/task/context, dependency versions, transfer checks and matched scratch baseline.",
+        "ja": "受け手・課題・文脈、依存版、移転検査、条件を揃えた都度解法。"
+      },
+      "expected_outputs": {
+        "en": "Receiver-qualified reuse with rejected/unknown transfers and maintenance costs retained.",
+        "ja": "拒否・未知の移転と保守費用を残した、受け手限定の再利用。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No general distribution-shift detector or external-validity guarantee; previous verification is not transport evidence.",
+        "ja": "汎用の分布変化検出や外的妥当性保証ではない。以前の検証は転用の根拠ではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "On receiver mismatch, requalify or solve from scratch; do not treat copied artifacts as new capability.",
+        "ja": "受け手が合わなければ再適格化または都度解法へ戻り、コピーを新しい能力と扱わない。"
+      },
+      "related_problem_ids": [
+        "reuse",
+        "memory",
+        "version-and-dependency-drift"
+      ],
+      "evidence_refs": [
+        "e-paper-alt",
+        "e-alt-foundry-kernel-readme-md",
+        "e-alt-foundry-kernel-docs-collective-reuse-md",
+        "e-alt-foundry-kernel-license",
+        "e-alt-foundry-kernel-pyproject-toml",
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
+        "e-observable-agent-workflow-memory-license",
+        "e-observable-agent-workflow-memory-pyproject-toml"
       ]
     },
     {
@@ -1065,8 +1744,8 @@
         "reuse versus solving from scratch"
       ],
       "symptoms": {
-        "en": "reuse versus solving from scratch",
-        "ja": "再利用はいつ都度の解法より有利か？"
+        "en": "Should I reuse a skill or solve from scratch?",
+        "ja": "スキルを再利用するか一から解くか迷う"
       },
       "first_reads": [
         "paper-alt",
@@ -1091,54 +1770,607 @@
       },
       "evidence_refs": [
         "e-paper-alt",
+        "e-paper-pcs",
         "e-alt-foundry-kernel-readme-md",
         "e-alt-foundry-kernel-docs-collective-reuse-md",
         "e-alt-foundry-kernel-license",
-        "e-alt-foundry-kernel-pyproject-toml",
-        "e-paper-pcs"
+        "e-alt-foundry-kernel-pyproject-toml"
+      ],
+      "symptom_group": "tools",
+      "query_aliases": {
+        "en": [
+          "qualified reuse",
+          "verified != reusable"
+        ],
+        "ja": [
+          "条件を満たした再利用か確認したい",
+          "検証済みでも再利用できるとは限らない"
+        ]
+      },
+      "related_problem_ids": [
+        "distribution-shift",
+        "accounting",
+        "memory"
       ]
     },
     {
-      "id": "accounting",
+      "id": "memory-governance",
       "question": {
-        "en": "Did the system accumulate capability, or just copy artifacts?",
-        "ja": "能力を蓄積したのか、成果物をコピーしただけか？"
+        "en": "A deleted memory keeps coming back",
+        "ja": "削除した記憶をまた使ってしまう"
       },
-      "queries": [
-        "did copied artifacts increase capability"
-      ],
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "stale agent memory",
+          "deleted memory still used",
+          "agent remembers deleted data",
+          "how to make an AI agent forget",
+          "memory deletion",
+          "tombstone",
+          "memory correction",
+          "superseded memory",
+          "memory expiry",
+          "derived summary still contains deleted information",
+          "cache resurrects deleted information",
+          "RAG deletion vs model unlearning"
+        ],
+        "ja": [
+          "エージェントが古い記憶を使い続ける",
+          "エージェントが消したデータを思い出す",
+          "AIエージェントに情報を忘れさせたい",
+          "エージェントの記憶を削除したい",
+          "記憶の廃止印を検索に反映したい",
+          "記憶の誤りを修正したい",
+          "置き換え済みの記憶が使われる",
+          "記憶の有効期限を管理したい",
+          "派生した要約に削除済み情報が残っている",
+          "キャッシュから消した情報が復活する",
+          "RAGからの削除とモデルの学習解除の違い"
+        ]
+      },
       "symptoms": {
-        "en": "did copied artifacts increase capability",
-        "ja": "能力を蓄積したのか、成果物をコピーしただけか？"
+        "en": "A deleted memory keeps coming back",
+        "ja": "削除した記憶をまた使ってしまう"
       },
+      "symptom_group": "memory-context",
       "first_reads": [
-        "paper-cait",
-        "sw-cait",
-        "paper-growth"
+        "sw-cmgl",
+        "sw-memoryflow",
+        "sw-oawm"
       ],
       "required_inputs": {
-        "en": "Unique source history, origins, lifecycle events, typed costs and stock/service units.",
-        "ja": "一意な元履歴、起源、ライフサイクル、型付き費用、蓄積・サービス単位。"
+        "en": "Memory/update IDs, source lineage, tombstones, expiry, authority and read/use telemetry.",
+        "ja": "記憶・更新ID、元情報の系譜、廃止履歴、期限、権限、読出し・使用記録。"
       },
       "expected_outputs": {
-        "en": "Separate unique stock, service, external input and unresolved attribution.",
-        "ja": "一意な蓄積、サービス、外部投入、未解明の帰属を分離。"
+        "en": "Admit current supported memory; block invalidated versions and audit stale/deleted use.",
+        "ja": "現行の裏付けられた記憶を受け入れ、失効版を遮断して古い・削除済み記憶の使用を監査する。"
       },
       "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. Missing original journal, valuation witness, compatible units or causal design.",
-        "ja": "ホスト方針に従う助言経路。元履歴、評価証拠、単位整合、因果設計が欠ける場合。"
+        "en": "A retrieval tombstone is not physical erasure or model unlearning. Derived summaries/caches need lineage and their own invalidation; silent store changes are invisible.",
+        "ja": "検索用の廃止印は物理消去やモデル学習解除ではない。派生要約・キャッシュには系譜と個別の失効処理が必要で、未記録のストア変更は見えない。"
       },
       "stop_or_handoff_conditions": {
-        "en": "Missing original journal, valuation witness, compatible units or causal design.",
-        "ja": "元履歴、評価証拠、単位整合、因果設計が欠ける場合。"
+        "en": "Missing version bindings or deletion lineage requires blocking reuse and backend reconciliation.",
+        "ja": "版の結び付けや削除系譜が欠ければ再利用を止め、バックエンドと照合する。"
+      },
+      "related_problem_ids": [
+        "memory",
+        "context-management",
+        "version-and-dependency-drift"
+      ],
+      "evidence_refs": [
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
+        "e-observable-agent-workflow-memory-license",
+        "e-observable-agent-workflow-memory-pyproject-toml",
+        "e-routing-cmgl-readme-md",
+        "e-routing-cmgl-docs-proof-obligations-md",
+        "e-routing-cmgl-license",
+        "e-routing-cmgl-pyproject-toml",
+        "e-routing-cmgl-docs-current-view-md",
+        "e-routing-cmgl-tests-test-compression-py",
+        "e-routing-memoryflow-readme-md",
+        "e-routing-memoryflow-docs-conformance-profiles-md",
+        "e-routing-memoryflow-license",
+        "e-routing-memoryflow-pyproject-toml",
+        "e-routing-memoryflow-docs-event-schema-md",
+        "e-routing-memoryflow-tests-unit-test-verifier-profiles-py"
+      ]
+    },
+    {
+      "id": "context-management",
+      "question": {
+        "en": "Long conversations and tool output overwhelm my agent",
+        "ja": "会話やツール出力が長くなり判断が悪化する"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "long conversation makes agent worse",
+          "context window overload",
+          "tool output overload",
+          "context compression",
+          "summarization loses evidence",
+          "agent forgets earlier instruction",
+          "context grows too large",
+          "evidence-preserving compression"
+        ],
+        "ja": [
+          "会話が長くなるとエージェントの判断が悪化する",
+          "コンテキスト窓がいっぱいになる",
+          "ツール出力が多すぎる",
+          "根拠を残して文脈を圧縮したい",
+          "要約すると根拠が失われる",
+          "前に伝えた指示をエージェントが忘れる",
+          "文脈が大きくなりすぎる",
+          "証拠を保持したまま圧縮したい"
+        ]
+      },
+      "symptoms": {
+        "en": "Long conversations and tool output overwhelm my agent",
+        "ja": "会話やツール出力が長くなり判断が悪化する"
+      },
+      "symptom_group": "memory-context",
+      "first_reads": [
+        "sw-cmgl",
+        "paper-split-inference",
+        "paper-sqot"
+      ],
+      "required_inputs": {
+        "en": "Source evidence, context limits, compression lineage, recoverability checks and attention budget.",
+        "ja": "元根拠、文脈上限、圧縮系譜、復元可能性の検査、注意予算。"
+      },
+      "expected_outputs": {
+        "en": "Keep source links and unresolved obligations when forming smaller context or summaries.",
+        "ja": "文脈や要約を縮める際にも元情報への参照と未解決義務を残す。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No general context compressor or guarantee of instruction retention. A summary is not certified fact; a model context advantage is not observed performance.",
+        "ja": "汎用文脈圧縮器や指示保持の保証ではない。要約は認証済み事実でなく、モデル上の文脈優位は観測性能ではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "If evidence or instruction provenance is lost, retrieve the original and recheck instead of promoting the summary.",
+        "ja": "根拠や指示の来歴を失ったら、要約を昇格させず原文を取得して再確認する。"
+      },
+      "related_problem_ids": [
+        "memory-governance",
+        "cost-and-capacity",
+        "coordinate"
+      ],
+      "evidence_refs": [
+        "e-paper-sqot",
+        "e-paper-split-inference",
+        "e-routing-cmgl-readme-md",
+        "e-routing-cmgl-docs-proof-obligations-md",
+        "e-routing-cmgl-license",
+        "e-routing-cmgl-pyproject-toml",
+        "e-routing-cmgl-docs-current-view-md",
+        "e-routing-cmgl-tests-test-compression-py"
+      ]
+    },
+    {
+      "id": "memory",
+      "question": {
+        "en": "How can a procedure remain reusable after failure or withdrawal?",
+        "ja": "失敗や撤回後も手続きをどう管理するか？"
+      },
+      "queries": [
+        "remember a verified procedure"
+      ],
+      "symptoms": {
+        "en": "A stored workflow may no longer be valid",
+        "ja": "保存した手続きを今も使ってよいかわからない"
+      },
+      "first_reads": [
+        "sw-oawm",
+        "paper-workflow-library",
+        "paper-continuity"
+      ],
+      "required_inputs": {
+        "en": "Observable events, checker receipts, workflow contract and explicit promotion.",
+        "ja": "観測事象、検査受領証、手続き契約、明示的昇格。"
+      },
+      "expected_outputs": {
+        "en": "Version-bound admissibility with contradictions and tombstones retained.",
+        "ja": "矛盾と廃止履歴を保持したバージョン付き許容性。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing promotion receipt; a factual truth or automatic ALT promotion request.",
+        "ja": "ホスト方針に従う助言経路。昇格受領証の欠落、事実の真実性またはALT自動昇格の要求。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing promotion receipt; a factual truth or automatic ALT promotion request.",
+        "ja": "昇格受領証の欠落、事実の真実性またはALT自動昇格の要求。"
       },
       "evidence_refs": [
-        "e-paper-cait",
+        "e-paper-continuity",
+        "e-paper-workflow-library",
+        "e-observable-agent-workflow-memory-readme-md",
+        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
+        "e-observable-agent-workflow-memory-license",
+        "e-observable-agent-workflow-memory-pyproject-toml"
+      ],
+      "symptom_group": "memory-context",
+      "query_aliases": {
+        "en": [
+          "dependency withdrawal invalidates workflow memory",
+          "procedural memory revalidation"
+        ],
+        "ja": [
+          "依存の撤回で保存手続きが無効になった",
+          "手続き記憶を再検証したい"
+        ]
+      },
+      "related_problem_ids": [
+        "memory-governance",
+        "version-and-dependency-drift",
+        "distribution-shift"
+      ]
+    },
+    {
+      "id": "authority",
+      "question": {
+        "en": "My agent is acting with the wrong permissions",
+        "ja": "エージェントが強すぎる権限で動いている"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "tool discoverability vs permission",
+          "AI agent acting with wrong permissions",
+          "agent acting as admin",
+          "service account too privileged",
+          "agent acting on behalf of user",
+          "delegated authorization",
+          "confused deputy",
+          "subagent credential inheritance",
+          "capable vs authorized",
+          "approval vs authority",
+          "tool discovered vs tool permitted"
+        ],
+        "ja": [
+          "ツールの発見と使用許可を区別したい",
+          "エージェントが誤った権限で動く",
+          "エージェントが管理者として動いている",
+          "サービスアカウントの権限が強すぎる",
+          "エージェントが利用者を代理して操作する",
+          "委任された権限の範囲を確認したい",
+          "代理実行で権限が混同される",
+          "子エージェントに資格情報を継承してよいか",
+          "実行できることと許可されることは違う",
+          "承認と権限の違いを確認したい",
+          "見つけたツールを使ってよいとは限らない"
+        ]
+      },
+      "symptoms": {
+        "en": "My agent is acting with the wrong permissions",
+        "ja": "エージェントが強すぎる権限で動いている"
+      },
+      "symptom_group": "security",
+      "first_reads": [
+        "sw-pfg",
+        "sw-pic",
+        "sw-ccr"
+      ],
+      "required_inputs": {
+        "en": "Actor, delegated scope, issuer, expiry, action target and protected-operation manifest.",
+        "ja": "実行主体、委任範囲、発行者、期限、行為対象、保護操作の目録。"
+      },
+      "expected_outputs": {
+        "en": "Separate capability, approval, authority and action evidence under an explicit host policy.",
+        "ja": "ホスト方針の下で能力・承認・権限・行為根拠を分ける。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No OAuth provider, token exchange protocol or automatic credential inheritance. A local accepted gate cannot grant external or legal authority.",
+        "ja": "OAuth提供者、トークン交換、資格情報の自動継承は実装しない。局所ゲートの受理は外部権限・法的権限の付与ではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Deny or hand off if actor, scope, expiry or delegation cannot be established; discovery is not permission.",
+        "ja": "主体・範囲・期限・委任を確認できなければ拒否または引継ぎ。探索は許可ではない。"
+      },
+      "related_problem_ids": [
+        "tool-routing",
+        "security-boundary",
+        "incident-response"
+      ],
+      "evidence_refs": [
+        "e-collective-capability-runtime-readme-md",
+        "e-collective-capability-runtime-docs-verified-growth-md",
+        "e-collective-capability-runtime-license",
+        "e-collective-capability-runtime-pyproject-toml",
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-routing-pfg-readme-md",
+        "e-routing-pfg-docs-operations-md",
+        "e-routing-pfg-license",
+        "e-routing-pfg-pyproject-toml",
+        "e-routing-pfg-schemas-gate-request-schema-json",
+        "e-routing-pfg-tests-test-v1-1-hardening-py"
+      ]
+    },
+    {
+      "id": "security-boundary",
+      "question": {
+        "en": "Untrusted tool or RAG content is changing my agent’s behavior",
+        "ja": "ツールやRAGの内容に誘導されてエージェントが誤動作する"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "prompt injection through tools / RAG / MCP",
+          "malicious MCP server",
+          "MCP supply-chain attack",
+          "tool poisoning",
+          "dependency provenance"
+        ],
+        "ja": [
+          "ツールやRAGやMCP経由のプロンプト注入",
+          "悪意あるMCPサーバからの入力を隔離したい",
+          "MCPの供給網攻撃の信頼境界を確認したい",
+          "ツールの説明に不正な指示が混入した",
+          "依存パッケージの来歴と信頼範囲を確認したい"
+        ]
+      },
+      "symptoms": {
+        "en": "Untrusted tool or RAG content is changing my agent’s behavior",
+        "ja": "ツールやRAGの内容に誘導されてエージェントが誤動作する"
+      },
+      "symptom_group": "security",
+      "first_reads": [
+        "sw-pic",
+        "sw-atrb",
+        "sw-cmgl"
+      ],
+      "required_inputs": {
+        "en": "Untrusted inputs, origin and dependency records, authority boundary and evaluator trust assumptions.",
+        "ja": "未信頼入力、起源・依存記録、権限境界、評価器の信頼前提。"
+      },
+      "expected_outputs": {
+        "en": "Keep candidate content separate from authority and record residual contamination/evaluator risks.",
+        "ja": "候補内容と権限を分離し、汚染・評価器に残るリスクを記録する。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No prompt-injection immunity, malware scanner, MCP server attestation or supply-chain certification. Synthetic fixtures are not adversarial deployment validation.",
+        "ja": "注入攻撃への免疫、マルウェア検査、MCPサーバ認証、供給網認証は提供しない。合成事例は敵対的本番環境の検証ではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Quarantine affected evidence or memory and hand off to host security owners if the trusted base is compromised.",
+        "ja": "信頼基盤が侵害された場合は関連根拠・記憶を隔離し、ホストのセキュリティ管理者へ引き継ぐ。"
+      },
+      "related_problem_ids": [
+        "authority",
+        "incident-response",
+        "evaluation-integrity"
+      ],
+      "evidence_refs": [
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-routing-cmgl-readme-md",
+        "e-routing-cmgl-docs-proof-obligations-md",
+        "e-routing-cmgl-license",
+        "e-routing-cmgl-pyproject-toml",
+        "e-routing-cmgl-docs-current-view-md",
+        "e-routing-cmgl-tests-test-compression-py",
+        "e-routing-atrb-readme-md",
+        "e-routing-atrb-docs-v02-experiment-md",
+        "e-routing-atrb-license",
+        "e-routing-atrb-pyproject-toml",
+        "e-routing-atrb-docs-v02-results-md",
+        "e-routing-atrb-tests-test-v02-positive-controls-py"
+      ]
+    },
+    {
+      "id": "cost-and-capacity",
+      "question": {
+        "en": "Why is my AI agent so expensive?",
+        "ja": "エージェントのトークン消費やAPI費用が大きすぎる"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "AI agent too expensive",
+          "token usage too high",
+          "agent burns tokens",
+          "multi-agent cost explosion",
+          "verification cost",
+          "LLM agent budget",
+          "cost attribution by task/agent/tool",
+          "cheaper model but higher total workflow cost",
+          "tokens vs money vs human review time",
+          "why is my agent using so many tokens?"
+        ],
+        "ja": [
+          "AIエージェントの費用が高すぎる",
+          "トークン使用量が多すぎる",
+          "エージェントがトークンを浪費する",
+          "複数エージェントで費用が急増する",
+          "検証にかかる費用を測りたい",
+          "LLMエージェントの予算を管理したい",
+          "課題やエージェントやツール別に費用を把握したい",
+          "安いモデルにしたのに作業全体の費用が増えた",
+          "トークンと金額と人間のレビュー時間を分けたい",
+          "なぜエージェントはこんなにトークンを使うのか"
+        ]
+      },
+      "symptoms": {
+        "en": "Why is my AI agent so expensive?",
+        "ja": "エージェントのトークン消費やAPI費用が大きすぎる"
+      },
+      "symptom_group": "cost",
+      "first_reads": [
+        "sw-cait",
+        "sw-vek",
+        "paper-bit"
+      ],
+      "required_inputs": {
+        "en": "Per-task/agent/tool event costs, retries, tokens, money, review time and shared capacity in declared units.",
+        "ja": "課題・エージェント・ツール別の事象費用、再試行、トークン、金額、レビュー時間、単位付き共有容量。"
+      },
+      "expected_outputs": {
+        "en": "Separate typed costs and resource bottlenecks before comparing a cheaper model or more agents.",
+        "ja": "安いモデルや追加エージェントを比較する前に、型付き費用と資源の律速を分ける。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No automatic billing integration, token-to-money conversion or guaranteed savings. Missing telemetry remains unknown; model capacity is not measured service.",
+        "ja": "課金連携、トークンから金額への自動換算、節約保証はない。欠測は未知のままで、モデル容量は測定サービスではない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Stop or reallocate when budgets or verification capacity are exhausted; do not collapse incompatible units.",
+        "ja": "予算や検証容量を使い切ったら停止・再配分し、異なる単位を混ぜない。"
+      },
+      "related_problem_ids": [
+        "retry-recovery",
+        "verification-backlog",
+        "context-management"
+      ],
+      "evidence_refs": [
+        "e-paper-bit",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml",
         "e-cait-certificate-schema-readme-md",
         "e-cait-certificate-schema-docs-accounting-md",
         "e-cait-certificate-schema-license",
-        "e-cait-certificate-schema-pyproject-toml",
-        "e-paper-growth"
+        "e-cait-certificate-schema-pyproject-toml"
+      ]
+    },
+    {
+      "id": "verification-backlog",
+      "question": {
+        "en": "What should change when verification becomes the bottleneck?",
+        "ja": "検証が律速となるとき何を変更すべきか？"
+      },
+      "queries": [
+        "verification backlog"
+      ],
+      "symptoms": {
+        "en": "Verification is backing up faster than it can finish",
+        "ja": "検証待ちが増えて処理が追いつかない"
+      },
+      "first_reads": [
+        "paper-vet",
+        "sw-vek",
+        "paper-sqot"
+      ],
+      "required_inputs": {
+        "en": "Checks, integer slots, registered service eligibility and typed budgets.",
+        "ja": "検査、整数スロット、登録サービス適格性、型付き予算。"
+      },
+      "expected_outputs": {
+        "en": "Finite schedule, backlog, repair and unfinished-work report.",
+        "ja": "有限日程、滞留、修復、未完了作業の報告。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Observed service requested from synthetic local profile, unsupported preemption, or finite bounds exceeded.",
+        "ja": "ホスト方針に従う助言経路。合成局所プロファイルに観測サービスを要求、未対応の中断、有限上限の超過。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Observed service requested from synthetic local profile, unsupported preemption, or finite bounds exceeded.",
+        "ja": "合成局所プロファイルに観測サービスを要求、未対応の中断、有限上限の超過。"
+      },
+      "evidence_refs": [
+        "e-paper-vet",
+        "e-paper-sqot",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml"
+      ],
+      "symptom_group": "cost",
+      "query_aliases": {
+        "en": [
+          "queue backlog",
+          "verification bottleneck"
+        ],
+        "ja": [
+          "検証キューがたまっている",
+          "検証がボトルネックになっている"
+        ]
+      },
+      "related_problem_ids": [
+        "cost-and-capacity",
+        "human-oversight",
+        "production-reliability"
+      ]
+    },
+    {
+      "id": "human-oversight",
+      "question": {
+        "en": "Too many approval requests are blocking useful work",
+        "ja": "承認依頼が多すぎて作業が進まない"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "too many approval requests",
+          "human-in-the-loop bottleneck",
+          "approval fatigue",
+          "automation bias",
+          "when should agent escalate",
+          "selective human review",
+          "human review capacity",
+          "approval is not verification"
+        ],
+        "ja": [
+          "承認依頼が多すぎる",
+          "人間の確認待ちがボトルネックになる",
+          "承認疲れで確認が雑になる",
+          "自動化された判断を信じすぎてしまう",
+          "どの時点で人間へ引き継ぐべきか",
+          "必要な案件だけ人間がレビューしたい",
+          "人間のレビュー容量を見積もりたい",
+          "承認したことと検証したことを区別したい"
+        ]
+      },
+      "symptoms": {
+        "en": "Too many approval requests are blocking useful work",
+        "ja": "承認依頼が多すぎて作業が進まない"
+      },
+      "symptom_group": "cost",
+      "first_reads": [
+        "sw-oversight",
+        "paper-sqot",
+        "sw-vek"
+      ],
+      "required_inputs": {
+        "en": "Review capacity, interrupt costs, risk scope, escalation rules and detection evidence.",
+        "ja": "レビュー容量、割込み費用、リスク範囲、引継ぎ規則、検出根拠。"
+      },
+      "expected_outputs": {
+        "en": "Compare workflow-level review load with explicit claim margins and remaining obligations.",
+        "ja": "作業全体のレビュー負荷を、主張の余裕と残る義務を明示して比較する。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Scripted costly review is not a human-subject study of fatigue or automation bias. Approval does not verify truth; no universal escalation threshold.",
+        "ja": "高費用レビューのスクリプトは疲労・自動化バイアスの人間実験ではない。承認は真偽検証でなく、普遍的な引継ぎ閾値もない。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Escalate unresolved high-impact obligations; if reviewers are unavailable, retain uncertainty rather than invent approval.",
+        "ja": "影響の大きい未解決義務を引き継ぎ、担当者不在なら承認を捏造せず不確実性を保つ。"
+      },
+      "related_problem_ids": [
+        "authority",
+        "verification-backlog",
+        "cost-and-capacity"
+      ],
+      "evidence_refs": [
+        "e-paper-sqot",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml",
+        "e-routing-oversight-readme-md",
+        "e-routing-oversight-experiment-manifest-yaml",
+        "e-routing-oversight-licence",
+        "e-routing-oversight-report-workflow-oversight-report-md",
+        "e-routing-oversight-src-oversight-poc-channels-py"
       ]
     },
     {
@@ -1151,8 +2383,8 @@
         "choose information gathering before capability investment"
       ],
       "symptoms": {
-        "en": "choose information gathering before capability investment",
-        "ja": "どの観測が次の投資判断を変えるか？"
+        "en": "Which check is worth doing before investing more?",
+        "ja": "追加投入する前にどの観測を行うべきか"
       },
       "first_reads": [
         "paper-growth",
@@ -1177,95 +2409,283 @@
       },
       "evidence_refs": [
         "e-paper-growth",
+        "e-paper-consequence",
         "e-collective-phase-control-fabric-readme-md",
         "e-collective-phase-control-fabric-docs-epistemic-growth-control-md",
         "e-collective-phase-control-fabric-license",
-        "e-collective-phase-control-fabric-pyproject-toml",
-        "e-paper-consequence"
+        "e-collective-phase-control-fabric-pyproject-toml"
+      ],
+      "symptom_group": "cost",
+      "query_aliases": {
+        "en": [],
+        "ja": []
+      },
+      "related_problem_ids": [
+        "cost-and-capacity",
+        "verification-backlog",
+        "verification-funding"
       ]
     },
     {
-      "id": "memory",
+      "id": "verification-funding",
       "question": {
-        "en": "How can a procedure remain reusable after failure or withdrawal?",
-        "ja": "失敗や撤回後も手続きをどう管理するか？"
+        "en": "Who funds verification and carries residual risk?",
+        "ja": "検証費用と残余リスクを誰が負担するか？"
       },
       "queries": [
-        "remember a verified procedure"
+        "identify who pays for verification"
       ],
       "symptoms": {
-        "en": "remember a verified procedure",
-        "ja": "失敗や撤回後も手続きをどう管理するか？"
+        "en": "Who pays for verification and unresolved risk?",
+        "ja": "検証費用と残るリスクを誰が負担するか"
       },
       "first_reads": [
-        "sw-oawm",
-        "paper-workflow-library",
-        "paper-continuity"
+        "paper-conversion",
+        "paper-bit",
+        "sw-vek"
       ],
       "required_inputs": {
-        "en": "Observable events, checker receipts, workflow contract and explicit promotion.",
-        "ja": "観測事象、検査受領証、手続き契約、明示的昇格。"
+        "en": "Declared payer, authority, resource ownership and accountability arrangement.",
+        "ja": "費用負担者、権限、資源所有、責任分担の宣言。"
       },
       "expected_outputs": {
-        "en": "Version-bound admissibility with contradictions and tombstones retained.",
-        "ja": "矛盾と廃止履歴を保持したバージョン付き許容性。"
+        "en": "Contextual funding questions and typed costs, not a generated market.",
+        "ja": "制度的な費用負担の論点と型付き費用。市場を生成するものではない。"
       },
       "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. Missing promotion receipt; a factual truth or automatic ALT promotion request.",
-        "ja": "ホスト方針に従う助言経路。昇格受領証の欠落、事実の真実性またはALT自動昇格の要求。"
+        "en": "Advisory route under host policy. Missing institutional agreement; a package cannot assign legal authority or liability.",
+        "ja": "ホスト方針に従う助言経路。制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。"
       },
       "stop_or_handoff_conditions": {
-        "en": "Missing promotion receipt; a factual truth or automatic ALT promotion request.",
-        "ja": "昇格受領証の欠落、事実の真実性またはALT自動昇格の要求。"
+        "en": "Missing institutional agreement; a package cannot assign legal authority or liability.",
+        "ja": "制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。"
       },
       "evidence_refs": [
-        "e-observable-agent-workflow-memory-readme-md",
-        "e-observable-agent-workflow-memory-docs-theory-mapping-md",
-        "e-observable-agent-workflow-memory-license",
-        "e-observable-agent-workflow-memory-pyproject-toml",
-        "e-paper-workflow-library",
-        "e-paper-continuity"
+        "e-paper-bit",
+        "e-paper-conversion",
+        "e-verification-ecology-kit-readme-md",
+        "e-verification-ecology-kit-docs-capacity-md",
+        "e-verification-ecology-kit-license",
+        "e-verification-ecology-kit-pyproject-toml"
+      ],
+      "symptom_group": "cost",
+      "query_aliases": {
+        "en": [],
+        "ja": []
+      },
+      "related_problem_ids": [
+        "human-oversight",
+        "cost-and-capacity",
+        "authority"
       ]
     },
     {
-      "id": "adaptation",
+      "id": "evaluation-integrity",
       "question": {
-        "en": "How can local workflow policy change under protected limits?",
-        "ja": "保護すべき限界の下で局所方策をどう変更するか？"
+        "en": "Benchmark scores improved but production got worse",
+        "ja": "ベンチマークは改善したのに本番性能が悪化した"
       },
-      "queries": [
-        "change local workflow policy"
-      ],
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "compromised evaluator / trusted base",
+          "benchmark improved but production got worse",
+          "Goodhart's law",
+          "reward hacking",
+          "agent cheating tests",
+          "evaluator tampering",
+          "LLM judge bias",
+          "benchmark contamination",
+          "search-time contamination",
+          "evaluation overfitting",
+          "test oracle problem",
+          "synthetic evaluation vs real-world evidence"
+        ],
+        "ja": [
+          "評価器や信頼基盤が侵害された",
+          "指標を最適化したら目的から外れた",
+          "報酬ハッキングを疑っている",
+          "エージェントがテストをすり抜ける",
+          "評価器を改変してスコアを上げている",
+          "LLM評価器の偏りを確認したい",
+          "ベンチマークの汚染を疑っている",
+          "探索中に評価用情報が混入した",
+          "評価に過適合している",
+          "テストの正解判定自体が信用できない",
+          "合成評価と実世界の根拠を区別したい"
+        ]
+      },
       "symptoms": {
-        "en": "change local workflow policy",
-        "ja": "保護すべき限界の下で局所方策をどう変更するか？"
+        "en": "Benchmark scores improved but production got worse",
+        "ja": "ベンチマークは改善したのに本番性能が悪化した"
       },
+      "symptom_group": "evaluation",
       "first_reads": [
-        "sw-oasg",
-        "paper-conversion"
+        "sw-loscr",
+        "sw-atrb",
+        "sw-audit"
       ],
       "required_inputs": {
-        "en": "Ledger prefixes, candidate policy, trial workload and rollback evidence.",
-        "ja": "台帳接頭辞、方策候補、試行課題、復旧根拠。"
+        "en": "Held-out cases, evaluator/version provenance, adaptation history, failures and deployment comparison protocol.",
+        "ja": "保留事例、評価器・版の来歴、適応履歴、失敗、運用比較プロトコル。"
       },
       "expected_outputs": {
-        "en": "Shadow/lease trial result and gated promotion or rejection.",
-        "ja": "shadow・lease試行結果と条件付き昇格・棄却。"
+        "en": "Distinguish fixture conformance, observed benchmark results and externally valid claims.",
+        "ja": "事例適合、観測したベンチマーク結果、外的妥当性を持つ主張を分ける。"
       },
       "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. Protected regression, incomplete receipts or host execution authority missing.",
-        "ja": "ホスト方針に従う助言経路。保護対象の劣化、受領証不足、実行権限の欠如。"
+        "en": "No universal contamination detector, unbiased LLM judge or solution to the test-oracle problem. Shared fixture development and repeated peeking limit inference.",
+        "ja": "汎用汚染検出、偏りのないLLM評価器、テストオラクル問題の解決ではない。事例と検査器の共同開発や反復参照は推論を制限する。"
       },
       "stop_or_handoff_conditions": {
-        "en": "Protected regression, incomplete receipts or host execution authority missing.",
-        "ja": "保護対象の劣化、受領証不足、実行権限の欠如。"
+        "en": "With evaluator tampering, leaked tests or undeclared selection, quarantine the strong claim and obtain independent evidence.",
+        "ja": "評価器改変、試験漏洩、未宣言の選択があれば強い主張を隔離し、独立した根拠を得る。"
+      },
+      "related_problem_ids": [
+        "adaptive-research",
+        "production-reliability",
+        "evidence-support"
+      ],
+      "evidence_refs": [
+        "e-audit-closed-ai-scientist-readme-md",
+        "e-audit-closed-ai-scientist-license",
+        "e-audit-closed-ai-scientist-pyproject-toml",
+        "e-loscr-readme-md",
+        "e-loscr-docs-theory-map-md",
+        "e-loscr-license",
+        "e-loscr-pyproject-toml",
+        "e-routing-atrb-readme-md",
+        "e-routing-atrb-docs-v02-experiment-md",
+        "e-routing-atrb-license",
+        "e-routing-atrb-pyproject-toml",
+        "e-routing-atrb-docs-v02-results-md",
+        "e-routing-atrb-tests-test-v02-positive-controls-py"
+      ]
+    },
+    {
+      "id": "evidence-support",
+      "question": {
+        "en": "The citation does not support the agent’s claim",
+        "ja": "AIの引用が主張の根拠になっていない"
+      },
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "AI citation does not support claim",
+          "fake / weak citation support",
+          "claim-to-evidence mapping",
+          "evidence provenance",
+          "signed record does not prove truth"
+        ],
+        "ja": [
+          "引用が捏造または根拠として弱い",
+          "主張と根拠の対応を確認したい",
+          "根拠の来歴をたどりたい",
+          "署名済み記録でも真実とは限らない"
+        ]
+      },
+      "symptoms": {
+        "en": "The citation does not support the agent’s claim",
+        "ja": "AIの引用が主張の根拠になっていない"
+      },
+      "symptom_group": "evaluation",
+      "first_reads": [
+        "sw-fost",
+        "sw-pic",
+        "paper-operational-claims"
+      ],
+      "required_inputs": {
+        "en": "Specific claim, original source, scope, time, provenance and missing-support records.",
+        "ja": "具体的主張、原典、範囲、時点、来歴、支持不足の記録。"
+      },
+      "expected_outputs": {
+        "en": "Claim-to-support obligations with explicit unavailable evidence and bounded finality.",
+        "ja": "不在の根拠と有限の最終性を明示した、主張と支持根拠の義務。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "No automatic factual truth or entailment oracle. A signature/hash binds a record, not its truth; generated is not verified and verified is not reusable.",
+        "ja": "事実の真偽・含意を自動判定するオラクルではない。署名・ハッシュは記録を結び付けても真実を証明しない。生成・検証・再利用は別。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "If source support cannot be established, narrow or withhold the claim and retain unknowns; timeout is not checked negative.",
+        "ja": "原典の支持を確かめられなければ主張を限定・保留し未知を残す。タイムアウトは検査済み否定ではない。"
+      },
+      "related_problem_ids": [
+        "obligations",
+        "completion-and-outcome",
+        "evaluation-integrity"
+      ],
+      "evidence_refs": [
+        "e-paper-operational-claims",
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml",
+        "e-routing-fost-readme-md",
+        "e-routing-fost-docs-json-contract-md",
+        "e-routing-fost-license",
+        "e-routing-fost-pyproject-toml",
+        "e-routing-fost-docs-limitations-md",
+        "e-routing-fost-tests-test-v20-strict-finality-py"
+      ]
+    },
+    {
+      "id": "obligations",
+      "question": {
+        "en": "What remains to be checked before an output is reusable?",
+        "ja": "出力を再利用する前に何を検証する必要があるか？"
+      },
+      "queries": [
+        "preserve unknown output obligations"
+      ],
+      "symptoms": {
+        "en": "Generated output still has unchecked obligations",
+        "ja": "生成した出力に未確認事項が残っている"
+      },
+      "first_reads": [
+        "sw-pic",
+        "paper-ecpt",
+        "paper-operational-claims"
+      ],
+      "required_inputs": {
+        "en": "Output, declared schema, evidence and known/unknown measurements.",
+        "ja": "出力、宣言スキーマ、根拠、既知・未知の測定。"
+      },
+      "expected_outputs": {
+        "en": "Residual-preserving packet and bounded next checks.",
+        "ja": "残余を保持したパケットと有限の次検査。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing source evidence or requested execution outside authority.",
+        "ja": "ホスト方針に従う助言経路。元根拠の不足または権限外の実行要求。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing source evidence or requested execution outside authority.",
+        "ja": "元根拠の不足または権限外の実行要求。"
       },
       "evidence_refs": [
-        "e-oasg-readme-md",
-        "e-oasg-docs-architecture-md",
-        "e-oasg-license",
-        "e-oasg-pyproject-toml",
-        "e-paper-conversion"
+        "e-paper-ecpt",
+        "e-paper-operational-claims",
+        "e-percolation-inversion-compiler-readme-md",
+        "e-percolation-inversion-compiler-docs-resource-matched-measurement-md",
+        "e-percolation-inversion-compiler-license",
+        "e-percolation-inversion-compiler-pyproject-toml"
+      ],
+      "symptom_group": "evaluation",
+      "query_aliases": {
+        "en": [
+          "generated != verified",
+          "unknown must remain unknown"
+        ],
+        "ja": [
+          "生成されたことは検証済みを意味しない",
+          "不明なものを不明のまま残したい"
+        ]
+      },
+      "related_problem_ids": [
+        "completion-and-outcome",
+        "evidence-support",
+        "reuse"
       ]
     },
     {
@@ -1278,8 +2698,8 @@
         "adaptive hypothesis testing"
       ],
       "symptoms": {
-        "en": "adaptive hypothesis testing",
-        "ja": "適応的研究で有効な根拠をどう保持するか？"
+        "en": "Repeated hypothesis tests may overstate the evidence",
+        "ja": "仮説検定を繰り返して根拠を過大評価していないか"
       },
       "first_reads": [
         "paper-audit-closed",
@@ -1311,6 +2731,24 @@
         "e-loscr-docs-theory-map-md",
         "e-loscr-license",
         "e-loscr-pyproject-toml"
+      ],
+      "symptom_group": "evaluation",
+      "query_aliases": {
+        "en": [
+          "optional stopping",
+          "hypothesis shopping",
+          "adaptive AI research validity"
+        ],
+        "ja": [
+          "有利な時点で検定を打ち切ってよいか",
+          "都合のよい仮説を選び続けている",
+          "適応的AI研究の妥当性を確認したい"
+        ]
+      },
+      "related_problem_ids": [
+        "evaluation-integrity",
+        "evidence-support",
+        "information"
       ]
     },
     {
@@ -1323,8 +2761,8 @@
         "forecast when ASI will arrive"
       ],
       "symptoms": {
-        "en": "forecast when ASI will arrive",
-        "ja": "この索引からASI到来日を予測できるか？"
+        "en": "Can these results predict when ASI will arrive?",
+        "ja": "この結果からASIの到来時期を予測できるか"
       },
       "first_reads": [
         "sw-simulator",
@@ -1354,103 +2792,241 @@
         "e-asi-proxy-phase-skill-readme-md",
         "e-asi-proxy-phase-skill-license",
         "e-asi-proxy-phase-skill-pyproject-toml"
+      ],
+      "symptom_group": "evaluation",
+      "query_aliases": {
+        "en": [],
+        "ja": []
+      },
+      "related_problem_ids": [
+        "accounting",
+        "production-reliability",
+        "evaluation-integrity"
       ]
     },
     {
-      "id": "interchange",
+      "id": "coordinate",
       "question": {
-        "en": "Which integration has actually been checked at these versions?",
-        "ja": "このバージョンの連携で何が実際に検査されたか？"
+        "en": "How should multiple agents divide work and preserve disagreements?",
+        "ja": "複数エージェントの作業分担と意見の相違をどう保持するか？"
       },
       "queries": [
-        "integrate ALT with CCR automatically"
+        "coordinate leased multi-agent work"
       ],
       "symptoms": {
-        "en": "integrate ALT with CCR automatically",
-        "ja": "このバージョンの連携で何が実際に検査されたか？"
+        "en": "More agents create duplicate work or overwrite each other",
+        "ja": "エージェントを増やすと重複作業や上書きが起きる"
       },
       "first_reads": [
-        "sw-alt",
         "sw-ccr",
-        "sw-vek",
-        "sw-cait"
+        "paper-split-inference",
+        "paper-collective-phase"
       ],
       "required_inputs": {
-        "en": "Exact producer/consumer versions, fixture schema hashes, scope and host admission rules.",
-        "ja": "生成元・受け手の厳密な版、スキーマハッシュ、範囲、ホスト受入規則。"
+        "en": "Mission scope, independent proposals, leases, common budget.",
+        "ja": "任務範囲、独立提案、リース、共通予算。"
       },
       "expected_outputs": {
-        "en": "Version-scoped mappings plus explicit missing custom sidecar admission.",
-        "ja": "版に限定した写像と、未実装の補助記録受入処理。"
+        "en": "Leased work and unresolved disagreements with traceable evidence.",
+        "ja": "追跡可能な根拠を伴うリース作業と未解決の意見差。"
       },
       "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.",
-        "ja": "ホスト方針に従う助言経路。ホスト受入未実装、新しい版、未対応ライフサイクル、推移的互換性の推測。"
+        "en": "Advisory route under host policy. No authority to dispatch; missing independent verification or expired lease.",
+        "ja": "ホスト方針に従う助言経路。実行権限の欠如、独立検証の不足、リース期限切れ。"
       },
       "stop_or_handoff_conditions": {
-        "en": "No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.",
-        "ja": "ホスト受入未実装、新しい版、未対応ライフサイクル、推移的互換性の推測。"
+        "en": "No authority to dispatch; missing independent verification or expired lease.",
+        "ja": "実行権限の欠如、独立検証の不足、リース期限切れ。"
       },
       "evidence_refs": [
-        "e-alt-foundry-kernel-readme-md",
-        "e-alt-foundry-kernel-docs-collective-reuse-md",
-        "e-alt-foundry-kernel-license",
-        "e-alt-foundry-kernel-pyproject-toml",
+        "e-paper-collective-phase",
+        "e-paper-split-inference",
         "e-collective-capability-runtime-readme-md",
         "e-collective-capability-runtime-docs-verified-growth-md",
         "e-collective-capability-runtime-license",
-        "e-collective-capability-runtime-pyproject-toml",
-        "e-verification-ecology-kit-readme-md",
-        "e-verification-ecology-kit-docs-capacity-md",
-        "e-verification-ecology-kit-license",
-        "e-verification-ecology-kit-pyproject-toml",
+        "e-collective-capability-runtime-pyproject-toml"
+      ],
+      "symptom_group": "coordination",
+      "query_aliases": {
+        "en": [
+          "subagent duplication",
+          "more agents make system slower",
+          "agents overwrite each other's changes",
+          "Git / merge conflict between coding agents",
+          "duplicate work",
+          "correlated errors",
+          "multi-agent agreement without evidence",
+          "work leasing",
+          "disagreement preservation"
+        ],
+        "ja": [
+          "子エージェントが同じ作業をしている",
+          "エージェントを増やすと遅くなる",
+          "エージェント同士が変更を上書きする",
+          "コーディングエージェント間でGitのマージが競合する",
+          "複数エージェントの作業が重複する",
+          "エージェント同士が同じ間違いをする",
+          "根拠なしにエージェントが同意している",
+          "エージェントの作業をリースで管理したい",
+          "エージェントの意見の相違を消さずに保持したい"
+        ]
+      },
+      "related_problem_ids": [
+        "cost-and-capacity",
+        "authority",
+        "evaluation-integrity"
+      ]
+    },
+    {
+      "id": "accounting",
+      "question": {
+        "en": "Did the system accumulate capability, or just copy artifacts?",
+        "ja": "能力を蓄積したのか、成果物をコピーしただけか？"
+      },
+      "queries": [
+        "did copied artifacts increase capability"
+      ],
+      "symptoms": {
+        "en": "Did copied artifacts actually add capability?",
+        "ja": "成果物のコピーで本当に能力が増えたのか"
+      },
+      "first_reads": [
+        "paper-cait",
+        "sw-cait",
+        "paper-growth"
+      ],
+      "required_inputs": {
+        "en": "Unique source history, origins, lifecycle events, typed costs and stock/service units.",
+        "ja": "一意な元履歴、起源、ライフサイクル、型付き費用、蓄積・サービス単位。"
+      },
+      "expected_outputs": {
+        "en": "Separate unique stock, service, external input and unresolved attribution.",
+        "ja": "一意な蓄積、サービス、外部投入、未解明の帰属を分離。"
+      },
+      "prerequisite_or_unsupported_conditions": {
+        "en": "Advisory route under host policy. Missing original journal, valuation witness, compatible units or causal design.",
+        "ja": "ホスト方針に従う助言経路。元履歴、評価証拠、単位整合、因果設計が欠ける場合。"
+      },
+      "stop_or_handoff_conditions": {
+        "en": "Missing original journal, valuation witness, compatible units or causal design.",
+        "ja": "元履歴、評価証拠、単位整合、因果設計が欠ける場合。"
+      },
+      "evidence_refs": [
+        "e-paper-growth",
+        "e-paper-cait",
         "e-cait-certificate-schema-readme-md",
         "e-cait-certificate-schema-docs-accounting-md",
         "e-cait-certificate-schema-license",
         "e-cait-certificate-schema-pyproject-toml"
+      ],
+      "symptom_group": "coordination",
+      "query_aliases": {
+        "en": [
+          "copied artifact vs new capability",
+          "credit assignment",
+          "which agent contributed"
+        ],
+        "ja": [
+          "成果物のコピーと新しい能力を区別したい",
+          "エージェントの貢献を割り当てたい",
+          "どのエージェントが貢献したのか"
+        ]
+      },
+      "related_problem_ids": [
+        "reuse",
+        "cost-and-capacity",
+        "coordinate"
       ]
     },
     {
-      "id": "verification-funding",
+      "id": "incident-response",
       "question": {
-        "en": "Who funds verification and carries residual risk?",
-        "ja": "検証費用と残余リスクを誰が負担するか？"
+        "en": "I need to stop, contain and recover an agent incident",
+        "ja": "誤動作したエージェントを停止・隔離・復旧したい"
       },
-      "queries": [
-        "identify who pays for verification"
-      ],
+      "queries": [],
+      "query_aliases": {
+        "en": [
+          "how to stop an AI agent",
+          "AI agent kill switch",
+          "rogue agent",
+          "agent keeps acting after stop",
+          "rollback agent action",
+          "circuit breaker",
+          "disable dangerous tool",
+          "revoke agent credentials",
+          "child agent still running",
+          "compensation vs rollback",
+          "uncertain side effect",
+          "post-incident reconciliation",
+          "quarantine compromised memory/workflow",
+          "restart criteria after incident"
+        ],
+        "ja": [
+          "AIエージェントを停止したい",
+          "エージェントの緊急停止を設計したい",
+          "暴走したエージェントを封じ込めたい",
+          "停止後もエージェントが操作を続ける",
+          "エージェントの操作を巻き戻したい",
+          "危険な呼出しを遮断したい",
+          "危険なツールを無効にしたい",
+          "エージェントの資格情報を失効させたい",
+          "子エージェントがまだ動いている",
+          "補償処理と巻戻しの違いを確認したい",
+          "副作用が起きたかわからない",
+          "事故後に実行状態を照合したい",
+          "汚染された記憶や手続きを隔離したい",
+          "事故後の再開条件を決めたい"
+        ]
+      },
       "symptoms": {
-        "en": "identify who pays for verification",
-        "ja": "検証費用と残余リスクを誰が負担するか？"
+        "en": "I need to stop, contain and recover an agent incident",
+        "ja": "誤動作したエージェントを停止・隔離・復旧したい"
       },
+      "symptom_group": "incident",
       "first_reads": [
-        "paper-conversion",
-        "paper-bit",
-        "sw-vek"
+        "sw-pfg",
+        "sw-ccr",
+        "sw-cmgl"
       ],
       "required_inputs": {
-        "en": "Declared payer, authority, resource ownership and accountability arrangement.",
-        "ja": "費用負担者、権限、資源所有、責任分担の宣言。"
+        "en": "Action/child-task inventory, dispatch history, credentials, affected memory and independent recovery evidence.",
+        "ja": "行為・子課題一覧、送信履歴、資格情報、影響した記憶、独立した復旧根拠。"
       },
       "expected_outputs": {
-        "en": "Contextual funding questions and typed costs, not a generated market.",
-        "ja": "制度的な費用負担の論点と型付き費用。市場を生成するものではない。"
+        "en": "A host-owned containment checklist: stop new dispatch, retain unknown effects, quarantine and reconcile before restart.",
+        "ja": "ホスト責任の封じ込め確認：新規送信停止、作用不明の保持、隔離、再開前の照合。"
       },
       "prerequisite_or_unsupported_conditions": {
-        "en": "Advisory route under host policy. Missing institutional agreement; a package cannot assign legal authority or liability.",
-        "ja": "ホスト方針に従う助言経路。制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。"
+        "en": "No global kill switch, automatic credential revocation or rollback of arbitrary external actions. Compensation is another action, not erasure of history.",
+        "ja": "全体停止スイッチ、資格情報の自動失効、任意の外部行為の巻戻しは提供しない。補償は別の行為であり履歴消去ではない。"
       },
       "stop_or_handoff_conditions": {
-        "en": "Missing institutional agreement; a package cannot assign legal authority or liability.",
-        "ja": "制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。"
+        "en": "Escalate to the host/actuator owner; do not restart until child work, authority and unresolved effects are reconciled.",
+        "ja": "ホスト・実行先の管理者へ引き継ぎ、子作業・権限・未解決作用を照合するまで再開しない。"
       },
+      "related_problem_ids": [
+        "authority",
+        "retry-recovery",
+        "memory-governance"
+      ],
       "evidence_refs": [
-        "e-paper-conversion",
-        "e-paper-bit",
-        "e-verification-ecology-kit-readme-md",
-        "e-verification-ecology-kit-docs-capacity-md",
-        "e-verification-ecology-kit-license",
-        "e-verification-ecology-kit-pyproject-toml"
+        "e-collective-capability-runtime-readme-md",
+        "e-collective-capability-runtime-docs-verified-growth-md",
+        "e-collective-capability-runtime-license",
+        "e-collective-capability-runtime-pyproject-toml",
+        "e-routing-cmgl-readme-md",
+        "e-routing-cmgl-docs-proof-obligations-md",
+        "e-routing-cmgl-license",
+        "e-routing-cmgl-pyproject-toml",
+        "e-routing-cmgl-docs-current-view-md",
+        "e-routing-cmgl-tests-test-compression-py",
+        "e-routing-pfg-readme-md",
+        "e-routing-pfg-docs-operations-md",
+        "e-routing-pfg-license",
+        "e-routing-pfg-pyproject-toml",
+        "e-routing-pfg-schemas-gate-request-schema-json",
+        "e-routing-pfg-tests-test-v1-1-hardening-py"
       ]
     }
   ],
@@ -2080,8 +3656,8 @@
         "ja": "集合知研究・OSS索引"
       },
       "text": {
-        "en": "A problem-first map of K. Takahashi’s research and public software. This is a finite, editorially selected map of the site corpus, not a world survey, endorsement or deployed intelligence system. Source observation and editorial review: 2026-09-21.",
-        "ja": "K. Takahashiの研究と公開ソフトウェアを問題からたどる索引。サイト内コーパスを有限に選定した編集物で、世界全体の総説、推薦、稼働知能システムではない。ソース確認・編集レビュー: 2026-09-21。"
+        "en": "A problem-first map of K. Takahashi’s research and OSS for AI-agent reliability, memory, verification and multi-agent coordination. Find a symptom, then inspect the evidence and limits. This curated corpus map is not a world survey.",
+        "ja": "AIエージェントの信頼性・記憶・検証・複数エージェントの協調を、困りごとからK. Takahashiの研究とOSSへたどる索引。根拠と限界を確認するための選定地図であり、世界全体の総説ではありません。"
       }
     },
     {
@@ -2093,6 +3669,17 @@
       "text": {
         "en": "Readers can start with the growth paper. Implementers can choose a problem below, then inspect the pinned contract and negative cases before installation. Machine consumers can retrieve the JSON registry, schema and complete Markdown; routing is advisory under their host policy.",
         "ja": "研究者は成長論文から、実装者は以下の問題から入り、導入前に固定版契約と否定例を確認できる。機械利用者はJSONレジストリ、スキーマ、完全なMarkdownを取得できる。経路はホスト方針に従う助言。"
+      }
+    },
+    {
+      "id": "find-by-symptom",
+      "heading": {
+        "en": "Find by symptom",
+        "ja": "症状・困りごとから探す"
+      },
+      "text": {
+        "en": "Choose the symptom closest to your problem. Each route offers first reads, necessary evidence and stop conditions—not permission to act.",
+        "ja": "近い症状を選ぶと、最初に読む資料・必要な根拠・停止条件へ進めます。経路は行為の許可ではありません。"
       }
     },
     {
@@ -2225,6 +3812,121 @@
       "text": {
         "en": "Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.",
         "ja": "書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。"
+      }
+    }
+  ],
+  "symptom_groups": [
+    {
+      "id": "reliability",
+      "label": {
+        "en": "Reliability & completion",
+        "ja": "完了・信頼性"
+      }
+    },
+    {
+      "id": "tools",
+      "label": {
+        "en": "Tools, APIs & reuse",
+        "ja": "ツール・API・再利用"
+      }
+    },
+    {
+      "id": "memory-context",
+      "label": {
+        "en": "Memory & context",
+        "ja": "記憶・文脈"
+      }
+    },
+    {
+      "id": "security",
+      "label": {
+        "en": "Security & authority",
+        "ja": "安全性・権限"
+      }
+    },
+    {
+      "id": "cost",
+      "label": {
+        "en": "Cost & review capacity",
+        "ja": "費用・レビュー容量"
+      }
+    },
+    {
+      "id": "evaluation",
+      "label": {
+        "en": "Evaluation & evidence",
+        "ja": "評価・根拠"
+      }
+    },
+    {
+      "id": "coordination",
+      "label": {
+        "en": "Multi-agent coordination",
+        "ja": "複数エージェントの協調"
+      }
+    },
+    {
+      "id": "incident",
+      "label": {
+        "en": "Incident response",
+        "ja": "停止・事故対応"
+      }
+    }
+  ],
+  "unresolved_intents": [
+    {
+      "id": "e-06",
+      "query": {
+        "en": "OAuth for agents",
+        "ja": "エージェント向けOAuthの実装方法"
+      },
+      "reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      }
+    },
+    {
+      "id": "e-08",
+      "query": {
+        "en": "MCP token passthrough",
+        "ja": "MCPのトークンパススルー対策"
+      },
+      "reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      }
+    },
+    {
+      "id": "f-07",
+      "query": {
+        "en": "package hallucination",
+        "ja": "存在しないパッケージ名をAIが提案した"
+      },
+      "reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      }
+    },
+    {
+      "id": "f-08",
+      "query": {
+        "en": "slopsquatting",
+        "ja": "生成されたパッケージ名の先取り攻撃を検出したい"
+      },
+      "reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
+      }
+    },
+    {
+      "id": "f-09",
+      "query": {
+        "en": "AI coding agent installed wrong package",
+        "ja": "AIが間違ったパッケージをインストールした"
+      },
+      "reason": {
+        "en": "No source-reviewed implementation of this specific identity protocol or package-name security mechanism. Consult the relevant host/provider documentation.",
+        "ja": "この識別プロトコルまたはパッケージ名の防御機構について、ソース確認済みの実装はない。該当ホスト・提供者の資料を参照。"
       }
     }
   ]

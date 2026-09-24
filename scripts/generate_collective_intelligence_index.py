@@ -14,6 +14,7 @@ from html import escape
 import json
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 
@@ -64,8 +65,9 @@ def build_model():
     for entry in c['resources']:
         r = copy.deepcopy(entry)
         r.update(ownership='takahashi', alternate_names=[], language=['en'],
-                 source_state='reviewed_snapshot', last_reviewed_at=e['reviewed_at'],
-                 unsupported_claims=c['sections'][10]['text'])
+                 source_state='reviewed_snapshot',
+                 last_reviewed_at=max(x['observed_at'] for x in e['evidence'] if x['id'] in r['evidence_refs']),
+                 unsupported_claims=next(s['text'] for s in c['sections'] if s['id'] == 'boundaries'))
         r['related_resource_ids'] = sorted({x['target'] if x['source'] == r['id'] else x['source']
                                             for x in c['relations'] if r['id'] in (x['source'], x['target'])})
         if r['kind'] == 'paper':
@@ -87,26 +89,52 @@ def build_model():
             if releases[p['name']].get('default_branch_revision') != r['software']['source_revision']:
                 r['source_state'] = 'newer_source_not_editorially_reviewed'
         resources.append(r)
-    m = {'$schema': SCHEMA, 'schema_version': '1.0', 'canonical_url': BASE + STEM + '.json',
+    problems = copy.deepcopy(c['problems'])
+    for p in problems:
+        p['relevant_resource_ids'] = p['first_reads'] + [r['id'] for r in resources
+            if p['id'] in r['problem_ids'] and r['id'] not in p['first_reads']]
+    m = {'$schema': SCHEMA, 'schema_version': '1.1', 'canonical_url': BASE + STEM + '.json',
          'modified_at': c['modified_at'], 'reviewed_at': e['reviewed_at'],
          'digest_definition': 'SHA-256 of UTF-8 JSON of the complete registry excluding content_digest; sorted keys, no insignificant spaces, unescaped Unicode, no NaN.',
          'identity': {'person': BASE + '#person', 'website': BASE + '#website', 'name': 'K. Takahashi',
                       'orcid': 'https://orcid.org/0009-0004-4273-3365'},
-         'roles': c['roles'], 'resources': resources, 'problems': c['problems'],
+         'roles': c['roles'], 'resources': resources, 'problems': problems,
+         'symptom_groups': c['symptom_groups'], 'unresolved_intents': c['unresolved_intents'],
          'relations': c['relations'], 'read_paths': c['read_paths'], 'sections': c['sections'],
          'evidence': e['evidence'], 'corpus_audit': e['corpus_audit'],
          'identity_issues': e['identity_issues'], 'scanned_counts': e['scanned_counts'],
          'agent_routing': {'authority': 'Advisory metadata under consuming host policy; no execution authority.',
-                           'query_matching': 'Exact declared query (casefold/trim), or stable problem ID; unknown query returns no route.',
+                           'query_matching': 'NFKC, casefold, curly quote folding, whitespace collapse and trailing ?/! removal; exact canonical ID, bilingual question/symptom/alias or legacy query only. No substring, fuzzy or embedding inference. Unknown or explicitly unresolved queries return no route.',
+                           'no_match': 'null; consult unresolved_intents or related problems manually; never infer execution authority, truth, settlement, production readiness or AGI/ASI detection.',
                            'problem_ids': [p['id'] for p in c['problems']]}}
     m['content_digest'] = digest(m)
     validate_model(m)
     return m
 
 
+def normalize_query(query):
+    text = unicodedata.normalize('NFKC', query).casefold().translate(str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'}))
+    return ' '.join(text.split()).rstrip('?!').rstrip()
+
+
+def problem_queries(p):
+    return [p['id'], *p['queries'], *p['question'].values(), *p['symptoms'].values(),
+            *(q for lang in ('en', 'ja') for q in p['query_aliases'][lang])]
+
+
+def query_index(model):
+    index = {}
+    for p in model['problems']:
+        for query in problem_queries(p):
+            key = normalize_query(query)
+            if not key or key in index and index[key]['id'] != p['id']:
+                raise ValueError('Empty or ambiguous query alias: ' + query)
+            index[key] = p
+    return index
+
+
 def route(model, query):
-    q = query.strip().casefold()
-    return next((p for p in model['problems'] if q == p['id'] or q in [s.casefold() for s in p['queries']]), None)
+    return query_index(model).get(normalize_query(query))
 
 
 def validate_model(m):
@@ -117,7 +145,7 @@ def validate_model(m):
         raise ValueError('Duplicate resource/evidence identity')
     if not REQUIRED_CORE <= resources.keys():
         raise ValueError('Missing required core software')
-    for group in ('relations', 'problems', 'sections', 'read_paths'):
+    for group in ('relations', 'problems', 'sections', 'read_paths', 'unresolved_intents'):
         ids = [x['id'] for x in m[group]]
         if len(ids) != len(set(ids)) or any(not re.fullmatch('[a-z0-9-]+', x) for x in ids):
             raise ValueError('Invalid or duplicate stable IDs')
@@ -131,6 +159,33 @@ def validate_model(m):
     for p in m['problems']:
         if not set(p['first_reads']) <= resources.keys() or not set(p['evidence_refs']) <= evidence.keys():
             raise ValueError('Unresolved problem reference')
+        related = p['related_problem_ids']
+        if not 2 <= len(related) <= 4 or len(set(related)) != len(related) or p['id'] in related or not set(related) <= problems:
+            raise ValueError('Invalid related problem references')
+        if not 1 <= len(p['first_reads']) <= 3 or len(set(p['first_reads'])) != len(p['first_reads']):
+            raise ValueError('First reads must contain 1–3 unique resources')
+        expected = p['first_reads'] + [r['id'] for r in m['resources'] if p['id'] in r['problem_ids'] and r['id'] not in p['first_reads']]
+        if p['relevant_resource_ids'] != expected:
+            raise ValueError('Relevant resource order/reference mismatch')
+        for field in ('question', 'symptoms', 'required_inputs', 'expected_outputs', 'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions'):
+            if any(not p[field].get(lang, '').strip() for lang in ('en', 'ja')):
+                raise ValueError('Missing bilingual problem boundary: ' + field)
+        for lang in ('en', 'ja'):
+            aliases = [normalize_query(q) for q in p['query_aliases'][lang]]
+            if len(set(aliases)) != len(aliases):
+                raise ValueError('Duplicate aliases in ' + p['id'])
+    groups = [g['id'] for g in m['symptom_groups']]
+    if len(set(groups)) != len(groups) or set(groups) != {p['symptom_group'] for p in m['problems']}:
+        raise ValueError('Symptom group mismatch')
+    reached = {rid for p in m['problems'] for rid in p['relevant_resource_ids']}
+    if reached != resources.keys():
+        raise ValueError('Selected resource is unreachable from a problem')
+    index = query_index(m)
+    unresolved = [normalize_query(q) for item in m['unresolved_intents'] for q in item['query'].values()]
+    if len(unresolved) != len(set(unresolved)) or set(unresolved) & index.keys():
+        raise ValueError('Unresolved query is duplicated or silently routed')
+    if m['agent_routing']['problem_ids'] != [p['id'] for p in m['problems']]:
+        raise ValueError('Agent route IDs differ')
     for path in m['read_paths']:
         if not set(path['resource_ids']) <= resources.keys():
             raise ValueError('Unresolved read path')
@@ -162,6 +217,10 @@ def validate_model(m):
 
 
 LABELS = {
+    'symptoms': ('Recognize this problem', 'こんなとき'),
+    'aliases': ('Other common phrasings', 'ほかの言い方'),
+    'related': ('Related problems', '関連する困りごと'),
+    'supporting': ('Further relevant resources', '関連する追加資料'),
     'limits': ('Limits / unsupported uses', '限界・未対応用途'), 'role': ('Primary editorial role', '編集上の主役割'),
     'evidence': ('Evidence', '根拠'), 'source': ('Source revision / declared version', 'ソース版・宣言バージョン'),
     'release': ('Observed GitHub release', '確認したGitHubリリース'), 'inputs': ('Inputs', '入力'),
@@ -182,7 +241,8 @@ def page_url(lang):
 
 
 def resource_fields(r, lang):
-    fields = [(label('role', lang), r['primary_role']), (label('limits', lang), r['limitations'][lang])]
+    fields = [(label('role', lang), r['primary_role']), (label('limits', lang), r['limitations'][lang]),
+              ('Source reviewed' if lang == 'en' else 'ソース確認日', r['last_reviewed_at'])]
     if r['kind'] == 'paper':
         p = r['paper']
         fields += [('DOI', p['doi']), ('Publication / 著者・発表', ', '.join(p['authors']) + ' · ' + p['date_published'][:10] + ' · ' + p['genre']),
@@ -254,12 +314,24 @@ def html(model, lang):
         sid = section['id']
         body = '<p>' + escape(section['text'][lang]) + '</p>' if section['text'][lang] else ''
         if sid == 'start-here':
-            body += '<ul>' + ''.join('<li>' + escape(p['id']) + ': ' + ' · '.join(link(page_url(lang) + '#' + rid, next(r['name'] for r in model['resources'] if r['id'] == rid)) for rid in p['resource_ids']) + '</li>' for p in model['read_paths']) + '</ul>'
+            body += '<details><summary>' + ('Reading paths for research and implementation' if lang == 'en' else '研究・実装の読書経路') + '</summary><ul>' + ''.join('<li>' + escape(p['id']) + ': ' + ' · '.join(link(page_url(lang) + '#' + rid, next(r['name'] for r in model['resources'] if r['id'] == rid)) for rid in p['resource_ids']) + '</li>' for p in model['read_paths']) + '</ul></details>'
+        if sid == 'find-by-symptom':
+            body += '<div class="symptom-grid">'
+            for group in model['symptom_groups']:
+                body += '<div class="symptom-group"><h3>' + escape(group['label'][lang]) + '</h3><ul>'
+                body += ''.join('<li>' + link(page_url(lang) + '#problem-' + p['id'], p['symptoms'][lang]) + '</li>' for p in model['problems'] if p['symptom_group'] == group['id'])
+                body += '</ul></div>'
+            body += '</div><details><summary>' + ('Specific intents not yet supported' if lang == 'en' else '具体的な対応資料を確認できていない項目') + '</summary><ul>'
+            body += ''.join('<li>' + escape(i['query'][lang]) + ' — ' + escape(i['reason'][lang]) + '</li>' for i in model['unresolved_intents']) + '</ul></details>'
         if sid == 'problems':
             for p in model['problems']:
                 body += f'<article id="problem-{p["id"]}" data-problem-id="{p["id"]}"><h3>{escape(p["question"][lang])}</h3><p>'
                 body += ' → '.join(link(page_url(lang) + '#' + rid, next(r['name'] for r in model['resources'] if r['id'] == rid)) for rid in p['first_reads']) + '</p><dl>'
-                body += ''.join('<dt>' + escape(label(k, lang)) + '</dt><dd>' + escape(p[k][lang]) + '</dd>' for k in ('required_inputs', 'expected_outputs', 'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions')) + '</dl></article>'
+                body += ''.join('<dt>' + escape(label(k, lang)) + '</dt><dd>' + escape(p[k][lang]) + '</dd>' for k in ('symptoms', 'required_inputs', 'expected_outputs', 'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions') if k != 'symptoms' or p[k][lang] != p['question'][lang]) + '</dl>'
+                if p['query_aliases'][lang]:
+                    body += '<details><summary>' + label('aliases', lang) + '</summary><ul>' + ''.join('<li>' + escape(q) + '</li>' for q in p['query_aliases'][lang]) + '</ul></details>'
+                body += '<p>' + label('supporting', lang) + ': ' + ' · '.join(link(page_url(lang) + '#' + rid, next(r['name'] for r in model['resources'] if r['id'] == rid)) for rid in p['relevant_resource_ids'] if rid not in p['first_reads']) + '</p>' if len(p['relevant_resource_ids']) > len(p['first_reads']) else ''
+                body += '<p>' + label('related', lang) + ': ' + ' · '.join(link(page_url(lang) + '#problem-' + pid, next(x['symptoms'][lang] for x in model['problems'] if x['id'] == pid)) for pid in p['related_problem_ids']) + '</p></article>'
         if sid in ('core-software', 'core-papers', 'supporting-research'):
             selected = [r for r in model['resources'] if (r['tier'] == 'supporting' if sid == 'supporting-research' else r['tier'] == 'core' and r['kind'] == ('software' if sid == 'core-software' else 'paper'))]
             for r in selected:
@@ -283,14 +355,16 @@ def html(model, lang):
     return f'''<!DOCTYPE html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(title)} | K. Takahashi</title><meta name="description" content="{escape(model['sections'][0]['text'][lang], quote=True)}">
-<meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:url" content="{page_url(lang)}">
+<meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:description" content="{escape(model['sections'][0]['text'][lang], quote=True)}"><meta property="og:url" content="{page_url(lang)}">
 <link rel="canonical" href="{page_url(lang)}"><link rel="alternate" hreflang="en" href="{page_url('en')}"><link rel="alternate" hreflang="ja" href="{page_url('ja')}">
 <link rel="alternate" type="application/json" href="{BASE + STEM}.json"><link rel="alternate" type="text/markdown" href="{BASE + STEM}{'.ja' if lang == 'ja' else ''}.md">
-<link rel="stylesheet" href="{BASE}style.css"><style>article{{border-top:1px solid #ccd8e5;padding:1rem 0;min-width:0}}.container{{box-sizing:border-box}}main,dd,a,code{{overflow-wrap:anywhere}}dd{{margin:0 0 .6rem}}dt{{font-weight:600}}.source-links{{font-size:.9rem}}a:focus-visible{{outline:3px solid #174c87;outline-offset:3px}}.index-toc{{columns:2;text-align:left}}.index-toc li{{display:block;break-inside:avoid;margin:0 0 .45rem}}@media(max-width:600px){{.container{{margin:16px 8px;padding:16px}}.index-toc{{columns:1}}h1{{font-size:1.7rem}}}}</style>
+<link rel="stylesheet" href="{BASE}style.css"><style>article{{border-top:1px solid #ccd8e5;padding:1rem 0;min-width:0}}.container{{box-sizing:border-box}}main,dd,a,code{{overflow-wrap:anywhere}}dd{{margin:0 0 .6rem}}dt{{font-weight:600}}.source-links{{font-size:.9rem}}a:focus-visible{{outline:3px solid #174c87;outline-offset:3px}}.symptom-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}}.symptom-group{{border:1px solid #ccd8e5;border-radius:.4rem;padding:1rem}}.symptom-group h3{{margin-top:0}}.symptom-group ul{{padding-left:1.2rem}}.symptom-group li{{margin-bottom:.65rem}}details{{margin:.6rem 0}}summary{{cursor:pointer;font-weight:600}}summary:focus-visible{{outline:3px solid #174c87}}.index-toc{{columns:2;text-align:left}}.index-toc li{{display:block;break-inside:avoid;margin:0 0 .45rem}}@media(max-width:600px){{.container{{margin:16px 8px;padding:16px}}.index-toc{{columns:1}}.symptom-grid{{grid-template-columns:1fr}}h1{{font-size:1.7rem}}}}</style>
 <script type="application/ld+json">{ld_text(graph(model, lang))}</script></head><body>
 <a class="skip-link" href="#main-content">{'本文へ' if lang == 'ja' else 'Skip to content'}</a>
 <header class="container"><h1>{escape(title)}</h1><nav aria-label="Primary">{link(BASE, 'Home')} · {link(BASE + 'research-map.html', 'Research Map')} · {link(BASE + 'works.html', 'Works')} · {link(BASE + 'oss.html', 'OSS')} · {link(page_url('ja' if lang == 'en' else 'en'), '日本語' if lang == 'en' else 'English')}</nav>
-<p>K. Takahashi · <time datetime="{model['reviewed_at']}">{model['reviewed_at']}</time></p><nav aria-label="Contents"><ul class="index-toc">{toc}</ul></nav></header>
+<p>{'AI-agent troubleshooting, research and evidence-bounded routes' if lang == 'en' else 'AIエージェントの困りごとから、研究と根拠をたどる'}</p>
+<p>{link(page_url(lang) + '#find-by-symptom', 'Find by symptom' if lang == 'en' else '症状から探す')} · {link(page_url(lang) + '#downloads', 'Data & downloads' if lang == 'en' else 'データ・取得形式')}</p>
+<p>K. Takahashi · {'Routing updated' if lang == 'en' else '経路更新'} <time datetime="{model['modified_at']}">{model['modified_at']}</time> · {'Source review dates are per record.' if lang == 'en' else 'ソース確認日は各記録に保持。'}</p><details><summary>{'All sections' if lang == 'en' else '全セクション'}</summary><nav aria-label="Contents"><ul class="index-toc">{toc}</ul></nav></details></header>
 <main id="main-content">{''.join(content)}</main><footer class="container">CC BY 4.0 · K. Takahashi</footer></body></html>
 '''
 
@@ -301,16 +375,27 @@ def md_text(s):
 
 def markdown(m, lang):
     # Render the same normalized cards/fields as HTML; Markdown is a plain download.
-    lines = ['# ' + m['sections'][0]['heading'][lang], '', 'K. Takahashi · ' + m['reviewed_at'], '', page_url(lang), '']
+    lines = ['# ' + m['sections'][0]['heading'][lang], '', 'K. Takahashi · ' + m['modified_at'], '', page_url(lang), '']
     for s in m['sections']:
         lines += ['## ' + s['heading'][lang], '', md_text(s['text'][lang]), '']
         if s['id'] == 'start-here':
             for p in m['read_paths']:
                 lines += [p['id'] + ': ' + ' → '.join(f'[{rid}]({page_url(lang)}#{rid})' for rid in p['resource_ids']), '']
+        if s['id'] == 'find-by-symptom':
+            for group in m['symptom_groups']:
+                lines += ['### ' + group['label'][lang], '']
+                lines += [f'- [{md_text(p["symptoms"][lang])}]({page_url(lang)}#problem-{p["id"]})' for p in m['problems'] if p['symptom_group'] == group['id']]
+                lines += ['']
+            lines += ['### ' + ('Specific intents not yet supported' if lang == 'en' else '具体的な対応資料を確認できていない項目'), '']
+            lines += ['- ' + md_text(i['query'][lang]) + ' — ' + md_text(i['reason'][lang]) for i in m['unresolved_intents']] + ['']
         if s['id'] == 'problems':
             for p in m['problems']:
-                lines += ['### ' + p['question'][lang] + ' (' + p['id'] + ')', '', ' → '.join(f'[{rid}]({page_url(lang)}#{rid})' for rid in p['first_reads']), '']
-                lines += [label(k, lang) + ': ' + md_text(p[k][lang]) + '\n' for k in ('required_inputs', 'expected_outputs', 'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions')]
+                lines += ['### ' + md_text(p['question'][lang]) + ' (' + p['id'] + ')', '', ' → '.join(f'[{rid}]({page_url(lang)}#{rid})' for rid in p['first_reads']), '']
+                lines += [label(k, lang) + ': ' + md_text(p[k][lang]) + '\n' for k in ('symptoms', 'required_inputs', 'expected_outputs', 'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions') if k != 'symptoms' or p[k][lang] != p['question'][lang]]
+                if p['query_aliases'][lang]:
+                    lines += [label('aliases', lang) + ':', ''] + ['- ' + md_text(q) for q in p['query_aliases'][lang]] + ['']
+                lines += [label('supporting', lang) + ': ' + ' · '.join(f'[{rid}]({page_url(lang)}#{rid})' for rid in p['relevant_resource_ids'] if rid not in p['first_reads']), ''] if len(p['relevant_resource_ids']) > len(p['first_reads']) else []
+                lines += [label('related', lang) + ': ' + ' · '.join(f'[{md_text(next(x["symptoms"][lang] for x in m["problems"] if x["id"] == pid))}]({page_url(lang)}#problem-{pid})' for pid in p['related_problem_ids']), '']
         if s['id'] in ('core-software', 'core-papers', 'supporting-research'):
             for r in m['resources']:
                 target = 'supporting-research' if r['tier'] == 'supporting' else ('core-papers' if r['kind'] == 'paper' else 'core-software')

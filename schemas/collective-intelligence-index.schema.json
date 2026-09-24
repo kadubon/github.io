@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
-  "title": "Collective Intelligence Research and OSS Index v1",
+  "title": "Collective Intelligence Research and OSS Index v1.1",
   "description": "Local registry contract. Unknown package versions/licenses are null with explicit status or limitations. A missing release is not evidence of no source distribution. Relation directions and evidence origins are distinct; no native integration was executed in this website review. IDs are stable, editorial roles are local classifications, and all arrays are bounded.",
   "type": "object",
   "properties": {
@@ -9,7 +9,7 @@
       "const": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json"
     },
     "schema_version": {
-      "const": "1.0"
+      "const": "1.1"
     },
     "canonical_url": {
       "type": "string",
@@ -254,8 +254,7 @@
       "type": "object",
       "properties": {
         "authority": {
-          "type": "string",
-          "maxLength": 20000
+          "const": "Advisory metadata under consuming host policy; no execution authority."
         },
         "query_matching": {
           "type": "string",
@@ -270,14 +269,71 @@
           },
           "minItems": 1,
           "maxItems": 100
+        },
+        "no_match": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "required": [
         "authority",
         "query_matching",
-        "problem_ids"
+        "problem_ids",
+        "no_match"
       ],
       "additionalProperties": false
+    },
+    "symptom_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "maxLength": 150
+          },
+          "label": {
+            "$ref": "#/$defs/bilingual"
+          }
+        },
+        "required": [
+          "id",
+          "label"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 6,
+      "maxItems": 10,
+      "uniqueItems": true
+    },
+    "unresolved_intents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "maxLength": 150
+          },
+          "query": {
+            "$ref": "#/$defs/bilingual"
+          },
+          "reason": {
+            "$ref": "#/$defs/bilingual"
+          }
+        },
+        "required": [
+          "id",
+          "query",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 100,
+      "uniqueItems": true
     }
   },
   "required": [
@@ -299,7 +355,9 @@
     "corpus_audit",
     "identity_issues",
     "scanned_counts",
-    "agent_routing"
+    "agent_routing",
+    "symptom_groups",
+    "unresolved_intents"
   ],
   "additionalProperties": false,
   "$defs": {
@@ -1162,11 +1220,13 @@
           "properties": {
             "en": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             },
             "ja": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             }
           },
           "required": [
@@ -1181,7 +1241,7 @@
             "type": "string",
             "maxLength": 20000
           },
-          "minItems": 1,
+          "minItems": 0,
           "maxItems": 30
         },
         "symptoms": {
@@ -1189,11 +1249,13 @@
           "properties": {
             "en": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             },
             "ja": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             }
           },
           "required": [
@@ -1210,18 +1272,20 @@
             "maxLength": 150
           },
           "minItems": 1,
-          "maxItems": 20
+          "maxItems": 3
         },
         "required_inputs": {
           "type": "object",
           "properties": {
             "en": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             },
             "ja": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             }
           },
           "required": [
@@ -1235,11 +1299,13 @@
           "properties": {
             "en": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             },
             "ja": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             }
           },
           "required": [
@@ -1253,11 +1319,13 @@
           "properties": {
             "en": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             },
             "ja": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             }
           },
           "required": [
@@ -1271,11 +1339,13 @@
           "properties": {
             "en": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             },
             "ja": {
               "type": "string",
-              "maxLength": 20000
+              "maxLength": 20000,
+              "minLength": 1
             }
           },
           "required": [
@@ -1293,6 +1363,65 @@
           },
           "minItems": 1,
           "maxItems": 100
+        },
+        "query_aliases": {
+          "type": "object",
+          "properties": {
+            "en": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "minItems": 0,
+              "maxItems": 80,
+              "uniqueItems": true
+            },
+            "ja": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "minItems": 0,
+              "maxItems": 80,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "en",
+            "ja"
+          ],
+          "additionalProperties": false
+        },
+        "symptom_group": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "maxLength": 150
+        },
+        "related_problem_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "maxLength": 150
+          },
+          "minItems": 2,
+          "maxItems": 4,
+          "uniqueItems": true
+        },
+        "relevant_resource_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "maxLength": 150
+          },
+          "minItems": 1,
+          "maxItems": 100,
+          "uniqueItems": true
         }
       },
       "required": [
@@ -1305,7 +1434,11 @@
         "expected_outputs",
         "prerequisite_or_unsupported_conditions",
         "stop_or_handoff_conditions",
-        "evidence_refs"
+        "evidence_refs",
+        "query_aliases",
+        "symptom_group",
+        "related_problem_ids",
+        "relevant_resource_ids"
       ],
       "additionalProperties": false
     },

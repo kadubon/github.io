@@ -593,6 +593,13 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/agent-trust-residual-benchmark"
+      },
+      "github_license_spdx": "Apache-2.0",
+      "license_observation": {
+        "url": "https://github.com/kadubon/agent-trust-residual-benchmark/blob/eb21fda8ed7bfad9dc33becf2ffcc63285249495/LICENSE",
+        "source_revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
       }
     },
     {
@@ -622,7 +629,7 @@
         "retrieval-filtering",
         "typer"
       ],
-      "license_spdx": "NOASSERTION",
+      "license_spdx": "Apache-2.0",
       "default_branch": "main",
       "created_at": "2026-05-13T15:06:58Z",
       "updated_at": "2026-08-24T02:58:13Z",
@@ -644,6 +651,13 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/certified-memory-governance-layer"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/LICENSE",
+        "source_revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
       }
     },
     {
@@ -733,7 +747,7 @@
         "staleness",
         "telemetry"
       ],
-      "license_spdx": "NOASSERTION",
+      "license_spdx": "Apache-2.0",
       "default_branch": "main",
       "created_at": "2026-05-01T02:54:54Z",
       "updated_at": "2026-05-01T03:41:25Z",
@@ -755,6 +769,13 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/LICENSE",
+        "source_revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
       }
     },
     {
@@ -988,7 +1009,7 @@
         "provenance",
         "responsible-ai"
       ],
-      "license_spdx": "NOASSERTION",
+      "license_spdx": "Apache-2.0",
       "default_branch": "main",
       "created_at": "2026-06-29T00:37:57Z",
       "updated_at": "2026-07-02T08:03:43Z",
@@ -1010,6 +1031,13 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/fost-agent-ledger"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/LICENSE",
+        "source_revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
       }
     },
     {
@@ -1056,6 +1084,13 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/problem-frame-gate"
+      },
+      "github_license_spdx": "Apache-2.0",
+      "license_observation": {
+        "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/LICENSE",
+        "source_revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
       }
     },
     {
@@ -2281,7 +2316,7 @@
         "socio-technical-systems",
         "workflow-evaluation"
       ],
-      "license_spdx": "NOASSERTION",
+      "license_spdx": "Apache-2.0",
       "default_branch": "master",
       "created_at": "2026-03-12T10:40:49Z",
       "updated_at": "2026-03-12T10:50:43Z",
@@ -2298,6 +2333,13 @@
         "refresh_status": "current",
         "release_status": "no_published_github_release",
         "source_url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/LICENCE",
+        "source_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
       }
     },
     {

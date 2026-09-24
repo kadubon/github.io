@@ -15,6 +15,7 @@ import generate_collective_intelligence_index as gen
 import generate_agent_catalogs as catalogs
 import generate_paper_pages as papers
 import validate_collective_intelligence_index as validation
+import audit_collective_intelligence_coverage as coverage
 from jsonschema import Draft202012Validator
 
 
@@ -193,7 +194,84 @@ class IndexTests(unittest.TestCase):
         self.assertEqual(len(audit), sum(self.model['scanned_counts'].values()))
         self.assertEqual(len({a['source_catalog_id'] for a in audit}), len(audit))
         self.assertEqual(sum(r['kind'] == 'paper' for r in self.model['resources']), 19)
-        self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 12)
+        self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 18)
+
+    def test_bilingual_seed_coverage(self):
+        rows = coverage.audit(self.model)
+        self.assertEqual({r['family'] for r in rows}, set('ABCDEFGHIJKLMNO'))
+        self.assertEqual(len(rows), 168)
+        self.assertTrue(all(r['matches_expectation'] for r in rows))
+        self.assertEqual(sum(r['actual']['en'] is None for r in rows), 5)
+        self.assertTrue(all(r['actual']['en'] == r['actual']['ja'] for r in rows))
+
+    def test_query_normalization_and_precision(self):
+        for query in ['  AGENT KEEPS\nRETRYING THE SAME MCP TOOL?! ', 'ａｇｅｎｔ keeps retrying the same MCP tool', '同じMCPツールの再試行が止まらない？']:
+            self.assertEqual(gen.route(self.model, query)['id'], 'retry-recovery')
+        for query in ['do not use the retry-recovery route', 'not memory deletion', 'OAuth for agents', 'MCP token passthrough', 'slopsquatting', 'agent retry banana']:
+            self.assertIsNone(gen.route(self.model, query))
+
+    def test_duplicate_aliases_fail_instead_of_first_match(self):
+        for fn in [lambda m: m['problems'][0]['query_aliases']['en'].extend(['same alias', ' SAME ALIAS?!']),
+                   lambda m: m['problems'][0]['query_aliases']['en'].append(m['problems'][1]['question']['en']),
+                   lambda m: m['problems'][0]['query_aliases']['en'].append('OAuth for agents')]:
+            with self.assertRaises(ValueError): gen.validate_model(self.mutate(fn))
+
+    def test_related_problem_graph_is_bounded_and_nonrecursive(self):
+        for p in self.model['problems']:
+            self.assertTrue(2 <= len(p['related_problem_ids']) <= 4)
+        m = copy.deepcopy(self.model)
+        a, b = m['problems'][:2]
+        a['related_problem_ids'] = [b['id'], 'memory']
+        b['related_problem_ids'] = [a['id'], 'memory']
+        m.pop('content_digest'); m['content_digest'] = gen.digest(m)
+        gen.validate_model(m)
+        self.assertIn('#problem-' + b['id'], gen.html(m, 'en'))
+        with self.assertRaises(ValueError):
+            gen.validate_model(self.mutate(lambda m: m['problems'][0]['related_problem_ids'].append('missing')))
+
+    def test_selected_resources_are_reachable(self):
+        reached = {rid for p in self.model['problems'] for rid in p['relevant_resource_ids']}
+        self.assertEqual(reached, {r['id'] for r in self.model['resources']})
+        for p in self.model['problems']:
+            self.assertTrue(1 <= len(p['first_reads']) <= 3)
+        with self.assertRaises(ValueError):
+            gen.validate_model(self.mutate(lambda m: m['problems'][0]['relevant_resource_ids'].append('missing')))
+
+    def test_boundaries_cannot_disappear(self):
+        for key in ['question', 'symptoms', 'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions']:
+            for lang in ('en', 'ja'):
+                with self.subTest(key=key, lang=lang), self.assertRaises(ValueError):
+                    gen.validate_model(self.mutate(lambda m: m['problems'][0][key].update({lang: ''})))
+        schema = Draft202012Validator(gen.read('schemas/collective-intelligence-index.schema.json'))
+        self.assertFalse(schema.is_valid(self.mutate(lambda m: m['agent_routing'].update(authority='Permission to execute tools'))))
+
+    def test_review_dates_are_scoped(self):
+        for r in self.model['resources']:
+            if r['id'] in {'sw-cmgl', 'sw-memoryflow', 'sw-pfg', 'sw-fost', 'sw-atrb', 'sw-oversight'}:
+                self.assertEqual(r['last_reviewed_at'], '2026-09-24')
+            else:
+                self.assertEqual(r['last_reviewed_at'], '2026-09-21')
+        self.assertTrue(all(r['checked_at'] == '2026-09-21' for r in self.model['relations']))
+
+    def test_coverage_report_offline_determinism_and_drift(self):
+        with patch('socket.socket', side_effect=AssertionError('network forbidden')):
+            text, rows = coverage.report(self.model)
+            self.assertEqual(text, coverage.report(self.model)[0])
+            self.assertEqual((ROOT / coverage.REPORT).read_bytes(), text.encode('utf-8'))
+        fixture = gen.read(coverage.SEEDS)
+        fixture['seeds'][0]['query']['en'] = 'a query with no declared alias'
+        self.assertFalse(coverage.audit(self.model, fixture)[0]['matches_expectation'])
+
+    def test_symptoms_static_anchors_and_no_keyword_markup(self):
+        for lang in ('en', 'ja'):
+            page = gen.html(self.model, lang); doc = validation.Document(page)
+            self.assertEqual(doc.problems, [p['id'] for p in self.model['problems']])
+            self.assertEqual(len(doc.ids), len(set(doc.ids)))
+            self.assertIn('find-by-symptom', doc.ids)
+            self.assertNotIn('name="keywords"', page)
+            self.assertNotIn('FAQPage', page)
+            for p in self.model['problems']:
+                self.assertIn(gen.page_url(lang) + '#problem-' + p['id'], doc.links)
 
 
 if __name__ == '__main__':

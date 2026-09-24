@@ -106,3 +106,9 @@ Use `python scripts/generate_agent_catalogs.py --offline` for deterministic
 catalogue regeneration. GitHub release observations are separate from source
 versions and refreshed explicitly by `scripts/refresh_oss_release_snapshots.py`.
 `.nojekyll` preserves the plain Markdown downloads on the existing static Pages site.
+
+
+The index now provides bilingual symptom routing and an offline
+[coverage audit](docs/collective-intelligence-coverage.md). Check its generated
+report with `python scripts/audit_collective_intelligence_coverage.py --check`.
+Routing remains advisory; explicit unresolved intents are retained.

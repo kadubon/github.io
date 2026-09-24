@@ -13,7 +13,7 @@ title/author/DOI list. The bibliography is generated from selected scholarly
 records only. OASG, CCR, PIC and CPCF software DOI records remain software.
 
 The initial screening covers 233 research records and 54 public repository
-metadata records. Selection contains 19 papers (8 core, 11 supporting) and 12
+metadata records. Selection contains 19 papers (8 core, 11 supporting) and initially 12
 repositories (6 core, 6 supporting). The JSON registry's `corpus_audit` records
 every screened identity, depth, decision and reason. Keyword matches outside
 the selected full-text review remain unresolved rather than rejected on age.
@@ -32,7 +32,7 @@ as unresolved. Distinct CGT supplements must not be invented as separate DOI
 records or collapsed into a single claimed implementation. No exact Boundary
 Exchange title/DOI was resolved in the scanned catalogue.
 
-The original website license remains CC BY 4.0. The 12 inspected OSS licenses
+The original website license remains CC BY 4.0. The 18 inspected OSS licenses
 are Apache-2.0. The Audit-Closed repository separately licenses its bundled
 protocol paper CC BY 4.0. Repository metadata for other projects is not
 overwritten with a blanket license assertion.
@@ -47,6 +47,7 @@ python scripts/generate_collective_intelligence_index.py
 python scripts/generate_collective_intelligence_index.py --check
 python scripts/validate_collective_intelligence_index.py
 python scripts/validate_paper_pages.py
+python scripts/audit_collective_intelligence_coverage.py --check
 python -m unittest discover -s tests -v
 ```
 
@@ -152,3 +153,52 @@ Engineering references: [Schema.org SoftwareSourceCode](https://schema.org/Softw
 [Google AI feature guidance](https://developers.google.com/search/docs/appearance/ai-features),
 [robots location](https://developers.google.com/crawling/docs/robots-txt/create-robots-txt),
 and the optional [llms.txt proposal](https://llmstxt.org/).
+
+## Symptom routing (schema 1.1, 2026-09-24)
+
+The current selection has 19 papers and 18 OSS resources. Six additional
+supporting repositories received a bounded source review on 2026-09-24;
+[the generated coverage report](collective-intelligence-coverage.md) records
+exact revisions, declared source versions, selection reasons and limitations.
+The earlier evidence dates remain unchanged. `last_reviewed_at` is derived
+per resource from its cited evidence; a routing edit does not renew source review.
+License observation dates likewise come from the cited license evidence.
+No additional paper or manually maintained bibliography was introduced.
+
+The existing 12 problem IDs remain stable. Schema 1.1 adds bilingual
+`query_aliases`, `symptom_group`, `related_problem_ids`, derived
+`relevant_resource_ids`, root `symptom_groups` and `unresolved_intents`.
+Consumers pinned to the 1.0 schema must update their schema before accepting
+1.1 records. There are currently 27 routes in eight symptom groups, each with
+1–3 first reads, 2–4 related problems, inputs, outputs, unsupported conditions
+and stop/handoff conditions. Related links can form cycles; they are not an
+execution graph and the router never recursively expands them.
+
+`route(model, query)` normalizes NFKC, case, curly quotes, whitespace and trailing
+question/exclamation marks, then matches an exact ID, legacy query, bilingual
+question, symptom or declared alias. It performs no fuzzy or substring inference.
+Unmatched queries return `None` (JSON null). Ambiguous cross-route aliases are
+errors. Neither matches nor related links confer authority, establish truth,
+settlement, interoperability, production readiness or AGI/ASI detection.
+
+Operational vocabulary belongs in `data/collective-intelligence-curation.json`.
+The A–O acceptance fixture in `data/collective-intelligence-coverage-seeds.json`
+contains 168 bilingual seed pairs and frozen measurements against the recorded
+baseline commit. It is a diagnostic, not a second operational routing table.
+After intentional vocabulary/fixture changes, regenerate the report with:
+
+```text
+python scripts/audit_collective_intelligence_coverage.py --write
+python scripts/audit_collective_intelligence_coverage.py --check
+```
+
+Both commands are offline and deterministic. The current result is 163 matches
+and five explicit gaps per language: OAuth for agents, MCP token passthrough,
+package hallucination, slopsquatting, and installation of the wrong package.
+Do not fill these gaps by implying that an adjacent evidence ledger implements
+OAuth or package-supply-chain defenses. Search intent coverage does not measure
+ranking, general language understanding, crawler adoption or empirical acceleration.
+
+For UI review, inspect both languages at desktop and narrow widths, including
+symptom links, related links, native disclosures, long source revisions and
+downloads. Essential content is HTML/Markdown; no JavaScript is required.
