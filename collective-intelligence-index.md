@@ -746,11 +746,11 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 3b4702454f732c7a0a9f30d87483384dc8a281eb / 1.8.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: newer_source_not_editorially_reviewed
 
-Observed GitHub release: v1.8.0 · 2026-09-12T23:16:29Z
+Observed GitHub release: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -772,10 +772,16 @@ Source-inspected interface (not executed): ccr agent explain --json — Inspect 
 
 - [Repository](https://github.com/kadubon/collective-capability-runtime)
 - [Pinned interface schema](https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/schemas/task.schema.json)
-- [Observed release](https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.8.0)
-- [collective_capability_runtime-1.8.0-py3-none-any.whl](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/collective_capability_runtime-1.8.0-py3-none-any.whl)
-- [collective_capability_runtime-1.8.0.tar.gz](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/collective_capability_runtime-1.8.0.tar.gz)
-- [SHA256SUMS](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/SHA256SUMS)
+- [Observed release](https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0)
+- [ccr-1.9.0-artifact-verification.json](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-artifact-verification.json)
+- [ccr-1.9.0-attestation-verification.json](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-attestation-verification.json)
+- [ccr-1.9.0-completion-report.md](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-completion-report.md)
+- [ccr-1.9.0-public-offline-verification.json](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-public-offline-verification.json)
+- [ccr-1.9.0-public-sdist-offline-verification.json](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-public-sdist-offline-verification.json)
+- [ccr-public-offline.py](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-public-offline.py)
+- [collective_capability_runtime-1.9.0-py3-none-any.whl](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/collective_capability_runtime-1.9.0-py3-none-any.whl)
+- [collective_capability_runtime-1.9.0.tar.gz](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/collective_capability_runtime-1.9.0.tar.gz)
+- [SHA256SUMS](https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/SHA256SUMS)
 - [Agent entry: agent-manifest.json](https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/agent-manifest.json)
 - [Agent entry: SKILL.md](https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/.agents/skills/collective-capability-runtime/SKILL.md)
 - [e-collective-capability-runtime-readme-md](https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/README.md)
@@ -799,7 +805,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -851,7 +857,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -899,7 +905,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -949,7 +955,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -996,7 +1002,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1432,11 +1438,11 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 414299d4d15b5de434f5fb1ccbb4ba17df9155ff / 0.1.0b0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1472,11 +1478,11 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 7593f74b5d6a4701865dc97b079c3e725c4fd7ee / 1.1.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: newer_source_not_editorially_reviewed
 
-Observed GitHub release: v1.1.0 · 2026-05-10T08:47:02Z
+Observed GitHub release: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1495,7 +1501,17 @@ Installation guidance: Follow the pinned README and observed release assets; no 
 Source-inspected interface (not executed): oasg --help — Inspect public interface; not executed by this index review. Ref: 7593f74b5d6a4701865dc97b079c3e725c4fd7ee; effects: no_external_network; cwd: Reviewed checkout or installed environment; see linked README.
 
 - [Repository](https://github.com/kadubon/oasg)
-- [Observed release](https://github.com/kadubon/oasg/releases/tag/v1.1.0)
+- [Observed release](https://github.com/kadubon/oasg/releases/tag/v1.2.0)
+- [coverage-gates.json](https://github.com/kadubon/oasg/releases/download/v1.2.0/coverage-gates.json)
+- [dependency-audit.json](https://github.com/kadubon/oasg/releases/download/v1.2.0/dependency-audit.json)
+- [manifest.json](https://github.com/kadubon/oasg/releases/download/v1.2.0/manifest.json)
+- [native-requirements.txt](https://github.com/kadubon/oasg/releases/download/v1.2.0/native-requirements.txt)
+- [oasg-1.2.0-py3-none-any.whl](https://github.com/kadubon/oasg/releases/download/v1.2.0/oasg-1.2.0-py3-none-any.whl)
+- [oasg-1.2.0.tar.gz](https://github.com/kadubon/oasg/releases/download/v1.2.0/oasg-1.2.0.tar.gz)
+- [public-verification.json](https://github.com/kadubon/oasg/releases/download/v1.2.0/public-verification.json)
+- [qualification.json](https://github.com/kadubon/oasg/releases/download/v1.2.0/qualification.json)
+- [SHA256SUMS](https://github.com/kadubon/oasg/releases/download/v1.2.0/SHA256SUMS)
+- [source-scan.json](https://github.com/kadubon/oasg/releases/download/v1.2.0/source-scan.json)
 - [e-oasg-readme-md](https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/README.md)
 - [Pinned contract](https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/docs/architecture.md)
 - [Apache-2.0 license](https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/LICENSE)
@@ -1517,7 +1533,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1558,7 +1574,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1599,7 +1615,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1642,7 +1658,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1683,7 +1699,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1724,7 +1740,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1765,7 +1781,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1806,7 +1822,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1847,7 +1863,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 
@@ -1890,7 +1906,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-09-21T08:58:00+00:00 · current
+Release observation / リリース確認: 2026-09-24T01:42:41+00:00 · current
 
 License: Apache-2.0
 

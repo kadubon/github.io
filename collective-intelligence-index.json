@@ -1310,7 +1310,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -1400,18 +1400,24 @@
           }
         ],
         "release_observation": {
-          "default_branch_revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+          "default_branch_revision": "dd6bf2defbbec9ce192b05da7ae2ccbd3b261b4d",
           "latest_release": {
             "assets": [
-              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/collective_capability_runtime-1.8.0-py3-none-any.whl",
-              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/collective_capability_runtime-1.8.0.tar.gz",
-              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.8.0/SHA256SUMS"
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-artifact-verification.json",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-attestation-verification.json",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-completion-report.md",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-public-offline-verification.json",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-public-sdist-offline-verification.json",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-public-offline.py",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/collective_capability_runtime-1.9.0-py3-none-any.whl",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/collective_capability_runtime-1.9.0.tar.gz",
+              "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/SHA256SUMS"
             ],
-            "published_at": "2026-09-12T23:16:29Z",
-            "tag": "v1.8.0",
-            "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.8.0"
+            "published_at": "2026-09-21T15:26:31Z",
+            "tag": "v1.9.0",
+            "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1569,7 +1575,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1723,7 +1729,7 @@
             "tag": "v1.3.0",
             "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1876,7 +1882,7 @@
             "tag": "v0.5.0",
             "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2024,7 +2030,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2179,7 +2185,7 @@
             "tag": "v1.0.1",
             "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2233,7 +2239,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2309,9 +2315,9 @@
         "related_paper": "paper-workflow-library",
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+          "default_branch_revision": "af9da7e396d8694ce3c8d1affce27cfd7a5fcfdb",
           "latest_release": null,
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -2362,7 +2368,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2435,14 +2441,25 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "7593f74b5d6a4701865dc97b079c3e725c4fd7ee",
+          "default_branch_revision": "f3bee90f2ed8b2dba9b9a96ce485375295760036",
           "latest_release": {
-            "assets": [],
-            "published_at": "2026-05-10T08:47:02Z",
-            "tag": "v1.1.0",
-            "url": "https://github.com/kadubon/oasg/releases/tag/v1.1.0"
+            "assets": [
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/coverage-gates.json",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/dependency-audit.json",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/manifest.json",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/native-requirements.txt",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/oasg-1.2.0-py3-none-any.whl",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/oasg-1.2.0.tar.gz",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/public-verification.json",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/qualification.json",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/SHA256SUMS",
+              "https://github.com/kadubon/oasg/releases/download/v1.2.0/source-scan.json"
+            ],
+            "published_at": "2026-09-21T22:02:04Z",
+            "tag": "v1.2.0",
+            "url": "https://github.com/kadubon/oasg/releases/tag/v1.2.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2577,7 +2594,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2713,7 +2730,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2847,7 +2864,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2959,7 +2976,7 @@
             "tag": "v1.1.1",
             "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3074,7 +3091,7 @@
             "tag": "v1.1.2",
             "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3186,7 +3203,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3301,7 +3318,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3415,7 +3432,7 @@
             "tag": "v2.0.0",
             "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3531,7 +3548,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3637,7 +3654,7 @@
         "release_observation": {
           "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
           "latest_release": null,
-          "observed_at": "2026-09-21T08:58:00+00:00",
+          "observed_at": "2026-09-24T01:42:41+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -10172,5 +10189,5 @@
       "incident-response"
     ]
   },
-  "content_digest": "81a415071eda626db4d8d0546a7da18312c57c1c98249ad7a6ffa1df8b19131b"
+  "content_digest": "331d68af7dbbf29007689980a8c779241ed5a9d0d2d217c0c792888cd45b8bcb"
 }
