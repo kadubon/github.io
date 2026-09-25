@@ -2,7 +2,7 @@
   "$schema": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
   "schema_version": "1.1",
   "canonical_url": "https://kadubon.github.io/github.io/collective-intelligence-index.json",
-  "modified_at": "2026-09-24",
+  "modified_at": "2026-09-26",
   "reviewed_at": "2026-09-21",
   "digest_definition": "SHA-256 of UTF-8 JSON of the complete registry excluding content_digest; sorted keys, no insignificant spaces, unescaped Unicode, no NaN.",
   "identity": {
@@ -1400,7 +1400,7 @@
           }
         ],
         "release_observation": {
-          "default_branch_revision": "dd6bf2defbbec9ce192b05da7ae2ccbd3b261b4d",
+          "default_branch_revision": "d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a",
           "latest_release": {
             "assets": [
               "https://github.com/kadubon/collective-capability-runtime/releases/download/v1.9.0/ccr-1.9.0-artifact-verification.json",
@@ -1417,7 +1417,7 @@
             "tag": "v1.9.0",
             "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1575,7 +1575,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1729,7 +1729,7 @@
             "tag": "v1.3.0",
             "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1782,7 +1782,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -1869,7 +1869,7 @@
           }
         ],
         "release_observation": {
-          "default_branch_revision": "e0296486bb568fdeeda449dada3bc67753ddfe7f",
+          "default_branch_revision": "2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b",
           "latest_release": {
             "assets": [
               "https://github.com/kadubon/alt-foundry-kernel/releases/download/v0.5.0/alt_foundry_kernel-0.5.0-py3-none-any.whl",
@@ -1882,7 +1882,7 @@
             "tag": "v0.5.0",
             "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1935,7 +1935,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2019,7 +2019,7 @@
           }
         ],
         "release_observation": {
-          "default_branch_revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+          "default_branch_revision": "6b3fcc410c3fb43756e89b9127c5ed0191b3949d",
           "latest_release": {
             "assets": [
               "https://github.com/kadubon/cait-certificate-schema/releases/download/v0.2.0/cait_certificate_schema-0.2.0-py3-none-any.whl",
@@ -2030,7 +2030,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2185,7 +2185,7 @@
             "tag": "v1.0.1",
             "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2315,9 +2315,9 @@
         "related_paper": "paper-workflow-library",
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "af9da7e396d8694ce3c8d1affce27cfd7a5fcfdb",
+          "default_branch_revision": "dddaea42073fc9629122cdb798f547c5d6a116e9",
           "latest_release": null,
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -2459,7 +2459,7 @@
             "tag": "v1.2.0",
             "url": "https://github.com/kadubon/oasg/releases/tag/v1.2.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2594,7 +2594,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2648,7 +2648,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2723,14 +2723,14 @@
         "related_paper": "paper-loscr",
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "334307b59a4870b90f6162705c793bb5615a555a",
+          "default_branch_revision": "a4c45677e9d9ba1c97b7cfd108efca88275cc6a5",
           "latest_release": {
             "assets": [],
             "published_at": "2026-04-29T05:30:28Z",
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2864,7 +2864,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2976,7 +2976,7 @@
             "tag": "v1.1.1",
             "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3091,7 +3091,7 @@
             "tag": "v1.1.2",
             "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3144,7 +3144,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-24",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3196,14 +3196,14 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+          "default_branch_revision": "cd3fddad5656045f9e1d5350af65d6c0bda9ba23",
           "latest_release": {
             "assets": [],
             "published_at": "2026-05-01T03:15:40Z",
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3318,7 +3318,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3373,7 +3373,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-24",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3425,14 +3425,14 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+          "default_branch_revision": "5fbdc2a9851b27c5529ed332dfcb9cbf07e027de",
           "latest_release": {
             "assets": [],
             "published_at": "2026-07-02T08:04:35Z",
             "tag": "v2.0.0",
             "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3486,7 +3486,7 @@
       "language": [
         "en"
       ],
-      "source_state": "reviewed_snapshot",
+      "source_state": "newer_source_not_editorially_reviewed",
       "last_reviewed_at": "2026-09-24",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3538,7 +3538,7 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "eb21fda8ed7bfad9dc33becf2ffcc63285249495",
+          "default_branch_revision": "a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2",
           "latest_release": {
             "assets": [
               "https://github.com/kadubon/agent-trust-residual-benchmark/releases/download/v0.2.0/agent_trust_residual_benchmark-0.2.0-py3-none-any.whl",
@@ -3548,7 +3548,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3654,7 +3654,7 @@
         "release_observation": {
           "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
           "latest_release": null,
-          "observed_at": "2026-09-24T01:42:41+00:00",
+          "observed_at": "2026-09-25T15:23:46+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -3667,6 +3667,150 @@
         "when_not_to_use": {
           "en": "Twelve synthetic tasks, one logged run per actual model, and scripted costly review do not measure human approval fatigue or establish production readiness. Positive comparative oversight claims remain fail-closed in the reported setup.",
           "ja": "合成12課題、各実モデル1回の記録、スクリプトによる高費用レビューは、人間の承認疲労の実測でも本番適性の証明でもない。報告設定の比較優位は保守的に未確立。"
+        }
+      }
+    },
+    {
+      "id": "sw-checkedflow",
+      "kind": "software",
+      "source_catalog_id": "kadubon/checkedflow",
+      "tier": "supporting",
+      "primary_role": "collective-coordination",
+      "roles": [
+        "collective-coordination",
+        "evidence-and-verification",
+        "interoperability-and-discovery"
+      ],
+      "summary": {
+        "en": "Integrates signed authority, committed task ordering, bounded sandboxed execution, independent verification and dependency-aware reuse in a finite reference runtime with A2A/MCP gateways.",
+        "ja": "署名付き権限、確定した課題順序、有限のサンドボックス実行、独立検証、依存関係を考慮した再利用を、A2A/MCPゲートウェイを備えた参照ランタイムで統合する。"
+      },
+      "relevance_reason": {
+        "en": "A bounded integration demonstrator for evidence-preserving collective work: authority, ordering, execution, verifier acceptance, residuals and reusable capability remain separate states.",
+        "ja": "根拠を保持した集団作業の有限統合例として、権限、順序確定、実行、検証器による受理、残余義務、再利用可能能力を別の状態として扱う。"
+      },
+      "limitations": {
+        "en": "Experimental finite reference runtime; upstream demonstration covers 31 inputs. Four colocated nodes do not establish independent organizations. A signature is not external truth; transport credentials are not command authority; consensus order is not verifier truth. Work receipts and protocol task completion are not capability acceptance. Generated source is not verified source, and verified finite behavior is not universal program correctness. Declared work units are not measured CPU time; copies are not new capability stock; unknown outcomes are not checked failures. A2A/MCP interoperability is not new scientific evidence. Tested release workflows do not establish production readiness. No general causal acceleration, AGI or ASI follows; a verifier veto can block artifact reuse despite consensus progress.",
+        "ja": "実験的な有限参照ランタイムで、上流の実証範囲は31入力。同一環境上の4ノードは実組織の独立性を確立しない。署名は外界の真実ではなく、転送資格情報は命令権限ではなく、合意順序は検証器の真実ではない。作業受領証やプロトコル上の課題完了は能力受理ではない。生成ソースは検証済みソースではなく、有限動作の検証は普遍的なプログラム正当性ではない。宣言作業単位は実測CPU時間ではなく、複製は新たな能力資本ではなく、結果不明は検査済み失敗ではない。A2A/MCP相互運用は新たな科学的根拠ではない。試験済み公開手順は本番適性を確立しない。一般的な因果的加速・AGI・ASIは導かれず、合意が進んでも検証者の拒否が再利用を阻止し得る。"
+      },
+      "evidence_refs": [
+        "e-checkedflow-readme",
+        "e-checkedflow-package",
+        "e-checkedflow-license",
+        "e-checkedflow-notice",
+        "e-checkedflow-architecture",
+        "e-checkedflow-state-machine",
+        "e-checkedflow-audit",
+        "e-checkedflow-validation",
+        "e-checkedflow-conformance",
+        "e-checkedflow-security",
+        "e-checkedflow-research",
+        "e-checkedflow-interoperability",
+        "e-checkedflow-agent-request",
+        "e-checkedflow-gateway"
+      ],
+      "problem_ids": [
+        "coordinate",
+        "interchange",
+        "authority",
+        "completion-and-outcome",
+        "retry-recovery",
+        "obligations",
+        "accounting"
+      ],
+      "ownership": "takahashi",
+      "alternate_names": [],
+      "language": [
+        "en"
+      ],
+      "source_state": "reviewed_snapshot",
+      "last_reviewed_at": "2026-09-26",
+      "unsupported_claims": {
+        "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
+        "ja": "計上恒等式は、同一単位・範囲内で期末蓄積 = 期首蓄積 + 受理された一意の追加 − 損失。サービス再利用、コピー、外部投入は別座標。普遍的な流入・損失比は仮定せず、損失ゼロなら未定義にもなる。スペクトル下界はモデルの前提に依存する。ハッシュはバイト列を結び付けるが真実を証明しない。リリースは本番保証ではない。不明値は理由付きnullで好都合なゼロではない。大域的自己加速の観測、AGI・ASI検出、到来予測は確立していない。"
+      },
+      "related_resource_ids": [],
+      "name": "checkedflow",
+      "canonical_url": "https://github.com/kadubon/checkedflow",
+      "software": {
+        "source_revision": "a58869e2488bed9550b006d261601240357b2b99",
+        "source_version": "0.1.0",
+        "source_version_status": "declared",
+        "license_spdx": "Apache-2.0",
+        "license_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/LICENSE",
+        "docs_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md",
+        "interfaces": {
+          "checkedflow": "checkedflow.cli:main",
+          "SDK": "transition(state, command, context); replay(initial_state, events)",
+          "Gateway": "Gateway(Backend, chain, mission); inspect; submit",
+          "A2A": "create_app(...); mission-scoped A2A 1.0 server",
+          "MCP": "create_server(...); checkedflow_inspect; checkedflow_submit"
+        },
+        "inputs": {
+          "en": "Signed command envelopes, fixed mission/worker/verifier identities, approved contracts, bounded budgets, leases/fences, source artifacts and verifier attestations.",
+          "ja": "署名付き命令包絡、固定ミッション・作業者・検証者ID、承認済み契約、有限予算、リース・フェンス、ソース成果物、検証者の証言。"
+        },
+        "outputs": {
+          "en": "Committed command digests, task/work receipts, contract-scoped capability status, retained residuals, dependency withdrawals and separate accounting coordinates. A receipt or acknowledgment alone is not checked reusable capability.",
+          "ja": "確定命令ダイジェスト、課題・作業受領証、契約限定の能力状態、保持した残余、依存撤回、分離した計上座標。受領証や応答だけでは検査済み再利用能力にならない。"
+        },
+        "prerequisites": {
+          "en": "Python >=3.12. Distributed execution requires separately provisioned CometBFT v0.40.0, Linux Docker/gVisor, an inspected fixed image, keys, own validating node and approved mission/verifier contracts. Agent transports use optional agents/distributed dependencies; external TLS/OAuth deployments require separate qualification.",
+          "ja": "Python >=3.12。分散実行には別途用意したCometBFT v0.40.0、Linux Docker/gVisor、確認済み固定イメージ、鍵、自己管理の検証ノード、承認済みミッション・検証契約が必要。通信には任意agents/distributed依存を使用し、外部TLS/OAuth運用は別途適格性確認が必要。"
+        },
+        "effects": {
+          "en": "The runtime can persist node-local SQLite state, submit signed network transactions and run bounded generated code through a separately authorized gVisor worker. Gateways hold no signing keys and execute no received source; configured push callbacks perform external HTTPS requests. This review installed or executed none of these components.",
+          "ja": "ランタイムはノード内SQLiteを永続化し、署名付きネットワーク取引を送信し、別途許可されたgVisor作業者を通じ有限の生成コードを実行し得る。ゲートウェイは署名鍵を持たず受信ソースを実行しないが、設定された通知先へ外部HTTPS要求を行い得る。本レビューではどの構成要素も導入・実行していない。"
+        },
+        "first_inspection_steps": {
+          "en": "Read the pinned architecture, state-machine, conformance, security and validation limits. Inspect own-node state, current fence, nonce, receipt and dependencies before recovery; preserve OUTCOME_UNKNOWN rather than blindly retrying.",
+          "ja": "固定版の構造・状態機械・適合範囲・安全性・検証限界を読む。復旧前に自己管理ノードの状態・現フェンス・nonce・受領証・依存を確認し、盲目的に再試行せずOUTCOME_UNKNOWNを保持する。"
+        },
+        "installation_guidance": {
+          "en": "Use pinned upstream source instructions only after host authorization and prerequisite review. The declared source version and observed GitHub release are separate; PyPI artifacts were not installed or independently verified here.",
+          "ja": "ホストの許可と前提確認後に固定版の上流手順を参照。宣言ソース版と観測GitHubリリースは別であり、PyPI成果物の導入・独立検証は本作業で行っていない。"
+        },
+        "maturity": {
+          "en": "Experimental 0.1.0 supporting reference. Upstream validation is attributed, not independently reproduced; no production assurance.",
+          "ja": "実験的0.1.0の補助参照資料。上流検証は帰属付き報告で独立再現ではなく、本番保証はない。"
+        },
+        "agent_entrypoints": [
+          "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md"
+        ],
+        "commands": [],
+        "related_paper": null,
+        "interface_contracts": [
+          {
+            "source_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/data/agent-request.schema.json",
+            "schema_identity": "urn:checkedflow:agent-request:v1",
+            "scope": "Mission-scoped profile/inspect/submit/task shapes; schema validity does not establish signature validity, command authority or capability acceptance."
+          }
+        ],
+        "release_observation": {
+          "default_branch_revision": "a58869e2488bed9550b006d261601240357b2b99",
+          "latest_release": {
+            "assets": [
+              "https://github.com/kadubon/checkedflow/releases/download/v0.1.0/checkedflow-0.1.0-py3-none-any.whl",
+              "https://github.com/kadubon/checkedflow/releases/download/v0.1.0/checkedflow-0.1.0.tar.gz",
+              "https://github.com/kadubon/checkedflow/releases/download/v0.1.0/SHA256SUMS.json"
+            ],
+            "published_at": "2026-09-25T14:54:25Z",
+            "tag": "v0.1.0",
+            "url": "https://github.com/kadubon/checkedflow/releases/tag/v0.1.0"
+          },
+          "observed_at": "2026-09-25T15:23:46+00:00",
+          "package_registry_status": "not_checked_by_this_github_refresh",
+          "refresh_status": "current",
+          "release_status": "observed",
+          "source_url": "https://github.com/kadubon/checkedflow"
+        },
+        "when_to_use": {
+          "en": "Integrates signed authority, committed task ordering, bounded sandboxed execution, independent verification and dependency-aware reuse in a finite reference runtime with A2A/MCP gateways.",
+          "ja": "署名付き権限、確定した課題順序、有限のサンドボックス実行、独立検証、依存関係を考慮した再利用を、A2A/MCPゲートウェイを備えた参照ランタイムで統合する。"
+        },
+        "when_not_to_use": {
+          "en": "Experimental finite reference runtime; upstream demonstration covers 31 inputs. Four colocated nodes do not establish independent organizations. A signature is not external truth; transport credentials are not command authority; consensus order is not verifier truth. Work receipts and protocol task completion are not capability acceptance. Generated source is not verified source, and verified finite behavior is not universal program correctness. Declared work units are not measured CPU time; copies are not new capability stock; unknown outcomes are not checked failures. A2A/MCP interoperability is not new scientific evidence. Tested release workflows do not establish production readiness. No general causal acceleration, AGI or ASI follows; a verifier veto can block artifact reuse despite consensus progress.",
+          "ja": "実験的な有限参照ランタイムで、上流の実証範囲は31入力。同一環境上の4ノードは実組織の独立性を確立しない。署名は外界の真実ではなく、転送資格情報は命令権限ではなく、合意順序は検証器の真実ではない。作業受領証やプロトコル上の課題完了は能力受理ではない。生成ソースは検証済みソースではなく、有限動作の検証は普遍的なプログラム正当性ではない。宣言作業単位は実測CPU時間ではなく、複製は新たな能力資本ではなく、結果不明は検査済み失敗ではない。A2A/MCP相互運用は新たな科学的根拠ではない。試験済み公開手順は本番適性を確立しない。一般的な因果的加速・AGI・ASIは導かれず、合意が進んでも検証者の拒否が再利用を阻止し得る。"
         }
       }
     }
@@ -3741,7 +3885,8 @@
       "relevant_resource_ids": [
         "sw-pic",
         "sw-fost",
-        "paper-operational-claims"
+        "paper-operational-claims",
+        "sw-checkedflow"
       ]
     },
     {
@@ -3836,7 +3981,8 @@
       "relevant_resource_ids": [
         "sw-pfg",
         "sw-ccr",
-        "sw-pic"
+        "sw-pic",
+        "sw-checkedflow"
       ]
     },
     {
@@ -4206,7 +4352,8 @@
         "sw-alt",
         "sw-ccr",
         "sw-vek",
-        "sw-cait"
+        "sw-cait",
+        "sw-checkedflow"
       ]
     },
     {
@@ -4664,7 +4811,8 @@
       "relevant_resource_ids": [
         "sw-pfg",
         "sw-pic",
-        "sw-ccr"
+        "sw-ccr",
+        "sw-checkedflow"
       ]
     },
     {
@@ -5306,7 +5454,8 @@
       "relevant_resource_ids": [
         "sw-pic",
         "paper-ecpt",
-        "paper-operational-claims"
+        "paper-operational-claims",
+        "sw-checkedflow"
       ]
     },
     {
@@ -5509,7 +5658,8 @@
       "relevant_resource_ids": [
         "sw-ccr",
         "paper-split-inference",
-        "paper-collective-phase"
+        "paper-collective-phase",
+        "sw-checkedflow"
       ]
     },
     {
@@ -5575,7 +5725,8 @@
       "relevant_resource_ids": [
         "paper-cait",
         "sw-cait",
-        "paper-growth"
+        "paper-growth",
+        "sw-checkedflow"
       ]
     },
     {
@@ -8403,6 +8554,188 @@
         "en": "Source inspected for the bounded routing review; no native execution.",
         "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
       }
+    },
+    {
+      "id": "e-checkedflow-readme",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/README.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "README.md — Project purpose; bounded demonstration; concepts; use or extend the runtime",
+      "sha256": "759cf8087b47b4007b3572ca7bc78edd06e08c685b56cf701d411de758c0642b",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Describes an experimental 0.1.0 reference runtime with a 31-input demonstration, optional A2A/MCP gateways and no runtime dependency on the 18 source projects.",
+        "ja": "実験的0.1.0参照ランタイム、31入力の実証、任意A2A/MCPゲートウェイを説明。元の18プロジェクトへのランタイム依存はない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-package",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/pyproject.toml",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "pyproject.toml — [project], [project.optional-dependencies], [project.scripts]",
+      "sha256": "f42bebe53dfd244870f53cf8b9d220b05df8b669978302e584f5f9f4d529807c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares checkedflow 0.1.0, Python >=3.12, Apache-2.0, CLI and optional agents/distributed dependencies; not an installed-package observation.",
+        "ja": "checkedflow 0.1.0、Python >=3.12、Apache-2.0、CLIと任意agents/distributed依存を宣言。導入済みパッケージの観測ではない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-license",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/LICENSE",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "LICENSE — Apache License, Version 2.0; sections 1–9",
+      "sha256": "d6c11acdf0cd41ac2637c2d4c4e44a1e7210bf484b3b1d5beb40a76fdb89e8ad",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source license text is Apache License 2.0.",
+        "ja": "ソースのライセンス本文はApache License 2.0。"
+      }
+    },
+    {
+      "id": "e-checkedflow-notice",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/NOTICE",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "NOTICE — Original work, research and bundled protocol attribution",
+      "sha256": "617b8c936e4fb12cbda7b52117bd1abec5236e45f3115210b7b1c103a1ef15f7",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Separates original Apache-2.0 work, research-paper licenses, CometBFT attribution and Gogoproto BSD-3-Clause notices.",
+        "ja": "原著作物のApache-2.0、論文の別ライセンス、CometBFTの帰属、GogoprotoのBSD-3-Clause通知を区別。"
+      }
+    },
+    {
+      "id": "e-checkedflow-architecture",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/architecture.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/architecture.md — Modules; failure and trust model; ownership and extension boundaries",
+      "sha256": "28c3b49af89245152b45d043afa8f25a71ccbfd325c517f65270e7ad17107744",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Separates authenticated deterministic transitions, CometBFT order, node-local commit, worker effects and contract-scoped verifier acceptance; consensus does not establish external truth.",
+        "ja": "認証済み決定的遷移、CometBFT順序、ノード内コミット、作業者の効果、契約限定の検証受理を分離。合意は外界の真実を確立しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-state-machine",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/state-machine.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/state-machine.md — Command table; invariants; bounds and accounting; dependency and residual history",
+      "sha256": "37e2b338c06f2b2431cb5e0bce556583e646aec317a2fc4dc012cea7a18a198e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Defines leases/fences, idempotent request IDs, explicit uncertain-attempt reconciliation, retained residuals, dependency withdrawal and separate bounded accounting units.",
+        "ja": "リース・フェンス、要求IDの冪等性、不確実な試行の明示的調停、残余保持、依存撤回、有限計上単位の分離を定義。"
+      }
+    },
+    {
+      "id": "e-checkedflow-audit",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/audit.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/audit.md — Findings; requirement coverage; agent extension; remaining operational limits",
+      "sha256": "01c35ce8fbb3168d7146989c3879d707b1275591bb3c29ab2c1b3597a1748967",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Upstream implementation audit maps recovery/transport corrections to code and tests, while retaining finite-state, verifier-veto and non-causal-comparison limits. Its execution claims were not reproduced here.",
+        "ja": "上流実装監査は復旧・転送修正をコード・テストへ対応付け、有限状態・検証者拒否・非因果比較の限界を保持。本作業では実行主張を再現していない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-validation",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/validation-status.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/validation-status.md — Local regression; infrastructure gate; interpretation limits",
+      "sha256": "05d0bf066a09123ec9ad6263b4ae562af86ae1e52c931d4be0c5dbbb467dfa6a",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "Upstream reports 158 final tests and eight later local infrastructure passes after a failed run; the 31-input single-host comparison reports 23 versus 55 grammar candidates, including a round worse with reuse. No independent reproduction or causal acceleration follows.",
+        "ja": "上流は最終158テストと、失敗した試行後の局所インフラ8件成功を報告。単一ホスト・31入力の比較は文法候補23対55と再利用が悪化したラウンドを記録。独立再現や因果的加速を意味しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-conformance",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/conformance.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/conformance.md — A2A service operations; MCP server role; shared invariant coverage",
+      "sha256": "5f77a1650d3ecd6175af8da0364d9b7b4e8c3de1ddffaea5bf8e737830580a32",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares A2A 1.0 and MCP 2026-07-28 server scope, optional SDK roles and external OAuth issuer/consent requirements. Protocol interoperability is not verification evidence or external certification.",
+        "ja": "A2A 1.0・MCP 2026-07-28のサーバー範囲、任意SDKの役割、外部OAuth発行者・同意手順の必要性を宣言。プロトコル相互運用は検証根拠や外部認証ではない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-security",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/security.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/security.md — Reviewed boundaries and controls; deployment limits",
+      "sha256": "0aff61f45ea7b2fe6850a18909dfab2f73eded6324102e6b9ea7c1b5493bfc2e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Engineering threat review assumes trusted hosts, keys, own validating node and verifier contracts; no independent penetration test, organizational-independence proof or production assurance.",
+        "ja": "工学的脅威レビューはホスト・鍵・自己管理の検証ノード・検証契約を信頼する。独立侵入試験、組織独立性の証明、本番保証ではない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-research",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/research.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/research.md — How to interpret the mapping; interpretation limits",
+      "sha256": "a397705e7784305c8ef3a1e8da80170ae8f7ed0a0c2d10a929ffeb5d66c66e7f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Adopts bounded operational principles from the corpus without runtime imports or theorem verification; finite equality, reuse comparison and adapters do not establish general growth or AGI/ASI.",
+        "ja": "コーパスから有限の運用原理を採用するが、ランタイム取込みや定理検証ではない。有限等価性・再利用比較・アダプタは一般的成長やAGI/ASIを確立しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-interoperability",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/interoperability.md — Gateway scope; protocol projections; OAuth resource-server mode; failure handling",
+      "sha256": "a851836ce798bb92133ff07d2e13dfb2f4e173726350885eb27f1706f220216f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Documents mission-scoped gateways with no signing keys or received-code execution; transport credentials, committed acknowledgments, work completion and capability acceptance remain separate. Unknown submission outcomes require inspection before recovery.",
+        "ja": "署名鍵や受信コード実行を持たないミッション限定ゲートウェイを説明。転送資格情報・コミット応答・作業完了・能力受理は別。不明な送信結果は復旧前の確認が必要。"
+      }
+    },
+    {
+      "id": "e-checkedflow-agent-request",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/data/agent-request.schema.json",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "src/checkedflow/data/agent-request.schema.json — oneOf operation contracts; envelopeJson string bound; additionalProperties",
+      "sha256": "f770817e8834e7cb774a3f9d6ae9743e86dde15c280de58a77563fe73fd2902f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "The v1 request schema accepts profile, inspect, submit and task shapes; signed envelope text is bounded. Schema validity alone does not validate signatures.",
+        "ja": "v1要求スキーマはprofile・inspect・submit・task形状を受理し署名包絡文字列を制限する。スキーマ適合だけでは署名を検証しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-gateway",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/agents/gateway.py",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "src/checkedflow/agents/gateway.py — Gateway.state, inspect and submit",
+      "sha256": "f5d0c42b2ee52c8708fe4f424b00c8fb0e0a8e005f8682a76bbcb3f0e2154d1c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Inspected code authenticates and scope-checks before submitting once, confirms the committed digest, acknowledges authenticated duplicates and retains ambiguous transport outcomes as OUTCOME_UNKNOWN. Source inspection only.",
+        "ja": "確認したコードは認証・範囲検査後に一度送信し、確定ダイジェストを確認、認証済み重複を応答し、曖昧な転送結果をOUTCOME_UNKNOWNに保持。ソース確認のみ。"
+      }
     }
   ],
   "corpus_audit": [
@@ -10127,6 +10460,12 @@
       "decision": "excluded",
       "review_depth": "catalogue_description_topics_release_metadata",
       "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+    },
+    {
+      "source_catalog_id": "kadubon/checkedflow",
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "Added after the initial 2026-09-21 screening and 2026-09-24 supporting review: bounded source-only review on 2026-09-26 at a58869e2488bed9550b006d261601240357b2b99. Finite integration reference for existing routes; no native execution, reproduced validation, production assurance or tested inter-project relationship."
     }
   ],
   "identity_issues": [
@@ -10153,7 +10492,7 @@
   ],
   "scanned_counts": {
     "research_records": 233,
-    "repositories": 54
+    "repositories": 55
   },
   "agent_routing": {
     "authority": "Advisory metadata under consuming host policy; no execution authority.",
@@ -10189,5 +10528,5 @@
       "incident-response"
     ]
   },
-  "content_digest": "331d68af7dbbf29007689980a8c779241ed5a9d0d2d217c0c792888cd45b8bcb"
+  "content_digest": "0efe9be0560aa5b6f36fe23e1a520c993db80c2a678f92aedaa21d0eb9419d4a"
 }

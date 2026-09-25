@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "index_type": "research_and_software_discovery",
   "canonical_url": "https://kadubon.github.io/github.io/agent-index.json",
-  "source_state_at": "2026-09-24T01:44:08Z",
+  "source_state_at": "2026-09-25T14:49:17Z",
   "identity": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -45,7 +45,7 @@
   "counts": {
     "research_records": 233,
     "scholarly_paper_count": 229,
-    "public_source_repositories": 54,
+    "public_source_repositories": 55,
     "archived_source_repositories": 0
   },
   "authority_order": {

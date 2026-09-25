@@ -32,7 +32,7 @@ as unresolved. Distinct CGT supplements must not be invented as separate DOI
 records or collapsed into a single claimed implementation. No exact Boundary
 Exchange title/DOI was resolved in the scanned catalogue.
 
-The original website license remains CC BY 4.0. The 18 inspected OSS licenses
+The original website license remains CC BY 4.0. The 19 inspected OSS licenses
 are Apache-2.0. The Audit-Closed repository separately licenses its bundled
 protocol paper CC BY 4.0. Repository metadata for other projects is not
 overwritten with a blanket license assertion.
@@ -156,7 +156,7 @@ and the optional [llms.txt proposal](https://llmstxt.org/).
 
 ## Symptom routing (schema 1.1, 2026-09-24)
 
-The current selection has 19 papers and 18 OSS resources. Six additional
+The current selection has 19 papers and 19 OSS resources. Six additional
 supporting repositories received a bounded source review on 2026-09-24;
 [the generated coverage report](collective-intelligence-coverage.md) records
 exact revisions, declared source versions, selection reasons and limitations.
@@ -202,3 +202,47 @@ ranking, general language understanding, crawler adoption or empirical accelerat
 For UI review, inspect both languages at desktop and narrow widths, including
 symptom links, related links, native disclosures, long source revisions and
 downloads. Essential content is HTML/Markdown; no JavaScript is required.
+
+## CheckedFlow addition (2026-09-26)
+
+Baseline: `a7350ec38efcc3dddc2a960a648d0ccfc9081544`, schema 1.1,
+modified 2026-09-24, 19 papers + 18 OSS = 37 resources, 27 problem routes,
+eight symptom groups, 168 bilingual seed pairs and five unresolved intents.
+The current selection is 19 papers + 19 OSS = 38 resources. The initial
+233-publication/54-repository screening remains a historical observation;
+the cumulative corpus audit now covers 233 publication records and 55 repositories.
+The six-resource review on 2026-09-24 and this additional review have separate dates.
+
+The normal online catalog generator discovered the public, non-fork GitHub
+`SoftwareSourceCode` identity `kadubon/checkedflow`. The documented release
+refresh then observed all 55 repositories; this factual refresh does not renew
+any older editorial review. No publication DOI or additional works.html record
+was invented. GitHub repository authority is the existing mechanism used for
+other software without an archival publication record.
+
+`sw-checkedflow` is supporting software. Its primary role is
+`collective-coordination`, with `evidence-and-verification` and
+`interoperability-and-discovery` as additional existing roles. Its resource-side
+associations are `coordinate`, `interchange`, `authority`, `completion-and-outcome`,
+`retry-recovery`, `obligations` and `accounting`. No relationship edges were added.
+
+Reviewed source: [a58869e2488bed9550b006d261601240357b2b99](https://github.com/kadubon/checkedflow/tree/a58869e2488bed9550b006d261601240357b2b99),
+declared version 0.1.0, Python >=3.12, Apache-2.0. Inspection covered README,
+pyproject.toml, LICENSE, NOTICE; docs/audit.md, validation-status.md, research.md,
+conformance.md, security.md, architecture.md, state-machine.md, interoperability.md;
+plus src/checkedflow/data/agent-request.schema.json and agents/gateway.py.
+The fourteen `e-checkedflow-*` records bind immutable source URLs and exact
+Git-object byte hashes to bounded claims. The validation report is explicitly
+`upstream_reported`; it was not independently reproduced by this website task.
+
+The baseline comparison preserved all problem objects (including first reads,
+aliases and stop conditions), symptom groups, roles, read paths, unresolved
+intents, relations, existing resource curation and prior evidence. Coverage
+fixtures, schema, routing code and page generators are unchanged. Only derived
+`relevant_resource_ids` gain the new resource on its seven existing routes.
+The lexical result remains 163 matched and five unresolved seeds per language.
+
+CheckedFlow was not installed or executed. Its finite demonstration and upstream
+release tests establish neither production readiness, real organizational
+independence, general causal acceleration, nor AGI/ASI. Source review is not a
+reproduction or a universal correctness proof.

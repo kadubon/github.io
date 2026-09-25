@@ -1829,6 +1829,188 @@
         "en": "Source inspected for the bounded routing review; no native execution.",
         "ja": "限定された経路レビューのためソースを確認。ネイティブ実行なし。"
       }
+    },
+    {
+      "id": "e-checkedflow-readme",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/README.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "README.md — Project purpose; bounded demonstration; concepts; use or extend the runtime",
+      "sha256": "759cf8087b47b4007b3572ca7bc78edd06e08c685b56cf701d411de758c0642b",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Describes an experimental 0.1.0 reference runtime with a 31-input demonstration, optional A2A/MCP gateways and no runtime dependency on the 18 source projects.",
+        "ja": "実験的0.1.0参照ランタイム、31入力の実証、任意A2A/MCPゲートウェイを説明。元の18プロジェクトへのランタイム依存はない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-package",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/pyproject.toml",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "pyproject.toml — [project], [project.optional-dependencies], [project.scripts]",
+      "sha256": "f42bebe53dfd244870f53cf8b9d220b05df8b669978302e584f5f9f4d529807c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares checkedflow 0.1.0, Python >=3.12, Apache-2.0, CLI and optional agents/distributed dependencies; not an installed-package observation.",
+        "ja": "checkedflow 0.1.0、Python >=3.12、Apache-2.0、CLIと任意agents/distributed依存を宣言。導入済みパッケージの観測ではない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-license",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/LICENSE",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "LICENSE — Apache License, Version 2.0; sections 1–9",
+      "sha256": "d6c11acdf0cd41ac2637c2d4c4e44a1e7210bf484b3b1d5beb40a76fdb89e8ad",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Source license text is Apache License 2.0.",
+        "ja": "ソースのライセンス本文はApache License 2.0。"
+      }
+    },
+    {
+      "id": "e-checkedflow-notice",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/NOTICE",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "NOTICE — Original work, research and bundled protocol attribution",
+      "sha256": "617b8c936e4fb12cbda7b52117bd1abec5236e45f3115210b7b1c103a1ef15f7",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Separates original Apache-2.0 work, research-paper licenses, CometBFT attribution and Gogoproto BSD-3-Clause notices.",
+        "ja": "原著作物のApache-2.0、論文の別ライセンス、CometBFTの帰属、GogoprotoのBSD-3-Clause通知を区別。"
+      }
+    },
+    {
+      "id": "e-checkedflow-architecture",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/architecture.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/architecture.md — Modules; failure and trust model; ownership and extension boundaries",
+      "sha256": "28c3b49af89245152b45d043afa8f25a71ccbfd325c517f65270e7ad17107744",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Separates authenticated deterministic transitions, CometBFT order, node-local commit, worker effects and contract-scoped verifier acceptance; consensus does not establish external truth.",
+        "ja": "認証済み決定的遷移、CometBFT順序、ノード内コミット、作業者の効果、契約限定の検証受理を分離。合意は外界の真実を確立しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-state-machine",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/state-machine.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/state-machine.md — Command table; invariants; bounds and accounting; dependency and residual history",
+      "sha256": "37e2b338c06f2b2431cb5e0bce556583e646aec317a2fc4dc012cea7a18a198e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Defines leases/fences, idempotent request IDs, explicit uncertain-attempt reconciliation, retained residuals, dependency withdrawal and separate bounded accounting units.",
+        "ja": "リース・フェンス、要求IDの冪等性、不確実な試行の明示的調停、残余保持、依存撤回、有限計上単位の分離を定義。"
+      }
+    },
+    {
+      "id": "e-checkedflow-audit",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/audit.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/audit.md — Findings; requirement coverage; agent extension; remaining operational limits",
+      "sha256": "01c35ce8fbb3168d7146989c3879d707b1275591bb3c29ab2c1b3597a1748967",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Upstream implementation audit maps recovery/transport corrections to code and tests, while retaining finite-state, verifier-veto and non-causal-comparison limits. Its execution claims were not reproduced here.",
+        "ja": "上流実装監査は復旧・転送修正をコード・テストへ対応付け、有限状態・検証者拒否・非因果比較の限界を保持。本作業では実行主張を再現していない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-validation",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/validation-status.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/validation-status.md — Local regression; infrastructure gate; interpretation limits",
+      "sha256": "05d0bf066a09123ec9ad6263b4ae562af86ae1e52c931d4be0c5dbbb467dfa6a",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "Upstream reports 158 final tests and eight later local infrastructure passes after a failed run; the 31-input single-host comparison reports 23 versus 55 grammar candidates, including a round worse with reuse. No independent reproduction or causal acceleration follows.",
+        "ja": "上流は最終158テストと、失敗した試行後の局所インフラ8件成功を報告。単一ホスト・31入力の比較は文法候補23対55と再利用が悪化したラウンドを記録。独立再現や因果的加速を意味しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-conformance",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/conformance.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/conformance.md — A2A service operations; MCP server role; shared invariant coverage",
+      "sha256": "5f77a1650d3ecd6175af8da0364d9b7b4e8c3de1ddffaea5bf8e737830580a32",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares A2A 1.0 and MCP 2026-07-28 server scope, optional SDK roles and external OAuth issuer/consent requirements. Protocol interoperability is not verification evidence or external certification.",
+        "ja": "A2A 1.0・MCP 2026-07-28のサーバー範囲、任意SDKの役割、外部OAuth発行者・同意手順の必要性を宣言。プロトコル相互運用は検証根拠や外部認証ではない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-security",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/security.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/security.md — Reviewed boundaries and controls; deployment limits",
+      "sha256": "0aff61f45ea7b2fe6850a18909dfab2f73eded6324102e6b9ea7c1b5493bfc2e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Engineering threat review assumes trusted hosts, keys, own validating node and verifier contracts; no independent penetration test, organizational-independence proof or production assurance.",
+        "ja": "工学的脅威レビューはホスト・鍵・自己管理の検証ノード・検証契約を信頼する。独立侵入試験、組織独立性の証明、本番保証ではない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-research",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/research.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/research.md — How to interpret the mapping; interpretation limits",
+      "sha256": "a397705e7784305c8ef3a1e8da80170ae8f7ed0a0c2d10a929ffeb5d66c66e7f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Adopts bounded operational principles from the corpus without runtime imports or theorem verification; finite equality, reuse comparison and adapters do not establish general growth or AGI/ASI.",
+        "ja": "コーパスから有限の運用原理を採用するが、ランタイム取込みや定理検証ではない。有限等価性・再利用比較・アダプタは一般的成長やAGI/ASIを確立しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-interoperability",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "docs/interoperability.md — Gateway scope; protocol projections; OAuth resource-server mode; failure handling",
+      "sha256": "a851836ce798bb92133ff07d2e13dfb2f4e173726350885eb27f1706f220216f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Documents mission-scoped gateways with no signing keys or received-code execution; transport credentials, committed acknowledgments, work completion and capability acceptance remain separate. Unknown submission outcomes require inspection before recovery.",
+        "ja": "署名鍵や受信コード実行を持たないミッション限定ゲートウェイを説明。転送資格情報・コミット応答・作業完了・能力受理は別。不明な送信結果は復旧前の確認が必要。"
+      }
+    },
+    {
+      "id": "e-checkedflow-agent-request",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/data/agent-request.schema.json",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "src/checkedflow/data/agent-request.schema.json — oneOf operation contracts; envelopeJson string bound; additionalProperties",
+      "sha256": "f770817e8834e7cb774a3f9d6ae9743e86dde15c280de58a77563fe73fd2902f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "The v1 request schema accepts profile, inspect, submit and task shapes; signed envelope text is bounded. Schema validity alone does not validate signatures.",
+        "ja": "v1要求スキーマはprofile・inspect・submit・task形状を受理し署名包絡文字列を制限する。スキーマ適合だけでは署名を検証しない。"
+      }
+    },
+    {
+      "id": "e-checkedflow-gateway",
+      "url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/agents/gateway.py",
+      "revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "observed_at": "2026-09-26",
+      "locator": "src/checkedflow/agents/gateway.py — Gateway.state, inspect and submit",
+      "sha256": "f5d0c42b2ee52c8708fe4f424b00c8fb0e0a8e005f8682a76bbcb3f0e2154d1c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Inspected code authenticates and scope-checks before submitting once, confirms the committed digest, acknowledges authenticated duplicates and retains ambiguous transport outcomes as OUTCOME_UNKNOWN. Source inspection only.",
+        "ja": "確認したコードは認証・範囲検査後に一度送信し、確定ダイジェストを確認、認証済み重複を応答し、曖昧な転送結果をOUTCOME_UNKNOWNに保持。ソース確認のみ。"
+      }
     }
   ],
   "software": {
@@ -2898,6 +3080,61 @@
       "commands": [],
       "related_paper": null,
       "interface_contracts": []
+    },
+    "sw-checkedflow": {
+      "source_revision": "a58869e2488bed9550b006d261601240357b2b99",
+      "source_version": "0.1.0",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/LICENSE",
+      "docs_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md",
+      "interfaces": {
+        "checkedflow": "checkedflow.cli:main",
+        "SDK": "transition(state, command, context); replay(initial_state, events)",
+        "Gateway": "Gateway(Backend, chain, mission); inspect; submit",
+        "A2A": "create_app(...); mission-scoped A2A 1.0 server",
+        "MCP": "create_server(...); checkedflow_inspect; checkedflow_submit"
+      },
+      "inputs": {
+        "en": "Signed command envelopes, fixed mission/worker/verifier identities, approved contracts, bounded budgets, leases/fences, source artifacts and verifier attestations.",
+        "ja": "署名付き命令包絡、固定ミッション・作業者・検証者ID、承認済み契約、有限予算、リース・フェンス、ソース成果物、検証者の証言。"
+      },
+      "outputs": {
+        "en": "Committed command digests, task/work receipts, contract-scoped capability status, retained residuals, dependency withdrawals and separate accounting coordinates. A receipt or acknowledgment alone is not checked reusable capability.",
+        "ja": "確定命令ダイジェスト、課題・作業受領証、契約限定の能力状態、保持した残余、依存撤回、分離した計上座標。受領証や応答だけでは検査済み再利用能力にならない。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.12. Distributed execution requires separately provisioned CometBFT v0.40.0, Linux Docker/gVisor, an inspected fixed image, keys, own validating node and approved mission/verifier contracts. Agent transports use optional agents/distributed dependencies; external TLS/OAuth deployments require separate qualification.",
+        "ja": "Python >=3.12。分散実行には別途用意したCometBFT v0.40.0、Linux Docker/gVisor、確認済み固定イメージ、鍵、自己管理の検証ノード、承認済みミッション・検証契約が必要。通信には任意agents/distributed依存を使用し、外部TLS/OAuth運用は別途適格性確認が必要。"
+      },
+      "effects": {
+        "en": "The runtime can persist node-local SQLite state, submit signed network transactions and run bounded generated code through a separately authorized gVisor worker. Gateways hold no signing keys and execute no received source; configured push callbacks perform external HTTPS requests. This review installed or executed none of these components.",
+        "ja": "ランタイムはノード内SQLiteを永続化し、署名付きネットワーク取引を送信し、別途許可されたgVisor作業者を通じ有限の生成コードを実行し得る。ゲートウェイは署名鍵を持たず受信ソースを実行しないが、設定された通知先へ外部HTTPS要求を行い得る。本レビューではどの構成要素も導入・実行していない。"
+      },
+      "first_inspection_steps": {
+        "en": "Read the pinned architecture, state-machine, conformance, security and validation limits. Inspect own-node state, current fence, nonce, receipt and dependencies before recovery; preserve OUTCOME_UNKNOWN rather than blindly retrying.",
+        "ja": "固定版の構造・状態機械・適合範囲・安全性・検証限界を読む。復旧前に自己管理ノードの状態・現フェンス・nonce・受領証・依存を確認し、盲目的に再試行せずOUTCOME_UNKNOWNを保持する。"
+      },
+      "installation_guidance": {
+        "en": "Use pinned upstream source instructions only after host authorization and prerequisite review. The declared source version and observed GitHub release are separate; PyPI artifacts were not installed or independently verified here.",
+        "ja": "ホストの許可と前提確認後に固定版の上流手順を参照。宣言ソース版と観測GitHubリリースは別であり、PyPI成果物の導入・独立検証は本作業で行っていない。"
+      },
+      "maturity": {
+        "en": "Experimental 0.1.0 supporting reference. Upstream validation is attributed, not independently reproduced; no production assurance.",
+        "ja": "実験的0.1.0の補助参照資料。上流検証は帰属付き報告で独立再現ではなく、本番保証はない。"
+      },
+      "agent_entrypoints": [
+        "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md"
+      ],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": [
+        {
+          "source_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/data/agent-request.schema.json",
+          "schema_identity": "urn:checkedflow:agent-request:v1",
+          "scope": "Mission-scoped profile/inspect/submit/task shapes; schema validity does not establish signature validity, command authority or capability acceptance."
+        }
+      ]
     }
   },
   "corpus_audit": [
@@ -4622,6 +4859,12 @@
       "decision": "excluded",
       "review_depth": "catalogue_description_topics_release_metadata",
       "reason": "Not selected in this initial bounded map; may support adjacent framing, governance or evaluation. Exclusion is not a quality judgment."
+    },
+    {
+      "source_catalog_id": "kadubon/checkedflow",
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "Added after the initial 2026-09-21 screening and 2026-09-24 supporting review: bounded source-only review on 2026-09-26 at a58869e2488bed9550b006d261601240357b2b99. Finite integration reference for existing routes; no native execution, reproduced validation, production assurance or tested inter-project relationship."
     }
   ],
   "identity_issues": [
@@ -4648,6 +4891,6 @@
   ],
   "scanned_counts": {
     "research_records": 233,
-    "repositories": 54
+    "repositories": 55
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "modified_at": "2026-09-24",
+  "modified_at": "2026-09-26",
   "resources": [
     {
       "id": "paper-growth",
@@ -1143,6 +1143,55 @@
       ],
       "problem_ids": [
         "human-oversight"
+      ]
+    },
+    {
+      "id": "sw-checkedflow",
+      "kind": "software",
+      "source_catalog_id": "kadubon/checkedflow",
+      "tier": "supporting",
+      "primary_role": "collective-coordination",
+      "roles": [
+        "collective-coordination",
+        "evidence-and-verification",
+        "interoperability-and-discovery"
+      ],
+      "summary": {
+        "en": "Integrates signed authority, committed task ordering, bounded sandboxed execution, independent verification and dependency-aware reuse in a finite reference runtime with A2A/MCP gateways.",
+        "ja": "署名付き権限、確定した課題順序、有限のサンドボックス実行、独立検証、依存関係を考慮した再利用を、A2A/MCPゲートウェイを備えた参照ランタイムで統合する。"
+      },
+      "relevance_reason": {
+        "en": "A bounded integration demonstrator for evidence-preserving collective work: authority, ordering, execution, verifier acceptance, residuals and reusable capability remain separate states.",
+        "ja": "根拠を保持した集団作業の有限統合例として、権限、順序確定、実行、検証器による受理、残余義務、再利用可能能力を別の状態として扱う。"
+      },
+      "limitations": {
+        "en": "Experimental finite reference runtime; upstream demonstration covers 31 inputs. Four colocated nodes do not establish independent organizations. A signature is not external truth; transport credentials are not command authority; consensus order is not verifier truth. Work receipts and protocol task completion are not capability acceptance. Generated source is not verified source, and verified finite behavior is not universal program correctness. Declared work units are not measured CPU time; copies are not new capability stock; unknown outcomes are not checked failures. A2A/MCP interoperability is not new scientific evidence. Tested release workflows do not establish production readiness. No general causal acceleration, AGI or ASI follows; a verifier veto can block artifact reuse despite consensus progress.",
+        "ja": "実験的な有限参照ランタイムで、上流の実証範囲は31入力。同一環境上の4ノードは実組織の独立性を確立しない。署名は外界の真実ではなく、転送資格情報は命令権限ではなく、合意順序は検証器の真実ではない。作業受領証やプロトコル上の課題完了は能力受理ではない。生成ソースは検証済みソースではなく、有限動作の検証は普遍的なプログラム正当性ではない。宣言作業単位は実測CPU時間ではなく、複製は新たな能力資本ではなく、結果不明は検査済み失敗ではない。A2A/MCP相互運用は新たな科学的根拠ではない。試験済み公開手順は本番適性を確立しない。一般的な因果的加速・AGI・ASIは導かれず、合意が進んでも検証者の拒否が再利用を阻止し得る。"
+      },
+      "evidence_refs": [
+        "e-checkedflow-readme",
+        "e-checkedflow-package",
+        "e-checkedflow-license",
+        "e-checkedflow-notice",
+        "e-checkedflow-architecture",
+        "e-checkedflow-state-machine",
+        "e-checkedflow-audit",
+        "e-checkedflow-validation",
+        "e-checkedflow-conformance",
+        "e-checkedflow-security",
+        "e-checkedflow-research",
+        "e-checkedflow-interoperability",
+        "e-checkedflow-agent-request",
+        "e-checkedflow-gateway"
+      ],
+      "problem_ids": [
+        "coordinate",
+        "interchange",
+        "authority",
+        "completion-and-outcome",
+        "retry-recovery",
+        "obligations",
+        "accounting"
       ]
     }
   ],
