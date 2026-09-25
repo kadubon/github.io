@@ -4,7 +4,7 @@
   "canonical_url": "https://kadubon.github.io/github.io/oss-catalog.json",
   "human_url": "https://kadubon.github.io/github.io/oss.html",
   "source_url": "https://github.com/kadubon",
-  "source_state_at": "2026-09-25T14:49:17Z",
+  "source_state_at": "2026-09-25T15:30:01Z",
   "owner": {
     "name": "K. Takahashi",
     "github_login": "kadubon",
@@ -19,6 +19,45 @@
   "record_count": 55,
   "archived_count": 0,
   "repositories": [
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "github.io",
+      "full_name": "kadubon/github.io",
+      "description": "Personal site for independent research on observable-only, no-meta, and future autonomous AI.",
+      "repository_url": "https://github.com/kadubon/github.io",
+      "clone_url": "https://github.com/kadubon/github.io.git",
+      "homepage": "https://kadubon.github.io/github.io/",
+      "programming_language": "HTML",
+      "topics": [
+        "agi",
+        "ai",
+        "asi",
+        "no-meta"
+      ],
+      "license_spdx": "CC-BY-4.0",
+      "default_branch": "main",
+      "created_at": "2025-08-08T07:48:07Z",
+      "updated_at": "2026-09-25T15:30:01Z",
+      "pushed_at": "2026-09-25T15:29:56Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "release_observation": {
+        "default_branch_revision": "549fca47fdd087e8255fca2d499586cab8566732",
+        "latest_release": {
+          "assets": [],
+          "published_at": "2026-08-22T05:35:27Z",
+          "tag": "v1.4.0",
+          "url": "https://github.com/kadubon/github.io/releases/tag/v1.4.0"
+        },
+        "observed_at": "2026-09-25T15:30:08+00:00",
+        "package_registry_status": "not_checked_by_this_github_refresh",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/github.io"
+      }
+    },
     {
       "schema_org_type": "SoftwareSourceCode",
       "name": "checkedflow",
@@ -65,7 +104,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/checkedflow/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -127,7 +166,7 @@
           "tag": "v1.9.0",
           "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -188,7 +227,7 @@
           "tag": "v0.2.0",
           "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -256,7 +295,7 @@
           "tag": "v0.5.0",
           "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -309,7 +348,7 @@
           "tag": "v1.1.0",
           "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -367,7 +406,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -427,7 +466,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -479,7 +518,7 @@
           "tag": "v2.0.0",
           "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -544,7 +583,7 @@
           "tag": "v0.2.0",
           "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -613,7 +652,7 @@
           "tag": "v1.1.0",
           "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -666,7 +705,7 @@
       "release_observation": {
         "default_branch_revision": "dddaea42073fc9629122cdb798f547c5d6a116e9",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -678,45 +717,6 @@
         "source_revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
         "reviewed_at": "2026-09-21",
         "method": "LICENSE file inspected; GitHub detection kept separately"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
-      "name": "github.io",
-      "full_name": "kadubon/github.io",
-      "description": "Personal site for independent research on observable-only, no-meta, and future autonomous AI.",
-      "repository_url": "https://github.com/kadubon/github.io",
-      "clone_url": "https://github.com/kadubon/github.io.git",
-      "homepage": "https://kadubon.github.io/github.io/",
-      "programming_language": "HTML",
-      "topics": [
-        "agi",
-        "ai",
-        "asi",
-        "no-meta"
-      ],
-      "license_spdx": "CC-BY-4.0",
-      "default_branch": "main",
-      "created_at": "2025-08-08T07:48:07Z",
-      "updated_at": "2026-09-24T01:44:24Z",
-      "pushed_at": "2026-09-24T01:44:20Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 0,
-      "release_observation": {
-        "default_branch_revision": "a7350ec38efcc3dddc2a960a648d0ccfc9081544",
-        "latest_release": {
-          "assets": [],
-          "published_at": "2026-08-22T05:35:27Z",
-          "tag": "v1.4.0",
-          "url": "https://github.com/kadubon/github.io/releases/tag/v1.4.0"
-        },
-        "observed_at": "2026-09-25T15:23:46+00:00",
-        "package_registry_status": "not_checked_by_this_github_refresh",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/github.io"
       }
     },
     {
@@ -774,7 +774,7 @@
           "tag": "v1.2.0",
           "url": "https://github.com/kadubon/oasg/releases/tag/v1.2.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -833,7 +833,7 @@
           "tag": "v1.3.0",
           "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -901,7 +901,7 @@
           "tag": "v1.0.1",
           "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -944,7 +944,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/paper-tex-backup/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -999,7 +999,7 @@
           "tag": "v0.2.0",
           "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1057,7 +1057,7 @@
           "tag": "v1.1.2",
           "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1117,7 +1117,7 @@
           "tag": "v1.1.1",
           "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1174,7 +1174,7 @@
           "tag": "v0.1.1",
           "url": "https://github.com/kadubon/certified-local-participation-gate/releases/tag/v0.1.1"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1222,7 +1222,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1280,7 +1280,7 @@
           "tag": "v1.1.0",
           "url": "https://github.com/kadubon/future-claim-certifier/releases/tag/v1.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1334,7 +1334,7 @@
           "tag": "v1.1.0",
           "url": "https://github.com/kadubon/percolation-inversion-compiler-ts/releases/tag/v1.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1387,7 +1387,7 @@
           "tag": "v0.2.0",
           "url": "https://github.com/kadubon/pic-openclaw-skill/releases/tag/v0.2.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1438,7 +1438,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/no-meta-standing-ledger/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1481,7 +1481,7 @@
           "tag": "v0.2.0",
           "url": "https://github.com/kadubon/pic-local-llm-phase-experiment/releases/tag/v0.2.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1527,7 +1527,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/cgt-ledgered-scientific-availability/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1574,7 +1574,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/cgt-bandwidth-dynamics/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1620,7 +1620,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/cgt-availability/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1659,7 +1659,7 @@
       "release_observation": {
         "default_branch_revision": "206ba1f451b134cf1226393bd42b7e134789f4d0",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -1708,7 +1708,7 @@
       "release_observation": {
         "default_branch_revision": "1a48f0862cc346f0dcbd9a4d987f35f504d29455",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -1757,7 +1757,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/certified-workflow-conversion/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1801,7 +1801,7 @@
       "release_observation": {
         "default_branch_revision": "5a392e99e6683cc0e58e39ca27d81df7ddc4fc92",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -1849,7 +1849,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/ai-real-economy-bottleneck-simulator/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -1888,7 +1888,7 @@
       "release_observation": {
         "default_branch_revision": "7acf0b9c1a0d4a6598f0c675f4202b21de17950d",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -1931,7 +1931,7 @@
       "release_observation": {
         "default_branch_revision": "cdbdb00b7d04a99db1ec3f73e0286a1b6ec1552b",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -1973,7 +1973,7 @@
       "release_observation": {
         "default_branch_revision": "f83066ede5fd997672e0869a98f13c2109d10591",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2015,7 +2015,7 @@
       "release_observation": {
         "default_branch_revision": "7f6aa17574b52e1ed978e606a91711c3e0d32bcc",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2054,7 +2054,7 @@
       "release_observation": {
         "default_branch_revision": "773ca7b422063395c09de5bae51af94726a65f7a",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2094,7 +2094,7 @@
       "release_observation": {
         "default_branch_revision": "c12cf337afe2ca73350f0eeb33f0b3b6582b4382",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2142,7 +2142,7 @@
       "release_observation": {
         "default_branch_revision": "14471f43d2921221f62b350d0726be592d9dce24",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2185,7 +2185,7 @@
       "release_observation": {
         "default_branch_revision": "a936b5928235f5e2dde67c9224b8e8d897ea8bd1",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2226,7 +2226,7 @@
       "release_observation": {
         "default_branch_revision": "a9bbbfe1b390e5888dca0e1b04c14ea736941043",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2273,7 +2273,7 @@
       "release_observation": {
         "default_branch_revision": "54b24fce5a62380c98fa89d2cb4cc9eadc120ce5",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2310,7 +2310,7 @@
           "tag": "v.1",
           "url": "https://github.com/kadubon/Proof-Carrying-Skills--PCS-Core-/releases/tag/v.1"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -2356,7 +2356,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/observable-replay-lab/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -2405,7 +2405,7 @@
       "release_observation": {
         "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2454,7 +2454,7 @@
           "tag": "v.2",
           "url": "https://github.com/kadubon/no-meta-drift-papers/releases/tag/v.2"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -2502,7 +2502,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/bottleneck-audit-toolkit/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -2536,7 +2536,7 @@
           "tag": "v0.1.0",
           "url": "https://github.com/kadubon/Benevolent-Propagation-spec/releases/tag/v0.1.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -2570,7 +2570,7 @@
           "tag": "v1.0.0",
           "url": "https://github.com/kadubon/UniverseModel/releases/tag/v1.0.0"
         },
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "observed",
@@ -2599,7 +2599,7 @@
       "release_observation": {
         "default_branch_revision": "b4f7bfb5a4e6792914b8f1dad2ba45d4293f2d2f",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2631,7 +2631,7 @@
       "release_observation": {
         "default_branch_revision": "84d9a9e146b8bb7ac0a7813a4282ae2b00130270",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2660,7 +2660,7 @@
       "release_observation": {
         "default_branch_revision": "c4b7ef8f3523f694c72451b6242ea88d1f46aa1d",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
@@ -2689,7 +2689,7 @@
       "release_observation": {
         "default_branch_revision": "fabadcc878a1d8271483407050ddce9e0a7ec448",
         "latest_release": null,
-        "observed_at": "2026-09-25T15:23:46+00:00",
+        "observed_at": "2026-09-25T15:30:08+00:00",
         "package_registry_status": "not_checked_by_this_github_refresh",
         "refresh_status": "current",
         "release_status": "no_published_github_release",
