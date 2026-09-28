@@ -755,7 +755,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -810,7 +810,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -862,7 +862,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -910,7 +910,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -960,7 +960,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1007,7 +1007,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1447,7 +1447,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1487,7 +1487,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1538,7 +1538,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1579,7 +1579,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1620,7 +1620,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1663,7 +1663,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1704,7 +1704,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1745,7 +1745,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1786,7 +1786,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1827,7 +1827,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1868,7 +1868,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1911,7 +1911,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1946,11 +1946,11 @@ License: Apache-2.0
 
 ソース版・宣言バージョン: a58869e2488bed9550b006d261601240357b2b99 / 0.1.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: newer_source_not_editorially_reviewed
 
-確認したGitHubリリース: v0.1.0 · 2026-09-25T14:54:25Z
+確認したGitHubリリース: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-09-25T15:30:08+00:00 · current
+Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
 
 License: Apache-2.0
 
@@ -1969,10 +1969,11 @@ Interface schema identity / スキーマ識別子: urn:checkedflow:agent-request
 導入案内: ホストの許可と前提確認後に固定版の上流手順を参照。宣言ソース版と観測GitHubリリースは別であり、PyPI成果物の導入・独立検証は本作業で行っていない。
 
 - [Repository](https://github.com/kadubon/checkedflow)
-- [Observed release](https://github.com/kadubon/checkedflow/releases/tag/v0.1.0)
-- [checkedflow-0.1.0-py3-none-any.whl](https://github.com/kadubon/checkedflow/releases/download/v0.1.0/checkedflow-0.1.0-py3-none-any.whl)
-- [checkedflow-0.1.0.tar.gz](https://github.com/kadubon/checkedflow/releases/download/v0.1.0/checkedflow-0.1.0.tar.gz)
-- [SHA256SUMS.json](https://github.com/kadubon/checkedflow/releases/download/v0.1.0/SHA256SUMS.json)
+- [Observed release](https://github.com/kadubon/checkedflow/releases/tag/v0.2.0)
+- [checkedflow-0.2.0-py3-none-any.whl](https://github.com/kadubon/checkedflow/releases/download/v0.2.0/checkedflow-0.2.0-py3-none-any.whl)
+- [checkedflow-0.2.0.tar.gz](https://github.com/kadubon/checkedflow/releases/download/v0.2.0/checkedflow-0.2.0.tar.gz)
+- [release-0.2.0-public-verification.json](https://github.com/kadubon/checkedflow/releases/download/v0.2.0/release-0.2.0-public-verification.json)
+- [SHA256SUMS.json](https://github.com/kadubon/checkedflow/releases/download/v0.2.0/SHA256SUMS.json)
 - [e-checkedflow-readme](https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/README.md)
 - [e-checkedflow-package](https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/pyproject.toml)
 - [Apache-2.0 license](https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/LICENSE)
