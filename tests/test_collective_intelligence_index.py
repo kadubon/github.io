@@ -194,7 +194,7 @@ class IndexTests(unittest.TestCase):
         self.assertEqual(len(audit), sum(self.model['scanned_counts'].values()))
         self.assertEqual(len({a['source_catalog_id'] for a in audit}), len(audit))
         self.assertEqual(sum(r['kind'] == 'paper' for r in self.model['resources']), 19)
-        self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 19)
+        self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 20)
 
     def test_checkedflow_is_supporting_without_route_or_integration_promotion(self):
         selected = [r for r in self.model['resources'] if r['id'] == 'sw-checkedflow']
@@ -216,7 +216,28 @@ class IndexTests(unittest.TestCase):
             self.assertEqual(entry['observed_at'], '2026-09-26')
         upstream = next(e for e in evidence if e['id'] == 'e-checkedflow-validation')
         self.assertEqual(upstream['origin'], 'upstream_reported')
-        self.assertEqual(len(self.model['resources']), 38)
+        self.assertEqual(len(self.model['resources']), 39)
+
+    def test_cio_candidate_keeps_authority_and_evidence_boundaries(self):
+        r = next(r for r in self.model['resources'] if r['id'] == 'sw-cio')
+        self.assertEqual((r['tier'], r['source_catalog_id']),
+                         ('supporting', 'kadubon/collective-intelligence-overlay'))
+        self.assertEqual(r['software']['source_version'], '0.5.0')
+        self.assertIn('candidate', r['summary']['en'])
+        self.assertIn('assess_stock', r['software']['effects']['en'])
+        self.assertEqual(r['software']['license_spdx'], 'Apache-2.0')
+        for p in self.model['problems']:
+            self.assertNotIn(r['id'], p['first_reads'])
+            self.assertEqual(r['id'] in p['relevant_resource_ids'], p['id'] in r['problem_ids'])
+        self.assertFalse(any(r['id'] in (edge['source'], edge['target']) for edge in self.model['relations']))
+        evidence = [e for e in self.model['evidence'] if e['id'] in r['evidence_refs']]
+        self.assertEqual(len(evidence), len(r['evidence_refs']))
+        for entry in evidence:
+            self.assertEqual(entry['revision'], r['software']['source_revision'])
+            self.assertIn('/blob/' + entry['revision'] + '/', entry['url'])
+            self.assertEqual(entry['observed_at'], '2026-10-04')
+        self.assertEqual(next(e for e in evidence if e['id'] == 'e-cio-validation')['origin'],
+                         'upstream_reported')
 
     def test_bilingual_seed_coverage(self):
         rows = coverage.audit(self.model)
@@ -269,7 +290,9 @@ class IndexTests(unittest.TestCase):
 
     def test_review_dates_are_scoped(self):
         for r in self.model['resources']:
-            if r['id'] == 'sw-checkedflow':
+            if r['id'] == 'sw-cio':
+                self.assertEqual(r['last_reviewed_at'], '2026-10-04')
+            elif r['id'] == 'sw-checkedflow':
                 self.assertEqual(r['last_reviewed_at'], '2026-09-26')
             elif r['id'] in {'sw-cmgl', 'sw-memoryflow', 'sw-pfg', 'sw-fost', 'sw-atrb', 'sw-oversight'}:
                 self.assertEqual(r['last_reviewed_at'], '2026-09-24')

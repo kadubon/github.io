@@ -32,7 +32,7 @@ as unresolved. Distinct CGT supplements must not be invented as separate DOI
 records or collapsed into a single claimed implementation. No exact Boundary
 Exchange title/DOI was resolved in the scanned catalogue.
 
-The original website license remains CC BY 4.0. The 19 inspected OSS licenses
+The original website license remains CC BY 4.0. The 20 inspected OSS licenses
 are Apache-2.0. The Audit-Closed repository separately licenses its bundled
 protocol paper CC BY 4.0. Repository metadata for other projects is not
 overwritten with a blanket license assertion.
@@ -156,7 +156,7 @@ and the optional [llms.txt proposal](https://llmstxt.org/).
 
 ## Symptom routing (schema 1.1, 2026-09-24)
 
-The current selection has 19 papers and 19 OSS resources. Six additional
+The current selection has 19 papers and 20 OSS resources. Six additional
 supporting repositories received a bounded source review on 2026-09-24;
 [the generated coverage report](collective-intelligence-coverage.md) records
 exact revisions, declared source versions, selection reasons and limitations.
@@ -208,9 +208,9 @@ downloads. Essential content is HTML/Markdown; no JavaScript is required.
 Baseline: `a7350ec38efcc3dddc2a960a648d0ccfc9081544`, schema 1.1,
 modified 2026-09-24, 19 papers + 18 OSS = 37 resources, 27 problem routes,
 eight symptom groups, 168 bilingual seed pairs and five unresolved intents.
-The current selection is 19 papers + 19 OSS = 38 resources. The initial
+After the CheckedFlow addition, selection was 19 papers + 19 OSS = 38 resources. The initial
 233-publication/54-repository screening remains a historical observation;
-the cumulative corpus audit now covers 233 publication records and 55 repositories.
+the cumulative corpus audit then covered 233 publication records and 55 repositories.
 The six-resource review on 2026-09-24 and this additional review have separate dates.
 
 The normal online catalog generator discovered the public, non-fork GitHub
@@ -246,3 +246,35 @@ CheckedFlow was not installed or executed. Its finite demonstration and upstream
 release tests establish neither production readiness, real organizational
 independence, general causal acceleration, nor AGI/ASI. Source review is not a
 reproduction or a universal correctness proof.
+
+## Collective Intelligence Overlay addition (2026-10-04)
+
+The existing catalog identity `kadubon/collective-intelligence-overlay` is selected
+as supporting resource `sw-cio`. Selection now contains 19 papers + 20 OSS = 39
+resources; the cumulative corpus audit covers 233 publications and 56 repositories.
+Normal catalog/release refresh preserves the separate factual metadata authority.
+No publication, DOI, bibliography entry or works.html software identity is invented.
+
+Reviewed source is `e830a6a54a22ba8190a64e0b184d461103287ee3`, declaring Python
+>=3.12, Apache-2.0 and an unpublished 0.5.0 candidate. The observed published
+GitHub release is a separate field, not evidence that this candidate was released.
+Eleven immutable, SHA-256-bound records cover README, package metadata, license,
+lifecycle concepts/reference, architecture, security, tutorial, handoff source,
+regression test source and the upstream implementation/verification register.
+The latter is attributed as upstream-reported; no upstream software was installed
+or executed. Final native candidate gates remained pending at this revision.
+
+The primary role is reusable-abstraction, with evidence-and-verification and
+capability-accounting. Resource-side associations use existing reuse, authority,
+obligations, accounting and interchange routes. Problem definitions, first reads,
+aliases, roles, groups, relations, read paths, schema and coverage fixture remain
+unchanged. There are still 27 routes, eight groups and five unresolved intents;
+163 of 168 bilingual coverage seeds match in each language. No inter-project
+integration edge is inferred from shared A2A/MCP vocabulary.
+
+Read-only lifecycle projections preserve unknowns, clocks, residuals and original
+provenance. Explicit assess_stock instead invokes qualification and saves Decisions
+and costs. Receiver-local policy and use-time execution gates remain authoritative.
+Copies, endpoint stock differences and model-free tutorial results do not measure
+functional novelty, causal contribution, intelligence growth or CIO accumulation
+advantage. The source register retains superseded failures and pending gates.

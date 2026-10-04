@@ -2,7 +2,7 @@
   "$schema": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
   "schema_version": "1.1",
   "canonical_url": "https://kadubon.github.io/github.io/collective-intelligence-index.json",
-  "modified_at": "2026-09-26",
+  "modified_at": "2026-10-04",
   "reviewed_at": "2026-09-21",
   "digest_definition": "SHA-256 of UTF-8 JSON of the complete registry excluding content_digest; sorted keys, no insignificant spaces, unescaped Unicode, no NaN.",
   "identity": {
@@ -1417,7 +1417,7 @@
             "tag": "v1.9.0",
             "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1575,7 +1575,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1729,7 +1729,7 @@
             "tag": "v1.3.0",
             "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1882,7 +1882,7 @@
             "tag": "v0.5.0",
             "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2030,7 +2030,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2185,7 +2185,7 @@
             "tag": "v1.0.1",
             "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2317,7 +2317,7 @@
         "release_observation": {
           "default_branch_revision": "dddaea42073fc9629122cdb798f547c5d6a116e9",
           "latest_release": null,
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -2459,7 +2459,7 @@
             "tag": "v1.2.0",
             "url": "https://github.com/kadubon/oasg/releases/tag/v1.2.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2594,7 +2594,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2730,7 +2730,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2864,7 +2864,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2976,7 +2976,7 @@
             "tag": "v1.1.1",
             "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3091,7 +3091,7 @@
             "tag": "v1.1.2",
             "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3203,7 +3203,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3318,7 +3318,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3432,7 +3432,7 @@
             "tag": "v2.0.0",
             "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3548,7 +3548,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3654,7 +3654,7 @@
         "release_observation": {
           "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
           "latest_release": null,
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -3799,7 +3799,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/checkedflow/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-09-28T09:48:05+00:00",
+          "observed_at": "2026-10-04T09:02:27+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3812,6 +3812,149 @@
         "when_not_to_use": {
           "en": "Experimental finite reference runtime; upstream demonstration covers 31 inputs. Four colocated nodes do not establish independent organizations. A signature is not external truth; transport credentials are not command authority; consensus order is not verifier truth. Work receipts and protocol task completion are not capability acceptance. Generated source is not verified source, and verified finite behavior is not universal program correctness. Declared work units are not measured CPU time; copies are not new capability stock; unknown outcomes are not checked failures. A2A/MCP interoperability is not new scientific evidence. Tested release workflows do not establish production readiness. No general causal acceleration, AGI or ASI follows; a verifier veto can block artifact reuse despite consensus progress.",
           "ja": "実験的な有限参照ランタイムで、上流の実証範囲は31入力。同一環境上の4ノードは実組織の独立性を確立しない。署名は外界の真実ではなく、転送資格情報は命令権限ではなく、合意順序は検証器の真実ではない。作業受領証やプロトコル上の課題完了は能力受理ではない。生成ソースは検証済みソースではなく、有限動作の検証は普遍的なプログラム正当性ではない。宣言作業単位は実測CPU時間ではなく、複製は新たな能力資本ではなく、結果不明は検査済み失敗ではない。A2A/MCP相互運用は新たな科学的根拠ではない。試験済み公開手順は本番適性を確立しない。一般的な因果的加速・AGI・ASIは導かれず、合意が進んでも検証者の拒否が再利用を阻止し得る。"
+        }
+      }
+    },
+    {
+      "id": "sw-cio",
+      "kind": "software",
+      "source_catalog_id": "kadubon/collective-intelligence-overlay",
+      "tier": "supporting",
+      "primary_role": "reusable-abstraction",
+      "roles": [
+        "reusable-abstraction",
+        "evidence-and-verification",
+        "capability-accounting"
+      ],
+      "summary": {
+        "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.",
+        "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。確認ソースは未公開の0.5.0候補を宣言し、公開リリース情報とは区別する。"
+      },
+      "relevance_reason": {
+        "en": "Connects exact candidates, checks, uses, costs, withdrawals and unresolved obligations without equating generation, verification and reusable capability.",
+        "ja": "厳密な候補・検査・利用・費用・撤回・未解決義務を関連付け、生成・検証・再利用可能能力を同一視しない。"
+      },
+      "limitations": {
+        "en": "Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
+        "ja": "実験的ソース候補で、確認版では最終ネイティブ公開検証が未完。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
+      },
+      "evidence_refs": [
+        "e-cio-readme",
+        "e-cio-package",
+        "e-cio-license",
+        "e-cio-concepts",
+        "e-cio-reference",
+        "e-cio-architecture",
+        "e-cio-security",
+        "e-cio-tutorial",
+        "e-cio-handoff",
+        "e-cio-tests",
+        "e-cio-validation"
+      ],
+      "problem_ids": [
+        "reuse",
+        "authority",
+        "obligations",
+        "accounting",
+        "interchange"
+      ],
+      "ownership": "takahashi",
+      "alternate_names": [],
+      "language": [
+        "en"
+      ],
+      "source_state": "reviewed_snapshot",
+      "last_reviewed_at": "2026-10-04",
+      "unsupported_claims": {
+        "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
+        "ja": "計上恒等式は、同一単位・範囲内で期末蓄積 = 期首蓄積 + 受理された一意の追加 − 損失。サービス再利用、コピー、外部投入は別座標。普遍的な流入・損失比は仮定せず、損失ゼロなら未定義にもなる。スペクトル下界はモデルの前提に依存する。ハッシュはバイト列を結び付けるが真実を証明しない。リリースは本番保証ではない。不明値は理由付きnullで好都合なゼロではない。大域的自己加速の観測、AGI・ASI検出、到来予測は確立していない。"
+      },
+      "related_resource_ids": [],
+      "name": "collective-intelligence-overlay",
+      "canonical_url": "https://github.com/kadubon/collective-intelligence-overlay",
+      "software": {
+        "source_revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+        "source_version": "0.5.0",
+        "source_version_status": "declared",
+        "license_spdx": "Apache-2.0",
+        "license_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE",
+        "docs_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+        "interfaces": {
+          "CLI": "collective-intelligence-overlay = collective_intelligence_overlay.cli:main",
+          "Python": "snapshot_from_material; inspect_lifecycle; observe_contributions; observe_growth; build_handoff; assess_stock",
+          "Store": "read_lifecycle_page; export_originals",
+          "Optional transports": "MAF / A2A / MCP with separately configured owner policy"
+        },
+        "inputs": {
+          "en": "Exact capabilities, original signed records, receiver-local Decisions, receipts, policy coordinates, finite stock observations and explicit source/receipt clocks.",
+          "ja": "厳密な能力・元の署名レコード・受信側Decision・受領証・方針座標・有限のストック観測・明示的な発生／受信時計。"
+        },
+        "outputs": {
+          "en": "Lifecycle, contribution, residual, growth and handoff views; exact original-byte exports. Projection digests differ from DSSE payload digests; handoff grants no authority.",
+          "ja": "ライフサイクル・寄与・残余・成長・引継ぎのビューと元バイトの厳密な出力。投影ダイジェストはDSSEペイロードと異なり、引継ぎは権限を付与しない。"
+        },
+        "prerequisites": {
+          "en": "Python >=3.12. Service paths require owner-controlled PostgreSQL, OPA, keys, policies and installed checkers. Agent/model extras are optional. File owner equality is not authentication.",
+          "ja": "Python >=3.12。サービス経路には所有者管理のPostgreSQL・OPA・鍵・方針・導入済み検査器が必要。エージェント・モデル依存は任意。ファイルの所有者文字列一致は認証ではない。"
+        },
+        "effects": {
+          "en": "Lifecycle inspection/export/handoff are read-only projections. Explicit assess_stock performs qualification and saves Decisions/costs. Separately authorized Executor and agent paths can execute tools and contact configured services; inspection grants no such permission.",
+          "ja": "ライフサイクル確認・出力・引継ぎは読取投影。明示的assess_stockは適格性を判定しDecision・費用を保存する。別途許可されたExecutor・エージェント経路はツール実行・設定サービス通信を行い得るが、確認処理はその権限を付与しない。"
+        },
+        "first_inspection_steps": {
+          "en": "Read pinned lifecycle concepts/reference, architecture, security and the candidate validation register. Inspect original bytes, receiver policy, coverage, clocks and residuals before assessing stock or considering execution.",
+          "ja": "固定版のライフサイクル概念・参照資料・構造・安全性・候補検証記録を読む。ストック判定や実行検討前に元バイト・受信側方針・観測範囲・時計・残余を確認する。"
+        },
+        "installation_guidance": {
+          "en": "Follow pinned upstream instructions only after host authorization. The inspected 0.5.0 source candidate is distinct from observed GitHub releases; this review installed no package and independently verified no PyPI artifact.",
+          "ja": "ホストの許可後に固定版の上流手順を参照。確認した0.5.0ソース候補は観測GitHubリリースと異なる。本レビューはパッケージを導入せずPyPI成果物を独立検証していない。"
+        },
+        "maturity": {
+          "en": "Experimental supporting reference; upstream validation is attributed and version-bound.",
+          "ja": "実験的な補助参照資料。上流検証は帰属と版を限定する。"
+        },
+        "agent_entrypoints": [
+          "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md"
+        ],
+        "commands": [],
+        "related_paper": null,
+        "interface_contracts": [
+          {
+            "source_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+            "schema_identity": null,
+            "scope": "Bounded lifecycle projections, exact original-byte export and explicit stock assessment; no new wire Record or execution authority."
+          }
+        ],
+        "release_observation": {
+          "default_branch_revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+          "latest_release": {
+            "assets": [
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-asset-manifest.json",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-native-gate.json",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-report.en.md",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-report.ja.md",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-research-v1.zip",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/collective_intelligence_overlay-0.4.4-py3-none-any.whl",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/collective_intelligence_overlay-0.4.4.tar.gz",
+              "https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/SHA256SUMS.txt"
+            ],
+            "published_at": "2026-10-04T04:14:19Z",
+            "tag": "v0.4.4",
+            "url": "https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.4.4"
+          },
+          "observed_at": "2026-10-04T09:02:27+00:00",
+          "package_registry_status": "not_checked_by_this_github_refresh",
+          "refresh_status": "current",
+          "release_status": "observed",
+          "source_url": "https://github.com/kadubon/collective-intelligence-overlay"
+        },
+        "when_to_use": {
+          "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.",
+          "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。確認ソースは未公開の0.5.0候補を宣言し、公開リリース情報とは区別する。"
+        },
+        "when_not_to_use": {
+          "en": "Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
+          "ja": "実験的ソース候補で、確認版では最終ネイティブ公開検証が未完。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
         }
       }
     }
@@ -4354,7 +4497,8 @@
         "sw-ccr",
         "sw-vek",
         "sw-cait",
-        "sw-checkedflow"
+        "sw-checkedflow",
+        "sw-cio"
       ]
     },
     {
@@ -4493,7 +4637,8 @@
       "relevant_resource_ids": [
         "paper-alt",
         "sw-alt",
-        "paper-pcs"
+        "paper-pcs",
+        "sw-cio"
       ]
     },
     {
@@ -4813,7 +4958,8 @@
         "sw-pfg",
         "sw-pic",
         "sw-ccr",
-        "sw-checkedflow"
+        "sw-checkedflow",
+        "sw-cio"
       ]
     },
     {
@@ -5456,7 +5602,8 @@
         "sw-pic",
         "paper-ecpt",
         "paper-operational-claims",
-        "sw-checkedflow"
+        "sw-checkedflow",
+        "sw-cio"
       ]
     },
     {
@@ -5727,7 +5874,8 @@
         "paper-cait",
         "sw-cait",
         "paper-growth",
-        "sw-checkedflow"
+        "sw-checkedflow",
+        "sw-cio"
       ]
     },
     {
@@ -8737,6 +8885,149 @@
         "en": "Inspected code authenticates and scope-checks before submitting once, confirms the committed digest, acknowledges authenticated duplicates and retains ambiguous transport outcomes as OUTCOME_UNKNOWN. Source inspection only.",
         "ja": "確認したコードは認証・範囲検査後に一度送信し、確定ダイジェストを確認、認証済み重複を応答し、曖昧な転送結果をOUTCOME_UNKNOWNに保持。ソース確認のみ。"
       }
+    },
+    {
+      "id": "e-cio-readme",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/README.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "README.md — Lifecycle overview and candidate status",
+      "sha256": "efabf3532e469b7dcc5d8cbc68affdb26537c62437d2a16a363ebb104ac9364c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "0.5.0 is a source candidate; evidence sharing does not transfer receiver admission authority.",
+        "ja": "0.5.0はソース候補。証拠共有は受信側の採用権限を移転しない。"
+      }
+    },
+    {
+      "id": "e-cio-package",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/pyproject.toml",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "pyproject.toml — project version, requires-python, scripts, optional-dependencies",
+      "sha256": "5d12747060401077c19d55a8bd182dbf26794894f6999d76a7f58aa5a76dcba6",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares version 0.5.0, Python >=3.12, CLI and optional agent/model profiles.",
+        "ja": "0.5.0、Python >=3.12、CLI、任意のエージェント・モデル構成を宣言。"
+      }
+    },
+    {
+      "id": "e-cio-license",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "LICENSE — Apache License Version 2.0",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text.",
+        "ja": "Apache-2.0ライセンス本文。"
+      }
+    },
+    {
+      "id": "e-cio-concepts",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-concepts.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-concepts.md — Observation types and authority boundaries",
+      "sha256": "e5db28a69fefa3a0be4424cb29920192e0cb0722c1c5de77b4c7758e616c4bf9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Lifecycle, contribution, residual, growth and handoff are bounded observations, not global authority or causal credit.",
+        "ja": "ライフサイクル・寄与・残余・成長・引継ぎは有限の観測であり、全体権限や因果的貢献ではない。"
+      }
+    },
+    {
+      "id": "e-cio-reference",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-reference.md — Public APIs, original bytes, limits and clocks",
+      "sha256": "3341cb0c02d998e244a70dffff2ec9266ae12bce6112105fd1228fe5c87b98ff",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Read projections preserve unknowns and exact provenance; assess_stock explicitly qualifies and saves Decisions/costs.",
+        "ja": "読取投影は不明値と厳密な出所を保持。assess_stockは明示的に適格性を判定しDecisionと費用を保存する。"
+      }
+    },
+    {
+      "id": "e-cio-architecture",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/architecture.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/architecture.md — Storage, admission and transport responsibilities",
+      "sha256": "11855fc21cc2bd45e5fe6637b240bf051527722e488c2a7f12cd9aef9010200d",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "PostgreSQL Store, OPA and use-time Executor gates retain authority; A2A extension identifiers are not external certification.",
+        "ja": "PostgreSQL Store・OPA・利用時Executorゲートが権限を保持。A2A拡張識別子は外部認証ではない。"
+      }
+    },
+    {
+      "id": "e-cio-security",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/security.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/security.md — Trusted computing base and deployment limits",
+      "sha256": "4c17b2bdf4cc55e9b1e38efc254cee6273c021db9219d3121d7b50d84fc60012",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Host, database operator, installed checkers, policy, keys and clock are trusted; received code is not host execution authority.",
+        "ja": "ホスト・DB管理者・導入済み検査器・方針・鍵・時計を信頼。受信コードはホスト実行権限を持たない。"
+      }
+    },
+    {
+      "id": "e-cio-tutorial",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-tutorial.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-tutorial.md — Model-free PostgreSQL/OPA example",
+      "sha256": "6142d0716f212d5f5fbd1c0167beb757cd555a1cbae1fbe1c023fd26749c9b71",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Tutorial specifies local acceptance/rejection, receipts and withdrawal, with no model generation or functional growth estimate. Not executed here.",
+        "ja": "例はローカル採否・受領証・撤回を扱い、モデル生成や機能的成長の推定を行わない。本作業では未実行。"
+      }
+    },
+    {
+      "id": "e-cio-handoff",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/src/collective_intelligence_overlay/lifecycle.py",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "src/collective_intelligence_overlay/lifecycle.py — build_handoff",
+      "sha256": "eb75fb0674c9df4e874a2b2f647875d2300b55e6ffd35751c9cf74ff166a07dd",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Inspected code requires visible receipt/Decision basis for received/assessed states and an actual reuse receipt for REUSE to ACCOUNT.",
+        "ja": "確認したコードはreceived/assessedに可視の受信・Decision根拠、REUSEからACCOUNTに実際の再利用受領証を要求。"
+      }
+    },
+    {
+      "id": "e-cio-tests",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/tests/unit/test_lifecycle.py",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "tests/unit/test_lifecycle.py — test_read_only_missing_partial_and_handoff_preserve_residuals; test_handoff_receipt_state_needs_matching_actual_observation",
+      "sha256": "c5af8dd5c7bb4a7c5faeb73fb6f69e3f3c99342b43346219e77bd79d0b4d8297",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Test source asserts residual preservation, no granted authority and rejection of unsupported handoff states; not run by this review.",
+        "ja": "試験ソースは残余保持・権限非付与・根拠のない引継ぎ状態の拒否を確認する。本レビューでは実行していない。"
+      }
+    },
+    {
+      "id": "e-cio-validation",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-050-implementation.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-050-implementation.md — Required regression evidence; superseded candidates and pending native gate",
+      "sha256": "380800d056a3cb3c404e9e05f165f1d5e80442d5830f2a816af993076db43815",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "Upstream reports corrected focused tests but retains superseded failures and pending final native gates. No model experiment or measured intelligence growth.",
+        "ja": "上流は修正後の限定試験を報告する一方、旧候補の失敗と未完の最終ネイティブ検証を保持。モデル実験や知能成長の実測ではない。"
+      }
     }
   ],
   "corpus_audit": [
@@ -10467,6 +10758,12 @@
       "decision": "supporting",
       "review_depth": "readme_contract_license_interfaces",
       "reason": "Added after the initial 2026-09-21 screening and 2026-09-24 supporting review: bounded source-only review on 2026-09-26 at a58869e2488bed9550b006d261601240357b2b99. Finite integration reference for existing routes; no native execution, reproduced validation, production assurance or tested inter-project relationship."
+    },
+    {
+      "source_catalog_id": "kadubon/collective-intelligence-overlay",
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "Source-only review on 2026-10-04 at e830a6a54a22ba8190a64e0b184d461103287ee3. Receiver-qualified reuse and bounded lifecycle observations; unpublished source candidate distinguished from releases, upstream tests not reproduced and no tested inter-project edges."
     }
   ],
   "identity_issues": [
@@ -10493,7 +10790,7 @@
   ],
   "scanned_counts": {
     "research_records": 233,
-    "repositories": 55
+    "repositories": 56
   },
   "agent_routing": {
     "authority": "Advisory metadata under consuming host policy; no execution authority.",
@@ -10529,5 +10826,5 @@
       "incident-response"
     ]
   },
-  "content_digest": "f44ad9480e48c1524d05125d0e096555b4c407f0a12950f61375e217415ec013"
+  "content_digest": "49f85b8b549daed58e12ba75242167aa536425505668217bcfc481e6a54d5814"
 }

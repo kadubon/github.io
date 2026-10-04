@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "modified_at": "2026-09-26",
+  "modified_at": "2026-10-04",
   "resources": [
     {
       "id": "paper-growth",
@@ -1192,6 +1192,50 @@
         "retry-recovery",
         "obligations",
         "accounting"
+      ]
+    },
+    {
+      "id": "sw-cio",
+      "kind": "software",
+      "source_catalog_id": "kadubon/collective-intelligence-overlay",
+      "tier": "supporting",
+      "primary_role": "reusable-abstraction",
+      "roles": [
+        "reusable-abstraction",
+        "evidence-and-verification",
+        "capability-accounting"
+      ],
+      "summary": {
+        "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.",
+        "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。確認ソースは未公開の0.5.0候補を宣言し、公開リリース情報とは区別する。"
+      },
+      "relevance_reason": {
+        "en": "Connects exact candidates, checks, uses, costs, withdrawals and unresolved obligations without equating generation, verification and reusable capability.",
+        "ja": "厳密な候補・検査・利用・費用・撤回・未解決義務を関連付け、生成・検証・再利用可能能力を同一視しない。"
+      },
+      "limitations": {
+        "en": "Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
+        "ja": "実験的ソース候補で、確認版では最終ネイティブ公開検証が未完。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
+      },
+      "evidence_refs": [
+        "e-cio-readme",
+        "e-cio-package",
+        "e-cio-license",
+        "e-cio-concepts",
+        "e-cio-reference",
+        "e-cio-architecture",
+        "e-cio-security",
+        "e-cio-tutorial",
+        "e-cio-handoff",
+        "e-cio-tests",
+        "e-cio-validation"
+      ],
+      "problem_ids": [
+        "reuse",
+        "authority",
+        "obligations",
+        "accounting",
+        "interchange"
       ]
     }
   ],

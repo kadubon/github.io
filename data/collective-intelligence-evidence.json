@@ -2011,6 +2011,149 @@
         "en": "Inspected code authenticates and scope-checks before submitting once, confirms the committed digest, acknowledges authenticated duplicates and retains ambiguous transport outcomes as OUTCOME_UNKNOWN. Source inspection only.",
         "ja": "確認したコードは認証・範囲検査後に一度送信し、確定ダイジェストを確認、認証済み重複を応答し、曖昧な転送結果をOUTCOME_UNKNOWNに保持。ソース確認のみ。"
       }
+    },
+    {
+      "id": "e-cio-readme",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/README.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "README.md — Lifecycle overview and candidate status",
+      "sha256": "efabf3532e469b7dcc5d8cbc68affdb26537c62437d2a16a363ebb104ac9364c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "0.5.0 is a source candidate; evidence sharing does not transfer receiver admission authority.",
+        "ja": "0.5.0はソース候補。証拠共有は受信側の採用権限を移転しない。"
+      }
+    },
+    {
+      "id": "e-cio-package",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/pyproject.toml",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "pyproject.toml — project version, requires-python, scripts, optional-dependencies",
+      "sha256": "5d12747060401077c19d55a8bd182dbf26794894f6999d76a7f58aa5a76dcba6",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares version 0.5.0, Python >=3.12, CLI and optional agent/model profiles.",
+        "ja": "0.5.0、Python >=3.12、CLI、任意のエージェント・モデル構成を宣言。"
+      }
+    },
+    {
+      "id": "e-cio-license",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "LICENSE — Apache License Version 2.0",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license text.",
+        "ja": "Apache-2.0ライセンス本文。"
+      }
+    },
+    {
+      "id": "e-cio-concepts",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-concepts.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-concepts.md — Observation types and authority boundaries",
+      "sha256": "e5db28a69fefa3a0be4424cb29920192e0cb0722c1c5de77b4c7758e616c4bf9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Lifecycle, contribution, residual, growth and handoff are bounded observations, not global authority or causal credit.",
+        "ja": "ライフサイクル・寄与・残余・成長・引継ぎは有限の観測であり、全体権限や因果的貢献ではない。"
+      }
+    },
+    {
+      "id": "e-cio-reference",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-reference.md — Public APIs, original bytes, limits and clocks",
+      "sha256": "3341cb0c02d998e244a70dffff2ec9266ae12bce6112105fd1228fe5c87b98ff",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Read projections preserve unknowns and exact provenance; assess_stock explicitly qualifies and saves Decisions/costs.",
+        "ja": "読取投影は不明値と厳密な出所を保持。assess_stockは明示的に適格性を判定しDecisionと費用を保存する。"
+      }
+    },
+    {
+      "id": "e-cio-architecture",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/architecture.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/architecture.md — Storage, admission and transport responsibilities",
+      "sha256": "11855fc21cc2bd45e5fe6637b240bf051527722e488c2a7f12cd9aef9010200d",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "PostgreSQL Store, OPA and use-time Executor gates retain authority; A2A extension identifiers are not external certification.",
+        "ja": "PostgreSQL Store・OPA・利用時Executorゲートが権限を保持。A2A拡張識別子は外部認証ではない。"
+      }
+    },
+    {
+      "id": "e-cio-security",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/security.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/security.md — Trusted computing base and deployment limits",
+      "sha256": "4c17b2bdf4cc55e9b1e38efc254cee6273c021db9219d3121d7b50d84fc60012",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Host, database operator, installed checkers, policy, keys and clock are trusted; received code is not host execution authority.",
+        "ja": "ホスト・DB管理者・導入済み検査器・方針・鍵・時計を信頼。受信コードはホスト実行権限を持たない。"
+      }
+    },
+    {
+      "id": "e-cio-tutorial",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-tutorial.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-tutorial.md — Model-free PostgreSQL/OPA example",
+      "sha256": "6142d0716f212d5f5fbd1c0167beb757cd555a1cbae1fbe1c023fd26749c9b71",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Tutorial specifies local acceptance/rejection, receipts and withdrawal, with no model generation or functional growth estimate. Not executed here.",
+        "ja": "例はローカル採否・受領証・撤回を扱い、モデル生成や機能的成長の推定を行わない。本作業では未実行。"
+      }
+    },
+    {
+      "id": "e-cio-handoff",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/src/collective_intelligence_overlay/lifecycle.py",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "src/collective_intelligence_overlay/lifecycle.py — build_handoff",
+      "sha256": "eb75fb0674c9df4e874a2b2f647875d2300b55e6ffd35751c9cf74ff166a07dd",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Inspected code requires visible receipt/Decision basis for received/assessed states and an actual reuse receipt for REUSE to ACCOUNT.",
+        "ja": "確認したコードはreceived/assessedに可視の受信・Decision根拠、REUSEからACCOUNTに実際の再利用受領証を要求。"
+      }
+    },
+    {
+      "id": "e-cio-tests",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/tests/unit/test_lifecycle.py",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "tests/unit/test_lifecycle.py — test_read_only_missing_partial_and_handoff_preserve_residuals; test_handoff_receipt_state_needs_matching_actual_observation",
+      "sha256": "c5af8dd5c7bb4a7c5faeb73fb6f69e3f3c99342b43346219e77bd79d0b4d8297",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Test source asserts residual preservation, no granted authority and rejection of unsupported handoff states; not run by this review.",
+        "ja": "試験ソースは残余保持・権限非付与・根拠のない引継ぎ状態の拒否を確認する。本レビューでは実行していない。"
+      }
+    },
+    {
+      "id": "e-cio-validation",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-050-implementation.md",
+      "revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "observed_at": "2026-10-04",
+      "locator": "docs/lifecycle-050-implementation.md — Required regression evidence; superseded candidates and pending native gate",
+      "sha256": "380800d056a3cb3c404e9e05f165f1d5e80442d5830f2a816af993076db43815",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "Upstream reports corrected focused tests but retains superseded failures and pending final native gates. No model experiment or measured intelligence growth.",
+        "ja": "上流は修正後の限定試験を報告する一方、旧候補の失敗と未完の最終ネイティブ検証を保持。モデル実験や知能成長の実測ではない。"
+      }
     }
   ],
   "software": {
@@ -3133,6 +3276,60 @@
           "source_url": "https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/data/agent-request.schema.json",
           "schema_identity": "urn:checkedflow:agent-request:v1",
           "scope": "Mission-scoped profile/inspect/submit/task shapes; schema validity does not establish signature validity, command authority or capability acceptance."
+        }
+      ]
+    },
+    "sw-cio": {
+      "source_revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
+      "source_version": "0.5.0",
+      "source_version_status": "declared",
+      "license_spdx": "Apache-2.0",
+      "license_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE",
+      "docs_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+      "interfaces": {
+        "CLI": "collective-intelligence-overlay = collective_intelligence_overlay.cli:main",
+        "Python": "snapshot_from_material; inspect_lifecycle; observe_contributions; observe_growth; build_handoff; assess_stock",
+        "Store": "read_lifecycle_page; export_originals",
+        "Optional transports": "MAF / A2A / MCP with separately configured owner policy"
+      },
+      "inputs": {
+        "en": "Exact capabilities, original signed records, receiver-local Decisions, receipts, policy coordinates, finite stock observations and explicit source/receipt clocks.",
+        "ja": "厳密な能力・元の署名レコード・受信側Decision・受領証・方針座標・有限のストック観測・明示的な発生／受信時計。"
+      },
+      "outputs": {
+        "en": "Lifecycle, contribution, residual, growth and handoff views; exact original-byte exports. Projection digests differ from DSSE payload digests; handoff grants no authority.",
+        "ja": "ライフサイクル・寄与・残余・成長・引継ぎのビューと元バイトの厳密な出力。投影ダイジェストはDSSEペイロードと異なり、引継ぎは権限を付与しない。"
+      },
+      "prerequisites": {
+        "en": "Python >=3.12. Service paths require owner-controlled PostgreSQL, OPA, keys, policies and installed checkers. Agent/model extras are optional. File owner equality is not authentication.",
+        "ja": "Python >=3.12。サービス経路には所有者管理のPostgreSQL・OPA・鍵・方針・導入済み検査器が必要。エージェント・モデル依存は任意。ファイルの所有者文字列一致は認証ではない。"
+      },
+      "effects": {
+        "en": "Lifecycle inspection/export/handoff are read-only projections. Explicit assess_stock performs qualification and saves Decisions/costs. Separately authorized Executor and agent paths can execute tools and contact configured services; inspection grants no such permission.",
+        "ja": "ライフサイクル確認・出力・引継ぎは読取投影。明示的assess_stockは適格性を判定しDecision・費用を保存する。別途許可されたExecutor・エージェント経路はツール実行・設定サービス通信を行い得るが、確認処理はその権限を付与しない。"
+      },
+      "first_inspection_steps": {
+        "en": "Read pinned lifecycle concepts/reference, architecture, security and the candidate validation register. Inspect original bytes, receiver policy, coverage, clocks and residuals before assessing stock or considering execution.",
+        "ja": "固定版のライフサイクル概念・参照資料・構造・安全性・候補検証記録を読む。ストック判定や実行検討前に元バイト・受信側方針・観測範囲・時計・残余を確認する。"
+      },
+      "installation_guidance": {
+        "en": "Follow pinned upstream instructions only after host authorization. The inspected 0.5.0 source candidate is distinct from observed GitHub releases; this review installed no package and independently verified no PyPI artifact.",
+        "ja": "ホストの許可後に固定版の上流手順を参照。確認した0.5.0ソース候補は観測GitHubリリースと異なる。本レビューはパッケージを導入せずPyPI成果物を独立検証していない。"
+      },
+      "maturity": {
+        "en": "Experimental supporting reference; upstream validation is attributed and version-bound.",
+        "ja": "実験的な補助参照資料。上流検証は帰属と版を限定する。"
+      },
+      "agent_entrypoints": [
+        "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md"
+      ],
+      "commands": [],
+      "related_paper": null,
+      "interface_contracts": [
+        {
+          "source_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+          "schema_identity": null,
+          "scope": "Bounded lifecycle projections, exact original-byte export and explicit stock assessment; no new wire Record or execution authority."
         }
       ]
     }
@@ -4865,6 +5062,12 @@
       "decision": "supporting",
       "review_depth": "readme_contract_license_interfaces",
       "reason": "Added after the initial 2026-09-21 screening and 2026-09-24 supporting review: bounded source-only review on 2026-09-26 at a58869e2488bed9550b006d261601240357b2b99. Finite integration reference for existing routes; no native execution, reproduced validation, production assurance or tested inter-project relationship."
+    },
+    {
+      "source_catalog_id": "kadubon/collective-intelligence-overlay",
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "Source-only review on 2026-10-04 at e830a6a54a22ba8190a64e0b184d461103287ee3. Receiver-qualified reuse and bounded lifecycle observations; unpublished source candidate distinguished from releases, upstream tests not reproduced and no tested inter-project edges."
     }
   ],
   "identity_issues": [
@@ -4891,6 +5094,6 @@
   ],
   "scanned_counts": {
     "research_records": 233,
-    "repositories": 55
+    "repositories": 56
   }
 }

@@ -1,6 +1,6 @@
 # Collective Intelligence Research and OSS Index
 
-K. Takahashi · 2026-09-26
+K. Takahashi · 2026-10-04
 
 https://kadubon.github.io/github.io/collective-intelligence-index.html
 
@@ -262,7 +262,7 @@ Conditions: Advisory route under host policy. No custom host admission; newer ve
 
 Stop / handoff: No custom host admission; newer versions; unsupported lifecycle or transitive compatibility inference.
 
-Further relevant resources: [sw-cait](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cait) · [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow)
+Further relevant resources: [sw-cait](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cait) · [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
 
 Related problems: [My agent broke after an API update](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-version-and-dependency-drift) · [My MCP agent cannot find or choose the right tool](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-tool-routing) · [My agent is acting with the wrong permissions](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-authority)
 
@@ -308,6 +308,8 @@ Other common phrasings:
 
 - qualified reuse
 - verified != reusable
+
+Further relevant resources: [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
 
 Related problems: [A skill that worked before fails on a new task](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-distribution-shift) · [Did copied artifacts actually add capability?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-accounting) · [A stored workflow may no longer be valid](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-memory)
 
@@ -412,7 +414,7 @@ Other common phrasings:
 - approval vs authority
 - tool discovered vs tool permitted
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
 
 Related problems: [My MCP agent cannot find or choose the right tool](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-tool-routing) · [Untrusted tool or RAG content is changing my agent’s behavior](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-security-boundary) · [I need to stop, contain and recover an agent incident](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-incident-response)
 
@@ -615,7 +617,7 @@ Other common phrasings:
 - generated != verified
 - unknown must remain unknown
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
 
 Related problems: [My agent says done, but the task is not finished](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-completion-and-outcome) · [The citation does not support the agent’s claim](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evidence-support) · [Should I reuse a skill or solve from scratch?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-reuse)
 
@@ -707,7 +709,7 @@ Other common phrasings:
 - credit assignment
 - which agent contributed
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
 
 Related problems: [Should I reuse a skill or solve from scratch?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-reuse) · [Why is my AI agent so expensive?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-cost-and-capacity) · [More agents create duplicate work or overwrite each other](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-coordinate)
 
@@ -762,7 +764,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -817,7 +819,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -869,7 +871,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -917,7 +919,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -967,7 +969,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1014,7 +1016,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1454,7 +1456,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1494,7 +1496,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1545,7 +1547,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1586,7 +1588,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1627,7 +1629,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1670,7 +1672,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1711,7 +1713,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1752,7 +1754,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1793,7 +1795,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1834,7 +1836,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1875,7 +1877,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1918,7 +1920,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1957,7 +1959,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-09-28T09:48:05+00:00 · current
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
 
 License: Apache-2.0
 
@@ -1995,6 +1997,62 @@ Installation guidance: Use pinned upstream source instructions only after host a
 - [Pinned contract](https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/docs/interoperability.md)
 - [Pinned interface schema](https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/data/agent-request.schema.json)
 - [e-checkedflow-gateway](https://github.com/kadubon/checkedflow/blob/a58869e2488bed9550b006d261601240357b2b99/src/checkedflow/agents/gateway.py)
+
+### collective-intelligence-overlay (sw-cio)
+
+Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.
+
+Primary editorial role: reusable-abstraction
+
+Limits / unsupported uses: Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.
+
+Source reviewed: 2026-10-04
+
+Source revision / declared version: e830a6a54a22ba8190a64e0b184d461103287ee3 / 0.5.0
+
+Review state / レビュー状態: reviewed_snapshot
+
+Observed GitHub release: v0.4.4 · 2026-10-04T04:14:19Z
+
+Release observation / リリース確認: 2026-10-04T09:02:27+00:00 · current
+
+License: Apache-2.0
+
+Interface schema identity / スキーマ識別子: null — upstream schema has no $id · Bounded lifecycle projections, exact original-byte export and explicit stock assessment; no new wire Record or execution authority.
+
+Inputs: Exact capabilities, original signed records, receiver-local Decisions, receipts, policy coordinates, finite stock observations and explicit source/receipt clocks.
+
+Outputs: Lifecycle, contribution, residual, growth and handoff views; exact original-byte exports. Projection digests differ from DSSE payload digests; handoff grants no authority.
+
+Prerequisites: Python &gt;=3.12. Service paths require owner-controlled PostgreSQL, OPA, keys, policies and installed checkers. Agent/model extras are optional. File owner equality is not authentication.
+
+Effects and trust boundary: Lifecycle inspection/export/handoff are read-only projections. Explicit assess_stock performs qualification and saves Decisions/costs. Separately authorized Executor and agent paths can execute tools and contact configured services; inspection grants no such permission.
+
+First inspection: Read pinned lifecycle concepts/reference, architecture, security and the candidate validation register. Inspect original bytes, receiver policy, coverage, clocks and residuals before assessing stock or considering execution.
+
+Installation guidance: Follow pinned upstream instructions only after host authorization. The inspected 0.5.0 source candidate is distinct from observed GitHub releases; this review installed no package and independently verified no PyPI artifact.
+
+- [Repository](https://github.com/kadubon/collective-intelligence-overlay)
+- [Observed release](https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.4.4)
+- [cio-044-asset-manifest.json](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-asset-manifest.json)
+- [cio-044-native-gate.json](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-native-gate.json)
+- [cio-044-report.en.md](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-report.en.md)
+- [cio-044-report.ja.md](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-report.ja.md)
+- [cio-044-research-v1.zip](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-research-v1.zip)
+- [collective_intelligence_overlay-0.4.4-py3-none-any.whl](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/collective_intelligence_overlay-0.4.4-py3-none-any.whl)
+- [collective_intelligence_overlay-0.4.4.tar.gz](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/collective_intelligence_overlay-0.4.4.tar.gz)
+- [SHA256SUMS.txt](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/SHA256SUMS.txt)
+- [e-cio-readme](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/README.md)
+- [e-cio-package](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/pyproject.toml)
+- [Apache-2.0 license](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE)
+- [e-cio-concepts](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-concepts.md)
+- [Pinned contract](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md)
+- [e-cio-architecture](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/architecture.md)
+- [e-cio-security](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/security.md)
+- [e-cio-tutorial](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-tutorial.md)
+- [e-cio-handoff](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/src/collective_intelligence_overlay/lifecycle.py)
+- [e-cio-tests](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/tests/unit/test_lifecycle.py)
+- [e-cio-validation](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-050-implementation.md)
 
 ## Proposed evidence-preserving workflow
 
@@ -2325,7 +2383,7 @@ Verification consumes resources even when a result is negative. A deployment con
 
 Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.
 
-Scanned 233 research records and 55 repositories; selected 38 resources.
+Scanned 233 research records and 56 repositories; selected 39 resources.
 
 Boundary Exchange / viability: unresolved — No exact Boundary Exchange title/DOI in the scanned catalogue. Do not invent a paper identity.
 
