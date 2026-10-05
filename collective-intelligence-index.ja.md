@@ -757,7 +757,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -812,7 +812,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -864,7 +864,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -912,7 +912,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -962,7 +962,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1009,7 +1009,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1449,7 +1449,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1489,7 +1489,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1540,7 +1540,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1581,7 +1581,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1622,7 +1622,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1665,7 +1665,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1706,7 +1706,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1747,7 +1747,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1788,7 +1788,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1829,7 +1829,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1870,7 +1870,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1913,7 +1913,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -1952,7 +1952,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -2003,11 +2003,11 @@ Interface schema identity / スキーマ識別子: urn:checkedflow:agent-request
 
 ソース版・宣言バージョン: e830a6a54a22ba8190a64e0b184d461103287ee3 / 0.5.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: newer_source_not_editorially_reviewed
 
-確認したGitHubリリース: v0.4.4 · 2026-10-04T04:14:19Z
+確認したGitHubリリース: v0.5.1 · 2026-10-04T19:24:57Z
 
-Release observation / リリース確認: 2026-10-04T09:07:05+00:00 · current
+Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
 
 License: Apache-2.0
 
@@ -2026,15 +2026,13 @@ Interface schema identity / スキーマ識別子: null — upstream schema has 
 導入案内: ホストの許可後に固定版の上流手順を参照。確認した0.5.0ソース候補は観測GitHubリリースと異なる。本レビューはパッケージを導入せずPyPI成果物を独立検証していない。
 
 - [Repository](https://github.com/kadubon/collective-intelligence-overlay)
-- [Observed release](https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.4.4)
-- [cio-044-asset-manifest.json](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-asset-manifest.json)
-- [cio-044-native-gate.json](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-native-gate.json)
-- [cio-044-report.en.md](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-report.en.md)
-- [cio-044-report.ja.md](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-report.ja.md)
-- [cio-044-research-v1.zip](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/cio-044-research-v1.zip)
-- [collective_intelligence_overlay-0.4.4-py3-none-any.whl](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/collective_intelligence_overlay-0.4.4-py3-none-any.whl)
-- [collective_intelligence_overlay-0.4.4.tar.gz](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/collective_intelligence_overlay-0.4.4.tar.gz)
-- [SHA256SUMS.txt](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.4.4/SHA256SUMS.txt)
+- [Observed release](https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.5.1)
+- [cio-051-asset-manifest.json](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.5.1/cio-051-asset-manifest.json)
+- [cio-051-native-gate.json](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.5.1/cio-051-native-gate.json)
+- [collective-intelligence-overlay-0.5.1-evidence.zip](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.5.1/collective-intelligence-overlay-0.5.1-evidence.zip)
+- [collective_intelligence_overlay-0.5.1-py3-none-any.whl](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.5.1/collective_intelligence_overlay-0.5.1-py3-none-any.whl)
+- [collective_intelligence_overlay-0.5.1.tar.gz](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.5.1/collective_intelligence_overlay-0.5.1.tar.gz)
+- [SHA256SUMS.txt](https://github.com/kadubon/collective-intelligence-overlay/releases/download/v0.5.1/SHA256SUMS.txt)
 - [e-cio-readme](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/README.md)
 - [e-cio-package](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/pyproject.toml)
 - [Apache-2.0 license](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE)
