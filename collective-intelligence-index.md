@@ -1,6 +1,6 @@
 # Collective Intelligence Research and OSS Index
 
-K. Takahashi · 2026-10-04
+K. Takahashi · 2026-10-06
 
 https://kadubon.github.io/github.io/collective-intelligence-index.html
 
@@ -109,7 +109,7 @@ Other common phrasings:
 - postcondition verification
 - why does my AI agent say done when it isn't finished?
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
 
 Related problems: [My agent keeps calling the same tool](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-retry-recovery) · [Generated output still has unchecked obligations](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-obligations) · [The citation does not support the agent’s claim](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evidence-support)
 
@@ -189,6 +189,8 @@ Conditions: Advisory route under host policy. Protected regression, incomplete r
 
 Stop / handoff: Protected regression, incomplete receipts or host execution authority missing.
 
+Further relevant resources: [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
+
 Related problems: [It works in a demo but fails in production](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-production-reliability) · [My agent broke after an API update](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-version-and-dependency-drift) · [I need to stop, contain and recover an agent incident](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-incident-response)
 
 ### My MCP agent cannot find or choose the right tool (tool-routing)
@@ -213,6 +215,8 @@ Other common phrasings:
 - function calling with many tools
 - tool selected correctly but wrong arguments
 - tool metadata ambiguity
+
+Further relevant resources: [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
 
 Related problems: [My agent is acting with the wrong permissions](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-authority) · [My agent broke after an API update](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-version-and-dependency-drift) · [Can these exact tool versions work together?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-interchange)
 
@@ -596,6 +600,8 @@ Other common phrasings:
 - evidence provenance
 - signed record does not prove truth
 
+Further relevant resources: [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
+
 Related problems: [Generated output still has unchecked obligations](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-obligations) · [My agent says done, but the task is not finished](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-completion-and-outcome) · [Benchmark scores improved but production got worse](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evaluation-integrity)
 
 ### What remains to be checked before an output is reusable? (obligations)
@@ -617,7 +623,7 @@ Other common phrasings:
 - generated != verified
 - unknown must remain unknown
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
 
 Related problems: [My agent says done, but the task is not finished](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-completion-and-outcome) · [The citation does not support the agent’s claim](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evidence-support) · [Should I reuse a skill or solve from scratch?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-reuse)
 
@@ -709,7 +715,7 @@ Other common phrasings:
 - credit assignment
 - which agent contributed
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
 
 Related problems: [Should I reuse a skill or solve from scratch?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-reuse) · [Why is my AI agent so expensive?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-cost-and-capacity) · [More agents create duplicate work or overwrite each other](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-coordinate)
 
@@ -764,7 +770,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -819,7 +825,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -871,7 +877,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -919,7 +925,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -969,7 +975,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1016,7 +1022,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1456,7 +1462,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1496,7 +1502,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1547,7 +1553,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1588,7 +1594,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1629,7 +1635,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1672,7 +1678,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1713,7 +1719,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1754,7 +1760,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1795,7 +1801,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1836,7 +1842,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1877,7 +1883,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1920,7 +1926,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -1959,7 +1965,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 Observed GitHub release: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -2000,21 +2006,21 @@ Installation guidance: Use pinned upstream source instructions only after host a
 
 ### collective-intelligence-overlay (sw-cio)
 
-Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.
+Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Updated metadata declares 0.5.1, also observed as a published GitHub release.
 
 Primary editorial role: reusable-abstraction
 
-Limits / unsupported uses: Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.
+Limits / unsupported uses: Published 0.5.1 stabilization release; upstream verification is not an independent reproduction by this index. Earlier 0.5.0 candidate reports remain historical. The upstream report retains an unexplained initial native failure; production/high-load behavior remains unmeasured. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.
 
-Source reviewed: 2026-10-04
+Source reviewed: 2026-10-06
 
-Source revision / declared version: e830a6a54a22ba8190a64e0b184d461103287ee3 / 0.5.0
+Source revision / declared version: 46276b4080dadd70ffa2608533139e8df6dcf75d / 0.5.1
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot
 
 Observed GitHub release: v0.5.1 · 2026-10-04T19:24:57Z
 
-Release observation / リリース確認: 2026-10-05T10:27:46+00:00 · current
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
 
 License: Apache-2.0
 
@@ -2030,7 +2036,7 @@ Effects and trust boundary: Lifecycle inspection/export/handoff are read-only pr
 
 First inspection: Read pinned lifecycle concepts/reference, architecture, security and the candidate validation register. Inspect original bytes, receiver policy, coverage, clocks and residuals before assessing stock or considering execution.
 
-Installation guidance: Follow pinned upstream instructions only after host authorization. The inspected 0.5.0 source candidate is distinct from observed GitHub releases; this review installed no package and independently verified no PyPI artifact.
+Installation guidance: Follow version-pinned upstream instructions after host authorization. Current metadata declares 0.5.1, matching the observed GitHub release; the earlier 0.5.0 candidate evidence remains historical. PyPI bytes/installations were not independently verified here.
 
 - [Repository](https://github.com/kadubon/collective-intelligence-overlay)
 - [Observed release](https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.5.1)
@@ -2044,13 +2050,78 @@ Installation guidance: Follow pinned upstream instructions only after host autho
 - [e-cio-package](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/pyproject.toml)
 - [Apache-2.0 license](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE)
 - [e-cio-concepts](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-concepts.md)
-- [Pinned contract](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md)
+- [e-cio-reference](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md)
 - [e-cio-architecture](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/architecture.md)
 - [e-cio-security](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/security.md)
 - [e-cio-tutorial](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-tutorial.md)
 - [e-cio-handoff](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/src/collective_intelligence_overlay/lifecycle.py)
 - [e-cio-tests](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/tests/unit/test_lifecycle.py)
 - [e-cio-validation](https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-050-implementation.md)
+- [e-cio-051-readme](https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/README.md)
+- [e-cio-051-package](https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/pyproject.toml)
+- [Pinned contract](https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/lifecycle-reference.md)
+- [e-cio-051-release](https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/release-051-report.ja.md)
+
+### evidence-gap-router (sw-egr)
+
+Deterministic Python SDK and offline CLI selecting the next acquisition or verification from missing evidence, unfinished checks and a finite host-declared action set. Schema 3 separates observed PASS from explicit finite completion.
+
+Primary editorial role: evidence-and-verification
+
+Limits / unsupported uses: Alpha contract/control implementation, not an agent/model service, network gateway or scheduler. Finite catalogue completion leaves external completeness unknown; semantic truth and statistical independence are not guaranteed. Callback views are not isolation, snapshots are not authenticated history and finite steps do not enforce wall/CPU deadlines. Host owns trust, effects, resource measurements and single-writer use. Pending calls and unknown effects/costs remain incomplete; no automatic retry, refund, crash recovery or exactly-once guarantee. v0.2.4 upstream experiments reported negative results; v0.3.0 ran no new efficacy experiments and its empirical utility is unmeasured. No independent execution, general acceleration or tested integration with other indexed projects is claimed.
+
+Source reviewed: 2026-10-06
+
+Source revision / declared version: 0e5def78422de55db6c80723f28b753ef91e017b / 0.3.0
+
+Review state / レビュー状態: reviewed_snapshot
+
+Observed GitHub release: v0.3.0 · 2026-10-06T05:12:56Z
+
+Release observation / リリース確認: 2026-10-06T05:58:19+00:00 · current
+
+License: Apache-2.0
+
+Interface schema identity / スキーマ識別子: null — upstream schema has no $id · Schema 3 State/PlanInput/Decision and explicit finite CompletionContract; schema-1/2 imports require migration and confer no new authority.
+
+Inputs: Host-owned State, obligations, exact evidence/dependencies, finite ActionCandidate pool, Budget, Policy, registered checkers and explicit CompletionContracts.
+
+Outputs: Decision with action or stop reason, completion assessments and exact residuals; retained issued receipts, checks, invalidations, expenses and schema-3 snapshots.
+
+Prerequisites: Python &gt;=3.12 and Pydantic &gt;=2.12,&lt;3. Host must declare finite scope, qualified checker kinds/scopes and actual callback resource/effect measurements. Old schemas require explicit migration.
+
+Effects and trust boundary: plan and completion assessment are pure. step invokes at most one registered callback; run invokes a bounded sequence whose effects depend on host code. check-data reads selected local files and snapshot helpers write explicit destinations. Core offline paths require no model/network service. This review executed none of the indexed software.
+
+First inspection: Read pinned completion, API, security and migration contracts; inspect current missing material/checks, issued permissions, exact dependencies and unknown effects before explicit continuation.
+
+Installation guidance: Use version-pinned upstream installation instructions after host review. Source version, observed GitHub release and actual installed package are separate observations; no PyPI artifact was installed or independently verified here.
+
+- [Repository](https://github.com/kadubon/evidence-gap-router)
+- [Observed release](https://github.com/kadubon/evidence-gap-router/releases/tag/v0.3.0)
+- [evidence_gap_router-0.3.0-py3-none-any.whl](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/evidence_gap_router-0.3.0-py3-none-any.whl)
+- [evidence_gap_router-0.3.0.tar.gz](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/evidence_gap_router-0.3.0.tar.gz)
+- [linux-3.12.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/linux-3.12.json)
+- [linux-3.13.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/linux-3.13.json)
+- [linux-3.14.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/linux-3.14.json)
+- [macos-arm64-3.12.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/macos-arm64-3.12.json)
+- [macos-intel-3.12.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/macos-intel-3.12.json)
+- [publication-verification-v0.3.0.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/publication-verification-v0.3.0.json)
+- [PUBLICATION_SHA256SUMS](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/PUBLICATION_SHA256SUMS)
+- [release-manifest-v0.3.0.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/release-manifest-v0.3.0.json)
+- [SHA256SUMS](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/SHA256SUMS)
+- [windows-3.12.json](https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/windows-3.12.json)
+- [e-egr-readme](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/README.md)
+- [e-egr-package](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/pyproject.toml)
+- [e-egr-version](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/_version.py)
+- [Apache-2.0 license](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/LICENSE)
+- [Agent entry: completion.md](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/completion.md)
+- [Pinned contract](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/api.md)
+- [e-egr-security](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/SECURITY.md)
+- [e-egr-migration](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/migration.md)
+- [Pinned interface schema](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/models.py)
+- [e-egr-runner](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/runner.py)
+- [e-egr-tests](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/tests/test_completion_030.py)
+- [e-egr-validation](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/validation.md)
 
 ## Proposed evidence-preserving workflow
 
@@ -2381,7 +2452,7 @@ Verification consumes resources even when a result is negative. A deployment con
 
 Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.
 
-Scanned 233 research records and 56 repositories; selected 39 resources.
+Scanned 233 research records and 57 repositories; selected 40 resources.
 
 Boundary Exchange / viability: unresolved — No exact Boundary Exchange title/DOI in the scanned catalogue. Do not invent a paper identity.
 

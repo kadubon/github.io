@@ -32,7 +32,7 @@ as unresolved. Distinct CGT supplements must not be invented as separate DOI
 records or collapsed into a single claimed implementation. No exact Boundary
 Exchange title/DOI was resolved in the scanned catalogue.
 
-The original website license remains CC BY 4.0. The 20 inspected OSS licenses
+The original website license remains CC BY 4.0. The 21 inspected OSS licenses
 are Apache-2.0. The Audit-Closed repository separately licenses its bundled
 protocol paper CC BY 4.0. Repository metadata for other projects is not
 overwritten with a blanket license assertion.
@@ -156,7 +156,7 @@ and the optional [llms.txt proposal](https://llmstxt.org/).
 
 ## Symptom routing (schema 1.1, 2026-09-24)
 
-The current selection has 19 papers and 20 OSS resources. Six additional
+The current selection has 19 papers and 21 OSS resources. Six additional
 supporting repositories received a bounded source review on 2026-09-24;
 [the generated coverage report](collective-intelligence-coverage.md) records
 exact revisions, declared source versions, selection reasons and limitations.
@@ -250,7 +250,7 @@ reproduction or a universal correctness proof.
 ## Collective Intelligence Overlay addition (2026-10-04)
 
 The existing catalog identity `kadubon/collective-intelligence-overlay` is selected
-as supporting resource `sw-cio`. Selection now contains 19 papers + 20 OSS = 39
+as supporting resource `sw-cio`. After that addition, selection contained 19 papers + 20 OSS = 39
 resources; the cumulative corpus audit covers 233 publications and 56 repositories.
 Normal catalog/release refresh preserves the separate factual metadata authority.
 No publication, DOI, bibliography entry or works.html software identity is invented.
@@ -278,3 +278,39 @@ and costs. Receiver-local policy and use-time execution gates remain authoritati
 Copies, endpoint stock differences and model-free tutorial results do not measure
 functional novelty, causal contribution, intelligence growth or CIO accumulation
 advantage. The source register retains superseded failures and pending gates.
+
+## Evidence Gap Router addition and CIO version refresh (2026-10-06)
+
+Supporting resource `sw-egr` reuses catalog identity `kadubon/evidence-gap-router`.
+Selection is now 19 papers + 21 OSS = 40 resources; the cumulative corpus audit
+covers 233 publications and 57 repositories. No new paper, works.html identity,
+DOI or bibliography entry was invented. Normal metadata/release refresh was used.
+
+The reviewed revision `0e5def78422de55db6c80723f28b753ef91e017b` declares version
+0.3.0, Python >=3.12 and Apache-2.0; GitHub release v0.3.0 was observed separately.
+Twelve pinned evidence records cover README, package/version/license, completion,
+API, security, migration, bounded model/runner/test-source inspection and the
+current validation section. Upstream tests are attributed, not locally executed.
+The primary role is evidence-and-verification, with finite-control-and-information
+and workflow-adaptation. Resource associations use tool-routing,
+completion-and-outcome, evidence-support, obligations, adaptation and accounting.
+No first reads, problem definitions, relations, aliases, schema or coverage seeds
+changed. The 27 routes, eight groups and 163/168 matches per language remain.
+
+Observed PASS, current applicability and finite completion are distinct. Host
+contracts and qualified checks leave external completeness unknown. Host callback
+isolation, measurements, timeouts and single-writer operation remain prerequisites.
+Historical negative experiments do not establish v0.3.0 efficacy; its utility is
+unmeasured. No model experiment or indexed software execution was performed here.
+
+CIO received a scoped version/status refresh at
+`46276b4080dadd70ffa2608533139e8df6dcf75d`: source metadata and observed GitHub
+release are now 0.5.1. Four additional pinned records cover current README,
+package metadata, lifecycle reference and the upstream 0.5.1 release report.
+The eleven original 0.5.0 candidate records remain immutable historical evidence;
+this metadata/status review does not claim a new full runtime audit or reproduction.
+Projection schema 1 / derivation 0.5.0 remain distinct from package version 0.5.1.
+The current card removes obsolete candidate/pending-release wording and attributes
+completed release checks to upstream, retaining unexplained historical native
+failure and production/high-load limitations. PyPI bytes were not independently
+verified or installed. Existing CIO role/routing/relationship classifications remain.

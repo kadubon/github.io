@@ -194,7 +194,7 @@ class IndexTests(unittest.TestCase):
         self.assertEqual(len(audit), sum(self.model['scanned_counts'].values()))
         self.assertEqual(len({a['source_catalog_id'] for a in audit}), len(audit))
         self.assertEqual(sum(r['kind'] == 'paper' for r in self.model['resources']), 19)
-        self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 20)
+        self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 21)
 
     def test_checkedflow_is_supporting_without_route_or_integration_promotion(self):
         selected = [r for r in self.model['resources'] if r['id'] == 'sw-checkedflow']
@@ -216,14 +216,14 @@ class IndexTests(unittest.TestCase):
             self.assertEqual(entry['observed_at'], '2026-09-26')
         upstream = next(e for e in evidence if e['id'] == 'e-checkedflow-validation')
         self.assertEqual(upstream['origin'], 'upstream_reported')
-        self.assertEqual(len(self.model['resources']), 39)
+        self.assertEqual(len(self.model['resources']), 40)
 
-    def test_cio_candidate_keeps_authority_and_evidence_boundaries(self):
+    def test_cio_version_refresh_preserves_historical_evidence(self):
         r = next(r for r in self.model['resources'] if r['id'] == 'sw-cio')
         self.assertEqual((r['tier'], r['source_catalog_id']),
                          ('supporting', 'kadubon/collective-intelligence-overlay'))
-        self.assertEqual(r['software']['source_version'], '0.5.0')
-        self.assertIn('candidate', r['summary']['en'])
+        self.assertEqual(r['software']['source_version'], '0.5.1')
+        self.assertIn('0.5.1', r['summary']['en'])
         self.assertIn('assess_stock', r['software']['effects']['en'])
         self.assertEqual(r['software']['license_spdx'], 'Apache-2.0')
         for p in self.model['problems']:
@@ -233,10 +233,31 @@ class IndexTests(unittest.TestCase):
         evidence = [e for e in self.model['evidence'] if e['id'] in r['evidence_refs']]
         self.assertEqual(len(evidence), len(r['evidence_refs']))
         for entry in evidence:
+            self.assertEqual(entry['revision'], r['software']['source_revision'] if entry['id'].startswith('e-cio-051-') else 'e830a6a54a22ba8190a64e0b184d461103287ee3')
+            self.assertIn('/blob/' + entry['revision'] + '/', entry['url'])
+            self.assertEqual(entry['observed_at'], '2026-10-06' if entry['id'].startswith('e-cio-051-') else '2026-10-04')
+        self.assertEqual(next(e for e in evidence if e['id'] == 'e-cio-validation')['origin'],
+                         'upstream_reported')
+
+    def test_egr_has_bounded_completion_and_no_integration_promotion(self):
+        r = next(r for r in self.model['resources'] if r['id'] == 'sw-egr')
+        self.assertEqual((r['tier'], r['source_catalog_id']),
+                         ('supporting', 'kadubon/evidence-gap-router'))
+        self.assertEqual(r['software']['source_version'], '0.3.0')
+        self.assertEqual(r['software']['license_spdx'], 'Apache-2.0')
+        self.assertIn('external completeness unknown', r['limitations']['en'])
+        self.assertIn('empirical utility is unmeasured', r['limitations']['en'])
+        for p in self.model['problems']:
+            self.assertNotIn(r['id'], p['first_reads'])
+            self.assertEqual(r['id'] in p['relevant_resource_ids'], p['id'] in r['problem_ids'])
+        self.assertFalse(any(r['id'] in (edge['source'], edge['target']) for edge in self.model['relations']))
+        evidence = [e for e in self.model['evidence'] if e['id'] in r['evidence_refs']]
+        self.assertEqual(len(evidence), len(r['evidence_refs']))
+        for entry in evidence:
             self.assertEqual(entry['revision'], r['software']['source_revision'])
             self.assertIn('/blob/' + entry['revision'] + '/', entry['url'])
-            self.assertEqual(entry['observed_at'], '2026-10-04')
-        self.assertEqual(next(e for e in evidence if e['id'] == 'e-cio-validation')['origin'],
+            self.assertEqual(entry['observed_at'], '2026-10-06')
+        self.assertEqual(next(e for e in evidence if e['id'] == 'e-egr-validation')['origin'],
                          'upstream_reported')
 
     def test_bilingual_seed_coverage(self):
@@ -290,8 +311,8 @@ class IndexTests(unittest.TestCase):
 
     def test_review_dates_are_scoped(self):
         for r in self.model['resources']:
-            if r['id'] == 'sw-cio':
-                self.assertEqual(r['last_reviewed_at'], '2026-10-04')
+            if r['id'] in {'sw-cio', 'sw-egr'}:
+                self.assertEqual(r['last_reviewed_at'], '2026-10-06')
             elif r['id'] == 'sw-checkedflow':
                 self.assertEqual(r['last_reviewed_at'], '2026-09-26')
             elif r['id'] in {'sw-cmgl', 'sw-memoryflow', 'sw-pfg', 'sw-fost', 'sw-atrb', 'sw-oversight'}:

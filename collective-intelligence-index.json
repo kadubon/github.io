@@ -2,7 +2,7 @@
   "$schema": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
   "schema_version": "1.1",
   "canonical_url": "https://kadubon.github.io/github.io/collective-intelligence-index.json",
-  "modified_at": "2026-10-04",
+  "modified_at": "2026-10-06",
   "reviewed_at": "2026-09-21",
   "digest_definition": "SHA-256 of UTF-8 JSON of the complete registry excluding content_digest; sorted keys, no insignificant spaces, unescaped Unicode, no NaN.",
   "identity": {
@@ -1417,7 +1417,7 @@
             "tag": "v1.9.0",
             "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1575,7 +1575,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1729,7 +1729,7 @@
             "tag": "v1.3.0",
             "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -1882,7 +1882,7 @@
             "tag": "v0.5.0",
             "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2030,7 +2030,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2185,7 +2185,7 @@
             "tag": "v1.0.1",
             "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2317,7 +2317,7 @@
         "release_observation": {
           "default_branch_revision": "dddaea42073fc9629122cdb798f547c5d6a116e9",
           "latest_release": null,
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -2459,7 +2459,7 @@
             "tag": "v1.2.0",
             "url": "https://github.com/kadubon/oasg/releases/tag/v1.2.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2594,7 +2594,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2730,7 +2730,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2864,7 +2864,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -2976,7 +2976,7 @@
             "tag": "v1.1.1",
             "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3091,7 +3091,7 @@
             "tag": "v1.1.2",
             "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3203,7 +3203,7 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3318,7 +3318,7 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3432,7 +3432,7 @@
             "tag": "v2.0.0",
             "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3548,7 +3548,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3654,7 +3654,7 @@
         "release_observation": {
           "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
           "latest_release": null,
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
@@ -3799,7 +3799,7 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/checkedflow/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
@@ -3827,16 +3827,16 @@
         "capability-accounting"
       ],
       "summary": {
-        "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.",
-        "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。確認ソースは未公開の0.5.0候補を宣言し、公開リリース情報とは区別する。"
+        "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Updated metadata declares 0.5.1, also observed as a published GitHub release.",
+        "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。更新メタデータは0.5.1を宣言し、GitHub公開リリースも観測済み。"
       },
       "relevance_reason": {
         "en": "Connects exact candidates, checks, uses, costs, withdrawals and unresolved obligations without equating generation, verification and reusable capability.",
         "ja": "厳密な候補・検査・利用・費用・撤回・未解決義務を関連付け、生成・検証・再利用可能能力を同一視しない。"
       },
       "limitations": {
-        "en": "Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
-        "ja": "実験的ソース候補で、確認版では最終ネイティブ公開検証が未完。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
+        "en": "Published 0.5.1 stabilization release; upstream verification is not an independent reproduction by this index. Earlier 0.5.0 candidate reports remain historical. The upstream report retains an unexplained initial native failure; production/high-load behavior remains unmeasured. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
+        "ja": "公開済みの安定化版0.5.1。上流検証は本索引による独立再現ではなく、旧0.5.0候補の記録は履歴として保持。上流報告は初回ネイティブ失敗の原因未確定を記録し、本番・高負荷動作は未測定。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
       },
       "evidence_refs": [
         "e-cio-readme",
@@ -3849,7 +3849,11 @@
         "e-cio-tutorial",
         "e-cio-handoff",
         "e-cio-tests",
-        "e-cio-validation"
+        "e-cio-validation",
+        "e-cio-051-readme",
+        "e-cio-051-package",
+        "e-cio-051-reference",
+        "e-cio-051-release"
       ],
       "problem_ids": [
         "reuse",
@@ -3863,8 +3867,8 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
-      "last_reviewed_at": "2026-10-04",
+      "source_state": "reviewed_snapshot",
+      "last_reviewed_at": "2026-10-06",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
         "ja": "計上恒等式は、同一単位・範囲内で期末蓄積 = 期首蓄積 + 受理された一意の追加 − 損失。サービス再利用、コピー、外部投入は別座標。普遍的な流入・損失比は仮定せず、損失ゼロなら未定義にもなる。スペクトル下界はモデルの前提に依存する。ハッシュはバイト列を結び付けるが真実を証明しない。リリースは本番保証ではない。不明値は理由付きnullで好都合なゼロではない。大域的自己加速の観測、AGI・ASI検出、到来予測は確立していない。"
@@ -3873,12 +3877,12 @@
       "name": "collective-intelligence-overlay",
       "canonical_url": "https://github.com/kadubon/collective-intelligence-overlay",
       "software": {
-        "source_revision": "e830a6a54a22ba8190a64e0b184d461103287ee3",
-        "source_version": "0.5.0",
+        "source_revision": "46276b4080dadd70ffa2608533139e8df6dcf75d",
+        "source_version": "0.5.1",
         "source_version_status": "declared",
         "license_spdx": "Apache-2.0",
         "license_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/LICENSE",
-        "docs_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+        "docs_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/lifecycle-reference.md",
         "interfaces": {
           "CLI": "collective-intelligence-overlay = collective_intelligence_overlay.cli:main",
           "Python": "snapshot_from_material; inspect_lifecycle; observe_contributions; observe_growth; build_handoff; assess_stock",
@@ -3906,21 +3910,21 @@
           "ja": "固定版のライフサイクル概念・参照資料・構造・安全性・候補検証記録を読む。ストック判定や実行検討前に元バイト・受信側方針・観測範囲・時計・残余を確認する。"
         },
         "installation_guidance": {
-          "en": "Follow pinned upstream instructions only after host authorization. The inspected 0.5.0 source candidate is distinct from observed GitHub releases; this review installed no package and independently verified no PyPI artifact.",
-          "ja": "ホストの許可後に固定版の上流手順を参照。確認した0.5.0ソース候補は観測GitHubリリースと異なる。本レビューはパッケージを導入せずPyPI成果物を独立検証していない。"
+          "en": "Follow version-pinned upstream instructions after host authorization. Current metadata declares 0.5.1, matching the observed GitHub release; the earlier 0.5.0 candidate evidence remains historical. PyPI bytes/installations were not independently verified here.",
+          "ja": "ホストの許可後に版固定の上流手順を参照。現行メタデータは0.5.1を宣言し観測GitHubリリースと一致する。旧0.5.0候補の根拠は履歴として保持。PyPIバイト・導入は本作業で独立検証していない。"
         },
         "maturity": {
-          "en": "Experimental supporting reference; upstream validation is attributed and version-bound.",
-          "ja": "実験的な補助参照資料。上流検証は帰属と版を限定する。"
+          "en": "Supporting reference, updated to published 0.5.1 metadata; upstream release verification is attributed, not independently reproduced.",
+          "ja": "補助参照資料。公開済み0.5.1のメタデータに更新。上流公開検証は帰属付きで独立再現ではない。"
         },
         "agent_entrypoints": [
-          "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md"
+          "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/lifecycle-reference.md"
         ],
         "commands": [],
         "related_paper": null,
         "interface_contracts": [
           {
-            "source_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/e830a6a54a22ba8190a64e0b184d461103287ee3/docs/lifecycle-reference.md",
+            "source_url": "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/lifecycle-reference.md",
             "schema_identity": null,
             "scope": "Bounded lifecycle projections, exact original-byte export and explicit stock assessment; no new wire Record or execution authority."
           }
@@ -3940,19 +3944,168 @@
             "tag": "v0.5.1",
             "url": "https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.5.1"
           },
-          "observed_at": "2026-10-05T10:27:46+00:00",
+          "observed_at": "2026-10-06T05:58:19+00:00",
           "package_registry_status": "not_checked_by_this_github_refresh",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/collective-intelligence-overlay"
         },
         "when_to_use": {
-          "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.",
-          "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。確認ソースは未公開の0.5.0候補を宣言し、公開リリース情報とは区別する。"
+          "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Updated metadata declares 0.5.1, also observed as a published GitHub release.",
+          "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。更新メタデータは0.5.1を宣言し、GitHub公開リリースも観測済み。"
         },
         "when_not_to_use": {
-          "en": "Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
-          "ja": "実験的ソース候補で、確認版では最終ネイティブ公開検証が未完。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
+          "en": "Published 0.5.1 stabilization release; upstream verification is not an independent reproduction by this index. Earlier 0.5.0 candidate reports remain historical. The upstream report retains an unexplained initial native failure; production/high-load behavior remains unmeasured. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
+          "ja": "公開済みの安定化版0.5.1。上流検証は本索引による独立再現ではなく、旧0.5.0候補の記録は履歴として保持。上流報告は初回ネイティブ失敗の原因未確定を記録し、本番・高負荷動作は未測定。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
+        }
+      }
+    },
+    {
+      "id": "sw-egr",
+      "kind": "software",
+      "source_catalog_id": "kadubon/evidence-gap-router",
+      "tier": "supporting",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification",
+        "finite-control-and-information",
+        "workflow-adaptation"
+      ],
+      "summary": {
+        "en": "Deterministic Python SDK and offline CLI selecting the next acquisition or verification from missing evidence, unfinished checks and a finite host-declared action set. Schema 3 separates observed PASS from explicit finite completion.",
+        "ja": "不足する証拠・未完検査・ホスト宣言の有限候補集合から次の取得や検証を選ぶ決定的Python SDKとオフラインCLI。schema 3は観測PASSと明示的な有限完了を分離する。"
+      },
+      "relevance_reason": {
+        "en": "Makes missing material, checker authority, changed prerequisites, retained negatives and unknown costs explicit when selecting subsequent work.",
+        "ja": "後続作業の選択時に不足資料・検査権限・前提変更・保持した否定結果・不明費用を明示する。"
+      },
+      "limitations": {
+        "en": "Alpha contract/control implementation, not an agent/model service, network gateway or scheduler. Finite catalogue completion leaves external completeness unknown; semantic truth and statistical independence are not guaranteed. Callback views are not isolation, snapshots are not authenticated history and finite steps do not enforce wall/CPU deadlines. Host owns trust, effects, resource measurements and single-writer use. Pending calls and unknown effects/costs remain incomplete; no automatic retry, refund, crash recovery or exactly-once guarantee. v0.2.4 upstream experiments reported negative results; v0.3.0 ran no new efficacy experiments and its empirical utility is unmeasured. No independent execution, general acceleration or tested integration with other indexed projects is claimed.",
+        "ja": "Alpha段階の契約・制御実装であり、エージェント／モデルサービス・ネットワークゲートウェイ・スケジューラではない。有限カタログの完了後も外部の完全性は不明で、意味的真実や統計的独立性を保証しない。コールバックビューは隔離ではなく、スナップショットは認証済み履歴ではなく、有限ステップは実時間・CPU制限を強制しない。信頼・影響・資源測定・単一書込はホストの責任。未完呼出・不明な影響や費用は未完として保持し、自動再試行・返金・障害復旧・exactly-onceを保証しない。上流v0.2.4実験は否定的結果を報告し、v0.3.0は新規効果実験を行わず実証的有用性は未測定。独立実行・一般的加速・他の掲載プロジェクトとの検証済み統合を主張しない。"
+      },
+      "evidence_refs": [
+        "e-egr-readme",
+        "e-egr-package",
+        "e-egr-version",
+        "e-egr-license",
+        "e-egr-completion",
+        "e-egr-api",
+        "e-egr-security",
+        "e-egr-migration",
+        "e-egr-models",
+        "e-egr-runner",
+        "e-egr-tests",
+        "e-egr-validation"
+      ],
+      "problem_ids": [
+        "tool-routing",
+        "completion-and-outcome",
+        "evidence-support",
+        "obligations",
+        "adaptation",
+        "accounting"
+      ],
+      "ownership": "takahashi",
+      "alternate_names": [],
+      "language": [
+        "en"
+      ],
+      "source_state": "reviewed_snapshot",
+      "last_reviewed_at": "2026-10-06",
+      "unsupported_claims": {
+        "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
+        "ja": "計上恒等式は、同一単位・範囲内で期末蓄積 = 期首蓄積 + 受理された一意の追加 − 損失。サービス再利用、コピー、外部投入は別座標。普遍的な流入・損失比は仮定せず、損失ゼロなら未定義にもなる。スペクトル下界はモデルの前提に依存する。ハッシュはバイト列を結び付けるが真実を証明しない。リリースは本番保証ではない。不明値は理由付きnullで好都合なゼロではない。大域的自己加速の観測、AGI・ASI検出、到来予測は確立していない。"
+      },
+      "related_resource_ids": [],
+      "name": "evidence-gap-router",
+      "canonical_url": "https://github.com/kadubon/evidence-gap-router",
+      "software": {
+        "source_revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+        "source_version": "0.3.0",
+        "source_version_status": "declared",
+        "license_spdx": "Apache-2.0",
+        "license_url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/LICENSE",
+        "docs_url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/api.md",
+        "interfaces": {
+          "CLI": "egr = evidence_gap_router.cli:main; plan; check-data",
+          "Python": "plan; start; observe; resolve; step; run; assess_completion; declare_completion; invalidate",
+          "Snapshots": "read_json; write_json; migrate_v1_file/json; migrate_v2_file/json"
+        },
+        "inputs": {
+          "en": "Host-owned State, obligations, exact evidence/dependencies, finite ActionCandidate pool, Budget, Policy, registered checkers and explicit CompletionContracts.",
+          "ja": "ホスト管理のState・義務・厳密な証拠／依存・有限ActionCandidate集合・Budget・Policy・登録検査器・明示的CompletionContract。"
+        },
+        "outputs": {
+          "en": "Decision with action or stop reason, completion assessments and exact residuals; retained issued receipts, checks, invalidations, expenses and schema-3 snapshots.",
+          "ja": "動作または停止理由・完了判定・厳密な残余を含むDecision、保持した発行済み受領証・検査・無効化・費用・schema-3スナップショット。"
+        },
+        "prerequisites": {
+          "en": "Python >=3.12 and Pydantic >=2.12,<3. Host must declare finite scope, qualified checker kinds/scopes and actual callback resource/effect measurements. Old schemas require explicit migration.",
+          "ja": "Python >=3.12とPydantic >=2.12,<3。ホストが有限範囲・適格検査の種類／範囲・コールバックの実資源／影響測定を宣言する。旧スキーマは明示的移行が必要。"
+        },
+        "effects": {
+          "en": "plan and completion assessment are pure. step invokes at most one registered callback; run invokes a bounded sequence whose effects depend on host code. check-data reads selected local files and snapshot helpers write explicit destinations. Core offline paths require no model/network service. This review executed none of the indexed software.",
+          "ja": "planと完了判定は純粋処理。stepは最大1回、runは有限回の登録コールバックを呼び、影響はホストコードに依存する。check-dataは選択したローカルファイルを読み、保存ヘルパーは明示した宛先へ書き込む。通常オフライン経路はモデル／ネットワークサービス不要。本レビューでは対象ソフトを実行していない。"
+        },
+        "first_inspection_steps": {
+          "en": "Read pinned completion, API, security and migration contracts; inspect current missing material/checks, issued permissions, exact dependencies and unknown effects before explicit continuation.",
+          "ja": "固定版の完了・API・安全性・移行契約を読み、明示的継続前に現在の不足資料／検査・発行時権限・厳密な依存・不明な影響を確認する。"
+        },
+        "installation_guidance": {
+          "en": "Use version-pinned upstream installation instructions after host review. Source version, observed GitHub release and actual installed package are separate observations; no PyPI artifact was installed or independently verified here.",
+          "ja": "ホスト確認後に版固定の上流導入手順を参照。ソース版・観測GitHubリリース・実導入パッケージは別の観測であり、本作業ではPyPI成果物を導入・独立検証していない。"
+        },
+        "maturity": {
+          "en": "Alpha supporting SDK; specification regressions are distinct from unmeasured v0.3.0 empirical utility.",
+          "ja": "Alpha段階の補助SDK。仕様回帰試験と未測定のv0.3.0実証的有用性を区別。"
+        },
+        "agent_entrypoints": [
+          "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/api.md",
+          "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/completion.md"
+        ],
+        "commands": [],
+        "related_paper": null,
+        "interface_contracts": [
+          {
+            "source_url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/models.py",
+            "schema_identity": null,
+            "scope": "Schema 3 State/PlanInput/Decision and explicit finite CompletionContract; schema-1/2 imports require migration and confer no new authority."
+          }
+        ],
+        "release_observation": {
+          "default_branch_revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+          "latest_release": {
+            "assets": [
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/evidence_gap_router-0.3.0-py3-none-any.whl",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/evidence_gap_router-0.3.0.tar.gz",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/linux-3.12.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/linux-3.13.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/linux-3.14.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/macos-arm64-3.12.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/macos-intel-3.12.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/publication-verification-v0.3.0.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/PUBLICATION_SHA256SUMS",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/release-manifest-v0.3.0.json",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/SHA256SUMS",
+              "https://github.com/kadubon/evidence-gap-router/releases/download/v0.3.0/windows-3.12.json"
+            ],
+            "published_at": "2026-10-06T05:12:56Z",
+            "tag": "v0.3.0",
+            "url": "https://github.com/kadubon/evidence-gap-router/releases/tag/v0.3.0"
+          },
+          "observed_at": "2026-10-06T05:58:19+00:00",
+          "package_registry_status": "not_checked_by_this_github_refresh",
+          "refresh_status": "current",
+          "release_status": "observed",
+          "source_url": "https://github.com/kadubon/evidence-gap-router"
+        },
+        "when_to_use": {
+          "en": "Deterministic Python SDK and offline CLI selecting the next acquisition or verification from missing evidence, unfinished checks and a finite host-declared action set. Schema 3 separates observed PASS from explicit finite completion.",
+          "ja": "不足する証拠・未完検査・ホスト宣言の有限候補集合から次の取得や検証を選ぶ決定的Python SDKとオフラインCLI。schema 3は観測PASSと明示的な有限完了を分離する。"
+        },
+        "when_not_to_use": {
+          "en": "Alpha contract/control implementation, not an agent/model service, network gateway or scheduler. Finite catalogue completion leaves external completeness unknown; semantic truth and statistical independence are not guaranteed. Callback views are not isolation, snapshots are not authenticated history and finite steps do not enforce wall/CPU deadlines. Host owns trust, effects, resource measurements and single-writer use. Pending calls and unknown effects/costs remain incomplete; no automatic retry, refund, crash recovery or exactly-once guarantee. v0.2.4 upstream experiments reported negative results; v0.3.0 ran no new efficacy experiments and its empirical utility is unmeasured. No independent execution, general acceleration or tested integration with other indexed projects is claimed.",
+          "ja": "Alpha段階の契約・制御実装であり、エージェント／モデルサービス・ネットワークゲートウェイ・スケジューラではない。有限カタログの完了後も外部の完全性は不明で、意味的真実や統計的独立性を保証しない。コールバックビューは隔離ではなく、スナップショットは認証済み履歴ではなく、有限ステップは実時間・CPU制限を強制しない。信頼・影響・資源測定・単一書込はホストの責任。未完呼出・不明な影響や費用は未完として保持し、自動再試行・返金・障害復旧・exactly-onceを保証しない。上流v0.2.4実験は否定的結果を報告し、v0.3.0は新規効果実験を行わず実証的有用性は未測定。独立実行・一般的加速・他の掲載プロジェクトとの検証済み統合を主張しない。"
         }
       }
     }
@@ -4028,7 +4181,8 @@
         "sw-pic",
         "sw-fost",
         "paper-operational-claims",
-        "sw-checkedflow"
+        "sw-checkedflow",
+        "sw-egr"
       ]
     },
     {
@@ -4261,7 +4415,8 @@
       ],
       "relevant_resource_ids": [
         "sw-oasg",
-        "paper-conversion"
+        "paper-conversion",
+        "sw-egr"
       ]
     },
     {
@@ -4337,7 +4492,8 @@
       ],
       "relevant_resource_ids": [
         "sw-pic",
-        "sw-pfg"
+        "sw-pfg",
+        "sw-egr"
       ]
     },
     {
@@ -5535,7 +5691,8 @@
       "relevant_resource_ids": [
         "sw-fost",
         "sw-pic",
-        "paper-operational-claims"
+        "paper-operational-claims",
+        "sw-egr"
       ]
     },
     {
@@ -5601,7 +5758,8 @@
         "paper-ecpt",
         "paper-operational-claims",
         "sw-checkedflow",
-        "sw-cio"
+        "sw-cio",
+        "sw-egr"
       ]
     },
     {
@@ -5873,7 +6031,8 @@
         "sw-cait",
         "paper-growth",
         "sw-checkedflow",
-        "sw-cio"
+        "sw-cio",
+        "sw-egr"
       ]
     },
     {
@@ -9026,6 +9185,214 @@
         "en": "Upstream reports corrected focused tests but retains superseded failures and pending final native gates. No model experiment or measured intelligence growth.",
         "ja": "上流は修正後の限定試験を報告する一方、旧候補の失敗と未完の最終ネイティブ検証を保持。モデル実験や知能成長の実測ではない。"
       }
+    },
+    {
+      "id": "e-egr-readme",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/README.md",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "README.md — When to use; callback example; historical results and current limits",
+      "sha256": "225bf8499174080173786e3addbefec3341804481744c4c57d4e56af7b12f2ad",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Finite host-declared acquisition/verification routing; v0.3.0 empirical utility is unmeasured and historical negative results are retained.",
+        "ja": "ホストが宣言した有限の取得・検証候補を選択。v0.3.0の実証的有用性は未測定で、過去の否定的結果を保持。"
+      }
+    },
+    {
+      "id": "e-egr-package",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/pyproject.toml",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "pyproject.toml — project metadata and scripts",
+      "sha256": "50ff2200c9281368ff18d0091628a6901c2a0fe6f66e4a7a2ca6a8a366a7c7b9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Python >=3.12, Pydantic dependency, Alpha classification and egr CLI.",
+        "ja": "Python >=3.12、Pydantic依存、Alpha分類、egr CLI。"
+      }
+    },
+    {
+      "id": "e-egr-version",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/_version.py",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "src/evidence_gap_router/_version.py — __version__",
+      "sha256": "56b5e91c3bb77ab933c25fd65eba883419bdc5691cc94cb9dc840e8f4e3674eb",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares source version 0.3.0.",
+        "ja": "ソース版0.3.0を宣言。"
+      }
+    },
+    {
+      "id": "e-egr-license",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/LICENSE",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "LICENSE — Apache License Version 2.0 heading",
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Apache-2.0 license.",
+        "ja": "Apache-2.0ライセンス。"
+      }
+    },
+    {
+      "id": "e-egr-completion",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/completion.md",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "docs/completion.md — Schema 3, material use, permissions, residuals and external completeness",
+      "sha256": "bc54322126993b33d0e4c0d2fb4de62556c7a226914078f6ead6e2ef9a00324b",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Observation PASS, applicability and finite completion are separate; declared correlation groups do not prove statistical independence.",
+        "ja": "観測PASS・適用可能性・有限完了を分離。宣言された相関グループは統計的独立性を証明しない。"
+      }
+    },
+    {
+      "id": "e-egr-api",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/api.md",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "docs/api.md — SDK operations, finite runner, invalidation and bounded serialization",
+      "sha256": "8533730ecf7d58d1eba7f9f211d32fc251dae880624c1539f542583d68f0aa2f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Pure planning is separate from callback execution; invalidation retains history/costs and unknown effects prevent automatic continuation.",
+        "ja": "純粋な計画とコールバック実行を分離。無効化は履歴・費用を保持し、不明な影響は自動継続を阻止する。"
+      }
+    },
+    {
+      "id": "e-egr-security",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/SECURITY.md",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "SECURITY.md — Host authority, callback isolation and snapshot limits",
+      "sha256": "6828898b6f775452d385ab01902e8ca2cfd8fa5bf91693efa5c1c3ac2019bfc8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Host snapshots are not authenticated history; callback views are not a sandbox, and host timeouts/isolation remain external obligations.",
+        "ja": "ホストのスナップショットは認証済み履歴ではなく、コールバックビューはサンドボックスではない。時間制限・隔離はホストの責任。"
+      }
+    },
+    {
+      "id": "e-egr-migration",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/migration.md",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "docs/migration.md — Migration to 0.3.0 / schema 3",
+      "sha256": "17e74d49535f40f70919179352b481a135007e8e542bc6472f1de81890cc392e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Explicit schema-1/2 migration preserves history and uncertainty without inventing completion contracts or permission.",
+        "ja": "明示的なschema-1/2移行は履歴と不確実性を保持し、完了契約や権限を補作しない。"
+      }
+    },
+    {
+      "id": "e-egr-models",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/models.py",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "src/evidence_gap_router/models.py — CompletionContract",
+      "sha256": "1c73dea9a688735cb41414921578c63e5f9ebbb880cf62ce2e7015522f3460f4",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Host-owned scope and check requirements preserve external_completeness as unknown.",
+        "ja": "ホスト管理の範囲・検査要件は外部の完全性をunknownとして保持する。"
+      }
+    },
+    {
+      "id": "e-egr-runner",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/runner.py",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "src/evidence_gap_router/runner.py — run",
+      "sha256": "4f16cf7b8a8fcca24e72846f4863c31c733eef535746877ee88865ac164ec83e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "The finite callback loop returns retained state; it provides no forced timeout, background work or crash recovery. Source inspection only.",
+        "ja": "有限コールバックループは状態を保持して返す。強制時間制限・バックグラウンド実行・障害復旧を提供しない。ソース確認のみ。"
+      }
+    },
+    {
+      "id": "e-egr-tests",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/tests/test_completion_030.py",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "tests/test_completion_030.py — fixture and issued-receipt completion specification",
+      "sha256": "da45f308fdaca277c6456d20502188edde4593a868aa1d50b7b054fc69ff4a5c",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Test fixture declares exact M/N materials, qualified check permissions and zero-token budget; test source inspected, not executed here.",
+        "ja": "試験fixtureは厳密なM/N資料・適格検査権限・ゼロトークン予算を宣言。試験ソース確認のみで本作業では未実行。"
+      }
+    },
+    {
+      "id": "e-egr-validation",
+      "url": "https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/validation.md",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-06",
+      "locator": "docs/validation.md — v0.3.0 validation scope (before historical validation records)",
+      "sha256": "a3aa0fc4bf508053048be978aff9d2810028fda27009042209e659b07c88656a",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "Upstream reports 742 local source tests with one platform skip, and zero new LLM requests or efficacy experiments; these are not independently reproduced here.",
+        "ja": "上流はローカルソース試験742件とプラットフォーム依存の1件skip、新規LLM要求・効果実験ゼロを報告。本作業で独立再現していない。"
+      }
+    },
+    {
+      "id": "e-cio-051-readme",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/README.md",
+      "revision": "46276b4080dadd70ffa2608533139e8df6dcf75d",
+      "observed_at": "2026-10-06",
+      "locator": "README.md — Install and services",
+      "sha256": "274450762420c9248ff7e53ff99fe9c533f8da69ef33822c1e1fa09329d7a0df",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "README identifies published stabilization release 0.5.1; offline inspection remains distinct from receiver admission and execution.",
+        "ja": "READMEは公開済み安定化版0.5.1を示す。オフライン確認と受信側採用・実行を区別。"
+      }
+    },
+    {
+      "id": "e-cio-051-package",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/pyproject.toml",
+      "revision": "46276b4080dadd70ffa2608533139e8df6dcf75d",
+      "observed_at": "2026-10-06",
+      "locator": "pyproject.toml — project version, Python and license",
+      "sha256": "d90078f3bf85dd8bf1665b821c7c10b1a11299b8491e843180ea00c09ac77655",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Declares source version 0.5.1, Python >=3.12 and Apache-2.0.",
+        "ja": "ソース版0.5.1、Python >=3.12、Apache-2.0を宣言。"
+      }
+    },
+    {
+      "id": "e-cio-051-reference",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/lifecycle-reference.md",
+      "revision": "46276b4080dadd70ffa2608533139e8df6dcf75d",
+      "observed_at": "2026-10-06",
+      "locator": "docs/lifecycle-reference.md — Bounds and failures; public APIs; reading one partial page",
+      "sha256": "77c2b7137843c628b9ffc17cd7cc588a5e75ea2c742a54abfc36e1dd1e9db92a",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Package 0.5.1 retains projection schema 1 / derivation 0.5.0; bounded JSON and explicit stock qualification do not confer execution authority.",
+        "ja": "パッケージ0.5.1でも投影schema 1／導出版0.5.0を保持。有限JSONと明示的ストック判定は実行権限を付与しない。"
+      }
+    },
+    {
+      "id": "e-cio-051-release",
+      "url": "https://github.com/kadubon/collective-intelligence-overlay/blob/46276b4080dadd70ffa2608533139e8df6dcf75d/docs/release-051-report.ja.md",
+      "revision": "46276b4080dadd70ffa2608533139e8df6dcf75d",
+      "observed_at": "2026-10-06",
+      "locator": "docs/release-051-report.ja.md — Opening publication status; sections 9 and 10",
+      "sha256": "8dfed3e6d3954ea130ae160a93739594c9ed4a316981602d54b98f16ee6a643b",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "Upstream reports completed 0.5.1 publication/native/install checks, retaining an unexplained initial native failure and unmeasured production/high-load behavior. Not reproduced by this website.",
+        "ja": "上流は0.5.1の公開・ネイティブ・導入検証完了を報告するが、初回ネイティブ失敗の原因未確定と本番・高負荷動作の未測定を保持。本サイトでは再現していない。"
+      }
     }
   ],
   "corpus_audit": [
@@ -10762,6 +11129,12 @@
       "decision": "supporting",
       "review_depth": "readme_contract_license_interfaces",
       "reason": "Source-only review on 2026-10-04 at e830a6a54a22ba8190a64e0b184d461103287ee3. Receiver-qualified reuse and bounded lifecycle observations; unpublished source candidate distinguished from releases, upstream tests not reproduced and no tested inter-project edges."
+    },
+    {
+      "source_catalog_id": "kadubon/evidence-gap-router",
+      "decision": "supporting",
+      "review_depth": "readme_contract_license_interfaces",
+      "reason": "Source-only review on 2026-10-06 at 0e5def78422de55db6c80723f28b753ef91e017b. Finite missing-evidence routing and explicit completion; upstream validation attributed, no local execution, efficacy inference or tested inter-project edge."
     }
   ],
   "identity_issues": [
@@ -10788,7 +11161,7 @@
   ],
   "scanned_counts": {
     "research_records": 233,
-    "repositories": 56
+    "repositories": 57
   },
   "agent_routing": {
     "authority": "Advisory metadata under consuming host policy; no execution authority.",
@@ -10824,5 +11197,5 @@
       "incident-response"
     ]
   },
-  "content_digest": "949e8c5ad14ab33bb8fe4a3193deb87cbb04560358ec8430e19cb76608611ea6"
+  "content_digest": "01512160bbfeeb2c52ef046c09ba327296032964e642c4c4939b5e1cb673bb6d"
 }

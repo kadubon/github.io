@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "modified_at": "2026-10-04",
+  "modified_at": "2026-10-06",
   "resources": [
     {
       "id": "paper-growth",
@@ -1206,16 +1206,16 @@
         "capability-accounting"
       ],
       "summary": {
-        "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Reviewed source declares an unpublished 0.5.0 candidate; release metadata is separate.",
-        "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。確認ソースは未公開の0.5.0候補を宣言し、公開リリース情報とは区別する。"
+        "en": "Receiver-qualified capability reuse with signed evidence, local admission and lifecycle observations. Updated metadata declares 0.5.1, also observed as a published GitHub release.",
+        "ja": "署名付き証拠、ローカル採用判断、ライフサイクル観測による受信側限定の能力再利用。更新メタデータは0.5.1を宣言し、GitHub公開リリースも観測済み。"
       },
       "relevance_reason": {
         "en": "Connects exact candidates, checks, uses, costs, withdrawals and unresolved obligations without equating generation, verification and reusable capability.",
         "ja": "厳密な候補・検査・利用・費用・撤回・未解決義務を関連付け、生成・検証・再利用可能能力を同一視しない。"
       },
       "limitations": {
-        "en": "Experimental source candidate, with final native release gates pending at the reviewed revision. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
-        "ja": "実験的ソース候補で、確認版では最終ネイティブ公開検証が未完。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
+        "en": "Published 0.5.1 stabilization release; upstream verification is not an independent reproduction by this index. Earlier 0.5.0 candidate reports remain historical. The upstream report retains an unexplained initial native failure; production/high-load behavior remains unmeasured. Historical PASS, ACCEPT, signatures and completed receipts do not establish current admission, execution authority or business quality. Stock differences require comparable receiver/scope/policy/universe observations; copies and new hashes do not establish functional novelty, causal contribution or intelligence growth. Missing clocks/costs remain unknown; reservations are not consumption and inclusive durations are not summed. The upstream pilot remains assay_not_ready, with no established CIO accumulation advantage. No independent runtime reproduction, production assurance or tested integration with other indexed software is claimed.",
+        "ja": "公開済みの安定化版0.5.1。上流検証は本索引による独立再現ではなく、旧0.5.0候補の記録は履歴として保持。上流報告は初回ネイティブ失敗の原因未確定を記録し、本番・高負荷動作は未測定。過去のPASS・ACCEPT・署名・完了受領証は現在の採用・実行権限・業務品質を確立しない。ストック差分には受信側・範囲・方針・対象集合が比較可能な観測が必要。複製や新しいハッシュは機能的新規性・因果的貢献・知能成長を確立しない。欠落した時計・費用は不明のままとし、予約は消費ではなく包含時間は合算しない。上流の試行はassay_not_readyでCIOの蓄積優位性は未確立。独立した実行再現・本番保証・他の掲載ソフトとの検証済み統合を主張しない。"
       },
       "evidence_refs": [
         "e-cio-readme",
@@ -1228,7 +1228,11 @@
         "e-cio-tutorial",
         "e-cio-handoff",
         "e-cio-tests",
-        "e-cio-validation"
+        "e-cio-validation",
+        "e-cio-051-readme",
+        "e-cio-051-package",
+        "e-cio-051-reference",
+        "e-cio-051-release"
       ],
       "problem_ids": [
         "reuse",
@@ -1236,6 +1240,52 @@
         "obligations",
         "accounting",
         "interchange"
+      ]
+    },
+    {
+      "id": "sw-egr",
+      "kind": "software",
+      "source_catalog_id": "kadubon/evidence-gap-router",
+      "tier": "supporting",
+      "primary_role": "evidence-and-verification",
+      "roles": [
+        "evidence-and-verification",
+        "finite-control-and-information",
+        "workflow-adaptation"
+      ],
+      "summary": {
+        "en": "Deterministic Python SDK and offline CLI selecting the next acquisition or verification from missing evidence, unfinished checks and a finite host-declared action set. Schema 3 separates observed PASS from explicit finite completion.",
+        "ja": "不足する証拠・未完検査・ホスト宣言の有限候補集合から次の取得や検証を選ぶ決定的Python SDKとオフラインCLI。schema 3は観測PASSと明示的な有限完了を分離する。"
+      },
+      "relevance_reason": {
+        "en": "Makes missing material, checker authority, changed prerequisites, retained negatives and unknown costs explicit when selecting subsequent work.",
+        "ja": "後続作業の選択時に不足資料・検査権限・前提変更・保持した否定結果・不明費用を明示する。"
+      },
+      "limitations": {
+        "en": "Alpha contract/control implementation, not an agent/model service, network gateway or scheduler. Finite catalogue completion leaves external completeness unknown; semantic truth and statistical independence are not guaranteed. Callback views are not isolation, snapshots are not authenticated history and finite steps do not enforce wall/CPU deadlines. Host owns trust, effects, resource measurements and single-writer use. Pending calls and unknown effects/costs remain incomplete; no automatic retry, refund, crash recovery or exactly-once guarantee. v0.2.4 upstream experiments reported negative results; v0.3.0 ran no new efficacy experiments and its empirical utility is unmeasured. No independent execution, general acceleration or tested integration with other indexed projects is claimed.",
+        "ja": "Alpha段階の契約・制御実装であり、エージェント／モデルサービス・ネットワークゲートウェイ・スケジューラではない。有限カタログの完了後も外部の完全性は不明で、意味的真実や統計的独立性を保証しない。コールバックビューは隔離ではなく、スナップショットは認証済み履歴ではなく、有限ステップは実時間・CPU制限を強制しない。信頼・影響・資源測定・単一書込はホストの責任。未完呼出・不明な影響や費用は未完として保持し、自動再試行・返金・障害復旧・exactly-onceを保証しない。上流v0.2.4実験は否定的結果を報告し、v0.3.0は新規効果実験を行わず実証的有用性は未測定。独立実行・一般的加速・他の掲載プロジェクトとの検証済み統合を主張しない。"
+      },
+      "evidence_refs": [
+        "e-egr-readme",
+        "e-egr-package",
+        "e-egr-version",
+        "e-egr-license",
+        "e-egr-completion",
+        "e-egr-api",
+        "e-egr-security",
+        "e-egr-migration",
+        "e-egr-models",
+        "e-egr-runner",
+        "e-egr-tests",
+        "e-egr-validation"
+      ],
+      "problem_ids": [
+        "tool-routing",
+        "completion-and-outcome",
+        "evidence-support",
+        "obligations",
+        "adaptation",
+        "accounting"
       ]
     }
   ],
