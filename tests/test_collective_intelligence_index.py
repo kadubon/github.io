@@ -193,7 +193,7 @@ class IndexTests(unittest.TestCase):
         audit = self.model['corpus_audit']
         self.assertEqual(len(audit), sum(self.model['scanned_counts'].values()))
         self.assertEqual(len({a['source_catalog_id'] for a in audit}), len(audit))
-        self.assertEqual(sum(r['kind'] == 'paper' for r in self.model['resources']), 19)
+        self.assertEqual(sum(r['kind'] == 'paper' for r in self.model['resources']), 20)
         self.assertEqual(sum(r['kind'] == 'software' for r in self.model['resources']), 21)
 
     def test_checkedflow_is_supporting_without_route_or_integration_promotion(self):
@@ -216,7 +216,7 @@ class IndexTests(unittest.TestCase):
             self.assertEqual(entry['observed_at'], '2026-09-26')
         upstream = next(e for e in evidence if e['id'] == 'e-checkedflow-validation')
         self.assertEqual(upstream['origin'], 'upstream_reported')
-        self.assertEqual(len(self.model['resources']), 40)
+        self.assertEqual(len(self.model['resources']), 41)
 
     def test_cio_version_refresh_preserves_historical_evidence(self):
         r = next(r for r in self.model['resources'] if r['id'] == 'sw-cio')
@@ -259,6 +259,24 @@ class IndexTests(unittest.TestCase):
             self.assertEqual(entry['observed_at'], '2026-10-06')
         self.assertEqual(next(e for e in evidence if e['id'] == 'e-egr-validation')['origin'],
                          'upstream_reported')
+
+    def test_phase_engineering_version_identity_and_static_publication(self):
+        r = next(r for r in self.model['resources'] if r['id'] == 'paper-phase-engineering')
+        self.assertEqual(r['paper']['doi'], '10.5281/zenodo.23240329')
+        self.assertEqual(r['paper']['genre'], 'Preprint')
+        self.assertEqual(r['name'], 'Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth')
+        evidence = next(e for e in self.model['evidence'] if e['id'] in r['evidence_refs'])
+        self.assertEqual(evidence['doi_record']['related_identifiers'][0]['relatedIdentifier'],
+                         '10.5281/zenodo.23240328')
+        self.assertIn('not an empirical', r['limitations']['en'])
+        for p in self.model['problems']:
+            self.assertNotIn(r['id'], p['first_reads'])
+            self.assertEqual(r['id'] in p['relevant_resource_ids'], p['id'] in r['problem_ids'])
+        self.assertFalse(any(r['id'] in (e['source'], e['target']) for e in self.model['relations']))
+        works = (ROOT / 'works.html').read_text(encoding='utf-8')
+        self.assertIn('id="2026-10-08-collective-intelligence-phase-engineering-23240329"', works)
+        self.assertIn(r['name'], works)
+        self.assertIn(r['paper']['doi'], (ROOT / 'collective-intelligence.bib').read_text(encoding='utf-8'))
 
     def test_bilingual_seed_coverage(self):
         rows = coverage.audit(self.model)
@@ -311,7 +329,9 @@ class IndexTests(unittest.TestCase):
 
     def test_review_dates_are_scoped(self):
         for r in self.model['resources']:
-            if r['id'] in {'sw-cio', 'sw-egr'}:
+            if r['id'] == 'paper-phase-engineering':
+                self.assertEqual(r['last_reviewed_at'], '2026-10-09')
+            elif r['id'] in {'sw-cio', 'sw-egr'}:
                 self.assertEqual(r['last_reviewed_at'], '2026-10-06')
             elif r['id'] == 'sw-checkedflow':
                 self.assertEqual(r['last_reviewed_at'], '2026-09-26')

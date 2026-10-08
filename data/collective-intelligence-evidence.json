@@ -2362,6 +2362,35 @@
         "en": "Upstream reports completed 0.5.1 publication/native/install checks, retaining an unexplained initial native failure and unmeasured production/high-load behavior. Not reproduced by this website.",
         "ja": "上流は0.5.1の公開・ネイティブ・導入検証完了を報告するが、初回ネイティブ失敗の原因未確定と本番・高負荷動作の未測定を保持。本サイトでは再現していない。"
       }
+    },
+    {
+      "id": "e-paper-phase-engineering",
+      "url": "https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex",
+      "revision": "10.5281/zenodo.23240329",
+      "observed_at": "2026-10-09",
+      "locator": "Collective Intelligence Phase Engineering.tex; abstract, Problem and scope, Protocols/retention framing, guarantee map, Limits of the guarantees and Conclusion. Bounded scope review, not independent proof verification.",
+      "sha256": "00738681c1ed2f456bc7efb0456176c51c3a96dfd6b6275bc7866af26f191940",
+      "origin": "paper_source_inspected",
+      "claim": {
+        "en": "Conditional theoretical framework for audited retention and achieved growth; empirical collective-specific acceleration still requires matched complete-trajectory experiments.",
+        "ja": "監査付き保持と達成成長の条件付き理論枠組み。集団固有の加速の実証には条件を揃えた完全軌跡実験が必要。"
+      },
+      "doi_record": {
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.23240329",
+        "sha256": "f776c4a5c9946b1dcafa360a2906c575ded30ef3a650dc12ee9c805a00c00e73",
+        "doi": "10.5281/zenodo.23240329",
+        "title_matches_catalog": true,
+        "author_orcid": "0009-0004-4273-3365",
+        "issued": "2026-10-08",
+        "resource_type": "Preprint",
+        "related_identifiers": [
+          {
+            "relationType": "IsVersionOf",
+            "relatedIdentifier": "10.5281/zenodo.23240328",
+            "relatedIdentifierType": "DOI"
+          }
+        ]
+      }
     }
   ],
   "software": {
@@ -5336,6 +5365,12 @@
       "decision": "supporting",
       "review_depth": "readme_contract_license_interfaces",
       "reason": "Source-only review on 2026-10-06 at 0e5def78422de55db6c80723f28b753ef91e017b. Finite missing-evidence routing and explicit completion; upstream validation attributed, no local execution, efficacy inference or tested inter-project edge."
+    },
+    {
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "decision": "supporting",
+      "review_depth": "full_text_scope_and_doi",
+      "reason": "Added 2026-10-09 after bounded inspection of published TeX scope/limits and DataCite/Zenodo identity. Individual version DOI 23240329; concept DOI 23240328 is not a second paper. Registered title plus subtitle retained; no empirical or proof-reproduction claim."
     }
   ],
   "identity_issues": [
@@ -5361,7 +5396,7 @@
     }
   ],
   "scanned_counts": {
-    "research_records": 233,
+    "research_records": 234,
     "repositories": 57
   }
 }

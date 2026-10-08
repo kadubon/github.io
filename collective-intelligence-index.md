@@ -1,6 +1,6 @@
 # Collective Intelligence Research and OSS Index
 
-K. Takahashi · 2026-10-06
+K. Takahashi · 2026-10-09
 
 https://kadubon.github.io/github.io/collective-intelligence-index.html
 
@@ -313,7 +313,7 @@ Other common phrasings:
 - qualified reuse
 - verified != reusable
 
-Further relevant resources: [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio)
+Further relevant resources: [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering)
 
 Related problems: [A skill that worked before fails on a new task](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-distribution-shift) · [Did copied artifacts actually add capability?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-accounting) · [A stored workflow may no longer be valid](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-memory)
 
@@ -533,6 +533,8 @@ Conditions: Advisory route under host policy. Impossible observation, exhausted 
 
 Stop / handoff: Impossible observation, exhausted search budget or real-world acceleration claim.
 
+Further relevant resources: [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering)
+
 Related problems: [Why is my AI agent so expensive?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-cost-and-capacity) · [Verification is backing up faster than it can finish](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-verification-backlog) · [Who pays for verification and unresolved risk?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-verification-funding)
 
 ### Who funds verification and carries residual risk? (verification-funding)
@@ -548,6 +550,8 @@ Expected outputs: Contextual funding questions and typed costs, not a generated 
 Conditions: Advisory route under host policy. Missing institutional agreement; a package cannot assign legal authority or liability.
 
 Stop / handoff: Missing institutional agreement; a package cannot assign legal authority or liability.
+
+Further relevant resources: [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering)
 
 Related problems: [Too many approval requests are blocking useful work](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-human-oversight) · [Why is my AI agent so expensive?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-cost-and-capacity) · [My agent is acting with the wrong permissions](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-authority)
 
@@ -577,6 +581,8 @@ Other common phrasings:
 - evaluation overfitting
 - test oracle problem
 - synthetic evaluation vs real-world evidence
+
+Further relevant resources: [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering)
 
 Related problems: [Repeated hypothesis tests may overstate the evidence](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-adaptive-research) · [It works in a demo but fails in production](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-production-reliability) · [The citation does not support the agent’s claim](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evidence-support)
 
@@ -623,7 +629,7 @@ Other common phrasings:
 - generated != verified
 - unknown must remain unknown
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr) · [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering)
 
 Related problems: [My agent says done, but the task is not finished](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-completion-and-outcome) · [The citation does not support the agent’s claim](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evidence-support) · [Should I reuse a skill or solve from scratch?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-reuse)
 
@@ -715,7 +721,7 @@ Other common phrasings:
 - credit assignment
 - which agent contributed
 
-Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr)
+Further relevant resources: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-egr) · [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering)
 
 Related problems: [Should I reuse a skill or solve from scratch?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-reuse) · [Why is my AI agent so expensive?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-cost-and-capacity) · [More agents create duplicate work or overwrite each other](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-coordinate)
 
@@ -2123,6 +2129,26 @@ Installation guidance: Use version-pinned upstream installation instructions aft
 - [e-egr-tests](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/tests/test_completion_030.py)
 - [e-egr-validation](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/validation.md)
 
+### Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth (paper-phase-engineering)
+
+How can funded audits and implementable controls certify capability that remains after intervention? Connects paid archive retention, complete causal comparators, finite receipt accounts and conditional certificates for achieved growth.
+
+Primary editorial role: finite-control-and-information
+
+Limits / unsupported uses: Theoretical preprint, not an empirical acceleration demonstration or physical phase transition. Guarantees depend on declared finite contracts, matched complete trajectories, justified verification bias/tail/drift bounds, fixed retained targets and supported funding. Audit labels are not latent truth; conditional mean growth is not positive growth on every trajectory. Selection covers available produced archives, not optimal generation of unproduced artifacts. Statistical coverage is not a posterior probability or permanent safety. No implemented software integration or universal AGI/ASI claim follows.
+
+Source reviewed: 2026-10-09
+
+DOI: 10.5281/zenodo.23240329
+
+Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
+
+Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+
+- [DOI](https://doi.org/10.5281/zenodo.23240329)
+- [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
+- [e-paper-phase-engineering](https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex)
+
 ## Proposed evidence-preserving workflow
 
 Generate → Verify → Reuse → Account → Reallocate is a conceptual workflow, not an executable pipeline. Preserve original bytes, identities, clocks, costs and unresolved obligations at each handoff. Use the typed relationships below before connecting any two tools. A schema match alone grants neither semantic acceptance nor execution authority.
@@ -2452,7 +2478,7 @@ Verification consumes resources even when a result is negative. A deployment con
 
 Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.
 
-Scanned 233 research records and 57 repositories; selected 40 resources.
+Scanned 234 research records and 57 repositories; selected 41 resources.
 
 Boundary Exchange / viability: unresolved — No exact Boundary Exchange title/DOI in the scanned catalogue. Do not invent a paper identity.
 

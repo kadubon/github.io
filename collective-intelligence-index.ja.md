@@ -1,6 +1,6 @@
 # 集合知研究・OSS索引
 
-K. Takahashi · 2026-10-06
+K. Takahashi · 2026-10-09
 
 https://kadubon.github.io/github.io/collective-intelligence-index.ja.html
 
@@ -309,7 +309,7 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 - 条件を満たした再利用か確認したい
 - 検証済みでも再利用できるとは限らない
 
-関連する追加資料: [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cio)
+関連する追加資料: [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cio) · [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering)
 
 関連する困りごと: [以前使えたスキルが別の課題では失敗する](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-distribution-shift) · [成果物のコピーで本当に能力が増えたのか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-accounting) · [保存した手続きを今も使ってよいかわからない](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-memory)
 
@@ -528,6 +528,8 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 
 停止・引継ぎ: 不可能な観測、探索予算超過、実世界の加速主張。
 
+関連する追加資料: [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering)
+
 関連する困りごと: [エージェントのトークン消費やAPI費用が大きすぎる](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-cost-and-capacity) · [検証待ちが増えて処理が追いつかない](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-verification-backlog) · [検証費用と残るリスクを誰が負担するか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-verification-funding)
 
 ### 検証費用と残余リスクを誰が負担するか？ (verification-funding)
@@ -543,6 +545,8 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 条件: ホスト方針に従う助言経路。制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。
 
 停止・引継ぎ: 制度的合意の欠如。パッケージは法的権限や責任を割り当てられない。
+
+関連する追加資料: [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering)
 
 関連する困りごと: [承認依頼が多すぎて作業が進まない](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-human-oversight) · [エージェントのトークン消費やAPI費用が大きすぎる](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-cost-and-capacity) · [エージェントが強すぎる権限で動いている](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-authority)
 
@@ -571,6 +575,8 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 - 評価に過適合している
 - テストの正解判定自体が信用できない
 - 合成評価と実世界の根拠を区別したい
+
+関連する追加資料: [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering)
 
 関連する困りごと: [仮説検定を繰り返して根拠を過大評価していないか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-adaptive-research) · [デモでは動くのに本番で失敗する](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-production-reliability) · [AIの引用が主張の根拠になっていない](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-evidence-support)
 
@@ -616,7 +622,7 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 - 生成されたことは検証済みを意味しない
 - 不明なものを不明のまま残したい
 
-関連する追加資料: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-egr)
+関連する追加資料: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-egr) · [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering)
 
 関連する困りごと: [AIエージェントが完了と言うのに実際には終わっていない](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-completion-and-outcome) · [AIの引用が主張の根拠になっていない](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-evidence-support) · [スキルを再利用するか一から解くか迷う](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-reuse)
 
@@ -708,7 +714,7 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 - エージェントの貢献を割り当てたい
 - どのエージェントが貢献したのか
 
-関連する追加資料: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-egr)
+関連する追加資料: [sw-checkedflow](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-checkedflow) · [sw-cio](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cio) · [sw-egr](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-egr) · [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering)
 
 関連する困りごと: [スキルを再利用するか一から解くか迷う](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-reuse) · [エージェントのトークン消費やAPI費用が大きすぎる](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-cost-and-capacity) · [エージェントを増やすと重複作業や上書きが起きる](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-coordinate)
 
@@ -2116,6 +2122,26 @@ Interface schema identity / スキーマ識別子: null — upstream schema has 
 - [e-egr-tests](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/tests/test_completion_030.py)
 - [e-egr-validation](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/validation.md)
 
+### Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth (paper-phase-engineering)
+
+資源を確保した監査と実行可能な制御により、介入後に残る能力をどう認証するか。有料のアーカイブ保持選択、完全な因果比較、有限受領証会計、達成成長の条件付き証明を結ぶ。
+
+編集上の主役割: finite-control-and-information
+
+限界・未対応用途: 理論プレプリントであり、加速の実証や物理的相転移ではない。保証には宣言した有限契約、条件を揃えた完全軌跡、妥当な検証偏り・裾・ドリフト境界、固定保持目標、裏付けある資金が必要。監査ラベルは潜在的真実ではなく、条件付き平均成長は全軌跡の正成長ではない。選択対象は生成済み利用可能アーカイブで、未生成成果物の最適生成ではない。統計的被覆は事後確率や恒久的安全性ではない。ソフト統合の実装や普遍的AGI・ASIの主張は導かれない。
+
+ソース確認日: 2026-10-09
+
+DOI: 10.5281/zenodo.23240329
+
+Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
+
+Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+
+- [DOI](https://doi.org/10.5281/zenodo.23240329)
+- [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
+- [e-paper-phase-engineering](https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex)
+
 ## 根拠を保持する作業手順案
 
 生成 → 検証 → 再利用 → 計上 → 再配分は概念的手順であり、そのまま実行できるパイプラインではない。各引渡しで元バイト列、同一性、時計、費用、未解決義務を保持する。ツールを接続する前に以下の型付き関係を確認する。スキーマ適合だけでは意味的受理も実行権限も得られない。
@@ -2445,7 +2471,7 @@ Checked fields: none
 
 書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。
 
-Scanned 233 research records and 57 repositories; selected 40 resources.
+Scanned 234 research records and 57 repositories; selected 41 resources.
 
 Boundary Exchange / viability: unresolved — No exact Boundary Exchange title/DOI in the scanned catalogue. Do not invent a paper identity.
 

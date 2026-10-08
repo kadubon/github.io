@@ -156,7 +156,7 @@ and the optional [llms.txt proposal](https://llmstxt.org/).
 
 ## Symptom routing (schema 1.1, 2026-09-24)
 
-The current selection has 19 papers and 21 OSS resources. Six additional
+The current selection has 20 papers and 21 OSS resources. Six additional
 supporting repositories received a bounded source review on 2026-09-24;
 [the generated coverage report](collective-intelligence-coverage.md) records
 exact revisions, declared source versions, selection reasons and limitations.
@@ -282,7 +282,7 @@ advantage. The source register retains superseded failures and pending gates.
 ## Evidence Gap Router addition and CIO version refresh (2026-10-06)
 
 Supporting resource `sw-egr` reuses catalog identity `kadubon/evidence-gap-router`.
-Selection is now 19 papers + 21 OSS = 40 resources; the cumulative corpus audit
+After that addition, selection was 19 papers + 21 OSS = 40 resources; the cumulative corpus audit
 covers 233 publications and 57 repositories. No new paper, works.html identity,
 DOI or bibliography entry was invented. Normal metadata/release refresh was used.
 
@@ -314,3 +314,34 @@ The current card removes obsolete candidate/pending-release wording and attribut
 completed release checks to upstream, retaining unexplained historical native
 failure and production/high-load limitations. PyPI bytes were not independently
 verified or installed. Existing CIO role/routing/relationship classifications remain.
+
+## Phase Engineering preprint addition (2026-10-09)
+
+`paper-phase-engineering` is a supporting theoretical paper, bringing selection
+to 20 papers + 21 OSS = 41 resources. The cumulative audit covers 234 publication
+records and 57 repositories. `works.html` remains the title/author/date/DOI authority;
+catalogs, the paper landing page, PDF metadata, feed, sitemap, bilingual index,
+Markdown and bibliography are derived from the existing generators.
+
+DataCite and Zenodo identify K. Takahashi (ORCID 0009-0004-4273-3365), issued
+2026-10-08, Preprint, CC BY 4.0. The displayed full title combines the registered
+main title and subtitle: Collective Intelligence Phase Engineering: Audited
+Retention and Achieved Growth. Individual version DOI 10.5281/zenodo.23240329
+is distinct from concept DOI 10.5281/zenodo.23240328, which is not added separately.
+No explicit version number is registered; none is invented.
+
+The published TeX bytes matched the Zenodo file MD5; SHA-256
+`00738681c1ed2f456bc7efb0456176c51c3a96dfd6b6275bc7866af26f191940`
+binds the source. A bounded scope review covered abstract, problem/scope,
+protocol/retention framing, guarantee map, limits and conclusion. The evidence
+record also hashes the retrieved DataCite response. This is not an independent
+proof audit or empirical reproduction. No copy of the manuscript is committed.
+
+Existing accounting, information, evaluation-integrity, verification-funding,
+obligations and reuse routes gain the supporting reference. Existing first reads,
+problem definitions, aliases, relations, schema and coverage seeds stay unchanged.
+Conditional audit soundness, finite-budget declaration power, achieved stock and
+complete-trajectory causal acceleration remain distinct. Produced finite archives,
+calibrated bias/tail/drift bounds, supported funding and fixed endpoint targets are
+required; theoretical examples do not establish empirical collective acceleration,
+physical criticality, general intelligence or universal safety.

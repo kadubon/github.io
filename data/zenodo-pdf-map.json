@@ -2991,5 +2991,19 @@
         "score": 140
       }
     ]
+  },
+  "10.5281/zenodo.23240329": {
+    "record_id": "23240329",
+    "status": "PDF_RESOLVED",
+    "pdf_url": "https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.pdf",
+    "filename": "Collective Intelligence Phase Engineering.pdf",
+    "candidates": [
+      {
+        "filename": "Collective Intelligence Phase Engineering.pdf",
+        "url": "https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.pdf",
+        "size": 874401,
+        "score": 129
+      }
+    ]
   }
 }

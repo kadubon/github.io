@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "modified_at": "2026-10-06",
+  "modified_at": "2026-10-09",
   "resources": [
     {
       "id": "paper-growth",
@@ -1286,6 +1286,41 @@
         "obligations",
         "adaptation",
         "accounting"
+      ]
+    },
+    {
+      "id": "paper-phase-engineering",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "tier": "supporting",
+      "primary_role": "finite-control-and-information",
+      "roles": [
+        "finite-control-and-information",
+        "capability-accounting",
+        "research-validity"
+      ],
+      "summary": {
+        "en": "How can funded audits and implementable controls certify capability that remains after intervention? Connects paid archive retention, complete causal comparators, finite receipt accounts and conditional certificates for achieved growth.",
+        "ja": "資源を確保した監査と実行可能な制御により、介入後に残る能力をどう認証するか。有料のアーカイブ保持選択、完全な因果比較、有限受領証会計、達成成長の条件付き証明を結ぶ。"
+      },
+      "relevance_reason": {
+        "en": "Separates immediate performance, interaction contribution, retained growth and acceleration; makes audit power, verification debt, endpoint uncertainty and funded continuation explicit.",
+        "ja": "即時性能・相互作用寄与・保持成長・加速を分離し、監査の検出力・検証負債・終端不確実性・資源付き継続を明示する。"
+      },
+      "limitations": {
+        "en": "Theoretical preprint, not an empirical acceleration demonstration or physical phase transition. Guarantees depend on declared finite contracts, matched complete trajectories, justified verification bias/tail/drift bounds, fixed retained targets and supported funding. Audit labels are not latent truth; conditional mean growth is not positive growth on every trajectory. Selection covers available produced archives, not optimal generation of unproduced artifacts. Statistical coverage is not a posterior probability or permanent safety. No implemented software integration or universal AGI/ASI claim follows.",
+        "ja": "理論プレプリントであり、加速の実証や物理的相転移ではない。保証には宣言した有限契約、条件を揃えた完全軌跡、妥当な検証偏り・裾・ドリフト境界、固定保持目標、裏付けある資金が必要。監査ラベルは潜在的真実ではなく、条件付き平均成長は全軌跡の正成長ではない。選択対象は生成済み利用可能アーカイブで、未生成成果物の最適生成ではない。統計的被覆は事後確率や恒久的安全性ではない。ソフト統合の実装や普遍的AGI・ASIの主張は導かれない。"
+      },
+      "evidence_refs": [
+        "e-paper-phase-engineering"
+      ],
+      "problem_ids": [
+        "accounting",
+        "information",
+        "evaluation-integrity",
+        "verification-funding",
+        "obligations",
+        "reuse"
       ]
     }
   ],

@@ -2,7 +2,7 @@
   "$schema": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
   "schema_version": "1.1",
   "canonical_url": "https://kadubon.github.io/github.io/collective-intelligence-index.json",
-  "modified_at": "2026-10-06",
+  "modified_at": "2026-10-09",
   "reviewed_at": "2026-09-21",
   "digest_definition": "SHA-256 of UTF-8 JSON of the complete registry excluding content_digest; sorted keys, no insignificant spaces, unescaped Unicode, no NaN.",
   "identity": {
@@ -4108,6 +4108,77 @@
           "ja": "Alpha段階の契約・制御実装であり、エージェント／モデルサービス・ネットワークゲートウェイ・スケジューラではない。有限カタログの完了後も外部の完全性は不明で、意味的真実や統計的独立性を保証しない。コールバックビューは隔離ではなく、スナップショットは認証済み履歴ではなく、有限ステップは実時間・CPU制限を強制しない。信頼・影響・資源測定・単一書込はホストの責任。未完呼出・不明な影響や費用は未完として保持し、自動再試行・返金・障害復旧・exactly-onceを保証しない。上流v0.2.4実験は否定的結果を報告し、v0.3.0は新規効果実験を行わず実証的有用性は未測定。独立実行・一般的加速・他の掲載プロジェクトとの検証済み統合を主張しない。"
         }
       }
+    },
+    {
+      "id": "paper-phase-engineering",
+      "kind": "paper",
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "tier": "supporting",
+      "primary_role": "finite-control-and-information",
+      "roles": [
+        "finite-control-and-information",
+        "capability-accounting",
+        "research-validity"
+      ],
+      "summary": {
+        "en": "How can funded audits and implementable controls certify capability that remains after intervention? Connects paid archive retention, complete causal comparators, finite receipt accounts and conditional certificates for achieved growth.",
+        "ja": "資源を確保した監査と実行可能な制御により、介入後に残る能力をどう認証するか。有料のアーカイブ保持選択、完全な因果比較、有限受領証会計、達成成長の条件付き証明を結ぶ。"
+      },
+      "relevance_reason": {
+        "en": "Separates immediate performance, interaction contribution, retained growth and acceleration; makes audit power, verification debt, endpoint uncertainty and funded continuation explicit.",
+        "ja": "即時性能・相互作用寄与・保持成長・加速を分離し、監査の検出力・検証負債・終端不確実性・資源付き継続を明示する。"
+      },
+      "limitations": {
+        "en": "Theoretical preprint, not an empirical acceleration demonstration or physical phase transition. Guarantees depend on declared finite contracts, matched complete trajectories, justified verification bias/tail/drift bounds, fixed retained targets and supported funding. Audit labels are not latent truth; conditional mean growth is not positive growth on every trajectory. Selection covers available produced archives, not optimal generation of unproduced artifacts. Statistical coverage is not a posterior probability or permanent safety. No implemented software integration or universal AGI/ASI claim follows.",
+        "ja": "理論プレプリントであり、加速の実証や物理的相転移ではない。保証には宣言した有限契約、条件を揃えた完全軌跡、妥当な検証偏り・裾・ドリフト境界、固定保持目標、裏付けある資金が必要。監査ラベルは潜在的真実ではなく、条件付き平均成長は全軌跡の正成長ではない。選択対象は生成済み利用可能アーカイブで、未生成成果物の最適生成ではない。統計的被覆は事後確率や恒久的安全性ではない。ソフト統合の実装や普遍的AGI・ASIの主張は導かれない。"
+      },
+      "evidence_refs": [
+        "e-paper-phase-engineering"
+      ],
+      "problem_ids": [
+        "accounting",
+        "information",
+        "evaluation-integrity",
+        "verification-funding",
+        "obligations",
+        "reuse"
+      ],
+      "ownership": "takahashi",
+      "alternate_names": [],
+      "language": [
+        "en"
+      ],
+      "source_state": "reviewed_snapshot",
+      "last_reviewed_at": "2026-10-09",
+      "unsupported_claims": {
+        "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
+        "ja": "計上恒等式は、同一単位・範囲内で期末蓄積 = 期首蓄積 + 受理された一意の追加 − 損失。サービス再利用、コピー、外部投入は別座標。普遍的な流入・損失比は仮定せず、損失ゼロなら未定義にもなる。スペクトル下界はモデルの前提に依存する。ハッシュはバイト列を結び付けるが真実を証明しない。リリースは本番保証ではない。不明値は理由付きnullで好都合なゼロではない。大域的自己加速の観測、AGI・ASI検出、到来予測は確立していない。"
+      },
+      "related_resource_ids": [],
+      "name": "Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth",
+      "canonical_url": "https://doi.org/10.5281/zenodo.23240329",
+      "paper": {
+        "title": "Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth",
+        "authors": [
+          "K. Takahashi"
+        ],
+        "doi": "10.5281/zenodo.23240329",
+        "doi_url": "https://doi.org/10.5281/zenodo.23240329",
+        "date_published": "2026-10-08T00:00:00+09:00",
+        "landing_page_url": "https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/",
+        "genre": "Preprint",
+        "full_text_sources": [
+          "https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex"
+        ],
+        "question_and_contribution": {
+          "en": "How can funded audits and implementable controls certify capability that remains after intervention? Connects paid archive retention, complete causal comparators, finite receipt accounts and conditional certificates for achieved growth.",
+          "ja": "資源を確保した監査と実行可能な制御により、介入後に残る能力をどう認証するか。有料のアーカイブ保持選択、完全な因果比較、有限受領証会計、達成成長の条件付き証明を結ぶ。"
+        },
+        "assumptions_and_limits": {
+          "en": "Theoretical preprint, not an empirical acceleration demonstration or physical phase transition. Guarantees depend on declared finite contracts, matched complete trajectories, justified verification bias/tail/drift bounds, fixed retained targets and supported funding. Audit labels are not latent truth; conditional mean growth is not positive growth on every trajectory. Selection covers available produced archives, not optimal generation of unproduced artifacts. Statistical coverage is not a posterior probability or permanent safety. No implemented software integration or universal AGI/ASI claim follows.",
+          "ja": "理論プレプリントであり、加速の実証や物理的相転移ではない。保証には宣言した有限契約、条件を揃えた完全軌跡、妥当な検証偏り・裾・ドリフト境界、固定保持目標、裏付けある資金が必要。監査ラベルは潜在的真実ではなく、条件付き平均成長は全軌跡の正成長ではない。選択対象は生成済み利用可能アーカイブで、未生成成果物の最適生成ではない。統計的被覆は事後確率や恒久的安全性ではない。ソフト統合の実装や普遍的AGI・ASIの主張は導かれない。"
+        }
+      }
     }
   ],
   "problems": [
@@ -4792,7 +4863,8 @@
         "paper-alt",
         "sw-alt",
         "paper-pcs",
-        "sw-cio"
+        "sw-cio",
+        "paper-phase-engineering"
       ]
     },
     {
@@ -5473,7 +5545,8 @@
       "relevant_resource_ids": [
         "paper-growth",
         "sw-cpcf",
-        "paper-consequence"
+        "paper-consequence",
+        "paper-phase-engineering"
       ]
     },
     {
@@ -5531,7 +5604,8 @@
       "relevant_resource_ids": [
         "paper-conversion",
         "paper-bit",
-        "sw-vek"
+        "sw-vek",
+        "paper-phase-engineering"
       ]
     },
     {
@@ -5619,7 +5693,8 @@
       "relevant_resource_ids": [
         "sw-loscr",
         "sw-atrb",
-        "sw-audit"
+        "sw-audit",
+        "paper-phase-engineering"
       ]
     },
     {
@@ -5759,7 +5834,8 @@
         "paper-operational-claims",
         "sw-checkedflow",
         "sw-cio",
-        "sw-egr"
+        "sw-egr",
+        "paper-phase-engineering"
       ]
     },
     {
@@ -6032,7 +6108,8 @@
         "paper-growth",
         "sw-checkedflow",
         "sw-cio",
-        "sw-egr"
+        "sw-egr",
+        "paper-phase-engineering"
       ]
     },
     {
@@ -9393,6 +9470,35 @@
         "en": "Upstream reports completed 0.5.1 publication/native/install checks, retaining an unexplained initial native failure and unmeasured production/high-load behavior. Not reproduced by this website.",
         "ja": "上流は0.5.1の公開・ネイティブ・導入検証完了を報告するが、初回ネイティブ失敗の原因未確定と本番・高負荷動作の未測定を保持。本サイトでは再現していない。"
       }
+    },
+    {
+      "id": "e-paper-phase-engineering",
+      "url": "https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex",
+      "revision": "10.5281/zenodo.23240329",
+      "observed_at": "2026-10-09",
+      "locator": "Collective Intelligence Phase Engineering.tex; abstract, Problem and scope, Protocols/retention framing, guarantee map, Limits of the guarantees and Conclusion. Bounded scope review, not independent proof verification.",
+      "sha256": "00738681c1ed2f456bc7efb0456176c51c3a96dfd6b6275bc7866af26f191940",
+      "origin": "paper_source_inspected",
+      "claim": {
+        "en": "Conditional theoretical framework for audited retention and achieved growth; empirical collective-specific acceleration still requires matched complete-trajectory experiments.",
+        "ja": "監査付き保持と達成成長の条件付き理論枠組み。集団固有の加速の実証には条件を揃えた完全軌跡実験が必要。"
+      },
+      "doi_record": {
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.23240329",
+        "sha256": "f776c4a5c9946b1dcafa360a2906c575ded30ef3a650dc12ee9c805a00c00e73",
+        "doi": "10.5281/zenodo.23240329",
+        "title_matches_catalog": true,
+        "author_orcid": "0009-0004-4273-3365",
+        "issued": "2026-10-08",
+        "resource_type": "Preprint",
+        "related_identifiers": [
+          {
+            "relationType": "IsVersionOf",
+            "relatedIdentifier": "10.5281/zenodo.23240328",
+            "relatedIdentifierType": "DOI"
+          }
+        ]
+      }
     }
   ],
   "corpus_audit": [
@@ -11135,6 +11241,12 @@
       "decision": "supporting",
       "review_depth": "readme_contract_license_interfaces",
       "reason": "Source-only review on 2026-10-06 at 0e5def78422de55db6c80723f28b753ef91e017b. Finite missing-evidence routing and explicit completion; upstream validation attributed, no local execution, efficacy inference or tested inter-project edge."
+    },
+    {
+      "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "decision": "supporting",
+      "review_depth": "full_text_scope_and_doi",
+      "reason": "Added 2026-10-09 after bounded inspection of published TeX scope/limits and DataCite/Zenodo identity. Individual version DOI 23240329; concept DOI 23240328 is not a second paper. Registered title plus subtitle retained; no empirical or proof-reproduction claim."
     }
   ],
   "identity_issues": [
@@ -11160,7 +11272,7 @@
     }
   ],
   "scanned_counts": {
-    "research_records": 233,
+    "research_records": 234,
     "repositories": 57
   },
   "agent_routing": {
@@ -11197,5 +11309,5 @@
       "incident-response"
     ]
   },
-  "content_digest": "36103508eec0fa3c1ae3a5fe2cb002ef52846134f338a1480e2c7624a74be4c2"
+  "content_digest": "e213c6dc656626173eb7b475137af3bb5309550d7e0976255d963e4208b30b7f"
 }

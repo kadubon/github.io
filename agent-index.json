@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "index_type": "research_and_software_discovery",
   "canonical_url": "https://kadubon.github.io/github.io/agent-index.json",
-  "source_state_at": "2026-10-06T06:03:23Z",
+  "source_state_at": "2026-10-09T00:00:00Z",
   "identity": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -43,8 +43,8 @@
     "paper_source_archive": "https://github.com/kadubon/paper-tex-backup"
   },
   "counts": {
-    "research_records": 233,
-    "scholarly_paper_count": 229,
+    "research_records": 234,
+    "scholarly_paper_count": 230,
     "public_source_repositories": 57,
     "archived_source_repositories": 0
   },

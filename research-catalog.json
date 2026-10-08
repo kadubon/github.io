@@ -3,7 +3,7 @@
   "catalog_type": "research_works",
   "canonical_url": "https://kadubon.github.io/github.io/research-catalog.json",
   "source_url": "https://kadubon.github.io/github.io/works.html",
-  "source_state_date": "2026-09-21",
+  "source_state_date": "2026-10-09",
   "creator": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -11,8 +11,38 @@
     "github": "https://github.com/kadubon"
   },
   "selection_policy": "All ScholarlyArticle and SoftwareSourceCode records in the canonical works.html JSON-LD graph.",
-  "record_count": 233,
+  "record_count": 234,
   "records": [
+    {
+      "record_type": "scholarly_article",
+      "schema_org_type": "ScholarlyArticle",
+      "id": "https://kadubon.github.io/github.io/works.html#pub-2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "title": "Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth",
+      "authors": [
+        "K. Takahashi"
+      ],
+      "date_published": "2026-10-08T00:00:00+09:00",
+      "doi": "10.5281/zenodo.23240329",
+      "doi_url": "https://doi.org/10.5281/zenodo.23240329",
+      "canonical_url": "https://doi.org/10.5281/zenodo.23240329",
+      "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "abstract": "This theoretical preprint studies how to observe, control and retain collective capability under explicit evidence, verification and resource constraints. It separates temporary task performance, interaction-specific contribution, retained growth and acceleration against complete evolving comparators with matched information and resource entitlements. Paid adaptive audits, finite catalogue retention, receipt-based continuation accounts and conditional moment bounds connect phase declarations to achieved stock. The results depend on justified calibration, fixed endpoint targets and funded execution; mathematical examples do not demonstrate empirical collective-specific acceleration or a physical phase transition.",
+      "keywords": [
+        "collective intelligence",
+        "partial observation",
+        "retained capability",
+        "verification",
+        "robust control",
+        "sequential evidence"
+      ],
+      "language": "en",
+      "genre": "Preprint",
+      "same_as": [
+        "https://doi.org/10.5281/zenodo.23240329"
+      ],
+      "slug": "2026-10-08-collective-intelligence-phase-engineering-23240329",
+      "landing_page_url": "https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/"
+    },
     {
       "record_type": "scholarly_article",
       "schema_org_type": "ScholarlyArticle",
