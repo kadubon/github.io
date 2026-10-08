@@ -769,7 +769,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -824,7 +824,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -876,7 +876,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -924,7 +924,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -974,7 +974,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1021,7 +1021,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1461,7 +1461,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1501,7 +1501,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1552,7 +1552,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1593,7 +1593,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1634,7 +1634,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1677,7 +1677,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1718,7 +1718,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1759,7 +1759,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1800,7 +1800,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1841,7 +1841,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1882,7 +1882,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1925,7 +1925,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -1964,7 +1964,7 @@ Review state / レビュー状態: newer_source_not_editorially_reviewed
 
 確認したGitHubリリース: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -2019,7 +2019,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.5.1 · 2026-10-04T19:24:57Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
@@ -2077,7 +2077,7 @@ Review state / レビュー状態: reviewed_snapshot
 
 確認したGitHubリリース: v0.3.0 · 2026-10-06T05:12:56Z
 
-Release observation / リリース確認: 2026-10-06T06:03:28+00:00 · current
+Release observation / リリース確認: 2026-10-08T23:06:18+00:00 · current
 
 License: Apache-2.0
 
