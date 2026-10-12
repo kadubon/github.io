@@ -215,8 +215,8 @@ Baseline values are frozen measured observations, not a second operational routi
 
 ## Interpretation / 解釈
 
-The original 12 routes covered research concepts such as verification, reuse and accounting, but these practical seed phrases were not exact aliases. The expanded 27 routes retain those IDs and add practical questions in eight groups. This is an explicit curated vocabulary, not open-ended natural-language understanding.
-旧12経路は検証・再利用・計上などを扱っていたが、この実務シード群の表現は一致語として登録されていなかった。既存IDを保持し、8群・27経路へ拡張した。自由文全般の理解ではなく、明示的に選定した語彙である。
+The original 12 routes covered research concepts such as verification, reuse and accounting, but these practical seed phrases were not exact aliases. The 27-route symptom expansion retained those IDs and added practical questions in eight groups. A separate RSI evidence route now brings the total to 28; its regression queries are outside this unchanged 168-seed fixture. This is an explicit curated vocabulary, not open-ended natural-language understanding.
+旧12経路は検証・再利用・計上などを扱っていたが、この実務シード群の表現は一致語として登録されていなかった。既存IDを保持し、8群・27経路へ拡張した。その後、独立したRSI証拠経路を追加して計28経路となった。RSI回帰質問は変更していない168件のシードとは別である。自由文全般の理解ではなく、明示的に選定した語彙である。
 
 Tool search, incident containment and security routes expose evidence/host obligations, not a new MCP search service, universal kill switch, OAuth implementation, attack immunity or production guarantee.
 ツール探索・事故封じ込め・安全性の経路は根拠とホストの義務を示す。MCP検索サービス、万能停止装置、OAuth実装、攻撃耐性保証、本番保証を新設したものではない。

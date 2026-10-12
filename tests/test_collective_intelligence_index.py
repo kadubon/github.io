@@ -270,13 +270,79 @@ class IndexTests(unittest.TestCase):
                          '10.5281/zenodo.23240328')
         self.assertIn('not an empirical', r['limitations']['en'])
         for p in self.model['problems']:
-            self.assertNotIn(r['id'], p['first_reads'])
+            self.assertEqual(r['id'] in p['first_reads'], p['id'] == 'rsi-evidence')
             self.assertEqual(r['id'] in p['relevant_resource_ids'], p['id'] in r['problem_ids'])
         self.assertFalse(any(r['id'] in (e['source'], e['target']) for e in self.model['relations']))
         works = (ROOT / 'works.html').read_text(encoding='utf-8')
         self.assertIn('id="2026-10-08-collective-intelligence-phase-engineering-23240329"', works)
         self.assertIn(r['name'], works)
         self.assertIn(r['paper']['doi'], (ROOT / 'collective-intelligence.bib').read_text(encoding='utf-8'))
+
+    def test_phase_engineering_core_reader_and_preserved_source(self):
+        matches = [r for r in self.model['resources'] if r['id'] == 'paper-phase-engineering']
+        self.assertEqual(len(matches), 1)
+        r = matches[0]
+        self.assertEqual(r['tier'], 'core')
+        self.assertEqual(r['last_reviewed_at'], '2026-10-09')
+        raw = next(r for r in gen.read('data/collective-intelligence-curation.json')['resources']
+                   if r['id'] == 'paper-phase-engineering')
+        self.assertEqual(gen.digest({k: v for k, v in raw.items() if k not in ('tier', 'problem_ids')}),
+                         'd54689836c6084c61576c9df9bf1a8f79b64c3cf2f6c23866a5d026efd901556')
+        expected = ['paper-growth', 'paper-phase-engineering', 'paper-vet', 'paper-alt', 'paper-cait']
+        self.assertEqual(next(p for p in self.model['read_paths'] if p['id'] == 'reader')['resource_ids'], expected)
+        for lang in ('en', 'ja'):
+            page = gen.html(self.model, lang)
+            core = page.split('id="core-papers"', 1)[1].split('</section>', 1)[0]
+            supporting = page.split('id="supporting-research"', 1)[1].split('</section>', 1)[0]
+            self.assertEqual(validation.Document(core).resources.count(r['id']), 1)
+            self.assertNotIn(r['id'], validation.Document(supporting).resources)
+            start = page.split('id="start-here"', 1)[1].split('</section>', 1)[0]
+            self.assertIn(gen.page_url(lang) + '#' + r['id'], validation.Document(start).links)
+
+    def test_rsi_explicit_bilingual_queries_and_negative_routing(self):
+        p = next(p for p in self.model['problems'] if p['id'] == 'rsi-evidence')
+        self.assertEqual(p['first_reads'], ['paper-phase-engineering', 'paper-growth', 'paper-cait'])
+        self.assertEqual(p['symptom_group'], 'evaluation')
+        for lang in ('en', 'ja'):
+            for query in [p['question'][lang], *p['query_aliases'][lang]]:
+                self.assertEqual(gen.route(self.model, query)['id'], p['id'])
+        self.assertEqual(gen.route(self.model, '  RSI EVIDENCE ASSESSMENT?! ')['id'], p['id'])
+        for query in ['RSI', 'rsi', 'relative strength index', 'banana',
+                      'not RSI evidence assessment', 'RSI evidence assessment tomorrow',
+                      '反復性緊張障害', 'RSIの株価指標', 'OAuth for agents',
+                      'MCP token passthrough', 'slopsquatting', 'package hallucination']:
+            self.assertIsNone(gen.route(self.model, query), query)
+        forecast = next(p for p in self.model['problems'] if p['id'] == 'forecast')
+        for query in [*forecast['question'].values(), *forecast['queries']]:
+            self.assertEqual(gen.route(self.model, query)['id'], 'forecast')
+        with self.assertRaises(ValueError):
+            gen.validate_model(self.mutate(lambda m: m['problems'][-1]['query_aliases']['en'].append(
+                'forecast when ASI will arrive')))
+
+    def test_rsi_scientific_boundaries_are_bilingual_and_static(self):
+        p = next(p for p in self.model['problems'] if p['id'] == 'rsi-evidence')
+        phrases = {
+            'en': ['Level 1', 'Level 2', 'Level 3', 'Iteration counts do not prove self-acceleration',
+                   'score improvement is not improvement of the ability to improve',
+                   'PASS is not proof of truth', 'unknown', 'independent external evaluation'],
+            'ja': ['水準1', '水準2', '水準3', '反復回数は自己加速の証明ではなく',
+                   'スコア改善は改善能力そのものの向上と同一ではない',
+                   'PASSは真実の証明ではない', 'unknown（未確定）', '独立した外部評価']}
+        for lang, required in phrases.items():
+            body = ' '.join(p[k][lang] for k in ('required_inputs', 'expected_outputs',
+                'prerequisite_or_unsupported_conditions', 'stop_or_handoff_conditions'))
+            page, md = gen.html(self.model, lang), gen.markdown(self.model, lang)
+            for phrase in required:
+                self.assertIn(phrase, body)
+                self.assertIn(gen.escape(phrase), page)
+                self.assertIn(gen.md_text(phrase), md)
+
+    def test_rsi_scope_preserves_existing_27_routes(self):
+        self.assertEqual((len(self.model['resources']), len(self.model['roles']),
+                          len(self.model['relations']), len(self.model['problems'])), (41, 13, 20, 28))
+        raw = gen.read('data/collective-intelligence-curation.json')
+        self.assertEqual(gen.digest([p for p in raw['problems'] if p['id'] != 'rsi-evidence']),
+                         '8171b3db25360d404f58b4677e34c3b102b8fb361846db06fa78cf069b222664')
 
     def test_bilingual_seed_coverage(self):
         rows = coverage.audit(self.model)

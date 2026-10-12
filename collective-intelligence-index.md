@@ -1,6 +1,6 @@
 # Collective Intelligence Research and OSS Index
 
-K. Takahashi · 2026-10-09
+K. Takahashi · 2026-10-12
 
 https://kadubon.github.io/github.io/collective-intelligence-index.html
 
@@ -10,9 +10,9 @@ A problem-first map of K. Takahashi’s research and OSS for AI-agent reliabilit
 
 ## Start here
 
-Readers can start with the growth paper. Implementers can choose a problem below, then inspect the pinned contract and negative cases before installation. Machine consumers can retrieve the JSON registry, schema and complete Markdown; routing is advisory under their host policy.
+Readers can follow growth → Phase Engineering → verification → reuse → capability accounting. This is an editorial reading order, not a theorem dependency or software execution sequence. Implementers can choose a problem below, then inspect the pinned contract and negative cases before installation. Machine consumers can retrieve the JSON registry, schema and complete Markdown; routing is advisory under their host policy.
 
-reader: [paper-growth](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-growth) → [paper-vet](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-vet) → [paper-alt](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-alt) → [paper-cait](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-cait)
+reader: [paper-growth](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-growth) → [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering) → [paper-vet](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-vet) → [paper-alt](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-alt) → [paper-cait](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-cait)
 
 implementer: [sw-ccr](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-ccr) → [sw-pic](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-pic) → [sw-vek](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-vek) → [sw-alt](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-alt) → [sw-cait](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cait) → [sw-cpcf](https://kadubon.github.io/github.io/collective-intelligence-index.html#sw-cpcf)
 
@@ -63,6 +63,7 @@ Choose the symptom closest to your problem. Each route offers first reads, neces
 - [Generated output still has unchecked obligations](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-obligations)
 - [Repeated hypothesis tests may overstate the evidence](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-adaptive-research)
 - [Can these results predict when ASI will arrive?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-forecast)
+- [Agents claim repeated self-improvement; scores rise but growth in the ability to improve is unclear. Distinguish automated optimization from sustained self-acceleration.](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-rsi-evidence)
 
 ### Multi-agent coordination
 
@@ -756,6 +757,30 @@ Other common phrasings:
 
 Related problems: [My agent is acting with the wrong permissions](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-authority) · [My agent keeps calling the same tool](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-retry-recovery) · [A deleted memory keeps coming back](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-memory-governance)
 
+### Is this AI system genuinely improving its own ability to improve? (rsi-evidence)
+
+[paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-phase-engineering) → [paper-growth](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-growth) → [paper-cait](https://kadubon.github.io/github.io/collective-intelligence-index.html#paper-cait)
+
+Recognize this problem: Agents claim repeated self-improvement; scores rise but growth in the ability to improve is unclear. Distinguish automated optimization from sustained self-acceleration.
+
+Required inputs: Before/after model, agent and procedure versions; changes and verification records for every iteration; independent evaluation on unused tasks; cost and elapsed time per improvement cycle; training, inference, verification and experiment resources; evolving controls with matched resource entitlements, information, time, quality and evaluation conditions; externally supplied models, knowledge, data and human interventions; evidence that retained capability was used and causally contributed to later improvement work; handling of evaluator changes, contamination and distribution shift. Preserve missing evidence as unknown.
+
+Expected outputs: An evidence review distinguishing Level 1: repeated automated improvement of outputs; Level 2: retained abilities or methods improve the subsequent improvement process itself, supported by explicit causal comparison; Level 3: retained capability sustainably increases later improvement rates under matched evolving comparators and resource/time/quality conditions. Report which claim the evidence supports, or unknown when insufficient. Iteration counts do not prove self-acceleration; score improvement is not improvement of the ability to improve. These levels are editorial distinctions, not an automatic scientific certification or a scale defined by the cited papers.
+
+Conditions: Advisory route under human-authorized host policy. Actual assessment needs appropriate comparative experiments, justified statistical assumptions and independent external evaluation. PASS is not proof of truth. Audit soundness, retained growth and causal acceleration are distinct; the referenced theoretical work does not establish an observed RSI system. No automatic execution, installation or LLM inference; no AGI/ASI arrival dates or intelligence-explosion probabilities.
+
+Stop / handoff: Do not support stronger self-improvement or self-acceleration claims from benchmark scores or iteration counts alone (including 33 iterations). Stop if comparator resources are unmatched, evaluator contamination/changes remain unresolved, causal reuse in later improvement is unknown, necessary experiment/verification costs are unmeasured, or external inputs cannot be separated from endogenous capability formation. Preserve unknown rather than treating it as zero, success or proof of absence; document missing evidence and hand off to accounting, evaluation-integrity, adaptive-research or additional independent comparison.
+
+Other common phrasings:
+
+- recursive self-improvement evidence
+- RSI evidence assessment
+- Does repeated AI improvement establish self-acceleration?
+- How can I distinguish recursive self-improvement from automated optimization?
+- Has retained capability accelerated later improvement cycles?
+
+Related problems: [Did copied artifacts actually add capability?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-accounting) · [Benchmark scores improved but production got worse](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-evaluation-integrity) · [Repeated hypothesis tests may overstate the evidence](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-adaptive-research) · [Which check is worth doing before investing more?](https://kadubon.github.io/github.io/collective-intelligence-index.html#problem-information)
+
 ## Core software
 
 
@@ -1227,6 +1252,26 @@ Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliograp
 - [DOI](https://doi.org/10.5281/zenodo.18728589)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-02-22-audit-closed-ai-scientist-protocol-18728589/)
 - [e-paper-audit-closed](https://github.com/kadubon/paper-tex-backup/blob/7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd/Audit-Closed%20AI%20Scientist%20Protocol.zip)
+
+### Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth (paper-phase-engineering)
+
+How can funded audits and implementable controls certify capability that remains after intervention? Connects paid archive retention, complete causal comparators, finite receipt accounts and conditional certificates for achieved growth.
+
+Primary editorial role: finite-control-and-information
+
+Limits / unsupported uses: Theoretical preprint, not an empirical acceleration demonstration or physical phase transition. Guarantees depend on declared finite contracts, matched complete trajectories, justified verification bias/tail/drift bounds, fixed retained targets and supported funding. Audit labels are not latent truth; conditional mean growth is not positive growth on every trajectory. Selection covers available produced archives, not optimal generation of unproduced artifacts. Statistical coverage is not a posterior probability or permanent safety. No implemented software integration or universal AGI/ASI claim follows.
+
+Source reviewed: 2026-10-09
+
+DOI: 10.5281/zenodo.23240329
+
+Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
+
+Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+
+- [DOI](https://doi.org/10.5281/zenodo.23240329)
+- [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
+- [e-paper-phase-engineering](https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex)
 
 ## Supporting research and tools
 
@@ -2128,26 +2173,6 @@ Installation guidance: Use version-pinned upstream installation instructions aft
 - [e-egr-runner](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/runner.py)
 - [e-egr-tests](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/tests/test_completion_030.py)
 - [e-egr-validation](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/validation.md)
-
-### Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth (paper-phase-engineering)
-
-How can funded audits and implementable controls certify capability that remains after intervention? Connects paid archive retention, complete causal comparators, finite receipt accounts and conditional certificates for achieved growth.
-
-Primary editorial role: finite-control-and-information
-
-Limits / unsupported uses: Theoretical preprint, not an empirical acceleration demonstration or physical phase transition. Guarantees depend on declared finite contracts, matched complete trajectories, justified verification bias/tail/drift bounds, fixed retained targets and supported funding. Audit labels are not latent truth; conditional mean growth is not positive growth on every trajectory. Selection covers available produced archives, not optimal generation of unproduced artifacts. Statistical coverage is not a posterior probability or permanent safety. No implemented software integration or universal AGI/ASI claim follows.
-
-Source reviewed: 2026-10-09
-
-DOI: 10.5281/zenodo.23240329
-
-Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
-
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
-
-- [DOI](https://doi.org/10.5281/zenodo.23240329)
-- [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
-- [e-paper-phase-engineering](https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex)
 
 ## Proposed evidence-preserving workflow
 

@@ -5368,9 +5368,9 @@
     },
     {
       "source_catalog_id": "https://kadubon.github.io/github.io/works.html#pub-2026-10-08-collective-intelligence-phase-engineering-23240329",
-      "decision": "supporting",
+      "decision": "core",
       "review_depth": "full_text_scope_and_doi",
-      "reason": "Added 2026-10-09 after bounded inspection of published TeX scope/limits and DataCite/Zenodo identity. Individual version DOI 23240329; concept DOI 23240328 is not a second paper. Registered title plus subtitle retained; no empirical or proof-reproduction claim."
+      "reason": "Added 2026-10-09 after bounded inspection of published TeX scope/limits and DataCite/Zenodo identity. Individual version DOI 23240329; concept DOI 23240328 is not a second paper. Registered title plus subtitle retained; no empirical or proof-reproduction claim. Editorially promoted to core on 2026-10-12 for the reader path and RSI evidence route; no new source review."
     }
   ],
   "identity_issues": [

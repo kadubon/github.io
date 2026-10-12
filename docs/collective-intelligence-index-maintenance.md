@@ -169,7 +169,7 @@ The existing 12 problem IDs remain stable. Schema 1.1 adds bilingual
 `query_aliases`, `symptom_group`, `related_problem_ids`, derived
 `relevant_resource_ids`, root `symptom_groups` and `unresolved_intents`.
 Consumers pinned to the 1.0 schema must update their schema before accepting
-1.1 records. There are currently 27 routes in eight symptom groups, each with
+1.1 records. There are currently 28 routes in eight symptom groups, each with
 1–3 first reads, 2–4 related problems, inputs, outputs, unsupported conditions
 and stop/handoff conditions. Related links can form cycles; they are not an
 execution graph and the router never recursively expands them.
@@ -345,3 +345,40 @@ complete-trajectory causal acceleration remain distinct. Produced finite archive
 calibrated bias/tail/drift bounds, supported funding and fixed endpoint targets are
 required; theoretical examples do not establish empirical collective acceleration,
 physical criticality, general intelligence or universal safety.
+
+## Core reader path and RSI evidence route (2026-10-12)
+
+This editorial update keeps 41 resources, 13 roles and 20 relationship edges.
+Phase Engineering (`paper-phase-engineering`, DOI 10.5281/zenodo.23240329) moves
+from supporting to core, giving nine core and eleven supporting papers. The reader
+path is growth → phase-engineering → vet → alt → cait. Start Here in both languages
+explains that this is editorial reading order, not theorem dependency or execution.
+Its source evidence, limitations, bibliography and 2026-10-09 review date remain
+unchanged; only its corpus selection decision is aligned with the new tier.
+
+`rsi-evidence` adds one evaluation-group route to the unchanged 27 routes. Its
+first reads are Phase Engineering, Growth and CAIT; related routes are accounting,
+evaluation-integrity, adaptive-research and information. Bilingual explicit aliases
+use the existing exact matcher. Bare RSI and unrelated financial/medical meanings
+remain unmatched. No new schema, model inference, semantic search or execution.
+
+Three editorial distinctions separate repeated automated output improvement,
+improvement of the subsequent improvement process, and sustained self-acceleration.
+They are not a scale attributed to the cited papers. Required evidence includes
+versions/changes, held-out independent evaluation, cycle costs/time, all resource
+inputs, evolving matched controls, external contributions, causal reuse and evaluator
+integrity. Missing evidence remains unknown, not success or proof of absence.
+Scores/iteration counts alone, unmatched resources, unresolved contamination,
+unmeasured costs or inseparable external inputs stop stronger claims. Human host
+authority, appropriate comparisons, statistical assumptions and independent evaluation
+remain necessary. This index neither certifies RSI nor forecasts AGI/ASI dates or
+intelligence-explosion probabilities. PASS is not proof of truth.
+
+The A–O fixture retains 168 pairs and the same 163 matches/five unresolved per
+language. Only the coverage report's interpretation is regenerated to distinguish
+the historical 27-route expansion from 28 current routes. Separate RSI regressions
+cover bilingual positives, ambiguous/unrelated negatives, forecast separation,
+alias collisions, static boundary text, core placement and preserved old routes.
+Scientific efficacy, implemented RSI and third-party adoption were not tested.
+No additional major gap was identified within this limited editorial review; existing
+unresolved intents and theoretical/implementation/empirical limits remain.

@@ -1,6 +1,6 @@
 # 集合知研究・OSS索引
 
-K. Takahashi · 2026-10-09
+K. Takahashi · 2026-10-12
 
 https://kadubon.github.io/github.io/collective-intelligence-index.ja.html
 
@@ -10,9 +10,9 @@ AIエージェントの信頼性・記憶・検証・複数エージェントの
 
 ## 最初に読む
 
-研究者は成長論文から、実装者は以下の問題から入り、導入前に固定版契約と否定例を確認できる。機械利用者はJSONレジストリ、スキーマ、完全なMarkdownを取得できる。経路はホスト方針に従う助言。
+研究者は成長の問題設定 → Phase Engineeringによる操作的な相の認定・制御 → 検証 → 再利用 → 能力会計の順に読める。これは編集上の読書順であり、定理の依存関係やソフトウェアの実行順序ではない。実装者は以下の問題から入り、導入前に固定版契約と否定例を確認する。機械利用者はJSONレジストリ、スキーマ、完全なMarkdownを取得できる。経路はホスト方針に従う助言。
 
-reader: [paper-growth](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-growth) → [paper-vet](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-vet) → [paper-alt](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-alt) → [paper-cait](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-cait)
+reader: [paper-growth](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-growth) → [paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering) → [paper-vet](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-vet) → [paper-alt](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-alt) → [paper-cait](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-cait)
 
 implementer: [sw-ccr](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-ccr) → [sw-pic](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-pic) → [sw-vek](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-vek) → [sw-alt](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-alt) → [sw-cait](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cait) → [sw-cpcf](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#sw-cpcf)
 
@@ -63,6 +63,7 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 - [生成した出力に未確認事項が残っている](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-obligations)
 - [仮説検定を繰り返して根拠を過大評価していないか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-adaptive-research)
 - [この結果からASIの到来時期を予測できるか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-forecast)
+- [エージェントが反復的な自己改善を主張し、スコアは上がったが改善能力の成長は不明。通常の自動最適化と持続的な自己加速を区別したい。](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-rsi-evidence)
 
 ### 複数エージェントの協調
 
@@ -749,6 +750,30 @@ machine: [sw-skill](https://kadubon.github.io/github.io/collective-intelligence-
 
 関連する困りごと: [エージェントが強すぎる権限で動いている](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-authority) · [同じツール呼び出しを繰り返す](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-retry-recovery) · [削除した記憶をまた使ってしまう](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-memory-governance)
 
+### このAIは本当に自己改善能力そのものを向上させているのか？ (rsi-evidence)
+
+[paper-phase-engineering](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-phase-engineering) → [paper-growth](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-growth) → [paper-cait](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#paper-cait)
+
+こんなとき: エージェントが反復的な自己改善を主張し、スコアは上がったが改善能力の成長は不明。通常の自動最適化と持続的な自己加速を区別したい。
+
+必要入力: 改善前後のモデル・エージェント・手順の版、各反復の変更内容と検証記録、未使用課題に対する独立評価、改善サイクルごとの費用と実時間、学習・推論・検証・実験の投入資源、資源使用権・情報・時間・品質・評価条件を揃えて発展する対照群、外部導入のモデル・知識・データ・人間の介入、保持能力が後続の改善工程に利用され因果的に寄与した証拠、評価器変更・汚染・分布変化への対処。不足証拠はunknown（未確定）として保持する。
+
+期待出力: 証拠レビューとして、水準1：成果の反復的な自動改善、水準2：保持された能力・手法が次の改善工程そのものを改善し明示的な因果比較で支持されること、水準3：資源・時間・品質と発展する対照群を揃えたうえで保持能力が後続の改善速度を継続的に高めることを区別する。支持される主張、または証拠不足によるunknown（未確定）を報告する。反復回数は自己加速の証明ではなく、スコア改善は改善能力そのものの向上と同一ではない。3水準は編集上の区別であり、自動的な科学的認定や引用論文が定義した尺度ではない。
+
+条件: 人間が権限を付与したホスト方針の下での助言経路。実際の判定には適切な比較実験、妥当な統計的仮定、独立した外部評価が必要。PASSは真実の証明ではない。監査の健全性・保持成長・因果的加速は別であり、参照する理論研究はRSIシステムの実在を実証しない。自動実行・導入・LLM推論、AGI・ASI到来日や知能爆発確率の算出は行わない。
+
+停止・引継ぎ: ベンチマーク得点や反復回数だけ（33回の反復を含む）では強い自己改善・自己加速の主張を支持しない。対照群の資源条件が不一致、評価器の汚染・変更が未解決、後続改善への因果的再利用が不明、必要な実験・検証費用が未測定、外部投入と内生的な能力形成を分離できない場合は停止する。unknownをゼロ・成功・不成立の証明に置き換えず、不足証拠を明記して会計・評価妥当性・適応的研究の経路や追加の独立比較へ引き継ぐ。
+
+ほかの言い方:
+
+- 再帰的自己改善の証拠を評価したい
+- RSIの成立を証拠から判断したい
+- AIの反復改善は自己加速を証明するか
+- 再帰的自己改善と通常の自動最適化を区別したい
+- 保持された能力が後続の改善サイクルを加速したか
+
+関連する困りごと: [成果物のコピーで本当に能力が増えたのか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-accounting) · [ベンチマークは改善したのに本番性能が悪化した](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-evaluation-integrity) · [仮説検定を繰り返して根拠を過大評価していないか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-adaptive-research) · [追加投入する前にどの観測を行うべきか](https://kadubon.github.io/github.io/collective-intelligence-index.ja.html#problem-information)
+
 ## 中核ソフトウェア
 
 
@@ -1220,6 +1245,26 @@ Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliograp
 - [DOI](https://doi.org/10.5281/zenodo.18728589)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-02-22-audit-closed-ai-scientist-protocol-18728589/)
 - [e-paper-audit-closed](https://github.com/kadubon/paper-tex-backup/blob/7bd9fe246ae0f5a4bf6564b588c0426b5b7f29bd/Audit-Closed%20AI%20Scientist%20Protocol.zip)
+
+### Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth (paper-phase-engineering)
+
+資源を確保した監査と実行可能な制御により、介入後に残る能力をどう認証するか。有料のアーカイブ保持選択、完全な因果比較、有限受領証会計、達成成長の条件付き証明を結ぶ。
+
+編集上の主役割: finite-control-and-information
+
+限界・未対応用途: 理論プレプリントであり、加速の実証や物理的相転移ではない。保証には宣言した有限契約、条件を揃えた完全軌跡、妥当な検証偏り・裾・ドリフト境界、固定保持目標、裏付けある資金が必要。監査ラベルは潜在的真実ではなく、条件付き平均成長は全軌跡の正成長ではない。選択対象は生成済み利用可能アーカイブで、未生成成果物の最適生成ではない。統計的被覆は事後確率や恒久的安全性ではない。ソフト統合の実装や普遍的AGI・ASIの主張は導かれない。
+
+ソース確認日: 2026-10-09
+
+DOI: 10.5281/zenodo.23240329
+
+Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
+
+Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+
+- [DOI](https://doi.org/10.5281/zenodo.23240329)
+- [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
+- [e-paper-phase-engineering](https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex)
 
 ## 支援研究とツール
 
@@ -2121,26 +2166,6 @@ Interface schema identity / スキーマ識別子: null — upstream schema has 
 - [e-egr-runner](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/runner.py)
 - [e-egr-tests](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/tests/test_completion_030.py)
 - [e-egr-validation](https://github.com/kadubon/evidence-gap-router/blob/0e5def78422de55db6c80723f28b753ef91e017b/docs/validation.md)
-
-### Collective Intelligence Phase Engineering: Audited Retention and Achieved Growth (paper-phase-engineering)
-
-資源を確保した監査と実行可能な制御により、介入後に残る能力をどう認証するか。有料のアーカイブ保持選択、完全な因果比較、有限受領証会計、達成成長の条件付き証明を結ぶ。
-
-編集上の主役割: finite-control-and-information
-
-限界・未対応用途: 理論プレプリントであり、加速の実証や物理的相転移ではない。保証には宣言した有限契約、条件を揃えた完全軌跡、妥当な検証偏り・裾・ドリフト境界、固定保持目標、裏付けある資金が必要。監査ラベルは潜在的真実ではなく、条件付き平均成長は全軌跡の正成長ではない。選択対象は生成済み利用可能アーカイブで、未生成成果物の最適生成ではない。統計的被覆は事後確率や恒久的安全性ではない。ソフト統合の実装や普遍的AGI・ASIの主張は導かれない。
-
-ソース確認日: 2026-10-09
-
-DOI: 10.5281/zenodo.23240329
-
-Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
-
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
-
-- [DOI](https://doi.org/10.5281/zenodo.23240329)
-- [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
-- [e-paper-phase-engineering](https://zenodo.org/records/23240329/files/Collective%20Intelligence%20Phase%20Engineering.tex)
 
 ## 根拠を保持する作業手順案
 
