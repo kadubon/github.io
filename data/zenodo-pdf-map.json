@@ -67,9 +67,7 @@
         "size": 1468196,
         "score": 19
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.16623941": {
     "record_id": "16623941",
@@ -1787,9 +1785,7 @@
         "size": 426438,
         "score": 140
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.17920511": {
     "record_id": "17920511",
@@ -1985,9 +1981,7 @@
         "size": 508717,
         "score": 146
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18057956": {
     "record_id": "18057956",
@@ -2197,9 +2191,7 @@
         "size": 898340,
         "score": 146
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18382670": {
     "record_id": "18382670",
@@ -2227,9 +2219,7 @@
         "size": 746804,
         "score": 125
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18453429": {
     "record_id": "18453429",
@@ -2313,9 +2303,7 @@
         "size": 884837,
         "score": 155
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18529100": {
     "record_id": "18529100",
@@ -2511,9 +2499,7 @@
         "size": 2179051,
         "score": 120
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18845340": {
     "record_id": "18845340",
@@ -2527,9 +2513,7 @@
         "size": 637919,
         "score": 127
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18883290": {
     "record_id": "18883290",
@@ -2543,9 +2527,7 @@
         "size": 594627,
         "score": 137
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.18905242": {
     "record_id": "18905242",
@@ -2615,9 +2597,7 @@
         "size": 517102,
         "score": 143
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.19044634": {
     "record_id": "19044634",
@@ -2659,9 +2639,7 @@
         "size": 1998302,
         "score": 144
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.19231780": {
     "record_id": "19231780",
@@ -2745,9 +2723,7 @@
         "size": 509643,
         "score": 143
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.19427818": {
     "record_id": "19427818",
@@ -2859,9 +2835,7 @@
         "size": 705412,
         "score": 143
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.19810515": {
     "record_id": "19810515",
@@ -2889,9 +2863,7 @@
         "size": 517542,
         "score": 146
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.19994795": {
     "record_id": "19994795",
@@ -2905,9 +2877,7 @@
         "size": 564351,
         "score": 137
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20020272": {
     "record_id": "20020272",
@@ -2921,9 +2891,7 @@
         "size": 446532,
         "score": 143
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20061296": {
     "record_id": "20061296",
@@ -2937,9 +2905,7 @@
         "size": 335978,
         "score": 126
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20116149": {
     "record_id": "20116149",
@@ -2953,9 +2919,7 @@
         "size": 668226,
         "score": 120
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20199440": {
     "record_id": "20199440",
@@ -3035,9 +2999,7 @@
         "size": 529854,
         "score": 7
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20443834": {
     "record_id": "20443834",
@@ -3085,9 +3047,7 @@
         "size": 394782,
         "score": 7
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20526451": {
     "record_id": "20526451",
@@ -3185,9 +3145,7 @@
         "size": 618430,
         "score": 121
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.20703439": {
     "record_id": "20703439",
@@ -3299,9 +3257,7 @@
         "size": 481481,
         "score": 137
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   },
   "10.5281/zenodo.21531413": {
     "record_id": "21531413",
@@ -3357,8 +3313,6 @@
         "size": 874401,
         "score": 129
       }
-    ],
-    "refresh_status": "stale",
-    "refresh_error": "Zenodo API lookup failed after retries: HTTPError"
+    ]
   }
 }
