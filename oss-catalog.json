@@ -4,7 +4,7 @@
   "canonical_url": "https://kadubon.github.io/github.io/oss-catalog.json",
   "human_url": "https://kadubon.github.io/github.io/oss.html",
   "source_url": "https://github.com/kadubon",
-  "source_state_at": "2026-10-12T01:19:40Z",
+  "source_state_at": "2026-10-17T10:24:06Z",
   "owner": {
     "name": "K. Takahashi",
     "github_login": "kadubon",
@@ -37,8 +37,8 @@
       "license_spdx": "CC-BY-4.0",
       "default_branch": "main",
       "created_at": "2025-08-08T07:48:07Z",
-      "updated_at": "2026-10-12T01:19:40Z",
-      "pushed_at": "2026-10-12T01:19:36Z",
+      "updated_at": "2026-10-17T10:24:06Z",
+      "pushed_at": "2026-10-17T10:24:03Z",
       "archived": false,
       "stars": 0,
       "forks": 0,
@@ -56,6 +56,225 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/github.io"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "verification-ecology-kit",
+      "full_name": "kadubon/verification-ecology-kit",
+      "description": "Python toolkit for verification auditing, residual ledgers, conformance checks, and verifier packet workflows.",
+      "repository_url": "https://github.com/kadubon/verification-ecology-kit",
+      "clone_url": "https://github.com/kadubon/verification-ecology-kit.git",
+      "homepage": "https://doi.org/10.5281/zenodo.21147093",
+      "programming_language": "Python",
+      "topics": [
+        "agentic-workflow",
+        "ai-agents",
+        "artificial-intelligence",
+        "audit",
+        "cli",
+        "conformance",
+        "governance",
+        "json-schema",
+        "python",
+        "security",
+        "software-quality",
+        "testing",
+        "verification"
+      ],
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "created_at": "2026-07-03T01:32:12Z",
+      "updated_at": "2026-10-13T05:09:09Z",
+      "pushed_at": "2026-10-16T18:33:48Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 3,
+      "release_observation": {
+        "default_branch_revision": "c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3",
+        "latest_release": {
+          "assets": [
+            "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/SHA256SUMS",
+            "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/verification_ecology_kit-1.3.0-py3-none-any.whl",
+            "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/verification_ecology_kit-1.3.0.tar.gz"
+          ],
+          "published_at": "2026-09-12T23:26:21Z",
+          "tag": "v1.3.0",
+          "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
+        },
+        "observed_at": "2026-10-17T10:01:35+00:00",
+        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.3.0 at c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3; PyPI verification-ecology-kit 1.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-vek-package-20261017, e-final-sw-vek-pypi-20261017",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/verification-ecology-kit"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/verification-ecology-kit/blob/4008e311ceb16edd6e74d9f71341a90120c0d046/LICENSE",
+        "source_revision": "4008e311ceb16edd6e74d9f71341a90120c0d046",
+        "reviewed_at": "2026-09-21",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "memoryflow-agent-memory-auditor",
+      "full_name": "kadubon/memoryflow-agent-memory-auditor",
+      "description": "Telemetry-based auditor for measuring dynamic memory quality in LLM agents using the MemoryFlow framework.",
+      "repository_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor",
+      "clone_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor.git",
+      "homepage": "https://doi.org/10.5281/zenodo.18136347",
+      "programming_language": "Python",
+      "topics": [
+        "agent-evaluation",
+        "agent-memory",
+        "ai",
+        "ai-agents",
+        "ai-safety",
+        "evaluation",
+        "fastapi",
+        "llm",
+        "llm-agents",
+        "memory-auditing",
+        "memory-quality",
+        "observability",
+        "provenance",
+        "python",
+        "staleness",
+        "telemetry"
+      ],
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "created_at": "2026-05-01T02:54:54Z",
+      "updated_at": "2026-10-13T05:04:31Z",
+      "pushed_at": "2026-10-16T04:53:29Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "release_observation": {
+        "default_branch_revision": "018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6",
+        "latest_release": {
+          "assets": [],
+          "published_at": "2026-05-01T03:15:40Z",
+          "tag": "v0.1.0",
+          "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
+        },
+        "observed_at": "2026-10-17T10:01:35+00:00",
+        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6; PyPI lookup for memoryflow-agent-memory-auditor: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-memoryflow-package-20261017",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/LICENSE",
+        "source_revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+        "reviewed_at": "2026-10-17",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "no-meta-standing-ledger",
+      "full_name": "kadubon/no-meta-standing-ledger",
+      "description": "Local-first public standing ledger for replayable research and AI-system claims, based on observable evidence, challenges, lineage, and finite verification capacity.",
+      "repository_url": "https://github.com/kadubon/no-meta-standing-ledger",
+      "clone_url": "https://github.com/kadubon/no-meta-standing-ledger.git",
+      "homepage": "https://doi.org/10.5281/zenodo.19447443",
+      "programming_language": "Python",
+      "topics": [
+        "ai-agents",
+        "auditability",
+        "challenge-tracking",
+        "claim-governance",
+        "evidence-tracking",
+        "lineage",
+        "local-first",
+        "no-meta-governance",
+        "observable-only",
+        "open-science",
+        "public-ledger",
+        "python",
+        "reproducibility",
+        "research-claims",
+        "research-tools",
+        "standing"
+      ],
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "created_at": "2026-04-30T00:52:33Z",
+      "updated_at": "2026-10-13T05:07:52Z",
+      "pushed_at": "2026-10-15T21:04:23Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 1,
+      "release_observation": {
+        "default_branch_revision": "e87a9001536070bb968ec569f07e287a2ee386d2",
+        "latest_release": {
+          "assets": [],
+          "published_at": "2026-04-30T01:05:34Z",
+          "tag": "v0.1.0",
+          "url": "https://github.com/kadubon/no-meta-standing-ledger/releases/tag/v0.1.0"
+        },
+        "observed_at": "2026-10-12T10:51:32+00:00",
+        "package_registry_status": "not_checked_by_this_github_refresh",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/no-meta-standing-ledger"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "future-claim-certifier",
+      "full_name": "kadubon/future-claim-certifier",
+      "description": "Replayable Python protocol engine for checking time-bound future claims from canonical artifacts, with typed outcomes and audit trails.",
+      "repository_url": "https://github.com/kadubon/future-claim-certifier",
+      "clone_url": "https://github.com/kadubon/future-claim-certifier.git",
+      "homepage": "https://doi.org/10.5281/zenodo.21199529",
+      "programming_language": "Python",
+      "topics": [
+        "agent-safety",
+        "artifact-bundles",
+        "audit-trail",
+        "authority-validation",
+        "canonical-json",
+        "future-claims",
+        "json-schema",
+        "proof-checking",
+        "protocol-engine",
+        "python",
+        "runtime-verification"
+      ],
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "created_at": "2026-07-06T20:44:42Z",
+      "updated_at": "2026-10-13T05:09:09Z",
+      "pushed_at": "2026-10-14T04:48:22Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 5,
+      "release_observation": {
+        "default_branch_revision": "017a4c1be9adce4cd7035d77a8b73520884e5243",
+        "latest_release": {
+          "assets": [
+            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/future_claim_certifier-1.1.0-py3-none-any.whl",
+            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/future_claim_certifier-1.1.0.tar.gz",
+            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/python-dependencies.json",
+            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/SHA256SUMS.txt"
+          ],
+          "published_at": "2026-07-06T23:41:50Z",
+          "tag": "v1.1.0",
+          "url": "https://github.com/kadubon/future-claim-certifier/releases/tag/v1.1.0"
+        },
+        "observed_at": "2026-10-12T10:51:32+00:00",
+        "package_registry_status": "not_checked_by_this_github_refresh",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/future-claim-certifier"
       }
     },
     {
@@ -92,12 +311,12 @@
       "license_spdx": "Apache-2.0",
       "default_branch": "main",
       "created_at": "2026-06-06T07:59:06Z",
-      "updated_at": "2026-08-25T08:50:40Z",
-      "pushed_at": "2026-10-09T16:35:02Z",
+      "updated_at": "2026-10-13T05:13:47Z",
+      "pushed_at": "2026-10-13T05:13:50Z",
       "archived": false,
       "stars": 0,
       "forks": 0,
-      "open_issues": 6,
+      "open_issues": 0,
       "release_observation": {
         "default_branch_revision": "b971bc6374325b9486c038546733d9b53745787c",
         "latest_release": {
@@ -125,6 +344,167 @@
         "source_revision": "55cd5f219d02f02927e247317156e757b1d5d6da",
         "reviewed_at": "2026-09-21",
         "method": "LICENSE file inspected; GitHub detection kept separately"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "problem-frame-gate",
+      "full_name": "kadubon/problem-frame-gate",
+      "description": "Audit logs and action gates for safer AI agents",
+      "repository_url": "https://github.com/kadubon/problem-frame-gate",
+      "clone_url": "https://github.com/kadubon/problem-frame-gate.git",
+      "homepage": "https://doi.org/10.5281/zenodo.20913669",
+      "programming_language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-safety",
+        "audit-log",
+        "authorization",
+        "open-source",
+        "provenance",
+        "pypi",
+        "python",
+        "risk-management",
+        "security"
+      ],
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "created_at": "2026-06-26T07:47:43Z",
+      "updated_at": "2026-10-13T05:13:48Z",
+      "pushed_at": "2026-10-13T05:13:41Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "release_observation": {
+        "default_branch_revision": "ed51d588afab6312287a31baa1d911c0fa3a943d",
+        "latest_release": {
+          "assets": [],
+          "published_at": "2026-07-02T01:04:13Z",
+          "tag": "v1.1.0",
+          "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
+        },
+        "observed_at": "2026-10-17T10:01:35+00:00",
+        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at ed51d588afab6312287a31baa1d911c0fa3a943d; PyPI problem-frame-gate 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pfg-package-20261017, e-final-sw-pfg-pypi-20261017",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/problem-frame-gate"
+      },
+      "github_license_spdx": "Apache-2.0",
+      "license_observation": {
+        "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/LICENSE",
+        "source_revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+        "reviewed_at": "2026-10-17",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "certified-memory-governance-layer",
+      "full_name": "kadubon/certified-memory-governance-layer",
+      "description": "Certified Memory Governance Layer for long-running AI agents: strict receipts, append-only ledgers, authority gates, retrieval filtering, telemetry replay, and safe adapters for Mem0, Graphiti, LangMem, and LangGraph.",
+      "repository_url": "https://github.com/kadubon/certified-memory-governance-layer",
+      "clone_url": "https://github.com/kadubon/certified-memory-governance-layer.git",
+      "homepage": "https://kadubon.github.io/github.io/",
+      "programming_language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "agent-memory",
+        "ai-agents",
+        "audit-ledger",
+        "graphiti",
+        "langgraph",
+        "langmem",
+        "long-running-agents",
+        "mem0",
+        "memory-governance",
+        "memory-management",
+        "memory-safety",
+        "pydantic",
+        "python",
+        "retrieval-filtering",
+        "typer"
+      ],
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "created_at": "2026-05-13T15:06:58Z",
+      "updated_at": "2026-10-13T05:11:52Z",
+      "pushed_at": "2026-10-13T05:11:57Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "release_observation": {
+        "default_branch_revision": "8fcf99d512c4262c4cea0787e72993ff6eb3b059",
+        "latest_release": {
+          "assets": [],
+          "published_at": "2026-05-14T01:30:00Z",
+          "tag": "v1.1.2",
+          "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
+        },
+        "observed_at": "2026-10-17T10:01:35+00:00",
+        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.2 at 8fcf99d512c4262c4cea0787e72993ff6eb3b059; PyPI cmgl 1.1.2 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cmgl-package-20261017, e-final-sw-cmgl-pypi-20261017",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/certified-memory-governance-layer"
+      },
+      "github_license_spdx": "NOASSERTION",
+      "license_observation": {
+        "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/LICENSE",
+        "source_revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+        "reviewed_at": "2026-09-24",
+        "method": "LICENSE file inspected; GitHub detection kept separately"
+      }
+    },
+    {
+      "schema_org_type": "SoftwareSourceCode",
+      "name": "certified-local-participation-gate",
+      "full_name": "kadubon/certified-local-participation-gate",
+      "description": "Deterministic local participation gate for AI agents: act, assist, verify, withdraw, exit, or refuse from declared observable records.",
+      "repository_url": "https://github.com/kadubon/certified-local-participation-gate",
+      "clone_url": "https://github.com/kadubon/certified-local-participation-gate.git",
+      "homepage": "https://doi.org/10.5281/zenodo.19394600",
+      "programming_language": "Python",
+      "topics": [
+        "agent-governance",
+        "agent-safety",
+        "ai-agents",
+        "audit-log",
+        "deterministic",
+        "formal-methods",
+        "json-schema",
+        "local-first",
+        "pydantic",
+        "python",
+        "receipts",
+        "uv"
+      ],
+      "license_spdx": "NOASSERTION",
+      "default_branch": "main",
+      "created_at": "2026-05-14T03:40:24Z",
+      "updated_at": "2026-10-13T05:07:20Z",
+      "pushed_at": "2026-10-13T05:07:23Z",
+      "archived": false,
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "release_observation": {
+        "default_branch_revision": "8f598604cdab5856840d7c0a30356a7b3a391818",
+        "latest_release": {
+          "assets": [
+            "https://github.com/kadubon/certified-local-participation-gate/releases/download/v0.1.1/clpg-0.1.1-py3-none-any.whl",
+            "https://github.com/kadubon/certified-local-participation-gate/releases/download/v0.1.1/clpg-0.1.1.tar.gz"
+          ],
+          "published_at": "2026-05-14T04:19:27Z",
+          "tag": "v0.1.1",
+          "url": "https://github.com/kadubon/certified-local-participation-gate/releases/tag/v0.1.1"
+        },
+        "observed_at": "2026-10-12T10:51:32+00:00",
+        "package_registry_status": "not_checked_by_this_github_refresh",
+        "refresh_status": "current",
+        "release_status": "observed",
+        "source_url": "https://github.com/kadubon/certified-local-participation-gate"
       }
     },
     {
@@ -535,117 +915,6 @@
     },
     {
       "schema_org_type": "SoftwareSourceCode",
-      "name": "problem-frame-gate",
-      "full_name": "kadubon/problem-frame-gate",
-      "description": "Audit logs and action gates for safer AI agents",
-      "repository_url": "https://github.com/kadubon/problem-frame-gate",
-      "clone_url": "https://github.com/kadubon/problem-frame-gate.git",
-      "homepage": "https://doi.org/10.5281/zenodo.20913669",
-      "programming_language": "Python",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-safety",
-        "audit-log",
-        "authorization",
-        "open-source",
-        "provenance",
-        "pypi",
-        "python",
-        "risk-management",
-        "security"
-      ],
-      "license_spdx": "Apache-2.0",
-      "default_branch": "main",
-      "created_at": "2026-06-26T07:47:43Z",
-      "updated_at": "2026-07-02T00:58:46Z",
-      "pushed_at": "2026-09-25T09:38:05Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 1,
-      "release_observation": {
-        "default_branch_revision": "ed51d588afab6312287a31baa1d911c0fa3a943d",
-        "latest_release": {
-          "assets": [],
-          "published_at": "2026-07-02T01:04:13Z",
-          "tag": "v1.1.0",
-          "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
-        },
-        "observed_at": "2026-10-17T10:01:35+00:00",
-        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at ed51d588afab6312287a31baa1d911c0fa3a943d; PyPI problem-frame-gate 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pfg-package-20261017, e-final-sw-pfg-pypi-20261017",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/problem-frame-gate"
-      },
-      "github_license_spdx": "Apache-2.0",
-      "license_observation": {
-        "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/LICENSE",
-        "source_revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
-        "reviewed_at": "2026-10-17",
-        "method": "LICENSE file inspected; GitHub detection kept separately"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
-      "name": "memoryflow-agent-memory-auditor",
-      "full_name": "kadubon/memoryflow-agent-memory-auditor",
-      "description": "Telemetry-based auditor for measuring dynamic memory quality in LLM agents using the MemoryFlow framework.",
-      "repository_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor",
-      "clone_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor.git",
-      "homepage": "https://doi.org/10.5281/zenodo.18136347",
-      "programming_language": "Python",
-      "topics": [
-        "agent-evaluation",
-        "agent-memory",
-        "ai",
-        "ai-agents",
-        "ai-safety",
-        "evaluation",
-        "fastapi",
-        "llm",
-        "llm-agents",
-        "memory-auditing",
-        "memory-quality",
-        "observability",
-        "provenance",
-        "python",
-        "staleness",
-        "telemetry"
-      ],
-      "license_spdx": "Apache-2.0",
-      "default_branch": "main",
-      "created_at": "2026-05-01T02:54:54Z",
-      "updated_at": "2026-09-25T09:37:13Z",
-      "pushed_at": "2026-09-25T09:37:09Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 2,
-      "release_observation": {
-        "default_branch_revision": "018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6",
-        "latest_release": {
-          "assets": [],
-          "published_at": "2026-05-01T03:15:40Z",
-          "tag": "v0.1.0",
-          "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
-        },
-        "observed_at": "2026-10-17T10:01:35+00:00",
-        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6; PyPI lookup for memoryflow-agent-memory-auditor: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-memoryflow-package-20261017",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor"
-      },
-      "github_license_spdx": "NOASSERTION",
-      "license_observation": {
-        "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/LICENSE",
-        "source_revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
-        "reviewed_at": "2026-10-17",
-        "method": "LICENSE file inspected; GitHub detection kept separately"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
       "name": "loscr",
       "full_name": "kadubon/loscr",
       "description": "Check whether AI-assisted R&D work is truly verified progress. Local-first LOSCR implementation with JSONL evidence ledgers, deterministic replay, service control, and claim checking.",
@@ -945,65 +1214,6 @@
     },
     {
       "schema_org_type": "SoftwareSourceCode",
-      "name": "verification-ecology-kit",
-      "full_name": "kadubon/verification-ecology-kit",
-      "description": "Python toolkit for verification auditing, residual ledgers, conformance checks, and verifier packet workflows.",
-      "repository_url": "https://github.com/kadubon/verification-ecology-kit",
-      "clone_url": "https://github.com/kadubon/verification-ecology-kit.git",
-      "homepage": "https://doi.org/10.5281/zenodo.21147093",
-      "programming_language": "Python",
-      "topics": [
-        "agentic-workflow",
-        "ai-agents",
-        "artificial-intelligence",
-        "audit",
-        "cli",
-        "conformance",
-        "governance",
-        "json-schema",
-        "python",
-        "security",
-        "software-quality",
-        "testing",
-        "verification"
-      ],
-      "license_spdx": "Apache-2.0",
-      "default_branch": "main",
-      "created_at": "2026-07-03T01:32:12Z",
-      "updated_at": "2026-09-12T23:31:52Z",
-      "pushed_at": "2026-09-18T18:34:22Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 5,
-      "release_observation": {
-        "default_branch_revision": "c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3",
-        "latest_release": {
-          "assets": [
-            "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/SHA256SUMS",
-            "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/verification_ecology_kit-1.3.0-py3-none-any.whl",
-            "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/verification_ecology_kit-1.3.0.tar.gz"
-          ],
-          "published_at": "2026-09-12T23:26:21Z",
-          "tag": "v1.3.0",
-          "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
-        },
-        "observed_at": "2026-10-17T10:01:35+00:00",
-        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.3.0 at c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3; PyPI verification-ecology-kit 1.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-vek-package-20261017, e-final-sw-vek-pypi-20261017",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/verification-ecology-kit"
-      },
-      "github_license_spdx": "NOASSERTION",
-      "license_observation": {
-        "url": "https://github.com/kadubon/verification-ecology-kit/blob/4008e311ceb16edd6e74d9f71341a90120c0d046/LICENSE",
-        "source_revision": "4008e311ceb16edd6e74d9f71341a90120c0d046",
-        "reviewed_at": "2026-09-21",
-        "method": "LICENSE file inspected; GitHub detection kept separately"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
       "name": "collective-phase-control-fabric",
       "full_name": "kadubon/collective-phase-control-fabric",
       "description": "Evidence-bound analysis and finite intervention control for collective workflows.",
@@ -1134,64 +1344,6 @@
     },
     {
       "schema_org_type": "SoftwareSourceCode",
-      "name": "certified-memory-governance-layer",
-      "full_name": "kadubon/certified-memory-governance-layer",
-      "description": "Certified Memory Governance Layer for long-running AI agents: strict receipts, append-only ledgers, authority gates, retrieval filtering, telemetry replay, and safe adapters for Mem0, Graphiti, LangMem, and LangGraph.",
-      "repository_url": "https://github.com/kadubon/certified-memory-governance-layer",
-      "clone_url": "https://github.com/kadubon/certified-memory-governance-layer.git",
-      "homepage": "https://kadubon.github.io/github.io/",
-      "programming_language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "agent-memory",
-        "ai-agents",
-        "audit-ledger",
-        "graphiti",
-        "langgraph",
-        "langmem",
-        "long-running-agents",
-        "mem0",
-        "memory-governance",
-        "memory-management",
-        "memory-safety",
-        "pydantic",
-        "python",
-        "retrieval-filtering",
-        "typer"
-      ],
-      "license_spdx": "Apache-2.0",
-      "default_branch": "main",
-      "created_at": "2026-05-13T15:06:58Z",
-      "updated_at": "2026-08-24T02:58:13Z",
-      "pushed_at": "2026-08-24T02:58:07Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 2,
-      "release_observation": {
-        "default_branch_revision": "8fcf99d512c4262c4cea0787e72993ff6eb3b059",
-        "latest_release": {
-          "assets": [],
-          "published_at": "2026-05-14T01:30:00Z",
-          "tag": "v1.1.2",
-          "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
-        },
-        "observed_at": "2026-10-17T10:01:35+00:00",
-        "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.2 at 8fcf99d512c4262c4cea0787e72993ff6eb3b059; PyPI cmgl 1.1.2 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cmgl-package-20261017, e-final-sw-cmgl-pypi-20261017",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/certified-memory-governance-layer"
-      },
-      "github_license_spdx": "NOASSERTION",
-      "license_observation": {
-        "url": "https://github.com/kadubon/certified-memory-governance-layer/blob/2fc49b4df7bbe4a23265b8b2372432711740d00b/LICENSE",
-        "source_revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
-        "reviewed_at": "2026-09-24",
-        "method": "LICENSE file inspected; GitHub detection kept separately"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
       "name": "asi-proxy-phase-skill",
       "full_name": "kadubon/asi-proxy-phase-skill",
       "description": "Evidence-gated Agent Skill for protocol-relative ASI-proxy phase diagnostics and interventions",
@@ -1252,56 +1404,6 @@
     },
     {
       "schema_org_type": "SoftwareSourceCode",
-      "name": "certified-local-participation-gate",
-      "full_name": "kadubon/certified-local-participation-gate",
-      "description": "Deterministic local participation gate for AI agents: act, assist, verify, withdraw, exit, or refuse from declared observable records.",
-      "repository_url": "https://github.com/kadubon/certified-local-participation-gate",
-      "clone_url": "https://github.com/kadubon/certified-local-participation-gate.git",
-      "homepage": "https://doi.org/10.5281/zenodo.19394600",
-      "programming_language": "Python",
-      "topics": [
-        "agent-governance",
-        "agent-safety",
-        "ai-agents",
-        "audit-log",
-        "deterministic",
-        "formal-methods",
-        "json-schema",
-        "local-first",
-        "pydantic",
-        "python",
-        "receipts",
-        "uv"
-      ],
-      "license_spdx": "NOASSERTION",
-      "default_branch": "main",
-      "created_at": "2026-05-14T03:40:24Z",
-      "updated_at": "2026-05-14T04:17:11Z",
-      "pushed_at": "2026-07-23T02:13:59Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 1,
-      "release_observation": {
-        "default_branch_revision": "8f598604cdab5856840d7c0a30356a7b3a391818",
-        "latest_release": {
-          "assets": [
-            "https://github.com/kadubon/certified-local-participation-gate/releases/download/v0.1.1/clpg-0.1.1-py3-none-any.whl",
-            "https://github.com/kadubon/certified-local-participation-gate/releases/download/v0.1.1/clpg-0.1.1.tar.gz"
-          ],
-          "published_at": "2026-05-14T04:19:27Z",
-          "tag": "v0.1.1",
-          "url": "https://github.com/kadubon/certified-local-participation-gate/releases/tag/v0.1.1"
-        },
-        "observed_at": "2026-10-12T10:51:32+00:00",
-        "package_registry_status": "not_checked_by_this_github_refresh",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/certified-local-participation-gate"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
       "name": "asi-proxy-phase-growth-simulator",
       "full_name": "kadubon/asi-proxy-phase-growth-simulator",
       "description": "Python Monte Carlo simulator for uncertainty, risk, verification, and resource-constrained scenario analysis.",
@@ -1353,57 +1455,6 @@
         "source_revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
         "reviewed_at": "2026-10-17",
         "method": "LICENSE file inspected; GitHub detection kept separately"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
-      "name": "future-claim-certifier",
-      "full_name": "kadubon/future-claim-certifier",
-      "description": "Replayable Python protocol engine for checking time-bound future claims from canonical artifacts, with typed outcomes and audit trails.",
-      "repository_url": "https://github.com/kadubon/future-claim-certifier",
-      "clone_url": "https://github.com/kadubon/future-claim-certifier.git",
-      "homepage": "https://doi.org/10.5281/zenodo.21199529",
-      "programming_language": "Python",
-      "topics": [
-        "agent-safety",
-        "artifact-bundles",
-        "audit-trail",
-        "authority-validation",
-        "canonical-json",
-        "future-claims",
-        "json-schema",
-        "proof-checking",
-        "protocol-engine",
-        "python",
-        "runtime-verification"
-      ],
-      "license_spdx": "Apache-2.0",
-      "default_branch": "main",
-      "created_at": "2026-07-06T20:44:42Z",
-      "updated_at": "2026-07-06T23:36:09Z",
-      "pushed_at": "2026-07-13T21:07:44Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 5,
-      "release_observation": {
-        "default_branch_revision": "017a4c1be9adce4cd7035d77a8b73520884e5243",
-        "latest_release": {
-          "assets": [
-            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/future_claim_certifier-1.1.0-py3-none-any.whl",
-            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/future_claim_certifier-1.1.0.tar.gz",
-            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/python-dependencies.json",
-            "https://github.com/kadubon/future-claim-certifier/releases/download/v1.1.0/SHA256SUMS.txt"
-          ],
-          "published_at": "2026-07-06T23:41:50Z",
-          "tag": "v1.1.0",
-          "url": "https://github.com/kadubon/future-claim-certifier/releases/tag/v1.1.0"
-        },
-        "observed_at": "2026-10-12T10:51:32+00:00",
-        "package_registry_status": "not_checked_by_this_github_refresh",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/future-claim-certifier"
       }
     },
     {
@@ -1511,57 +1562,6 @@
         "refresh_status": "current",
         "release_status": "observed",
         "source_url": "https://github.com/kadubon/pic-openclaw-skill"
-      }
-    },
-    {
-      "schema_org_type": "SoftwareSourceCode",
-      "name": "no-meta-standing-ledger",
-      "full_name": "kadubon/no-meta-standing-ledger",
-      "description": "Local-first public standing ledger for replayable research and AI-system claims, based on observable evidence, challenges, lineage, and finite verification capacity.",
-      "repository_url": "https://github.com/kadubon/no-meta-standing-ledger",
-      "clone_url": "https://github.com/kadubon/no-meta-standing-ledger.git",
-      "homepage": "https://doi.org/10.5281/zenodo.19447443",
-      "programming_language": "Python",
-      "topics": [
-        "ai-agents",
-        "auditability",
-        "challenge-tracking",
-        "claim-governance",
-        "evidence-tracking",
-        "lineage",
-        "local-first",
-        "no-meta-governance",
-        "observable-only",
-        "open-science",
-        "public-ledger",
-        "python",
-        "reproducibility",
-        "research-claims",
-        "research-tools",
-        "standing"
-      ],
-      "license_spdx": "Apache-2.0",
-      "default_branch": "main",
-      "created_at": "2026-04-30T00:52:33Z",
-      "updated_at": "2026-04-30T00:57:48Z",
-      "pushed_at": "2026-06-18T21:04:47Z",
-      "archived": false,
-      "stars": 0,
-      "forks": 0,
-      "open_issues": 4,
-      "release_observation": {
-        "default_branch_revision": "e87a9001536070bb968ec569f07e287a2ee386d2",
-        "latest_release": {
-          "assets": [],
-          "published_at": "2026-04-30T01:05:34Z",
-          "tag": "v0.1.0",
-          "url": "https://github.com/kadubon/no-meta-standing-ledger/releases/tag/v0.1.0"
-        },
-        "observed_at": "2026-10-12T10:51:32+00:00",
-        "package_registry_status": "not_checked_by_this_github_refresh",
-        "refresh_status": "current",
-        "release_status": "observed",
-        "source_url": "https://github.com/kadubon/no-meta-standing-ledger"
       }
     },
     {
