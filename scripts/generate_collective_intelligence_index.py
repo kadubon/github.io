@@ -62,6 +62,7 @@ def build_model():
     repos = {r['full_name']: r for r in read('oss-catalog.json')['repositories']}
     releases = read('data/oss-release-snapshots.json')['repositories']
     resources = []
+    identity_issues = copy.deepcopy(e['identity_issues'])
     for entry in c['resources']:
         r = copy.deepcopy(entry)
         r.update(ownership='takahashi', alternate_names=[], language=['en'],
@@ -86,8 +87,14 @@ def build_model():
             r['software']['release_observation'] = copy.deepcopy(releases[p['name']])
             r['software']['when_to_use'] = r['summary']
             r['software']['when_not_to_use'] = r['limitations']
-            if releases[p['name']].get('default_branch_revision') != r['software']['source_revision']:
-                r['source_state'] = 'newer_source_not_editorially_reviewed'
+            observation = releases[p['name']]
+            observed_revision = observation.get('default_branch_revision')
+            if observation.get('refresh_status') != 'current' or not observed_revision:
+                identity_issues.append({'source': r['id'], 'status': 'source_comparison_unavailable',
+                    'reason': 'Current source comparison is unavailable or stale. The reviewed snapshot remains fixed; no revision ordering or renewed compatibility is established. / 現行ソースの比較は取得不能または古い観測。レビュー対象は固定し、新旧順序や互換性更新は認定しない。'})
+            elif observed_revision != r['software']['source_revision']:
+                identity_issues.append({'source': r['id'], 'status': 'observed_revision_differs',
+                    'reason': 'Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。'})
         resources.append(r)
     problems = copy.deepcopy(c['problems'])
     for p in problems:
@@ -102,7 +109,7 @@ def build_model():
          'symptom_groups': c['symptom_groups'], 'unresolved_intents': c['unresolved_intents'],
          'relations': c['relations'], 'read_paths': c['read_paths'], 'sections': c['sections'],
          'evidence': e['evidence'], 'corpus_audit': e['corpus_audit'],
-         'identity_issues': e['identity_issues'], 'scanned_counts': e['scanned_counts'],
+         'identity_issues': identity_issues, 'scanned_counts': e['scanned_counts'],
          'agent_routing': {'authority': 'Advisory metadata under consuming host policy; no execution authority.',
                            'query_matching': 'NFKC, casefold, curly quote folding, whitespace collapse and trailing ?/! removal; exact canonical ID, bilingual question/symptom/alias or legacy query only. No substring, fuzzy or embedding inference. Unknown or explicitly unresolved queries return no route.',
                            'no_match': 'null; consult unresolved_intents or related problems manually; never infer execution authority, truth, settlement, production readiness or AGI/ASI detection.',
@@ -240,21 +247,30 @@ def page_url(lang):
     return BASE + STEM + ('.ja' if lang == 'ja' else '') + '.html'
 
 
+def scan_summary(model, lang):
+    counts = model['scanned_counts']
+    if lang == 'ja':
+        return f"走査記録：研究 {counts['research_records']} 件、リポジトリ {counts['repositories']} 件。選定：{len(model['resources'])} 件。本文の範囲確認は選定論文のみ。残りの候補はレジストリで未解決として区別する。"
+    return f"Scanned: {counts['research_records']} research records; {counts['repositories']} repositories. Selected: {len(model['resources'])} resources. Full-text scope review applies only to selected papers; remaining candidate matches are explicitly unresolved in the registry."
+
+
 def resource_fields(r, lang):
     fields = [(label('role', lang), r['primary_role']), (label('limits', lang), r['limitations'][lang]),
               ('Source reviewed' if lang == 'en' else 'ソース確認日', r['last_reviewed_at'])]
     if r['kind'] == 'paper':
         p = r['paper']
         fields += [('DOI', p['doi']), ('Publication / 著者・発表', ', '.join(p['authors']) + ' · ' + p['date_published'][:10] + ' · ' + p['genre']),
-                   ('Source scope / 根拠範囲', 'Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.')]
+                   ('Source scope' if lang == 'en' else '根拠範囲', 'Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.' if lang == 'en' else '公開TeXの範囲とDataCite書誌同一性の確認。定理の独立した証明検証ではない。')]
     else:
         s = r['software']
         rel = s['release_observation']
         release = rel.get('latest_release')
         fields += [(label('source', lang), s['source_revision'] + ' / ' + str(s['source_version'] or 'unknown')),
-                   ('Review state / レビュー状態', r['source_state']),
-                   (label('release', lang), (release['tag'] + ' · ' + release['published_at']) if release else 'null — no published GitHub release observed'),
+                   ('Review state / レビュー状態', r['source_state'] + (' — applies to the pinned reviewed source only' if lang == 'en' else ' — 固定したレビュー対象ソースのみに適用')),
+                   ('Observed default-branch revision' if lang == 'en' else '観測した既定ブランチのコミット', str(rel.get('default_branch_revision') or 'unknown') + (' — equality does not renew review; difference does not establish chronology' if lang == 'en' else ' — 一致しても再レビューではなく、不一致だけでは新旧順序は分からない')),
+                   (label('release', lang), (release['tag'] + ' · ' + release['published_at']) if release else ('null — no published GitHub release observed' if lang == 'en' else 'null — 公開済みGitHubリリースは観測されていない')),
                    ('Release observation / リリース確認', rel.get('observed_at', 'unknown') + ' · ' + rel['refresh_status']),
+                   ('Package metadata observation' if lang == 'en' else 'パッケージ情報の観測', rel.get('package_registry_status', 'unknown')),
                    ('License', s['license_spdx'])]
         for contract in s['interface_contracts']:
             fields.append(('Interface schema identity / スキーマ識別子', str(contract['schema_identity'] or 'null — upstream schema has no $id') + ' · ' + contract['scope']))
@@ -347,7 +363,7 @@ def html(model, lang):
         if sid == 'downloads':
             body += '<ul>' + ''.join('<li>' + link(BASE + p, p) + '</li>' for p in FORMATS) + '</ul>'
         if sid == 'sources-and-maintenance':
-            body += '<p>' + escape(f"Scanned: {model['scanned_counts']['research_records']} research records; {model['scanned_counts']['repositories']} repositories. Selected: {len(model['resources'])} resources. Full-text scope review applies only to selected papers; remaining candidate matches are explicitly unresolved in the registry.") + '</p>'
+            body += '<p>' + escape(scan_summary(model, lang)) + '</p>'
             body += '<ul>' + ''.join('<li>' + escape(i['source'] + ': ' + i['status'] + ' — ' + i['reason']) + '</li>' for i in model['identity_issues']) + '</ul><p>'
             body += link(BASE + 'docs/collective-intelligence-index-maintenance.md', 'Maintenance / 保守') + ' · ' + link('https://github.com/kadubon/github.io/issues', 'Corrections / 訂正') + '</p>'
         content.append(f'<section class="container" id="{sid}"><h2>{escape(section["heading"][lang])}</h2>{body}</section>')
@@ -364,7 +380,7 @@ def html(model, lang):
 <header class="container"><h1>{escape(title)}</h1><nav aria-label="Primary">{link(BASE, 'Home')} · {link(BASE + 'research-map.html', 'Research Map')} · {link(BASE + 'works.html', 'Works')} · {link(BASE + 'oss.html', 'OSS')} · {link(page_url('ja' if lang == 'en' else 'en'), '日本語' if lang == 'en' else 'English')}</nav>
 <p>{'AI-agent troubleshooting, research and evidence-bounded routes' if lang == 'en' else 'AIエージェントの困りごとから、研究と根拠をたどる'}</p>
 <p>{link(page_url(lang) + '#find-by-symptom', 'Find by symptom' if lang == 'en' else '症状から探す')} · {link(page_url(lang) + '#downloads', 'Data & downloads' if lang == 'en' else 'データ・取得形式')}</p>
-<p>K. Takahashi · {'Routing updated' if lang == 'en' else '経路更新'} <time datetime="{model['modified_at']}">{model['modified_at']}</time> · {'Source review dates are per record.' if lang == 'en' else 'ソース確認日は各記録に保持。'}</p><details><summary>{'All sections' if lang == 'en' else '全セクション'}</summary><nav aria-label="Contents"><ul class="index-toc">{toc}</ul></nav></details></header>
+<p>K. Takahashi · {'Editorial update' if lang == 'en' else '編集更新'} <time datetime="{model['modified_at']}">{model['modified_at']}</time> · {'Source review dates are per record.' if lang == 'en' else 'ソース確認日は各記録に保持。'}</p><details><summary>{'All sections' if lang == 'en' else '全セクション'}</summary><nav aria-label="Contents"><ul class="index-toc">{toc}</ul></nav></details></header>
 <main id="main-content">{''.join(content)}</main><footer class="container">CC BY 4.0 · K. Takahashi</footer></body></html>
 '''
 
@@ -413,7 +429,7 @@ def markdown(m, lang):
         if s['id'] == 'downloads':
             lines += [f'- [{p}]({BASE}{p})' for p in FORMATS] + ['']
         if s['id'] == 'sources-and-maintenance':
-            lines += [f"Scanned {m['scanned_counts']['research_records']} research records and {m['scanned_counts']['repositories']} repositories; selected {len(m['resources'])} resources.", '']
+            lines += [scan_summary(m, lang), '']
             lines += [md_text(i['source'] + ': ' + i['status'] + ' — ' + i['reason']) + '\n' for i in m['identity_issues']]
             lines += [f'[Maintenance]({BASE}docs/collective-intelligence-index-maintenance.md)', '']
     return '\n'.join(lines).rstrip() + '\n'

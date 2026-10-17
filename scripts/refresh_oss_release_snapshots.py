@@ -4,6 +4,7 @@
 Uses authenticated gh if available. Never executes repository code. A failed
 request retains the previous observation and marks its refresh stale.
 """
+import argparse
 import concurrent.futures
 from datetime import datetime, timezone
 import json
@@ -29,8 +30,16 @@ def request(endpoint):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--selected-only', action='store_true',
+                        help='Refresh only software already selected by the collective index')
+    args = parser.parse_args()
     old = json.loads(PATH.read_text(encoding='utf-8')) if PATH.exists() else {'repositories': {}}
     repos = json.loads((ROOT / 'oss-catalog.json').read_text(encoding='utf-8'))['repositories']
+    if args.selected_only:
+        curated = json.loads((ROOT / 'data/collective-intelligence-curation.json').read_text(encoding='utf-8'))
+        selected = {r['source_catalog_id'] for r in curated['resources'] if r['kind'] == 'software'}
+        repos = [r for r in repos if r['full_name'] in selected]
     observed = datetime.now(timezone.utc).isoformat(timespec='seconds')
 
     def inspect(repo):
@@ -50,7 +59,9 @@ def main():
                     'assets': [a['browser_download_url'] for a in release.get('assets', [])],
                 },
                 'release_status': 'no_published_github_release' if release is None else 'observed',
-                'package_registry_status': 'not_checked_by_this_github_refresh',
+                # A GitHub refresh cannot renew or erase a separately dated package observation.
+                'package_registry_status': old['repositories'].get(name, {}).get(
+                    'package_registry_status', 'not_checked_by_this_github_refresh'),
             }
         except (RuntimeError, subprocess.TimeoutExpired) as error:
             value = dict(old['repositories'].get(name, {}))
@@ -59,12 +70,14 @@ def main():
         return name, value
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        values = dict(pool.map(inspect, repos))
+        refreshed = dict(pool.map(inspect, repos))
+    values = dict(old['repositories']) if args.selected_only else {}
+    values.update(refreshed)
     PATH.parent.mkdir(exist_ok=True)
     PATH.write_text(json.dumps({'schema_version': '1.0', 'repositories': values},
                               ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
-    stale = [name for name, value in values.items() if value['refresh_status'] != 'current']
-    print(f'Observed {len(values)} repositories; stale: {stale}')
+    stale = [name for name, value in refreshed.items() if value['refresh_status'] != 'current']
+    print(f'Observed {len(refreshed)} repositories; stale: {stale}')
     return bool(stale)
 
 

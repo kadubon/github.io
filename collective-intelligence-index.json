@@ -2,7 +2,7 @@
   "$schema": "https://kadubon.github.io/github.io/schemas/collective-intelligence-index.schema.json",
   "schema_version": "1.1",
   "canonical_url": "https://kadubon.github.io/github.io/collective-intelligence-index.json",
-  "modified_at": "2026-10-12",
+  "modified_at": "2026-10-17",
   "reviewed_at": "2026-09-21",
   "digest_definition": "SHA-256 of UTF-8 JSON of the complete registry excluding content_digest; sorted keys, no insignificant spaces, unescaped Unicode, no NaN.",
   "identity": {
@@ -1312,7 +1312,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -1419,8 +1419,8 @@
             "tag": "v1.9.0",
             "url": "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.9.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.9.0 at d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a; PyPI collective-capability-runtime 1.9.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-ccr-package-20261017, e-final-sw-ccr-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/collective-capability-runtime"
@@ -1563,7 +1563,7 @@
           }
         ],
         "release_observation": {
-          "default_branch_revision": "55cd5f219d02f02927e247317156e757b1d5d6da",
+          "default_branch_revision": "b971bc6374325b9486c038546733d9b53745787c",
           "latest_release": {
             "assets": [
               "https://github.com/kadubon/percolation-inversion-compiler/releases/download/v1.1.0/percolation-inversion-compiler-1.1.0.cyclonedx.json",
@@ -1577,8 +1577,8 @@
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/percolation-inversion-compiler/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at b971bc6374325b9486c038546733d9b53745787c; PyPI percolation-inversion-compiler 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pic-package-20261017, e-final-sw-pic-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/percolation-inversion-compiler"
@@ -1720,7 +1720,7 @@
           }
         ],
         "release_observation": {
-          "default_branch_revision": "4008e311ceb16edd6e74d9f71341a90120c0d046",
+          "default_branch_revision": "c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3",
           "latest_release": {
             "assets": [
               "https://github.com/kadubon/verification-ecology-kit/releases/download/v1.3.0/SHA256SUMS",
@@ -1731,8 +1731,8 @@
             "tag": "v1.3.0",
             "url": "https://github.com/kadubon/verification-ecology-kit/releases/tag/v1.3.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.3.0 at c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3; PyPI verification-ecology-kit 1.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-vek-package-20261017, e-final-sw-vek-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/verification-ecology-kit"
@@ -1784,7 +1784,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -1884,8 +1884,8 @@
             "tag": "v0.5.0",
             "url": "https://github.com/kadubon/alt-foundry-kernel/releases/tag/v0.5.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.5.0 at 2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b; PyPI lookup for alt-foundry-kernel: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-alt-package-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/alt-foundry-kernel"
@@ -1937,7 +1937,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2032,8 +2032,8 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/cait-certificate-schema/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 6b3fcc410c3fb43756e89b9127c5ed0191b3949d; PyPI cait-certificate-schema 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cait-package-20261017, e-final-sw-cait-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/cait-certificate-schema"
@@ -2187,8 +2187,8 @@
             "tag": "v1.0.1",
             "url": "https://github.com/kadubon/collective-phase-control-fabric/releases/tag/v1.0.1"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.0.1 at 340b4899d5b0892e06d7d2c1ab1f1d48df15e981; PyPI collective-phase-control-fabric 1.0.1 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cpcf-package-20261017, e-final-sw-cpcf-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/collective-phase-control-fabric"
@@ -2221,8 +2221,8 @@
         "ja": "根拠目録と明示的な昇格受領証を通じ、検証済み手続きを記憶に昇格する。"
       },
       "limitations": {
-        "en": "Procedural admissibility is not factual truth; no GitHub release was found. Source declares 0.1.0 beta.",
-        "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。ソースの宣言は0.1.0 beta。"
+        "en": "Procedural admissibility is not factual truth; no GitHub release was found. The reviewed source declares 0.1.0 beta; separately dated package observations may differ.",
+        "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。レビュー対象ソースの宣言は0.1.0 beta。別日時のパッケージ観測とは区別する。"
       },
       "evidence_refs": [
         "e-observable-agent-workflow-memory-readme-md",
@@ -2241,7 +2241,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2319,8 +2319,8 @@
         "release_observation": {
           "default_branch_revision": "dddaea42073fc9629122cdb798f547c5d6a116e9",
           "latest_release": null,
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0b0 at dddaea42073fc9629122cdb798f547c5d6a116e9; PyPI lookup for observable-agent-workflow-memory: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-oawm-package-20261017",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
           "source_url": "https://github.com/kadubon/observable-agent-workflow-memory"
@@ -2330,8 +2330,8 @@
           "ja": "根拠目録と明示的な昇格受領証を通じ、検証済み手続きを記憶に昇格する。"
         },
         "when_not_to_use": {
-          "en": "Procedural admissibility is not factual truth; no GitHub release was found. Source declares 0.1.0 beta.",
-          "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。ソースの宣言は0.1.0 beta。"
+          "en": "Procedural admissibility is not factual truth; no GitHub release was found. The reviewed source declares 0.1.0 beta; separately dated package observations may differ.",
+          "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。レビュー対象ソースの宣言は0.1.0 beta。別日時のパッケージ観測とは区別する。"
         }
       }
     },
@@ -2370,7 +2370,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2461,8 +2461,8 @@
             "tag": "v1.2.0",
             "url": "https://github.com/kadubon/oasg/releases/tag/v1.2.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.2.0 at f3bee90f2ed8b2dba9b9a96ce485375295760036; PyPI oasg 1.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-oasg-package-20261017, e-final-sw-oasg-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/oasg"
@@ -2596,8 +2596,8 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/audit-closed-ai-scientist/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 1e844d1bca18d7bb298aa198e1250bb07bd7ea44; PyPI audit-closed-ai-scientist 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-audit-package-20261017, e-final-sw-audit-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/audit-closed-ai-scientist"
@@ -2650,7 +2650,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-21",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -2732,8 +2732,8 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/loscr/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at a4c45677e9d9ba1c97b7cfd108efca88275cc6a5; PyPI lookup for loscr: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-loscr-package-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/loscr"
@@ -2866,8 +2866,8 @@
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 24690a225c86fde2a24de4d9f93e2a282789b67d; PyPI asi-proxy-phase-growth-simulator 0.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-simulator-package-20261017, e-final-sw-simulator-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator"
@@ -2978,8 +2978,8 @@
             "tag": "v1.1.1",
             "url": "https://github.com/kadubon/asi-proxy-phase-skill/releases/tag/v1.1.1"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.1 at 5706214a9a3d5e194f371f8ccc2eb71132f82270; PyPI lookup for asi-proxy-phase-skill-development: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-skill-package-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/asi-proxy-phase-skill"
@@ -3086,15 +3086,15 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "2fc49b4df7bbe4a23265b8b2372432711740d00b",
+          "default_branch_revision": "8fcf99d512c4262c4cea0787e72993ff6eb3b059",
           "latest_release": {
             "assets": [],
             "published_at": "2026-05-14T01:30:00Z",
             "tag": "v1.1.2",
             "url": "https://github.com/kadubon/certified-memory-governance-layer/releases/tag/v1.1.2"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.2 at 8fcf99d512c4262c4cea0787e72993ff6eb3b059; PyPI cmgl 1.1.2 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cmgl-package-20261017, e-final-sw-cmgl-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/certified-memory-governance-layer"
@@ -3146,7 +3146,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-24",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3198,15 +3198,15 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "cd3fddad5656045f9e1d5350af65d6c0bda9ba23",
+          "default_branch_revision": "018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6",
           "latest_release": {
             "assets": [],
             "published_at": "2026-05-01T03:15:40Z",
             "tag": "v0.1.0",
             "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/releases/tag/v0.1.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6; PyPI lookup for memoryflow-agent-memory-auditor: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-memoryflow-package-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/memoryflow-agent-memory-auditor"
@@ -3313,15 +3313,15 @@
         "related_paper": null,
         "interface_contracts": [],
         "release_observation": {
-          "default_branch_revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+          "default_branch_revision": "ed51d588afab6312287a31baa1d911c0fa3a943d",
           "latest_release": {
             "assets": [],
             "published_at": "2026-07-02T01:04:13Z",
             "tag": "v1.1.0",
             "url": "https://github.com/kadubon/problem-frame-gate/releases/tag/v1.1.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at ed51d588afab6312287a31baa1d911c0fa3a943d; PyPI problem-frame-gate 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pfg-package-20261017, e-final-sw-pfg-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/problem-frame-gate"
@@ -3375,7 +3375,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-24",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3434,8 +3434,8 @@
             "tag": "v2.0.0",
             "url": "https://github.com/kadubon/fost-agent-ledger/releases/tag/v2.0.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 2.0.0 at 5fbdc2a9851b27c5529ed332dfcb9cbf07e027de; PyPI fost-agent-ledger 2.0.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-fost-package-20261017, e-final-sw-fost-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/fost-agent-ledger"
@@ -3488,7 +3488,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-24",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3550,8 +3550,8 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/agent-trust-residual-benchmark/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2; PyPI lookup for agent-trust-residual-benchmark: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-atrb-package-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/agent-trust-residual-benchmark"
@@ -3656,8 +3656,8 @@
         "release_observation": {
           "default_branch_revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
           "latest_release": null,
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 unknown at a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b; Package version/distribution unknown; pyproject.toml unavailable (404) / パッケージ版・配布先は不明、pyproject.toml未取得（404）. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: none retrieved / 取得記録なし",
           "refresh_status": "current",
           "release_status": "no_published_github_release",
           "source_url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC"
@@ -3725,7 +3725,7 @@
       "language": [
         "en"
       ],
-      "source_state": "newer_source_not_editorially_reviewed",
+      "source_state": "reviewed_snapshot",
       "last_reviewed_at": "2026-09-26",
       "unsupported_claims": {
         "en": "Accounting identity: closing stock = opening stock + admitted unique additions − losses, within one declared unit and scope. Service reuse, copies and external inputs remain separate coordinates. A universal inflow/loss reproduction ratio is not assumed; zero loss can make it undefined. Model spectral bounds depend on model premises. Hashes bind bytes, not truth. Releases do not establish production assurance. Unknowns are null with reasons, never favorable zeros. No observed global self-acceleration, AGI/ASI detection or arrival forecast is established here.",
@@ -3801,8 +3801,8 @@
             "tag": "v0.2.0",
             "url": "https://github.com/kadubon/checkedflow/releases/tag/v0.2.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 850f2d7b7799dbe000ea85a6e8f32b289b971bfd; PyPI checkedflow 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-checkedflow-package-20261017, e-final-sw-checkedflow-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/checkedflow"
@@ -3946,8 +3946,8 @@
             "tag": "v0.5.1",
             "url": "https://github.com/kadubon/collective-intelligence-overlay/releases/tag/v0.5.1"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.5.1 at 46276b4080dadd70ffa2608533139e8df6dcf75d; PyPI collective-intelligence-overlay 0.5.1 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cio-package-20261017, e-final-sw-cio-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/collective-intelligence-overlay"
@@ -4095,8 +4095,8 @@
             "tag": "v0.3.0",
             "url": "https://github.com/kadubon/evidence-gap-router/releases/tag/v0.3.0"
           },
-          "observed_at": "2026-10-12T10:51:32+00:00",
-          "package_registry_status": "not_checked_by_this_github_refresh",
+          "observed_at": "2026-10-17T10:01:35+00:00",
+          "package_registry_status": "2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.3.0 at 0e5def78422de55db6c80723f28b753ef91e017b; PyPI evidence-gap-router 0.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-egr-package-20261017, e-final-sw-egr-version-20261017, e-final-sw-egr-pypi-20261017",
           "refresh_status": "current",
           "release_status": "observed",
           "source_url": "https://github.com/kadubon/evidence-gap-router"
@@ -5738,7 +5738,7 @@
       },
       "expected_outputs": {
         "en": "Claim-to-support obligations with explicit unavailable evidence and bounded finality.",
-        "ja": "不在の根拠と有限の最終性を明示した、主張と支持根拠の義務。"
+        "ja": "取得・確認できない根拠と有限の最終性を明示した、主張と支持根拠の義務。"
       },
       "prerequisite_or_unsupported_conditions": {
         "en": "No automatic factual truth or entailment oracle. A signature/hash binds a record, not its truth; generated is not verified and verified is not reusable.",
@@ -7174,8 +7174,8 @@
         "ja": "ソースと保守"
       },
       "text": {
-        "en": "Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.",
-        "ja": "書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。"
+        "en": "Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate. For paper claims, cite the original DOI, checked version and passage. For software behavior, cite the repository, reviewed commit, package/release version and test scope. To cite this editorial index, record its URL, editorial date, resource ID and registry content_digest or an actual Git commit. The live website can change; a commit permalink is a fixed snapshot. Historical review does not guarantee future compatibility, efficacy or safety. Metadata refresh does not renew scientific review. See the maintenance document for restoration and the 2026-10-17 audit.",
+        "ja": "書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。 論文の主張は原著DOI・確認版・該当箇所を引用する。OSSの挙動はリポジトリ・レビュー対象コミット・パッケージ／リリース版・試験範囲を示す。本索引の編集内容はURL・編集日・資源IDとレジストリのcontent_digestまたは実際のGitコミットを記録して引用する。公開サイトは更新され、コミットの固定リンクは特定時点のスナップショットを指す。過去のレビューは将来の互換性・有効性・安全性を保証しない。メタデータ更新は科学的再レビューではない。復元方法と2026-10-17監査は保守文書を参照。"
       }
     }
   ],
@@ -9569,6 +9569,1176 @@
           }
         ]
       }
+    },
+    {
+      "id": "e-collective-capability-runtime-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/README.md",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-readme-md",
+      "sha256": "d4d439b6fabd5d3bcd2319bb50c7d615ea448042746555edd9f5872612d1cd7b",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-collective-capability-runtime-docs-verified-growth-md-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/docs/verified-growth.md",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "Contract and limitations; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-docs-verified-growth-md",
+      "sha256": "47cb12b760e0f3f22fad8a245c815ac89926e25659f4ce27e619ecf2267a7763",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-docs-verified-growth-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-docs-verified-growth-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-collective-capability-runtime-license-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/LICENSE",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-license",
+      "sha256": "d6c11acdf0cd41ac2637c2d4c4e44a1e7210bf484b3b1d5beb40a76fdb89e8ad",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-collective-capability-runtime-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/pyproject.toml",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-pyproject-toml",
+      "sha256": "49eee32e39385c13f5973a673a276f1265bc71c248489bf337ce6ed70301f78e",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-cait-certificate-schema-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/cait-certificate-schema/blob/0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7/README.md",
+      "revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-cait-certificate-schema-readme-md",
+      "sha256": "02305f8e65d9a5d23a87723285506ef76a9d7367bf7a84c1de03a707902f1b2a",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-cait-certificate-schema-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-cait-certificate-schema-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-cait-certificate-schema-docs-accounting-md-raw-20261017",
+      "url": "https://github.com/kadubon/cait-certificate-schema/blob/0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7/docs/accounting.md",
+      "revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+      "observed_at": "2026-10-17",
+      "locator": "Contract and limitations; raw HTTP payload, no newline conversion; corrects byte binding of e-cait-certificate-schema-docs-accounting-md",
+      "sha256": "9fde67958abff41075d3acf7ec59890508eb2f41da934513a33c4552324355af",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-cait-certificate-schema-docs-accounting-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-cait-certificate-schema-docs-accounting-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-cait-certificate-schema-license-raw-20261017",
+      "url": "https://github.com/kadubon/cait-certificate-schema/blob/0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7/LICENSE",
+      "revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-cait-certificate-schema-license",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-cait-certificate-schema-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-cait-certificate-schema-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-cait-certificate-schema-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/cait-certificate-schema/blob/0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7/pyproject.toml",
+      "revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-cait-certificate-schema-pyproject-toml",
+      "sha256": "ab204f3c7207a77449373b0266c11482afe16e12c2502586d2c1b8a2d4fbf793",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-cait-certificate-schema-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-cait-certificate-schema-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-observable-agent-workflow-memory-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/observable-agent-workflow-memory/blob/414299d4d15b5de434f5fb1ccbb4ba17df9155ff/README.md",
+      "revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-observable-agent-workflow-memory-readme-md",
+      "sha256": "8bb96c663155effbc5cd3f61ac2464f03dae2c50891fd092d62fd0263a14ae28",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-observable-agent-workflow-memory-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-observable-agent-workflow-memory-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-observable-agent-workflow-memory-docs-theory-mapping-md-raw-20261017",
+      "url": "https://github.com/kadubon/observable-agent-workflow-memory/blob/414299d4d15b5de434f5fb1ccbb4ba17df9155ff/docs/theory_mapping.md",
+      "revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+      "observed_at": "2026-10-17",
+      "locator": "Contract and limitations; raw HTTP payload, no newline conversion; corrects byte binding of e-observable-agent-workflow-memory-docs-theory-mapping-md",
+      "sha256": "86eaddf91a5d7d1a286dcdaba2e416c94c92c645afdaf7b7efff4bbfdaf5fe88",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-observable-agent-workflow-memory-docs-theory-mapping-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-observable-agent-workflow-memory-docs-theory-mapping-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-observable-agent-workflow-memory-license-raw-20261017",
+      "url": "https://github.com/kadubon/observable-agent-workflow-memory/blob/414299d4d15b5de434f5fb1ccbb4ba17df9155ff/LICENSE",
+      "revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-observable-agent-workflow-memory-license",
+      "sha256": "e40d49fcaca5e814e96202670308c2bfa2d94dc318394dc48999956ab8b5168f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-observable-agent-workflow-memory-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-observable-agent-workflow-memory-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-observable-agent-workflow-memory-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/observable-agent-workflow-memory/blob/414299d4d15b5de434f5fb1ccbb4ba17df9155ff/pyproject.toml",
+      "revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-observable-agent-workflow-memory-pyproject-toml",
+      "sha256": "c5df7829f15ad7bdd39e2cf46c72269d95c8391237cd26813521edde860a48a8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-observable-agent-workflow-memory-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-observable-agent-workflow-memory-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-oasg-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/README.md",
+      "revision": "7593f74b5d6a4701865dc97b079c3e725c4fd7ee",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-oasg-readme-md",
+      "sha256": "c22371220c560807ed1153cee788e76a3e6af36adcd7ca5a30bd2a4da72e8236",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-oasg-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-oasg-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-oasg-docs-architecture-md-raw-20261017",
+      "url": "https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/docs/architecture.md",
+      "revision": "7593f74b5d6a4701865dc97b079c3e725c4fd7ee",
+      "observed_at": "2026-10-17",
+      "locator": "Contract and limitations; raw HTTP payload, no newline conversion; corrects byte binding of e-oasg-docs-architecture-md",
+      "sha256": "785a1a67cfe58039471823297bcd1ae8c92a02bdeaf78763ec0fe5bc8e48b6ac",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-oasg-docs-architecture-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-oasg-docs-architecture-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-oasg-license-raw-20261017",
+      "url": "https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/LICENSE",
+      "revision": "7593f74b5d6a4701865dc97b079c3e725c4fd7ee",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-oasg-license",
+      "sha256": "10b266fbed0d77f25ab03f87019c16e0b976b11dd92c5e283c3aa6fc12f77311",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-oasg-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-oasg-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-oasg-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/oasg/blob/7593f74b5d6a4701865dc97b079c3e725c4fd7ee/pyproject.toml",
+      "revision": "7593f74b5d6a4701865dc97b079c3e725c4fd7ee",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-oasg-pyproject-toml",
+      "sha256": "377497bf352d2e6135000a69390dcb39f72a9507a09cca38e4d12c8e73488185",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-oasg-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-oasg-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-audit-closed-ai-scientist-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/audit-closed-ai-scientist/blob/1e844d1bca18d7bb298aa198e1250bb07bd7ea44/README.md",
+      "revision": "1e844d1bca18d7bb298aa198e1250bb07bd7ea44",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-audit-closed-ai-scientist-readme-md",
+      "sha256": "bbde79c0a4e250af6215b44fa2d353e03c5ee39add5b5a727e5be1e0939fbe39",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-audit-closed-ai-scientist-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-audit-closed-ai-scientist-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-audit-closed-ai-scientist-license-raw-20261017",
+      "url": "https://github.com/kadubon/audit-closed-ai-scientist/blob/1e844d1bca18d7bb298aa198e1250bb07bd7ea44/LICENSE",
+      "revision": "1e844d1bca18d7bb298aa198e1250bb07bd7ea44",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-audit-closed-ai-scientist-license",
+      "sha256": "ce439f1760a238bab9de6b0baad38d2b969b91db2293dc99d361709e951149f5",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-audit-closed-ai-scientist-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-audit-closed-ai-scientist-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-audit-closed-ai-scientist-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/audit-closed-ai-scientist/blob/1e844d1bca18d7bb298aa198e1250bb07bd7ea44/pyproject.toml",
+      "revision": "1e844d1bca18d7bb298aa198e1250bb07bd7ea44",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-audit-closed-ai-scientist-pyproject-toml",
+      "sha256": "3e67ca530c6e197a76f111fe454ecfd640ebf0dbb6040f3b2fcde0d38a410e20",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-audit-closed-ai-scientist-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-audit-closed-ai-scientist-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-loscr-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/loscr/blob/334307b59a4870b90f6162705c793bb5615a555a/README.md",
+      "revision": "334307b59a4870b90f6162705c793bb5615a555a",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-loscr-readme-md",
+      "sha256": "45e8d92ba46c621782c84ac1218b4f69fcc38d66d831f1e7d963173ba01ffdf2",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-loscr-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-loscr-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-loscr-docs-theory-map-md-raw-20261017",
+      "url": "https://github.com/kadubon/loscr/blob/334307b59a4870b90f6162705c793bb5615a555a/docs/theory-map.md",
+      "revision": "334307b59a4870b90f6162705c793bb5615a555a",
+      "observed_at": "2026-10-17",
+      "locator": "Contract and limitations; raw HTTP payload, no newline conversion; corrects byte binding of e-loscr-docs-theory-map-md",
+      "sha256": "9d15bf33c9898738c0b4fede7caca7fe1d9da93a53e23678c9212fb4a2728aeb",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-loscr-docs-theory-map-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-loscr-docs-theory-map-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-loscr-license-raw-20261017",
+      "url": "https://github.com/kadubon/loscr/blob/334307b59a4870b90f6162705c793bb5615a555a/LICENSE",
+      "revision": "334307b59a4870b90f6162705c793bb5615a555a",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-loscr-license",
+      "sha256": "908fd05086ab8e168f07ea4411d00d69eaa7b04aa6aed0d876f7b66ef93b7bc7",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-loscr-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-loscr-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-loscr-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/loscr/blob/334307b59a4870b90f6162705c793bb5615a555a/pyproject.toml",
+      "revision": "334307b59a4870b90f6162705c793bb5615a555a",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-loscr-pyproject-toml",
+      "sha256": "12614c406377823b4b82d8b8bdfe62511a0d127377acbd60d66c5415651203c3",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-loscr-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-loscr-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-asi-proxy-phase-growth-simulator-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/blob/24690a225c86fde2a24de4d9f93e2a282789b67d/README.md",
+      "revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
+      "observed_at": "2026-10-17",
+      "locator": "Overview, interfaces, installation and boundaries; raw HTTP payload, no newline conversion; corrects byte binding of e-asi-proxy-phase-growth-simulator-readme-md",
+      "sha256": "0b417cfd26e40865d81f4fb818658c6fc05ed5b000a22390eade8e41b78d5501",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-asi-proxy-phase-growth-simulator-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-asi-proxy-phase-growth-simulator-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-asi-proxy-phase-growth-simulator-docs-model-reference-md-raw-20261017",
+      "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/blob/24690a225c86fde2a24de4d9f93e2a282789b67d/docs/model-reference.md",
+      "revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
+      "observed_at": "2026-10-17",
+      "locator": "Contract and limitations; raw HTTP payload, no newline conversion; corrects byte binding of e-asi-proxy-phase-growth-simulator-docs-model-reference-md",
+      "sha256": "b34372884dde58a95e5e52f43c35710e4b012aea98fabd9d912476ac2a6ebd6d",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-asi-proxy-phase-growth-simulator-docs-model-reference-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-asi-proxy-phase-growth-simulator-docs-model-reference-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-asi-proxy-phase-growth-simulator-license-raw-20261017",
+      "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/blob/24690a225c86fde2a24de4d9f93e2a282789b67d/LICENSE",
+      "revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
+      "observed_at": "2026-10-17",
+      "locator": "License grant; raw HTTP payload, no newline conversion; corrects byte binding of e-asi-proxy-phase-growth-simulator-license",
+      "sha256": "1d818527300fc3cd9ea18328244c2b96eeeb7ac48ff9540e2b29c592acf83fa9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-asi-proxy-phase-growth-simulator-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-asi-proxy-phase-growth-simulator-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-asi-proxy-phase-growth-simulator-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/asi-proxy-phase-growth-simulator/blob/24690a225c86fde2a24de4d9f93e2a282789b67d/pyproject.toml",
+      "revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
+      "observed_at": "2026-10-17",
+      "locator": "Project version, scripts, Python requirements; raw HTTP payload, no newline conversion; corrects byte binding of e-asi-proxy-phase-growth-simulator-pyproject-toml",
+      "sha256": "f57a574994c7690a6bdf52210d823125108b7b3ff975ea633de0fee80b2ad6a8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-asi-proxy-phase-growth-simulator-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-asi-proxy-phase-growth-simulator-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-cait-certificate-schema-docs-interchange-md-raw-20261017",
+      "url": "https://github.com/kadubon/cait-certificate-schema/blob/0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7/docs/interchange.md",
+      "revision": "0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7",
+      "observed_at": "2026-10-17",
+      "locator": "Version-bound mappings and unsupported obligations; raw HTTP payload, no newline conversion; corrects byte binding of e-cait-certificate-schema-docs-interchange-md",
+      "sha256": "f83292001da6e4ba3aae411f2278320f7f5962693a05d9422d3cac97cfcc2495",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-cait-certificate-schema-docs-interchange-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-cait-certificate-schema-docs-interchange-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-collective-capability-runtime-docs-verified-growth-interchange-md-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/docs/verified-growth-interchange.md",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "Version-bound mappings and unsupported obligations; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-docs-verified-growth-interchange-md",
+      "sha256": "cfebb528cd0f4f85a09c87c8b7488e9823e6e38ace80bbe10cec5798950aff3f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-docs-verified-growth-interchange-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-docs-verified-growth-interchange-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-collective-capability-runtime-interop-pic-md-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/INTEROP_PIC.md",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "Version-bound mappings and unsupported obligations; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-interop-pic-md",
+      "sha256": "3ebe2d9560b45893cb665bc7ab3ca9d9a8a46f11343e1f584fbe5fd13ae6cff6",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-interop-pic-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-interop-pic-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-observable-agent-workflow-memory-docs-theory-sources-md-raw-20261017",
+      "url": "https://github.com/kadubon/observable-agent-workflow-memory/blob/414299d4d15b5de434f5fb1ccbb4ba17df9155ff/docs/theory_sources.md",
+      "revision": "414299d4d15b5de434f5fb1ccbb4ba17df9155ff",
+      "observed_at": "2026-10-17",
+      "locator": "Version-bound mappings and unsupported obligations; raw HTTP payload, no newline conversion; corrects byte binding of e-observable-agent-workflow-memory-docs-theory-sources-md",
+      "sha256": "bea025fe88ca84e480de97a7e539397b340c014d215afc7bcb6ea5255788b716",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-observable-agent-workflow-memory-docs-theory-sources-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-observable-agent-workflow-memory-docs-theory-sources-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-collective-capability-runtime-examples-verified-growth-interchange-sources-json-raw-20261017",
+      "url": "https://github.com/kadubon/collective-capability-runtime/blob/3b4702454f732c7a0a9f30d87483384dc8a281eb/examples/verified_growth/interchange/sources.json",
+      "revision": "3b4702454f732c7a0a9f30d87483384dc8a281eb",
+      "observed_at": "2026-10-17",
+      "locator": "Pinned producer versions and source hashes; raw HTTP payload, no newline conversion; corrects byte binding of e-collective-capability-runtime-examples-verified-growth-interchange-sources-json",
+      "sha256": "a2e7fa110855e700402203230cd978c67c181c59773a0fbf7b60150141934aab",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-collective-capability-runtime-examples-verified-growth-interchange-sources-json. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-collective-capability-runtime-examples-verified-growth-interchange-sources-json の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/README.md",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-10-17",
+      "locator": "README.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-memoryflow-readme-md",
+      "sha256": "bf9f4bd2e307ca96578598da43f6c6db7f25a88916b8b8f701fe037cd8f88d7a",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-memoryflow-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-memoryflow-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-docs-conformance-profiles-md-raw-20261017",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/docs/conformance-profiles.md",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-10-17",
+      "locator": "docs/conformance-profiles.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-memoryflow-docs-conformance-profiles-md",
+      "sha256": "6e1028143106ae3fc605c93ead3d19ffcb0cb936fbc8061de53bf864c2905bc8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-memoryflow-docs-conformance-profiles-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-memoryflow-docs-conformance-profiles-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-license-raw-20261017",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/LICENSE",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-10-17",
+      "locator": "LICENSE; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-memoryflow-license",
+      "sha256": "bb3c9a3396951102e832bebdb0c14ff3eb1abcc835d3620b9af52e04777041b8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-memoryflow-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-memoryflow-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/pyproject.toml",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-memoryflow-pyproject-toml",
+      "sha256": "d29ef43620c88a30fb493d1a8c5d37354a67fcf637ba336a20f299ad0412cecf",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-memoryflow-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-memoryflow-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-docs-event-schema-md-raw-20261017",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/docs/event-schema.md",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-10-17",
+      "locator": "docs/event-schema.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-memoryflow-docs-event-schema-md",
+      "sha256": "9bf94bc5b919f8767c82d21001901dc2f974cc2542b8af363f6dce5d37954335",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-memoryflow-docs-event-schema-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-memoryflow-docs-event-schema-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-memoryflow-tests-unit-test-verifier-profiles-py-raw-20261017",
+      "url": "https://github.com/kadubon/memoryflow-agent-memory-auditor/blob/c8ee3f4c81f5303535ba2d2e9882c409f05e641e/tests/unit/test_verifier_profiles.py",
+      "revision": "c8ee3f4c81f5303535ba2d2e9882c409f05e641e",
+      "observed_at": "2026-10-17",
+      "locator": "tests/unit/test_verifier_profiles.py; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-memoryflow-tests-unit-test-verifier-profiles-py",
+      "sha256": "651c6f18d89c559fb5ba7b787017d789bfeb9378f47e7ca5d6abfe8be81d26b7",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-memoryflow-tests-unit-test-verifier-profiles-py. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-memoryflow-tests-unit-test-verifier-profiles-py の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/README.md",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-10-17",
+      "locator": "README.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-pfg-readme-md",
+      "sha256": "63f4fb7fd801e24a01f40c8003703a0cd40efe313f01e8089d29e9812c8dabe8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-pfg-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-pfg-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-docs-operations-md-raw-20261017",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/docs/operations.md",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-10-17",
+      "locator": "docs/operations.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-pfg-docs-operations-md",
+      "sha256": "3977144c551983f0269827de0b9751593247d5f15b92cd3396743d2bd9708b47",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-pfg-docs-operations-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-pfg-docs-operations-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-license-raw-20261017",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/LICENSE",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-10-17",
+      "locator": "LICENSE; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-pfg-license",
+      "sha256": "2410c178aba5db04286a5b7419a3490f8a1fa2d5af03798aa9d0165ff3c349ea",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-pfg-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-pfg-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/pyproject.toml",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-pfg-pyproject-toml",
+      "sha256": "58f4a78a19ed003844efa880aa71b5b5967f01a1629104b04b37c50b42af2c8b",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-pfg-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-pfg-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-schemas-gate-request-schema-json-raw-20261017",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/schemas/gate-request.schema.json",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-10-17",
+      "locator": "schemas/gate-request.schema.json; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-pfg-schemas-gate-request-schema-json",
+      "sha256": "c3682c53a6b635133ec8384e03e40ed425dc5ae62e9d4e573abd435974c247a9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-pfg-schemas-gate-request-schema-json. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-pfg-schemas-gate-request-schema-json の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-pfg-tests-test-v1-1-hardening-py-raw-20261017",
+      "url": "https://github.com/kadubon/problem-frame-gate/blob/9449b338c4c8b959878704a48b2f16e291e2dfb8/tests/test_v1_1_hardening.py",
+      "revision": "9449b338c4c8b959878704a48b2f16e291e2dfb8",
+      "observed_at": "2026-10-17",
+      "locator": "tests/test_v1_1_hardening.py; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-pfg-tests-test-v1-1-hardening-py",
+      "sha256": "a67bd42e4c63b5633c43e3f994ce10efb77a33c5d5527d7a3ba43487b869a5ee",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-pfg-tests-test-v1-1-hardening-py. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-pfg-tests-test-v1-1-hardening-py の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-fost-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/README.md",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-10-17",
+      "locator": "README.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-fost-readme-md",
+      "sha256": "831dc6931ade2378b51f2a4ffa41996c6dc1b89e7f93a36827a0321623b00a12",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-fost-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-fost-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-fost-docs-json-contract-md-raw-20261017",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/docs/json_contract.md",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-10-17",
+      "locator": "docs/json_contract.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-fost-docs-json-contract-md",
+      "sha256": "9ad1af1a577ea994f73bb3e15f5d1014d08a9a412d7bea9b003cf7392daecc98",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-fost-docs-json-contract-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-fost-docs-json-contract-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-fost-license-raw-20261017",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/LICENSE",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-10-17",
+      "locator": "LICENSE; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-fost-license",
+      "sha256": "a54c2d4572e21f3d1c0af96385fb6d768c42b90c71c4d05c177afa6544d9e2f6",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-fost-license. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-fost-license の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-fost-pyproject-toml-raw-20261017",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/pyproject.toml",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-fost-pyproject-toml",
+      "sha256": "175b9f14327ebfaa73e904f630c3fc5821c945d657fde8dd885c90ff94070135",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-fost-pyproject-toml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-fost-pyproject-toml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-fost-docs-limitations-md-raw-20261017",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/docs/limitations.md",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-10-17",
+      "locator": "docs/limitations.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-fost-docs-limitations-md",
+      "sha256": "08d11bcd1e674ca728343ca0ff9fab00ace6728cd910c813f6662f508e21dcab",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-fost-docs-limitations-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-fost-docs-limitations-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-fost-tests-test-v20-strict-finality-py-raw-20261017",
+      "url": "https://github.com/kadubon/fost-agent-ledger/blob/e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa/tests/test_v20_strict_finality.py",
+      "revision": "e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa",
+      "observed_at": "2026-10-17",
+      "locator": "tests/test_v20_strict_finality.py; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-fost-tests-test-v20-strict-finality-py",
+      "sha256": "d1a3ce37aa58c1da321dc6d842f59c149b3e892ca0032e9b1940c93a107000c9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-fost-tests-test-v20-strict-finality-py. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-fost-tests-test-v20-strict-finality-py の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-readme-md-raw-20261017",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/README.md",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-10-17",
+      "locator": "README.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-oversight-readme-md",
+      "sha256": "daec0738cb338c4a7761d61dd7d1f1641041d470cfa56d8188531d750cf6aedc",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-oversight-readme-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-oversight-readme-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-experiment-manifest-yaml-raw-20261017",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/experiment_manifest.yaml",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-10-17",
+      "locator": "experiment_manifest.yaml; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-oversight-experiment-manifest-yaml",
+      "sha256": "3fa16f98fca06967b821cf8809ead83dfca384898ef893e82446786257a42904",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-oversight-experiment-manifest-yaml. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-oversight-experiment-manifest-yaml の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-licence-raw-20261017",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/LICENCE",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-10-17",
+      "locator": "LICENCE; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-oversight-licence",
+      "sha256": "f77c4b67532af4d93eabac09eb0741c3852aa91380193e705c36f26b267aa7f7",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-oversight-licence. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-oversight-licence の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-report-workflow-oversight-report-md-raw-20261017",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/report/workflow_oversight_report.md",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-10-17",
+      "locator": "report/workflow_oversight_report.md; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-oversight-report-workflow-oversight-report-md",
+      "sha256": "19abbfd683c8ac24fc9d4d12759087e4c7437a1776a9256d07ba088c86415e4a",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-oversight-report-workflow-oversight-report-md. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-oversight-report-workflow-oversight-report-md の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-routing-oversight-src-oversight-poc-channels-py-raw-20261017",
+      "url": "https://github.com/kadubon/Oversight-Centered-Metrology-PoC/blob/a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b/src/oversight_poc/channels.py",
+      "revision": "a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b",
+      "observed_at": "2026-10-17",
+      "locator": "src/oversight_poc/channels.py; raw HTTP payload, no newline conversion; corrects byte binding of e-routing-oversight-src-oversight-poc-channels-py",
+      "sha256": "0109da2e8954f53f7199309aeedaa22e042b5f2e7566e36c5c345439e9d887c7",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Raw-byte recheck of e-routing-oversight-src-oversight-poc-channels-py. The historical hash matches CRLF-normalized text; the original record is preserved. This record binds the raw payload, not a new behavior test.",
+        "ja": "e-routing-oversight-src-oversight-poc-channels-py の生バイト列を再確認。旧ハッシュはCRLFへ改行変換したテキストに一致する。元記録を保持し、本記録は配信バイト列を同定する。新規の動作試験ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-ccr-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/collective-capability-runtime/d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a/pyproject.toml",
+      "revision": "d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "4ac51324eebfc61ffb71a0cb8e5b3e19e3d7021e38b117dae3a2b652e1a64f77",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-ccr: default-branch package metadata declares collective-capability-runtime 1.9.0. No behavior review or installation.",
+        "ja": "sw-ccr: 既定ブランチのパッケージ情報は collective-capability-runtime 1.9.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-ccr-pypi-20261017",
+      "url": "https://pypi.org/pypi/collective-capability-runtime/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "80e93e41aabce6d386170c00d82c5656a393956dd92e587d800dae50c7b43306",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports collective-capability-runtime 1.9.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは collective-capability-runtime 1.9.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-pic-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/percolation-inversion-compiler/b971bc6374325b9486c038546733d9b53745787c/pyproject.toml",
+      "revision": "b971bc6374325b9486c038546733d9b53745787c",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "596e7905de3cb66715b5dd506f6230044514361036eeca30383add3d2e7105dc",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-pic: default-branch package metadata declares percolation-inversion-compiler 1.1.0. No behavior review or installation.",
+        "ja": "sw-pic: 既定ブランチのパッケージ情報は percolation-inversion-compiler 1.1.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-pic-pypi-20261017",
+      "url": "https://pypi.org/pypi/percolation-inversion-compiler/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "1d0960bb520f1553bf74156f38f44e7a9e8a2916be12f886bec2eae506d1faee",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports percolation-inversion-compiler 1.1.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは percolation-inversion-compiler 1.1.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-vek-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/verification-ecology-kit/c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3/pyproject.toml",
+      "revision": "c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "07415d2d8de3d15572fb2f60a2fb6d32726889a1f93231e34e3679cc8ae28c76",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-vek: default-branch package metadata declares verification-ecology-kit 1.3.0. No behavior review or installation.",
+        "ja": "sw-vek: 既定ブランチのパッケージ情報は verification-ecology-kit 1.3.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-vek-pypi-20261017",
+      "url": "https://pypi.org/pypi/verification-ecology-kit/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "db1093d3cb7f1d72d6fe8f4f929e622b3427f9170c17654e2f38e251f1562310",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports verification-ecology-kit 1.3.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは verification-ecology-kit 1.3.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-alt-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/alt-foundry-kernel/2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b/pyproject.toml",
+      "revision": "2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "ebc1628760520cca14a9cfc3db6bbf9941c67ccd3a072a8b30820ff7a60ffb1f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-alt: default-branch package metadata declares alt-foundry-kernel 0.5.0. No behavior review or installation.",
+        "ja": "sw-alt: 既定ブランチのパッケージ情報は alt-foundry-kernel 0.5.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-cait-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/cait-certificate-schema/6b3fcc410c3fb43756e89b9127c5ed0191b3949d/pyproject.toml",
+      "revision": "6b3fcc410c3fb43756e89b9127c5ed0191b3949d",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "ab204f3c7207a77449373b0266c11482afe16e12c2502586d2c1b8a2d4fbf793",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-cait: default-branch package metadata declares cait-certificate-schema 0.2.0. No behavior review or installation.",
+        "ja": "sw-cait: 既定ブランチのパッケージ情報は cait-certificate-schema 0.2.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-cait-pypi-20261017",
+      "url": "https://pypi.org/pypi/cait-certificate-schema/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "fa06d9bc37741bd88700e2e0b3851254049120ea47f7c14171e0d42f6784418f",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports cait-certificate-schema 0.2.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは cait-certificate-schema 0.2.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-cpcf-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/collective-phase-control-fabric/340b4899d5b0892e06d7d2c1ab1f1d48df15e981/pyproject.toml",
+      "revision": "340b4899d5b0892e06d7d2c1ab1f1d48df15e981",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "3a4f8d81aecddf8d835baae203b3ae4a4e15a63d5571148f18fb5125156c31d3",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-cpcf: default-branch package metadata declares collective-phase-control-fabric 1.0.1. No behavior review or installation.",
+        "ja": "sw-cpcf: 既定ブランチのパッケージ情報は collective-phase-control-fabric 1.0.1 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-cpcf-pypi-20261017",
+      "url": "https://pypi.org/pypi/collective-phase-control-fabric/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "5dbe5d6e848b90ec0359581288216cc235981aad7e53555901cbb132a16559fe",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports collective-phase-control-fabric 1.0.1. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは collective-phase-control-fabric 1.0.1 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-oawm-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/observable-agent-workflow-memory/dddaea42073fc9629122cdb798f547c5d6a116e9/pyproject.toml",
+      "revision": "dddaea42073fc9629122cdb798f547c5d6a116e9",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "e6e8b7c2132e60f40ea8d154c786c7a0b8367e0443bf4d144d04f5fe4645c3a1",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-oawm: default-branch package metadata declares observable-agent-workflow-memory 0.2.0b0. No behavior review or installation.",
+        "ja": "sw-oawm: 既定ブランチのパッケージ情報は observable-agent-workflow-memory 0.2.0b0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-oasg-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/oasg/f3bee90f2ed8b2dba9b9a96ce485375295760036/pyproject.toml",
+      "revision": "f3bee90f2ed8b2dba9b9a96ce485375295760036",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "595038a5251e409f0e0dd063882fc552611bdf28d538b0029d8686f4906eb5cc",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-oasg: default-branch package metadata declares oasg 1.2.0. No behavior review or installation.",
+        "ja": "sw-oasg: 既定ブランチのパッケージ情報は oasg 1.2.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-oasg-pypi-20261017",
+      "url": "https://pypi.org/pypi/oasg/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "7bb7ac0c93bbed9a952cf8a00805ee9eafd1f5ad335296c07965c1d4ec50dd5e",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports oasg 1.2.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは oasg 1.2.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-audit-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/audit-closed-ai-scientist/1e844d1bca18d7bb298aa198e1250bb07bd7ea44/pyproject.toml",
+      "revision": "1e844d1bca18d7bb298aa198e1250bb07bd7ea44",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "3e67ca530c6e197a76f111fe454ecfd640ebf0dbb6040f3b2fcde0d38a410e20",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-audit: default-branch package metadata declares audit-closed-ai-scientist 0.2.0. No behavior review or installation.",
+        "ja": "sw-audit: 既定ブランチのパッケージ情報は audit-closed-ai-scientist 0.2.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-audit-pypi-20261017",
+      "url": "https://pypi.org/pypi/audit-closed-ai-scientist/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "d2d53c960298a8d9df3892eeb3d893a8eb8eec6efedd43fb6d8ca66e6c8c7096",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports audit-closed-ai-scientist 0.2.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは audit-closed-ai-scientist 0.2.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-loscr-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/loscr/a4c45677e9d9ba1c97b7cfd108efca88275cc6a5/pyproject.toml",
+      "revision": "a4c45677e9d9ba1c97b7cfd108efca88275cc6a5",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "12614c406377823b4b82d8b8bdfe62511a0d127377acbd60d66c5415651203c3",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-loscr: default-branch package metadata declares loscr 0.1.0. No behavior review or installation.",
+        "ja": "sw-loscr: 既定ブランチのパッケージ情報は loscr 0.1.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-simulator-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/asi-proxy-phase-growth-simulator/24690a225c86fde2a24de4d9f93e2a282789b67d/pyproject.toml",
+      "revision": "24690a225c86fde2a24de4d9f93e2a282789b67d",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "f57a574994c7690a6bdf52210d823125108b7b3ff975ea633de0fee80b2ad6a8",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-simulator: default-branch package metadata declares asi-proxy-phase-growth-simulator 0.1.0. No behavior review or installation.",
+        "ja": "sw-simulator: 既定ブランチのパッケージ情報は asi-proxy-phase-growth-simulator 0.1.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-simulator-pypi-20261017",
+      "url": "https://pypi.org/pypi/asi-proxy-phase-growth-simulator/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "660b817651a0be9e82c991987fb7798742cfa19c3c51c8296f18a478caa24666",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports asi-proxy-phase-growth-simulator 0.1.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは asi-proxy-phase-growth-simulator 0.1.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-skill-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/asi-proxy-phase-skill/5706214a9a3d5e194f371f8ccc2eb71132f82270/pyproject.toml",
+      "revision": "5706214a9a3d5e194f371f8ccc2eb71132f82270",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "a66532e76c0de4db66639aca9001b079deee77fbb6bc9d19b54869930f4a38e1",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-skill: default-branch package metadata declares asi-proxy-phase-skill-development 1.1.1. No behavior review or installation.",
+        "ja": "sw-skill: 既定ブランチのパッケージ情報は asi-proxy-phase-skill-development 1.1.1 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-cmgl-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/certified-memory-governance-layer/8fcf99d512c4262c4cea0787e72993ff6eb3b059/pyproject.toml",
+      "revision": "8fcf99d512c4262c4cea0787e72993ff6eb3b059",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "7142860f1cd674780cd206234824efd9420de4a570782ee8d0b7ce96967bd64f",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-cmgl: default-branch package metadata declares cmgl 1.1.2. No behavior review or installation.",
+        "ja": "sw-cmgl: 既定ブランチのパッケージ情報は cmgl 1.1.2 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-cmgl-pypi-20261017",
+      "url": "https://pypi.org/pypi/cmgl/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "ad054df5b243b3d633649ea0676a6d0f32d38f426fb3f6407327e91c5d7dea91",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports cmgl 1.1.2. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは cmgl 1.1.2 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-memoryflow-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/memoryflow-agent-memory-auditor/018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6/pyproject.toml",
+      "revision": "018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "d29ef43620c88a30fb493d1a8c5d37354a67fcf637ba336a20f299ad0412cecf",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-memoryflow: default-branch package metadata declares memoryflow-agent-memory-auditor 0.1.0. No behavior review or installation.",
+        "ja": "sw-memoryflow: 既定ブランチのパッケージ情報は memoryflow-agent-memory-auditor 0.1.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-pfg-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/problem-frame-gate/ed51d588afab6312287a31baa1d911c0fa3a943d/pyproject.toml",
+      "revision": "ed51d588afab6312287a31baa1d911c0fa3a943d",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "58f4a78a19ed003844efa880aa71b5b5967f01a1629104b04b37c50b42af2c8b",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-pfg: default-branch package metadata declares problem-frame-gate 1.1.0. No behavior review or installation.",
+        "ja": "sw-pfg: 既定ブランチのパッケージ情報は problem-frame-gate 1.1.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-pfg-pypi-20261017",
+      "url": "https://pypi.org/pypi/problem-frame-gate/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "600dc1819957f75986c1f67d21250d2b0bd7c78285f765c867fd59011d3c215e",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports problem-frame-gate 1.1.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは problem-frame-gate 1.1.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-fost-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/fost-agent-ledger/5fbdc2a9851b27c5529ed332dfcb9cbf07e027de/pyproject.toml",
+      "revision": "5fbdc2a9851b27c5529ed332dfcb9cbf07e027de",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "175b9f14327ebfaa73e904f630c3fc5821c945d657fde8dd885c90ff94070135",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-fost: default-branch package metadata declares fost-agent-ledger 2.0.0. No behavior review or installation.",
+        "ja": "sw-fost: 既定ブランチのパッケージ情報は fost-agent-ledger 2.0.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-fost-pypi-20261017",
+      "url": "https://pypi.org/pypi/fost-agent-ledger/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "8f6211fd2118b229bf1eeb047efc50222d2694cebaba50d44428b48cfeb87650",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports fost-agent-ledger 2.0.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは fost-agent-ledger 2.0.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-atrb-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/agent-trust-residual-benchmark/a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2/pyproject.toml",
+      "revision": "a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "fa3fa3c805365b563bcdb391a9b53506d1fde2b7a1cfb98cfca24591b74122d2",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-atrb: default-branch package metadata declares agent-trust-residual-benchmark 0.2.0. No behavior review or installation.",
+        "ja": "sw-atrb: 既定ブランチのパッケージ情報は agent-trust-residual-benchmark 0.2.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-checkedflow-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/checkedflow/850f2d7b7799dbe000ea85a6e8f32b289b971bfd/pyproject.toml",
+      "revision": "850f2d7b7799dbe000ea85a6e8f32b289b971bfd",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "19b1623b1818eb16f7dcf85a07a0bfb1818df73d64f81a5dc215e15b70840e72",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-checkedflow: default-branch package metadata declares checkedflow 0.2.0. No behavior review or installation.",
+        "ja": "sw-checkedflow: 既定ブランチのパッケージ情報は checkedflow 0.2.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-checkedflow-pypi-20261017",
+      "url": "https://pypi.org/pypi/checkedflow/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "dcdb8e9c71ba9a692bad2f38b079424148cadbfd10e8f7c1383e04073f096bcb",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports checkedflow 0.2.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは checkedflow 0.2.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-cio-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/collective-intelligence-overlay/46276b4080dadd70ffa2608533139e8df6dcf75d/pyproject.toml",
+      "revision": "46276b4080dadd70ffa2608533139e8df6dcf75d",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "d90078f3bf85dd8bf1665b821c7c10b1a11299b8491e843180ea00c09ac77655",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-cio: default-branch package metadata declares collective-intelligence-overlay 0.5.1. No behavior review or installation.",
+        "ja": "sw-cio: 既定ブランチのパッケージ情報は collective-intelligence-overlay 0.5.1 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-cio-pypi-20261017",
+      "url": "https://pypi.org/pypi/collective-intelligence-overlay/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "51c2479d82543091339883b03bda65e700f924294bdd76c35ec63a4878a6bfbf",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports collective-intelligence-overlay 0.5.1. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは collective-intelligence-overlay 0.5.1 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
+    },
+    {
+      "id": "e-final-sw-egr-package-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/evidence-gap-router/0e5def78422de55db6c80723f28b753ef91e017b/pyproject.toml",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-17",
+      "locator": "pyproject.toml; project name, declared version and distribution links; metadata only",
+      "sha256": "50ff2200c9281368ff18d0091628a6901c2a0fe6f66e4a7a2ca6a8a366a7c7b9",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "sw-egr: default-branch package metadata declares evidence-gap-router 0.3.0. No behavior review or installation.",
+        "ja": "sw-egr: 既定ブランチのパッケージ情報は evidence-gap-router 0.3.0 を宣言。動作レビュー・インストールは未実施。"
+      }
+    },
+    {
+      "id": "e-final-sw-egr-version-20261017",
+      "url": "https://raw.githubusercontent.com/kadubon/evidence-gap-router/0e5def78422de55db6c80723f28b753ef91e017b/src/evidence_gap_router/_version.py",
+      "revision": "0e5def78422de55db6c80723f28b753ef91e017b",
+      "observed_at": "2026-10-17",
+      "locator": "__version__",
+      "sha256": "56b5e91c3bb77ab933c25fd65eba883419bdc5691cc94cb9dc840e8f4e3674eb",
+      "origin": "source_inspected",
+      "claim": {
+        "en": "Dynamic package version source declares 0.3.0; metadata inspection only.",
+        "ja": "動的なパッケージ版のソースは0.3.0を宣言。メタデータ確認のみ。"
+      }
+    },
+    {
+      "id": "e-final-sw-egr-pypi-20261017",
+      "url": "https://pypi.org/pypi/evidence-gap-router/json",
+      "revision": "mutable registry response retrieved 2026-10-17; response bound by SHA-256",
+      "observed_at": "2026-10-17",
+      "locator": "info.name, info.version, project_urls, urls[].digests.sha256; advertised hashes only",
+      "sha256": "ef558b7fd126c5228a3055fcef5e8d74b10b1ab0575c67337aef4f0b86c4268c",
+      "origin": "upstream_reported",
+      "claim": {
+        "en": "PyPI reports evidence-gap-router 0.3.0. Distribution bytes were not downloaded, hash-verified or installed; metadata is not efficacy evidence.",
+        "ja": "PyPIは evidence-gap-router 0.3.0 を報告。配布物自体の取得・ハッシュ検証・インストールは未実施。メタデータは有効性の証拠ではない。"
+      }
     }
   ],
   "corpus_audit": [
@@ -11339,6 +12509,81 @@
       "source": "10.5281/zenodo.20199440",
       "status": "concept_record_date_discrepancy",
       "reason": "CGT concept/series DOI has multiple HasVersion records. Existing catalogue first-publication date is 2026-05-15; current DataCite Issued date is 2026-05-28. The exact version binding of the inspected TeX is unresolved. Bibliography includes only verified title/author/year/DOI; it does not claim the DOI identifies these exact source bytes."
+    },
+    {
+      "source": "55 historical source evidence hashes (2026-10-17 audit)",
+      "status": "raw_byte_binding_corrected",
+      "reason": "Historical hashes match CRLF-normalized text rather than raw HTTP payloads. Original records remain; corresponding evidence IDs ending -raw-20261017 bind the raw bytes. / 旧ハッシュ55件はCRLF変換後のテキストに一致。元記録は保持し、末尾 -raw-20261017 の根拠記録で配信バイト列を同定する。"
+    },
+    {
+      "source": "sw-ccr",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-pic",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-vek",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-alt",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-cait",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-oawm",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-oasg",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-loscr",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-cmgl",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-memoryflow",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-pfg",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-fost",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-atrb",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
+    },
+    {
+      "source": "sw-checkedflow",
+      "status": "observed_revision_differs",
+      "reason": "Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。"
     }
   ],
   "scanned_counts": {
@@ -11380,5 +12625,5 @@
       "rsi-evidence"
     ]
   },
-  "content_digest": "3dd71a265ec148a0ae059ed27f1d85f703a68739e35eb656b98aab9ab42dcc6c"
+  "content_digest": "0e1684e67d87df9e15482612977087e7376e57f83517738fc0da271d9d96c061"
 }

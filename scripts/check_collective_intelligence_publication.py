@@ -20,6 +20,24 @@ import generate_collective_intelligence_index as gen
 from validate_collective_intelligence_index import Document
 
 
+def appropriate_content_type(name, content_type):
+    """Accept normal static-host text types, but not HTML substituted for data."""
+    mime = (content_type or '').split(';', 1)[0].strip().lower()
+    suffix = Path(name).suffix.lower()
+    if suffix == '.html':
+        return mime in {'text/html', 'application/xhtml+xml'}
+    if suffix == '.json':
+        return mime == 'application/json' or (mime.startswith('application/') and mime.endswith('+json'))
+    if suffix == '.md':
+        return mime in {'text/plain', 'text/markdown', 'text/x-markdown'}
+    if suffix == '.bib':
+        # GitHub Pages serves .bib as a download; exact bytes and UTF-8 are checked separately.
+        return mime in {'text/plain', 'text/x-bibtex', 'application/x-bibtex', 'application/x-bib', 'text/bibliography', 'application/octet-stream'}
+    if suffix == '.xml':
+        return mime in {'application/xml', 'text/xml'}
+    return bool(mime) and mime not in {'text/html', 'application/xhtml+xml'}
+
+
 def fetch(url, head=False):
     try:
         request = Request(url, method='HEAD' if head else 'GET', headers={'User-Agent': 'CollectiveIndexPublicationCheck/1.0'})
@@ -29,6 +47,8 @@ def fetch(url, head=False):
                     'content_type': response.headers.get('Content-Type'),
                     'classification': 'accessible', 'sha256': hashlib.sha256(data).hexdigest()}, data
     except HTTPError as error:
+        if head and error.code in (405, 501):
+            return fetch(url, head=False)
         classification = 'missing' if error.code in (404, 410) else 'unavailable_or_uncertain'
         return {'url': url, 'status': error.code, 'classification': classification}, b''
     except (URLError, TimeoutError, OSError) as error:
@@ -44,7 +64,8 @@ def main():
     args = p.parse_args()
     base = args.base_url.rstrip('/') + '/'
     files = list(gen.FORMATS) + ['index.html', 'agent-index.json', 'sitemap.xml', 'oss.html',
-                                'docs/collective-intelligence-index-maintenance.md']
+                                'docs/collective-intelligence-index-maintenance.md',
+                                'docs/collective-intelligence-index-final-audit.md']
     # Include every linked site-local destination under a correctly mounted prefix.
     for lang in ('en', 'ja'):
         raw = (gen.ROOT / (gen.STEM + ('.ja' if lang == 'ja' else '') + '.html')).read_text(encoding='utf-8')
@@ -58,6 +79,7 @@ def main():
         expected = (subprocess.check_output(['git', 'show', 'HEAD:' + name], cwd=gen.ROOT)
                     if base == gen.BASE else (gen.ROOT / name).read_bytes())
         result['bytes_match_checkout'] = data == expected
+        result['content_type_appropriate'] = appropriate_content_type(name, result.get('content_type'))
         result['comparison_source'] = 'committed Git blob (canonical LF)' if base == gen.BASE else 'working-tree file'
         result['utf8_decodable'] = True
         try:
@@ -83,7 +105,8 @@ def main():
         with ThreadPoolExecutor(max_workers=3) as pool:
             report['external'] = list(pool.map(lambda u: fetch(u, head=True)[0], sorted(urls)))
     Path(args.report).write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    failed = [r['file'] for r in local if r['status'] != 200 or not r['bytes_match_checkout'] or not r['utf8_decodable']]
+    failed = [r['file'] for r in local if r['status'] != 200 or not r['bytes_match_checkout']
+              or not r['utf8_decodable'] or not r['content_type_appropriate']]
     print(f'Checked {len(local)} served local destinations; failures: {failed}')
     if args.external:
         from collections import Counter

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "modified_at": "2026-10-12",
+  "modified_at": "2026-10-17",
   "resources": [
     {
       "id": "paper-growth",
@@ -768,8 +768,8 @@
         "ja": "根拠目録と明示的な昇格受領証を通じ、検証済み手続きを記憶に昇格する。"
       },
       "limitations": {
-        "en": "Procedural admissibility is not factual truth; no GitHub release was found. Source declares 0.1.0 beta.",
-        "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。ソースの宣言は0.1.0 beta。"
+        "en": "Procedural admissibility is not factual truth; no GitHub release was found. The reviewed source declares 0.1.0 beta; separately dated package observations may differ.",
+        "ja": "手続きの許容性は事実の真実性ではない。GitHubリリースは未確認。レビュー対象ソースの宣言は0.1.0 beta。別日時のパッケージ観測とは区別する。"
       },
       "evidence_refs": [
         "e-observable-agent-workflow-memory-readme-md",
@@ -2781,7 +2781,7 @@
       },
       "expected_outputs": {
         "en": "Claim-to-support obligations with explicit unavailable evidence and bounded finality.",
-        "ja": "不在の根拠と有限の最終性を明示した、主張と支持根拠の義務。"
+        "ja": "取得・確認できない根拠と有限の最終性を明示した、主張と支持根拠の義務。"
       },
       "prerequisite_or_unsupported_conditions": {
         "en": "No automatic factual truth or entailment oracle. A signature/hash binds a record, not its truth; generated is not verified and verified is not reusable.",
@@ -4053,8 +4053,8 @@
         "ja": "ソースと保守"
       },
       "text": {
-        "en": "Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.",
-        "ja": "書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。"
+        "en": "Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate. For paper claims, cite the original DOI, checked version and passage. For software behavior, cite the repository, reviewed commit, package/release version and test scope. To cite this editorial index, record its URL, editorial date, resource ID and registry content_digest or an actual Git commit. The live website can change; a commit permalink is a fixed snapshot. Historical review does not guarantee future compatibility, efficacy or safety. Metadata refresh does not renew scientific review. See the maintenance document for restoration and the 2026-10-17 audit.",
+        "ja": "書誌項目は既存カタログを通じてworks.htmlから取得し、採用DOIをDataCiteと照合した。論文の範囲は公開TeXアーカイブで確認した。ソフトウェアのコミットとGitHubリリースは別に記録する。日本語説明は編集訳で正式題名は変更しない。全走査目録と根拠位置はレジストリに含む。訂正はサイトリポジトリで行う。サイト本文はCC BY 4.0、確認済みソフトウェアはApache-2.0、同梱論文のライセンスは別。 論文の主張は原著DOI・確認版・該当箇所を引用する。OSSの挙動はリポジトリ・レビュー対象コミット・パッケージ／リリース版・試験範囲を示す。本索引の編集内容はURL・編集日・資源IDとレジストリのcontent_digestまたは実際のGitコミットを記録して引用する。公開サイトは更新され、コミットの固定リンクは特定時点のスナップショットを指す。過去のレビューは将来の互換性・有効性・安全性を保証しない。メタデータ更新は科学的再レビューではない。復元方法と2026-10-17監査は保守文書を参照。"
       }
     }
   ],

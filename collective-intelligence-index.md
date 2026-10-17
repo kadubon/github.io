@@ -1,6 +1,6 @@
 # Collective Intelligence Research and OSS Index
 
-K. Takahashi · 2026-10-12
+K. Takahashi · 2026-10-17
 
 https://kadubon.github.io/github.io/collective-intelligence-index.html
 
@@ -797,11 +797,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 3b4702454f732c7a0a9f30d87483384dc8a281eb / 1.8.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.9.0 at d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a; PyPI collective-capability-runtime 1.9.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-ccr-package-20261017, e-final-sw-ccr-pypi-20261017
 
 License: Apache-2.0
 
@@ -852,11 +856,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 55cd5f219d02f02927e247317156e757b1d5d6da / 1.1.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: b971bc6374325b9486c038546733d9b53745787c — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at b971bc6374325b9486c038546733d9b53745787c; PyPI percolation-inversion-compiler 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pic-package-20261017, e-final-sw-pic-pypi-20261017
 
 License: Apache-2.0
 
@@ -904,11 +912,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 4008e311ceb16edd6e74d9f71341a90120c0d046 / 1.3.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.3.0 at c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3; PyPI verification-ecology-kit 1.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-vek-package-20261017, e-final-sw-vek-pypi-20261017
 
 License: Apache-2.0
 
@@ -952,11 +964,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: e0296486bb568fdeeda449dada3bc67753ddfe7f / 0.5.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.5.0 at 2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b; PyPI lookup for alt-foundry-kernel: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-alt-package-20261017
 
 License: Apache-2.0
 
@@ -1002,11 +1018,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 0ecb3afd2ea1d99cedcabd7a9e01e405ae1808a7 / 0.2.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 6b3fcc410c3fb43756e89b9127c5ed0191b3949d — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 6b3fcc410c3fb43756e89b9127c5ed0191b3949d; PyPI cait-certificate-schema 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cait-package-20261017, e-final-sw-cait-pypi-20261017
 
 License: Apache-2.0
 
@@ -1049,11 +1069,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 340b4899d5b0892e06d7d2c1ab1f1d48df15e981 / 1.0.1
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 340b4899d5b0892e06d7d2c1ab1f1d48df15e981 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.0.1 at 340b4899d5b0892e06d7d2c1ab1f1d48df15e981; PyPI collective-phase-control-fabric 1.0.1 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cpcf-package-20261017, e-final-sw-cpcf-pypi-20261017
 
 License: Apache-2.0
 
@@ -1107,7 +1131,7 @@ DOI: 10.5281/zenodo.22604358
 
 Publication / 著者・発表: K. Takahashi · 2026-09-07 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.22604358)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-09-07-observing-and-accelerating-collective-capability-growth-22604358/)
@@ -1127,7 +1151,7 @@ DOI: 10.5281/zenodo.21147093
 
 Publication / 著者・発表: K. Takahashi · 2026-07-03 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.21147093)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-07-03-verifier-ecology-theory-packetized-self-verification-under-residual-accountability-21147093/)
@@ -1147,7 +1171,7 @@ DOI: 10.5281/zenodo.20535654
 
 Publication / 著者・発表: K. Takahashi · 2026-06-04 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.20535654)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-06-04-executable-capability-percolation-theory-20535654/)
@@ -1167,7 +1191,7 @@ DOI: 10.5281/zenodo.20476200
 
 Publication / 著者・発表: K. Takahashi · 2026-05-31 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.20476200)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-05-31-abstraction-liquidity-theory-20476200/)
@@ -1187,7 +1211,7 @@ DOI: 10.5281/zenodo.20061296
 
 Publication / 著者・発表: K. Takahashi · 2026-05-07 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.20061296)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-05-07-certified-autocatalytic-intelligence-theory-net-growth-20061296/)
@@ -1207,7 +1231,7 @@ DOI: 10.5281/zenodo.19836225
 
 Publication / 著者・発表: K. Takahashi · 2026-04-28 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.19836225)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-04-28-layered-online-service-and-replay-control-for-veri-19836225/)
@@ -1227,7 +1251,7 @@ DOI: 10.5281/zenodo.17853555
 
 Publication / 著者・発表: K. Takahashi · 2025-12-08 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.17853555)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2025-12-08-collective-phase-transitions-beyond-individual-s-17853555/)
@@ -1247,7 +1271,7 @@ DOI: 10.5281/zenodo.18728589
 
 Publication / 著者・発表: K. Takahashi · 2026-02-22 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.18728589)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-02-22-audit-closed-ai-scientist-protocol-18728589/)
@@ -1267,7 +1291,7 @@ DOI: 10.5281/zenodo.23240329
 
 Publication / 著者・発表: K. Takahashi · 2026-10-08 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.23240329)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-10-08-collective-intelligence-phase-engineering-23240329/)
@@ -1291,7 +1315,7 @@ DOI: 10.5281/zenodo.22170023
 
 Publication / 著者・発表: K. Takahashi · 2026-08-30 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.22170023)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-08-30-reusable-consequence-states-under-partial-support-and-model-uncertainty-22170023/)
@@ -1311,7 +1335,7 @@ DOI: 10.5281/zenodo.21531413
 
 Publication / 著者・発表: K. Takahashi · 2026-07-24 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.21531413)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-07-24-evidence-carrying-operational-claims-in-open-systems-physical-ledgers-typed-interfaces-and-one-sided-deployment-guarantees-21531413/)
@@ -1331,7 +1355,7 @@ DOI: 10.5281/zenodo.20545356
 
 Publication / 著者・発表: K. Takahashi · 2026-06-04 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.20545356)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-06-04-bottleneck-inversion-theory-machine-readable-witness-calculus-20545356/)
@@ -1351,7 +1375,7 @@ DOI: 10.5281/zenodo.20526451
 
 Publication / 著者・発表: K. Takahashi · 2026-06-03 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.20526451)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-06-03-salience-queue-occupation-theory-20526451/)
@@ -1371,7 +1395,7 @@ DOI: 10.5281/zenodo.20199440
 
 Publication / 著者・発表: K. Takahashi · 2026-05-15 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.20199440)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-05-15-constraint-generative-theory-typed-constraint-effects-and-scien-20199440/)
@@ -1391,7 +1415,7 @@ DOI: 10.5281/zenodo.19994795
 
 Publication / 著者・発表: K. Takahashi · 2026-05-03 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.19994795)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-05-03-certified-conversion-networks-for-ai-workflows-19994795/)
@@ -1411,7 +1435,7 @@ DOI: 10.5281/zenodo.19719004
 
 Publication / 著者・発表: K. Takahashi · 2026-04-24 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.19719004)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-04-24-certified-service-is-not-enough-for-long-running-agi-19719004/)
@@ -1431,7 +1455,7 @@ DOI: 10.5281/zenodo.19690749
 
 Publication / 著者・発表: K. Takahashi · 2026-04-22 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.19690749)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-04-22-controller-scale-is-not-enough-for-long-running-agi-19690749/)
@@ -1451,7 +1475,7 @@ DOI: 10.5281/zenodo.18932509
 
 Publication / 著者・発表: K. Takahashi · 2026-03-10 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.18932509)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-03-10-when-should-inference-be-split-a-fixed-budget-th-18932509/)
@@ -1471,7 +1495,7 @@ DOI: 10.5281/zenodo.18490939
 
 Publication / 著者・発表: K. Takahashi · 2026-02-05 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.18490939)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-02-05-stop-recomputing-for-ai-llms-proof-carrying-skil-18490939/)
@@ -1491,7 +1515,7 @@ DOI: 10.5281/zenodo.18436828
 
 Publication / 著者・発表: K. Takahashi · 2026-01-31 · Preprint
 
-Source scope / 根拠範囲: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
+Source scope: Public TeX scope inspection and DataCite bibliographic identity; no independent theorem proof.
 
 - [DOI](https://doi.org/10.5281/zenodo.18436828)
 - [Scholarly landing page](https://kadubon.github.io/github.io/papers/2026-01-31-verification-limited-intelligence-acceleration-o-18436828/)
@@ -1503,17 +1527,21 @@ Promote verified procedures through evidence manifests and explicit promotion re
 
 Primary editorial role: workflow-memory
 
-Limits / unsupported uses: Procedural admissibility is not factual truth; no GitHub release was found. Source declares 0.1.0 beta.
+Limits / unsupported uses: Procedural admissibility is not factual truth; no GitHub release was found. The reviewed source declares 0.1.0 beta; separately dated package observations may differ.
 
 Source reviewed: 2026-09-21
 
 Source revision / declared version: 414299d4d15b5de434f5fb1ccbb4ba17df9155ff / 0.1.0b0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: dddaea42073fc9629122cdb798f547c5d6a116e9 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0b0 at dddaea42073fc9629122cdb798f547c5d6a116e9; PyPI lookup for observable-agent-workflow-memory: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-oawm-package-20261017
 
 License: Apache-2.0
 
@@ -1549,11 +1577,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 7593f74b5d6a4701865dc97b079c3e725c4fd7ee / 1.1.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: f3bee90f2ed8b2dba9b9a96ce485375295760036 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.2.0 at f3bee90f2ed8b2dba9b9a96ce485375295760036; PyPI oasg 1.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-oasg-package-20261017, e-final-sw-oasg-pypi-20261017
 
 License: Apache-2.0
 
@@ -1600,11 +1632,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 1e844d1bca18d7bb298aa198e1250bb07bd7ea44 / 0.2.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 1e844d1bca18d7bb298aa198e1250bb07bd7ea44 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 1e844d1bca18d7bb298aa198e1250bb07bd7ea44; PyPI audit-closed-ai-scientist 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-audit-package-20261017, e-final-sw-audit-pypi-20261017
 
 License: Apache-2.0
 
@@ -1641,11 +1677,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 334307b59a4870b90f6162705c793bb5615a555a / 0.1.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: a4c45677e9d9ba1c97b7cfd108efca88275cc6a5 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at a4c45677e9d9ba1c97b7cfd108efca88275cc6a5; PyPI lookup for loscr: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-loscr-package-20261017
 
 License: Apache-2.0
 
@@ -1682,11 +1722,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 24690a225c86fde2a24de4d9f93e2a282789b67d / 0.1.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 24690a225c86fde2a24de4d9f93e2a282789b67d — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 24690a225c86fde2a24de4d9f93e2a282789b67d; PyPI asi-proxy-phase-growth-simulator 0.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-simulator-package-20261017, e-final-sw-simulator-pypi-20261017
 
 License: Apache-2.0
 
@@ -1725,11 +1769,15 @@ Source reviewed: 2026-09-21
 
 Source revision / declared version: 5706214a9a3d5e194f371f8ccc2eb71132f82270 / 1.1.1
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 5706214a9a3d5e194f371f8ccc2eb71132f82270 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.1 at 5706214a9a3d5e194f371f8ccc2eb71132f82270; PyPI lookup for asi-proxy-phase-skill-development: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-skill-package-20261017
 
 License: Apache-2.0
 
@@ -1766,11 +1814,15 @@ Source reviewed: 2026-09-24
 
 Source revision / declared version: 2fc49b4df7bbe4a23265b8b2372432711740d00b / 1.1.2
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 8fcf99d512c4262c4cea0787e72993ff6eb3b059 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.2 at 8fcf99d512c4262c4cea0787e72993ff6eb3b059; PyPI cmgl 1.1.2 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cmgl-package-20261017, e-final-sw-cmgl-pypi-20261017
 
 License: Apache-2.0
 
@@ -1807,11 +1859,15 @@ Source reviewed: 2026-09-24
 
 Source revision / declared version: c8ee3f4c81f5303535ba2d2e9882c409f05e641e / 0.1.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6; PyPI lookup for memoryflow-agent-memory-auditor: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-memoryflow-package-20261017
 
 License: Apache-2.0
 
@@ -1848,11 +1904,15 @@ Source reviewed: 2026-09-24
 
 Source revision / declared version: 9449b338c4c8b959878704a48b2f16e291e2dfb8 / 1.1.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: ed51d588afab6312287a31baa1d911c0fa3a943d — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at ed51d588afab6312287a31baa1d911c0fa3a943d; PyPI problem-frame-gate 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pfg-package-20261017, e-final-sw-pfg-pypi-20261017
 
 License: Apache-2.0
 
@@ -1889,11 +1949,15 @@ Source reviewed: 2026-09-24
 
 Source revision / declared version: e3a937a4a3f28c4077b5f658d6bfb1fc67ddd8fa / 2.0.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 5fbdc2a9851b27c5529ed332dfcb9cbf07e027de — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 2.0.0 at 5fbdc2a9851b27c5529ed332dfcb9cbf07e027de; PyPI fost-agent-ledger 2.0.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-fost-package-20261017, e-final-sw-fost-pypi-20261017
 
 License: Apache-2.0
 
@@ -1930,11 +1994,15 @@ Source reviewed: 2026-09-24
 
 Source revision / declared version: eb21fda8ed7bfad9dc33becf2ffcc63285249495 / 0.2.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2 — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2; PyPI lookup for agent-trust-residual-benchmark: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-atrb-package-20261017
 
 License: Apache-2.0
 
@@ -1973,11 +2041,15 @@ Source reviewed: 2026-09-24
 
 Source revision / declared version: a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b / unknown
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 unknown at a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b; Package version/distribution unknown; pyproject.toml unavailable (404) / パッケージ版・配布先は不明、pyproject.toml未取得（404）. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: none retrieved / 取得記録なし
 
 License: Apache-2.0
 
@@ -2012,11 +2084,15 @@ Source reviewed: 2026-09-26
 
 Source revision / declared version: a58869e2488bed9550b006d261601240357b2b99 / 0.1.0
 
-Review state / レビュー状態: newer_source_not_editorially_reviewed
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 850f2d7b7799dbe000ea85a6e8f32b289b971bfd — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 850f2d7b7799dbe000ea85a6e8f32b289b971bfd; PyPI checkedflow 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-checkedflow-package-20261017, e-final-sw-checkedflow-pypi-20261017
 
 License: Apache-2.0
 
@@ -2067,11 +2143,15 @@ Source reviewed: 2026-10-06
 
 Source revision / declared version: 46276b4080dadd70ffa2608533139e8df6dcf75d / 0.5.1
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 46276b4080dadd70ffa2608533139e8df6dcf75d — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.5.1 · 2026-10-04T19:24:57Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.5.1 at 46276b4080dadd70ffa2608533139e8df6dcf75d; PyPI collective-intelligence-overlay 0.5.1 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cio-package-20261017, e-final-sw-cio-pypi-20261017
 
 License: Apache-2.0
 
@@ -2125,11 +2205,15 @@ Source reviewed: 2026-10-06
 
 Source revision / declared version: 0e5def78422de55db6c80723f28b753ef91e017b / 0.3.0
 
-Review state / レビュー状態: reviewed_snapshot
+Review state / レビュー状態: reviewed_snapshot — applies to the pinned reviewed source only
+
+Observed default-branch revision: 0e5def78422de55db6c80723f28b753ef91e017b — equality does not renew review; difference does not establish chronology
 
 Observed GitHub release: v0.3.0 · 2026-10-06T05:12:56Z
 
-Release observation / リリース確認: 2026-10-12T10:51:32+00:00 · current
+Release observation / リリース確認: 2026-10-17T10:01:35+00:00 · current
+
+Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.3.0 at 0e5def78422de55db6c80723f28b753ef91e017b; PyPI evidence-gap-router 0.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-egr-package-20261017, e-final-sw-egr-version-20261017, e-final-sw-egr-pypi-20261017
 
 License: Apache-2.0
 
@@ -2501,9 +2585,9 @@ Verification consumes resources even when a result is negative. A deployment con
 
 ## Sources and maintenance
 
-Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate.
+Publication fields come from works.html through the existing research catalogue; included DOI identities were checked with DataCite. Paper scope was inspected in the public TeX archive. Software observations bind source commits separately from GitHub releases. Japanese explanations are editorial translations; official titles remain unchanged. The registry contains the complete screened inventory and evidence locators. Corrections belong in the website repository. Website prose remains CC BY 4.0; inspected software is Apache-2.0, and bundled paper licenses remain separate. For paper claims, cite the original DOI, checked version and passage. For software behavior, cite the repository, reviewed commit, package/release version and test scope. To cite this editorial index, record its URL, editorial date, resource ID and registry content_digest or an actual Git commit. The live website can change; a commit permalink is a fixed snapshot. Historical review does not guarantee future compatibility, efficacy or safety. Metadata refresh does not renew scientific review. See the maintenance document for restoration and the 2026-10-17 audit.
 
-Scanned 234 research records and 57 repositories; selected 41 resources.
+Scanned: 234 research records; 57 repositories. Selected: 41 resources. Full-text scope review applies only to selected papers; remaining candidate matches are explicitly unresolved in the registry.
 
 Boundary Exchange / viability: unresolved — No exact Boundary Exchange title/DOI in the scanned catalogue. Do not invent a paper identity.
 
@@ -2512,5 +2596,35 @@ CGT bandwidth / availability / comparability supplements: unresolved — Distinc
 OASG 10.5281/zenodo.20107661: resolved_software_kind — DataCite classifies this as Software, matching works.html. Included through the repository, excluded from paper bibliography.
 
 10.5281/zenodo.20199440: concept_record_date_discrepancy — CGT concept/series DOI has multiple HasVersion records. Existing catalogue first-publication date is 2026-05-15; current DataCite Issued date is 2026-05-28. The exact version binding of the inspected TeX is unresolved. Bibliography includes only verified title/author/year/DOI; it does not claim the DOI identifies these exact source bytes.
+
+55 historical source evidence hashes (2026-10-17 audit): raw_byte_binding_corrected — Historical hashes match CRLF-normalized text rather than raw HTTP payloads. Original records remain; corresponding evidence IDs ending -raw-20261017 bind the raw bytes. / 旧ハッシュ55件はCRLF変換後のテキストに一致。元記録は保持し、末尾 -raw-20261017 の根拠記録で配信バイト列を同定する。
+
+sw-ccr: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-pic: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-vek: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-alt: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-cait: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-oawm: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-oasg: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-loscr: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-cmgl: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-memoryflow: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-pfg: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-fost: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-atrb: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
+
+sw-checkedflow: observed_revision_differs — Observed default-branch revision differs from the reviewed snapshot. Ancestry/order and behavior at that revision were not checked. / 観測した既定ブランチのコミットはレビュー対象と異なる。祖先関係・新旧順序・その版の挙動は未確認。
 
 [Maintenance](https://kadubon.github.io/github.io/docs/collective-intelligence-index-maintenance.md)

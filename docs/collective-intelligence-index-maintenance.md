@@ -382,3 +382,54 @@ alias collisions, static boundary text, core placement and preserved old routes.
 Scientific efficacy, implemented RSI and third-party adoption were not tested.
 No additional major gap was identified within this limited editorial review; existing
 unresolved intents and theoretical/implementation/empirical limits remain.
+
+## Reference snapshot audit and website release (2026-10-17)
+
+The [final audit](collective-intelligence-index-final-audit.md) records the fixed
+selection, bilingual review, raw-byte corrections, dated package observations,
+validation and explicit limits. Earlier sections describe their dated states;
+the October 9 supporting-paper classification was superseded on October 12.
+The owner explicitly requested a new website release for this snapshot. This
+supersedes the earlier no-release scope only for this website, not indexed OSS.
+
+`source_state=reviewed_snapshot` identifies the source pinned in the card. It
+never means that the current default branch was reviewed. The schema retains
+its legacy `newer_source_not_editorially_reviewed` enum for compatibility, but
+the generator no longer emits it merely from unequal commits. Existing
+`identity_issues` now records `observed_revision_differs` or
+`source_comparison_unavailable`; neither asserts ancestry or chronology.
+Package metadata observation is separately dated in `package_registry_status`.
+GitHub refresh preserves that independently dated observation without renewing it.
+Use `refresh_oss_release_snapshots.py --selected-only` for a scoped factual refresh.
+
+The publication checker now enforces MIME by representation, exact committed
+bytes and UTF-8. GitHub Pages' `application/octet-stream` for BibTeX is accepted
+as a download only alongside those byte checks; it is not claimed to have a
+BibTeX-specific MIME. JSON/Markdown served as HTML is rejected. Unsupported
+external HEAD (405/501) gets one bounded GET; external availability is not
+semantic verification or a reason to delete historical evidence.
+
+To cite editorial content, record the index URL, editorial date, resource ID,
+registry `content_digest` and/or a real Git commit permalink. Cite paper claims
+through original DOI/version/locator and software behavior through repository,
+reviewed commit, package/release and attributed test scope. The live entrance
+and a fixed commit are distinct. Preserve the existing curation, evidence,
+coverage seeds, release snapshots, works/catalogues, paper metadata cache,
+generators, tests, requirements, schema, HTML, JSON, Markdown and BibTeX together.
+For an actual known snapshot SHA (replace `<SHA>`), use:
+
+```text
+git clone https://github.com/kadubon/github.io.git
+git -C github.io checkout --detach <SHA>
+python -m pip install -r github.io/requirements-index.txt
+python github.io/scripts/generate_collective_intelligence_index.py --check
+python github.io/scripts/validate_collective_intelligence_index.py
+```
+
+Generation resolves paths relative to its script. To rebuild intentionally, omit
+`--check`. Retain original Git blobs for canonical LF hashes. Do not embed a
+commit's own SHA in itself. The final response/release records the resolved SHA
+and deployed-byte verification after publication. Referenced external manuscripts
+and repositories are not all archived by this site; URLs and hashes do not
+promise future availability, compatibility, citation, adoption or century-long
+preservation. Corrections and security maintenance remain possible.

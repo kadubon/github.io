@@ -506,6 +506,7 @@ def render_oss_html(records: list[dict[str, Any]]) -> str:
           <div><dt>Latest observed GitHub release</dt><dd>{escape((record.get("release_observation", {}).get("latest_release") or {}).get("tag", "No published release observed / unknown"))}</dd></div>
           <div><dt>Release/source observation</dt><dd>{escape(record.get("release_observation", {}).get("observed_at", "Unknown"))}</dd></div>
           <div><dt>Default-branch revision</dt><dd>{escape(record.get("release_observation", {}).get("default_branch_revision", "Unknown"))}</dd></div>
+          <div><dt>Package metadata observation (not installation or efficacy)</dt><dd>{escape(record.get("release_observation", {}).get("package_registry_status", "Unknown"))}</dd></div>
           <div><dt>Related URL</dt><dd>{homepage}</dd></div>
         </dl>
         {topics_block}

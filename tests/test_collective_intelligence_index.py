@@ -16,6 +16,8 @@ import generate_agent_catalogs as catalogs
 import generate_paper_pages as papers
 import validate_collective_intelligence_index as validation
 import audit_collective_intelligence_coverage as coverage
+import check_collective_intelligence_publication as publication
+import refresh_oss_release_snapshots as refresh
 from jsonschema import Draft202012Validator
 
 
@@ -100,6 +102,74 @@ class IndexTests(unittest.TestCase):
         self.assertEqual(m['relations'], self.model['relations'])
         old = next(x for x in m['relations'] if x['id'] == 'ccr-from-alt-legacy')
         self.assertTrue(old['versions']['target'].startswith('0.4.0'))
+
+    def test_source_difference_is_not_chronology_or_review(self):
+        original_read = gen.read
+        baseline = gen.build_model()
+        for revision, status, issue in [('f' * 40, 'current', 'observed_revision_differs'),
+                                        (None, 'current', 'source_comparison_unavailable'),
+                                        ('', 'unresolved', 'source_comparison_unavailable'),
+                                        ('f' * 40, 'stale', 'source_comparison_unavailable')]:
+            def read(path):
+                value = original_read(path)
+                if path == 'data/oss-release-snapshots.json':
+                    value['repositories']['collective-capability-runtime'].update(
+                        default_branch_revision=revision, refresh_status=status)
+                return value
+            with self.subTest(revision=revision, status=status), patch.object(gen, 'read', side_effect=read):
+                model = gen.build_model()
+            resource = next(r for r in model['resources'] if r['id'] == 'sw-ccr')
+            self.assertEqual(resource['source_state'], 'reviewed_snapshot')
+            self.assertTrue(any(i['source'] == 'sw-ccr' and i['status'] == issue for i in model['identity_issues']))
+            self.assertEqual(model['relations'], baseline['relations'])
+            self.assertEqual(resource['last_reviewed_at'], next(r for r in baseline['resources'] if r['id'] == 'sw-ccr')['last_reviewed_at'])
+
+    def test_publication_mime_accepts_text_but_rejects_html_data(self):
+        for name, mime in [('index.html', 'text/html; charset=utf-8'),
+                           ('index.json', 'application/json'), ('schema.json', 'application/schema+json'),
+                           ('index.md', 'text/plain; charset=utf-8'), ('index.md', 'text/markdown'),
+                           ('index.bib', 'text/plain'), ('index.bib', 'application/x-bibtex'),
+                           ('index.bib', 'application/octet-stream'),
+                           ('sitemap.xml', 'application/xml')]:
+            self.assertTrue(publication.appropriate_content_type(name, mime))
+        for name in ('index.json', 'schema.json', 'index.md', 'index.bib'):
+            for mime in ('text/html', 'application/xhtml+xml', None):
+                self.assertFalse(publication.appropriate_content_type(name, mime))
+        for name in ('index.json', 'index.md'):
+            self.assertFalse(publication.appropriate_content_type(name, 'application/octet-stream'))
+
+    def test_publication_head_unsupported_uses_one_get(self):
+        from urllib.error import HTTPError
+        from unittest.mock import MagicMock
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.status = 200
+        response.url = 'https://example.org/paper'
+        response.headers = {'Content-Type': 'text/plain'}
+        response.read.return_value = b'paper'
+        error = HTTPError(response.url, 405, 'HEAD unsupported', {}, None)
+        with patch.object(publication, 'urlopen', side_effect=[error, response]) as opened:
+            result, body = publication.fetch(response.url, head=True)
+        self.assertEqual(result['status'], 200)
+        self.assertEqual(body, b'paper')
+        self.assertEqual([call.args[0].get_method() for call in opened.call_args_list], ['HEAD', 'GET'])
+
+    def test_selected_refresh_preserves_other_records_and_package_dates(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'data').mkdir()
+            old = {'schema_version': '1.0', 'repositories': {'selected': {'package_registry_status': '2026-10-17 metadata only'}, 'other': {'observed_at': 'old'}}}
+            path = root / 'data/oss-release-snapshots.json'
+            path.write_text(json.dumps(old), encoding='utf-8')
+            (root / 'oss-catalog.json').write_text(json.dumps({'repositories': [
+                {'name': 'selected', 'full_name': 'owner/selected', 'default_branch': 'main', 'repository_url': 'https://github.com/owner/selected'},
+                {'name': 'other', 'full_name': 'owner/other'}]}), encoding='utf-8')
+            (root / 'data/collective-intelligence-curation.json').write_text(json.dumps({'resources': [{'kind': 'software', 'source_catalog_id': 'owner/selected'}]}), encoding='utf-8')
+            with patch.object(refresh, 'ROOT', root), patch.object(refresh, 'PATH', path), patch.object(sys, 'argv', ['refresh', '--selected-only']), patch.object(refresh, 'request', side_effect=[None, {'sha': 'a' * 40}]):
+                self.assertEqual(refresh.main(), 0)
+            result = json.loads(path.read_text(encoding='utf-8'))['repositories']
+            self.assertEqual(result['other'], old['repositories']['other'])
+            self.assertEqual(result['selected']['package_registry_status'], '2026-10-17 metadata only')
 
     def test_no_transitive_claim(self):
         r = next(x for x in self.model['relations'] if x['id'] == 'alt-to-oawm')
@@ -341,6 +411,10 @@ class IndexTests(unittest.TestCase):
         self.assertEqual((len(self.model['resources']), len(self.model['roles']),
                           len(self.model['relations']), len(self.model['problems'])), (41, 13, 20, 28))
         raw = gen.read('data/collective-intelligence-curation.json')
+        # Preserve the historical contract except the documented unavailable != absent translation fix.
+        corrected = next(p for p in raw['problems'] if p['id'] == 'evidence-support')
+        self.assertEqual(corrected['expected_outputs']['ja'], '取得・確認できない根拠と有限の最終性を明示した、主張と支持根拠の義務。')
+        corrected['expected_outputs']['ja'] = '不在の根拠と有限の最終性を明示した、主張と支持根拠の義務。'
         self.assertEqual(gen.digest([p for p in raw['problems'] if p['id'] != 'rsi-evidence']),
                          '8171b3db25360d404f58b4677e34c3b102b8fb361846db06fa78cf069b222664')
 

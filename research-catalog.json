@@ -3,7 +3,7 @@
   "catalog_type": "research_works",
   "canonical_url": "https://kadubon.github.io/github.io/research-catalog.json",
   "source_url": "https://kadubon.github.io/github.io/works.html",
-  "source_state_date": "2026-10-09",
+  "source_state_date": "2026-10-17",
   "creator": {
     "name": "K. Takahashi",
     "orcid": "https://orcid.org/0009-0004-4273-3365",
@@ -401,7 +401,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.21103275",
       "canonical_url": "https://doi.org/10.5281/zenodo.21103275",
       "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-07-01-collective-capability-runtime-21103275",
-      "abstract": "Collective Capability Runtime (CCR) is an Apache-2.0 JSON-first Python runtime for coordinating verifiable work across AI agents. It keeps tasks, evidence, disagreements, verification, residuals, and unfinished work visible so several agents can build reusable capability without treating repeated answers or raw agent count as proof. CCR uses a CLI, JSON schemas, SQLite or PostgreSQL state, and an optional HTTP API to exchange auditable work. The distributed runtime includes: independent agent workcells, transactional task leases with heartbeats and fencing tokens, verified residual resolution, optional PostgreSQL 16+ workers, OIDC + DPoP authentication, resource-matched experiments, and approval-bound external operation gates. It measures protocol-relative ASI-proxy progress through checked results, residual half-life, verification yield, independent contributors, error correlation, and communication or verification cost under declared resource limits. CCR does not run an LLM and does not claim real ASI, consciousness, model-weight updates, legal authority, or physical outcomes; accepted reports are not settlement, unknown measurements remain unknown, and side-effecting provider execution must pass explicit approval and dispatch controls. Version v1.8.0 adds opt-in evidence-bound service accounting, receiver-qualified reuse and verification-aware allocation. Its offline growth example is synthetic. Latest GitHub release observed on 2026-09-21: v1.8.0. Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
+      "abstract": "Collective Capability Runtime (CCR) is an Apache-2.0 JSON-first Python runtime for coordinating verifiable work across AI agents. It keeps tasks, evidence, disagreements, verification, residuals, and unfinished work visible so several agents can build reusable capability without treating repeated answers or raw agent count as proof. CCR uses a CLI, JSON schemas, SQLite or PostgreSQL state, and an optional HTTP API to exchange auditable work. The distributed runtime includes: independent agent workcells, transactional task leases with heartbeats and fencing tokens, verified residual resolution, optional PostgreSQL 16+ workers, OIDC + DPoP authentication, resource-matched experiments, and approval-bound external operation gates. It measures protocol-relative ASI-proxy progress through checked results, residual half-life, verification yield, independent contributors, error correlation, and communication or verification cost under declared resource limits. CCR does not run an LLM and does not claim real ASI, consciousness, model-weight updates, legal authority, or physical outcomes; accepted reports are not settlement, unknown measurements remain unknown, and side-effecting provider execution must pass explicit approval and dispatch controls. Version v1.8.0 adds opt-in evidence-bound service accounting, receiver-qualified reuse and verification-aware allocation. Its offline growth example is synthetic. Latest GitHub release observed on 2026-10-17: v1.9.0 (metadata observation; behavioral review remains version-bound). Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
       "keywords": [
         "AI agents",
         "multi-agent runtime",
@@ -434,7 +434,7 @@
         "https://pypi.org/project/collective-capability-runtime/",
         "https://github.com/kadubon/collective-capability-runtime/releases/tag/v1.8.0"
       ],
-      "software_version": "v1.8.0",
+      "software_version": "v1.9.0",
       "software_license": "https://www.apache.org/licenses/LICENSE-2.0",
       "code_repositories": [
         "https://github.com/kadubon/collective-capability-runtime"
@@ -1154,7 +1154,7 @@
       "doi_url": "https://doi.org/10.5281/zenodo.20107661",
       "canonical_url": "https://doi.org/10.5281/zenodo.20107661",
       "local_record_url": "https://kadubon.github.io/github.io/works.html#2026-05-10-oasg-observable-only-autonomic-slack-gradient-theory-20107661",
-      "abstract": "Apache-2.0 Python reference implementation for local-first, model-agnostic workflow-policy optimization in long-running AI-agent workflows. OASG records observable history as append-only JSONL ledgers, verifies canonical hashes and ledger prefixes, reduces history into deterministic operational state, computes finite-horizon KLB_2 viability lower bounds, and promotes only receipt-backed workflow-policy changes through a conservative no-meta dominance gate. Latest GitHub release observed on 2026-09-21: v1.1.0. Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
+      "abstract": "Apache-2.0 Python reference implementation for local-first, model-agnostic workflow-policy optimization in long-running AI-agent workflows. OASG records observable history as append-only JSONL ledgers, verifies canonical hashes and ledger prefixes, reduces history into deterministic operational state, computes finite-horizon KLB_2 viability lower bounds, and promotes only receipt-backed workflow-policy changes through a conservative no-meta dominance gate. Latest GitHub release observed on 2026-10-17: v1.2.0 (metadata observation; behavioral review remains version-bound). Publication and archive DOI dates retain their original identities; an older archive DOI does not identify these current release bytes.",
       "keywords": [
         "AI agents",
         "long-running AI",
@@ -1178,7 +1178,7 @@
         "https://github.com/kadubon/oasg",
         "https://github.com/kadubon/oasg/releases/tag/v1.1.0"
       ],
-      "software_version": "v1.1.0",
+      "software_version": "v1.2.0",
       "software_license": "https://www.apache.org/licenses/LICENSE-2.0",
       "code_repositories": [
         "https://github.com/kadubon/oasg"
