@@ -803,7 +803,7 @@ Observed default-branch revision: d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a — e
 
 Observed GitHub release: v1.9.0 · 2026-09-21T15:26:31Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.9.0 at d6806b158ffb9ff76937c6c3eb3f9391a1fcf21a; PyPI collective-capability-runtime 1.9.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-ccr-package-20261017, e-final-sw-ccr-pypi-20261017
 
@@ -862,7 +862,7 @@ Observed default-branch revision: b971bc6374325b9486c038546733d9b53745787c — e
 
 Observed GitHub release: v1.1.0 · 2026-07-11T07:05:56Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at b971bc6374325b9486c038546733d9b53745787c; PyPI percolation-inversion-compiler 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pic-package-20261017, e-final-sw-pic-pypi-20261017
 
@@ -918,7 +918,7 @@ Observed default-branch revision: c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3 — e
 
 Observed GitHub release: v1.3.0 · 2026-09-12T23:26:21Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.3.0 at c5a2f9ec85c8dbeaf058dd15eba6136634fbc8a3; PyPI verification-ecology-kit 1.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-vek-package-20261017, e-final-sw-vek-pypi-20261017
 
@@ -970,7 +970,7 @@ Observed default-branch revision: 2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b — e
 
 Observed GitHub release: v0.5.0 · 2026-09-20T04:42:20Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.5.0 at 2d8f2cf404cdd9f023e4f55beb6c5bd2e9ce674b; PyPI lookup for alt-foundry-kernel: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-alt-package-20261017
 
@@ -1024,7 +1024,7 @@ Observed default-branch revision: 6b3fcc410c3fb43756e89b9127c5ed0191b3949d — e
 
 Observed GitHub release: v0.2.0 · 2026-09-13T00:23:18Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 6b3fcc410c3fb43756e89b9127c5ed0191b3949d; PyPI cait-certificate-schema 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cait-package-20261017, e-final-sw-cait-pypi-20261017
 
@@ -1075,7 +1075,7 @@ Observed default-branch revision: 340b4899d5b0892e06d7d2c1ab1f1d48df15e981 — e
 
 Observed GitHub release: v1.0.1 · 2026-09-13T15:02:46Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.0.1 at 340b4899d5b0892e06d7d2c1ab1f1d48df15e981; PyPI collective-phase-control-fabric 1.0.1 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cpcf-package-20261017, e-final-sw-cpcf-pypi-20261017
 
@@ -1539,7 +1539,7 @@ Observed default-branch revision: dddaea42073fc9629122cdb798f547c5d6a116e9 — e
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0b0 at dddaea42073fc9629122cdb798f547c5d6a116e9; PyPI lookup for observable-agent-workflow-memory: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-oawm-package-20261017
 
@@ -1583,7 +1583,7 @@ Observed default-branch revision: f3bee90f2ed8b2dba9b9a96ce485375295760036 — e
 
 Observed GitHub release: v1.2.0 · 2026-09-21T22:02:04Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.2.0 at f3bee90f2ed8b2dba9b9a96ce485375295760036; PyPI oasg 1.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-oasg-package-20261017, e-final-sw-oasg-pypi-20261017
 
@@ -1638,7 +1638,7 @@ Observed default-branch revision: 1e844d1bca18d7bb298aa198e1250bb07bd7ea44 — e
 
 Observed GitHub release: v0.2.0 · 2026-08-26T02:05:53Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 1e844d1bca18d7bb298aa198e1250bb07bd7ea44; PyPI audit-closed-ai-scientist 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-audit-package-20261017, e-final-sw-audit-pypi-20261017
 
@@ -1683,7 +1683,7 @@ Observed default-branch revision: a4c45677e9d9ba1c97b7cfd108efca88275cc6a5 — e
 
 Observed GitHub release: v0.1.0 · 2026-04-29T05:30:28Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at a4c45677e9d9ba1c97b7cfd108efca88275cc6a5; PyPI lookup for loscr: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-loscr-package-20261017
 
@@ -1728,7 +1728,7 @@ Observed default-branch revision: 24690a225c86fde2a24de4d9f93e2a282789b67d — e
 
 Observed GitHub release: v0.1.0 · 2026-07-21T04:16:46Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 24690a225c86fde2a24de4d9f93e2a282789b67d; PyPI asi-proxy-phase-growth-simulator 0.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-simulator-package-20261017, e-final-sw-simulator-pypi-20261017
 
@@ -1775,7 +1775,7 @@ Observed default-branch revision: 5706214a9a3d5e194f371f8ccc2eb71132f82270 — e
 
 Observed GitHub release: v1.1.1 · 2026-07-31T01:31:01Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.1 at 5706214a9a3d5e194f371f8ccc2eb71132f82270; PyPI lookup for asi-proxy-phase-skill-development: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-skill-package-20261017
 
@@ -1820,7 +1820,7 @@ Observed default-branch revision: 8fcf99d512c4262c4cea0787e72993ff6eb3b059 — e
 
 Observed GitHub release: v1.1.2 · 2026-05-14T01:30:00Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.2 at 8fcf99d512c4262c4cea0787e72993ff6eb3b059; PyPI cmgl 1.1.2 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cmgl-package-20261017, e-final-sw-cmgl-pypi-20261017
 
@@ -1865,7 +1865,7 @@ Observed default-branch revision: 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6 — e
 
 Observed GitHub release: v0.1.0 · 2026-05-01T03:15:40Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.1.0 at 018a857bd3a1e87c3f33ac3d1a3047c8c4808ca6; PyPI lookup for memoryflow-agent-memory-auditor: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-memoryflow-package-20261017
 
@@ -1910,7 +1910,7 @@ Observed default-branch revision: ed51d588afab6312287a31baa1d911c0fa3a943d — e
 
 Observed GitHub release: v1.1.0 · 2026-07-02T01:04:13Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 1.1.0 at ed51d588afab6312287a31baa1d911c0fa3a943d; PyPI problem-frame-gate 1.1.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-pfg-package-20261017, e-final-sw-pfg-pypi-20261017
 
@@ -1955,7 +1955,7 @@ Observed default-branch revision: 5fbdc2a9851b27c5529ed332dfcb9cbf07e027de — e
 
 Observed GitHub release: v2.0.0 · 2026-07-02T08:04:35Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 2.0.0 at 5fbdc2a9851b27c5529ed332dfcb9cbf07e027de; PyPI fost-agent-ledger 2.0.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-fost-package-20261017, e-final-sw-fost-pypi-20261017
 
@@ -2000,7 +2000,7 @@ Observed default-branch revision: a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2 — e
 
 Observed GitHub release: v0.2.0 · 2026-07-19T12:10:23Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at a14475a0a57ac7e1dbcc5f3a5c7fd2078ea86da2; PyPI lookup for agent-trust-residual-benchmark: HTTP 404; this name was not found / この名前は未検出. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-atrb-package-20261017
 
@@ -2047,7 +2047,7 @@ Observed default-branch revision: a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b — e
 
 Observed GitHub release: null — no published GitHub release observed
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 unknown at a814d7e02e52d3c7e2a3ce268e2c1bcc0b5ba43b; Package version/distribution unknown; pyproject.toml unavailable (404) / パッケージ版・配布先は不明、pyproject.toml未取得（404）. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: none retrieved / 取得記録なし
 
@@ -2090,7 +2090,7 @@ Observed default-branch revision: 850f2d7b7799dbe000ea85a6e8f32b289b971bfd — e
 
 Observed GitHub release: v0.2.0 · 2026-09-27T22:25:20Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.2.0 at 850f2d7b7799dbe000ea85a6e8f32b289b971bfd; PyPI checkedflow 0.2.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-checkedflow-package-20261017, e-final-sw-checkedflow-pypi-20261017
 
@@ -2149,7 +2149,7 @@ Observed default-branch revision: 46276b4080dadd70ffa2608533139e8df6dcf75d — e
 
 Observed GitHub release: v0.5.1 · 2026-10-04T19:24:57Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.5.1 at 46276b4080dadd70ffa2608533139e8df6dcf75d; PyPI collective-intelligence-overlay 0.5.1 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-cio-package-20261017, e-final-sw-cio-pypi-20261017
 
@@ -2211,7 +2211,7 @@ Observed default-branch revision: 0e5def78422de55db6c80723f28b753ef91e017b — e
 
 Observed GitHub release: v0.3.0 · 2026-10-06T05:12:56Z
 
-Release observation / リリース確認: 2026-10-17T10:24:28+00:00 · current
+Release observation / リリース確認: 2026-10-19T08:53:56+00:00 · current
 
 Package metadata observation: 2026-10-17 metadata-only / 情報のみ: source declaration / ソース宣言 0.3.0 at 0e5def78422de55db6c80723f28b753ef91e017b; PyPI evidence-gap-router 0.3.0 observed / 観測済み. No distribution-byte verification, installation or efficacy test / 配布物検証・導入・効果試験なし. Evidence / 根拠: e-final-sw-egr-package-20261017, e-final-sw-egr-version-20261017, e-final-sw-egr-pypi-20261017
 
